@@ -1,0 +1,915 @@
+{
+  "id": "crypto-persona-tyler-knapp",
+  "type": "persona",
+  "name": "Tyler Knapp",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-consensys-x-response",
+      "crypto-dropsite-consensys",
+      "crypto-nknews-consensys"
+    ]
+  },
+  "caveats": [
+    "Consensys confirmed a third-party engagement with zero known loss, while disputing that the person was an employee; DPRK linkage remains source-qualified.",
+    "The presented identity/persona is source-reported; its legal identity remains unverified.",
+    "This source-reported persona or account label has unverified legal or civil identity. Historical observation or page reachability covers historical context; present ownership, control, activity, affiliation, nationality, sanctions status, and lawful identity remain unverified, and account-holder contact or targeting is prohibited."
+  ],
+  "aliases": [
+    {
+      "value": "Mauro Liu",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-consensys-x-response",
+        "crypto-dropsite-consensys",
+        "crypto-nknews-consensys"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "imyugioh",
+      "url": "https://github.com/imyugioh",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-consensys-x-response",
+        "crypto-dropsite-consensys",
+        "crypto-nknews-consensys"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-12. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    }
+  ],
+  "lazarus_group_routes": [
+    "mauro-liu"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-dropsite-consensys",
+      "support": "The consultant used the alias Tyler Knapp and GitHub handle imyugioh",
+      "locator": "Article body beneath headline; paragraphs naming the “Tyler Knapp” alias and imyugioh account"
+    },
+    {
+      "source_id": "crypto-nknews-consensys",
+      "support": "Consensys said it engaged the individual through a third party but never employed them",
+      "locator": "Article body beneath headline; Consensys response paragraphs"
+    },
+    {
+      "source_id": "crypto-consensys-x-response",
+      "support": "The individual was never a Consensys employee; access was terminated after the threat was identified",
+      "locator": "X status 2078898919782948942"
+    },
+    {
+      "source_id": "src-09c92feea605"
+    },
+    {
+      "source_id": "src-aa15da92956d"
+    },
+    {
+      "source_id": "src-f0d3ae217812"
+    },
+    {
+      "source_id": "src-18c8249c9f7e"
+    },
+    {
+      "source_id": "src-4b9dce56a714"
+    },
+    {
+      "source_id": "src-5f214ae7d114"
+    },
+    {
+      "source_id": "src-792fef163ce1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-tyler-knapp-persona",
+      "type": "identity_name",
+      "predicate": "reported_employment_persona_name",
+      "value": {
+        "name": "Tyler Knapp",
+        "identity_status": "reported alias, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, second paragraph",
+          "quote": "used the alias “Tyler Knapp”"
+        }
+      ],
+      "observed_at": "2026-07-17",
+      "notes": [
+        "Drop Site News describes the name as an alias; no reviewed source establishes it as a legal name."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-reported-handle",
+      "type": "account",
+      "predicate": "reported_historical_github_handle",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, second paragraph",
+          "quote": "used the alias “Tyler Knapp” and GitHub handle “imyugioh.”"
+        }
+      ],
+      "observed_at": "2026-07-17",
+      "notes": [
+        "Historical reported linkage only; do not infer current ownership."
+      ]
+    },
+    {
+      "id": "claim-dropsite-dprk-linkage",
+      "type": "organization_affiliation",
+      "predicate": "reporting_attributed_dprk_linkage",
+      "value": {
+        "reported_link": "North Korea"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, second paragraph",
+          "quote": "The DPRK-linked engineer, who was hired by Consensys as a consultant"
+        }
+      ],
+      "observed_at": "2026-07-17",
+      "notes": [
+        "This is Drop Site News's attribution. The article says Consensys's general counsel did not explain how the company determined the North Korea linkage, and the Consensys public statement does not itself mention North Korea."
+      ]
+    },
+    {
+      "id": "claim-third-party-consultant-engagement",
+      "type": "employment",
+      "predicate": "organization_confirmed_third_party_consultant_engagement",
+      "value": {
+        "organization": "Consensys",
+        "relationship": "consultant through a third-party provider"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-consensys-x-response",
+          "locator": "X status 2078898919782948942, second paragraph",
+          "quote": "Earlier this year, we identified and contained a threat from an individual engaged as a consultant through a third-party provider."
+        },
+        {
+          "source_id": "crypto-nknews-consensys",
+          "locator": "public article excerpt, second paragraph",
+          "quote": "an individual it had engaged through a third-party service."
+        }
+      ],
+      "observed_at": "2026-07-19",
+      "notes": [
+        "Consensys's statement does not name the individual; the seeded reporting links the response to this persona."
+      ]
+    },
+    {
+      "id": "claim-not-consensys-employee",
+      "type": "employment",
+      "predicate": "organization_denied_employee_relationship",
+      "value": {
+        "organization": "Consensys",
+        "employee_status": "never an employee"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-consensys-x-response",
+          "locator": "X status 2078898919782948942, third paragraph",
+          "quote": "The individual was never a Consensys employee."
+        },
+        {
+          "source_id": "crypto-nknews-consensys",
+          "locator": "public article excerpt, third paragraph",
+          "quote": "“The individual was never a Consensys employee,” the company said."
+        }
+      ],
+      "observed_at": "2026-07-19",
+      "notes": [
+        "This express denial must remain adjacent to any description of the confirmed consultant engagement."
+      ]
+    },
+    {
+      "id": "claim-metamask-code-work-report",
+      "type": "employment",
+      "predicate": "reporting_described_metamask_code_work",
+      "value": {
+        "product": "MetaMask",
+        "reported_work": "core platform code and crypto-to-fiat conversion components"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, paragraph beginning Internal Slack communications",
+          "quote": "Internal Slack communications indicate “Knapp” worked on core platform code for the MetaMask wallet, and contributed to parts of the platform related to conversion between crypto and fiat currency via third-party payment providers."
+        }
+      ],
+      "observed_at": "2026-07-17",
+      "notes": [
+        "Investigative-report finding based on internal communications, not an employer-confirmed job title."
+      ]
+    },
+    {
+      "id": "claim-reported-engagement-window",
+      "type": "employment",
+      "predicate": "reporting_described_contribution_window",
+      "value": {
+        "start": "2026-03-09",
+        "end": "2026-04",
+        "approximate_duration": "roughly one month"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, paragraph beginning Internal Slack communications",
+          "quote": "The contributions began on March 9, meaning the actor had roughly a month to roam inside the system."
+        },
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, paragraph beginning Internal Slack communications",
+          "quote": "his contributions abruptly stopped in April 2026"
+        }
+      ],
+      "observed_at": "2026-07-17",
+      "notes": [
+        "Drop Site News reported that contributions stopped when access was terminated in April 2026."
+      ]
+    },
+    {
+      "id": "claim-access-terminated",
+      "type": "incident",
+      "predicate": "organization_terminated_access_after_detection",
+      "value": {
+        "organization": "Consensys",
+        "action": "terminated all access"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-consensys-x-response",
+          "locator": "X status 2078898919782948942, third paragraph",
+          "quote": "After the threat was quickly identified, we immediately terminated all access, launched a comprehensive investigation, and notified law enforcement."
+        }
+      ],
+      "observed_at": "2026-07-19",
+      "notes": [
+        "Point-in-time affected-organization statement."
+      ]
+    },
+    {
+      "id": "claim-no-malicious-code",
+      "type": "incident",
+      "predicate": "organization_investigation_found_no_malicious_code",
+      "value": {
+        "organization": "Consensys",
+        "malicious_code_deployed": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-consensys-x-response",
+          "locator": "X status 2078898919782948942, fourth paragraph",
+          "quote": "Our investigation confirmed no malicious code was deployed"
+        }
+      ],
+      "observed_at": "2026-07-19",
+      "notes": [
+        "Organization-reported investigation outcome, not an independent audit conclusion."
+      ]
+    },
+    {
+      "id": "claim-no-customer-compromise",
+      "type": "incident",
+      "predicate": "organization_investigation_found_no_customer_asset_or_data_compromise",
+      "value": {
+        "organization": "Consensys",
+        "customer_assets_compromised": false,
+        "customer_data_compromised": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-consensys-x-response",
+          "locator": "X status 2078898919782948942, fourth paragraph",
+          "quote": "no customer assets or data were compromised"
+        }
+      ],
+      "observed_at": "2026-07-19",
+      "notes": [
+        "Organization-reported investigation outcome. The claim is limited to customer assets and data as worded by Consensys."
+      ]
+    },
+    {
+      "id": "claim-no-user-impact",
+      "type": "incident",
+      "predicate": "organization_investigation_found_no_user_impact",
+      "value": {
+        "organization": "Consensys",
+        "impact_to_user_safety_funds_or_security": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-consensys-x-response",
+          "locator": "X status 2078898919782948942, fourth paragraph",
+          "quote": "there was no impact to user safety, funds, or security."
+        }
+      ],
+      "observed_at": "2026-07-19",
+      "notes": [
+        "Organization-reported investigation outcome."
+      ]
+    },
+    {
+      "id": "claim-product-release-suspension",
+      "type": "incident",
+      "predicate": "reporting_described_temporary_product_release_suspension",
+      "value": {
+        "organization": "Consensys",
+        "action": "all product releases suspended pending investigation"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, paragraph beginning Corva did not say",
+          "quote": "All product releases are to be suspended immediately pending investigation."
+        }
+      ],
+      "observed_at": "2026-04-01",
+      "notes": [
+        "Drop Site News quotes an internal company-wide alert from April 2026; the day and exact duration were not reported, so observed_at uses the first day of that month as a date-resolution placeholder."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-current-reachability",
+      "type": "account",
+      "predicate": "reported_historical_github_handle_reachable_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh",
+        "status": "reachable",
+        "created_at": "2019-09-01",
+        "public_repositories": 66,
+        "profile_metadata_updated_at": "2026-06-23T17:17:49Z"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-09c92feea605",
+          "locator": "public API field login",
+          "quote": "\"login\":\"imyugioh\""
+        },
+        {
+          "source_id": "src-09c92feea605",
+          "locator": "public API field public_repos",
+          "quote": "\"public_repos\":66"
+        },
+        {
+          "source_id": "src-09c92feea605",
+          "locator": "public API field created_at",
+          "quote": "\"created_at\":\"2019-09-01T16:15:17Z\""
+        },
+        {
+          "source_id": "src-09c92feea605",
+          "locator": "public API field updated_at",
+          "quote": "\"updated_at\": \"2026-09-24T00:22:18Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Reachability and metadata do not establish present ownership, control, activity, nationality, affiliation, or civil identity."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-metamask-mobile-fork",
+      "type": "account",
+      "predicate": "public_account_repository_metadata_observed",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh",
+        "repository": "metamask-mobile",
+        "created_at": "2026-03-04",
+        "fork": true
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository object imyugioh/metamask-mobile",
+          "quote": "\"full_name\":\"imyugioh/metamask-mobile\""
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository object imyugioh/metamask-mobile, fork field",
+          "quote": "\"fork\":true"
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository object imyugioh/metamask-mobile, created_at field",
+          "quote": "\"created_at\":\"2026-03-04T21:02:33Z\""
+        }
+      ],
+      "observed_at": "2026-03-04",
+      "notes": [
+        "Public repository metadata is consistent with the reporting timeline but does not independently prove code authorship, employment, or who controlled the account."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-metamask-core-fork",
+      "type": "account",
+      "predicate": "public_account_repository_metadata_observed",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh",
+        "repository": "metamask-core",
+        "created_at": "2026-03-06",
+        "fork": true
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository object imyugioh/metamask-core",
+          "quote": "\"full_name\":\"imyugioh/metamask-core\""
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository object imyugioh/metamask-core, fork field",
+          "quote": "\"fork\":true"
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository object imyugioh/metamask-core, created_at field",
+          "quote": "\"created_at\":\"2026-03-06T16:48:30Z\""
+        }
+      ],
+      "observed_at": "2026-03-06",
+      "notes": [
+        "Public repository metadata is consistent with the reporting timeline but does not independently prove code authorship, employment, or who controlled the account."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-metamask-public-contribution-summary",
+      "type": "account",
+      "predicate": "public_github_contribution_metadata_summary",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh",
+        "organization": "MetaMask",
+        "pull_requests": 24,
+        "merged_pull_requests": 20,
+        "unmerged_pull_requests": 4,
+        "repositories": {
+          "MetaMask/metamask-mobile": {
+            "pull_requests": 16,
+            "linked_commits": 14
+          },
+          "MetaMask/core": {
+            "pull_requests": 8,
+            "linked_commits": 6
+          }
+        },
+        "public_pr_window": {
+          "first_created_at": "2026-03-04",
+          "last_created_at": "2026-04-04",
+          "last_merge_at": "2026-04-05"
+        }
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f0d3ae217812",
+          "locator": "complete 24-result search response and aggregate review of repository_url, created_at, user.login, and merged_at fields",
+          "quote": "\"total_count\":24"
+        },
+        {
+          "source_id": "src-18c8249c9f7e",
+          "locator": "complete MetaMask/metamask-mobile commit-search response",
+          "quote": "\"total_count\":14"
+        },
+        {
+          "source_id": "src-4b9dce56a714",
+          "locator": "complete MetaMask/core commit-search response",
+          "quote": "\"total_count\":6"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Public GitHub author linkage and repository metadata materially corroborate Drop Site News's reported contribution window. They do not establish who controlled the account, civil identity, nationality, employment status, intent, or authorship beyond GitHub's public account association; code was not downloaded or executed."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-metamask-public-pr-topic-profile",
+      "type": "account",
+      "predicate": "public_pull_request_title_topic_profile",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh",
+        "pull_requests_reviewed": 24,
+        "titles_explicitly_using_ramp_or_ramps": 21,
+        "reported_title_topics": [
+          "ramp order details",
+          "payment methods and quotes",
+          "provider identifiers and provider lists",
+          "Transak service error handling",
+          "crypto-to-fiat ramp user flows"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f0d3ae217812",
+          "locator": "MetaMask/metamask-mobile pull request 27448 title",
+          "quote": "feat(ramp): Converts payment methods and quotes to use react-query for requ…"
+        },
+        {
+          "source_id": "src-f0d3ae217812",
+          "locator": "MetaMask/core pull request 8278 title",
+          "quote": "feat(ramps): Move provider ID normalization into RampsService of Core"
+        },
+        {
+          "source_id": "src-f0d3ae217812",
+          "locator": "MetaMask/core pull request 8251 title",
+          "quote": "fix(ramps): Prevent wallet=undefined param and heal walletAddress in order refresh"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Title-level technical-topic summary only; it corroborates the reported crypto-to-fiat/ramp work but is not a code-quality, security, expertise, or authorship assessment. Sensitive commit selectors and public no-reply email fields were not retained."
+      ]
+    },
+    {
+      "id": "claim-imyugioh-repository-metadata-composition",
+      "type": "account",
+      "predicate": "github_public_repository_metadata_composition_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "imyugioh",
+        "public_repositories": 66,
+        "forks": 38,
+        "non_forks": 28,
+        "archived": 0,
+        "github_primary_language_counts": {
+          "JavaScript": 9,
+          "Solidity": 5,
+          "C++": 2,
+          "TypeScript": 2,
+          "Rich Text Format": 2,
+          "Vue": 2,
+          "CSS": 2,
+          "Ruby": 1,
+          "ASL": 1,
+          "HTML": 1,
+          "Python": 1,
+          "Dart": 1,
+          "unclassified": 37
+        },
+        "repository_creation_range": {
+          "earliest": "2019-09-02",
+          "latest": "2026-03-06"
+        }
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-09c92feea605",
+          "locator": "public API field public_repos",
+          "quote": "\"public_repos\":66"
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "aggregate review of all 66 repository fork, archived, language, and created_at fields",
+          "quote": "\"fork\":true"
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository primary-language metadata represented in the listing",
+          "quote": "\"language\":\"JavaScript\""
+        },
+        {
+          "source_id": "src-aa15da92956d",
+          "locator": "repository primary-language metadata represented in the listing",
+          "quote": "\"language\":\"Solidity\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Counts were derived from the complete public repository metadata response. GitHub metadata does not establish authorship, originality, expertise, civil identity, or current account control; no code was downloaded or executed."
+      ]
+    },
+    {
+      "id": "claim-tyler-mauro-source-reported-persona-bridge",
+      "type": "relationship",
+      "predicate": "public_sources_report_same_persona_cluster",
+      "value": {
+        "persona": "Tyler Knapp",
+        "related_baseline_profile_id": "mauro-liu",
+        "related_profile_name": "Mauro Liu",
+        "shared_public_handle": "imyugioh",
+        "relationship_status": "source-reported same persona cluster; civil identity unverified"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-dropsite-consensys",
+          "locator": "article body, second paragraph",
+          "quote": "used the alias “Tyler Knapp” and GitHub handle “imyugioh.”"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, id, profile name, and alias list",
+          "quote": "id:\"mauro-liu\",real_name:\"Mauro Liu\",aliases:[\"0xchamel\",\"0xllaCh\",\"blueChamel\",\"chamel92\",\"daiki-iu\",\"Gornutz\",\"lmauro77\",\"mauroh.perk\",\"mauroliu77\",\"zhChamel\",\"zhChameleon\",\"bitbaby888\",\"imyugioh\""
+        },
+        {
+          "source_id": "src-792fef163ce1",
+          "locator": "article body, Security Alliance database paragraph",
+          "quote": "Knapp was listed there not just as “Tyler Knapp” but also under the name “Mauro Liu.” Both names tied back to the same person, the same threat."
+        }
+      ],
+      "observed_at": "2026-07-20",
+      "notes": [
+        "The explicit secondary-source bridge plus the public aggregate's shared-handle association supports a related persona cluster, not a verified legal name, civil identity, nationality, sanctions identity, or proof that every historical account remained under one operator."
+      ]
+    },
+    {
+      "id": "claim-mauro-related-profile-reported-names",
+      "type": "alias",
+      "predicate": "related_baseline_profile_reported_name_set",
+      "value": {
+        "baseline_profile_id": "mauro-liu",
+        "profile_name": "Mauro Liu",
+        "site_field_label": "real_name",
+        "identity_status": "site-reported profile name, not verified civil identity",
+        "reported_fake_names": [
+          "Xu Liu"
+        ],
+        "reported_aliases": [
+          "0xchamel",
+          "0xllaCh",
+          "blueChamel",
+          "chamel92",
+          "daiki-iu",
+          "Gornutz",
+          "lmauro77",
+          "mauroh.perk",
+          "mauroliu77",
+          "zhChamel",
+          "zhChameleon",
+          "bitbaby888",
+          "imyugioh",
+          "zhExcal",
+          "0xlocker",
+          "ethlocker",
+          "raptor1001"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, safe profile-name, alias, and fake-name fields",
+          "quote": "id:\"mauro-liu\",real_name:\"Mauro Liu\",aliases:[\"0xchamel\",\"0xllaCh\",\"blueChamel\",\"chamel92\",\"daiki-iu\",\"Gornutz\",\"lmauro77\",\"mauroh.perk\",\"mauroliu77\",\"zhChamel\",\"zhChameleon\",\"bitbaby888\",\"imyugioh\",\"zhExcal\",\"0xlocker\",\"ethlocker\",\"raptor1001\"],fake_names:[\"Xu Liu\"]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Source-attributed related-profile name set only. It does not establish that any name is a civil identity or that every alias was used concurrently or by an unchanged operator."
+      ]
+    },
+    {
+      "id": "claim-mauro-related-profile-reported-accounts",
+      "type": "account",
+      "predicate": "related_baseline_profile_reported_historical_accounts",
+      "value": {
+        "baseline_profile_id": "mauro-liu",
+        "accounts": [
+          {
+            "platform": "GitHub",
+            "handle": "0xchamel"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "zhChameleon"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "0xllaCh"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "blueChamel"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "imyugioh"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "0xlocker"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "ethlocker"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "raptor1001"
+          },
+          {
+            "platform": "Telegram",
+            "handle": "chamel92"
+          },
+          {
+            "platform": "LinkedIn",
+            "handle": "lmauro77"
+          },
+          {
+            "platform": "X",
+            "handle": "0xchamel"
+          },
+          {
+            "platform": "X",
+            "handle": "zhExcal"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, safe Telegram username, LinkedIn, GitHub, and X account-label fields",
+          "quote": "twitter_usernames:[\"0xchamel\",\"zhExcal\"]"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, GitHub account list",
+          "quote": "github:[{gh_id:\"0xchamel\"},{gh_id:\"zhChameleon\"},{gh_id:\"0xllaCh\"},{gh_id:\"blueChamel\"},{gh_id:\"imyugioh\"},{gh_id:\"0xlocker\",names:[\"0xlocker\"]},{gh_id:\"ethlocker\",names:[\"Hack the Moon!\"]},{gh_id:\"raptor1001\",names:[\"raptor1001\"]}]"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, LinkedIn account label",
+          "quote": "linkedin:[{id:[\"lmauro77\"]}]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Historical source labels only. Numeric account selectors, contact fields, and current reachability checks beyond imyugioh were excluded; no present ownership, control, affiliation, or civil identity is inferred."
+      ]
+    },
+    {
+      "id": "claim-mauro-related-profile-reported-employers",
+      "type": "employment",
+      "predicate": "related_baseline_profile_reported_employer_set",
+      "value": {
+        "baseline_profile_id": "mauro-liu",
+        "reported_employers": [
+          {
+            "organization": "MagicCraft",
+            "date_identified": "2022-01-01"
+          },
+          {
+            "organization": "Ankr",
+            "date_identified": null
+          },
+          {
+            "organization": "Gamerse",
+            "date_identified": null
+          },
+          {
+            "organization": "Clover Network",
+            "date_identified": null
+          },
+          {
+            "organization": "DEPO",
+            "date_identified": null
+          },
+          {
+            "organization": "Sifu Vision",
+            "date_identified": null
+          },
+          {
+            "organization": "Oxytocin",
+            "date_identified": null
+          },
+          {
+            "organization": "Tomodachi",
+            "date_identified": null
+          },
+          {
+            "organization": "Napier Finance",
+            "date_identified": "2023-01-01"
+          },
+          {
+            "organization": "Blueberry",
+            "date_identified": null
+          },
+          {
+            "organization": "Pickle Finance",
+            "date_identified": null
+          },
+          {
+            "organization": "Harmony",
+            "date_identified": null
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, employment field",
+          "quote": "employment:[{company:\"MagicCraft\",date_identified:new Date(\"2022-01-01\")},{company:\"Ankr\"},{company:\"Gamerse\"},{company:\"Clover Network\"},{company:\"DEPO\"},{company:\"Sifu Vision\"},{company:\"Oxytocin\"},{company:\"Tomodachi\"},{company:\"Napier Finance\",date_identified:new Date(\"2023-01-01\")},{company:\"Blueberry\"},{company:\"Pickle Finance\"},{company:\"Harmony\"}]"
+        },
+        {
+          "source_id": "src-792fef163ce1",
+          "locator": "article body, reported Security Alliance employment history",
+          "quote": "The Security Alliance’s tracking site linked him to MagicCraft, a Web3 gaming company, back in 2022. Then Napier Finance, a DeFi product firm, in 2023. His name also appeared alongside Ankr, Pickle Finance, and Clover Network."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Source-attributed historical employer labels attached to the related Mauro Liu baseline profile. They are not employer confirmations, legal employment findings, or proof that Tyler Knapp was the name used at each organization."
+      ]
+    },
+    {
+      "id": "claim-mauro-related-profile-link-only-media",
+      "type": "image",
+      "predicate": "related_baseline_profile_source_captioned_link_only_media",
+      "value": {
+        "baseline_profile_id": "mauro-liu",
+        "handling": "link_only",
+        "identification_use": false,
+        "media": [
+          {
+            "url": "https://www.lazarus.group/team-images/mauro-liu/mauro-liu-depo.png",
+            "description": "Mauro Liu from the DEPO project."
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/mauro-liu/mauroliu-magiccraft-01.png",
+            "description": "Mauro Liu from MagicCraft team."
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/mauro-liu/mauroliu-magiccraft-02.png",
+            "description": "Mauro Liu from MagicCraft team."
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/mauro-liu/magiccraft.png",
+            "description": "MagicCraft team picture including Mauro Liu."
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Mauro Liu object, image path and short_description fields",
+          "quote": "images:[{path:\"/team-images/mauro-liu/mauro-liu-depo.png\",short_description:\"Mauro Liu from the DEPO project.\",tags:[\"face\"]},{path:\"/team-images/mauro-liu/mauroliu-magiccraft-01.png\",short_description:\"Mauro Liu from MagicCraft team.\",tags:[\"face\"]},{path:\"/team-images/mauro-liu/mauroliu-magiccraft-02.png\",short_description:\"Mauro Liu from MagicCraft team.\",tags:[\"face\"]},{path:\"/team-images/mauro-liu/magiccraft.png\",short_description:\"MagicCraft team picture including Mauro Liu.\",tags:[\"face\",\"screenshot\"]}]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Source-captioned related-profile media remains link-only. Assets were not separately downloaded, cached, cropped, compared, reverse-searched, or used for facial recognition, appearance inference, or civil-identity resolution."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Source-reported employment persona Tyler Knapp and historically linked GitHub handle imyugioh are source labels. The current public Security Alliance team-data bundle associates imyugioh with Mauro Liu, and a secondary publisher explicitly reports Tyler Knapp and Mauro Liu as names tied to the same tracked person. This is a source-reported persona-cluster bridge; civil identity remains unverified, and current account reachability leaves present ownership and control unverified. Preserve Drop Site News's DPRK linkage as a reporting attribution and Consensys's third-party-consultant engagement and express denial of employment as distinct facts."
+}

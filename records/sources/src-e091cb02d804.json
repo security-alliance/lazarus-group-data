@@ -1,0 +1,14 @@
+{
+  "id": "src-e091cb02d804",
+  "publisher": "adamglab.dev",
+  "title": "adamglab.dev current status",
+  "url": "https://adamglab.dev/",
+  "accessed_at": "2026-08-14",
+  "sha256": "1a3d05eaf0f0d74df22fc36a5addf4b6e3d4e82451751db6cd579212b1107cf5",
+  "content_type": "html",
+  "languages": [
+    "en"
+  ],
+  "archived_url": "https://web.archive.org/web/20250830090640/https://www.adamglab.dev/",
+  "note": "The verified 2025-08-30 Wayback capture preserves the earlier homepage titled 0xAlche. It does not reproduce the later Redirecting... response quoted by this source; the historical endpoint-status claim remains unchanged. The live hostname failed DNS resolution during the link check."
+}

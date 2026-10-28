@@ -1,0 +1,76 @@
+{
+  "id": "andy-bell",
+  "real_name": "N/A",
+  "fake_names": [
+    "Andy Bell"
+  ],
+  "aliases": [
+    "bbshark99",
+    "SharkDev99",
+    "andy-solution"
+  ],
+  "gender": "male",
+  "twitter_usernames": [
+    "kevin83191687"
+  ],
+  "github": [
+    {
+      "gh_id": "bbshark99",
+      "creation_date": {
+        "$date": "2019-05-28"
+      },
+      "names": [
+        "Andy Bell"
+      ],
+      "emails": [
+        "andy.solution99@gmail.com",
+        "blue.shark99@outlook.com"
+      ],
+      "usernames": [
+        "SharkDev99",
+        "andy-solution"
+      ]
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "ponyjackal",
+      "emails": [
+        "benguyen0214@gmail.com",
+        "pony1125@outlook.com",
+        "vladimiru1125@gmail.com"
+      ],
+      "names": [
+        "Benjamin Nguyen"
+      ],
+      "usernames": [
+        "ponyjackal",
+        "ponyjackalx"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x241d2b20f2c26a2541a0f121d6a33c29cb4cfe69"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "bbshark.eth"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/andy-bell/andy-bell.jpg",
+      "short_description": "Andy Bell on call.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

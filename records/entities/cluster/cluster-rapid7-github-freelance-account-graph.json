@@ -1,0 +1,42 @@
+{
+  "id": "cluster-rapid7-github-freelance-account-graph",
+  "type": "cluster",
+  "name": "Rapid7 aggregate GitHub and freelance-account graph",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed public security research; legal adjudication, civil-identity finding, and same-operator scope remain unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPC-S03"
+    ]
+  },
+  "ttps": [
+    "aggregate cross-platform account-graph correlation"
+  ],
+  "caveats": [
+    "Rapid7's readable public report exposes its public text; node labels are missing from the readable report, and this record carries no guessed handles or individual profiles.",
+    "The graph is an aggregate vendor assessment; applying it to every neighboring developer, project, or security profile requires separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Rapid7 reports an in-depth investigation that correlated personal-data overlap, infrastructure reuse, code-repository handles, and shared social-graph patterns across DPRK-affiliated IT-worker profiles on freelance and outsourcing platforms. Its Figure 3 depicts multiple GitHub-centered clusters connected by shared projects, code, friends, and other relationships."
+      ],
+      "source_ids": [
+        "DPC-S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPC-S03",
+      "support": "Rapid7 reports an in-depth investigation that correlated personal-data overlap, infrastructure reuse, code-repository handles, and shared social-graph patterns across DPRK-affiliated IT-worker profiles on freelance and outsourcing platforms. Its Figure 3 depicts multiple GitHub-centered clusters connected by shared projects, code, friends, and other relationships",
+      "locator": "PDF pages 10-11, DPRK section and Figure 3"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

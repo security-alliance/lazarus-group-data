@@ -1,0 +1,50 @@
+{
+  "id": "crypto-incident-deltaprime-2024-11",
+  "type": "cluster",
+  "name": "DeltaPrime — 2024-11-11 public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Multigovernment MSMT report; underlying incident mechanics or identity linkage may remain source-qualified",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "DeltaPrime"
+  ],
+  "ttps": [
+    "Residual access or compromised lending-pool contracts",
+    "Second theft after prior key compromise"
+  ],
+  "caveats": [
+    "Causal linkage to the named former worker remains inferential in public sources.",
+    "The November incident relies on the separately dated MSMT table row; Chollima Group is outside that incident's source basis.",
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person."
+  ],
+  "aliases": [
+    {
+      "value": "Naoki Murano",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-msmt-2025-2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "naoki-murano"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "MSMT separately lists the 2024-11-11 DeltaPrime loss under DPRK IT Workers; the table does not establish that the named former worker personally executed the theft",
+      "locator": "MSMT/2025/2 report p. 27, cryptocurrency-theft table"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

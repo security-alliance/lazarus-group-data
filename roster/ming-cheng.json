@@ -1,0 +1,65 @@
+{
+  "id": "ming-cheng",
+  "fake_names": [
+    "Ming Cheng",
+    "Nikolic Chirag"
+  ],
+  "aliases": [
+    "hodlwarden",
+    "hodl_warden"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Kuala Lumpur, Malaysia"
+  ],
+  "personal_emails": [
+    "hodlwarden@gmail.com"
+  ],
+  "phone_numbers": [
+    "+1 (774) 516-6548"
+  ],
+  "twitter_usernames": [
+    "@hodlwarden"
+  ],
+  "websites": [
+    "https://www.hodlwarden.com/"
+  ],
+  "github": [
+    {
+      "gh_id": "hodlwarden",
+      "usernames": [
+        "hodlwarden"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "7788775175",
+      "usernames": [
+        "hodlwarden"
+      ],
+      "names": []
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/ming-cheng/ming-cheng-1.png",
+      "short_description": "Ming Cheng on a video call.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "ming_cheng_cv.pdf",
+      "short_description": "Ming Cheng CV",
+      "path": "/team-images/ming-cheng/ming_cheng_cv.pdf",
+      "tags": [
+        "resume",
+        "portfolio"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

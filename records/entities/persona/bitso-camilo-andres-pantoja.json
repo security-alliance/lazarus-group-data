@@ -1,0 +1,277 @@
+{
+  "id": "bitso-camilo-andres-pantoja",
+  "type": "persona",
+  "name": "Camilo Andrés Pantoja",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Bitso controlled-investigation persona; the source presents facilitator/proxy explanations as alternatives awaiting resolution.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-bitso-chollima-viii"
+    ]
+  },
+  "romanizations": [
+    "Camilo Andres Pantoja"
+  ],
+  "organizations": [
+    "Bitso Quetzal Team",
+    "Famous Chollima"
+  ],
+  "locations": [
+    "Claimed Bogotá, Colombia",
+    "Possible facilitator vantage point in Colombia (source hypothesis)"
+  ],
+  "ttps": [
+    "AnyDesk-mediated interview/work access",
+    "renaming Telegram channels after takedowns",
+    "residential-proxy or national-facilitator hypothesis",
+    "VPN/VPS/residential-proxy alternatives"
+  ],
+  "caveats": [
+    "The source presents two competing explanations for the residential connection; the national-facilitator hypothesis remains one possibility rather than an established fact.",
+    "This is a research-reported persona label from a public investigation; legal or civil identity verification remains open."
+  ],
+  "infrastructure": [
+    {
+      "type": "network",
+      "value": "residential Colombian IP described as domestic/non-VPN/non-VPS/non-proxy by the source's intelligence checks",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-bitso-chollima-viii"
+      ]
+    },
+    {
+      "type": "remote-access",
+      "value": "AnyDesk",
+      "relationship": "source-described-pattern",
+      "source_ids": [
+        "talk-bitso-chollima-viii"
+      ]
+    },
+    {
+      "type": "vpn-proxy",
+      "value": "AstrillVPN/VPS/residential-proxy alternatives",
+      "relationship": "source-described-pattern",
+      "source_ids": [
+        "talk-bitso-chollima-viii"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-bitso-chollima-viii",
+      "support": "Opening narrative names Camilo Andrés Pantoja and discusses residential connection, proxy/facilitator alternatives, AnyDesk, and Telegram-channel renaming",
+      "locator": "Opening narrative and TTP paragraphs"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-camilo-claimed-name-nationality",
+      "type": "identity_name",
+      "predicate": "claimed_name_and_nationality",
+      "value": {
+        "name": "Camilo Andrés Pantoja",
+        "claimed_country": "Colombia"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Opening controlled-interview narrative",
+          "quote": "The interview goes as expected, with him claiming to be named Camilo Andrés Pantoja from Colombia. He even reaffirms his nationality when asked."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "Applicant claim reported by Bitso; not a verified civil identity or nationality."
+      ]
+    },
+    {
+      "id": "claim-camilo-bogota-residential-connection",
+      "type": "infrastructure",
+      "predicate": "publisher_observed_residential_network_connection",
+      "value": {
+        "network_type": "residential internet connection",
+        "geolocation": "Bogotá, Colombia",
+        "boundary": "connection vantage point, not proven physical location"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Controlled-interview network observation",
+          "quote": "Camilo joined the call using a residential internet connection from Bogotá, Colombia."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "No IP address is retained. Network geolocation does not prove the applicant's physical location or nationality."
+      ]
+    },
+    {
+      "id": "claim-camilo-network-classification",
+      "type": "infrastructure",
+      "predicate": "publisher_reported_intelligence_platform_classification",
+      "value": {
+        "classifications": [
+          "domestic",
+          "non-VPN",
+          "non-VPS/hosting",
+          "non-proxy"
+        ],
+        "temporal_caveat": "at least, for now"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "First of two network explanations",
+          "quote": "this IP address is labelled across multiple intelligence platforms as domestic, non-VPN, non-VPS/hosting, and non-proxy (at least, for now)"
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "Time-bounded vendor summary of third-party classifications; the IP selector is omitted and the classifications do not resolve the competing explanations."
+      ]
+    },
+    {
+      "id": "claim-camilo-competing-network-explanations",
+      "type": "relationship",
+      "predicate": "publisher_presented_competing_network_explanations",
+      "value": {
+        "explanations": [
+          "use of a residential proxy",
+          "assistance from someone in Colombia providing a local-network vantage point"
+        ],
+        "status": "unresolved alternatives"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Network-analysis transition",
+          "quote": "This could mean one of two things."
+        },
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "First network explanation",
+          "quote": "Either Camilo is using a residential proxy"
+        },
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Second network explanation",
+          "quote": "Or Camilo has someone in Colombia assisting him in landing the job and providing him with a vantage point from a local network."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "The source labels the second possibility a national facilitator and describes AnyDesk as an example of that workflow. It does not establish a facilitator, residential-proxy use, direct AnyDesk use, or physical presence in Colombia for this persona."
+      ]
+    },
+    {
+      "id": "claim-camilo-bitso-chollima-attribution",
+      "type": "organization_affiliation",
+      "predicate": "publisher_attributed_chollima_it_worker_applicant",
+      "value": {
+        "attribution": "Lazarus / Chollima IT-worker applicant",
+        "target_organization": "Bitso",
+        "basis": "publisher-controlled interview investigation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Introduction, encounter summary",
+          "quote": "We just had a new encounter with a Lazarus boy who wanted to join the Bitso ranks"
+        },
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Interview with the Chollima Extended Edition, opening paragraphs",
+          "quote": "And once again, we find ourselves stuck in a call with a Chollima."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "Bitso/Quetzal research attribution from a controlled interview, not a verified legal identity, nationality adjudication, government identification, charge, or sanctions designation."
+      ]
+    },
+    {
+      "id": "claim-camilo-controlled-engineer-application",
+      "type": "employment",
+      "predicate": "publisher_reported_engineer_application",
+      "value": {
+        "organization": "Bitso",
+        "role": "engineer applicant",
+        "employment_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Interview with the Chollima Extended Edition, opening paragraph",
+          "quote": "As always, it all started with a candidate wanting to join Bitso as an engineer."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "Attempted application observed in the publisher's controlled interview; this is not employment, a verified work history, or proof that the claimed name belongs to the applicant."
+      ]
+    },
+    {
+      "id": "claim-camilo-spanish-interview-tasks",
+      "type": "incident",
+      "predicate": "publisher_reported_spanish_language_interview_tasks",
+      "value": {
+        "activity": "was asked to perform simple tasks during an interview that switched to Spanish",
+        "fluency_established": false,
+        "skill_level_established": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Controlled-interview task paragraph",
+          "quote": "The conversation quickly moves to Sofía asking him to perform a few simple tasks and switching to Spanish."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "The source reports the interview format but does not establish Spanish fluency, task performance, education, experience, or civil identity."
+      ]
+    },
+    {
+      "id": "claim-camilo-ai-assistance-assessment",
+      "type": "incident",
+      "predicate": "publisher_speculated_live_ai_interview_assistance",
+      "value": {
+        "reported_observation": "looked off camera during the interview",
+        "publisher_interpretation": "possible use of live AI-assisted tools to answer questions",
+        "direct_tool_use_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-viii",
+          "locator": "Controlled-interview closing paragraph",
+          "quote": "Also, did you notice how he never looks directly at the camera and instead seems focused on something off to the side of his desk? That is probably because they use live AI-assisted tools to answer questions during interviews."
+        }
+      ],
+      "observed_at": "2026-05-19",
+      "notes": [
+        "This verifies the publisher's expressly probabilistic assessment, not actual tool use. No gaze-based identity inference, biometric conclusion, or current-use claim is made."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Camilo Andrés Pantoja is the name and Colombian nationality claimed by an applicant in Bitso's controlled interview; the civil identity remains unverified. The observed Bogotá residential connection supports two expressly competing explanations—a residential proxy or assistance from someone in Colombia—and leaves both hypotheses unresolved. Same-named people remain separate; the observed IP is withheld; facilitator, proxy, nationality, and physical-location possibilities remain hypotheses."
+}

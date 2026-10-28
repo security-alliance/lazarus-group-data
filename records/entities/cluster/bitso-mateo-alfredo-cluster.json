@@ -1,0 +1,90 @@
+{
+  "id": "bitso-mateo-alfredo-cluster",
+  "type": "cluster",
+  "name": "Bitso Quetzal synthetic-candidate cluster (Chollima III)",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Bitso's controlled investigation labels these Famous Chollima synthetic candidates; legal identities remain unestablished.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-bitso-chollima-iii"
+    ]
+  },
+  "organizations": [
+    "Bitso Quetzal Team",
+    "Famous Chollima"
+  ],
+  "locations": [
+    "Claimed Jalisco, Mexico (source-reported persona story)"
+  ],
+  "ttps": [
+    "claimed nationality unsupported by language ability",
+    "stolen résumé and name from a real engineer",
+    "synthetic/fake identity construction",
+    "VPN and laptop-farm use"
+  ],
+  "caveats": [
+    "Medium-confidence research-attributed persona material requires editorial review before public profile publication.",
+    "The source uses humorous narrative framing and supplies no independent corroboration for a DPRK nationality or legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Alfredo",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "talk-bitso-chollima-iii"
+      ]
+    },
+    {
+      "value": "Mateo",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "talk-bitso-chollima-iii"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "VPN",
+      "identifier": "AstrillVPN",
+      "url": "https://astrill.com/",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "talk-bitso-chollima-iii"
+      ],
+      "note": "Source reports both synthetic candidates as AstrillVPN customers; this is an investigative observation, not an account attribution."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "vpn",
+      "value": "AstrillVPN",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-bitso-chollima-iii"
+      ]
+    },
+    {
+      "type": "laptop-farm",
+      "value": "laptop farm",
+      "relationship": "source-described-context",
+      "source_ids": [
+        "talk-bitso-chollima-iii"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-bitso-chollima-iii",
+      "support": "Sections identify Mateo and Alfredo, describe stolen résumé/name construction, AstrillVPN use, and laptop-farm context",
+      "locator": "A Famous Chollima; Do Chollimas Dream of Western Jobs?"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

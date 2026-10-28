@@ -1,0 +1,398 @@
+{
+  "id": "aaron-schulz-blaze",
+  "type": "persona",
+  "name": "Aaron Schulz",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Account and persona labels carry public controlled-investigation or researcher/security-vendor attribution; legal identity, criminal, nationality, present-control, court-confirmation, and disposition status remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dpvr17-anyrun-camera-2025",
+      "talk-anyrun-2026-08-10"
+    ]
+  },
+  "organizations": [
+    "Famous Chollima",
+    "Lazarus Group"
+  ],
+  "ttps": [
+    "controlled-laptop-access-observation",
+    "delayed identity-document provision as a condition of employment",
+    "recruiter/facilitator role in the Famous Chollima scheme",
+    "returning to seek another role after prior exposure",
+    "team-member-collaboration"
+  ],
+  "caveats": [
+    "An appendix-only GitHub handle is omitted because the public narrative leaves its persona or role unspecified.",
+    "Assassin is a generic operational nickname and should appear only inside the source-attributed Blaze cluster.",
+    "Shared VPN egress is an infrastructure correlation; person, permanent ownership, and location require corroboration.",
+    "Account names, display labels, avatars, language, geography, and naming similarity remain contextual signals; nationality or civil identity requires source evidence.",
+    "Historical source attribution only; current account control remains unresolved.",
+    "This record retains no screenshots, profile images, identity documents, private messages, contact data, credentials, payment identifiers, endpoint selectors or full IOC appendix.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The Part 2 article explicitly calls Aaron/Blaze a Famous Chollima recruiter; the record preserves that source attribution.",
+    "This is a research-reported persona label from a public investigation; legal or civil identity verification remains open."
+  ],
+  "aliases": [
+    {
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dpvr17-anyrun-camera-2025",
+        "talk-anyrun-2026-08-10"
+      ],
+      "value": "Blaze"
+    },
+    {
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-anyrun-camera-2025"
+      ],
+      "value": "Assassin"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two/",
+      "caption": "Public figure captioned by the publisher as Aaron a.k.a. Blaze, Famous Chollima recruiter.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "controlled-investigation-cluster-context",
+      "statement": "ANY.RUN says a collaborator of Blaze used this nickname, accessed a controlled laptop, later appeared as Blaze's team member, and used the same VPN egress in that observation.",
+      "source_ids": [
+        "dpvr17-anyrun-camera-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "aaron-schulz-blaze"
+  ],
+  "sources": [
+    {
+      "source_id": "dpvr17-anyrun-camera-2025",
+      "support": "ANY.RUN says a collaborator of Blaze used this nickname, accessed a controlled laptop, later appeared as Blaze's team member, and used the same VPN egress in that observation | Earlier investigation is the referenced Episode 1 source for the returning recruiter/persona",
+      "locator": "Bonus Chapter: The Jealous | Primary article"
+    },
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "support": "Introduction image labels Aaron a.k.a. Blaze as a Famous Chollima recruiter; Bonus Chapter I says Aaron Schulz/Blaze returned for a cameo",
+      "locator": "Introduction; Bonus Chapter I"
+    },
+    {
+      "source_id": "src-8e4de7ac9980"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-aaron-blaze-source-label",
+      "type": "alias",
+      "predicate": "researcher_linked_persona_name_and_nickname",
+      "value": {
+        "persona_name": "Aaron Schulz",
+        "nickname": "Blaze",
+        "identity_status": "researcher-reported persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Bonus Chapter I: Fool me thrice, final paragraph",
+          "quote": "Aaron Schulz (“Blaze” from Episode 1)"
+        },
+        {
+          "source_id": "src-8e4de7ac9980",
+          "locator": "The Setup: Get Recruited, Then Let Them In, opening paragraph",
+          "quote": "a Lazarus recruiter using the alias “Aaron” (also known as “Blaze”)"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Neither name is independently established as a legal identity."
+      ]
+    },
+    {
+      "id": "claim-blaze-famous-chollima-recruiter",
+      "type": "organization_affiliation",
+      "predicate": "researcher_attributed_recruiter_role",
+      "value": {
+        "organization": "Famous Chollima",
+        "role": "recruiter"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "How the Investigation Was Set Up, figure caption",
+          "quote": "“Aaron” AKA “Blaze”, Recruiter for Famous Chollima"
+        },
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Introduction, first figure caption",
+          "quote": "Aaron A.K.A “Blaze”, Famous Chollima Recruiter from Episode 1"
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "ANY.RUN research attribution, not a court or government identity finding; both citations are from one investigator family."
+      ]
+    },
+    {
+      "id": "claim-blaze-controlled-laptop-access",
+      "type": "incident",
+      "predicate": "researchers_observed_controlled_laptop_access",
+      "value": {
+        "environment": "researcher-controlled simulated laptop",
+        "access_method": "remote desktop",
+        "reported_activity": "scouted machine configuration"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "Chapter III: The Watchers, Tape 1: The Planning, opening paragraph",
+          "quote": "A few minutes later, “Blaze” (Aaron, our recruiter) connects via AnyDesk and starts scouting the machine."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "The environment was controlled by the researchers; no remote-access selector is retained."
+      ]
+    },
+    {
+      "id": "claim-investigation-contained-activity",
+      "type": "incident",
+      "predicate": "researchers_reported_containment",
+      "value": {
+        "method": "controlled crashes and resets",
+        "reported_result": "prevented malicious activity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "How the Investigation Was Set Up, second paragraph",
+          "quote": "Controlled crashes and resets kept them contained. This prevented any malicious activity."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "This limits the impact of the controlled investigation and should remain adjacent to incident descriptions."
+      ]
+    },
+    {
+      "id": "claim-assassin-separate-collaborator",
+      "type": "relationship",
+      "predicate": "researchers_reported_separate_collaborator_nickname",
+      "value": {
+        "collaborator_nickname": "Assassin",
+        "relationship": "Blaze collaborator",
+        "same_person_as_blaze": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "Bonus Chapter: The Jealous, opening paragraph",
+          "quote": "one of Blaze’s collaborators under the nickname “Assassin”"
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "Assassin is a separate collaborator label, not an Aaron/Blaze alias or a verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-assassin-team-member",
+      "type": "relationship",
+      "predicate": "researchers_reported_team_member_access",
+      "value": {
+        "team_member_nickname": "Assassin",
+        "reported_action": "would try to work with controlled laptop"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "Bonus Chapter: The Jealous, penultimate section",
+          "quote": "He then shared that one of his team members would try to work with his laptop later that day. This was “Assassin”."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "The source's team relationship is retained without merging the collaborator into Aaron/Blaze."
+      ]
+    },
+    {
+      "id": "claim-shared-vpn-egress-observation",
+      "type": "infrastructure",
+      "predicate": "researchers_observed_same_vpn_egress",
+      "value": {
+        "other_label": "Assassin",
+        "observation": "same IP during controlled session",
+        "provider": "AstrillVPN",
+        "ownership_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "Bonus Chapter: The Jealous, final paragraphs",
+          "quote": "He appears on Tape4 behind the exact same IP address as Blaze, which belongs to AstrillVPN."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "A shared VPN-egress observation only; it does not prove the same natural person, location, permanent infrastructure control, or ownership. The IP selector is deliberately excluded."
+      ]
+    },
+    {
+      "id": "claim-aaron-returned-for-second-investigation",
+      "type": "incident",
+      "predicate": "researchers_reported_return_for_second_engagement",
+      "value": {
+        "target": "researcher-created Ballena Azul LTD",
+        "reported_disposition": "willing to join but did not proceed"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Bonus Chapter I: Fool me thrice, final paragraph",
+          "quote": "Aaron Schulz (“Blaze” from Episode 1) made a heroic return and was willing to join Ballena Azul LTD"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Ballena Azul LTD was created by the researchers for the controlled investigation."
+      ]
+    },
+    {
+      "id": "claim-delayed-photo-id-condition",
+      "type": "incident",
+      "predicate": "researchers_reported_delayed_identity_document_provision",
+      "value": {
+        "document_type": "photo ID",
+        "reported_delay": "at least one month or until first salary",
+        "document_collected": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Bonus Chapter I: Fool me thrice, final paragraph",
+          "quote": "he failed to provide a photo ID “at least for a month, until we were able to pay the first salary.”"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "No identity document, image, or private selector is retained."
+      ]
+    },
+    {
+      "id": "claim-aaron-frontman-recruitment-arrangement",
+      "type": "incident",
+      "predicate": "researchers_reported_frontman_recruitment_attempt",
+      "value": {
+        "target": "researcher-controlled developer persona",
+        "reported_role": "frontman for job interviews",
+        "alternative_reported_use": "identity and laptop access",
+        "completed": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "Chapter II: The Actors, Aaron interview sequence",
+          "quote": "He offers a 20% cut if I act as the frontman, or 10% if he only uses my information and laptop while he conducts the interviews himself."
+        },
+        {
+          "source_id": "src-8e4de7ac9980",
+          "locator": "The Setup: Get Recruited, Then Let Them In, second paragraph",
+          "quote": "Blaze attempted to hire the fake developer as a frontman"
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "The target was a researcher-controlled persona and the arrangement did not become real employment. Private identity fields, payment methods, account details, and contact selectors were excluded."
+      ]
+    },
+    {
+      "id": "claim-blaze-observed-browser-toolset",
+      "type": "incident",
+      "predicate": "researchers_observed_remote_work_browser_toolset",
+      "value": {
+        "environment": "researcher-controlled simulated laptop",
+        "observed_categories": [
+          "job-application automation",
+          "live interview assistance",
+          "saved language-model prompts",
+          "one-time-password generation",
+          "remote desktop control"
+        ],
+        "malware_observed": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "Chapter III: The Watchers, Tape 5: Criminal Engineering",
+          "quote": "This granted us a first peek into the Famous Chollima toolset, which includes multiple AI tools like Simplify Copilot, AiApply, Final Round AI and Saved Prompts for GPT, the OTP.ee extension (or Authenticator.cc, an OTP generator) and last but not least, Google Remote Desktop."
+        },
+        {
+          "source_id": "src-8e4de7ac9980",
+          "locator": "What They Found Inside the Famous Chollima's Toolkit",
+          "quote": "The sandbox sessions exposed a lean but effective toolset built for identity takeover and remote access rather than malware deployment."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "The tool categories are bounded observations from the controlled session. No credentials, account selectors, host names, connection PINs, commands, or present-use inference are retained."
+      ]
+    },
+    {
+      "id": "claim-aaron-link-only-anyrun-image",
+      "type": "image",
+      "predicate": "publisher_captioned_link_only_persona_image",
+      "value": {
+        "source_page": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation",
+        "media_url": "https://any.run/cybersecurity-blog/wp-content/uploads/2025/12/A-1024x591.png",
+        "caption_label": "Aaron AKA Blaze, Recruiter for Famous Chollima",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dpvr17-anyrun-camera-2025",
+          "locator": "How the Investigation Was Set Up, first figure",
+          "quote": "“Aaron” AKA “Blaze”, Recruiter for Famous Chollima"
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "Source-explicit link-only media reference. The asset was not separately downloaded, cropped, cached for publication, compared, reverse-searched, or used for facial recognition, appearance inference, or civil-identity resolution."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "ANY.RUN reports a recruiter persona Aaron or Aaron Schulz using the nickname Blaze; this is a source label, with civil identity unverified. Assassin is a separately observed collaborator or team-member nickname. Shared VPN egress is a bounded session observation; identity, location, infrastructure ownership, and present control require independent corroboration."
+}

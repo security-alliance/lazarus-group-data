@@ -1,0 +1,73 @@
+{
+  "id": "dtmlr20-ttp-cside-application-to-verification-case",
+  "type": "ttp",
+  "name": "cside first-party application-to-verification case",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party employer account of cside's experience. The DPRK characterization is speaker-reported; court finding, government attribution, and legal-identity determination regarding any candidate are outside the account.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DTMLR20-S01-CSIDE-EMF"
+    ]
+  },
+  "organizations": [
+    "cside"
+  ],
+  "ttps": [
+    "Escalate projected-document or workflow anomalies for independent human verification",
+    "Review application, assessment-integrity, interview-coherence, identity-verification, and browser/device evidence cumulatively",
+    "Use job-relevant and consistently applied controls rather than demographic, nationality, accent, appearance, or other protected-characteristic proxies"
+  ],
+  "caveats": [
+    "Controls should be documented, proportionate, job-relevant, consistently applied, accessible to candidates with disabilities, and subject to human review and an appeal or correction path where feasible.",
+    "Individual signals such as latency, VPN use, virtual machines, typing patterns, assessment scores, or verification friction can have benign explanations; each requires corroboration before attribution.",
+    "Nationality, ethnicity, accent, language, age, sex, disability, appearance, location, and other demographic or protected characteristics require evidence beyond the characteristic itself.",
+    "The recording covers candidate-risk tooling; product efficacy, false-positive rates, population prevalence, and universal applicant affiliation status are unmeasured.",
+    "This record preserves a named first-party employer/control case; worker, persona, stolen-identity victim and candidate profiles belong to separate records."
+  ],
+  "infrastructure": [
+    {
+      "type": "claim-specific-observation",
+      "claim": "The speaker describes a high-volume application funnel with polished work histories, active code-hosting profiles, and unusually high standardized assessment scores.",
+      "locator": "01:31-03:20",
+      "source_ids": [
+        "DTMLR20-S01-CSIDE-EMF"
+      ]
+    },
+    {
+      "type": "claim-specific-observation",
+      "claim": "The speaker describes interview lag and an incoherent answer consistent with outside assistance, followed by an identity-verification escalation in which a live check reportedly detected a projected document even though operational pressure still resulted in approval.",
+      "locator": "05:25-08:46",
+      "source_ids": [
+        "DTMLR20-S01-CSIDE-EMF"
+      ]
+    },
+    {
+      "type": "claim-specific-observation",
+      "claim": "The speaker reports browser-side and workflow observations including latency, VPN and virtual-machine indicators, unusual fonts, burst-like typing, standardized copied assessment answers, and increasingly automated browser completion.",
+      "locator": "10:49-13:21",
+      "source_ids": [
+        "DTMLR20-S01-CSIDE-EMF"
+      ]
+    },
+    {
+      "type": "fair-control-boundary",
+      "claim": "Use multiple job-relevant workflow, device, browser, assessment-integrity, and verification signals for escalation and human review; do not treat any single signal as proof and do not use demographic traits or protected characteristics as proxies.",
+      "locator": "20:40-21:14",
+      "source_ids": [
+        "DTMLR20-S01-CSIDE-EMF"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DTMLR20-S01-CSIDE-EMF",
+      "support": "First-party account by cside's founder of cside's own application, interview, identity-verification, and browser-observation workflow. The recording supports the cumulative workflow observations at the cited timestamps; DPRK attribution remains speaker-reported rather than judicially determined",
+      "locator": "01:31-03:20 hiring funnel and assessments; 05:25-08:46 interview and identity-verification observations; 08:48-09:21 repeated candidates and Upwork; 10:49-13:21 browser, network, VM, typing, assessment, and AI-automation signals; 20:40-21:14 mitigation conclusion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

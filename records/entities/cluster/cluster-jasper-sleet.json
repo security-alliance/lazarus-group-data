@@ -1,0 +1,96 @@
+{
+  "id": "cluster-jasper-sleet",
+  "type": "cluster",
+  "name": "Jasper Sleet",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Microsoft name for DPRK remote IT-worker activity; Microsoft-attributed unnamed-customer incident response finding; this record carries no public charge, adjudication, sanctions designation, victim identity, or individual identity determination.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMIR31-S01-MICROSOFT-IMPOSTER-BLOG",
+      "DMIR31-S02-MICROSOFT-IMPOSTER-PDF",
+      "vendor-microsoft-2025-jasper-sleet",
+      "vendor-microsoft-2026-detections"
+    ]
+  },
+  "ttps": [
+    "active-directory-reconnaissance",
+    "AI-enhanced identity documents and imagery",
+    "audit-log-clearing",
+    "cloud and identity abuse",
+    "fraudulent remote employment",
+    "out-of-band-remote-hands",
+    "post-hire-pikvm-remote-control",
+    "sensitive-data-egress"
+  ],
+  "caveats": [
+    "Four observed user accounts are four observations; worker and operator counts require separate evidence.",
+    "Joshua Desire/codegod2222 is already normalized in platform-personas.json and remains represented there.",
+    "Microsoft expressly links one authenticating identity to Jasper Sleet; the sentence covers that identity link, while other accounts require separate attribution.",
+    "Microsoft threat-actor cluster name; legal identity remains unresolved.",
+    "The blog and PDF are one source family, so they supply one corroboration line.",
+    "The customer remains unnamed; victim identification is outside the record.",
+    "The separate 3,000-account disruption statistic is already represented elsewhere; it is existing context rather than a new finding here."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "same-operator",
+      "source_ids": [
+        "vendor-microsoft-2025-jasper-sleet"
+      ],
+      "value": "Storm-0287"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "microsoft-attributed-unnamed-customer-incident",
+      "statements": [
+        "Microsoft reports four compromised user accounts connecting PiKVM devices to employer-issued workstations in one unnamed customer environment.",
+        "Microsoft says unknown third parties used the devices for remote hands-on activity and sensitive-data extraction.",
+        "The report timeline includes audit-log clearing, ADFind creation, repeated PiKVM USB mounts, and data egress during 2025.",
+        "Microsoft says it disabled compromised accounts, restored affected devices to clean backups, and analyzed audit, endpoint, identity, and cloud-app telemetry."
+      ],
+      "limitations": [
+        "The customer is unnamed; do not attempt victim identification.",
+        "Four observed user accounts do not establish four distinct workers or operators.",
+        "Microsoft expressly links one authenticating identity to Jasper Sleet; do not overstate that sentence as individual attribution of every account.",
+        "The blog and PDF are one source family and must not be counted as independent corroboration.",
+        "The separate 3,000-account disruption statistic is already represented elsewhere and is not a new finding here."
+      ],
+      "source_ids": [
+        "DMIR31-S01-MICROSOFT-IMPOSTER-BLOG",
+        "DMIR31-S02-MICROSOFT-IMPOSTER-PDF"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-jasper-sleet"
+  ],
+  "sources": [
+    {
+      "source_id": "DMIR31-S02-MICROSOFT-IMPOSTER-PDF",
+      "support": "The report says four user accounts were observed connecting PiKVM devices and that the technique enabled unknown third parties to perform remote hands-on activity and extract sensitive information. Its 2025 timeline reports audit-log clearing, ADFind creation, repeated PiKVM USB mounts, and data egress. Microsoft says it disabled threat-actor accounts, restored associated devices to pre-activity backups, and analyzed Unified Audit Logs and endpoint and identity telemetry. Evidence boundary: Companion full report for the same Microsoft customer investigation, not independent corroboration of the article. Timeline events are Microsoft observations; the public report does not identify the customer or disclose the underlying telemetry",
+      "locator": "pp. 1-5; especially p. 2 “What happened?”, p. 3 attack-flow timeline, and p. 4 “How did Microsoft respond?”"
+    },
+    {
+      "source_id": "vendor-microsoft-2025-jasper-sleet",
+      "support": "Names LinkedIn persona Joshua Desire and GitHub codegod2222; documents 3,000 suspended Microsoft accounts, Faceswap/AI image editing, voice changing, laptop farms, PiKVM/TinyPilot, VPN/VPS/proxies, RMM, stolen or rented identities, and facilitators",
+      "locator": "Figures 2-7; Crafting fake personas; Establishing digital footprint; AI; Facilitators; Defense evasion"
+    },
+    {
+      "source_id": "DMIR31-S01-MICROSOFT-IMPOSTER-BLOG",
+      "support": "Microsoft says four compromised user accounts connected PiKVM devices to employer-issued workstations, allowing unknown third parties to perform remote hands-on activity and extract sensitive data. Microsoft says it traced the activity to Jasper Sleet, disabled compromised accounts, restored affected devices to clean backups, and reviewed audit and security telemetry. Evidence boundary: Microsoft-attributed account and incident-response findings for an unnamed customer. The article does not identify the customer, prove four distinct workers, or establish that every account was individually attributed to Jasper Sleet",
+      "locator": "Sections “What happened?” and “How did Microsoft respond?”"
+    },
+    {
+      "source_id": "vendor-microsoft-2026-detections",
+      "support": "Describes Workday job discovery/application, external interview communications, DocuSign, payroll changes from known infrastructure, anonymous proxies, impossible travel, and post-hire access to Teams, SharePoint, OneDrive, and Exchange Online",
+      "locator": "Attack chain overview; Figures 1-4; detection table and hunting queries"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

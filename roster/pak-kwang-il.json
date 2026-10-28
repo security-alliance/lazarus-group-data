@@ -1,0 +1,113 @@
+{
+  "id": "pak-kwang-il",
+  "real_name": "Pak Kwang Il",
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-pak-kwang-il",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Pak Kwang Il is the person named in the MSMT Annex 7 KMCTC employment table. Robert is preserved only as a source-reported employment label; it is not an established civil identity or evidence of present account control. Do not merge by name, image, nationality, geography, or technology similarity.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "The source also lists single-name alias labels for this individual: Robert. They are kept out of the searchable name fields because a bare first name identifies nobody; see the sourced facts for their context.",
+      "Distinct from 'Pae Kwang Il', a different KMCTC worker listed in the same MSMT Annex 7 table. Do not merge on name similarity.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-pak-kwang-il-kmctc-affiliation",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pak Kwang Il row",
+          "quote": "Pak Kwang Il"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-kwang-il-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-kwang-il-label-robert",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pak Kwang Il row, Alias column",
+          "quote": "Robert"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-kwang-il-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pak Kwang Il row, DPRK IT Worker column",
+          "quote": "Pak Kwang Il"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-kwang-il-robert-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pak Kwang Il / Robert row, presented-country column; selector and rate omitted",
+          "quote": "Romania"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pak Kwang Il / Robert row, client-country column; selector and rate omitted",
+          "quote": "United States"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pak Kwang Il / Robert row, duration column; selector and rate omitted",
+          "quote": "3 months"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

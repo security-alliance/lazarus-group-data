@@ -1,0 +1,158 @@
+{
+  "id": "persona-joshua-desire",
+  "type": "persona",
+  "name": "Joshua Desire",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s4"
+    ]
+  },
+  "ttps": [
+    "payments through financial facilitators",
+    "source-reported LinkedIn employment persona"
+  ],
+  "caveats": [
+    "codegod2222 and its repository/IP observations remain separate from Joshua Desire unless an explicit source bridge links them; Microsoft presents them in separate figures.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "images": [
+    {
+      "source_id": "platform-s4",
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/",
+      "caption": "Microsoft Figure 2 depicts the source-reported Joshua Desire LinkedIn persona; the separate Figure 3 GitHub account is not asserted here as the same persona.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s4",
+      "support": "Microsoft Figure 2 presents Joshua Desire as a LinkedIn persona used in the Jasper Sleet IT-worker operation. Figure 3 separately discusses GitHub account codegod2222; the article does not explicitly map that account to Joshua Desire",
+      "locator": "Section “Crafting fake personas,” Figure 2; Figure 3 treated as a separate account example"
+    },
+    {
+      "source_id": "vendor-microsoft-2025-jasper-sleet"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-joshua-desire-reported-persona",
+      "type": "identity_name",
+      "predicate": "publisher_reported_linkedin_persona_name",
+      "value": {
+        "name": "Joshua Desire",
+        "identity_status": "source-reported fake LinkedIn persona"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-microsoft-2025-jasper-sleet",
+          "locator": "Figure 2 image alternative text",
+          "quote": "Screenshot of a fake LinkedIn profile from a North Korean IT worker, claiming to be Joshua Desire from California as a Senior Software Engineer."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Source-reported persona label, not a verified legal identity or proof about the apparent identity owner."
+      ]
+    },
+    {
+      "id": "claim-joshua-desire-linkedin-profile",
+      "type": "account",
+      "predicate": "publisher_reported_historical_linkedin_persona",
+      "value": {
+        "platform": "LinkedIn",
+        "displayed_name": "Joshua Desire",
+        "profile_url": null
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s4",
+          "locator": "Crafting fake personas and profiles",
+          "quote": "the North Korean IT workers have used fake profiles on LinkedIn to communicate with recruiters and apply for jobs"
+        },
+        {
+          "source_id": "vendor-microsoft-2025-jasper-sleet",
+          "locator": "Figure 2 image alternative text",
+          "quote": "fake LinkedIn profile from a North Korean IT worker, claiming to be Joshua Desire"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Historical source report. Microsoft does not publish a profile URL in the accessible figure metadata, and current control is not inferred."
+      ]
+    },
+    {
+      "id": "claim-joshua-desire-claimed-california",
+      "type": "location",
+      "predicate": "source_reported_persona_location_claim",
+      "value": {
+        "claimed_location": "California"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-microsoft-2025-jasper-sleet",
+          "locator": "Figure 2 image alternative text",
+          "quote": "claiming to be Joshua Desire from California"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Persona claim only; no past or present location is independently established."
+      ]
+    },
+    {
+      "id": "claim-joshua-desire-claimed-role",
+      "type": "employment",
+      "predicate": "source_reported_persona_role_claim",
+      "value": {
+        "claimed_role": "Senior Software Engineer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-microsoft-2025-jasper-sleet",
+          "locator": "Figure 2 image alternative text",
+          "quote": "as a Senior Software Engineer"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Persona profile claim only; not verified employment or professional experience."
+      ]
+    },
+    {
+      "id": "claim-joshua-desire-profile-taken-down",
+      "type": "account",
+      "predicate": "publisher_reported_profile_status",
+      "value": {
+        "platform": "LinkedIn",
+        "status": "taken down by publication time"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-microsoft-2025-jasper-sleet",
+          "locator": "Figure 2 caption",
+          "quote": "Figure 2. An example of a North Korean IT worker LinkedIn profile that has since been taken down."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Publisher-reported historical status; no independent platform enforcement reason or timing is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Joshua Desire is the name shown in Microsoft Figure 2 for a source-reported fake LinkedIn employment persona. The apparent profile subject's civil identity and willing-participant status are unresolved. Microsoft's adjacent Figure 3 presents codegod2222 as a separate example; account mapping to Joshua Desire remains unassigned."
+}

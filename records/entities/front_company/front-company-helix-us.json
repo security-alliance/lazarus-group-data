@@ -1,0 +1,45 @@
+{
+  "id": "front-company-helix-us",
+  "type": "front_company",
+  "name": "Helix US",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor-reported IT-worker front company",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-unit42-2024-wagemole"
+    ]
+  },
+  "front_companies": [
+    "Helix US"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "remote IT-worker placement or support"
+  ],
+  "caveats": [
+    "The currently cited live article omits this name and retained claim locator. Keep this historical candidate out of public exports until an immutable claim-bearing version is verified; the current page leaves the earlier claim unresolved.",
+    "This is a security-vendor attribution; consult the cited source for the underlying infrastructure and content-reuse analysis."
+  ],
+  "aliases": [
+    {
+      "value": "Helix US",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "vendor-unit42-2024-wagemole"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-unit42-2024-wagemole",
+      "support": "Palo Alto Networks Unit 42 explicitly identifies Helix US as part of the reported DPRK IT-worker front-company ecosystem",
+      "locator": "Front-company section and website figures"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

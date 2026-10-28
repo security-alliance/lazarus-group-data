@@ -1,0 +1,58 @@
+{
+  "id": "infrastructure-saja-portfolio-network",
+  "type": "infrastructure",
+  "name": "Saja lion-avatar / century-email portfolio network",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported infrastructure or relationship cluster",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "organizations": [
+    "additional followed accounts: nulidev, Talented0Dev, blockbusterdev",
+    "GitHub: eros1006, websparkledev, TopRatedDev36428, CleverSofter, GoodWork0903, VeteranSoftDev, SoftwarePassioner, Ideal-Softer"
+  ],
+  "ttps": [
+    "grouped infrastructure correlation",
+    "shared portfolio, recruitment, hosting, or corporate-linkage analysis"
+  ],
+  "caveats": [
+    "Group the material as one cluster; separate pages for accounts or emails require a source-backed distinction.",
+    "Indicators are grouped to avoid noisy standalone profiles and must be treated as historical.",
+    "Source report: 2025-05-01; site status at source: five active and two inactive portfolio sites; as of 2026 08 12: historical grouped indicators; live status requires a current check."
+  ],
+  "infrastructure": [
+    {
+      "kind": "grouped-indicator-set",
+      "members": [
+        "GitHub: eros1006, websparkledev, TopRatedDev36428, CleverSofter, GoodWork0903, VeteranSoftDev, SoftwarePassioner, Ideal-Softer",
+        "additional followed accounts: nulidev, Talented0Dev, blockbusterdev",
+        "portfolio sites: veteransoftdev.github[.]io, softwarepassioner.github[.]io, cleversofter.github[.]io, goodwork0903.github[.]io, portfolio-ideal-softer.vercel[.]app",
+        "inactive at source time: dedicatedsoftwaredev.github[.]io, seasonedsoftdev.github[.]io",
+        "email pattern indicators: apollo21century@gmail[.]com, solomon21century@outlook[.]com, erosnewcentury@gmail[.]com"
+      ],
+      "relationship_summary": "Nisos linked the accounts through follower relationships, repeated lion avatars, repeated century-themed emails, near-identical portfolio templates, AFF/anti-cheat project text, and cross-testimonials.",
+      "temporal_status": {
+        "source_report": "2025-05-01",
+        "site_status_at_source": "five active and two inactive portfolio sites",
+        "as_of_2026_08_12": "historical grouped indicators; no live checks"
+      },
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Saja lion-avatar / century-email portfolio network and describes this relationship: Nisos linked the accounts through follower relationships, repeated lion avatars, repeated century-themed emails, near-identical portfolio templates, AFF/anti-cheat project text, and cross-testimonials",
+      "locator": "PDF pp. 3-9"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

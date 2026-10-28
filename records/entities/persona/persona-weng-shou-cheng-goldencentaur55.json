@@ -1,0 +1,49 @@
+{
+  "id": "persona-weng-shou-cheng-goldencentaur55",
+  "type": "persona",
+  "name": "GOLDENCENTAUR55",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded persona record for GOLDENCENTAUR55; the name or identifier links it only where a source links it.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports GOLDENCENTAUR55 in the described scheme.",
+      "locator": "PDF p. 7 ¶20"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-weng-shou-cheng-goldencentaur55",
+      "type": "alias",
+      "predicate": "source_reported_moniker",
+      "value": {
+        "persona": "GOLDENCENTAUR55",
+        "source_reported_for": "WENG SHOU CHENG, also known by the online monikers “GOLDENSEA787,” “GOLDENCENTAUR55,” and “GOLDLINE 3,”"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 7 ¶20",
+          "quote": "WENG SHOU CHENG, also known by the online monikers “GOLDENSEA787,” “GOLDENCENTAUR55,” and “GOLDLINE 3,” was a Chinese citizen residing in China."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

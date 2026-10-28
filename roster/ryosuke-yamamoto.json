@@ -1,0 +1,228 @@
+{
+  "id": "ryosuke-yamamoto",
+  "fake_names": [
+    "Ryosuke Yamamoto",
+    "Code Solution",
+    "CodeJourney"
+  ],
+  "notes": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+  "telegram": [
+    {
+      "usernames": [
+        "Ryosuke0302"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "redsky500"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-ryosuke-yamamoto",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+    "as_of": "2026-08-11",
+    "caveats": [
+      "Identity boundary: Source-reported persona and account family linked to redsky500; Ryosuke Yamamoto, Code Solution, CodeJourney, accounts, biography, and imagery are not a verified civil identity or proof that all labels are one natural person.",
+      "Code Solution and CodeJourney are retained as source-reported links to this account family; the linkage does not establish that the labels belong to one natural person.",
+      "Ryosuke Yamamoto is retained as the source-reported display anchor for this account family, not duplicated as a self-alias and not asserted as a verified natural-person identity.",
+      "The apparent identities may be synthetic, borrowed, or stolen; do not identify or contact an apparent identity owner.",
+      "The Telegram link is retained only as historical accounts reported with the Ryosuke Yamamoto label; they do not prove current ownership or legal identity.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Ryosuke Yamamoto' is a common Japanese name shared by unrelated public figures, including a well-known actor. This record refers only to the redsky500 / Ryosuke0302 / LaborX 'Code Solution' presentation identified by Nisos.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-bafe293061db",
+      "title": "Assessment of DPRK IT Worker Tradecraft Between 2022 and 2025",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/Assessment-of-DPRK-IT-Worker-Tradecraft.pdf",
+      "date": "2025-04-29"
+    },
+    {
+      "id": "doc-github-redsky500-status",
+      "title": "GitHub user status: redsky500",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/redsky500"
+    },
+    {
+      "id": "doc-laborx-code-solution",
+      "title": "Freelancer Code Solution - Skills: Javascript, React, MySQL",
+      "publisher": "LaborX",
+      "url": "https://laborx.com/freelancers/users/id53436"
+    },
+    {
+      "id": "doc-telegram-doom0302",
+      "title": "Telegram: Contact @doom0302",
+      "publisher": "Telegram",
+      "url": "https://t.me/doom0302"
+    },
+    {
+      "id": "doc-telegram-ryosuke0302",
+      "title": "Telegram: Contact @Ryosuke0302",
+      "publisher": "Telegram",
+      "url": "https://t.me/Ryosuke0302"
+    },
+    {
+      "id": "doc-yhype-redsky500",
+      "title": "@redsky500 GitHub Profile - Y Hype",
+      "publisher": "Y Hype",
+      "url": "https://yhype.me/github/@redsky500?tab=followings"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-code-solution-label",
+      "label": "Related persona label",
+      "category": "alias",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "GitHub account redsky500, which is no longer active, for example was associated with the personas Code Solution, CodeJourney, and Ryosuke Yamamoto."
+        },
+        {
+          "source_id": "doc-laborx-code-solution",
+          "locator": "Profile heading and Contact Info",
+          "quote": "Code\nSolution"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-code-solution-reputation",
+      "label": "Laborx profile metrics",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-laborx-code-solution",
+          "locator": "Profile summary",
+          "quote": "Average Review\n5.00\nReputation\n63\nFinished gigs\n2\nFinished jobs\n0"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-codejourney-label",
+      "label": "Related persona label",
+      "category": "alias",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "GitHub account redsky500, which is no longer active, for example was associated with the personas Code Solution, CodeJourney, and Ryosuke Yamamoto."
+        },
+        {
+          "source_id": "doc-yhype-redsky500",
+          "locator": "Cached profile header",
+          "quote": "CodeJourney\nredsky500"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-redsky500",
+      "label": "Historically used github account",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "GitHub account redsky500, which is no longer active"
+        },
+        {
+          "source_id": "doc-github-redsky500-status",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-laborx-code-solution-account",
+      "label": "Related laborx profile",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-laborx-code-solution",
+          "locator": "Profile heading",
+          "quote": "Freelancer Code Solution - Skills: Javascript, React, MySQL"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-reported-ryosuke-persona",
+      "label": "Reported employment persona",
+      "category": "identity_name",
+      "observed": "2025-04-29",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "Redsky500 is also associated with likely DPRK persona Ryosuke Yamamoto"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-telegram-doom0302-cluster",
+      "label": "Related telegram account",
+      "category": "relationship",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 8, final sentence",
+          "quote": "Code Solution lists their contact information as Telegram ID doom0302"
+        },
+        {
+          "source_id": "doc-laborx-code-solution",
+          "locator": "Contact Info",
+          "quote": "Telegram: @doom0302"
+        },
+        {
+          "source_id": "doc-telegram-doom0302",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact @doom0302"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-telegram-ryosuke0302",
+      "label": "Historically used telegram account",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 8, final sentence",
+          "quote": "Ryosuke Yamamoto lists Telegram ID Ryosuke0302"
+        },
+        {
+          "source_id": "doc-telegram-ryosuke0302",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact @Ryosuke0302"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-wowdao-role-reported",
+      "label": "Reported organization role",
+      "category": "organization_affiliation",
+      "observed": "2025-04-29",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF pp. 8-9, paragraph and Graphic 16",
+          "quote": "appears to be employed at WowDAO as a Web3 Full Stack Developer"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

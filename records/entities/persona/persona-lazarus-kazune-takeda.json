@@ -1,0 +1,1566 @@
+{
+  "id": "persona-lazarus-kazune-takeda",
+  "type": "persona",
+  "name": "Kazune Takeda",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Lazarus Group publishes this registry profile and its listed selectors and work history; this single research source supplies a registry profile, while civil identity, current account control, and legal liability remain unresolved.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "lazarus-group-team"
+    ]
+  },
+  "identity_boundary": "This record is the Lazarus Group registry persona at /team/kazune-takeda. Keep it separate from same-named people, associates, companies, images, or handles unless an independent source links them.",
+  "caveats": [
+    "The site is a secondary research source and the profile remains needs_corroboration.",
+    "Historical selectors are defanged, and current account control remains unestablished.",
+    "Shared names, handles, photographs and listed associates create leads; records require source linkage before being treated as the same natural person.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "lazarus_group_routes": [
+    "kazune-takeda"
+  ],
+  "sources": [
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Kazune Takeda in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/kazune-takeda"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kazune-takeda-0001",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0002",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "Joe Hisaishi"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Basic Information, Aliases",
+          "quote": "Joe Hisaishi"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0003",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "Greg Takeo"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Basic Information, Aliases",
+          "quote": "Greg Takeo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0004",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Kazune Takeda"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Basic Information, Fake Names",
+          "quote": "Kazune Takeda"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0005",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Greg Takeo"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Basic Information, Fake Names",
+          "quote": "Greg Takeo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0006",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Rey Santana Socorro"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Basic Information, Fake Names",
+          "quote": "Rey Santana Socorro"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0007",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "kazune[dot]takeda[at]yahoo[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Contact Information, Emails",
+          "quote": "kazune[dot]takeda[at]yahoo[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0008",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "greg[dot]takeo[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Contact Information, Emails",
+          "quote": "greg[dot]takeo[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0009",
+      "type": "account",
+      "predicate": "contact-information-twitter",
+      "value": {
+        "platform": "X/Twitter",
+        "identifier": "[at]kazunetakeda25"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Contact Information, Twitter",
+          "quote": "[at]kazunetakeda25"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0010",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://kazunetakeda25.dev/"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Contact Information, Websites",
+          "quote": "hxxps://kazunetakeda25.dev/"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0011",
+      "type": "note",
+      "predicate": "real-location-info-real-citizenships",
+      "value": {
+        "citizenship": "North Korea",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Real Location Info, Real Citizenships",
+          "quote": "North Korea"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0012",
+      "type": "note",
+      "predicate": "fake-location-info-fake-citizenships",
+      "value": {
+        "citizenship": "Japan",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Fake Location Info, Fake Citizenships",
+          "quote": "Japan"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0013",
+      "type": "location",
+      "predicate": "fake-location-info-fake-locations",
+      "value": {
+        "location": "Tokyo",
+        "reported_as": "site-labelled fake location"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Fake Location Info, Fake Locations",
+          "quote": "Tokyo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0014",
+      "type": "note",
+      "predicate": "network-referred-by",
+      "value": {
+        "field": "Referred By",
+        "value": "Cold email"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Network, Referred By",
+          "quote": "Cold email"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0015",
+      "type": "employment",
+      "predicate": "employment-history-hired",
+      "value": {
+        "field": "Hired",
+        "value": "Dec 1, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Hired",
+          "quote": "Dec 1, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0016",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "Apr 10, 2023"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Identified",
+          "quote": "Apr 10, 2023"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0017",
+      "type": "note",
+      "predicate": "employment-history-unhired",
+      "value": {
+        "field": "Unhired",
+        "value": "Apr 17, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Unhired",
+          "quote": "Apr 17, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0018",
+      "type": "employment",
+      "predicate": "employment-history-managed-laptop",
+      "value": {
+        "field": "Managed Laptop",
+        "value": "false"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Managed Laptop",
+          "quote": "false"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0019",
+      "type": "employment",
+      "predicate": "employment-history-background-check",
+      "value": {
+        "field": "Background Check",
+        "value": "false"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Background Check",
+          "quote": "false"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0020",
+      "type": "employment",
+      "predicate": "employment-history-kyc-collected",
+      "value": {
+        "field": "KYC Collected",
+        "value": "true"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, KYC Collected",
+          "quote": "true"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0021",
+      "type": "employment",
+      "predicate": "employment-history-hired",
+      "value": {
+        "field": "Hired",
+        "value": "Jan 1, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Hired",
+          "quote": "Jan 1, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0022",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "May 23, 2025"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Identified",
+          "quote": "May 23, 2025"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0023",
+      "type": "note",
+      "predicate": "employment-history-unhired",
+      "value": {
+        "field": "Unhired",
+        "value": "May 30, 2025"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, Unhired",
+          "quote": "May 30, 2025"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0024",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Undisclosed Company 1"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, company",
+          "quote": "Undisclosed Company 1"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0025",
+      "type": "employment",
+      "predicate": "employment-history-claimed-role",
+      "value": {
+        "role": "Senior Software Engineer"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, claimed_role",
+          "quote": "Senior Software Engineer"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0026",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Undisclosed Company 2"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, company",
+          "quote": "Undisclosed Company 2"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0027",
+      "type": "employment",
+      "predicate": "employment-history-claimed-role",
+      "value": {
+        "role": "Solidity Engineer"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Employment History, claimed_role",
+          "quote": "Solidity Engineer"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0028",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "kazunetakeda25"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, GitHub ID",
+          "quote": "kazunetakeda25"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0029",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Dec 9, 2019"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Creation Date",
+          "quote": "Dec 9, 2019"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0030",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "zhmolly"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, GitHub ID",
+          "quote": "zhmolly"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0031",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Mar 23, 2021"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Creation Date",
+          "quote": "Mar 23, 2021"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0032",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "chubbywink"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "chubbywink"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0033",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "mtfuji25"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "mtfuji25"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0034",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "kazunetakeda25"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "kazunetakeda25"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0035",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "borrdd34"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "borrdd34"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0036",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "Kazune Takeda"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Names",
+          "quote": "Kazune Takeda"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0037",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "kazune[dot]takeda[at]yahoo[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Emails",
+          "quote": "kazune[dot]takeda[at]yahoo[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0038",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "zhmolly[at]proton[dot]me"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Emails",
+          "quote": "zhmolly[at]proton[dot]me"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0039",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "0xmolly"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "0xmolly"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0040",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "zhmolly"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "zhmolly"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0041",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "zhmoly"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Usernames",
+          "quote": "zhmoly"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0042",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "David Adachi"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Names",
+          "quote": "David Adachi"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0043",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "jwtradera[at]outlook[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, GitHub, Emails",
+          "quote": "jwtradera[at]outlook[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0044",
+      "type": "account",
+      "predicate": "telegram-telegram-id",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "5407827675"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Telegram, Telegram ID",
+          "quote": "5407827675"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0045",
+      "type": "account",
+      "predicate": "telegram-usernames",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "ETHFuji"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Telegram, Usernames",
+          "quote": "ETHFuji"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0046",
+      "type": "account",
+      "predicate": "telegram-usernames",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "kazunetakeda25"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Telegram, Usernames",
+          "quote": "kazunetakeda25"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0047",
+      "type": "note",
+      "predicate": "telegram-names",
+      "value": {
+        "field": "Names",
+        "value": "Kazune Takeda"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Telegram, Names",
+          "quote": "Kazune Takeda"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0048",
+      "type": "account",
+      "predicate": "linkedin-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "hxxps://linkedin.com/in/kazunetakeda25"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, LinkedIn, Emails",
+          "quote": "hxxps://linkedin.com/in/kazunetakeda25"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0049",
+      "type": "note",
+      "predicate": "linkedin-ips",
+      "value": {
+        "field": "IPs",
+        "value": "50.7.159[.]34"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, LinkedIn, IPs",
+          "quote": "50.7.159[.]34"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0050",
+      "type": "employment",
+      "predicate": "linkedin-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "2019-03-15"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, LinkedIn, Creation Date",
+          "quote": "2019-03-15"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0051",
+      "type": "note",
+      "predicate": "salary-details-value-usd",
+      "value": {
+        "field": "Value USD",
+        "value": "$5,000"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Value USD",
+          "quote": "$5,000"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0052",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "USD"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Currency",
+          "quote": "USD"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0053",
+      "type": "note",
+      "predicate": "salary-details-frequency",
+      "value": {
+        "field": "Frequency",
+        "value": "monthly"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Frequency",
+          "quote": "monthly"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0054",
+      "type": "note",
+      "predicate": "salary-details-notes",
+      "value": {
+        "field": "Notes",
+        "value": "Flat rate"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Notes",
+          "quote": "Flat rate"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0055",
+      "type": "note",
+      "predicate": "salary-details-usd-value-on-date",
+      "value": {
+        "field": "USD Value (on date)",
+        "value": "$15,000"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, USD Value (on date)",
+          "quote": "$15,000"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0056",
+      "type": "note",
+      "predicate": "salary-details-specified-date",
+      "value": {
+        "field": "Specified Date",
+        "value": "Jan 1, 2025"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Specified Date",
+          "quote": "Jan 1, 2025"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0057",
+      "type": "note",
+      "predicate": "salary-details-frequency",
+      "value": {
+        "field": "Frequency",
+        "value": "one-time"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Frequency",
+          "quote": "one-time"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-kazune-takeda-0058",
+      "type": "note",
+      "predicate": "salary-details-notes",
+      "value": {
+        "field": "Notes",
+        "value": "No bonuses, paid at flat rate based on tasks and performance"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/kazune-takeda, Salary Details, Notes",
+          "quote": "No bonuses, paid at flat rate based on tasks and performance"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "Joe Hisaishi",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Greg Takeo",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Kazune Takeda",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Greg Takeo",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Rey Santana Socorro",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "kazune[dot]takeda[at]yahoo[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "greg[dot]takeo[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "X/Twitter",
+      "identifier": "[at]kazunetakeda25",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://kazunetakeda25.dev/",
+      "url": "hxxps://kazunetakeda25.dev/",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "kazunetakeda25",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "zhmolly",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "chubbywink",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "mtfuji25",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "borrdd34",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "zhmolly[at]proton[dot]me",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "0xmolly",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "zhmoly",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "jwtradera[at]outlook[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "5407827675",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "ETHFuji",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "kazunetakeda25",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "hxxps://linkedin.com/in/kazunetakeda25",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "locations": [
+    "Tokyo"
+  ],
+  "organizations": [
+    "Undisclosed Company 1",
+    "Undisclosed Company 2"
+  ]
+}

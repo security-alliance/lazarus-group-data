@@ -1,0 +1,13 @@
+{
+  "id": "vega-2026-09-06-kvm-investigation",
+  "publisher": "Vega Threat Intel",
+  "title": "DPRK Remote Worker Investigation: KVM over IP Hardware, Spoofed Video Input and Commercial Proxy Infrastructure on a Company Issued Endpoint",
+  "url": "https://threats.vega.io/brief/dprk-remote-worker-kvm-hardware-implant/",
+  "published_at": "2026-09-06",
+  "accessed_at": "2026-10-18",
+  "sha256": "b04da0813c54705fc33bf93253780023754615c4a259432c62729b198d495738",
+  "content_type": "text/html",
+  "languages": [
+    "en"
+  ]
+}

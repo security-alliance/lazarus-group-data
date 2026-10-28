@@ -1,0 +1,218 @@
+{
+  "id": "persona-northscan-buddy0323",
+  "type": "persona",
+  "name": "Danylo Shuliak / buddy0323",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "suspected DPRK IT-worker persona",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-northscan-github-diaries"
+    ]
+  },
+  "caveats": [
+    "Names are persona labels; DPRK attribution remains source assessment.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Danylo Shuliak",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ]
+    },
+    {
+      "value": "Lucky Man",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "buddy0323",
+      "url": "https://github.com/buddy0323",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ],
+      "note": "Source-published numeric account ID: 202320641"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "late-2026-northscan-github-diaries",
+      "source_url": "https://northscan.co/articles/github-diaries",
+      "direct_asset_url": "https://avatars.githubusercontent.com/u/202320641?v=4",
+      "caption": "Source-published: buddy0323 current public GitHub avatar",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-published-persona-email",
+      "value": "redspider0222@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "src-7df3397b93ca"
+    },
+    {
+      "source_id": "src-80409f00e021"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-buddy-northscan-cluster-assessment",
+      "type": "note",
+      "predicate": "publisher_assessed_potential_dprk_it_worker_association",
+      "value": {
+        "account": "buddy0323",
+        "assessment": "suspicious and potentially associated with DPRK IT worker activity",
+        "basis": "clustered behavior, account timing, identity misrepresentation indicators, anomalous commit history, and overlapping repository activity"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-northscan-github-diaries",
+          "locator": "Section 2, Suspicious GitHub Profiles, opening paragraph",
+          "quote": "Three GitHub accounts fullstackdev0110, reo0603, and buddy0323 are assessed as suspicious and potentially associated with DPRK IT worker activity."
+        },
+        {
+          "source_id": "late-2026-northscan-github-diaries",
+          "locator": "Executive Summary, attribution caveat",
+          "quote": "While the evidence remains behavioral and circumstantial rather than definitive attribution"
+        }
+      ],
+      "observed_at": "2026-06-30",
+      "notes": [
+        "NorthScan assessment only; the source explicitly describes the attribution as behavioral and circumstantial rather than definitive."
+      ]
+    },
+    {
+      "id": "claim-buddy-reported-persona-labels",
+      "type": "alias",
+      "predicate": "publisher_reported_cross_platform_persona_labels",
+      "value": {
+        "github_handle": "buddy0323",
+        "trello_name": "Danylo Shuliak",
+        "microsoft_alias": "Lucky Man",
+        "microsoft_country_signal": "TR"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-northscan-github-diaries",
+          "locator": "Section 5, Account: buddy0323, cross-platform paragraph",
+          "quote": "The Trello account is associated with the name Danylo Shuliak, which matches the name used by the GitHub persona, while the Microsoft account appears under the alias \"Lucky Man\" and is registered with Country: TR, indicating Turkey."
+        }
+      ],
+      "observed_at": "2026-06-30",
+      "notes": [
+        "Source-reported cross-platform labels only; the country signal is not verified residence or nationality, and the labels do not prove one natural person."
+      ]
+    },
+    {
+      "id": "claim-buddy-reported-project-activity",
+      "type": "relationship",
+      "predicate": "publisher_reported_repository_activity",
+      "value": {
+        "account": "buddy0323",
+        "project_environment": "Light-Heart-Labs/DreamServer",
+        "relationship_status": "source-reported contributor activity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-northscan-github-diaries",
+          "locator": "Section 5, paragraph before Figure 13",
+          "quote": "Similarly, the following image shows that the GitHub account buddy0323 committed code to a repository associated with the same project."
+        },
+        {
+          "source_id": "late-2026-northscan-github-diaries",
+          "locator": "Section 5, Figure 13 caption and evidence URL",
+          "quote": "Figure 13: Comit report for buddy0323 - https://github.com/Light-Heart-Labs/DreamServer/commits?author=buddy0323"
+        }
+      ],
+      "observed_at": "2026-06-30",
+      "notes": [
+        "The project is not characterized as malicious, and contributor activity does not establish employment or control of other accounts."
+      ]
+    },
+    {
+      "id": "claim-buddy-current-bright0220-fork",
+      "type": "relationship",
+      "predicate": "current_public_repository_fork_relationship",
+      "value": {
+        "repository": "buddy0323/bright0220",
+        "fork": true,
+        "parent_repository": "bright0220/bright0220"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-80409f00e021",
+          "locator": "JSON field full_name",
+          "quote": "\"full_name\": \"buddy0323/bright0220\""
+        },
+        {
+          "source_id": "src-80409f00e021",
+          "locator": "JSON field fork",
+          "quote": "\"fork\": true"
+        },
+        {
+          "source_id": "src-80409f00e021",
+          "locator": "JSON parent.full_name",
+          "quote": "\"full_name\": \"bright0220/bright0220\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "A public fork relationship is repository metadata and does not prove shared account control, common identity, or maliciousness."
+      ]
+    },
+    {
+      "id": "claim-buddy-current-profile-self-presentation",
+      "type": "note",
+      "predicate": "current_public_profile_self_presentation",
+      "value": {
+        "platform": "GitHub",
+        "handle": "buddy0323",
+        "bio_claim": "Senior Software Engineer"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-7df3397b93ca",
+          "locator": "JSON field bio",
+          "quote": "\"bio\": \"Senior Software Engineer\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Unverified platform self-presentation retained only at review tier.",
+        "The mutable bio is not proof of expertise, employment, authorship, activity, ownership, present control, or continuity with the historical persona labels."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "NorthScan-reported developer persona cluster and public GitHub account. Danylo Shuliak, Lucky Man, the current display name and buddy0323 are source-linked labels; verified civil identity and one-natural-person control require separate evidence."
+}

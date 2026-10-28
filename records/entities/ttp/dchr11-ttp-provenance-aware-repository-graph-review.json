@@ -1,0 +1,65 @@
+{
+  "id": "dchr11-ttp-provenance-aware-repository-graph-review",
+  "type": "ttp",
+  "name": "Use repository graphs only as corroborating developer-history evidence",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Original public OSINT methodology. Graph relationships are investigative leads; common control, fraud, nationality, and DPRK affiliation require source-backed corroboration.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dchr11-s02"
+    ]
+  },
+  "ttps": [
+    "developer-history-continuity",
+    "graph-correlation-with-corroboration",
+    "human-review-and-appeal",
+    "repository-provenance-review"
+  ],
+  "caveats": [
+    "Name similarity, profile images, avatars, code style, language, geography, account age, follower graphs, stars, forks, contribution volume and repository topic require corroboration before supporting legal identity, nationality, common operator or DPRK affiliation.",
+    "Keep applicant messages, resumes, emails, phone numbers, identity documents, biometrics, private repositories, credentials, tokens, payment data, wallets, raw device or network selectors, active infrastructure and copied malware code out of the record.",
+    "Accounts described by these sources remain unpublished, uncontacted, unfollowed, unstarred, unforked, unmessaged, and unprobed.",
+    "Fake-interview malware remains analytically separate from fraudulent employment unless an exact source explicitly establishes overlap.",
+    "Keep DPRK-linked fake-interview malware analytically separate from fraudulent employment unless an exact source establishes overlap.",
+    "This source's account handles are withheld because they appeared active or ambiguously personal at publication time. Profile age, follower graphs, repository topics, language, geography, avatars and activity volume are review context rather than standalone classifiers.",
+    "The record scope excludes person, persona, account, organization, repository, domain, contact value, executable code, active infrastructure selector, and applicant artifact.",
+    "Researcher-attributed graph observations remain corroborative and review-only; attribution requires combined evidence.",
+    "Researcher-attributed graph or dependency observations remain corroborative and review-only; they function as contextual signals rather than unique attribution.",
+    "Retain the publisher-visible April 23, 2025 date; embedded WordPress metadata resolves to April 24 UTC, and automated date handling should preserve the publisher-visible date.",
+    "Treat researcher and vendor attributions as claims with source, date, confidence, and limitation. Persona and account labels carry source-level identity status; civil identity is outside those labels.",
+    "Use multiple independently explainable signals, trained human review, documented reasons, proportional collection, bounded retention, and a correction or appeal path.",
+    "Verify exact package status and technical behavior independently before operational blocking; package-name similarity can create false positives."
+  ],
+  "infrastructure": [
+    {
+      "type": "provenance-aware-public-repository-review",
+      "statement": "The source pivots from an account-rental solicitation to a public code-hosting profile, then examines creation timing, followers, stargazers, repository themes, and repository content. This supports a bounded investigative workflow, but none of those signals independently proves common control, nationality, fraud, or DPRK affiliation.",
+      "defensive_use": [
+        "Compare claimed developer history with account creation, repository provenance, contribution continuity, commit authorship, and independently verifiable work history.",
+        "Review coordinated stars, followers, forks, endorsements, and assessment repositories only as graph-level leads.",
+        "Require multiple source-explicit relationships and human review before escalating; document benign explanations and provide correction or appeal.",
+        "Do not collect or republish resumes, messages, contact details, profile images, or unrelated collaborator identities discovered in repositories."
+      ],
+      "evidence_class": "original researcher-described public account investigation",
+      "source_ids": [
+        "dchr11-s02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "dchr11-s02",
+      "support": "The source pivots from an account-rental solicitation to a public code-hosting profile, then examines creation timing, followers, stargazers, repository themes, and repository content. This supports a bounded investigative workflow, but none of those signals independently proves common control, nationality, fraud, or DPRK affiliation",
+      "locator": "account-rental post to public GitHub pivot; profile creation-date comparison; followers, stargazers, assessment repositories, and repository-content discussion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,227 @@
+{
+  "id": "dpvr17-cluster-ketman-nisos-linked-github-accounts",
+  "type": "cluster",
+  "name": "Ketman expansion of the Nisos-linked historical GitHub account cluster",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Public researcher or security-vendor attribution only; account and persona labels carry source-reported status rather than legal-identity, criminal-finding, nationality, or present-control determinations.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dpvr17-ketman-russia-cluster-2025"
+    ]
+  },
+  "ttps": [
+    "code-repository-reuse",
+    "historical-public-account-cluster",
+    "mutual-following-correlation"
+  ],
+  "caveats": [
+    "The source's Russian-military-avatar interpretation remains an interpretation; Russia-based worker, Russian government, GRU, shared-personnel, and joint-operation claims require separate evidence.",
+    "Account names, display labels, avatars, language, geography, and naming similarity remain contextual signals; nationality or civil identity requires source evidence.",
+    "Historical source attribution only; current account control remains unresolved.",
+    "This record retains no screenshots, profile images, identity documents, private messages, contact data, credentials, payment identifiers, endpoint selectors or full IOC appendix.",
+    "Publish this as one source-attributed historical account cluster. The reported count describes the cluster's source scope; twenty-two is the cluster count, while individual people and verified legal identities are outside that count.",
+    "The source described the accounts as inactive on 2025-04-04; current suspension, ownership, and control require separate evidence."
+  ],
+  "aliases": [
+    {
+      "value": "AlexHarper1",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "EduardoLunaq",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "MelvinAllen",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "RaymondPayne1",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "Richard0Gibson",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "freedgregory",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "georgeee12",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    },
+    {
+      "value": "leroma1",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "EmilLa1",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "RomanHarazha",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "SeanJones11",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "ThePinion",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "belbazanas",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "cristttt",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "eddieda1",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "girlbuzz",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "itayplav",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "jocadefichain",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "shanelka-here",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ],
+      "note": "Source-published historical account in the researcher-attributed cluster; the source described the accounts as not operational on 2025-04-04, which is not a present-status finding."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-public-account-cluster",
+      "statements": [
+        "Ketman began with three accounts it says Nisos had flagged and confirmed, then reported eleven additional accounts as high-confidence DPRK IT-worker actors connected to that cluster. The source describes common empty-repository naming, typographical variants, mutual following, and occasional repository stars."
+      ],
+      "source_spelling_boundary": "The source narrative/image filename uses EmiLa1 while the IOC table prints EmilLa1; the account record retains the table spelling and does not create a second account.",
+      "source_ids": [
+        "dpvr17-ketman-russia-cluster-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dpvr17-ketman-russia-cluster-2025",
+      "support": "Ketman began with three accounts it says Nisos had flagged and confirmed, then reported eleven additional accounts as high-confidence DPRK IT-worker actors connected to that cluster. The source describes common empty-repository naming, typographical variants, mutual following, and occasional repository stars",
+      "locator": "Opening account triad; Cluster information; IOC account/display-label table"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "oleksandr-muravskyi",
+  "real_name": "Oleksandr Muravskyi",
+  "aliases": [
+    "oleksandr-muravskyi",
+    "PrinceCharming0115"
+  ],
+  "fake_names": [
+    "Artur Dranhoi"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "artur.dranhoi@exiod.io",
+    "coolprince0115@gmail.com",
+    "ole.dev300@hotmail.com",
+    "olek.muravskyi@outlook.com"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "artur-dranhoi"
+    }
+  ],
+  "notes": "Part of the Scott Brown Cluster.",
+  "images": [
+    {
+      "path": "/team-images/oleksandr-muravskyi/oleksandr-muravskyi-av.png",
+      "short_description": "Oleksandr Muravskyi avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

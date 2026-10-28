@@ -1,0 +1,1117 @@
+{
+  "id": "worker-jong-pong-ju",
+  "type": "worker",
+  "name": "Jong Pong Ju",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker charged in employer virtual-currency thefts",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad",
+      "gov-ndga-2025-indictment",
+      "lazarus-group-team"
+    ]
+  },
+  "legal_or_reported_name": "Jong Pong Ju",
+  "ttps": [
+    "alleged developer referral under an alias",
+    "alleged employment under alias",
+    "alleged false explanations over Telegram",
+    "alleged fraudulent identity document",
+    "alleged mixer laundering",
+    "alleged virtual-currency theft"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "aliases": [
+    {
+      "value": "Bryan Cho",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "value": "Chris Yu",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "atroboj",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "bugarnet",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Bryan Cho",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "other",
+      "value": "GitHub activity referenced in chats",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "Telegram account under the Bryan Cho alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "Tornado Cash (alleged laundering method)",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "bryan-cho"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-ndga-2025-indictment",
+      "support": "The indictment names Jong Pong Ju, explicitly identifies Bryan Cho as his alias, and describes the related employment and Telegram account",
+      "locator": "Indictment pp. 1-2, 8-10"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ names Jong Pong Ju in the N.D. Georgia virtual-currency case. The release-wide laptop-farm, account, and website totals concern other coordinated actions and are not attributed to him individually; the charges remain allegations.",
+      "locator": "IT Worker Actions section; N.D. Georgia case summary naming Jong Pong Ju"
+    },
+    {
+      "source_id": "crypto-chollima-reframing"
+    },
+    {
+      "source_id": "src-2e0dbe82f3ff"
+    },
+    {
+      "source_id": "legacy-upstream-research"
+    },
+    {
+      "source_id": "doj-civil-forfeiture-2025"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Jong Pong Ju in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/bryan-cho"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Jong Pong Ju",
+        "korean": "정봉주"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 1, caption",
+          "quote": "JONG PONG JU (정봉주) A/K/A ‘BRYAN CHO’"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Name and Hangul are reproduced from the indictment; charges are allegations."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-alias",
+      "type": "alias",
+      "predicate": "used_alias",
+      "value": {
+        "alias": "Bryan Cho",
+        "kind": "employment persona"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 3, paragraph 2",
+          "quote": "JONG PONG JU a/k/a ‘Bryan Cho’"
+        },
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, publisher mapping",
+          "quote": "Bryan Cho (Jong Pong Ju)"
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "North Korean crypto scheme section",
+          "quote": "Jong used the alias \"Bryan Cho.\""
+        }
+      ],
+      "notes": [
+        "Officially alleged alias; does not by itself prove every public Bryan Cho account belongs to Jong Pong Ju."
+      ]
+    },
+    {
+      "id": "claim-nationality",
+      "type": "location",
+      "predicate": "alleged_nationality",
+      "value": {
+        "country": "North Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF pp. 3-4, paragraph 2",
+          "quote": "JONG PONG JU a/k/a ‘Bryan Cho,’ and CHANG NAM IL a/k/a ‘Bong Chee Shen,’ a/k/a ‘Peter Xiao,’ were citizens of North Korea"
+        }
+      ],
+      "notes": [
+        "Allegation in an indictment, not an adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-uae-colocated-team",
+      "type": "location",
+      "predicate": "alleged_work_location",
+      "value": {
+        "country": "United Arab Emirates",
+        "period": "2019",
+        "context": "source-reported collective travel and co-located work allegation",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 7, paragraph 22(a)",
+          "quote": "The defendants, KIM KWANG JIN, KANG TAE BOK, JONG PONG JU, and CHANG NAM IL, and others unknown to the Grand Jury, traveled to locations outside of North Korea, including the United Arab Emirates, using North Korean travel documents, and lived and worked as a co-located team."
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ],
+      "notes": [
+        "The year comes from secondary reporting about the charged group. This is not an independently verified individual itinerary, residence, present location, or adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-company-2-employment",
+      "type": "employment",
+      "predicate": "alleged_remote_employment",
+      "value": {
+        "employer": "Company-2",
+        "employer_description": "virtual token development company located in Serbia",
+        "role": "IT services",
+        "alias": "Bryan Cho",
+        "start": "2021-05",
+        "end": "2022-02"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 9, paragraph 25",
+          "quote": "Since at least in or about May 2021 and continuing until in or about February 2022, defendant JONG PONG JU, using the alias ‘Bryan Cho,’ was employed by Company-2 to provide IT services."
+        }
+      ],
+      "observed_at": "2021-05-01",
+      "notes": [
+        "Employer remains unnamed in the filing."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-telegram",
+      "type": "account",
+      "predicate": "used_telegram_account",
+      "value": {
+        "platform": "Telegram",
+        "display_identity": "Bryan Cho",
+        "handle": null
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 9, paragraph 27",
+          "quote": "In or about October 2021, via Telegram, defendant JONG PONG JU, using the Telegram account for the ‘Bryan Cho’ alias, recommended that the founder of Company-2 hire ‘Peter Xiao’ as a developer."
+        }
+      ],
+      "observed_at": "2021-10-01",
+      "notes": [
+        "The official filing does not publish a Telegram username. Do not equate this account with [@]atroobj solely because both are reported in connection with Bryan Cho."
+      ]
+    },
+    {
+      "id": "claim-referred-peter-xiao",
+      "type": "relationship",
+      "predicate": "referred_for_employment",
+      "value": {
+        "person": "Chang Nam Il",
+        "persona": "Peter Xiao",
+        "employer": "Company-2",
+        "role": "developer"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF pp. 9-10, paragraph 27",
+          "quote": "In truth, ‘Peter Xiao’ was actually defendant CHANG NAM IL, which defendant JONG PONG JU knew at the time he recommended ‘Peter Xiao’ to Company-2."
+        }
+      ],
+      "observed_at": "2021-10-01",
+      "notes": [
+        "The exact day in October is not stated."
+      ]
+    },
+    {
+      "id": "claim-company-2-theft",
+      "type": "incident",
+      "predicate": "alleged_virtual_currency_theft",
+      "value": {
+        "victim": "Company-2",
+        "amount": 60,
+        "asset": "ETH",
+        "usd_value_at_time": 175680
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 10, paragraph 29",
+          "quote": "On or about February 11, 2022, defendant JONG PONG JU, using access granted to him by Company-2, fraudulently obtained virtual currency tokens valued at approximately 60 Ether (worth approximately $175,680 at the time of the theft) from Company-2"
+        }
+      ],
+      "observed_at": "2022-02-11",
+      "notes": [
+        "Allegation in an indictment; the victim company is intentionally unnamed."
+      ]
+    },
+    {
+      "id": "claim-tornado-cash",
+      "type": "incident",
+      "predicate": "allegedly_sent_stolen_funds_to_mixer",
+      "value": {
+        "service": "Tornado Cash",
+        "amount": 60,
+        "asset": "ETH"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 14, paragraph 42",
+          "quote": "On or about February 13, 2022, defendant JONG PONG JU sent virtual currency totaling approximately 60 Ether that was fraudulently obtained from Company-2 to Tornado Cash for mixing."
+        }
+      ],
+      "observed_at": "2022-02-13",
+      "notes": [
+        "Allegation in an indictment."
+      ]
+    },
+    {
+      "id": "claim-charged-status",
+      "type": "legal_event",
+      "predicate": "charged_in_federal_indictment",
+      "value": {
+        "court": "U.S. District Court for the Northern District of Georgia",
+        "case": "1:25-cr-00291",
+        "counts": [
+          "wire fraud conspiracy",
+          "money laundering conspiracy"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 2, unsealing order caption",
+          "quote": "Criminal Indictment No. 1:25-CR-291"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment – Northern District of Georgia section, first paragraph",
+          "quote": "Today, the Northern District of Georgia unsealed a five-count wire fraud and money laundering indictment charging four North Korean nationals, Kim Kwang Jin (김관진), Kang Tae Bok (강태복), Jong Pong Ju (정봉주) and Chang Nam Il (창남일)"
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "opening indictment sentence",
+          "quote": "A five-count indictment unsealed Monday in the Northern District of Georgia names Kim Kwang Jin, Kang Tae Bok, Jong Pong Ju, and Chang Nam Il as defendants in the case, accusing them of wire fraud and money laundering."
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Counts involving Jong Pong Ju are alleged, and no conviction was found in the bounded review. The filed unsealing order corrects the prior profile's erroneous 1:25-cr-00232 docket value."
+      ]
+    },
+    {
+      "id": "claim-at-large-2025",
+      "type": "legal_event",
+      "predicate": "reported_at_large",
+      "value": {
+        "status": "at large"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment – Northern District of Georgia section, first paragraph",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Status as reported on the release date; this is not a claim of current status after the research cutoff."
+      ]
+    },
+    {
+      "id": "claim-jong-collective-fbi-reward-report",
+      "type": "legal_event",
+      "predicate": "media_reported_collective_fbi_reward",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "collective reward for information leading to the arrest of the four charged men",
+        "reported_at": "2025-06-30"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "What's next section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "The amount is reported collectively and must not be presented as an individual reward amount or as proof of guilt; current reward status was not independently reverified."
+      ]
+    },
+    {
+      "id": "claim-jong-bureau61-umnal-publisher-assessment",
+      "type": "organization_affiliation",
+      "predicate": "publisher_assessed_affiliation",
+      "value": {
+        "organization": "Bureau 61",
+        "likely_front_company": "Umnal",
+        "assessment_source": "Chollima Group"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "we believe that Pemba Sherpa (Kim Kwang Jin), Charles Palmer (Kang Tae Bok), and Bryan Cho (Jong Pong Ju) are also Bureau 61 workers, most likely under the Umnal front company."
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Qualified specialist-publisher assessment retained as source-attributed review-tier OSINT only; it is not an official organization determination."
+      ]
+    },
+    {
+      "id": "claim-jong-vladivostok-publisher-assessment",
+      "type": "location",
+      "predicate": "publisher_captioned_historical_group_location",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "timeframe": "historical; exact date unstated",
+        "context": "publisher-captioned group image",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Jong Pong Ju (Bryan Cho) in Vladivostok, Russia"
+        }
+      ],
+      "notes": [
+        "Source-attributed historical caption context only. The caption does not state an image date, and no precise or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-jong-link-only-chollima-group-image",
+      "type": "image",
+      "predicate": "publisher_captioned_link_only_group_image",
+      "value": {
+        "media_type": "publisher-captioned group image",
+        "source_url": "https://chollima-group.io/posts/reframing-insights-our-research-msmt",
+        "handling": "link_only",
+        "caption_label": "Jong Pong Ju (Bryan Cho)"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Jong Pong Ju (Bryan Cho)"
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Link-only source reference. No crop, cache, redistribution, facial recognition, appearance comparison, or independent image-based identity inference is authorized."
+      ]
+    },
+    {
+      "id": "claim-legacy-chris-yu",
+      "type": "alias",
+      "predicate": "reported_cluster_alias",
+      "value": {
+        "alias": "Chris Yu"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "legacy-upstream-research",
+          "locator": "lines 299-305",
+          "quote": "#### Bryan Cho / Chris Yu / atroboj\n\n- 2021, 2022, 2023, 2024, [Zach's List](hxxps://x[.]com/zachxbt/status/1824047425822310580)\n\n- Chris Yu\n\n- Bryan Cho"
+        }
+      ],
+      "notes": [
+        "Retained as a reported legacy cluster claim; not sufficient to merge Chris Yu into Jong Pong Ju's official identity."
+      ]
+    },
+    {
+      "id": "claim-legacy-atroobj-telegram",
+      "type": "account",
+      "predicate": "reported_telegram_handle",
+      "value": {
+        "platform": "Telegram",
+        "handle": "atroobj"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "legacy-upstream-research",
+          "locator": "lines 299-313",
+          "quote": "#### Bryan Cho / Chris Yu / atroboj\n\n- 2021, 2022, 2023, 2024, [Zach's List](hxxps://x[.]com/zachxbt/status/1824047425822310580)\n\n- Chris Yu\n\n- Bryan Cho\n\n- atroobj\n\n- bugarnet\n\n- t.me/atroobj"
+        }
+      ],
+      "notes": [
+        "The spelling is atroobj, while the cluster heading and GitHub reference spell atroboj. This could be platform-specific or a transcription issue and was not resolved."
+      ]
+    },
+    {
+      "id": "claim-legacy-github-atroboj",
+      "type": "account",
+      "predicate": "reported_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "atroboj",
+        "current_status": "not found via public users API on 2026-08-14"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "legacy-upstream-research",
+          "locator": "line 315",
+          "quote": "- github.com/atroboj • [Archive](https://archive.ph/x0LMf)"
+        }
+      ],
+      "notes": [
+        "Historical attribution is from the curated source. Current non-resolution is recorded separately as a negative finding, not proof of deletion."
+      ]
+    },
+    {
+      "id": "claim-legacy-github-bugarnet",
+      "type": "account",
+      "predicate": "reported_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "bugarnet",
+        "reported_context": "Despace, 2021",
+        "current_status": "not found via public users API on 2026-08-14"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "legacy-upstream-research",
+          "locator": "line 317",
+          "quote": "- github.com/bugarnet (2021, Despace)"
+        }
+      ],
+      "observed_at": "2021-01-01",
+      "notes": [
+        "The curated source gives only year-level timing. No current account was found."
+      ]
+    },
+    {
+      "id": "claim-toptal-bryan-cho-persona",
+      "type": "employment",
+      "predicate": "public_profile_claimed_role",
+      "value": {
+        "platform": "Toptal",
+        "name": "Bryan Cho",
+        "claimed_location": "United Arab Emirates",
+        "claimed_role": "blockchain developer"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "doj-civil-forfeiture-2025",
+          "locator": "PDF p. 35, paragraph 73(c)(iii)",
+          "quote": "According to a publicly available resume in the name of Bryan Cho (‘Cho’) on Toptal’s website, Cho is a UAE-based blockchain developer."
+        }
+      ],
+      "notes": [
+        "The complaint does not identify this persona as Jong Pong Ju. Keep separate unless claim-level evidence bridges the records."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0021",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Jong Pong Ju"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Basic Information, Real Name",
+          "quote": "Jong Pong Ju"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0022",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0023",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "Chris Yu"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Basic Information, Aliases",
+          "quote": "Chris Yu"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0024",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "atroboj"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Basic Information, Aliases",
+          "quote": "atroboj"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0025",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "bugarnet"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Basic Information, Aliases",
+          "quote": "bugarnet"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0026",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Bryan Cho"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Basic Information, Fake Names",
+          "quote": "Bryan Cho"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0027",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "atroboj[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Contact Information, Emails",
+          "quote": "atroboj[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0028",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://www.justice.gov/usao-dc/media/1402691/dl"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Contact Information, Websites",
+          "quote": "hxxps://www.justice.gov/usao-dc/media/1402691/dl"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0029",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://www.npmjs.com/~atroboj"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Contact Information, Websites",
+          "quote": "hxxps://www.npmjs.com/~atroboj"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0030",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://x.com/bestvideosofct/status/1824786325834432776"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Contact Information, Websites",
+          "quote": "hxxps://x.com/bestvideosofct/status/1824786325834432776"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0031",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "atroboj"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, GitHub, GitHub ID",
+          "quote": "atroboj"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0032",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "bugarnet"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, GitHub, GitHub ID",
+          "quote": "bugarnet"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0033",
+      "type": "account",
+      "predicate": "telegram-usernames",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "[at]atroobj"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Telegram, Usernames",
+          "quote": "[at]atroobj"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0034",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0035",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "SOL"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Salary Details, Currency",
+          "quote": "SOL"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0036",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x3b9a870c24905256de10863cb360f4b93c7cc60f"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Salary Details, Addresses",
+          "quote": "0x3b9a870c24905256de10863cb360f4b93c7cc60f"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0037",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xc2b2a9c05740eeb7ee7ba7eb3ab11ec8bebcb1d1"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Salary Details, Addresses",
+          "quote": "0xc2b2a9c05740eeb7ee7ba7eb3ab11ec8bebcb1d1"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0038",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x1043efee936903951b88db23551873bb67292e95"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Salary Details, Addresses",
+          "quote": "0x1043efee936903951b88db23551873bb67292e95"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bryan-cho-0039",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "ESSfP3aAcW6Z59ozut9Jkqy9btaX5YTHt25b3Vhs2hsf"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bryan-cho, Salary Details, Addresses",
+          "quote": "ESSfP3aAcW6Z59ozut9Jkqy9btaX5YTHt25b3Vhs2hsf"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jong Pong Ju is the officially alleged worker identity charged in N.D. Ga. No. 1:25-CR-291; Bryan Cho is an officially alleged employment alias. Chollima Group separately maps Bryan Cho to Jong Pong Ju and assesses a likely Bureau 61/Umnal affiliation, while legacy Chris Yu, atroboj, atroobj, and bugarnet identifiers remain a reported cluster pending stronger selector-level evidence.",
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "atroboj[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://www.justice.gov/usao-dc/media/1402691/dl",
+      "url": "hxxps://www.justice.gov/usao-dc/media/1402691/dl",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://www.npmjs.com/~atroboj",
+      "url": "hxxps://www.npmjs.com/~atroboj",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://x.com/bestvideosofct/status/1824786325834432776",
+      "url": "hxxps://x.com/bestvideosofct/status/1824786325834432776",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "atroboj",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "bugarnet",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "[at]atroobj",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "gary-lee",
+  "real_name": "ChienHui Lee",
+  "aliases": [
+    "Gary Lee",
+    "Light Fury",
+    "Leech Developer",
+    "lightfury",
+    "light-fury",
+    "leech.developer",
+    "leech_dev"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "leech.developer@gmail.com",
+    "ddpuppy42@yahoo.com"
+  ],
+  "twitter_usernames": [
+    "lee_chienhui"
+  ],
+  "websites": [
+    "https://web.archive.org/web/20220925210750/https://daotalk.org/t/developer-proposal-chienhui-lee/2649",
+    "https://shinchanieoalerts.medium.com/gamerse-ama-summary-recap-with-shin-chan-community-8171e08ac22f",
+    "https://gamerse.gitbook.io/gamerse/team",
+    "https://x.com/zachxbt/status/1812856350151766209",
+    "https://www.justice.gov/usao-dc/media/1402691/dl",
+    "https://medium.com/@leech.developer"
+  ],
+  "employment": [
+    {
+      "company": "Gamerse"
+    },
+    {
+      "company": "DxDAO"
+    },
+    {
+      "company": "Sushi/Miso"
+    },
+    {
+      "company": "Chronos"
+    },
+    {
+      "company": "DEFIS $XGM"
+    },
+    {
+      "company": "Fantom"
+    },
+    {
+      "company": "Preon Finance"
+    },
+    {
+      "company": "Sperax"
+    }
+  ],
+  "linkedin": [
+    {
+      "id": [
+        "lee-chien-hui-50b157157"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "light-fury"
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xfcd4e8c84afd221d3b8c9c8c374a7784b314d230",
+        "0x390ed16a3e85758597db7452998d3ea66b65fd84",
+        "0x4ab0eac00d1a5b05e7a484f8678dce68b849545a",
+        "0xe8a06462628b49eb70dbf114ea510eb3bbbdf559"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/gary-lee/gary-lee-1292049042562834432.png",
+      "short_description": "Profile picture of Gary Lee.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/gary-lee/gary-lee-chien-hui-lee.png",
+      "short_description": "Profile picture of Gary Lee (ChienHui Lee).",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/gary-lee/gary-lee-karlo-lee-chan.png",
+      "short_description": "Gary Lee with Karlo Lee Chan.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

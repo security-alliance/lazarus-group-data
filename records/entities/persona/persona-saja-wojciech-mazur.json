@@ -1,0 +1,254 @@
+{
+  "id": "persona-saja-wojciech-mazur",
+  "type": "persona",
+  "name": "Wojciech Mazur",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "organizations": [
+    "claimed development work on IWDL website"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "Publish as a persona in Nisos' likely DPRK-affiliated Saja network.",
+    "Source-observed through 2025-05-01; current account ownership remains unestablished.",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Wojciech Mazur",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Freelancermap",
+      "identifier": "freelancermap profile reported by Nisos",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Wojciech Mazur as a persona or account linked to claimed development work on IWDL website; historical indicators described by the source include freelancermap profile reported by Nisos",
+      "locator": "PDF p. 12"
+    },
+    {
+      "source_id": "src-50dd4949b669"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-wojciech-source-persona",
+      "type": "identity_name",
+      "predicate": "researcher_reported_freelancer_persona",
+      "value": {
+        "name": "Wojciech Mazur",
+        "artifact": "Freelancermap profile",
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 12, Wojciech Mazur",
+          "quote": "Nisos investigators identified a freelancer website, which included a photo of the threat actor listed with the name Wojciech Mazur"
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Source-reported persona and artifact relationship only; the profile image was not used for matching."
+      ]
+    },
+    {
+      "id": "claim-wojciech-source-role",
+      "type": "skill",
+      "predicate": "freelancer_profile_claimed_developer_role",
+      "value": {
+        "claimed_role": "AI/Web/Mobile/Desktop app developer",
+        "verified": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 12, Wojciech Mazur",
+          "quote": "who claimed to be an AI/Web/Mobile/Desktop app developer from Poland."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Persona self-claim only; no skills or work history were independently verified."
+      ]
+    },
+    {
+      "id": "claim-wojciech-source-location",
+      "type": "location",
+      "predicate": "freelancer_profile_claimed_country",
+      "value": {
+        "claimed_country": "Poland",
+        "verified_location": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 12, Wojciech Mazur",
+          "quote": "who claimed to be an AI/Web/Mobile/Desktop app developer from Poland."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Country-level persona claim only; the current page's street-level location was excluded."
+      ]
+    },
+    {
+      "id": "claim-wojciech-iwdl-history",
+      "type": "employment",
+      "predicate": "persona_claimed_iwdl_website_development",
+      "value": {
+        "organization": "Inspiration With Digital Living (IWDL)",
+        "claimed_work": "company website development",
+        "verified_employment": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 12, Wojciech Mazur",
+          "quote": "the persona claimed to have worked on developing the IWDL company website"
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Persona claim only; it does not establish genuine employment or authorship."
+      ]
+    },
+    {
+      "id": "claim-wojciech-taylor-assessment",
+      "type": "relationship",
+      "predicate": "researcher_assessed_shared_operator_with_taylor_fuller",
+      "value": {
+        "other_persona": "Taylor Fuller",
+        "basis": "both personas claimed association with the IWDL website",
+        "assessment": "same threat actor may have used multiple personas"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 12, Wojciech Mazur",
+          "quote": "which is also associated with Taylor Fuller, further suggesting that the same threat actor is the user of multiple personas."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Nisos assessment, not a civil-identity merge; imagery was not used to reach this conclusion."
+      ]
+    },
+    {
+      "id": "claim-wojciech-current-profile",
+      "type": "account",
+      "predicate": "source_linked_freelancer_profile_publicly_reachable",
+      "value": {
+        "platform": "Freelancermap",
+        "profile_path": "/profile/wojciech-mazur",
+        "presented_name": "Wojciech Mazur",
+        "presented_role": "AI/WEB/Mobile/Desktop app developer",
+        "reachable_on": "2026-08-13"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-50dd4949b669",
+          "locator": "HTML title",
+          "quote": "Wojciech Mazur, AI/WEB/Mobile/Desktop app developer on www.freelancermap.com"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current public reachability and presentation do not establish present control or civil identity."
+      ]
+    },
+    {
+      "id": "claim-wojciech-current-experience",
+      "type": "skill",
+      "predicate": "current_profile_claimed_engineering_experience",
+      "value": {
+        "claimed_experience": "6+ years",
+        "claimed_level": "senior engineer",
+        "verified": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-50dd4949b669",
+          "locator": "Public profile, skills summary",
+          "quote": "With 6+ years of hands-on experience as a senior engineer."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Self-asserted profile text; experience was not independently verified."
+      ]
+    },
+    {
+      "id": "claim-wojciech-current-iwdl-project",
+      "type": "skill",
+      "predicate": "current_profile_claimed_iwdl_implementation",
+      "value": {
+        "project": "IWDL company website",
+        "claimed_stack": [
+          "Next.js",
+          "Tailwind CSS",
+          "Firestore",
+          "Typescript",
+          "SCSS"
+        ],
+        "verified_authorship": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-50dd4949b669",
+          "locator": "Public profile, Project history, Completion of IWDL company website",
+          "quote": "I developed this web site using Next.js + Tailwind CSS + Firestore + Typescript + SCSS."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current persona claim only; project authorship and the IWDL organization were not independently validated."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Source-reported employment or online persona; civil identity verification remains open for this label, account, and image."
+}

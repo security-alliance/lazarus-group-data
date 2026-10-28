@@ -1,0 +1,47 @@
+{
+  "id": "persona-stephen-bright",
+  "type": "persona",
+  "name": "Stephen Bright",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor-reported fake IT-worker persona",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-unit42-2024-wagemole"
+    ]
+  },
+  "organizations": [
+    "Wagemole"
+  ],
+  "ttps": [
+    "fabricated or misappropriated identity materials",
+    "fraudulent remote-employment persona"
+  ],
+  "caveats": [
+    "The source’s unique public account-to-name mapping is absent; the normalized evidence carries only relationship context.",
+    "The currently cited live article omits this name and retained claim locator. Keep this historical candidate out of public exports until an immutable claim-bearing version is verified; the current page leaves the earlier claim unresolved.",
+    "This is a reported employment persona; DPRK nationality or operative status for a real person bearing this name remains unestablished."
+  ],
+  "aliases": [
+    {
+      "value": "Stephen Bright",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "vendor-unit42-2024-wagemole"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-unit42-2024-wagemole",
+      "support": "Unit 42 explicitly presents Stephen Bright as a fake IT-worker persona in its Wagemole examples",
+      "locator": "Examples of Fake IT Worker Personas and associated figures"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Stephen Bright remains an unresolved historical catalog label for a reported employment persona. The current Unit 42 article and an immutable publication-day archive snapshot omit this name and a persona table; the label remains unverified and separate from a same-named account."
+}

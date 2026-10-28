@@ -1,0 +1,45 @@
+{
+  "id": "kevin-tan",
+  "fake_names": [
+    "Kevin Tan"
+  ],
+  "aliases": [
+    "diamondyhand",
+    "cruzlp#7997"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Singapore"
+  ],
+  "personal_emails": [
+    "masterdevv278@gmail.com"
+  ],
+  "phone_numbers": [
+    "+65 4298 2608"
+  ],
+  "github": [
+    {
+      "gh_id": "diamondyhand",
+      "usernames": [
+        "diamondyhand"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x44DC0a034e096B471A8eF899D71d1D3C8F19890a"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/kevin-tan/kevin-tan-1.jpg",
+      "short_description": "Kevin Tan.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

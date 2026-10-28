@@ -1,0 +1,139 @@
+{
+  "id": "ri-kwang-hun",
+  "real_name": "Ri Kwang Hun",
+  "fake_names": [
+    "MarkoZrin"
+  ],
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-ri-kwang-hun",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Ri Kwang Hun is the person named in the MSMT Annex 7 KMCTC employment table. MarkoZrin is preserved only as a source-reported employment label; it is not an established civil identity or evidence of present account control. Do not merge by name, image, nationality, geography, or technology similarity.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'MarkoZrin' is a truncated form of the name of a real Serbian software developer whose identity was stolen. BIRN / Balkan Insight (15 June 2026) confirmed he is a real person who was not involved, and attributes the fake accounts to Ri Kwang Hun citing the MSMT report. Do not expand this persona to the full name or link to the victim's own profiles.",
+      "Ri Kwang Hun does not appear in MSMT's KMCTC identity table; the name rests on the Annex 7 employment table alone.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-ri-kwang-hun-kmctc-affiliation",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ri Kwang Hun row",
+          "quote": "Ri Kwang Hun"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ri-kwang-hun-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ri-kwang-hun-label-markozrin",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ri Kwang Hun row, Alias column",
+          "quote": "MarkoZrin"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ri-kwang-hun-markozrin-ireland-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), second Ri Kwang Hun / MarkoZrin row, presented-country column; selector and rate omitted",
+          "quote": "Serbia"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), second Ri Kwang Hun / MarkoZrin row, client-country column; selector and rate omitted",
+          "quote": "Ireland"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), second Ri Kwang Hun / MarkoZrin row, duration column; selector and rate omitted",
+          "quote": "2 weeks"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ri-kwang-hun-markozrin-us-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Ri Kwang Hun / MarkoZrin row, presented-country column; selector and rate omitted",
+          "quote": "Serbia"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Ri Kwang Hun / MarkoZrin row, client-country column; selector and rate omitted",
+          "quote": "United States"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Ri Kwang Hun / MarkoZrin row, duration column; selector and rate omitted",
+          "quote": "2 months"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ri-kwang-hun-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ri Kwang Hun row, DPRK IT Worker column",
+          "quote": "Ri Kwang Hun"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

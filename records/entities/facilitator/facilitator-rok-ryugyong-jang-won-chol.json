@@ -1,0 +1,241 @@
+{
+  "id": "facilitator-rok-ryugyong-jang-won-chol",
+  "type": "facilitator",
+  "name": "JANG, WON CHOL",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Named in a Republic of Korea unilateral sanctions designation or its official living sanctions list. The status is administrative; criminal charge and conviction status remain absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ROK-MOFA-374048",
+      "ROK-MOFA-SANCTIONS-LIST"
+    ]
+  },
+  "legal_or_reported_name": "JANG, WON CHOL",
+  "romanizations": [
+    "JANG, WON CHOL"
+  ],
+  "organizations": [
+    "류경프로그램개발회사 / RYUGYONG PROGRAM DEVELOPMENT COMPANY"
+  ],
+  "locations": [
+    "Jinzhou, China"
+  ],
+  "caveats": [
+    "The Latin form appears only where an included regional primary source prints it; romanization follows source text.",
+    "The dated designation announcement and the living sanctions list are two Republic of Korea Ministry of Foreign Affairs publications in one official source family; retain both for complementary claim-level support and treat them as one source family. The living-list citation establishes list presence and naming as accessed; current activity, location, role, and operational control require newer evidence.",
+    "This record preserves the official source's stated role in an overseas IT delegation or related entity. Personal software-development work requires a separate source finding."
+  ],
+  "aliases": [
+    {
+      "value": "장원철",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "ROK-MOFA-374048",
+        "ROK-MOFA-SANCTIONS-LIST"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ROK-MOFA-374048",
+      "support": "The September 1, 2023 designation announcement names 장원철 as a 駐진저우 대표 (representative stationed in Jinzhou) of 류경프로그램개발회사 / RYUGYONG PROGRAM DEVELOPMENT COMPANY in the context of the company’s alleged involvement in dispatching DPRK IT personnel",
+      "locator": "Body under “독자제재 추가 지정 대상”; asterisked 류경프로그램개발회사 official line naming 장원철 and the role “駐진저우 대표 (representative stationed in Jinzhou)”. | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=374048 | Official document/download: https://www.mofa.go.kr/www/brd/m_4080/down.do?brd_id=235&seq=374048&data_tp=A&file_seq=2"
+    },
+    {
+      "source_id": "ROK-MOFA-SANCTIONS-LIST",
+      "support": "As accessed on 2026-08-12, the living ROK unilateral-sanctions list includes 장원철 (JANG, WON CHOL) in its 개인 designation rows with designation date 2023-09-01. This supports list presence, the designation date, and the displayed canonical name form only",
+      "locator": "개인 designation row for “장원철 (JANG, WON CHOL)”, dated 23.9.1. | Availability note (2026-08-12): Living sanctions list. A passive check followed an HTTP 307 redirect and then timed out; this does not establish removal. Keep publication_date null and use accessed_date for every extraction"
+    },
+    {
+      "source_id": "src-cc9221ab9d3a"
+    },
+    {
+      "source_id": "src-b50b20b5b012"
+    },
+    {
+      "source_id": "src-227478bc87f5"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jang-won-chol-reported-korean-name",
+      "type": "identity_name",
+      "predicate": "rok_official_source_named_subject",
+      "value": {
+        "name": "장원철",
+        "script": "Hangul"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, individual designation list and official-role line",
+          "quote": "장원철"
+        },
+        {
+          "source_id": "src-cc9221ab9d3a",
+          "locator": "Original publication, individual designation list",
+          "quote": "장원철"
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, individual designation table and company-official footnote",
+          "quote": "장원철"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "진저우 주재 대표 장원철"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "The bundle display label JANG, WON CHOL derives from an earlier observation of the living sanctions list. The currently accessible dated MOFA sources print 장원철; the living list was unavailable on the stated verification date, so the Latin form is not independently verified by those dated sources."
+      ]
+    },
+    {
+      "id": "claim-jang-won-chol-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea government",
+        "designation_date": "2023-09-01",
+        "posture": "unilateral administrative sanctions designation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, opening designation sentence and individual list",
+          "quote": "우리 정부는 한반도 및 국제사회의 평화와 안전을 위협하는 북한의 소위 ‘위성’ 명목의 탄도미사일 발사에 대응하는 차원에서 9.1.(금) 북한의 핵ㆍ미사일 개발 및 자금 조달에 관여한 개인 5명과 기관 1개를 대북 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, opening paragraph and individual designation table",
+          "quote": "9.1.(금) 북한의 핵ㆍ미사일 개발 및 자금 조달에 관여한 개인 5명과 기관 1개를 대북 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, first and third paragraphs",
+          "quote": "개인 5명과 기관 1개를 대북 독자 제재 대상으로 지정했다"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "Administrative sanctions designation only; no criminal charge, conviction, or guilt finding established."
+      ]
+    },
+    {
+      "id": "claim-jang-won-chol-ryugyong-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_company_official_affiliation",
+      "value": {
+        "organization": "류경프로그램개발회사",
+        "relationship": "source-reported company official"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, company and officials paragraph",
+          "quote": "정보 기술(IT) 인력 송출에 관여한 류경프로그램개발회사와 동 회사 관계자 5명"
+        },
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, asterisked company-official role line",
+          "quote": "장원철(駐진저우 대표)"
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, company context and company-official footnote",
+          "quote": "장원철(駐진저우대표)"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "류경프로그램개발회사이고 이 회사 사장인 류경철, 중국 선양 주재 대표 김학철, 진저우 주재 대표 장원철, 단둥 주재 대표 리철민, 부대표 김주원"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "The company is source-reported as involved in IT-personnel dispatch; that company-level allegation is not individualized as personal conduct."
+      ]
+    },
+    {
+      "id": "claim-jang-won-chol-historical-company-role",
+      "type": "employment",
+      "predicate": "rok_reported_historical_company_role",
+      "value": {
+        "organization": "류경프로그램개발회사",
+        "role": "representative",
+        "posting_context": "Jinzhou"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, asterisked company-official role line",
+          "quote": "장원철(駐진저우 대표)"
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, company-official footnote",
+          "quote": "장원철(駐진저우대표)"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "진저우 주재 대표 장원철"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "Historical source-described role and any posting context only; it does not establish present location, current employment, present control, or personal software-development activity."
+      ]
+    },
+    {
+      "id": "claim-jang-won-chol-designation-era-location",
+      "type": "location",
+      "predicate": "rok_reported_historical_posting_context",
+      "value": {
+        "location": "Jinzhou, China",
+        "source_form": "진저우",
+        "context": "designation-time company-representative posting",
+        "present_location_inference": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, company-official footnote",
+          "quote": "장원철(駐진저우대표)"
+        },
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, asterisked company-official role line",
+          "quote": "장원철(駐진저우 대표)"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "진저우 주재 대표 장원철"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "Retain only the coarse city-and-country context. This is not a residence, precise address, continued-presence, or present-location claim."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "장원철 is the Korean-script person named in Republic of Korea administrative sanctions materials as a source-reported Ryugyong Program Development Company official. The designation is an administrative action, with criminal charge, conviction, and finding of guilt outside the designation. The bundle display label JANG, WON CHOL derives from an earlier observation of the living sanctions list. The currently accessible dated MOFA sources and derivative VOA report print 장원철; the living list was unavailable on the stated verification date, so the Latin form has earlier-observation provenance and no independent verification in those dated sources. Keep this subject separate from same-named South Korean professors, arts and sports executives, doctors, actors, public officials, or public accounts unless an explicit source bridge links them. Historical role and posting descriptions cover the reported period; present location, current employment, and present control require current sources."
+}

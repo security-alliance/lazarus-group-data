@@ -1,0 +1,193 @@
+{
+  "id": "persona-john-doe-william-james",
+  "type": "persona",
+  "name": "John Doe / William James",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Review-only operational persona. William James is a DOJ-reported employment name associated with an unnamed John Doe; the employment name remains an unproved legal identity. DOJ's likely-DPRK assessment is source-attributed, with nationality adjudication outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "vong-doj-plea-2025",
+      "vong-doj-sentence-2025"
+    ]
+  },
+  "locations": [
+    "Shenyang, China"
+  ],
+  "ttps": [
+    "credential-sharing",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "The persona remains separate from real people named William James or the placeholder John Doe; name similarity leaves linkage unresolved.",
+    "Both labels lack a verified civil identity, legal name, or adjudicated nationality.",
+    "The stolen identity victim and affected employers are intentionally omitted."
+  ],
+  "aliases": [
+    {
+      "value": "William James",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "vong-doj-plea-2025",
+        "vong-doj-sentence-2025"
+      ]
+    },
+    {
+      "value": "John Doe",
+      "alias_type": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "vong-doj-sentence-2025"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "official-case-context",
+      "statements": [
+        "DOJ describes an unnamed foreign worker, referred to as John Doe, who used the name William James for remote IT employment.",
+        "DOJ reports that communications indicated this individual was likely a North Korean national; the cited releases do not establish a civil identity or adjudicate nationality."
+      ],
+      "source_ids": [
+        "vong-doj-plea-2025",
+        "vong-doj-sentence-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vong-doj-plea-2025",
+      "support": "DOJ states that Minh Phuong Ngoc Vong pleaded guilty to conspiracy to commit wire fraud after using a stolen U.S. identity to help an overseas individual obtain remote IT work at U.S. companies",
+      "locator": "Plea announcement; paragraphs describing Vong's plea and the overseas worker using the name William James"
+    },
+    {
+      "source_id": "vong-doj-sentence-2025",
+      "support": "DOJ states that Vong was sentenced to 15 months in prison and three years of supervised release, including six months of home confinement. DOJ also reports that communications indicated the foreign worker using the name William James was likely a North Korean national; that assessment is not an adjudicated nationality finding",
+      "locator": "Opening and sentencing paragraph; John Doe / William James paragraphs"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-william-james-reported-persona",
+      "type": "alias",
+      "predicate": "reported_employment_name",
+      "value": {
+        "placeholder": "John Doe",
+        "employment_name": "William James"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "Opening paragraph",
+          "quote": "John Doe, also known as William James"
+        },
+        {
+          "source_id": "vong-doj-sentence-2025",
+          "locator": "Second paragraph",
+          "quote": "John Doe, aka William James"
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "DOJ's placeholder and reported employment name do not establish a legal name or civil identity."
+      ]
+    },
+    {
+      "id": "claim-william-james-reported-location",
+      "type": "location",
+      "predicate": "reported_location_at_time_of_scheme",
+      "value": {
+        "location": "Shenyang, China"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "Opening paragraph",
+          "quote": "a foreign national living in Shenyang, China"
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "Historical DOJ-reported location, not a current residence or precise address."
+      ]
+    },
+    {
+      "id": "claim-william-james-credential-use",
+      "type": "incident",
+      "predicate": "reported_use_of_facilitator_credentials",
+      "value": {
+        "activity": "used Vong's computer access credentials to perform remote software-development work",
+        "period": "March 2023 to July 2023",
+        "reported_origin": "China"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "March-July 2023 chronology paragraph",
+          "quote": "Between March 2023 and July 2023, Doe used Vong’s credentials to perform the software development work from his location in China."
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "Reported conduct in Vong's plea announcement; no credential value, employer identity, or victim selector is retained."
+      ]
+    },
+    {
+      "id": "claim-william-james-fraudulent-resume",
+      "type": "incident",
+      "predicate": "reported_submission_of_fraudulent_resume",
+      "value": {
+        "activity": "submitted a fraudulent resume in Vong's name",
+        "date": "2023-01-30",
+        "role_type": "web application developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "Jan. 30, 2023 chronology paragraph",
+          "quote": "According to the plea agreement, on Jan. 30, 2023, Doe submitted a fraudulent resume in Vong’s name to a Virginia-based technology company for the position of web application developer, which required U.S. citizenship as a condition of employment."
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "The affected company is deliberately unnamed; the assertion is sourced to Vong's plea agreement and is not a separate adjudication of Doe."
+      ]
+    },
+    {
+      "id": "claim-william-james-likely-dprk-assessment",
+      "type": "relationship",
+      "predicate": "doj_reported_likely_nationality_assessment",
+      "value": {
+        "assessment": "likely a North Korean national",
+        "basis": "communications",
+        "reported_purpose": "working to generate revenue for the North Korean government"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "vong-doj-sentence-2025",
+          "locator": "Second paragraph",
+          "quote": "Additionally, Doe’s communications indicate that he is likely a North Korean national who was working to generate revenue for the North Korean government."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "DOJ assessment only; nationality and civil identity were not adjudicated in the reviewed releases."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "John Doe is DOJ's placeholder for an unnamed foreign worker who used William James as an employment name. Both labels remain source placeholders rather than verified civil identities. Preserve the distinction between Vong's conviction and DOJ's source-attributed assessment that Doe was likely a North Korean national; common labels remain separate from same-named people."
+}

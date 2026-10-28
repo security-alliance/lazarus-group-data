@@ -1,0 +1,507 @@
+{
+  "id": "facilitator-kim-se-un",
+  "type": "facilitator",
+  "name": "Kim Se Un",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. The entry describes a DPRK procurement and IT-worker network facilitator under an administrative sanctions designation; criminal charge and conviction status are absent from this record.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-264fee881740",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Kim Se Un",
+  "organizations": [
+    "Korea Sobaeksu Trading Corporation"
+  ],
+  "locations": [
+    "Ho Chi Minh City, Vietnam (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The city is sanctions-list context; current presence and activity require separate evidence."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current"
+      ],
+      "value": "KIM, Se-u'n"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Korea Sobaeksu Trading Corporation",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-kim-se-un"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-264fee881740",
+      "support": "OFAC designated Korea Sobaeksu Trading Company, Kim Se Un, Jo Kyong Hun, and Myong Chol Min for sanctions evasion and IT-worker revenue schemes",
+      "locator": "Overseas Trading and IT Worker Networks section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 54763 support only the retained coarse sanctions-list location values. The city is sanctions-list context and does not establish current presence or activity. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 54763"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "The current exact-ID ALT row(s) joined to OFAC entity number 54763 supply the alternate spelling(s): KIM, Se-u'n. No name-only identity inference is used",
+      "locator": "ALT.CSV current row(s) joined to OFAC entity number 54763"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 54763 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add a alternate spelling, Ho Chi Minh City listing context, and an explicit Korea Sobaeksu link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 54763"
+    },
+    {
+      "source_id": "dln26-s03"
+    },
+    {
+      "source_id": "src-103561fd2357"
+    },
+    {
+      "source_id": "gov-54cada63e515"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-se-un-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "KIM, Se Un",
+        "display": "Kim Se Un"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 54763",
+          "quote": "54763,\"KIM, Se Un\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "The OFAC entity number binds the primary name to the current row; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-hangul",
+      "type": "identity_name",
+      "predicate": "ofac_listed_hangul_name_form",
+      "value": {
+        "hangul": "김세운",
+        "ofac_entity_number": "54763"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s03",
+          "locator": "Specially Designated Nationals List Update, Kim entry",
+          "quote": "KIM, Se Un (Hangul: 김세운) (a.k.a. KIM, Se-u'n)"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Official source-scoped Hangul name form; it is not used to merge another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "KIM, Se-u'n",
+        "ofac_entity_number": "54763"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row joined by OFAC entity number 54763",
+          "quote": "54763,85264,\"aka\",\"KIM, Se-u'n\",-0-"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-current-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "NPWMD",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 54763",
+          "quote": "54763,\"KIM, Se Un\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-ofac-linked-sobaeksu",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Korea Sobaeksu Trading Corporation",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 54763",
+          "quote": "Linked To: KOREA SOBAEKSU TRADING CORPORATION."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-sobaeksu-representative",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_company_representative_role",
+      "value": {
+        "organization": "Korea Sobaeksu Trading Company",
+        "role": "North Korean representative"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "Kim Se Un is a North Korean representative of Sobaeksu"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury designation-time report; no present employment or location is inferred."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-subordinate-network",
+      "type": "incident",
+      "predicate": "treasury_reported_subordinate_company_and_it_worker_hiring",
+      "value": {
+        "reported_activity": [
+          "used subordinate companies to support revenue generation",
+          "operated a Vietnam-based company",
+          "hired additional North Korean IT workers for development outside the DPRK"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "including by operating a company based out of Vietnam and hiring additional North Korean IT workers to facilitate IT development outside of the DPRK."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury administrative report retained as source-attributed public incident context, not an adjudicated finding. No company name, worker identity, employer, client, account, payment, residence, precise location, or current-location selector is retained; Vietnam describes the unnamed company's historical country context, not Kim's present location."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-07-24",
+        "authority_basis": "Executive Order 13382",
+        "basis_entity": "Korea Sobaeksu Trading Company"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "OFAC is designating Kim Se Un pursuant to E.O. 13382 for having provided, or attempted to provide, financial, material, technological, or other support for, or goods or services in support of, Sobaeksu"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-state-kim-se-un-spelling",
+      "type": "identity_name",
+      "predicate": "state_department_reported_name_form",
+      "value": {
+        "name": "Kim Se-Un",
+        "publisher": "U.S. Department of State"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-103561fd2357",
+          "locator": "Reward-offer paragraph",
+          "quote": "up to $3 million each for Myong Chol-Min and Kim Se-Un"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Source-explicit State Department spelling bridged by the same release's Treasury link and subject-specific reward and IT-worker context; it is not a merge based on name similarity alone."
+      ]
+    },
+    {
+      "id": "claim-state-kim-se-un-reward",
+      "type": "legal_event",
+      "predicate": "individual_reward_offer_announced",
+      "value": {
+        "program": "Transnational Organized Crime Rewards Program",
+        "maximum_amount_usd": 3000000,
+        "offer_scope": "individual"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-103561fd2357",
+          "locator": "Reward-offer paragraph",
+          "quote": "The Department of State’s reward offers include an increase of up to $7 million for Sim Hyon-Sop, up to $3 million each for Myong Chol-Min and Kim Se-Un"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "An offer of up to USD 3 million, not a payment, fixed bounty, conviction, or finding of guilt."
+      ]
+    },
+    {
+      "id": "claim-state-reward-condition",
+      "type": "legal_event",
+      "predicate": "reward_program_condition",
+      "value": {
+        "qualifying_information": "information leading to arrest and/or conviction",
+        "jurisdiction_scope": "any country"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-103561fd2357",
+          "locator": "Opening paragraph",
+          "quote": "for information leading to the arrests and/or convictions, in any country, of North Korean nationals Sim Hyon-sop and six co-conspirators involved in these schemes"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "The program-wide condition is retained separately from Kim's individual maximum offer. It does not establish that an arrest or conviction has occurred."
+      ]
+    },
+    {
+      "id": "claim-state-charged-group-statement",
+      "type": "legal_event",
+      "predicate": "included_in_state_reported_charged_group",
+      "value": {
+        "group_description": "Sim Hyon-Sop and six co-conspirators",
+        "reported_conduct": "role in illicit activities to buy and sell tobacco from North Korea to gain access to U.S. dollars",
+        "instrument_resolved": false,
+        "individual_count_resolved": false,
+        "disposition_resolved": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-103561fd2357",
+          "locator": "Charged-group and reward paragraphs read together",
+          "quote": "Sim Hyon-Sop and six co-conspirators were charged for their role in illicit activities to buy and sell tobacco from North Korea to gain access to U.S. dollars."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "State names Kim among the seven reward subjects immediately after this group statement, but no charging instrument, docket, jurisdiction, individualized count, or procedural disposition for Kim was resolved.",
+        "This is retained at review tier as a group-level government statement. It is not represented as a fully resolved individual indictment, conviction, or adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-state-kim-it-worker-schemes",
+      "type": "incident",
+      "predicate": "state_reported_involvement_in_it_worker_schemes",
+      "value": {
+        "source_relationship": "one of Sim Hyon-Sop's co-conspirators",
+        "reported_activity": "involved in illicit IT worker schemes"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-103561fd2357",
+          "locator": "IT-worker-scheme paragraph",
+          "quote": "Sim Hyon-Sop and some of his co-conspirators—including Kim Se-Un—have also been involved in illicit IT worker schemes."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "State Department allegation, not an adjudicated finding. It does not identify an employer, client, worker, account, infrastructure selector, or specific charged count."
+      ]
+    },
+    {
+      "id": "claim-2026-do-proxy-qualified-identity-use",
+      "type": "relationship",
+      "predicate": "treasury_reported_proxy_and_qualified_identity_use",
+      "value": {
+        "person": "Do Phi Khanh",
+        "relationship": "associate and proxy",
+        "qualified_assessment": "likely allows Kim to use Do's identity to open bank accounts and launder proceeds from DPRK IT workers",
+        "qualifier": "likely"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph",
+          "quote": "Do Phi Khanh (Do) is an associate of U.S.-sanctioned DPRK nuclear procurement facilitator Kim Se Un (Kim), who acts as Kim’s proxy and likely allows Kim to use his identity to open bank accounts and launder proceeds from DPRK IT workers."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury's likely qualifier is preserved. No bank, account, identity-document, proceeds destination, or transaction selector is retained, and no present account control is inferred."
+      ]
+    },
+    {
+      "id": "claim-2026-hoang-bank-crypto-assistance",
+      "type": "relationship",
+      "predicate": "treasury_reported_financial_assistance",
+      "value": {
+        "person": "Hoang Van Nguyen",
+        "reported_assistance": [
+          "opening bank accounts for Kim",
+          "enabling cryptocurrency transactions for Kim"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph",
+          "quote": "Hoang Van Nguyen (Hoang) also assists Kim in opening bank accounts, as well as enabling cryptocurrency transactions for Kim."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative-source allegation. No bank, account, cryptocurrency asset, wallet, transaction, or present-control selector is retained."
+      ]
+    },
+    {
+      "id": "claim-2026-hoang-foreign-currency-procurement",
+      "type": "incident",
+      "predicate": "treasury_reported_foreign_currency_procurement",
+      "value": {
+        "collaborator": "Hoang Van Nguyen",
+        "beneficiary_reported_by_source": "DPRK regime"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph",
+          "quote": "Hoang has worked with Kim to procure foreign currency for the DPRK regime"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative-source allegation. No currency, amount, route, financial institution, account, or transaction selector is supplied or inferred."
+      ]
+    },
+    {
+      "id": "claim-2026-kim-counterfeit-cigarette-deal",
+      "type": "incident",
+      "predicate": "treasury_reported_counterfeit_cigarette_transaction",
+      "value": {
+        "year": 2022,
+        "facilitator": "Hoang Van Nguyen",
+        "reported_amount": "exceeding USD 200,000",
+        "relationship": "on Kim's behalf"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph",
+          "quote": "in 2022, Hoang facilitated a counterfeit goods cigarette deal exceeding $200,000 on Kim’s behalf"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative-source allegation, not an adjudicated transaction finding. No counterparties, goods route, account, payment, shipment, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-2026-do-hoang-designated-for-support-kim",
+      "type": "relationship",
+      "predicate": "treasury_reported_support_designation_relationship",
+      "value": {
+        "persons": [
+          "Do Phi Khanh",
+          "Hoang Van Nguyen"
+        ],
+        "authority": "Executive Order 13382",
+        "designation_basis_relationship": "support of Kim Se Un"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang designation sentence",
+          "quote": "OFAC is designating Do and Hoang pursuant to E.O. 13382 for having provided, or attempted to provide, financial, material, technological or other support for, or goods or services in support of Kim."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative designation relationship concerning Do and Hoang; it is not a criminal charge, conviction, or separate redesignation of Kim in March 2026."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kim Se Un, listed by OFAC as KIM, Se Un with Hangul 김세운 and alternate spelling KIM, Se-u'n, is the Korea Sobaeksu representative described in Treasury's July 2025 action and the Kim Se-Un named in the same-day State Department reward release. Preserve administrative designation separately from State's group statement that Sim Hyon-Sop and six co-conspirators were charged: the cited evidence resolves the administrative designation and group charging statement, while Kim-specific charging instrument, docket, jurisdiction, individualized count, and disposition remain unresolved. Keep reward terms, 2025 and 2026 network allegations, and source-time roles distinct; guilt, present location, account or wallet ownership, and same-named-public-account identity remain unresolved."
+}

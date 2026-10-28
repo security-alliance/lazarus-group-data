@@ -1,0 +1,47 @@
+{
+  "id": "deep2-unhistory-yanji-dalian-it-worker-groups",
+  "type": "cluster",
+  "name": "Yanji and Dalian IT-worker groups and revenue",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel-reported Member State allegation with a China response and one company relationship lacking a response.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020"
+    ]
+  },
+  "ttps": [
+    "multiple-personas",
+    "regime-remittance",
+    "team-manager"
+  ],
+  "caveats": [
+    "China said relevant employment contracts had expired by 22 December 2019 and reported implementation of repatriation obligations.",
+    "The Panel stated it had yet to receive a reply regarding Dalian Xinlu; manager/company claims remain Member State information."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported four Munitions Industry Department-subordinate IT-worker groups operating in Yanji, Jilin, in early 2020; two were closely linked to Yanji Silver Star Network Science and Technology Co. Ltd.",
+        "One 16-worker group at Yanji Development Zone Science and Technology Industrial Park reportedly earned nearly $1 million in 2019; a second 15-worker group was relocated from Cambodia and sponsored for entry by Yanji Silver Star.",
+        "Kim Ryu Song reportedly led a seven-worker team and controlled another five-person team; Kwon Kwang Ho led a separate seven-worker team.",
+        "Ma Tong Hyok was reported as a key Dalian-based IT manager involved in bringing workers to China, and Kim Han-su as a China-based worker and manager of multiple teams; Dalian Xinlu Science and Technology Co. Ltd. was linked to the investigation."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+      "support": "Supports the four groups, team sizes, revenue, managers, company links and China response",
+      "locator": "PDF pp. 33-34, paras. 106-110; annexes 46-47"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

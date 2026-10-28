@@ -1,0 +1,231 @@
+{
+  "id": "worker-cho-mun-song",
+  "type": "worker",
+  "name": "Cho Mun Song",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT Participating State information in MSMT/2025/2; named by an issuing government or multilateral sanctions-monitoring source. This is an official report posture from one cited source family; criminal charge, conviction, sanctions designation, and adjudication are outside this entry.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Cho Mun Song",
+  "organizations": [
+    "SANS FAB IT / Sangsin delegation"
+  ],
+  "locations": [
+    "Laos; many relocated to China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Same-source depth from the already-admitted MSMT/2025/2 report; this fragment belongs to that source family rather than independent corroboration.",
+    "Victim and employer names, accounts, payments, selectors, contacts, identity documents, birth dates, and precise addresses are excluded."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "reported-link",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ],
+      "value": "Jo Mun Song"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-source-internal-spelling-bridge",
+      "narrative_form": "Jo Mun Song",
+      "annex_form": "Cho Mun Song",
+      "relationship": "source-internal spelling variant",
+      "civil_identity_expansion": false,
+      "new_natural_person": false,
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annexes 12 and 14. 'Uh In Song' appears as 'U In Song' in Annex 14; treated as a spelling variant within the same source, not an independently inferred identity | Other DPRK IT workers linked to Sangsin include Ho Kwang Myong, Jo Mun Song and Kang Hyok. Cho Mun Song",
+      "locator": "Annex 12 delegation-member list, PDF p. 131 / printed p. 129; Annex 14 relocation list, PDF p. 133 / printed p. 131 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221 | Sangsin case study, PDF file p. 68 (printed p. 66), and Annex 12, PDF file p. 131 (printed p. 129)"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-cho-mun-song-reported-name",
+      "type": "identity_name",
+      "predicate": "msmt_reported_delegation_member_name",
+      "value": {
+        "name": "Cho Mun Song"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12, Individuals Associated with SANS FAB IT/Sangsin Delegation, printed p. 129 / PDF p. 131",
+          "quote": "Cho Mun Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State list entry; no civil-identity or account bridge retained."
+      ]
+    },
+    {
+      "id": "claim-cho-mun-song-sans-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_sans_fab_sangsin_association",
+      "value": {
+        "organization": "SANS FAB IT/Sangsin delegation",
+        "relationship": "associated delegation member"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 heading, printed p. 129 / PDF p. 131",
+          "quote": "Individuals Associated with SANS FAB IT/Sangsin Delegation"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 list, printed p. 129 / PDF p. 131",
+          "quote": "Cho Mun Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The list records association only; no specific task, account, victim, or payment claim is made for Cho Mun Song."
+      ]
+    },
+    {
+      "id": "claim-cho-mun-song-historical-relocation",
+      "type": "location",
+      "predicate": "msmt_reported_historical_delegation_relocation_context",
+      "value": {
+        "from": "Laos",
+        "to": "China",
+        "period": "late 2024",
+        "context": "delegation relocation list"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 heading, printed p. 131 / PDF p. 133",
+          "quote": "Individuals from SANS FAB IT Delegation who Relocated from Laos to China"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 list, printed p. 131 / PDF p. 133",
+          "quote": "Cho Mun Song"
+        }
+      ],
+      "observed_at": "2024-12-31",
+      "notes": [
+        "Historical source context only; no present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-cho-mun-song-sangsin-delegation-earnings-context",
+      "type": "incident",
+      "predicate": "msmt_reported_sangsin_delegation_earnings_context",
+      "value": {
+        "organization": "SANS FAB IT/Sangsin delegation",
+        "reported_aggregate": "over USD 2.5 million",
+        "reported_period": "mid-2019 to mid-2024",
+        "scope": "delegation-level",
+        "individual_amount_attributed": false,
+        "individual_conduct_attributed": false,
+        "financial_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "The delegation earned over $2.5 million between mid-2019 and mid-2024"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT delegation-level context only; no portion of the aggregate, receipt, control, transaction, or underlying work is attributed to this individual.",
+        "No account, payment record, transaction, client, victim, counterparty, financial selector, or other personal data is retained."
+      ]
+    },
+    {
+      "id": "claim-cho-mun-song-annex14-link-only-media",
+      "type": "image",
+      "predicate": "publisher_pdf_annex_page_link_only_media_reference",
+      "value": {
+        "publisher": "Multilateral Sanctions Monitoring Team",
+        "source_document_id": "doc-331cc418089a",
+        "source_page": "PDF file p. 133 (printed p. 131)",
+        "annex": "Annex 14",
+        "annex_heading": "Individuals from SANS FAB IT Delegation who Relocated from Laos to China",
+        "subject_label": "Cho Mun Song",
+        "media_type": "publisher PDF annex page",
+        "handling": "link_only",
+        "narrative_reference_only": true,
+        "direct_asset_retained": false,
+        "image_extracted": false,
+        "identification_use": false,
+        "appearance_inference": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 delegation-member entry, PDF file p. 133 (printed p. 131)",
+          "quote": "Cho Mun Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Narrative and publisher-document link only; no page image, crop, embedded asset, or direct image file is retained or republished.",
+        "The annex is a source-labeled name list, not an appearance claim; no facial matching, visual identity resolution, or appearance inference was performed."
+      ]
+    },
+    {
+      "id": "claim-cho-mun-song-jo-spelling-bridge-round61",
+      "type": "alias",
+      "predicate": "msmt_source_internal_spelling_variant",
+      "value": {
+        "canonical_annex_form": "Cho Mun Song",
+        "narrative_form": "Jo Mun Song",
+        "bridge_scope": "same MSMT report narrative and annex",
+        "independent_corroboration": false,
+        "civil_identity_expansion": false,
+        "new_natural_person": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "Other DPRK IT workers linked to Sangsin include Ho Kwang Myong, Jo Mun Song and Kang Hyok."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 delegation-member list, PDF file p. 131 (printed p. 129)",
+          "quote": "Cho Mun Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "This is a source-internal spelling bridge within MSMT/2025/2, not a second source or a new natural-person identity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "The cited sources establish a legal or officially reported worker identity within their stated bounds; name or image similarity leaves related records separate pending a source link."
+}

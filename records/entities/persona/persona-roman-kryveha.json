@@ -1,0 +1,304 @@
+{
+  "id": "persona-roman-kryveha",
+  "type": "persona",
+  "name": "Roman Kryveha",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s2"
+    ]
+  },
+  "ttps": [
+    "resume introduction substantially reused with Karl Chong"
+  ],
+  "caveats": [
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "Karl Chong and Roman Kryveha used the same or similar resume introduction",
+      "locator": "Reused Resume Content, Graphics 14-15, report pp. 7-8"
+    },
+    {
+      "source_id": "drpd63-nisos-mitigation"
+    },
+    {
+      "source_id": "src-c848f7579cc5"
+    },
+    {
+      "source_id": "drp51-github-kanbei0605-user"
+    },
+    {
+      "source_id": "src-c64cae56c83b"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-roman-resume-reuse",
+      "type": "relationship",
+      "predicate": "researcher_reported_similar_resume_introduction",
+      "value": {
+        "other_persona": "Karl Chong",
+        "shared_claim": "over seven years of blockchain-development experience"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 7, Reused Resume Content",
+          "quote": "DPRK-affiliated personas Karl Chong and Roman Kryveha for example stated that they both are experienced developers with over seven years of experience in blockchain development."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Similar resume language is an artifact relationship, not proof of a shared operator or civil identity."
+      ]
+    },
+    {
+      "id": "claim-roman-reported-persona-network",
+      "type": "relationship",
+      "predicate": "researcher_assessed_fake_employment_persona_network",
+      "value": {
+        "name": "Roman Kryveha",
+        "related_personas": [
+          "Karl Chong",
+          "Ram Maharjan"
+        ],
+        "publisher_assessment": "likely created to obtain remote employment",
+        "shared_selector_retained": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 3, Executive Summary",
+          "quote": "Two additional fake personas, Roman Kryveha and Ram Maharjan, who share contact information with Karl Chong, were likely created to also obtain remote employment as part of the employment scheme."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Publisher assessment only. The shared contact value was not retained, and the relationship does not prove one operator."
+      ]
+    },
+    {
+      "id": "claim-roman-reported-role-locations",
+      "type": "employment",
+      "predicate": "source_reported_persona_role_and_locations",
+      "value": {
+        "claimed_roles": [
+          "senior front-end developer",
+          "full-stack developer"
+        ],
+        "claimed_locations": [
+          "Finland",
+          "Singapore"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 9, Roman Kryveha",
+          "quote": "Roman Kryveha claims to be a senior front-end and full-stack developer from Finland."
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 9, Roman Kryveha",
+          "quote": "Roman Kryveha has two accounts on freelancer websites, which list his locations as Finland and Singapore."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical persona claims, not verified employment, expertise, nationality, or actual location."
+      ]
+    },
+    {
+      "id": "claim-roman-historical-github",
+      "type": "account",
+      "predicate": "source_reported_github_username",
+      "value": {
+        "platform": "GitHub",
+        "username": "kanbei0605",
+        "relationship_scope": "listed by the source-reported Roman Kryveha website"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 9, Roman Kryveha",
+          "quote": "he claims to be the user of GitHub account kanbei0605."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical source attribution; present control and same-operator identity are not established."
+      ]
+    },
+    {
+      "id": "claim-roman-reused-portfolio-content",
+      "type": "relationship",
+      "predicate": "publisher_reported_third_party_portfolio_content",
+      "value": {
+        "artifact": "Roman Kryveha website portfolio examples",
+        "finding": "examples attributed by the publisher to a different designer and public templates"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 9, Reused portfolio content",
+          "quote": "Many of the portfolio examples on Roman Kryveha’s website were designed by a different individual,"
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 9, Reused portfolio content",
+          "quote": "and are based on templates linking to website Bootstrapmade[.]com."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "The third party's name and work-product details were excluded. This is a publisher-reported portfolio-provenance finding, not a civil-identity conclusion."
+      ]
+    },
+    {
+      "id": "claim-roman-website-current",
+      "type": "infrastructure",
+      "predicate": "current_public_source_linked_website_metadata",
+      "value": {
+        "url": "https://roman-profile.vercel.app/",
+        "title": "Roman Portfolio",
+        "self_presented_name": "Roman Kryveha",
+        "self_presented_role": "Senior Front End and Full Stack Developer",
+        "self_presented_location": "Helsinki, Finland",
+        "http_status": 200
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-c848f7579cc5",
+          "locator": "HTML title",
+          "quote": "Roman Portfolio"
+        },
+        {
+          "source_id": "src-c848f7579cc5",
+          "locator": "Rendered page h1",
+          "quote": "Roman Kryveha"
+        },
+        {
+          "source_id": "src-c848f7579cc5",
+          "locator": "Rendered page h2",
+          "quote": "I'm a passionate Senior Front End and Full Stack Developer"
+        },
+        {
+          "source_id": "src-c848f7579cc5",
+          "locator": "Rendered page location field",
+          "quote": "Helsinki, Finland"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current source-linked public page state only; it does not establish present controller, civil identity, employment, or actual location."
+      ]
+    },
+    {
+      "id": "claim-roman-github-current",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kanbei0605",
+        "numeric_id": 116683582,
+        "public_repositories": 5,
+        "created_at": "2022-10-25T20:39:38Z",
+        "updated_at": "2024-03-10T23:20:14Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"kanbei0605\""
+        },
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "JSON field id",
+          "quote": "\"id\": 116683582"
+        },
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 5"
+        },
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2022-10-25T20:39:38Z\""
+        },
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "JSON field updated_at",
+          "quote": "\"updated_at\": \"2024-03-10T23:20:14Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current metadata for the source-linked handle; present control and the identity of any controller remain unknown."
+      ]
+    },
+    {
+      "id": "claim-roman-github-repository-inventory",
+      "type": "account",
+      "predicate": "current_public_repository_metadata_inventory",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kanbei0605",
+        "owner_filtered_repositories": 5,
+        "forks_reported": 0,
+        "archived_reported": 0,
+        "language_reported": null,
+        "repository_creation_range": [
+          "2023-05-18T22:28:05Z",
+          "2023-05-18T22:29:01Z"
+        ],
+        "latest_reported_push": "2023-05-18T22:29:14Z",
+        "content_reviewed": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 5"
+        },
+        {
+          "source_id": "src-c64cae56c83b",
+          "locator": "Repeated JSON language fields",
+          "quote": "\"language\": null"
+        },
+        {
+          "source_id": "src-c64cae56c83b",
+          "locator": "Latest pushed_at field in returned array",
+          "quote": "\"pushed_at\": \"2023-05-18T22:29:14Z\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Metadata inventory only. Null language fields are not evidence that repositories lack content, and the inventory does not establish authorship or current control."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Nisos reports an employment persona linked through historical resume, portfolio, website, freelancer, and GitHub artifacts. Roman Kryveha, Karl Chong, Ram Maharjan, related account labels, claimed locations, profile content, and imagery remain source-reported labels requiring identity evidence."
+}

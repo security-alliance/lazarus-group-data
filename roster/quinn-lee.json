@@ -1,0 +1,60 @@
+{
+  "id": "quinn-lee",
+  "real_name": "Quinn Lee",
+  "aliases": [
+    "QuinnDuck",
+    "letteldream",
+    "rustumatizon",
+    "0xkonka",
+    "0xfury"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "letteldream@gmail.com"
+  ],
+  "telegram": [
+    {
+      "usernames": [
+        "QuinnDuck"
+      ]
+    }
+  ],
+  "websites": [
+    "https://quinn-lee.netlify.app/",
+    "https://laborx.com/freelancers/users/id126269"
+  ],
+  "employment": [
+    {
+      "company": "Arc Market?"
+    },
+    {
+      "company": "Fastswap?"
+    },
+    {
+      "company": "Grape Finance?"
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "rustumatizon"
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0xf9adac8658e08893fb4e91c1062e471eb11cb6c7",
+        "0x9de5d3158b0b83e9211c7444c94ce0c53763f574"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/quinn-lee/quinn-lee-av.png",
+      "short_description": "Quinn Lee avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

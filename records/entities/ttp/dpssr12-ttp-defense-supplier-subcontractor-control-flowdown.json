@@ -1,0 +1,60 @@
+{
+  "id": "dpssr12-ttp-defense-supplier-subcontractor-control-flowdown",
+  "type": "ttp",
+  "name": "Flow remote-worker identity controls through defense supplier chains",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party Lockheed Martin supplier guidance dated 2023-12-13. It is supplier guidance; statutes, regulations, procurement mandates, adjudications, and DPRK IT-worker incident disclosures involving Lockheed Martin or any named supplier or subcontractor require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPSSR12-S01-LOCKHEED-SUPPLIER-2023"
+    ]
+  },
+  "ttps": [
+    "hiring-manager-awareness",
+    "prime-contractor-escalation",
+    "remote-identity-management",
+    "remote-worker-identity-verification",
+    "routine-control-audits",
+    "supplier-and-subcontractor-control-flowdown",
+    "trusted-information-sharing",
+    "work-authorization-and-location-review"
+  ],
+  "caveats": [
+    "Apply the process proportionately and lawfully. DPRK affiliation requires evidence beyond nationality, accent, appearance, disability, camera behavior, geography, remote-work status, or any single inconsistency. Preserve human review and accommodations.",
+    "Nationality, accent, language, appearance, disability, camera behavior, geography, remote-work status, payment method, and any single inconsistency require corroboration before supporting a DPRK-affiliation finding.",
+    "Generalize the control rather than implying that Lockheed Martin, a supplier, or a subcontractor experienced an incident.",
+    "Unnamed organizations, suppliers, subcontractors, candidates, workers, and victims remain unidentified and outside inference.",
+    "Supplier guidance and industry proposals provide defensive context; incident-disclosure and DPRK-affiliation status require separate evidence.",
+    "The source's separate unnamed candidate-mismatch anecdote is attributed outside the North Korea case and remains outside the DPRK incident or lead record.",
+    "This is a governance control derived from supplier guidance; Lockheed Martin, a named supplier, or a subcontractor incident requires a separate incident source.",
+    "Use lawful, proportionate, privacy-preserving controls with trained human review, accommodations, documented reasons, bounded retention, and a meaningful correction or appeal path."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-defense-prime-supplier-guidance",
+      "statement": "For remote technical hiring and contracting, define interview, identity-verification, work-authorization, background, and work-location procedures; verify that they are followed; and require comparable screening requirements of subcontractors. Pair the flow-down with HR and hiring-manager awareness, routine control audits, remote identity management, participation in trusted industry/government information-sharing, and escalation to the prime contractor when concerns arise.",
+      "evidence_class": "first-party defense-prime supplier guidance",
+      "sector": "defense industrial base and supplier chain",
+      "source_ids": [
+        "DPSSR12-S01-LOCKHEED-SUPPLIER-2023"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dcsr9-ttp-contingent-workforce-supplier-governance",
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DPSSR12-S01-LOCKHEED-SUPPLIER-2023",
+      "support": "Lockheed Martin describes identity-misrepresentation risk in remote hiring and contracting, expressly cites the U.S. DPRK IT-worker advisory, and recommends defined interview, verification, and background procedures. It tells suppliers to require similar requirements of subcontractors, train HR and hiring managers, audit awareness and new-hire screening, implement remote identity management, participate in industry and government information-sharing programs, and contact the prime contractor when assistance is needed",
+      "locator": "Introduction; What is the U.S. Government Saying?; Contractor screening process; Awareness Training; Routine Audits; Identity Management; Information Sharing"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

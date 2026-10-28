@@ -1,0 +1,504 @@
+{
+  "id": "persona-saja-jan-kowalski",
+  "type": "persona",
+  "name": "Jan Kowalski",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "organizations": [
+    "Saja portfolio network"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "The reused persona label is the publication form. The pictured people remain unidentified as operators; one image shows an uninvolved public figure.",
+    "source-observed through 2025-05-01; Nisos found different individuals' images attached to the same persona",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Jan Kowalski",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "VeteranSoftDev",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    },
+    {
+      "platform": "Website",
+      "identifier": "portfolio-seven-umber-18.vercel[.]app",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    },
+    {
+      "platform": "Website",
+      "identifier": "veteransoftdev.github[.]io",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Jan Kowalski as a persona or account linked to Saja portfolio network; historical indicators described by the source include GitHub VeteranSoftDev, veteransoftdev.github[.]io, portfolio-seven-umber-18.vercel[.]app",
+      "locator": "PDF pp. 13-14"
+    },
+    {
+      "source_id": "src-0a29730a61f8"
+    },
+    {
+      "source_id": "src-364a0984ce53"
+    },
+    {
+      "source_id": "src-aaa36d1d4b78"
+    },
+    {
+      "source_id": "src-aa915bc01807"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jan-kowalski-reused-persona",
+      "type": "identity_name",
+      "predicate": "researcher_reported_reused_employment_persona",
+      "value": {
+        "name": "Jan Kowalski",
+        "presentations": 2,
+        "identity_status": "fake persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 13, Same Persona, Different Threat Actor",
+          "quote": "Nisos identified a fake persona associated with the network, Jan Kowalski, who has accounts containing photos of different individuals."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "The two presentations are not evidence that either depicted person operated the accounts."
+      ]
+    },
+    {
+      "id": "claim-two-location-use-assessment",
+      "type": "incident",
+      "predicate": "researcher_assessed_multiple_location_presentations",
+      "value": {
+        "assessment": "two Jan Kowalski accounts were used to obtain employment in different locations"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 13, Same Persona, Different Threat Actor",
+          "quote": "We assess that the two Jan Kowalsk accounts are used to obtain employment in different locations."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "This is Nisos's assessment; the report contains a typographical omission in the surname as quoted."
+      ]
+    },
+    {
+      "id": "claim-first-portfolio-github-network-link",
+      "type": "relationship",
+      "predicate": "researcher_linked_portfolio_and_github_to_network",
+      "value": {
+        "artifacts": [
+          "portfolio website",
+          "GitHub account"
+        ],
+        "cluster_label": "Saja portfolio network"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 13, Jan Kowalski #1",
+          "quote": "Nisos identified a portfolio website and a GitHub account for Jan Kowalski, which are linked to several other accounts in the network."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "This is a source-reported artifact relationship, not a civil-identity merge."
+      ]
+    },
+    {
+      "id": "claim-first-portfolio-experience-claim",
+      "type": "skill",
+      "predicate": "portfolio_claimed_software_engineering_experience",
+      "value": {
+        "claimed_experience": "10+ years",
+        "field": "software engineering"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 13, Portfolio website",
+          "quote": "The portfolio website claimed that Jan Kowalsk has 10+ years of experience in software engineering."
+        },
+        {
+          "source_id": "src-0a29730a61f8",
+          "locator": "About section",
+          "quote": "Bachelor's degree in software engineering & 10+ years experience from software internship to lead engineer"
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "A portfolio claim, not independently verified education or employment history."
+      ]
+    },
+    {
+      "id": "claim-first-portfolio-project-claims",
+      "type": "skill",
+      "predicate": "portfolio_claimed_project_history",
+      "value": {
+        "claimed_projects": "25+",
+        "named_examples": [
+          "AFF",
+          "Anti-Game-Cheat engine"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 13, Portfolio website",
+          "quote": "The website also lists 25+ successful projects, including work on “AFF” and the “Anti-Game-Cheat engine focusing on AI components to detect cheating.”"
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Portfolio assertions only; not verified project authorship."
+      ]
+    },
+    {
+      "id": "claim-first-portfolio-image-manipulation",
+      "type": "image",
+      "predicate": "researcher_reported_digitally_manipulated_portfolio_image",
+      "value": {
+        "artifact": "first Jan Kowalski portfolio image",
+        "finding": "digitally manipulated",
+        "image_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 13, Portfolio website",
+          "quote": "The website contained an image of the threat actor that was digitally manipulated."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Do not publish, compare, or use the image to identify any person."
+      ]
+    },
+    {
+      "id": "claim-veteransoftdev-source-link",
+      "type": "account",
+      "predicate": "researcher_linked_historical_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "VeteranSoftDev",
+        "status": "historical source linkage"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 14, GitHub",
+          "quote": "The same threat actor is also associated with GitHub account VeteranSoftDev, which uses the same profile picture and links to the portfolio website."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Historical source-reported linkage; the image comparison is not repeated or used for identity resolution."
+      ]
+    },
+    {
+      "id": "claim-veteransoftdev-web-aff-network",
+      "type": "relationship",
+      "predicate": "researcher_linked_repository_to_aff_network",
+      "value": {
+        "repository": "Web",
+        "service": "AFF",
+        "other_persona": "Jiner Enoheart"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 14, GitHub",
+          "quote": "The account contains a repository labeled “Web”, which mentions AFF and highlights work from another network persona, Jiner Enoheart, who was also listed in the AFF screenshots above."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Jiner Enoheart remains a separate persona; the claim is an artifact relationship only."
+      ]
+    },
+    {
+      "id": "claim-second-portfolio-poland",
+      "type": "location",
+      "predicate": "second_portfolio_claimed_location",
+      "value": {
+        "claimed_location": "Poland",
+        "verified_location": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 14, Jan Kowalski #2",
+          "quote": "Nisos identified a second portfolio website for Jan Kowalski, which claimed that the persona is located in Poland."
+        },
+        {
+          "source_id": "src-364a0984ce53",
+          "locator": "Home section",
+          "quote": "Szczecin, województwo zachodniopomorskie, Polska"
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "A persona location claim only; no residence or operator location is established."
+      ]
+    },
+    {
+      "id": "claim-second-portfolio-reused-material",
+      "type": "incident",
+      "predicate": "researcher_reported_reused_image_and_resume_content",
+      "value": {
+        "image_source": "uninvolved public figure",
+        "resume_reuse_from_persona": "Mark Lisowski",
+        "image_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 14, Jan Kowalski #2",
+          "quote": "The website contained a profile photo of Singaporean actor Glenn Yong and resume content that was used on another freelancer persona account (Mark Lisowski)."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "The named actor is an uninvolved person, not the operator. Do not publish or use the image for comparison."
+      ]
+    },
+    {
+      "id": "claim-second-portfolio-scam-assessment",
+      "type": "incident",
+      "predicate": "researcher_assessed_employment_scam_artifact",
+      "value": {
+        "artifact": "second Jan Kowalski portfolio",
+        "assessment": "set up as part of an employment scam"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 14, Jan Kowalski #2",
+          "quote": "We assess that this is an indication that the portfolio website is set up as part of an employment scam."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Nisos assessment, not an adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-veteransoftdev-current-status",
+      "type": "account",
+      "predicate": "source_linked_github_account_publicly_reachable",
+      "value": {
+        "platform": "GitHub",
+        "handle": "VeteranSoftDev",
+        "public_repositories": 18,
+        "reachable_on": "2026-08-13"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-aaa36d1d4b78",
+          "locator": "complete public user API response, login field",
+          "quote": "\"login\": \"VeteranSoftDev\""
+        },
+        {
+          "source_id": "src-aaa36d1d4b78",
+          "locator": "complete public user API response, public_repos field",
+          "quote": "\"public_repos\": 18"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Public reachability and repository count do not establish present ownership or control."
+      ]
+    },
+    {
+      "id": "claim-veteransoftdev-current-portfolio-link",
+      "type": "account",
+      "predicate": "github_profile_currently_links_source_reported_portfolio",
+      "value": {
+        "platform": "GitHub",
+        "handle": "VeteranSoftDev",
+        "linked_site": "https://veteransoftdev.github.io/"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-aaa36d1d4b78",
+          "locator": "complete public user API response, blog field",
+          "quote": "\"blog\": \"https://veteransoftdev.github.io/\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current artifact linkage only; it does not resolve a civil identity."
+      ]
+    },
+    {
+      "id": "claim-veteransoftdev-repositories-current",
+      "type": "account",
+      "predicate": "public_repository_listing_contains_source_reported_artifacts",
+      "value": {
+        "platform": "GitHub",
+        "handle": "VeteranSoftDev",
+        "repositories": [
+          "Web",
+          "VeteranSoftDev.github.io"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-aa915bc01807",
+          "locator": "complete 18-record public repository listing, name fields",
+          "quote": "\"full_name\": \"VeteranSoftDev/Web\""
+        },
+        {
+          "source_id": "src-aa915bc01807",
+          "locator": "complete 18-record public repository listing, name fields",
+          "quote": "\"full_name\": \"VeteranSoftDev/VeteranSoftDev.github.io\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Repository presence is not proof of authorship, continued use, or current account control."
+      ]
+    },
+    {
+      "id": "claim-two-sites-currently-reachable",
+      "type": "infrastructure",
+      "predicate": "source_reported_portfolio_sites_publicly_reachable",
+      "value": {
+        "sites": [
+          "https://veteransoftdev.github.io/",
+          "https://portfolio-seven-umber-18.vercel.app/"
+        ],
+        "reachable_on": "2026-08-13"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0a29730a61f8",
+          "locator": "HTML title and About section",
+          "quote": "Hello, I'm Jan Kowalski."
+        },
+        {
+          "source_id": "src-364a0984ce53",
+          "locator": "HTML title and Home section",
+          "quote": "Hi, I'am Jan"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Reachability is an artifact-status observation, not evidence of present ownership, use, or operator location."
+      ]
+    },
+    {
+      "id": "claim-veteransoftdev-current-self-presentation",
+      "type": "account",
+      "predicate": "current_public_account_self_presentation",
+      "value": {
+        "platform": "GitHub",
+        "handle": "VeteranSoftDev",
+        "display_name": "Veteran in soft dev",
+        "claimed_skill_areas": [
+          "full-stack web",
+          "AI",
+          "mobile and cross-platform applications",
+          "driver and kernel development",
+          "smart-contract development"
+        ],
+        "public_repositories": 18
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-aaa36d1d4b78",
+          "locator": "JSON name field",
+          "quote": "\"name\": \"Veteran in soft dev\""
+        },
+        {
+          "source_id": "src-aaa36d1d4b78",
+          "locator": "JSON bio field",
+          "quote": "Decent experiencer in Full-stack web, AI, Mobile & cross-platform App, Driver & Kernel & SMART CONTRACT dev"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Account self-presentation only. It does not verify expertise, education, employment, civil identity, present control, or that the two Jan Kowalski presentations are one natural person."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Nisos-reported employment persona reused across two account presentations; civil identity is unverified. Keep the two Jan Kowalski presentations, the VeteranSoftDev account, other network personas, and uninvolved people whose images were reused distinct. The images are reused source material, while current account reachability describes observed access rather than present ownership or control; operator identity and present control require independent evidence."
+}

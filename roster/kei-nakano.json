@@ -1,0 +1,95 @@
+{
+  "id": "kei-nakano",
+  "real_name": "Kei Nakano",
+  "aliases": [
+    "smartcoding51",
+    "Jin Wang",
+    "fantasticfullstackdev",
+    "webdevninja",
+    "Jinathin",
+    "kei-tren",
+    "0xachilles509"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "keinakano415@gmail.com"
+  ],
+  "twitter_usernames": [
+    "kn_amm51"
+  ],
+  "websites": [
+    "https://cryptototem.com/onestake-finance-ost/",
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "company": "OneStake Finance",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "telegram": [
+    {
+      "id": "1967508345",
+      "usernames": [
+        "kn_amm"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "smartcoding51",
+      "usernames": [
+        "smartcoding51"
+      ]
+    },
+    {
+      "gh_id": "kei-tren",
+      "usernames": [
+        "kei-tren"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x21e5d5a6e40b32cff77cfe77dca034d6d410131d",
+        "0x452f205c6c3872691fbce7ce8438370466d55f76",
+        "0xff22be4f00b937dade564bd9659e265f92afa620"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/kei-nakano/kei-nakano-1.jpg",
+      "short_description": "Kei Nakano 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kei-nakano/kei-nakano-2.jpg",
+      "short_description": "Kei Nakano 2.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kei-nakano/kei-nakano-3.jpg",
+      "short_description": "Kei Nakano 3.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kei-nakano/kei-nakano-av.png",
+      "short_description": "Kei Nakano avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

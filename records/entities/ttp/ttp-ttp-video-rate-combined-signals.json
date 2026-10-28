@@ -1,0 +1,29 @@
+{
+  "id": "ttp-ttp-video-rate-combined-signals",
+  "type": "ttp",
+  "name": "TTP-VIDEO-RATE-COMBINED-SIGNALS",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-can-gac-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Hiring-stage warning characteristics include refusal to join video meetings and offering rates below the general market rate, alongside other identity, language, video, account-operation, and payment anomalies."
+  ],
+  "caveats": [
+    "Video-meeting preferences and pricing are contextual features; they carry no standalone identity or nationality inference, and the alert instructs readers to assess multiple characteristics together."
+  ],
+  "sources": [
+    {
+      "source_id": "int-can-gac-2026-joint",
+      "support": "Hiring-stage warning characteristics include refusal to join video meetings and offering rates below the general market rate, alongside other identity, language, video, account-operation, and payment anomalies",
+      "locator": "Modus Operandi Used by North Korean IT Workers; For companies operating online platforms; For those hiring or procuring services"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

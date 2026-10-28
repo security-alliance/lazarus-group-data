@@ -1,0 +1,750 @@
+{
+  "id": "firetail-louis-trust0212",
+  "type": "persona",
+  "name": "Louis / trust0212 (FireTail applicant)",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "FireTail labels the interviewee a North Korean hacker; the public article supplies source attribution, while government corroboration and legal action belong to separate records.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "affected-org-ao-s3"
+    ]
+  },
+  "organizations": [
+    "FireTail"
+  ],
+  "locations": [
+    "Ireland (claimed citizenship/location context)",
+    "Japan (claimed upbringing)",
+    "Korea time zone (FireTail inference from commit timing)"
+  ],
+  "ttps": [
+    "Apparent speaker handoff after a connectivity interruption",
+    "Claim Figma experience before Figma existed",
+    "Claim Irish citizenship and Japanese upbringing",
+    "Create implausible or explicitly labeled fake commit history",
+    "Provide limited English inconsistent with claimed fluency",
+    "Refuse video with broken-camera explanation",
+    "Send two additional similar CVs after the first interview",
+    "Submit recommendation text with placeholder lorem ipsum and inconsistent names",
+    "Use a stock CV portrait with a recolored sweater",
+    "Use crypto/NFT repositories for a cybersecurity full-stack application"
+  ],
+  "caveats": [
+    "Louis appears in recommendation text; FireTail's article text prints only the recommendation label, leaving the full CV name unreported.",
+    "Richard is explicitly described as absent from the CV name; retain it as an inconsistency pending alias evidence.",
+    "The article visibly labels itself July 28, 2022, but the earliest verified public archive capture is March 23, 2025 and unstable JSON-LD supplies contradictory later dates; publication chronology remains unresolved.",
+    "The baseline contains icetrust0212; trust0212 is a separate similar label pending a merge bridge.",
+    "The displayed name is a source-reported employment persona or handle; legal or civil identity requires a source bridge."
+  ],
+  "aliases": [
+    {
+      "value": "Louis",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ]
+    },
+    {
+      "value": "Richard",
+      "alias_type": "employment-persona",
+      "relationship": "uncertain",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ]
+    },
+    {
+      "value": "trust0212",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ]
+    },
+    {
+      "value": "ithunter101",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "ithunter101",
+      "url": "https://github.com/ithunter101",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ],
+      "note": "Shown in FireTail’s screenshot making repeated commits labeled ‘fake commit’; the article presents it as part of the candidate-repository investigation."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "trust0212",
+      "url": "https://github.com/trust0212",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ],
+      "note": "Shown in FireTail’s screenshot of the candidate’s code repositories."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "affected-org-ao-s3",
+      "source_url": "https://www.firetail.ai/blog/we-interviewed-north-korean-hacker-heres-what-learned",
+      "direct_asset_url": "https://cdn.prod.website-files.com/62b077774e7780ab60b8ff6d/691e1ce6281f4bbaec34e414_62f18b4f5cac0ad9c491ac96_image.png",
+      "caption": "FireTail screenshot showing repeated ‘fake commit’ messages under the handle ithunter101.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "affected-org-ao-s3",
+      "source_url": "https://www.firetail.ai/blog/we-interviewed-north-korean-hacker-heres-what-learned",
+      "direct_asset_url": "https://cdn.prod.website-files.com/62b077774e7780ab60b8ff6d/691e1ce6281f4bbaec34e41d_62f1841f37dc730495494478_Screen%2520Shot%25202022-08-08%2520at%25205.45.49%2520PM.png",
+      "caption": "FireTail screenshot of the GitHub profile trust0212 and its pinned crypto/Web3 repositories.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "code-hosting",
+      "value": "GitHub handles trust0212 and ithunter101",
+      "source_ids": [
+        "affected-org-ao-s3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "affected-org-ao-s3",
+      "support": "FireTail reports that a remote full-stack applicant claimed Irish citizenship and a Japanese upbringing, refused video, appeared to switch speakers after a disconnect, and supplied inconsistent code/CV evidence. Public screenshots disclose GitHub handles trust0212 and ithunter101 and recommendation text using Louis and Richard inconsistently",
+      "locator": "My camera is broken; candidate code repos; four embedded screenshots; Lessons learned"
+    },
+    {
+      "source_id": "drp50-github-trust0212-status"
+    },
+    {
+      "source_id": "src-048d3ca2ca94"
+    },
+    {
+      "source_id": "src-205faa92813e"
+    },
+    {
+      "source_id": "drp50-github-commit-trust0212"
+    },
+    {
+      "source_id": "drp50-github-commit-fantohm"
+    },
+    {
+      "source_id": "drp50-github-commit-phantohm"
+    },
+    {
+      "source_id": "drp50-github-verida-contributors"
+    },
+    {
+      "source_id": "drp50-lazarusday-verida"
+    },
+    {
+      "source_id": "drp50-github-commit-milan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-louis-persona-label",
+      "type": "alias",
+      "predicate": "reported_applicant_name",
+      "value": {
+        "name": "Louis",
+        "identity_status": "CV/recommendation label, not verified civil identity"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Fourth embedded figure, recommendation text",
+          "quote": "Mr. Louis is a consistent and compliant, multi-functional developer."
+        }
+      ],
+      "notes": [
+        "The article does not print a full CV name in body text; Louis is retained as a source-displayed label only."
+      ]
+    },
+    {
+      "id": "claim-firetail-application-context",
+      "type": "employment",
+      "predicate": "reported_application_to_affected_organization",
+      "value": {
+        "organization": "FireTail",
+        "relationship": "job applicant",
+        "role_sought": "full-stack developer job in cybersecurity",
+        "employment_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Section ‘Here's the candidate's code repos’, paragraph after first embedded figure",
+          "quote": "This is a candidate for a full-stack developer job in cybersecurity"
+        }
+      ],
+      "notes": [
+        "Affected-organization report of an application relationship only. The source does not establish hiring, employment, prior employment, current affiliation, or civil identity."
+      ]
+    },
+    {
+      "id": "claim-trust0212-github",
+      "type": "account",
+      "predicate": "historically_used_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "trust0212",
+        "profile_name": "Trust-Full stack",
+        "status_at_cutoff": "not found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "First embedded figure under 'Here's the candidate's code repos'",
+          "quote": "Trust-Full stack\ntrust0212"
+        },
+        {
+          "source_id": "drp50-github-trust0212-status",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Historical FireTail screenshot plus cutoff-time unavailability. The exact endpoint remained 404 on 2026-08-15; removal cause and date are unknown. Two longer current logins sharing the stem are excluded near-handle collisions, not continuations of this account."
+      ]
+    },
+    {
+      "id": "claim-trust0212-profile-focus",
+      "type": "skill",
+      "predicate": "github_profile_claimed_specialization",
+      "value": {
+        "account": "trust0212",
+        "specialization": "Smart Contract | Blockchain Engineer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "First embedded GitHub profile figure",
+          "quote": "Smart Contract | Blockchain Engineer"
+        }
+      ],
+      "notes": [
+        "New atomic extraction from the source figure; historical account assertion, not proof of actual skill."
+      ]
+    },
+    {
+      "id": "claim-trust0212-pinned-repos",
+      "type": "account",
+      "predicate": "historical_pinned_repositories",
+      "value": {
+        "platform": "GitHub",
+        "handle": "trust0212",
+        "repositories": [
+          "solana-nft-marketplace",
+          "dex-ags-frontend",
+          "dexfund-protocol",
+          "KanessaNFT-contract",
+          "dexfund-subgraph",
+          "AlterGrimaceSociety/AGS-Finance-Contracts"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "First embedded GitHub profile figure, Pinned section",
+          "quote": "solana-nft-marketplace"
+        }
+      ],
+      "notes": [
+        "The exact repository set was visually transcribed from the source figure; no repository code was downloaded or executed."
+      ]
+    },
+    {
+      "id": "claim-trust0212-commit-time",
+      "type": "account",
+      "predicate": "historical_commit_timestamp_observation",
+      "value": {
+        "platform": "GitHub",
+        "handle": "trust0212",
+        "displayed_examples": [
+          "2022-06-28 03:45 GMT+3",
+          "2021-07-21 03:40 GMT+3"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Second embedded commit-history figure",
+          "quote": "Jun 28, 2022, 3:45 AM GMT+3"
+        }
+      ],
+      "notes": [
+        "FireTail interpreted these times as daytime in Korea. Commit timing alone cannot establish physical location or nationality."
+      ]
+    },
+    {
+      "id": "claim-ithunter101-related-account",
+      "type": "account",
+      "predicate": "reported_related_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "ithunter101",
+        "status_at_cutoff": "not found"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Third embedded commit-history figure",
+          "quote": "ithunter101 committed on Apr 28"
+        },
+        {
+          "source_id": "src-048d3ca2ca94",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "FireTail presents this screenshot within the candidate-repository investigation but does not explain the linkage in article text; confidence is therefore medium. The exact endpoint remained 404 and the current login search returned zero users on 2026-08-15."
+      ]
+    },
+    {
+      "id": "claim-ithunter101-fake-commits",
+      "type": "incident",
+      "predicate": "reported_fabricated_commit_history",
+      "value": {
+        "platform": "GitHub",
+        "handle": "ithunter101",
+        "displayed_commit_message": "fake commit",
+        "displayed_date": "April 28"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Third embedded figure and its caption",
+          "quote": "\"fake commit\" isn't trying very hard, is it?"
+        }
+      ],
+      "notes": [
+        "The figure visibly shows repeated commits labeled 'fake commit'; no repository code was downloaded."
+      ]
+    },
+    {
+      "id": "claim-claimed-irish-japanese-background",
+      "type": "location",
+      "predicate": "applicant_claimed_background",
+      "value": {
+        "claimed_citizenship": "Irish",
+        "claimed_upbringing": "Japan"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "'My camera is broken', second paragraph",
+          "quote": "someone who supposedly is an Irish citizen that grew up in Japan"
+        }
+      ],
+      "notes": [
+        "Applicant claims as reported by FireTail; neither claim was verified."
+      ]
+    },
+    {
+      "id": "claim-camera-refusal",
+      "type": "incident",
+      "predicate": "interview_video_unavailable",
+      "value": {
+        "explanation": "camera was broken"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Section heading and opening sentence",
+          "quote": "My camera is broken"
+        }
+      ],
+      "notes": [
+        "Affected-organization report."
+      ]
+    },
+    {
+      "id": "claim-apparent-speaker-handoff",
+      "type": "incident",
+      "predicate": "reported_voice_change_after_disconnect",
+      "value": {
+        "timing": "about 20 minutes into interview",
+        "assessment": "sounded like a different person; uncertain without video"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "'My camera is broken', final paragraph",
+          "quote": "With no video, we can't say for certain, but it definitely sounded like a different person."
+        }
+      ],
+      "notes": [
+        "FireTail explicitly qualified the inference; it must remain uncertain."
+      ]
+    },
+    {
+      "id": "claim-stock-cv-photo",
+      "type": "image",
+      "predicate": "reported_modified_stock_cv_photo",
+      "value": {
+        "modification": "different-color sweater photoshopped onto stock image",
+        "handling": "no republication or facial matching"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "'We had a few additional things we found', first bullet",
+          "quote": "the CV photo was a stock image with a different color sweater photoshopped on top"
+        }
+      ],
+      "notes": [
+        "No facial recognition or independent identity inference was performed."
+      ]
+    },
+    {
+      "id": "claim-firetail-github-profile-figure",
+      "type": "image",
+      "predicate": "affected_organization_linked_evidence_figure",
+      "value": {
+        "source_page": "https://www.firetail.ai/blog/we-interviewed-north-korean-hacker-heres-what-learned",
+        "media_description": "FireTail evidence screenshot of the historical trust0212 GitHub profile and pinned repositories",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "First embedded figure under ‘Here's the candidate's code repos’",
+          "quote": "Are these repos real...?"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Affected-organization evidence figure retained as a source-page link only. Do not export the direct asset, cache, crop, republish, use it to resolve civil identity, or treat the screenshot as proof of current account control. Rights and editorial review remain required before display."
+      ]
+    },
+    {
+      "id": "claim-firetail-fake-commit-figure",
+      "type": "image",
+      "predicate": "affected_organization_linked_evidence_figure",
+      "value": {
+        "source_page": "https://www.firetail.ai/blog/we-interviewed-north-korean-hacker-heres-what-learned",
+        "media_description": "FireTail evidence screenshot showing repeated fake-commit labels under ithunter101",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Third embedded commit-history figure and caption",
+          "quote": "\"fake commit\" isn't trying very hard, is it?"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Affected-organization evidence figure retained as a source-page link only. Do not export the direct asset, cache, crop, republish, use it to resolve civil identity, or treat the screenshot as proof of current account control. Rights and editorial review remain required before display."
+      ]
+    },
+    {
+      "id": "claim-two-followup-cvs",
+      "type": "incident",
+      "predicate": "additional_similar_applications_received",
+      "value": {
+        "count": 2,
+        "timeframe": "next couple of weeks"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "'We had a few additional things we found', second bullet",
+          "quote": "We got 2 more similar CVs in the next couple of weeks"
+        }
+      ],
+      "notes": [
+        "FireTail's inference that these were tests is not elevated beyond the source's 'presumably' wording."
+      ]
+    },
+    {
+      "id": "claim-skill-evidence-mismatch",
+      "type": "incident",
+      "predicate": "application_skill_mismatch",
+      "value": {
+        "example": "GitHub included GoLang repository while CV did not list GoLang"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "'We had a few additional things we found', third bullet",
+          "quote": "the GitHub page had a GoLang repo, despite the CV not listing GoLang"
+        }
+      ]
+    },
+    {
+      "id": "claim-figma-anachronism",
+      "type": "incident",
+      "predicate": "application_timeline_anachronism",
+      "value": {
+        "technology": "Figma",
+        "finding": "claimed experience predated the technology"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "'We had a few additional things we found', fourth bullet",
+          "quote": "They claimed experience in Figma from a time when Figma did not yet exist."
+        }
+      ],
+      "notes": [
+        "Source-described inconsistency; underlying CV timeline was not separately available."
+      ]
+    },
+    {
+      "id": "claim-richard-recommendation-inconsistency",
+      "type": "incident",
+      "predicate": "recommendation_name_inconsistency",
+      "value": {
+        "inconsistent_name": "Richard",
+        "status": "not the name on the CV"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Fourth embedded figure and caption",
+          "quote": "\"Richard\" was not the name on the CV."
+        }
+      ],
+      "notes": [
+        "Richard is not promoted to a confirmed alias."
+      ]
+    },
+    {
+      "id": "claim-lorem-ipsum-recommendation",
+      "type": "incident",
+      "predicate": "recommendation_placeholder_text",
+      "value": {
+        "placeholder": "Lorem ipsum"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Fourth embedded figure, Daniel lewis recommendation",
+          "quote": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "notes": [
+        "New exact extraction from the embedded evidence figure."
+      ]
+    },
+    {
+      "id": "claim-publication-chronology",
+      "type": "note",
+      "predicate": "earliest_verified_archive_capture",
+      "value": {
+        "page_displayed_date": "2022-07-28",
+        "embedded_screenshot_filename_date": "2022-08-08",
+        "earliest_verified_archive_capture": "2025-03-23T20:37:08Z",
+        "current_json_ld_date_published": "2025-11-21",
+        "current_json_ld_date_modified": "2025-11-19",
+        "chronology_status": "unresolved-conflicting-page-metadata"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Article footer date",
+          "quote": "July 28, 2022"
+        },
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "Current page JSON-LD metadata",
+          "quote": "\"datePublished\": \"Nov 21, 2025\",\n  \"dateModified\": \"Nov 19, 2025\""
+        },
+        {
+          "source_id": "affected-org-ao-s3",
+          "locator": "First embedded evidence-figure asset filename",
+          "quote": "Screen%2520Shot%25202022-08-08%2520at%25205.45.49%2520PM.png"
+        },
+        {
+          "source_id": "src-205faa92813e",
+          "locator": "First successful capture row",
+          "quote": "20250323203708"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The visible date predates an embedded screenshot filename, the earliest archive capture predates the current JSON-LD publication date, and JSON-LD says the page was modified before it was published. Treat the page as migrated or unstable chronology and do not elevate any displayed or machine-readable date to verified original publication."
+      ]
+    },
+    {
+      "id": "claim-firetail-louis-trust0212-trust0212-icetrust0212-platform-bridge",
+      "type": "relationship",
+      "predicate": "github_mapped_historical_author_label_to_current_account",
+      "value": {
+        "platform": "GitHub",
+        "historical_author_label": "trust0212",
+        "mapped_account": "icetrust0212",
+        "firetail_applicant_same_person_established": false,
+        "milan_zubic_same_person_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-commit-trust0212",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"login\":\"icetrust0212\""
+        }
+      ],
+      "observed_at": "2023-02-20",
+      "notes": [
+        "GitHub now supplies a platform-native association between historical trust0212 author labels and the current icetrust0212 account. This supports an account-level related-cluster link, not a natural-person or civil-identity merge with the separate Milan Zubic / resplegend record.",
+        "This replaces the former string-similarity-only posture with a narrower platform-native account bridge; it does not resolve the applicant's natural identity."
+      ]
+    },
+    {
+      "id": "claim-firetail-louis-trust0212-icetrust0212-author-label-variants",
+      "type": "relationship",
+      "predicate": "github_mapped_related_git_author_variants",
+      "value": {
+        "platform_account": "icetrust0212",
+        "git_author_labels": [
+          "trust0212-fantohm",
+          "trust0212-phantohm"
+        ],
+        "same_natural_person_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-commit-fantohm",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"name\":\"trust0212-fantohm\""
+        },
+        {
+          "source_id": "drp50-github-commit-phantohm",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"name\":\"trust0212-phantohm\""
+        }
+      ],
+      "observed_at": "2024-04-11",
+      "notes": [
+        "The spelling variants are Git author labels mapped by GitHub to icetrust0212; they are not independently verified employment personas or civil names."
+      ]
+    },
+    {
+      "id": "claim-firetail-louis-trust0212-icetrust0212-verida-contributions",
+      "type": "employment",
+      "predicate": "github_recorded_related_account_repository_contributions",
+      "value": {
+        "account": "icetrust0212",
+        "repository": "verida/proof-connector-dapp",
+        "contributions": 103,
+        "employment_established": false,
+        "malicious_change_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-verida-contributors",
+          "locator": "icetrust0212 contributor row",
+          "quote": "\"contributions\":103"
+        }
+      ],
+      "observed_at": "2024-05-30",
+      "notes": [
+        "The account-level related-cluster bridge does not prove the FireTail applicant authored these contributions. GitHub confirms contributions, not employment or malicious intent."
+      ]
+    },
+    {
+      "id": "claim-firetail-louis-trust0212-milan-resplegend-cluster-boundary",
+      "type": "relationship",
+      "predicate": "research_summary_reported_broader_related_cluster",
+      "value": {
+        "reported_related_labels": [
+          "Milan Zubic",
+          "resplegend",
+          "icetrust0212",
+          "trust0212"
+        ],
+        "same_natural_person_established": false,
+        "publication_posture": "review-only"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-lazarusday-verida",
+          "locator": "Share summary paragraph",
+          "quote": "The author links icetrust0212 to related identities including trust0212, trust0212-fantohm, resplegend, and “Milan Zubic” through commit emails, authored commits, job applications, Telegram activity, and prior Lazarus/Bluenoroff research."
+        },
+        {
+          "source_id": "drp50-github-commit-milan",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"login\":\"resplegend\""
+        }
+      ],
+      "observed_at": "2026-04-17",
+      "notes": [
+        "GitHub maps Milan Zubic to resplegend and trust0212 author labels to icetrust0212, preserving a distinct-account boundary.",
+        "The original archive was challenge-gated, so the broader cluster claim remains medium-confidence review evidence."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "This is an affected-organization report about one remote applicant and associated historical GitHub evidence. Louis, trust0212, and related labels are source labels; Richard is an explicit inconsistency, with alias status unconfirmed. GitHub maps representative historical trust0212, trust0212-fantohm, and trust0212-phantohm Git author labels to the distinct icetrust0212 account. This supports an account-level related-cluster bridge; Milan Zubic / resplegend remains separate, and civil-identity merging is unsupported."
+}

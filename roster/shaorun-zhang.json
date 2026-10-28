@@ -1,0 +1,259 @@
+{
+  "id": "shaorun-zhang",
+  "fake_names": [
+    "Shaorun Zhang"
+  ],
+  "notes": "Nisos-reported persona presentation only; not a verified civil identity, employer, residence, nationality, legal finding, or current-status determination",
+  "telegram": [
+    {
+      "usernames": [
+        "superbluestar"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "superbluestar"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-shaorun-zhang",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Nisos-reported persona presentation only; not a verified civil identity, employer, residence, nationality, legal finding, or current-status determination",
+    "as_of": "2026-08-30",
+    "caveats": [
+      "Identity boundary: Nisos-reported employment persona in a reused GitHub/Telegram and resume network. Shaorun Zhang, Naoyuki Tanaka, linked accounts, biography, location claims, and imagery are not a verified civil identity and must not be merged as one natural person.",
+      "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens do not establish that this label and other labels are one natural person.",
+      "No precise address, contact selector, image, current location, civil identity, or present controller is retained or inferred.",
+      "Role and location are source-reported persona claims, not verified employment or residence.",
+      "This record describes a reported employment persona/account cluster, not proof that the apparent identity owner is a DPRK national.",
+      "The cited source page at https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-github-employment-fraud.pdf carries an image related to this record. It is not reproduced: citation only, no caching, cropping, biometric use, or facial comparison.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Shaorun Zhang' is also the name of unrelated real people, including an academic researcher; this record concerns only the persona tied to the superbluestar handle and linktr.ee/shaorunzhang as reported by Nisos.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-f1a151392e64",
+      "title": "DPRK IT Fraud Network Uses GitHub to Target Global Companies",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-github-employment-fraud.pdf",
+      "date": "2025-03-04"
+    },
+    {
+      "id": "doc-github-superbluestar-status",
+      "title": "GitHub user status: superbluestar",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/superbluestar"
+    },
+    {
+      "id": "doc-linktree-shaorunzhang",
+      "title": "Shaorun Zhang | Linktree",
+      "publisher": "Linktree",
+      "url": "https://linktr.ee/shaorunzhang"
+    },
+    {
+      "id": "doc-telegram-superbluestar",
+      "title": "Telegram: Contact @superbluestar",
+      "publisher": "Telegram",
+      "url": "https://t.me/superbluestar"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-shaorun-digitally-manipulated-image",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 12, Digital Photo Manipulation",
+          "quote": "Shaorun Zhang’s linktr.ee website has a photograph of the likely DPRK IT worker, which was digitally manipulated."
+        },
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 12, Digital Photo Manipulation",
+          "quote": "Nisos found that the head of the individual was pasted onto an advertisement image of another individual."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-github-cutoff-status",
+      "label": "Historical github account not found at cutoff",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 15, Backstopping",
+          "quote": "Nisos found that two personas, Shaorun Zhang and Naoyuki Tanaka, claimed to be the users of GitHub account superbluestar."
+        },
+        {
+          "source_id": "doc-github-superbluestar-status",
+          "locator": "JSON response",
+          "quote": "{\"message\":\"Not Found\"}"
+        },
+        {
+          "source_id": "doc-github-superbluestar-status-20260815",
+          "locator": "JSON response",
+          "quote": "{\"message\":\"Not Found\"}"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-linktree-history",
+      "label": "Platform reported membership start",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-linktree-shaorunzhang",
+          "locator": "About this account section",
+          "quote": "Shaorun Zhang has been a member of Linktree for 2 years and joined in November 2023."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-linktree-outbound-classes",
+      "label": "Public profile linked account classes",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-linktree-shaorunzhang",
+          "locator": "About this account section",
+          "quote": "The social media accounts linked to from Shaorun Zhang are:"
+        },
+        {
+          "source_id": "doc-linktree-shaorunzhang",
+          "locator": "About this account list",
+          "quote": "• Email\n• Telegram\n• GitHub"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-linktree-presentation",
+      "label": "Public linktree presentation at cutoff",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-linktree-shaorunzhang",
+          "locator": "Page title and profile biography",
+          "quote": "Shaorun Zhang | Linktree"
+        },
+        {
+          "source_id": "doc-linktree-shaorunzhang",
+          "locator": "Profile biography",
+          "quote": "I'm a Web Developer."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-persona-claimed-location-round63",
+      "label": "Nisos figure reported persona claimed coarse location",
+      "category": "location",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF file p. 11, Graphic 20, visually verified resume heading",
+          "quote": "Singapore, Singapore"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-persona-claimed-role-round63",
+      "label": "Nisos figure reported persona claimed role",
+      "category": "employment",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF file p. 11, Graphic 20, visually verified resume heading",
+          "quote": "Full-Stack Developer"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-persona-repository-network",
+      "label": "Researcher reported shared persona repository",
+      "category": "relationship",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 13, Persona Creation Process",
+          "quote": "Nisos found that personas within the network, Shaorun Zhang and Kamaal Sultan, shared a GitHub repository that was edited by a third GitHub account, superredstar, in April 2022."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-reported-persona",
+      "label": "Reported employment persona",
+      "category": "identity_name",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 10, Fake Persona 3: Shaorun Zhang",
+          "quote": "Nisos identified the persona Shaorun Zhang—used by a likely DPRK IT worker to obtain remote work in the past"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-superbluestar-account-reuse",
+      "label": "Research reported account reuse across personas",
+      "category": "relationship",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 10, Fake Persona 3: Shaorun Zhang",
+          "quote": "by investigating the GitHub account superbluestar and Telegram account superbluestar, which were listed on the resume for Naoyuki Tanaka."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-superbluestar-handle-alias",
+      "label": "Research reported online handle",
+      "category": "alias",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 10, Fake Persona 3: Shaorun Zhang",
+          "quote": "by investigating the GitHub account superbluestar and Telegram account superbluestar, which were listed on the resume for Naoyuki Tanaka."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaorun-telegram-cutoff-status",
+      "label": "Historical telegram landing reachable at cutoff",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 10, Fake Persona 3: Shaorun Zhang",
+          "quote": "Telegram account superbluestar"
+        },
+        {
+          "source_id": "doc-telegram-superbluestar",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact @superbluestar"
+        },
+        {
+          "source_id": "doc-telegram-superbluestar-20260815",
+          "locator": "Public landing-page title",
+          "quote": "Telegram: Contact @superbluestar"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

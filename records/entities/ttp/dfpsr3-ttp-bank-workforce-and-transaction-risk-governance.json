@@ -1,0 +1,58 @@
+{
+  "id": "dfpsr3-ttp-bank-workforce-and-transaction-risk-governance",
+  "type": "ttp",
+  "name": "Bank governance across workforce-access and transaction-processing risk",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is official supervisory risk framing; it describes no disclosed bank incident, transaction rule, sanctions determination, or finding that one signal establishes suspicion.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFPSR3-S02-OCC-FALL-2025"
+    ]
+  },
+  "ttps": [
+    "cross-functional-governance",
+    "insider-risk",
+    "sanctions-risk",
+    "sensitive-data-access",
+    "transaction-processing"
+  ],
+  "caveats": [
+    "The bank regulator combines operational workforce risk and transaction-compliance risk; these are distinct control responsibilities.",
+    "The OCC treats transaction and worker indicators as review inputs; standalone transaction-rule status is absent.",
+    "This record includes no people, personas, victim institutions, front companies, accounts, wallets, payment identifiers, addresses, or images.",
+    "Treat controls as risk-based and source-qualified; DPRK linkage requires multiple corroborated signals."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-bank-supervisory-risk-context",
+      "statements": [
+        "The OCC places fraudulent employment access and processing of scheme-related financial transactions in the same bank risk discussion, showing that the issue spans workforce security, operational resilience, compliance, and sanctions functions."
+      ],
+      "limitations": [
+        "Do not infer that any transaction or remote worker is suspicious from one indicator; the OCC provides no standalone transaction rule.",
+        "The bank regulator combines operational workforce risk and transaction-compliance risk; these are distinct control responsibilities.",
+        "Treat controls as risk-based and source-qualified; no single location, language, accent, camera, payment, network, device, or behavioral signal establishes DPRK linkage.",
+        "This record includes no people, personas, victim institutions, front companies, accounts, wallets, payment identifiers, addresses, or images."
+      ],
+      "source_ids": [
+        "DFPSR3-S02-OCC-FALL-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DFPSR3-S02-OCC-FALL-2025",
+      "support": "The OCC says DPRK IT workers use identity obfuscation and U.S.-based helpers to obtain fraudulent employment and network access, with risks including data exfiltration and cybercriminal enablement. It states that supporting the activity, including processing associated transactions, creates significant operational, compliance, and sanctions risk for banks. The OCC places fraudulent employment access and processing of scheme-related financial transactions in the same bank risk discussion, showing that the issue spans workforce security, operational resilience, compliance, and sanctions functions",
+      "locator": "PDF page 8, report page 5, Risk Area Focus, Cybersecurity"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "datf-ttp-testimony-organizational-remittance-chain",
+  "type": "ttp",
+  "name": "Testimony-based context on organizational remittance routing",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Review-only structural testimony based on a protected source; judicial finding, sanctions designation, and universal-model status require independent verification.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DATF-S02"
+    ]
+  },
+  "ttps": [
+    "cross-border-remittance",
+    "organizational-hierarchy",
+    "third-country-payment-routing"
+  ],
+  "caveats": [
+    "Precise percentages, universal-routing claims, account details, and the protected source's identifying information are deliberately omitted as insufficiently corroborated or sensitive.",
+    "The congressional submission establishes the provenance of the quoted account; organizational links and routing steps require independent validation."
+  ],
+  "infrastructure": [
+    {
+      "type": "defensive-use-boundary",
+      "statements": [
+        "Use this source-qualified context for governance or corroborated behavior-based review, never as standalone identity or nationality attribution."
+      ],
+      "limitations": [
+        "No single nationality, geography, language, education history, technical skill, remote-work preference, interview anomaly, authentication event, or device signal establishes fraud or DPRK attribution."
+      ],
+      "source_ids": [
+        "DATF-S02"
+      ]
+    },
+    {
+      "type": "congressional-testimony-protected-source",
+      "statements": [
+        "A protected-source account quoted in written congressional testimony described overseas IT-worker revenue moving through affiliated institutions, onward through third-country financial channels, and ultimately across the DPRK border."
+      ],
+      "limitations": [
+        "The congressional submission establishes the provenance of the quoted account but does not independently validate every organizational link or routing step.",
+        "Precise percentages, universal-routing claims, account details, and the protected source's identifying information are deliberately omitted as insufficiently corroborated or sensitive."
+      ],
+      "method_and_source_boundary": "high for testimony provenance; moderate-to-low for precise percentages and remittance routing because the underlying interview/report was not independently reproduced in the hearing PDF",
+      "source_ids": [
+        "DATF-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+    "DPA-F02",
+    "DPA-F04"
+  ],
+  "sources": [
+    {
+      "source_id": "DATF-S02",
+      "support": "Supports the provenance and bounded substance of the quoted protected-source testimony. Normalized statement: A protected-source account quoted in written congressional testimony described overseas IT-worker revenue moving through affiliated institutions, onward through third-country financial channels, and ultimately across the DPRK border",
+      "locator": "PDF p. 2, quotation attributed to high-ranking defector Lee xx"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

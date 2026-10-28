@@ -1,0 +1,52 @@
+{
+  "id": "front-company-independent-lab-llc",
+  "type": "front_company",
+  "name": "Independent Lab LLC",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Security-vendor-reported IT-worker front company; U.S. laptop-farm shell company",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-4b410c4e6cc8",
+      "vendor-sentinelone-2024-fronts"
+    ]
+  },
+  "front_companies": [
+    "Independent Lab"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "remote IT-worker placement or support",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Canonical entity shared with DOJ's Independent Lab LLC shell-company record; vendor attribution and adjudicated facilitator-case facts remain claim-scoped.",
+    "This is a security-vendor attribution; consult the cited source for the underlying infrastructure and content-reuse analysis."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "vendor-sentinelone-2024-fronts"
+      ],
+      "value": "Independent Lab"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-4b410c4e6cc8",
+      "support": "Kejia Wang received 108 months and Zhenxing Wang 92 months; DOJ identified Hopana Tech LLC, Tony WKJ LLC, Independent Lab LLC, KVM devices, and theft of ITAR-controlled data",
+      "locator": "Press release — paragraph beginning “Kejia Wang and Zhenxing Wang created shell companies”; seizure paragraph beginning “Previously, in June 2025” where applicable"
+    },
+    {
+      "source_id": "vendor-sentinelone-2024-fronts",
+      "support": "SentinelOne SentinelLabs explicitly identifies Independent Lab as part of the reported DPRK IT-worker front-company ecosystem",
+      "locator": "Executive Summary; Front Companies; figures showing company sites and employee profiles"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

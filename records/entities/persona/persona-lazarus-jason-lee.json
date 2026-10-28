@@ -1,0 +1,499 @@
+{
+  "id": "persona-lazarus-jason-lee",
+  "type": "persona",
+  "name": "Jason Lee",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Lazarus Group publishes this registry profile and its listed selectors and work history; this single research source supplies a registry profile, while civil identity, current account control, and legal liability remain unresolved.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "lazarus-group-team"
+    ]
+  },
+  "identity_boundary": "This record is the Lazarus Group registry persona at /team/jason-lee. Keep it separate from same-named people, associates, companies, images, or handles unless an independent source links them.",
+  "caveats": [
+    "The site is a secondary research source and the profile remains needs_corroboration.",
+    "Historical selectors are defanged, and current account control remains unestablished.",
+    "Shared names, handles, photographs and listed associates create leads; records require source linkage before being treated as the same natural person.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "lazarus_group_routes": [
+    "jason-lee"
+  ],
+  "sources": [
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Jason Lee in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/jason-lee"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jason-lee-0001",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Jason Lee"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Basic Information, Real Name",
+          "quote": "Jason Lee"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0002",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0003",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "punk1004"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Basic Information, Aliases",
+          "quote": "punk1004"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0004",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "jasonlee9627"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Basic Information, Aliases",
+          "quote": "jasonlee9627"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0005",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "0xJason"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Basic Information, Aliases",
+          "quote": "0xJason"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0006",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "jasonlee9627[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Contact Information, Emails",
+          "quote": "jasonlee9627[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0007",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "0xm00neth[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Contact Information, Emails",
+          "quote": "0xm00neth[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0008",
+      "type": "account",
+      "predicate": "contact-information-twitter",
+      "value": {
+        "platform": "X/Twitter",
+        "identifier": "0xm00neth"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Contact Information, Twitter",
+          "quote": "0xm00neth"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0009",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://cryptototem.com/kira-network-kex/"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Contact Information, Websites",
+          "quote": "hxxps://cryptototem.com/kira-network-kex/"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0010",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://medium.com/[at]partydogeinfo/who-is-jason-lee-did-he-steal-1m-from-various-nft-projects-975007241e09"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Contact Information, Websites",
+          "quote": "hxxps://medium.com/[at]partydogeinfo/who-is-jason-lee-did-he-steal-1m-from-various-nft-projects-975007241e09"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0011",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://medium.com/yam-finance/on-november-3rd-2021-we-were-alerted-via-discord-about-potential-malicious-actions-toward-other-3f5f74af044d"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Contact Information, Websites",
+          "quote": "hxxps://medium.com/yam-finance/on-november-3rd-2021-we-were-alerted-via-discord-about-potential-malicious-actions-toward-other-3f5f74af044d"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0012",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Kira Network"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Employment History, company",
+          "quote": "Kira Network"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0013",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Metadallion"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Employment History, company",
+          "quote": "Metadallion"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0014",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Party Doge"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Employment History, company",
+          "quote": "Party Doge"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0015",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Yam Finance"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, Employment History, company",
+          "quote": "Yam Finance"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-jason-lee-0016",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "0xm00neth"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/jason-lee, GitHub, GitHub ID",
+          "quote": "0xm00neth"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "punk1004",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "jasonlee9627",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "0xJason",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "jasonlee9627[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "0xm00neth[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "X/Twitter",
+      "identifier": "0xm00neth",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://cryptototem.com/kira-network-kex/",
+      "url": "hxxps://cryptototem.com/kira-network-kex/",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://medium.com/[at]partydogeinfo/who-is-jason-lee-did-he-steal-1m-from-various-nft-projects-975007241e09",
+      "url": "hxxps://medium.com/[at]partydogeinfo/who-is-jason-lee-did-he-steal-1m-from-various-nft-projects-975007241e09",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://medium.com/yam-finance/on-november-3rd-2021-we-were-alerted-via-discord-about-potential-malicious-actions-toward-other-3f5f74af044d",
+      "url": "hxxps://medium.com/yam-finance/on-november-3rd-2021-we-were-alerted-via-discord-about-potential-malicious-actions-toward-other-3f5f74af044d",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "0xm00neth",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "organizations": [
+    "Kira Network",
+    "Metadallion",
+    "Party Doge",
+    "Yam Finance"
+  ]
+}

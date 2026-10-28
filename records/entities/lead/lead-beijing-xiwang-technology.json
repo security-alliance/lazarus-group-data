@@ -1,0 +1,80 @@
+{
+  "id": "lead-beijing-xiwang-technology",
+  "type": "lead",
+  "name": "Beijing Xiwang Technology Company",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Corporate-record or relationship-analysis lead only; registry linkage supplies a corporate relationship lead, while knowing participation, illicit conduct and DPRK control require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s1-sentinelone-2024-fronts"
+    ]
+  },
+  "locations": [
+    "Beijing, China"
+  ],
+  "ttps": [
+    "front-company or linked-company presentation"
+  ],
+  "caveats": [
+    "Registry or affiliate links provide context; guilt, control, and knowing assistance require corroborating evidence.",
+    "Registry overlap is a linkage lead; publish the company or registrant with SentinelLabs attribution and the linkage caveat. Complicity requires separate evidence.",
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Source observation: 2024-11-21; as of 2026 08 12: historical corporate-linkage indicator; current operation requires a fresh test."
+  ],
+  "aliases": [
+    {
+      "value": "北京市戏网科技有限公司",
+      "alias_type": "alternate-spelling",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    },
+    {
+      "value": "Beijing Hou Pa Na Technology Company",
+      "alias_type": "organization-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    },
+    {
+      "value": "北京后帕纳科技有限公司",
+      "alias_type": "organization-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "corporate_name_history",
+      "value": "previously used Hou Pa Na / Hopana-like company name",
+      "status": "source-reported from PRC corporate records",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    },
+    {
+      "kind": "registrant_overlap",
+      "value": "Tong Yuze also appeared on the disrupted Hopana Tech website",
+      "status": "source-reported",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s1-sentinelone-2024-fronts",
+      "support": "The cited source reports Beijing Xiwang Technology Company in the stated front-company or corporate-linkage context: previously used Hou Pa Na / Hopana-like company name; Tong Yuze also appeared on the disrupted Hopana Tech website",
+      "locator": "The Tong Yuze Identity"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

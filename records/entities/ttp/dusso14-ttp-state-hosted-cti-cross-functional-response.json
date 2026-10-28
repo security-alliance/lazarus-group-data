@@ -1,0 +1,68 @@
+{
+  "id": "dusso14-ttp-state-hosted-cti-cross-functional-response",
+  "type": "ttp",
+  "name": "State-hosted CTI-to-HR cross-functional response pattern",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Official New York State-hosted conference provenance for an attributed presenter case example; it supplies conference provenance, while an independently adjudicated New York State finding, identified victim incident, prosecution or confirmed DPRK-worker hire requires separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DUSSO14-S01-NY-ITS-CONFERENCE",
+      "DUSSO14-S02-NY-ITS-AGENDA"
+    ]
+  },
+  "ttps": [
+    "coordinate-cybersecurity-it-and-hr-response",
+    "document-and-implement-risk-proportionate-mitigations",
+    "operationalize-industry-threat-intelligence-through-exposure-assessment",
+    "reevaluate-hiring-and-access-controls-after-relevant-threat-intelligence"
+  ],
+  "caveats": [
+    "The organization remains unnamed. The example is a limited case pattern; state-agency compromise, confirmed hiring, loss, facilitator status, and an enforcement record require separate evidence.",
+    "Human review, documented reasons, bounded retention, accommodations, and a meaningful correction or appeal path remain necessary when controls affect workers or applicants.",
+    "The record is limited to aggregate findings; person, entity, employer, victim, account, persona, image, identifier, and private-selector profiles require separate source records.",
+    "Retain as review-level state-official conference provenance for cross-functional employer guidance. Named victim, confirmed employment incident, state-agency compromise, and prosecution record fall outside the record.",
+    "The state source confirms that the session and abstract appeared in the official conference program; the operational account remains attributable to the presenter.",
+    "Treat threat intelligence as a prompt for lawful, proportionate, corroborated review; identity, nationality, sanctions status, and wrongdoing require source evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "state-hosted-conference-account-of-private-organizational-response",
+      "statements": [
+        "An official New York State cybersecurity-conference program records an attributed real-world example in which industry-shared threat intelligence about DPRK remote IT-worker fraud led an organization to assess exposure, coordinate cybersecurity, IT, and HR teams, evaluate hiring and access processes, and implement mitigations. This is a useful employer-response and CTI-collaboration pattern absent from the corpus.",
+        "The described sequence moved from industry-shared threat intelligence to exposure assessment, coordination among cybersecurity, IT, and human-resources teams, review of hiring and access processes, and mitigation changes."
+      ],
+      "limitations": [
+        "The session, abstract, and described response sequence are confirmed as state-hosted conference content.",
+        "The abstract does not identify the affected organization, state that a DPRK worker was actually hired, quantify losses, name a facilitator, or provide adjudicated incident evidence.",
+        "The agenda corroborates the session's official conference provenance, not the truth of every presenter claim."
+      ],
+      "source_ids": [
+        "DUSSO14-S01-NY-ITS-CONFERENCE",
+        "DUSSO14-S02-NY-ITS-AGENDA"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk",
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DUSSO14-S01-NY-ITS-CONFERENCE",
+      "support": "The state-hosted abstract says intelligence shared through industry partnerships, including FS-ISAC, gave early insight into DPRK actors obtaining remote IT employment through fabricated identities, intermediaries, and distributed infrastructure. It says an organization analyzed the intelligence, assessed exposure, coordinated across cybersecurity, IT, and HR, evaluated hiring and access processes, and implemented mitigations. June 2, 2026 is retained as the conference event date; the page does not provide a verified publication date",
+      "locator": "Session titled 'From Pyongyang to Your Payroll: Unmasking North Korean IT Workers through CTI and Collaboration'; June 2, 2026 conference event date (not a verified publication date)"
+    },
+    {
+      "source_id": "DUSSO14-S02-NY-ITS-AGENDA",
+      "support": "The agenda independently confirms the session title and its placement in the official 2026 New York State Cybersecurity Conference program. June 2, 2026 is the agenda's event date, while the PDF metadata reports creation on June 1, 2026; neither is treated as a verified publication date",
+      "locator": "June 2 agenda entry for 'From Pyongyang to Your Payroll: Unmasking North Korean IT Workers through CTI and Collaboration'; June 2, 2026 event date; PDF metadata created June 1, 2026"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

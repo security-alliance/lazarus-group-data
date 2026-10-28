@@ -1,0 +1,48 @@
+{
+  "id": "front-company-volasys-silverstar",
+  "type": "front_company",
+  "name": "Volasys Silverstar",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "U.S. charging materials allegedly characterize Volasys Silverstar as a DPRK front company in Russia; the organization's status remains an unadjudicated charging characterization.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "The source characterizes this organization in charging-stage allegations; the label remains an allegation rather than an adjudicated organizational finding."
+  ],
+  "aliases": [
+    {
+      "value": "Volasys Silver Star Network Technology Co.",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "Fourteen DPRK nationals affiliated with Yanbian Silverstar and Volasys Silverstar allegedly used stolen identities, front-company websites, laptop farms, money-transfer accounts, and extortion",
+      "locator": "Press release — allegations, named subjects, organizations, and scheme summary"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

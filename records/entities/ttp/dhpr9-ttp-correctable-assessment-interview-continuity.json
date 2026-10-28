@@ -1,0 +1,62 @@
+{
+  "id": "dhpr9-ttp-correctable-assessment-interview-continuity",
+  "type": "ttp",
+  "name": "Correctable assessment-to-interview identity continuity",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party platform guidance only; named DPRK incident, allegation, adjudication, and independently measured effectiveness require separate source evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHPR9-S02"
+    ]
+  },
+  "ttps": [
+    "accessible-alternative",
+    "assessment-interview-continuity",
+    "authorized-correction",
+    "human-review",
+    "independent-onboarding-assurance",
+    "reviewable-decision-state"
+  ],
+  "caveats": [
+    "Appearance, accent, nationality, ethnicity, language, geography, time zone, camera behavior, disability-related behavior, and location require corroboration before any adverse decision.",
+    "Automated comparisons can fail because of disability, lighting, camera quality, aging, presentation changes, skin-tone performance disparities, and other benign conditions. This corpus retains no comparison images or templates. Use purpose limitation, minimal retention, security, human review, notice, correction, appeal, and an accessible non-biometric path; a mismatch is a review prompt requiring corroboration for impersonation, nationality, sanctions status, or DPRK affiliation.",
+    "Automated or platform-generated output is a review prompt. Consequential decisions require documented human review, correction, and appeal, rather than treating the output as a dispositive identity or misconduct determination.",
+    "An assessment-to-interview continuity decision is reviewable and correctable; biometric implementation requires separate governance review.",
+    "Generic platform documentation is retained as defensive guidance; it supplies context rather than a DPRK incident, attribution, allegation, or measured effectiveness claim.",
+    "This record retains no people, personas, accounts, entities, incidents, images, biometric material, identity documents, private data or raw behavioral, camera, code, network, location or device signals."
+  ],
+  "infrastructure": [
+    {
+      "type": "assessment-to-interview-continuity-control",
+      "statements": [
+        "Where a technical-hiring platform compares continuity between an earlier assessment and a live interview, treat the output as a review prompt rather than a dispositive identity judgment. Preserve the stage linkage, permit an authorized reviewer to revise the status, document the reason, and provide a non-biometric alternative and correction path. A later onboarding or access decision should rely on independently reviewed identity assurance, not on an opaque match result alone."
+      ],
+      "limitations": [
+        "Automated comparisons can fail because of disability, lighting, camera quality, aging, presentation changes, skin-tone performance disparities, and other benign conditions. Do not retain comparison images or templates in this corpus. Require purpose limitation, minimal retention, security, human review, notice, correction, appeal, and an accessible non-biometric path. A mismatch does not prove impersonation, nationality, sanctions status, or DPRK affiliation.",
+        "Generic platform documentation is retained only as defensive guidance, not as a DPRK incident, attribution, allegation, or measured effectiveness claim.",
+        "Automated or platform-generated output is a review prompt, not a dispositive identity or misconduct determination; consequential decisions require documented human review, correction, and appeal.",
+        "Appearance, accent, nationality, ethnicity, language, geography, time zone, camera behavior, disability-related behavior, and location are not standalone adverse signals.",
+        "No people, personas, accounts, entities, incidents, images, biometric material, identity documents, private data, or raw behavioral, camera, code, network, location, or device signals are retained.",
+        "An assessment-to-interview continuity decision must be reviewable and correctable; this does not endorse a biometric implementation."
+      ],
+      "source_ids": [
+        "DHPR9-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-identity-continuity"
+  ],
+  "sources": [
+    {
+      "source_id": "DHPR9-S02",
+      "support": "Where a technical-hiring platform compares continuity between an earlier assessment and a live interview, treat the output as a review prompt rather than a dispositive identity judgment. Preserve the stage linkage, permit an authorized reviewer to revise the status, document the reason, and provide a non-biometric alternative and correction path. A later onboarding or access decision should rely on independently reviewed identity assurance, not on an opaque match result alone",
+      "locator": "Key benefits; Prerequisites; Real-time alerts; Reviewing and updating verification status; Interview report page"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

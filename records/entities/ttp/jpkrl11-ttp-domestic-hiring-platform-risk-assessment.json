@@ -1,0 +1,60 @@
+{
+  "id": "jpkrl11-ttp-domestic-hiring-platform-risk-assessment",
+  "type": "ttp",
+  "name": "Domestic hiring-platform exposure assessment",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "A Republic of Korea government briefing dated 2022-12-08 assessed that identity-disguised DPRK IT workers could obtain domestic IT assignments; a 2023-10-19 government summary added preventive interview and payment warning signs. The sources document a risk assessment and warning signs rather than a named hire, employer, worker, platform account, or payment beneficiary.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "JPKR11-KR-GOV-20221208",
+      "JPKR11-KR-GOV-20231019"
+    ]
+  },
+  "locations": [
+    "Republic of Korea"
+  ],
+  "ttps": [
+    "hiring-platform-risk-assessment",
+    "identity-continuity-review",
+    "interview-consistency-review",
+    "payment-beneficiary-continuity"
+  ],
+  "caveats": [
+    "A feasibility statement describes what could happen; evidence that a particular Korean company hired a DPRK worker would require a separate source.",
+    "Employer, platform, candidate, account, and beneficiary identities remain outside this record.",
+    "The government assessment leaves the platform identity and successful named hire unresolved.",
+    "Interview or payment anomalies are screening signals; nationality or DPRK affiliation requires separate evidence.",
+    "The source leaves platform, employer, candidate, account, and payment-beneficiary identities for separate evidence.",
+    "Publication status remains review: feasibility and warning signs describe risk conditions; a successful hire or named incident requires separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "preventive-platform-risk-assessment",
+      "statement": "Following a proactive review, the government assessed that DPRK IT workers could falsify identity and obtain IT tasks from domestic companies. Later joint guidance highlighted suspicious interview conduct and requests for alternate payment arrangements.",
+      "original_language_title": "구인·구직플랫폼 선제적 점검 결과",
+      "original_language_statement": "정부가 선제적으로 점검한 결과, 북한 IT 인력들이 신분을 위조해 우리 기업들의 IT 일감을 수주하는 것이 가능한 것으로 판단했다.",
+      "translation_note": "English wording is a researcher translation retained alongside the original-language text.",
+      "source_ids": [
+        "JPKR11-KR-GOV-20221208",
+        "JPKR11-KR-GOV-20231019"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "JPKR11-KR-GOV-20221208",
+      "support": "Following a proactive review, the government assessed that DPRK IT workers could falsify identity and obtain IT tasks from domestic companies. Later joint guidance highlighted suspicious interview conduct and requests for alternate payment arrangements",
+      "locator": "Subtitle and body paragraphs beginning 구인·구직플랫폼 선제적 점검 결과 and 정부가 선제적으로 점검한 결과"
+    },
+    {
+      "source_id": "JPKR11-KR-GOV-20231019",
+      "support": "Following a proactive review, the government assessed that DPRK IT workers could falsify identity and obtain IT tasks from domestic companies. Later joint guidance highlighted suspicious interview conduct and requests for alternate payment arrangements",
+      "locator": "Headline, subheadline and body summary of suspicious interview and payment behavior"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

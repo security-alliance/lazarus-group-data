@@ -1,0 +1,140 @@
+{
+  "id": "deep-index-history-ldh-f031",
+  "type": "cluster",
+  "name": "m8s-lab / HyperbuildX historical GitHub organization cluster",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher-attributed public research finding; source-attributed public security research. Legal adjudication, civil-identity, and shared-operator status remain unestablished for adjacent accounts.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPC-S01"
+    ]
+  },
+  "organizations": [
+    "HyperbuildX",
+    "m8s-lab"
+  ],
+  "ttps": [
+    "GitHub organization-level persona infrastructure",
+    "repository-provenance and coordinated-credibility correlation"
+  ],
+  "caveats": [
+    "All organization and user handles are historical, source-attributed indicators; the record leaves current ownership, legal identity, nationality, and culpability unresolved.",
+    "Follow, star, fork, contribution, and organization membership are contextual signals; common control requires corroboration.",
+    "Stars, forks, and mutual follows alone leave DPRK control unestablished.",
+    "Individual handles are public platform identifiers and remain allegations attributed to Ketman.",
+    "No civil-identity inference; civil-identity status remains unassigned.",
+    "Omit emails, wallets and other high-risk selectors reproduced by the source.",
+    "The reported rename relationship between XTruebliss and 0xMuseNine remains research-attributed; same-operator identity status is unproven."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "0xMuseNine",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical account label in a source-reported rename/continuity relationship; no civil identity inference."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "AnotherRusty",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical account lead reported within the organization cluster; control and present ownership are not established."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "HyperbuildX",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical GitHub organization label attributed by Ketman to the reviewed cluster."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "XTruebliss",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical account label in a source-reported rename/continuity relationship; no civil identity inference."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "justinshiftjk",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical account lead reported within the organization cluster; control and present ownership are not established."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "m8s-lab",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical GitHub organization label attributed by Ketman to the reviewed cluster."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "microgift88",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "DPC-S01"
+      ],
+      "note": "Historical account lead reported within the organization cluster; control and present ownership are not established."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Ketman assesses m8s-lab and HyperbuildX as linked GitHub organization clusters used as credibility hubs, shared code stores, recruiter fronts, and amplification networks for suspected DPRK IT-worker personas. Public account relationships include reported renaming, cross-organization membership, mutual endorsements, and job-offer replies.",
+        "copied or minimally changed repositories",
+        "shared organization membership and cross-account following",
+        "account renaming and continuity",
+        "coordinated stars, forks, and endorsements",
+        "recruiting or job-offer replies routed through the account network"
+      ],
+      "source_ids": [
+        "DPC-S01"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Ketman assesses that GitHub organizations can serve as credibility hubs, shared code stores, recruiter fronts and amplification networks for suspected DPRK IT-worker personas.",
+        "The report names m8s-lab and HyperbuildX as assessed DPRK-operated organization clusters and describes copied repositories, inflated stars/followers, coordinated endorsements, account renaming and job-offer replies as cluster-level signals.",
+        "The source links public accounts across the two organizations, but those handles should remain source-attributed review leads rather than asserted legal identities."
+      ],
+      "source_ids": [
+        "DPC-S01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPC-S01",
+      "support": "Ketman assesses m8s-lab and HyperbuildX as linked GitHub organization clusters used as credibility hubs, shared code stores, recruiter fronts, and amplification networks for suspected DPRK IT-worker personas. Public account relationships include reported renaming, cross-organization membership, mutual endorsements, and job-offer replies | Ketman assesses that GitHub organizations can serve as credibility hubs, shared code stores, recruiter fronts and amplification networks for suspected DPRK IT-worker personas. The report names m8s-lab and HyperbuildX as assessed DPRK-operated organization clusters and describes copied repositories, inflated stars/followers, coordinated endorsements, account renaming and job-offer replies as cluster-level signals. The source links public accounts across the two organizations, but those handles should remain source-attributed review leads rather than asserted legal identities",
+      "locator": "Sections “Why does the DPRK run its own organization?” and “Meet HyperbuildX - A DPRK Scam Organization,” especially the organization-purpose list and account-boosting/copying discussion | Sections “Why does the DPRK run its own organization?”; “Meet HyperbuildX - A DPRK Scam Organization”; “The Core Team of HyperbuildX”; and “Summary”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

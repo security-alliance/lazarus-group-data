@@ -1,0 +1,421 @@
+{
+  "id": "facilitator-ho-yong-chol",
+  "type": "facilitator",
+  "name": "Ho Yong Chol",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Korea Daesong Bank-linked DPRK financial representative; Treasury reported that he facilitated transfers of over $2.5 million in U.S. dollars and Chinese yuan on behalf of Korea Daesong Bank and managed transactions worth over $85 million in U.S. dollars on behalf of another DPRK government-affiliated group; designated under E.O. 13551; administrative sanctions designation; no criminal charge or conviction is on record.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-2815ca074b83",
+      "gov-38e5789f9f87",
+      "gov-59746ada8798",
+      "gov-b2897867e002",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Ho Yong Chol",
+  "organizations": [
+    "Korea Daesong Bank"
+  ],
+  "locations": [
+    "Dandong, China"
+  ],
+  "caveats": [
+    "The source records an administrative designation and Treasury-reported conduct. Dandong, China is designation-era exact-entry context; residence, continued presence, and present location require separate evidence. Korea Daesong Bank has a source-explicit on-behalf-of and OFAC linked-to relationship; the other DPRK government-affiliated group is unnamed. The record scope excludes accounts, payments, counterparties, transactions, wallets, passports, birth, nationality, gender, contacts, precise addresses, and other sensitive selectors."
+  ],
+  "aliases": [
+    {
+      "value": "HO', Yong-ch'o'l",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ]
+    },
+    {
+      "value": "HO, Yong Chol",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ]
+    },
+    {
+      "value": "허용철",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-38e5789f9f87",
+      "support": "CyberScoop independently publishes Ho's name among five people working for DPRK financial institutions. Its collective China-or-Russia and illicit-transaction summary relies on Treasury and is not used to infer Ho's individual location, bank, account, or conduct beyond the primary evidence",
+      "locator": "Article body; paragraph naming the five financial-institution representatives"
+    },
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "Treasury reports that Ho facilitated transfers of over $2.5 million in U.S. dollars and Chinese yuan on behalf of Korea Daesong Bank and managed transactions worth over $85 million in U.S. dollars on behalf of another DPRK government-affiliated group; it records his E.O. 13551 designation based on the Korea Daesong Bank relationship. These are administrative-source allegations, not adjudicated findings; no account, payment, counterparty, or transaction selector is retained",
+      "locator": "Sanctions evasion networks section; Ho-specific sentence and designation paragraph"
+    },
+    {
+      "source_id": "gov-b2897867e002",
+      "support": "The original OFAC action lists primary form HO, Yong Chol, Korean form 허용철, alias HO', Yong-ch'o'l, Dandong, China designation-era context, program DPRK, and the linked-to relationship with Korea Daesong Bank. Sensitive identifiers and person attributes are excluded",
+      "locator": "Specially Designated Nationals List Update; Ho Yong Chol entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row confirms Dandong, China for OFAC entity number 56038. Precise address components are excluded; the living row does not establish residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 56038"
+    },
+    {
+      "source_id": "gov-2815ca074b83",
+      "support": "Recorded Future News independently publishes Ho's name and summarizes Treasury's over-$2.5-million Korea Daesong Bank and over-$85-million other-government-entity allegations. It expressly relies on Treasury and does not independently prove the conduct or identify any account, payment, counterparty, or transaction",
+      "locator": "Article body; named-individuals paragraph and Ho-specific summary"
+    },
+    {
+      "source_id": "gov-59746ada8798",
+      "support": "The official notice lists HO, Yong Chol, Korean form 허용철, alias HO', Yong-ch'o'l, Dandong, China, program DPRK, and the link to Korea Daesong Bank. PDF page 1 was rendered at 2x scale and visually inspected. Sensitive identifiers, person attributes, compliance text, and financial selectors are excluded",
+      "locator": "90 FR 51441, item 3 (PDF p. 1)"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ho-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "HO, Yong Chol",
+        "display": "Ho Yong Chol"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 56038",
+          "quote": "56038,\"HO, Yong Chol\",\"individual\",\"DPRK\""
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ho Yong Chol entry",
+          "quote": "HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l), Dandong, China"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 3 (PDF p. 1)",
+          "quote": "3. HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l), Dandong, China"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "The OFAC entity number binds the primary name to the current row; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-ho-korean-name-form",
+      "type": "identity_name",
+      "predicate": "ofac_listed_korean_name_form",
+      "value": {
+        "hangul": "허용철",
+        "ofac_entity_number": "56038"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ho Yong Chol entry",
+          "quote": "HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l)"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 3 (PDF p. 1)",
+          "quote": "HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l)"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Official source-scoped Korean name form; it is not used to merge another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-ho-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "HO', Yong-ch'o'l",
+        "ofac_entity_number": "56038"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row joined by OFAC entity number 56038",
+          "quote": "56038,87039,\"aka\",\"HO', Yong-ch'o'l\",-0-"
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ho Yong Chol entry",
+          "quote": "HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l)"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 3 (PDF p. 1)",
+          "quote": "HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l)"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-ho-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 56038",
+          "quote": "56038,\"HO, Yong Chol\",\"individual\",\"DPRK\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-ho-ofac-linked-bank",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Korea Daesong Bank",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 56038",
+          "quote": "Linked To: KOREA DAESONG BANK."
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ho Yong Chol entry",
+          "quote": "[DPRK] (Linked To: KOREA DAESONG BANK)."
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 3 (PDF p. 1)",
+          "quote": "[DPRK] (Linked To: KOREA DAESONG BANK)."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-ho-financial-representative",
+      "type": "employment",
+      "predicate": "treasury_reported_financial_representative_role",
+      "value": {
+        "role": "North Korean representative of a DPRK financial institution",
+        "reported_group": [
+          "Ho Yong Chol",
+          "Han Hong Gil",
+          "Jong Sung Hyok",
+          "Choe Chun Pom",
+          "Ri Jin Hyok"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, representative group sentence",
+          "quote": "Ho Yong Chol, Han Hong Gil (Han), Jong Sung Hyok (Jong), Choe Chun Pom (Choe) and Ri Jin Hyok (Ri) are China or Russia-based North Korean representatives of DPRK financial institutions."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury group description. It does not resolve a Ho-specific country or present location."
+      ]
+    },
+    {
+      "id": "claim-ho-korea-daesong-transfer-facilitation",
+      "type": "incident",
+      "predicate": "treasury_reported_transfer_facilitation",
+      "value": {
+        "organization": "Korea Daesong Bank",
+        "reported_aggregate": "over $2.5 million",
+        "currencies": [
+          "U.S. dollars",
+          "Chinese yuan"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Ho-specific sentence",
+          "quote": "Ho Yong Chol has helped to facilitate the transfer of over $2.5 million in U.S. dollars (USD) and Chinese yuan (CNY) on behalf of U.S.-designated Korea Daesong Bank, while also managing transactions worth over $85 million in USD on behalf of another DPRK government affiliated group."
+        },
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; Ho-specific summary",
+          "quote": "Ho Yong Chol helped change $2.5 million from U.S. dollars into Chinese yuan on behalf of sanctioned financial entity Korea Daesong Bank"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported historical aggregate; no account, payment, transaction, wallet, counterparty, or conversion-service selector is retained. Recorded Future News relies on Treasury and paraphrases the amount without the word 'over'."
+      ]
+    },
+    {
+      "id": "claim-ho-other-government-group-transaction-management",
+      "type": "incident",
+      "predicate": "treasury_reported_transaction_management_for_unnamed_group",
+      "value": {
+        "reported_aggregate": "over $85 million in U.S. dollars",
+        "reported_counterparty_class": "another DPRK government-affiliated group",
+        "group_identified_by_source": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Ho-specific sentence",
+          "quote": "while also managing transactions worth over $85 million in USD on behalf of another DPRK government affiliated group"
+        },
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; Ho-specific summary",
+          "quote": "while also managing a multitude of transactions worth more than $85 million on behalf of other North Korean government entities"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "The primary source does not identify the other DPRK government-affiliated group. No entity identity, account, payment, transaction, wallet, counterparty, or beneficiary selector is inferred or retained; the separate article relies on Treasury."
+      ]
+    },
+    {
+      "id": "claim-ho-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13551",
+        "basis_entity": "Korea Daesong Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, designation paragraph",
+          "quote": "OFAC designated Ho Yong Chol pursuant to E.O. 13551 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, Korea Daesong Bank"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-ho-exact-entry-coarse-geography",
+      "type": "location",
+      "predicate": "official_entry_lists_coarse_geography",
+      "value": {
+        "location": "Dandong, China",
+        "context": "designation-era exact-entry context",
+        "present_location_inference": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ho Yong Chol entry",
+          "quote": "HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l), Dandong, China"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 3 (PDF p. 1)",
+          "quote": "3. HO, Yong Chol (Korean: 허용철) (a.k.a. HO', Yong-ch'o'l), Dandong, China"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV row joined to OFAC entity number 56038",
+          "quote": "56038,85823,-0- ,\"Dandong\",\"China\",-0-"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Designation-era exact-entry context only; it is not a claim of residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-ho-separate-publisher-coverage",
+      "type": "note",
+      "predicate": "named_in_reputable_separate_publisher_coverage",
+      "value": {
+        "publishers": [
+          "Recorded Future News / The Record",
+          "CyberScoop"
+        ],
+        "underlying_claim_source": "U.S. Department of the Treasury"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; named-individuals paragraph and Ho-specific summary",
+          "quote": "Ho Yong Chol helped change $2.5 million from U.S. dollars into Chinese yuan on behalf of sanctioned financial entity Korea Daesong Bank while also managing a multitude of transactions worth more than $85 million on behalf of other North Korean government entities."
+        },
+        {
+          "source_id": "gov-38e5789f9f87",
+          "locator": "Article body; paragraph naming the five financial-institution representatives",
+          "quote": "It also designated five people who work for North Korean financial institutions: Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "These are separate publishers but derivative coverage of the Treasury action, not independent proof of the alleged conduct. CyberScoop's collective China-or-Russia wording is not used to infer Ho's individual location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Ho Yong Chol, listed by OFAC as HO, Yong Chol with Korean name 허용철 and alternate spelling HO', Yong-ch'o'l, is the Korea Daesong Bank-linked financial representative described in Treasury’s November 2025 sanctions action. Collective China-or-Russia wording leaves country, present location, and same-named public-account ownership unresolved. The source records an administrative-designation posture."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "src-5bbcf758629e",
+  "publisher": "GitHub",
+  "title": "GitHub owner repository inventory: Ideal-Softer",
+  "url": "https://api.github.com/users/Ideal-Softer/repos?per_page=100&type=owner&sort=full_name",
+  "accessed_at": "2026-08-15",
+  "sha256": "785f6fb097ed1fbb5774d2b6dfc5d9428d813b61d6dce2f2637c576a296c4375",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

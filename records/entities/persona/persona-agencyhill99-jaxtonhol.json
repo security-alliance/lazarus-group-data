@@ -1,0 +1,236 @@
+{
+  "id": "persona-agencyhill99-jaxtonhol",
+  "type": "persona",
+  "name": "jaxtonhol",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "organizations": [
+    "AgencyHill99",
+    "PurpleBravo"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "This is a historical public indicator, not a contact channel; current-account attribution requires newer evidence.",
+    "job advertisements observed 2024-09-26 through 2024-12-07",
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "This is a source-reported persona or account label rather than a verified legal identity.",
+    "Source-reported recruiter and administrative email selectors were omitted from this public-release record."
+  ],
+  "aliases": [
+    {
+      "value": "jaxtonhol",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Telegram",
+      "identifier": "jaxtonhol",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports jaxtonhol as a persona or account linked to AgencyHill99, PurpleBravo; historical indicators described by the source include Telegram jaxtonhol, recruiter email (redacted)",
+      "locator": "PDF pp. 5-6"
+    },
+    {
+      "source_id": "src-12aa7ea4edb2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jaxtonhol-historical-telegram",
+      "type": "account",
+      "predicate": "researcher_reported_historical_telegram_account",
+      "value": {
+        "platform": "Telegram",
+        "handle": "jaxtonhol"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 5, Telegram-post summary; organization-domain contact selector omitted",
+          "quote": "On September 26, 2024, an account with the username jaxtonhol"
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 5, same sentence after omitted contact selector",
+          "quote": "posted in the Telegram channel “indeedemploijobeur” that they were looking to hire a developer."
+        }
+      ],
+      "observed_at": "2024-09-26",
+      "notes": [
+        "Historical source attribution only; no civil identity is established."
+      ]
+    },
+    {
+      "id": "claim-jaxtonhol-agencyhill99-indicator",
+      "type": "relationship",
+      "predicate": "used_reported_agencyhill99_domain_indicator",
+      "value": {
+        "organization": "AgencyHill99",
+        "indicator_class": "organization-domain email"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 5, Telegram summary; mailbox local part omitted",
+          "quote": "an account with the username jaxtonhol and email address"
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 5, same address, exact organization-domain fragment; mailbox local part omitted",
+          "quote": "agencyhill99[.]com"
+        }
+      ],
+      "observed_at": "2024-09-26",
+      "notes": [
+        "The bare organization-domain fragment is retained because it is necessary to support the relationship claim; the mailbox local part is excluded and must not be reconstructed or contacted.",
+        "Historical research attribution only; domain use does not establish civil identity, current control, or a same-person merge."
+      ]
+    },
+    {
+      "id": "claim-jaxtonhol-blockchain-recruitment",
+      "type": "incident",
+      "predicate": "posted_blockchain_engineer_advertisements",
+      "value": {
+        "role_sought": "blockchain engineers",
+        "dates": [
+          "2024-11-13",
+          "2024-12-07"
+        ],
+        "platform": "Telegram"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 6, Telegram-post summary",
+          "quote": "On November 13, 2024, the Telegram user jaxtonhol posted in the Telegram channel “near_jobs” seeking blockchain engineers."
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 6, repeat-post sentence before omitted contact selector",
+          "quote": "The same user posted again on December 7, 2024, in the same channel"
+        }
+      ],
+      "observed_at": "2024-12-07",
+      "notes": [
+        "Repeated source-reported account activity; it does not prove one continuing natural-person operator."
+      ]
+    },
+    {
+      "id": "claim-jaxtonhol-email-reuse-boundary",
+      "type": "relationship",
+      "predicate": "organization_email_indicator_reused_by_distinct_account_label",
+      "value": {
+        "other_account_label": "Dale_V",
+        "same_operator_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 5, Dale_V sentence; shared organization-domain contact selector omitted",
+          "quote": "On the same day, the account Dale_V using the email"
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 5, same sentence after omitted contact selector",
+          "quote": "posted in the Telegram channel “cryptolux_b” that they were looking to hire a blockchain developer."
+        }
+      ],
+      "observed_at": "2024-09-26",
+      "notes": [
+        "Keep Dale_V and jaxtonhol distinct. The privacy-safe quote does not itself establish reuse of the same indicator, so this relationship remains review-only unless stronger non-sensitive evidence is added."
+      ]
+    },
+    {
+      "id": "claim-jaxtonhol-current-landing",
+      "type": "account",
+      "predicate": "public_account_landing_page_reachable_at_cutoff",
+      "value": {
+        "platform": "Telegram",
+        "handle": "jaxtonhol",
+        "status": "public landing page reachable"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-12aa7ea4edb2",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "No contact occurred. Reachability does not establish current ownership, control, or continuity with the historical account operator.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-jaxtonhol-recorded-future-link-only-source-page",
+      "type": "image",
+      "predicate": "publisher_report_page_link_only_media_reference",
+      "value": {
+        "publisher": "Recorded Future Insikt Group",
+        "source_page": "PDF file pp. 6-7 (printed footer pp. 5-6)",
+        "subject_label": "jaxtonhol",
+        "media_type": "publisher report page",
+        "handling": "link_and_narrative_only",
+        "narrative_reference_only": true,
+        "direct_asset_retained": false,
+        "image_extracted": false,
+        "appearance_inference": false,
+        "civil_identity_inferred": false,
+        "current_control_inferred": false,
+        "contact_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF file pp. 6-7 (printed footer pp. 5-6), visually reviewed Telegram chronology; contact selectors and unrelated Figure 1 excluded",
+          "quote": "On November 13, 2024, the Telegram user jaxtonhol posted in the Telegram channel “near_jobs” seeking blockchain engineers."
+        }
+      ],
+      "observed_at": "2025-02-13",
+      "notes": [
+        "Narrative and publisher-document link only; no page image, crop, embedded asset, profile image, or direct image URL is retained or republished.",
+        "Contact and infrastructure selectors, unrelated person imagery, facial matching, civil-identity inference, and present-control inference are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Historical Telegram recruiter account label reported by Recorded Future in the AgencyHill99/PurpleBravo cluster. Account reachability, repeated advertisements, and a reused organization-domain email indicator provide context; civil identity, operator continuity, and present control require current source evidence."
+}

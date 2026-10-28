@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-20T04:00:54Z",
+  "data_sha256": "fd1e883d55fb88fb139cb40ed46e6aade336eec484762f152ff9d08fa67406fa",
+  "provenance_expectations": {
+    "missing_posture": 48,
+    "partial_source_refs": 458
+  },
+  "reviewed_id_changes": [],
+  "fixture_counts": {
+    "profiles": 6,
+    "cases": 5,
+    "organizations": 5,
+    "tradecraft": 5,
+    "infrastructure": 5,
+    "leads": 5,
+    "sources": 9,
+    "indicators": 5
+  },
+  "counts": {
+    "profiles": 395,
+    "cases": 109,
+    "organizations": 87,
+    "tradecraft": 272,
+    "infrastructure": 30,
+    "leads": 20,
+    "sources": 986,
+    "indicators": 974
+  },
+  "totals": {
+    "entities": 913,
+    "claims": 3889,
+    "publishers": 373
+  },
+  "by_type": {
+    "cluster": 109,
+    "facilitator": 88,
+    "front_company": 82,
+    "infrastructure": 30,
+    "lead": 20,
+    "organization": 5,
+    "persona": 170,
+    "ttp": 272,
+    "worker": 137
+  },
+  "by_posture": {
+    "affected-organization-report": 34,
+    "charged-allegation": 88,
+    "convicted": 10,
+    "officially-attributed": 269,
+    "research-attributed": 419,
+    "sanctioned-designation": 82,
+    "unverified-lead": 11
+  },
+  "by_status": {
+    "needs_corroboration": 532,
+    "published": 381
+  },
+  "indicators": {
+    "account": 724,
+    "infrastructure": 113,
+    "wallet": 137
+  }
+}

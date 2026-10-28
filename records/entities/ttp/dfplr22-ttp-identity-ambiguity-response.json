@@ -1,0 +1,58 @@
+{
+  "id": "dfplr22-ttp-identity-ambiguity-response",
+  "type": "ttp",
+  "name": "Identity-ambiguity response across the worker lifecycle",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Provider-authored defensive analysis and response guidance; incident disclosure, identity determination, official attribution, adjudication, and independently validated efficacy study fall outside its scope.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFPLR22-S01-VERSPRITE-TRUST-MODEL"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "credential-sharing",
+    "laptop-forwarding",
+    "proxy-interviewee"
+  ],
+  "caveats": [
+    "Camera or audio problems, VPN use, atypical hours, travel, shared housing, common service providers, assistive technology, new online profiles, or geography may have benign explanations.",
+    "Minimize and bound retention of identity, voice, face, device, collaboration, authentication, logistics, location, and employment data; use human review rather than a public watchlist or automatic rejection or termination rule.",
+    "Identity-continuity guidance identifies the boundaries among actors, affected organizations, incidents, accounts, and selectors.",
+    "Use multiple independently explainable signals, trained human review, documented rationale, correction and appeal paths, accessibility accommodations, and proportionate access controls."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Treat supported inconsistencies as an identity-ambiguity response problem rather than as proof of nationality, identity, affiliation, or misconduct.",
+        "Preserve relevant evidence before changing access, then apply proportionate temporary access limits while trained reviewers assess the ambiguity.",
+        "Compare continuity across application, interview, onboarding, device use, authentication, collaboration, shipping, work location, schedule, role, and early work product.",
+        "Use controlled real-time identity reconfirmation with accessible non-biometric alternatives and human review."
+      ],
+      "limitations": [
+        "This is provider-authored practitioner guidance, not a disclosed VerSprite incident, adjudication, benchmark, false-positive study, or independently validated efficacy result.",
+        "No single identity, face, voice, document, endpoint, authentication, collaboration, shipping, location, schedule, or behavior signal proves DPRK affiliation or misconduct.",
+        "Apply the same role- and risk-based procedure consistently; never select a person for review because of name, nationality, ethnicity, accent, appearance, language, disability, or geography alone."
+      ],
+      "source_ids": [
+        "DFPLR22-S01-VERSPRITE-TRUST-MODEL"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfef-ttp-lifecycle-identity-continuity"
+  ],
+  "sources": [
+    {
+      "source_id": "DFPLR22-S01-VERSPRITE-TRUST-MODEL",
+      "support": "VerSprite frames the risk as failure to validate whether one consistent person operates an approved identity across application, interview, onboarding, device use, collaboration, and work. It recommends correlating identity, endpoint, collaboration, shipping, and authentication evidence; limiting access during review; preserving evidence; and reconfirming identity under controlled real-time conditions rather than waiting for malware or treating one weak signal as proof. Evidence boundary: Provider-authored defensive analysis, not a disclosed VerSprite incident, named-customer case, official attribution, adjudication, benchmark, false-positive study, or independent product-efficacy evaluation. Most campaign background is synthesized from public advisories and known cases",
+      "locator": "Sections “The Real Problem: Identity Consistency,” “What Organizations Should Monitor,” “When the Signals Do Not Add Up,” “Controls That Still Matter,” “Common Mistakes Organizations Make,” and “Practical Defensive Questions.”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "cluster-nickel-tapestry",
+  "type": "cluster",
+  "name": "NICKEL TAPESTRY",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Sophos/CTU research attributes the NICKEL TAPESTRY cluster; official regional guidance supplies context, while vendor-defined cluster attribution requires the cited research.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-foreign-foreign-official-eu-cert-eu-cb24-11",
+      "vendor-sophos-2025-nickel-tapestry"
+    ]
+  },
+  "locations": [
+    "European Union"
+  ],
+  "ttps": [
+    "extortion",
+    "fraudulent remote-employment personas",
+    "ransom-demand",
+    "shared FTP and messaging infrastructure",
+    "source-code-exfiltration"
+  ],
+  "caveats": [
+    "Return to the primary source before duplicating a vendor-derived identity or indicator.",
+    "Exact URL/title absent. The underlying Secureworks research and U.S. government extortion warning are represented elsewhere, so this is retained as EU-level corroboration rather than as a new actor record.",
+    "Official contextual guidance adds context only; separate cluster attribution and recommendations made by other sources rely on their own source records.",
+    "Nickel Tapestry is a research cluster name rather than a legal identity.",
+    "Vendor cluster name; shared indicators are assigned to a specific persona only with an explicit mapping."
+  ],
+  "accounts": [
+    {
+      "platform": "Telegram",
+      "identifier": "Alex (Алекс) 88",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-sophos-2025-nickel-tapestry"
+      ],
+      "note": "Shared cluster indicator; no one-to-one persona mapping asserted."
+    },
+    {
+      "platform": "FTP username",
+      "identifier": "uniqueuser2024",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-sophos-2025-nickel-tapestry"
+      ],
+      "note": "Shared cluster indicator; no one-to-one persona mapping asserted."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "domain",
+      "value": "kimonosafes.top",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-sophos-2025-nickel-tapestry"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "CERT-EU's monthly brief independently elevated the shift from employment fraud to data theft and extortion for EU stakeholders. It adds official regional warning value but no new named actor."
+      ],
+      "source_ids": [
+        "deep2-foreign-foreign-official-eu-cert-eu-cb24-11"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-nickel-tapestry",
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-foreign-foreign-official-eu-cert-eu-cb24-11",
+      "support": "CERT-EU's monthly brief independently elevated the shift from employment fraud to data theft and extortion for EU stakeholders. It adds official regional warning value but no new named actor",
+      "locator": "Section “North Korean IT workers extorted employers after infiltrating Western companies” (October 16 entry)"
+    },
+    {
+      "source_id": "vendor-sophos-2025-nickel-tapestry",
+      "support": "Names Brad Blaszczyk, Ivan Matskevich, Wyrick Cabel, and Julian Gus; links usernames Alex/Алекс 88 and uniqueuser2024, kimonosafes[.]top, resume/profile artifacts, IP-based KVM, RMM, VPN, and extortion",
+      "locator": "Actor personas; Tables 1 and 3; Figures 1-7; Tactics, techniques, and procedures"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

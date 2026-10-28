@@ -1,0 +1,186 @@
+{
+  "id": "worker-joheon",
+  "type": "worker",
+  "name": "JoHeon",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "DTEX labels the source-table row as a source-reported IT-worker name label",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-dtex-2025-hidden-workforce"
+    ]
+  },
+  "legal_or_reported_name": "JoHeon",
+  "locations": [
+    "Dandong, China"
+  ],
+  "ttps": [
+    "shared physical work location"
+  ],
+  "caveats": [
+    "The source-reported historical internal-workspace identifier is omitted as a private operational selector; it stays unpublished, unreconstructed, uncontacted, untargeted, and outside identity resolution.",
+    "Romanization and spacing are preserved from the source figure.",
+    "The displayed name is a source-reported name label transcribed from a security-vendor figure. The record carries that label at source level; government verification, civil identity, present location, and individual responsibility require separate evidence.",
+    "The first-party PDF exposes no verified public release date; PDF metadata and HTTP Last-Modified values are not publication evidence.",
+    "The name is transcribed from a security-vendor report that labels it a source-reported name-label field; government verification requires separate evidence."
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-dtex-2025-hidden-workforce",
+      "support": "DTEX Figure 11 labels JoHeon as a source-reported IT-worker name label; accompanying text places the group in Dandong",
+      "locator": "PDF p. 34, Figure 11"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-joheon-source-name",
+      "type": "identity_name",
+      "predicate": "dtex_source_reported_worker_name_label",
+      "value": {
+        "name": "JoHeon",
+        "attribution": "source-reported name label"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11, name column; internal selector fields excluded",
+          "quote": "JoHeon"
+        }
+      ],
+      "notes": [
+        "The displayed spelling and spacing are preserved from the DTEX figure. This is not an independently government-verified legal identity."
+      ]
+    },
+    {
+      "id": "claim-joheon-unit-association",
+      "type": "organization_affiliation",
+      "predicate": "dtex_reported_education_unit_association",
+      "value": {
+        "organization": "Department of Education",
+        "source_table_label": "Educ",
+        "relationship": "source-reported worker-unit association"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11, JoHeon row; internal selector and room fields excluded",
+          "quote": "Educ"
+        },
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, paragraph preceding Figure 11",
+          "quote": "including the Department of Education"
+        }
+      ],
+      "notes": [
+        "The table abbreviation is interpreted only within DTEX's immediately preceding Department of Education wording; no broader organizational role or conduct is inferred."
+      ]
+    },
+    {
+      "id": "claim-joheon-dandong-context",
+      "type": "location",
+      "predicate": "dtex_reported_dandong_worker_site_context",
+      "value": {
+        "location": "Dandong, China",
+        "context": "source-reported IT-worker site context"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11 caption and preceding paragraph",
+          "quote": "Figure 11. Administrative notes link true IT workers to units to a Dandong site near DPRK cyber infrastructure."
+        },
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, paragraph immediately preceding Figure 11; precise street address excluded",
+          "quote": "Dandong, China"
+        }
+      ],
+      "notes": [
+        "Contextual historical/source-report geography only; it does not establish present location."
+      ]
+    },
+    {
+      "id": "claim-joheon-dtex-tasking-context",
+      "type": "incident",
+      "predicate": "dtex_reported_administrative_tasking_context",
+      "value": {
+        "source_label": "JoHeon",
+        "source_table_unit": "Department of Education",
+        "location": "Dandong, China",
+        "scope": "source-table and organization-level context",
+        "individual_conduct_attributed": false,
+        "precise_location_retained": false,
+        "internal_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11, JoHeon row; internal and precise-location columns excluded",
+          "quote": "JoHeon"
+        },
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, paragraph above Figure 11 and figure caption",
+          "quote": "Administrative notes from a separate team list names and organizational ITW tasking units"
+        },
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11 caption",
+          "quote": "Figure 11. Administrative notes link true IT workers to units to a Dandong site near DPRK cyber infrastructure."
+        }
+      ],
+      "notes": [
+        "The report row and caption establish bounded source-table context only; they do not attribute a specific project, intrusion, client, account, or other individual conduct to this label.",
+        "The source's internal Netkey/workspace value, room number, street address, postal code, routing details, and precise site are excluded.",
+        "The unresolved source-table category 'Other' is not converted into an organization or RGB affiliation."
+      ]
+    },
+    {
+      "id": "claim-joheon-dtex-figure-reference",
+      "type": "image",
+      "predicate": "publisher_reported_source_figure_row_reference",
+      "value": {
+        "publisher": "DTEX Systems",
+        "source_page": "PDF p. 34",
+        "figure": "Figure 11",
+        "subject_label": "JoHeon",
+        "media_type": "report table",
+        "handling": "link_and_narrative_only",
+        "image_retained": false,
+        "sensitive_columns_retained": false,
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11, visually reviewed JoHeon row",
+          "quote": "JoHeon"
+        },
+        {
+          "source_id": "vendor-dtex-2025-hidden-workforce",
+          "locator": "PDF p. 34, Figure 11 caption",
+          "quote": "Figure 11. Administrative notes link true IT workers to units to a Dandong site near DPRK cyber infrastructure."
+        }
+      ],
+      "notes": [
+        "Narrative and publisher-link reference only; the table image is not copied, cropped, embedded, or used for biometric or civil-identity inference.",
+        "Internal identifiers, room number, street address, postal code, precise location, and other operational selectors visible in the source figure are not retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Research-attributed DTEX source name label only. JoHeon, the source-reported unit label, Dandong site context, and omitted workspace fields provide source context; civil identity, present location, individual conduct, and same-named-public-account ownership remain unresolved."
+}

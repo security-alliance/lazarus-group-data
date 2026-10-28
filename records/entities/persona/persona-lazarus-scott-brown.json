@@ -1,0 +1,872 @@
+{
+  "id": "persona-lazarus-scott-brown",
+  "type": "persona",
+  "name": "Scott Brown",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Lazarus Group publishes this registry profile and its listed selectors and work history; this single research source supplies a registry profile, while civil identity, current account control, and legal liability remain unresolved.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "lazarus-group-team"
+    ]
+  },
+  "identity_boundary": "This record is the Lazarus Group registry persona at /team/scott-brown. Same-named people, associates, companies, images, and handles remain separate absent an independent source.",
+  "caveats": [
+    "The site is a secondary research source and the profile remains needs_corroboration.",
+    "Historical selectors are defanged, and current account control remains unestablished.",
+    "Shared names, handles, photographs and listed associates create leads; records require source linkage before being treated as the same natural person.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "lazarus_group_routes": [
+    "scott-brown"
+  ],
+  "sources": [
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Scott Brown in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/scott-brown"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-scott-brown-0001",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Scott Brown"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Real Name",
+          "quote": "Scott Brown"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0002",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0003",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "breavedev"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Aliases",
+          "quote": "breavedev"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0004",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "braverdever"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Aliases",
+          "quote": "braverdever"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0005",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "nevermindhim"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Aliases",
+          "quote": "nevermindhim"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0006",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "verytinydever"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Aliases",
+          "quote": "verytinydever"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0007",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "scott.brown0629"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Aliases",
+          "quote": "scott.brown0629"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0008",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Kyle Larsen"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Fake Names",
+          "quote": "Kyle Larsen"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0009",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Sean Day"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Basic Information, Fake Names",
+          "quote": "Sean Day"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0010",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "scott[dot]brown0629[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Contact Information, Emails",
+          "quote": "scott[dot]brown0629[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0011",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "what[dot]a[dot]fabulous1[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Contact Information, Emails",
+          "quote": "what[dot]a[dot]fabulous1[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0012",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "sct[dot]brown0629[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Contact Information, Emails",
+          "quote": "sct[dot]brown0629[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0013",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://dev.to/scott_brown_b611d05a865cf"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Contact Information, Websites",
+          "quote": "hxxps://dev.to/scott_brown_b611d05a865cf"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0014",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://www.impaxrecruitment.com/wp-content/uploads/elementor/forms/6786f200b23aa.pdf"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Contact Information, Websites",
+          "quote": "hxxps://www.impaxrecruitment.com/wp-content/uploads/elementor/forms/6786f200b23aa.pdf"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0015",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "Jan 1, 2025"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Employment History, Identified",
+          "quote": "Jan 1, 2025"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0016",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Unknown Company"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Employment History, company",
+          "quote": "Unknown Company"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0017",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "breavedev"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, GitHub, GitHub ID",
+          "quote": "breavedev"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0018",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "nevermindhim"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, GitHub, GitHub ID",
+          "quote": "nevermindhim"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0019",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "verytinydever"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, GitHub, GitHub ID",
+          "quote": "verytinydever"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0020",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "breavedev"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, GitHub, Usernames",
+          "quote": "breavedev"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0021",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "nevermindhim"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, GitHub, Usernames",
+          "quote": "nevermindhim"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0022",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "verytinydever"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, GitHub, Usernames",
+          "quote": "verytinydever"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0023",
+      "type": "account",
+      "predicate": "linkedin-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "hxxps://linkedin.com/in/scott-brown-b947ba29a"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, LinkedIn, Emails",
+          "quote": "hxxps://linkedin.com/in/scott-brown-b947ba29a"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0024",
+      "type": "account",
+      "predicate": "linkedin-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "hxxps://linkedin.com/in/scott-brown-813445279"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, LinkedIn, Emails",
+          "quote": "hxxps://linkedin.com/in/scott-brown-813445279"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0025",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0x3b8cc82f5d3ec89d88c58504ecfefe4597020840"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Onchain Activity, Addresses",
+          "quote": "0x3b8cc82f5d3ec89d88c58504ecfefe4597020840"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0026",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0xa8cb25ddf0a7195bdc3232ac6e1d812c8a4713fe"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Onchain Activity, Addresses",
+          "quote": "0xa8cb25ddf0a7195bdc3232ac6e1d812c8a4713fe"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0027",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0x368a337dcdec5cf9849a7563538f03b1516a3f7d"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Onchain Activity, Addresses",
+          "quote": "0x368a337dcdec5cf9849a7563538f03b1516a3f7d"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0028",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0xb25a0580ddf68d4aea11d83f1655016e9520f51a"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Onchain Activity, Addresses",
+          "quote": "0xb25a0580ddf68d4aea11d83f1655016e9520f51a"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0029",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0x38a35ab4235ce7c8b5c4733cee7de9e28e348acb"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Onchain Activity, Addresses",
+          "quote": "0x38a35ab4235ce7c8b5c4733cee7de9e28e348acb"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-scott-brown-0030",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0xce0113e71ce0273d0504a7ef1cd4f0e6e4d196bc"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/scott-brown, Onchain Activity, Addresses",
+          "quote": "0xce0113e71ce0273d0504a7ef1cd4f0e6e4d196bc"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "breavedev",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "braverdever",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "nevermindhim",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "verytinydever",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "scott.brown0629",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Kyle Larsen",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Sean Day",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "scott[dot]brown0629[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "what[dot]a[dot]fabulous1[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "sct[dot]brown0629[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://dev.to/scott_brown_b611d05a865cf",
+      "url": "hxxps://dev.to/scott_brown_b611d05a865cf",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://www.impaxrecruitment.com/wp-content/uploads/elementor/forms/6786f200b23aa.pdf",
+      "url": "hxxps://www.impaxrecruitment.com/wp-content/uploads/elementor/forms/6786f200b23aa.pdf",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "breavedev",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "nevermindhim",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "verytinydever",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "hxxps://linkedin.com/in/scott-brown-b947ba29a",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "hxxps://linkedin.com/in/scott-brown-813445279",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "organizations": [
+    "Unknown Company"
+  ]
+}

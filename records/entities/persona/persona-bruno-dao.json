@@ -1,0 +1,278 @@
+{
+  "id": "persona-bruno-dao",
+  "type": "persona",
+  "name": "Bruno Dao",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s8"
+    ]
+  },
+  "ttps": [
+    "appropriated resume content",
+    "inconsistent listed locations",
+    "minimal/templated professional profiles"
+  ],
+  "caveats": [
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "images": [
+    {
+      "source_id": "platform-s8",
+      "source_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-worker-scam.pdf",
+      "caption": "Nisos report reproduces public profile images; it warns the same photos appeared under different names.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s8",
+      "support": "Nisos enumerated Bruno Dao among a network of probable DPRK online personas",
+      "locator": "Skills, GitHub, LinkedIn, and location examples, report pp. 4-7, Graphics 1 and 4-7 and 14"
+    },
+    {
+      "source_id": "src-e401701b6056"
+    },
+    {
+      "source_id": "src-68f8253b0158"
+    },
+    {
+      "source_id": "drp49-un-s-2024-215"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-bruno-reported-github-persona",
+      "type": "account",
+      "predicate": "researcher_reported_historical_github_persona",
+      "value": {
+        "persona_label": "Bruno Dao",
+        "platform": "GitHub",
+        "handle": "wenjinge0424",
+        "claimed_role": "iOS and Blockchain Developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 5, Graphic 4 and footnote 4",
+          "quote": "Bruno Dao refers to himself as an iOS and Blockchain Developer on his GitHub profile."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 5, footnote 4",
+          "quote": "https://www.github[.]com/wenjinge0424"
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Historical source attribution only; the label and handle are not a verified civil identity or present-control finding."
+      ]
+    },
+    {
+      "id": "claim-bruno-reported-persona-cluster",
+      "type": "relationship",
+      "predicate": "publisher_reported_cross_platform_persona_cluster",
+      "value": {
+        "primary_label": "Bruno Dao",
+        "related_labels": [
+          "Wen Jinge",
+          "Yu JinGe"
+        ],
+        "identity_status": "publisher-reported persona cluster, not verified same person"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 5, Graphic 4",
+          "quote": "Bruno Dao refers to himself as an iOS and Blockchain Developer on his GitHub profile."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, Graphic 8",
+          "quote": "Same photo used for “wenjinge” in Dandong, China on freelancer site Guru."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, Graphic 9",
+          "quote": "Same photo found on a personal website for mobile app developer “Yu JinGe.”"
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "This reproduces the publisher's cross-profile assessment. No facial recognition or independent image-based identity resolution was performed, and the labels remain distinct."
+      ]
+    },
+    {
+      "id": "claim-bruno-github-current",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "wenjinge0424",
+        "numeric_id": 39569401,
+        "profile_name": "Bruno Dao",
+        "profile_bio": "IOS and Bockchain Developer",
+        "public_repositories": 30
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"wenjinge0424\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field id",
+          "quote": "\"id\": 39569401"
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Bruno Dao\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field bio",
+          "quote": "\"bio\": \"IOS and Bockchain Developer\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 30"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "The bio spelling is preserved literally. Current metadata does not establish present control or identity."
+      ]
+    },
+    {
+      "id": "claim-bruno-github-timeline",
+      "type": "account",
+      "predicate": "current_public_account_timestamps",
+      "value": {
+        "platform": "GitHub",
+        "handle": "wenjinge0424",
+        "created_at": "2018-05-23T19:29:05Z",
+        "updated_at": "2023-04-03T03:41:02Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2018-05-23T19:29:05Z\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field updated_at",
+          "quote": "\"updated_at\": \"2023-04-03T03:41:02Z\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Public API timestamps for the source-linked account; they do not establish who controlled it at any time."
+      ]
+    },
+    {
+      "id": "claim-bruno-github-repository-inventory",
+      "type": "account",
+      "predicate": "current_public_repository_metadata_inventory",
+      "value": {
+        "platform": "GitHub",
+        "handle": "wenjinge0424",
+        "owner_filtered_repositories": 30,
+        "forks_reported": 0,
+        "archived_reported": 0,
+        "language_counts": {
+          "Solidity": 14,
+          "Objective-C": 11,
+          "Java": 1,
+          "JavaScript": 1,
+          "PEG.js": 1,
+          "Python": 1,
+          "unspecified": 1
+        },
+        "repository_creation_range": [
+          "2021-04-20T08:17:24Z",
+          "2021-09-30T20:36:15Z"
+        ],
+        "content_reviewed": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 30"
+        },
+        {
+          "source_id": "src-68f8253b0158",
+          "locator": "Repeated JSON language fields in the complete 30-object array",
+          "quote": "\"language\": \"Solidity\""
+        },
+        {
+          "source_id": "src-68f8253b0158",
+          "locator": "Repeated JSON language fields in the complete 30-object array",
+          "quote": "\"language\": \"Objective-C\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Metadata inventory for the Nisos-linked account only. It is not evidence that one person authored, owned, or controlled every repository, and no code was downloaded or assessed."
+      ]
+    },
+    {
+      "id": "claim-persona-bruno-dao-un-annex64-derivative-reproduction",
+      "type": "relationship",
+      "predicate": "un_report_reproduced_vendor_persona_example",
+      "value": {
+        "document_symbol": "S/2024/215",
+        "figure": "Annex 64, Figure 3",
+        "visible_labels": [
+          "Bruno Dao",
+          "Vu Minh Dao"
+        ],
+        "underlying_source_family": "Nisos 2023 persona research",
+        "independent_identity_source": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 caption",
+          "quote": "Figure 3: Example of DPRK IT workers’ multiple personas"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 visible profile label",
+          "quote": "Bruno Dao"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 visible profile label",
+          "quote": "Vu Minh Dao"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Official derivative reproduction of the already-reviewed Nisos persona cluster; not an independent identity source or facial-analysis result.",
+        "The UN figure is retained as official derivative documentation; it does not increase independent publisher count, resolve a civil identity, or authorize image-based identity inference."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Nisos-reported employment-persona cluster centered on the Bruno Dao label and source-linked GitHub handle wenjinge0424. Bruno Dao, Wen Jinge, Yu JinGe, related account labels, claimed locations, profile content, and imagery remain unverified as a civil identity or one natural person."
+}

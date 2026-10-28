@@ -1,0 +1,644 @@
+{
+  "id": "persona-lazarus-chai-somsri",
+  "type": "persona",
+  "name": "Chai Somsri",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Lazarus Group publishes this registry profile and its listed selectors and work history; this single research source supplies a registry profile, while civil identity, current account control, and legal liability remain unresolved.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "lazarus-group-team"
+    ]
+  },
+  "identity_boundary": "This record is the Lazarus Group registry persona at /team/chai-somsri. It remains separate from same-named people, associates, companies, images, or handles unless an independent source links them.",
+  "caveats": [
+    "The site is a secondary research source and the profile remains needs_corroboration.",
+    "Historical selectors are defanged, and current account control remains unestablished.",
+    "Shared names, handles, photographs and listed associates create leads; records require source linkage before being treated as the same natural person.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "lazarus_group_routes": [
+    "chai-somsri"
+  ],
+  "sources": [
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Chai Somsri in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/chai-somsri"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-chai-somsri-0001",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Chai Somsri"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Basic Information, Real Name",
+          "quote": "Chai Somsri"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0002",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0003",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "ChaiSomsri96"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Basic Information, Aliases",
+          "quote": "ChaiSomsri96"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0004",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "George Capraroiu"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Basic Information, Aliases",
+          "quote": "George Capraroiu"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0005",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "george19871205"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Basic Information, Aliases",
+          "quote": "george19871205"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0006",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "chaisomsri96[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Contact Information, Emails",
+          "quote": "chaisomsri96[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0007",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "georgecapraroiu1205[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Contact Information, Emails",
+          "quote": "georgecapraroiu1205[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0008",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "melonman913[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Contact Information, Emails",
+          "quote": "melonman913[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0009",
+      "type": "account",
+      "predicate": "contact-information-twitter",
+      "value": {
+        "platform": "X/Twitter",
+        "identifier": "chaisomsri96"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Contact Information, Twitter",
+          "quote": "chaisomsri96"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0010",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://medium.com/[at]chaisomsri96"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Contact Information, Websites",
+          "quote": "hxxps://medium.com/[at]chaisomsri96"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0011",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://cryptototem.com/credbull-cbl/"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Contact Information, Websites",
+          "quote": "hxxps://cryptototem.com/credbull-cbl/"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0012",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "Jan 1, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Employment History, Identified",
+          "quote": "Jan 1, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0013",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Credbull"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Employment History, company",
+          "quote": "Credbull"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0014",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "ChaiSomsri96"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, GitHub, GitHub ID",
+          "quote": "ChaiSomsri96"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0015",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "ChaiSomsri96"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, GitHub, Usernames",
+          "quote": "ChaiSomsri96"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0016",
+      "type": "account",
+      "predicate": "telegram-telegram-id",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "7022528006"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Telegram, Telegram ID",
+          "quote": "7022528006"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0017",
+      "type": "account",
+      "predicate": "telegram-usernames",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "chaisomsri"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Telegram, Usernames",
+          "quote": "chaisomsri"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0018",
+      "type": "account",
+      "predicate": "linkedin-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "hxxps://www.linkedin.com/in/chai-somsri/"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, LinkedIn, Emails",
+          "quote": "hxxps://www.linkedin.com/in/chai-somsri/"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0019",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0020",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xE5a86c150ac44ab8F8B2661c9e8d8b13887360f0"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Salary Details, Addresses",
+          "quote": "0xE5a86c150ac44ab8F8B2661c9e8d8b13887360f0"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-chai-somsri-0021",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x9ce96e07c091662c2605eaae9180de22aad6e8db"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/chai-somsri, Salary Details, Addresses",
+          "quote": "0x9ce96e07c091662c2605eaae9180de22aad6e8db"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "ChaiSomsri96",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "George Capraroiu",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "george19871205",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "chaisomsri96[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "georgecapraroiu1205[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "melonman913[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "X/Twitter",
+      "identifier": "chaisomsri96",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://medium.com/[at]chaisomsri96",
+      "url": "hxxps://medium.com/[at]chaisomsri96",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://cryptototem.com/credbull-cbl/",
+      "url": "hxxps://cryptototem.com/credbull-cbl/",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "ChaiSomsri96",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "7022528006",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "chaisomsri",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "hxxps://www.linkedin.com/in/chai-somsri/",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "organizations": [
+    "Credbull"
+  ]
+}

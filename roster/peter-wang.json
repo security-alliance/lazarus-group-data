@@ -1,0 +1,79 @@
+{
+  "id": "peter-wang",
+  "real_name": "Peter Wang",
+  "aliases": [
+    "hapetherw",
+    "pethercap",
+    "baymax586"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "petherwang@gmail.com"
+  ],
+  "twitter_usernames": [
+    "hapetherw"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/peter-wang-780259a3"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "2124964775",
+      "usernames": [
+        "pethercap",
+        "baymax586"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "hapetherw",
+      "usernames": [
+        "hapetherw"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x74bc47ea5201a61c7c9a366bb62ecae2713602a1"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/peter-wang/peter-wang-1.png",
+      "short_description": "Peter Wang 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/peter-wang/peter-wang-2.jpg",
+      "short_description": "Peter Wang playing soccer.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/peter-wang/peter-wang-av.png",
+      "short_description": "Peter Wang avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

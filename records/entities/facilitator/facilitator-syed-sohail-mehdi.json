@@ -1,0 +1,49 @@
+{
+  "id": "facilitator-syed-sohail-mehdi",
+  "type": "facilitator",
+  "name": "Syed Sohail Mehdi",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT says the Pakistani Federal Investigation Agency opened a case naming Syed Sohail Mehdi as a suspected facilitator; legal action is ongoing, with conviction status unstated in the report.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "This is the source-bounded facilitator record for Syed Sohail Mehdi; another person sharing the name or a related organization requires an explicit source link before merging.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Syed Sohail Mehdi.",
+      "locator": "PDF p. 70, Pakistan-based facilitators paragraph"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-syed-sohail-mehdi",
+      "type": "identity_name",
+      "predicate": "fia_case_named_person",
+      "value": {
+        "name": "Syed Sohail Mehdi",
+        "case_status": "legal action ongoing"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 70, Pakistan-based facilitators paragraph",
+          "quote": "Syed Sohail Mehdi and Syed Kazim, and legal action is ongoing."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

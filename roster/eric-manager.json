@@ -1,0 +1,25 @@
+{
+  "id": "eric-manager",
+  "real_name": "Eric 'Monkey' Manager",
+  "aliases": [
+    "Monkey"
+  ],
+  "gender": "other",
+  "onchain_activity": [
+    {
+      "address": [
+        "0x57b9f721411fabe61ac61cca8eaf926a726a70cc"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/monkey/monkey-1.jpg",
+      "short_description": "Monkey 1.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

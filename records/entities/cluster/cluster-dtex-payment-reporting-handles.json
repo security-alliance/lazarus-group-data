@@ -1,0 +1,80 @@
+{
+  "id": "cluster-dtex-payment-reporting-handles",
+  "type": "cluster",
+  "name": "DTEX payment-reporting handles",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "internal operators, collectors, or managers",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-dtex-money-trail"
+    ]
+  },
+  "caveats": [
+    "Payment totals are examples rather than verified lifetime earnings; high totals may aggregate multiple workers.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence."
+  ],
+  "accounts": [
+    {
+      "platform": "DTEX-reported internal payment platform",
+      "identifier": "Rascal",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-dtex-money-trail"
+      ],
+      "note": "operator in direct messages with PC-1234"
+    },
+    {
+      "platform": "DTEX-reported internal payment platform",
+      "identifier": "jgs313",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-dtex-money-trail"
+      ],
+      "note": "lower-value remitter more consistent with individual contribution Source example amount: USD 821; not a verified lifetime total."
+    },
+    {
+      "platform": "DTEX-reported internal payment platform",
+      "identifier": "mighty",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-dtex-money-trail"
+      ],
+      "note": "higher-value remitter; likely aggregate role possible Source example amount: USD 63,000; not a verified lifetime total."
+    },
+    {
+      "platform": "DTEX-reported internal payment platform",
+      "identifier": "peak_sin_yong",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-dtex-money-trail"
+      ],
+      "note": "high-value remitter; likely collector or manager Source example amount: USD 129,000; not a verified lifetime total."
+    },
+    {
+      "platform": "DTEX-reported internal payment platform",
+      "identifier": "rji0124",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-dtex-money-trail"
+      ],
+      "note": "self-described financial manager of Base4 128-53"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-dtex-money-trail",
+      "support": "internal operators, collectors, or managers",
+      "locator": "Payment workflow screenshots; RB-wallet assessment screenshot; https://www.dtex.ai/payment_breakdown.html; https://www.dtex.ai/org_hierarchy.html; https://www.dtex.ai/geography_map.html"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

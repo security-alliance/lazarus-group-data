@@ -1,0 +1,443 @@
+{
+  "id": "persona-ryosuke-yamamoto",
+  "type": "persona",
+  "name": "Ryosuke Yamamoto",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s2"
+    ]
+  },
+  "organizations": [
+    "WowDAO (claimed Web3 Full Stack Developer)"
+  ],
+  "ttps": [
+    "shared redsky500 GitHub account history across three reported labels"
+  ],
+  "caveats": [
+    "Code Solution and CodeJourney are source-reported links to this account family; the labels remain unproven as one natural person's identities.",
+    "Ryosuke Yamamoto is retained as the source-reported display anchor for this account family; the account family supplies a display anchor, while self-alias and verified natural-person status require separate evidence.",
+    "The apparent identities may be synthetic, borrowed, or stolen; apparent identity owners remain unidentified and uncontacted.",
+    "The Telegram and Bayt links are retained only as historical accounts reported with the Ryosuke Yamamoto label; current ownership and legal identity remain unverified."
+  ],
+  "aliases": [
+    {
+      "value": "Code Solution",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ]
+    },
+    {
+      "value": "CodeJourney",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Telegram",
+      "identifier": "Ryosuke0302",
+      "url": "hxxps://t[.]me/Ryosuke0302",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ],
+      "note": "historical; not contacted"
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "redsky500",
+      "url": "https://github.com/redsky500",
+      "status": "removed",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ],
+      "note": "404; Nisos said no longer active"
+    },
+    {
+      "platform": "Bayt",
+      "identifier": "ryosuke-yamamoto-77053255",
+      "url": "https://people.bayt.com/ryosuke-yamamoto-77053255/",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ],
+      "note": "historical source URL"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "The inactive redsky500 account was associated with Code Solution, CodeJourney, and Ryosuke Yamamoto. redsky500 was also associated with likely DPRK persona Ryosuke Yamamoto",
+      "locator": "GitHub Accounts, redsky500 / Code Solution / CodeJourney / Ryosuke Yamamoto discussion and Graphic 16, report pp. 8-9"
+    },
+    {
+      "source_id": "src-50c0f21b3bfe"
+    },
+    {
+      "source_id": "src-032fee37fff5"
+    },
+    {
+      "source_id": "src-59bb56a4425d"
+    },
+    {
+      "source_id": "src-1a2af215710d"
+    },
+    {
+      "source_id": "src-6f1071e3302b"
+    },
+    {
+      "source_id": "src-1d8c8a76afea"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-reported-ryosuke-persona",
+      "type": "identity_name",
+      "predicate": "reported_employment_persona",
+      "value": {
+        "name": "Ryosuke Yamamoto",
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "Redsky500 is also associated with likely DPRK persona Ryosuke Yamamoto"
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Nisos attribution, not a legal-identity determination."
+      ]
+    },
+    {
+      "id": "claim-code-solution-label",
+      "type": "alias",
+      "predicate": "related_persona_label",
+      "value": {
+        "alias": "Code Solution",
+        "relationship_basis": "shared redsky500 account"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "GitHub account redsky500, which is no longer active, for example was associated with the personas Code Solution, CodeJourney, and Ryosuke Yamamoto."
+        },
+        {
+          "source_id": "src-50c0f21b3bfe",
+          "locator": "Profile heading and Contact Info",
+          "quote": "Code\nSolution"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Related persona label, not asserted as the same natural person."
+      ]
+    },
+    {
+      "id": "claim-codejourney-label",
+      "type": "alias",
+      "predicate": "related_persona_label",
+      "value": {
+        "alias": "CodeJourney",
+        "relationship_basis": "historical redsky500 profile name"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "GitHub account redsky500, which is no longer active, for example was associated with the personas Code Solution, CodeJourney, and Ryosuke Yamamoto."
+        },
+        {
+          "source_id": "src-032fee37fff5",
+          "locator": "Cached profile header",
+          "quote": "CodeJourney\nredsky500"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Third-party cached metadata; not evidence of current account control."
+      ]
+    },
+    {
+      "id": "claim-github-redsky500",
+      "type": "account",
+      "predicate": "historically_used_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "redsky500",
+        "status_at_cutoff": "not found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, 'GitHub accounts'",
+          "quote": "GitHub account redsky500, which is no longer active"
+        },
+        {
+          "source_id": "src-59bb56a4425d",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Historical account-family attribution; removal cause is unknown."
+      ]
+    },
+    {
+      "id": "claim-telegram-ryosuke0302",
+      "type": "account",
+      "predicate": "historically_used_telegram_account",
+      "value": {
+        "platform": "Telegram",
+        "handle": "Ryosuke0302",
+        "status_at_cutoff": "public landing page reachable"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, final sentence",
+          "quote": "Ryosuke Yamamoto lists Telegram ID Ryosuke0302"
+        },
+        {
+          "source_id": "src-1a2af215710d",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "No contact occurred; reachability does not prove current control.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-telegram-doom0302-cluster",
+      "type": "relationship",
+      "predicate": "related_telegram_account",
+      "value": {
+        "platform": "Telegram",
+        "handle": "doom0302",
+        "related_persona": "Code Solution",
+        "status_at_cutoff": "public landing page reachable"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, final sentence",
+          "quote": "Code Solution lists their contact information as Telegram ID doom0302"
+        },
+        {
+          "source_id": "src-50c0f21b3bfe",
+          "locator": "Contact Info",
+          "quote": "Telegram:"
+        },
+        {
+          "source_id": "src-6f1071e3302b",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Related account for Code Solution; it is not asserted as directly used under the Ryosuke label.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-shared-0302-token",
+      "type": "relationship",
+      "predicate": "shared_handle_token",
+      "value": {
+        "token": "0302",
+        "labels": [
+          "Code Solution",
+          "Ryosuke Yamamoto"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 8, final paragraph",
+          "quote": "Code Solution and Ryosuke Yamamoto share association with the number 0302."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Corroborative account-cluster detail only; a numeric token is never sufficient for identity resolution."
+      ]
+    },
+    {
+      "id": "claim-laborx-code-solution-account",
+      "type": "account",
+      "predicate": "related_laborx_profile",
+      "value": {
+        "platform": "LaborX",
+        "profile_id": "53436",
+        "display_name": "Code Solution",
+        "status_at_cutoff": "publicly reachable"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-50c0f21b3bfe",
+          "locator": "Profile heading",
+          "quote": "Freelancer Code Solution - Skills: Javascript, React, MySQL"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Still-live profile in the redsky500 account family; not direct evidence of a civil identity."
+      ]
+    },
+    {
+      "id": "claim-code-solution-reputation",
+      "type": "account",
+      "predicate": "laborx_profile_metrics",
+      "value": {
+        "platform": "LaborX",
+        "profile_id": "53436",
+        "average_review": "5.00",
+        "reputation": 63,
+        "finished_gigs": 2,
+        "finished_jobs": 0
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-50c0f21b3bfe",
+          "locator": "Profile summary",
+          "quote": "Average Review\n5.00\nReputation\n63\nFinished gigs\n2\nFinished jobs\n0"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Cutoff-time platform metrics; not evidence that all displayed work was performed by a single natural person."
+      ]
+    },
+    {
+      "id": "claim-code-solution-education",
+      "type": "note",
+      "predicate": "related_persona_claimed_education",
+      "value": {
+        "persona": "Code Solution",
+        "institution": "National University of Singapore",
+        "graduation_year": 2016,
+        "field": "Computer science"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-50c0f21b3bfe",
+          "locator": "Education section",
+          "quote": "National University of Singapore\nGraduation year: 2016\nLevel of study\nBachelor\nMajor / Field of study\nComputer science"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Unverified persona assertion; do not attribute to a real graduate or apparent identity owner."
+      ]
+    },
+    {
+      "id": "claim-wowdao-role-reported",
+      "type": "organization_affiliation",
+      "predicate": "reported_organization_role",
+      "value": {
+        "organization": "WowDAO",
+        "role": "Web3 Full Stack Developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF pp. 8-9, paragraph and Graphic 16",
+          "quote": "appears to be employed at WowDAO as a Web3 Full Stack Developer"
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Nisos report-time characterization; current page uses different organization text."
+      ]
+    },
+    {
+      "id": "claim-wowdao-current-listing",
+      "type": "organization_affiliation",
+      "predicate": "community_page_listing",
+      "value": {
+        "organization": "WowDAO",
+        "working_group": "Blockchain Working Group",
+        "role": "Web3 FullStack Developer",
+        "company_text": "FoxiFy"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1d8c8a76afea",
+          "locator": "Blockchain Working Group member list",
+          "quote": "Ryosuke Yamamoto\nWeb3 FullStack Developer\nFoxiFy"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Still-live third-party organization listing; FoxiFy is preserved as displayed and not harmonized with the report's WowDAO employer wording."
+      ]
+    },
+    {
+      "id": "claim-reported-fake-location",
+      "type": "location",
+      "predicate": "reported_false_resume_location",
+      "value": {
+        "region": "Huntington, West Virginia",
+        "finding": "listed location resolved to retail rather than residential property"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 10, 'West Virginia'",
+          "quote": "A review of the address, however, shows that it is a retail property and not a residential address"
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Exact street address and phone/email selectors are deliberately excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "This is a source-reported persona and account family linked to redsky500. Ryosuke Yamamoto, Code Solution, CodeJourney, accounts, biography, and imagery remain unverified as one natural person or civil identity."
+}

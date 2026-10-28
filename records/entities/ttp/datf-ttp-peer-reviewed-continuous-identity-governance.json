@@ -1,0 +1,69 @@
+{
+  "id": "datf-ttp-peer-reviewed-continuous-identity-governance",
+  "type": "ttp",
+  "name": "Continuous identity governance across the employment lifecycle",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Peer-reviewed defensive governance analysis; person-level attribution and control effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DATF-S14"
+    ]
+  },
+  "ttps": [
+    "context-based-authentication",
+    "continuous-identity-assurance",
+    "least-privilege",
+    "network-segmentation"
+  ],
+  "caveats": [
+    "Behavioral biometrics, location telemetry, digital-footprint review, or unexpected live checks can be intrusive and error-prone; use only where lawful and proportionate, with minimization, human review, accessibility accommodations, and appeal paths.",
+    "Multi-factor authentication remains valuable; the bounded point is that it may be insufficient when an adversary controls the enrolled endpoint or uses a facilitator.",
+    "The article provides governance analysis rather than a controlled effectiveness study of DPRK-specific interventions."
+  ],
+  "infrastructure": [
+    {
+      "type": "defensive-use-boundary",
+      "statements": [
+        "Use this source-qualified context for governance or corroborated behavior-based review, never as standalone identity or nationality attribution."
+      ],
+      "limitations": [
+        "No single nationality, geography, language, education history, technical skill, remote-work preference, interview anomaly, authentication event, or device signal establishes fraud or DPRK attribution."
+      ],
+      "source_ids": [
+        "DATF-S14"
+      ]
+    },
+    {
+      "type": "peer-reviewed-policy-research",
+      "statements": [
+        "Peer-reviewed policy research frames remote-employment fraud as an identity-governance problem spanning recruitment, authentication, authorization, monitoring, and offboarding, and recommends recurring, contextual verification alongside least privilege and segmentation."
+      ],
+      "limitations": [
+        "The article provides governance analysis rather than a controlled effectiveness study of DPRK-specific interventions.",
+        "Behavioral biometrics, location telemetry, digital-footprint review, or unexpected live checks can be intrusive and error-prone; use only where lawful and proportionate, with minimization, human review, accessibility accommodations, and appeal paths.",
+        "Multi-factor authentication remains valuable; the bounded point is that it may be insufficient when an adversary controls the enrolled endpoint or uses a facilitator."
+      ],
+      "method_and_source_boundary": "peer-reviewed policy-journal analysis; case examples synthesize public government, vendor, and employer reporting",
+      "source_ids": [
+        "DATF-S14"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep-detection-controls-2",
+    "DPA-F07",
+    "drh-ttp-continuous-recruitment-integrity-governance"
+  ],
+  "sources": [
+    {
+      "source_id": "DATF-S14",
+      "support": "Supports the identity-lifecycle governance framing and bounded defensive recommendations. Normalized statement: Peer-reviewed policy research frames remote-employment fraud as an identity-governance problem spanning recruitment, authentication, authorization, monitoring, and offboarding, and recommends recurring, contextual verification alongside least privilege and segmentation",
+      "locator": "RUSI Journal 170(4), pp. 74-84; republication sections Identity Management Vulnerabilities and Recommended Countermeasures"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

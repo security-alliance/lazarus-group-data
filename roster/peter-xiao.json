@@ -1,0 +1,69 @@
+{
+  "id": "peter-xiao",
+  "named_in": "Indictment, United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-cr-00291 (unsealed 2025-06-30)",
+  "real_name": "Chang Nam Il",
+  "aliases": [
+    "assasinooz77"
+  ],
+  "fake_names": [
+    "Peter Xiao",
+    "Brian Cho"
+  ],
+  "gender": "male",
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "assasinooz77",
+      "usernames": [
+        "assasinooz77"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x5d8335834bfdf4c746e277e5100d7c778c807356"
+      ]
+    }
+  ],
+  "images": [],
+  "research_id": "worker-chang-nam-il",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "charged-allegation",
+    "summary": "DPRK national; IT worker charged in employer virtual-currency thefts. The June 30, 2025 indictment in United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-cr-00291, names Chang Nam Il and the employment personas Bong Chee Shen and Peter Xiao.",
+    "case": "1:25-cr-00291",
+    "court": "U.S. District Court for the Northern District of Georgia",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+      "The routes /team/bong-chee-shen and /team/peter-xiao describe personas the indictment attributes to the same person. They are kept as separate pages pending editorial review of their images and legacy identifiers (Alex Shen, devneser, Brian Cho, assasinooz77), which the indictment does not address."
+    ]
+  },
+  "sources": [
+    {
+      "id": "gov-ndga-2025-indictment",
+      "title": "Indictment, United States v. Kim Kwang Jin et al.",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/media/1406396/dl",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "gov-61a8cf3633ad",
+      "title": "Justice Department Announces Coordinated Nationwide Actions to Combat North Korean Remote Information Technology Workers' Illicit Revenue Generation Schemes",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote",
+      "date": "2025-06-30"
+    }
+  ],
+  "curation": "analyst"
+}

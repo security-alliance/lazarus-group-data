@@ -1,0 +1,57 @@
+{
+  "id": "andy-cho",
+  "fake_names": [
+    "Andy Cho"
+  ],
+  "aliases": [
+    "hashbirdcho"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Dalian, Liaoning, China"
+  ],
+  "personal_emails": [
+    "eweubr3289@gmail.com"
+  ],
+  "phone_numbers": [
+    "+86 186 4258 3550"
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://www.linkedin.com/in/andy-cho-6ba380309/"
+      ],
+      "ips": [
+        "194.195.219[.]116",
+        "192.46.216[.]82",
+        "149.112.84[.]124"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "2011948846",
+      "usernames": [
+        "hashbirdcho"
+      ],
+      "names": []
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xD85e7eB377635517eBA5310591F68F4771Da9523"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/andy-cho/andy-cho-1.jpg",
+      "short_description": "Andy Cho.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

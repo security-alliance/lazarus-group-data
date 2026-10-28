@@ -1,0 +1,131 @@
+{
+  "id": "front-company-hopana-tech-llc",
+  "type": "front_company",
+  "name": "Hopana Tech LLC",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Daniel Gordon describes HopanaTech as a DPRK front company previously reported and disrupted by the FBI. The named contacts overlap existing official/legal research; this record retains them as existing contacts rather than new person records. The source describes a security-vendor-reported IT-worker front company and U.S. laptop-farm shell company.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S5",
+      "gov-4b410c4e6cc8",
+      "vendor-sentinelone-2024-fronts"
+    ]
+  },
+  "organizations": [
+    "HopanaTech"
+  ],
+  "front_companies": [
+    "Hopana Tech",
+    "HopanaTech"
+  ],
+  "locations": [
+    "Beijing, China (website claim)",
+    "Dubai, United Arab Emirates (website claim)",
+    "Edison, New Jersey, United States (website claim)"
+  ],
+  "ttps": [
+    "Distribute peer-to-peer communication tools used by DPRK IT workers",
+    "front-company presentation",
+    "Present a software-development company website with multinational contact claims",
+    "remote IT-worker placement or support",
+    "resume credibility and/or worker deployment",
+    "Use related organization and software metadata to support worker operations"
+  ],
+  "caveats": [
+    "Canonical entity shared with DOJ's Hopana Tech LLC shell-company record; vendor attribution and adjudicated facilitator-case facts remain claim-scoped.",
+    "The source recording’s pronunciation varies between HopanaTech and Hapanitech.",
+    "This is a security-vendor attribution; consult the cited source for the underlying infrastructure and content-reuse analysis.",
+    "The former website contact emails were omitted because they identify contacts rather than attributed actor accounts."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5",
+        "vendor-sentinelone-2024-fronts"
+      ],
+      "value": "Hopana Tech"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ],
+      "value": "Hapanitech"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ],
+      "value": "Hapanitech.com"
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Domain",
+      "identifier": "hopanatech.com",
+      "url": "https://hopanatech.com",
+      "status": "removed",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ],
+      "note": "Speaker shows the former site and states the FBI seized/took it down."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "CM-S5",
+      "source_url": "https://www.youtube.com/watch?v=x4a24slACeU",
+      "caption": "Slide showing the former HopanaTech website and its public multinational contact block. This is an organizational screenshot, not a person image.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "domain",
+      "value": "hopanatech.com",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ]
+    },
+    {
+      "type": "software",
+      "value": "Hotmon and NetProvider peer-to-peer communications clients",
+      "relationship": "reported-link",
+      "source_ids": [
+        "CM-S5"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-hopana-tech-llc"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-4b410c4e6cc8",
+      "support": "Kejia Wang received 108 months and Zhenxing Wang 92 months; DOJ identified Hopana Tech LLC, Tony WKJ LLC, Independent Lab LLC, KVM devices, and theft of ITAR-controlled data",
+      "locator": "Press release — paragraph beginning “Kejia Wang and Zhenxing Wang created shell companies”; seizure paragraph beginning “Previously, in June 2025” where applicable"
+    },
+    {
+      "source_id": "vendor-sentinelone-2024-fronts",
+      "support": "SentinelOne SentinelLabs explicitly identifies Hopana Tech as part of the reported DPRK IT-worker front-company ecosystem",
+      "locator": "Executive Summary; Front Companies; figures showing company sites and employee profiles"
+    },
+    {
+      "source_id": "CM-S5",
+      "support": "Official conference-channel recording of Daniel Gordon’s research into backdoored software distributed to DPRK IT workers and a low-confidence attribution assessment for the HEPTA-X cluster",
+      "locator": "01:45–09:31 Hopana Tech/Hotmon findings; 09:31–18:55 HEPTA-X investigation and attribution; 18:55–20:23 takeaways"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

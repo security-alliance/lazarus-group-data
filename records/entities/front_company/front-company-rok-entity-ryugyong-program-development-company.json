@@ -1,0 +1,102 @@
+{
+  "id": "front-company-rok-entity-ryugyong-program-development-company",
+  "type": "front_company",
+  "name": "RYUGYONG PROGRAM DEVELOPMENT COMPANY",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Entity designated under the Republic of Korea's unilateral sanctions regime for involvement in dispatching or supporting DPRK IT personnel; MSMT states that the five listed names and variations refer to this same 75 Guidance Bureau/Munitions Industry Department company; this is an administrative sanctions designation, with no criminal charge or conviction on record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFCE-S01",
+      "ROK-MOFA-374048",
+      "ROK-MOFA-SANCTIONS-LIST"
+    ]
+  },
+  "legal_or_reported_name": "RYUGYONG PROGRAM DEVELOPMENT COMPANY",
+  "romanizations": [
+    "RYUGYONG PROGRAM DEVELOPMENT COMPANY"
+  ],
+  "caveats": [
+    "Similarly named Ryugyong entities require a source link before they are treated as one organization.",
+    "Name similarity alone is insufficient to merge any other Ryugyong-named organization.",
+    "Preserve the ROK-designated primary name and source each alias to MSMT.",
+    "Stored in the schema's front_company category for publication compatibility; the official source describes a designated DPRK IT-worker entity, while sham-company legal status requires a separate source.",
+    "The dated designation announcement and the living sanctions list are two Republic of Korea Ministry of Foreign Affairs publications in one official source family; retain both for complementary claim-level support and treat them as one source family. The living-list citation establishes list presence and naming as accessed; current activity, location, role, and operational control require newer evidence.",
+    "Source-reported alias variations refer to one Ryugyong company; company count remains one."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ],
+      "value": "DPRK Ryugyong Technology Company"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ],
+      "value": "Korean Pioneer Technology Co LTD"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ],
+      "value": "Ryugyong Software Development Company"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ],
+      "value": "Ryugyong Technology Corporation"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ],
+      "value": "Sonbong Technology Trading Corporation"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "ROK-MOFA-374048",
+        "ROK-MOFA-SANCTIONS-LIST"
+      ],
+      "value": "류경프로그램개발회사"
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-rok-entity-ryugyong-program-development-company"
+  ],
+  "sources": [
+    {
+      "source_id": "DFCE-S01",
+      "support": "MSMT states that five published name variants refer to the same 75 Guidance Bureau/Munitions Industry Department company already designated by the Republic of Korea as Ryugyong Program Development Company",
+      "locator": "Report p. 63 / PDF p. 65, Case Study: Ryugyong Technology Company"
+    },
+    {
+      "source_id": "ROK-MOFA-374048",
+      "support": "The September 1, 2023 designation announcement names 류경프로그램개발회사 and alleges that the company was involved in dispatching DPRK IT personnel; it also identifies five company officials",
+      "locator": "Body under “독자제재 추가 지정 대상”; company paragraph for 류경프로그램개발회사 and the asterisked line naming five officials. | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=374048 | Official document/download: https://www.mofa.go.kr/www/brd/m_4080/down.do?brd_id=235&seq=374048&data_tp=A&file_seq=2"
+    },
+    {
+      "source_id": "ROK-MOFA-SANCTIONS-LIST",
+      "support": "As accessed on 2026-08-12, the living ROK unilateral-sanctions list includes 류경프로그램개발회사 (RYUGYONG PROGRAM DEVELOPMENT COMPANY) in its 단체 designation rows with designation date 2023-09-01. This supports list presence, the designation date, and the displayed canonical name form only",
+      "locator": "단체 designation row for “류경프로그램개발회사 (RYUGYONG PROGRAM DEVELOPMENT COMPANY)”, dated 23.9.1. | Availability note (2026-08-12): Living sanctions list. A passive check followed an HTTP 307 redirect and then timed out; this does not establish removal. Keep publication_date null and use accessed_date for every extraction"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

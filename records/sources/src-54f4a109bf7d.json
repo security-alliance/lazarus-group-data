@@ -1,0 +1,12 @@
+{
+  "id": "src-54f4a109bf7d",
+  "publisher": "GitHub",
+  "title": "GitHub repositories: HyperBuildX",
+  "url": "https://api.github.com/orgs/HyperBuildX/repos?per_page=100&sort=updated",
+  "accessed_at": "2026-08-14",
+  "sha256": "b98f64660e31c3c3ac28eaded111abacf158155ceece0dc30ee4e4635d6e1369",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

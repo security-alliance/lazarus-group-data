@@ -1,0 +1,44 @@
+{
+  "id": "ttp-ttp-payments",
+  "type": "ttp",
+  "name": "TTP-PAYMENTS",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-gbr-ofsi-2024",
+      "int-jpn-npa-2025",
+      "int-msmt-2025-2",
+      "int-rok-mofa-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Avoid direct deposit; use third-party bank accounts, money-transfer/e-money services, crypto, Chinese/Vietnamese accounts, payment proxies, and rapid routing/consolidation."
+  ],
+  "sources": [
+    {
+      "source_id": "int-gbr-ofsi-2024",
+      "support": "OFSI lists payment to accounts in another person’s name, EMI/MSB and crypto use, China-based bank accounts, and enablers who consolidate earnings",
+      "locator": "pp. 6, 9, 11 | Original official publication page: https://www.gov.uk/government/publications/north-korean-it-workers-advisory-signs-to-watch-for"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT documents use of bank and payment-platform accounts, facilitators, and fiat-to-cryptocurrency conversion to collect and launder IT-worker earnings",
+      "locator": "report pp. 64-66; Annexes 13, 17-18 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "int-jpn-npa-2025",
+      "support": "The Japanese alert identifies third-party accounts, cryptoassets, and money-transfer services as payment warning signs",
+      "locator": "p. 2 | Original official publication page: https://www.mofa.go.jp/mofaj/press/release/pressit_000001_02650.html"
+    },
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "The joint alert describes use of third-party payment accounts and cryptocurrency to receive and route IT-work earnings",
+      "locator": "p. 3 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

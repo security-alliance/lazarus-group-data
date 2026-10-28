@@ -1,0 +1,50 @@
+{
+  "id": "matias-diaz",
+  "real_name": "Matias Diaz",
+  "aliases": [
+    "mndiaz27",
+    "0xdefilover"
+  ],
+  "fake_names": [
+    "Kei Nakano"
+  ],
+  "gender": "male",
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xdefilover",
+      "usernames": [
+        "0xdefilover"
+      ]
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "kei-nakano"
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x9d66bea448eed9bdbb5f1acf032767b11fc78dcf",
+        "0x961194d781623ebf5ce43087d85d2731cf1e7d1c"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/matias-diaz/matias-diaz-av.png",
+      "short_description": "Matias Diaz avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "cluster-flare-ibm-internal-messaging",
+  "type": "cluster",
+  "name": "Flare/IBM internal-messaging artifact set",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor analysis of internal DPRK IT-worker communications and artifacts",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-flare-ibm-2026-infiltrator"
+    ]
+  },
+  "organizations": [
+    "RB Corp",
+    "Sinbong Technology Product Development Center",
+    "STN Corp",
+    "Willow Tree Economic Technology Exchange Center"
+  ],
+  "ttps": [
+    "internal IP Messenger coordination",
+    "NetKey and OConnect artifact use"
+  ],
+  "caveats": [
+    "Organization strings are contextual artifact labels with varying assessment strength.",
+    "The aliases are internal messaging labels; they remain separate from true names and standalone worker identities."
+  ],
+  "accounts": [
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "!P@nther!",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "*Genie*",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "*Hera*",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "[@]Viper@",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "[@]smile",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "BoB",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "CCI",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "Fly Snake",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "James Bond",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "Jockey",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "KasperSky",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "Sharplancer",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "Superman",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    },
+    {
+      "platform": "IP Messenger internal alias",
+      "identifier": "Yamato",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-flare-ibm-2026-infiltrator"
+      ],
+      "note": "Internal alias observed in published communications; not necessarily a public employment persona."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-flare-ibm-2026-infiltrator",
+      "support": "Publishes internal IP Messenger aliases and host context, NetKey/OConnect versions and paths, RB Site and NetkeyRegister URLs, role separation, high-volume bidding/applications, AI image modification, Google Translate/ChatGPT workflows, and collaborator recruitment",
+      "locator": "Key Findings; pp./sections on persona setup, IP Messenger, NetKey/OConnect, RB Site; Appendices B-C"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

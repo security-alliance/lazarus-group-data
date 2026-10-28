@@ -1,0 +1,43 @@
+{
+  "id": "deep2-unhistory-un-pyongyang-kwangmyong-russia-facilitation",
+  "type": "front_company",
+  "name": "Pyongyang Kwangmyong Information Technology Corporation facilitator model in Russia",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2022-668-un-pyongyang-kwangmyong-russia-facilitation"
+    ]
+  },
+  "ttps": [
+    "foreign-based-facilitator",
+    "payment-platform"
+  ],
+  "caveats": [
+    "The named platform is retained only as historical context; attribution requires additional source evidence.",
+    "The Russian Federation replied that the company was not locally registered and that it had no data on the people involved."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported that Pyongyang Kwangmyong IT Corporation operated in Vladivostok and used Russian nationals to create and remotely verify freelance-platform accounts, receive worker payments into Russian bank accounts, identify work, and provide banking services for a share of worker revenue."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2022-668-un-pyongyang-kwangmyong-russia-facilitation"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2022-668-un-pyongyang-kwangmyong-russia-facilitation",
+      "support": "Supports the exact company, Vladivostok location, local-facilitator account/banking model and Russian response",
+      "locator": "PDF pp. 74-75, para. 140; annex 63"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

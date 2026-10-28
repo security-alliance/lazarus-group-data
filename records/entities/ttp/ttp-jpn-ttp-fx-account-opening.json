@@ -1,0 +1,31 @@
+{
+  "id": "ttp-jpn-ttp-fx-account-opening",
+  "type": "ttp",
+  "name": "Improper opening of foreign-exchange margin accounts through local conspirators",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Japanese police reported an apprehension using 検挙; the cited annual report records the apprehension stage, with prosecution, formal charge, conviction, and sentence status unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "JPN-NPA-FOCUS-295"
+    ]
+  },
+  "ttps": [
+    "Japanese police reported apprehending two Japanese men for allegedly conspiring with a person believed to be a DPRK IT worker to improperly open foreign-exchange margin trading accounts."
+  ],
+  "caveats": [
+    "The record excludes account numbers, names, and financial identifiers.",
+    "The government source reports the enforcement event and describes the associated worker as a person believed to be a DPRK IT worker; identity remains unreported."
+  ],
+  "sources": [
+    {
+      "source_id": "JPN-NPA-FOCUS-295",
+      "support": "Japanese police reported apprehending two Japanese men for allegedly conspiring with a person believed to be a DPRK IT worker to improperly open foreign-exchange margin trading accounts",
+      "locator": "PDF page 47 (printed 44). | Original official publication page: https://www.npa.go.jp/bureau/security/publications/"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

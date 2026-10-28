@@ -1,0 +1,114 @@
+{
+  "id": "anyrun-ballena-azul-toolset-infrastructure",
+  "type": "ttp",
+  "name": "Ballena Azul controlled-work toolset and infrastructure observations",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Technical observations are from a controlled research environment; source labels some infrastructure as DPRK-operated or associated with Famous Chollima",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-anyrun-2026-08-10"
+    ]
+  },
+  "organizations": [
+    "Famous Chollima",
+    "InvestStroyTrest",
+    "Lazarus Group"
+  ],
+  "front_companies": [
+    "Ballena Azul LTD / Blue Whale LTD"
+  ],
+  "locations": [
+    "DPRK-operated VPS infrastructure (source attribution)"
+  ],
+  "ttps": [
+    "account synchronization exposing stored browser data",
+    "AI-assisted coding, translation, and troubleshooting",
+    "CAPTCHA friction and disposable VDI behavior",
+    "device and environment reconnaissance",
+    "proxying into employer VDI from longer-lived servers",
+    "remote desktop installation",
+    "selective network and cursor disruption observed during the controlled experiment",
+    "Telegram channel renaming after infrastructure takedowns",
+    "testnet wallet/faucet activity"
+  ],
+  "caveats": [
+    "Tool presence is an indicator; maliciousness or DPRK control in another environment requires independent evidence."
+  ],
+  "accounts": [
+    {
+      "platform": "IP/hosting",
+      "identifier": "62.33.223.165 / INVESTSTROY-NET (InvestStroyTrest)",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ],
+      "note": "Published IOC; defanged/normalized here."
+    },
+    {
+      "platform": "VPN",
+      "identifier": "AstrillVPN exit-node set",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ],
+      "note": "Source publishes multiple exit-node IPs; individual IPs omitted from this record."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two/",
+      "direct_asset_url": "https://any.run/cybersecurity-blog/wp-content/uploads/2026/08/Lazarus-dream-building-2-1024x604.png",
+      "caption": "Public figure showing infrastructure/proxy observations from the controlled work environment.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ai",
+      "value": "ChatGPT and browser AI-assistance extensions",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    },
+    {
+      "type": "proxy",
+      "value": "operative servers used as proxies/vantage points into VDIs",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    },
+    {
+      "type": "remote-desktop",
+      "value": "AnyDesk and Google Remote Desktop",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    },
+    {
+      "type": "vpn",
+      "value": "AstrillVPN",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "support": "Chapters VI and the IOCs section describe the toolset, VDI observations, proxy servers, VPN exit nodes, and published infrastructure indicators",
+      "locator": "Chapter VI; Famous Chollima New Toolset & Infrastructure; IOCs"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

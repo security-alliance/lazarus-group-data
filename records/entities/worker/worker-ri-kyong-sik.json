@@ -1,0 +1,390 @@
+{
+  "id": "worker-ri-kyong-sik",
+  "type": "worker",
+  "name": "Ri Kyong Sik",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; President of Volasys Silverstar. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; wanted and charged status leaves guilt unresolved. A later HTTP 403 supplies no evidence of removal or fresh status verification.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-03",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Ri Kyong Sik",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "FBI pages may change; retain verification date.",
+    "The record excludes facial recognition and cross-persona identity inference.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-03",
+      "source_url": "https://www.fbi.gov/wanted/cyber/ri-kyong-sik",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/ri-kyong-sik/@@images/image/large",
+      "caption": "FBI wanted-page image published for Ri Kyong Sik, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-ri-kyong-sik"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-03",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Ri Kyong Sik; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Ri Kyong Sik as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Ri Kyong Sik and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Ri Kyong Sik as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Ri Kyong Sik; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "src-0740c5d94d21"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Ri Kyong Sik",
+        "korean": "리경식"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Ri Kyong Sik (리경식), president of Volasys Silver Star"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "The Latin and Hangul forms are explicitly paired; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-fbi-listed-alias",
+      "type": "alias",
+      "predicate": "fbi_listed_alias",
+      "value": {
+        "alias": "Li Gyong Sik"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0740c5d94d21",
+          "locator": "PDF p. 1, Description",
+          "quote": "Alias: Li Gyong Sik"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Officially listed alias only; no separate same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-volasys-president-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organization": "Volasys Silverstar",
+        "role": "President"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 6, paragraph 16",
+          "quote": "RI KYONG SIK"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 6, paragraph 16",
+          "quote": "was the \"President\" ofVolasys Silverstar."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation, not an adjudicated or present-role finding."
+      ]
+    },
+    {
+      "id": "claim-management-allegation",
+      "type": "incident",
+      "predicate": "allegedly_managed_company_tasks",
+      "value": {
+        "organizations": [
+          "Yanbian Silverstar",
+          "Volasys Silverstar"
+        ],
+        "with": [
+          "Kim Ryu Song"
+        ],
+        "direction_from": "Jong Song Hwa"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 6, paragraph 17",
+          "quote": "KIM RYU SONG and RI KYONG SIK worked together to complete tasks assigned by JONG SONG HWA and to manage Yanbian Silverstar and Volasys Silverstar."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Defendant-specific indictment allegation; no present control is inferred."
+      ]
+    },
+    {
+      "id": "claim-socialism-competition-allegation",
+      "type": "incident",
+      "predicate": "allegedly_organized_worker_revenue_competitions",
+      "value": {
+        "organizations": [
+          "Yanbian Silverstar",
+          "Volasys Silverstar"
+        ],
+        "competition_label": "socialism competitions",
+        "purpose": "generate money for the DPRK through IT work"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 17",
+          "quote": "Among other things, JONG SONG HWA, KIM RYU SONG, and RI KYONG SIK organized periodic \"socialism competitions,\" where Yanbian Silverstar and Volasys Silverstar IT workers would compete to generate money for the DPRK through IT work, and they awarded bonuses and other prizes to the top performers in the competition."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation, not an adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-payment-direction-allegation",
+      "type": "incident",
+      "predicate": "named_in_salary_and_extortion_payment_direction_allegation",
+      "value": {
+        "scope": "Yanbian and Volasys employees, group leaders, and other alleged conspirators",
+        "destination": "accounts alleged to be controlled by the DPRK"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 8, paragraph 25",
+          "quote": "At the direction of JONG SONG HWA, KIM RYU SONG, RI KYONG SIK, RIM UN CHOL, and KIM MU RIM, the Yanbian"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, continuation of paragraph 25",
+          "quote": "Employees, Group Leaders, and other conspirators sent the salary or extortion payments they received to accounts controlled by the DPRK, including accounts at banks based in the PRC."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charged allegation explicitly naming Ri; it is not a conviction or proof that each payment was personally handled by him."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 title",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 defendant list",
+          "quote": "RI KYONG SIK"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 title",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 defendant list",
+          "quote": "RI KYONG SIK"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 defendant list",
+          "quote": "RI KYONG SIK"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 defendant list",
+          "quote": "RI KYONG SIK"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0740c5d94d21",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Ri Kyong Sik is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-0740c5d94d21",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Ri Kyong Sik in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Wanted and warrant status do not establish guilt; status is reported as displayed on the retrieved official poster."
+      ]
+    },
+    {
+      "id": "claim-ri-kyong-sik-program-reward-context",
+      "type": "legal_event",
+      "predicate": "named_on_program_level_reward_page",
+      "value": {
+        "program": "Rewards for Justice",
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Program-level reward language on a page naming Ri and the Yanbian/Volasys network. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-ri-kyong-sik-qualified-russia-china-ties",
+      "type": "location",
+      "predicate": "fbi_reported_ties_or_possible_travel",
+      "value": {
+        "locations": [
+          "Russia",
+          "China"
+        ],
+        "qualification": "has ties to or may visit"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0740c5d94d21",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Ri Kyong Sik has ties to or may visit Russia and China."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Qualified FBI wording only. It does not establish travel, residence, continuous presence, or present location in either country."
+      ]
+    },
+    {
+      "id": "claim-ri-kyong-sik-link-only-fbi-image",
+      "type": "image",
+      "predicate": "official_link_only_wanted_page_image",
+      "value": {
+        "media_type": "official wanted-page image",
+        "source_url": "https://www.fbi.gov/wanted/cyber/ri-kyong-sik",
+        "handling": "link_only",
+        "reuse_status": "editorial_review_required"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-0740c5d94d21",
+          "locator": "Official one-page wanted poster with source-labeled photograph",
+          "quote": "RI KYONG SIK"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Link to the official context page only. No direct asset export, cache, crop, republication, face matching, appearance comparison, or identity inference is authorized; charged and wanted status does not establish guilt or current appearance."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "The cited sources establish a legal or officially reported worker identity within their stated bounds; name or image similarity leaves related records separate pending a source link."
+}

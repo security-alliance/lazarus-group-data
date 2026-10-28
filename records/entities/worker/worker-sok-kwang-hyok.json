@@ -1,0 +1,405 @@
+{
+  "id": "worker-sok-kwang-hyok",
+  "type": "worker",
+  "name": "Sok Kwang Hyok",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; Mid-level manager; the individual FBI page listed the subject as wanted when reviewed on 2026-08-12. Charged and wanted status records the case posture; the case remains unadjudicated. A later HTTP 403 leaves removal and fresh status verification unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-09",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Sok Kwang Hyok",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "FBI pages may change; retain verification date.",
+    "The record excludes facial recognition and cross-persona identity inference.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-09",
+      "source_url": "https://www.fbi.gov/wanted/cyber/sok-kwang-hyok",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/sok-kwang-hyok/@@images/image/large",
+      "caption": "FBI wanted-page image published for Sok Kwang Hyok, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-sok-kwang-hyok"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-09",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Sok Kwang Hyok; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Sok Kwang Hyok as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Sok Kwang Hyok and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Sok Kwang Hyok as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Sok Kwang Hyok; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "src-943148fa1b08"
+    },
+    {
+      "source_id": "src-2c35594063af"
+    },
+    {
+      "source_id": "src-2a68627cc0e5"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-sok-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Sok Kwang Hyok",
+        "korean": "석광혁"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Sok Kwang Hyok (석광혁), mid-level manager"
+        },
+        {
+          "source_id": "src-943148fa1b08",
+          "locator": "JSON field: title",
+          "quote": "SOK KWANG HYOK"
+        },
+        {
+          "source_id": "src-2c35594063af",
+          "locator": "identified-individuals list",
+          "quote": "Sok Kwang Hyok (석광혁)"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "The Latin and Hangul forms are explicitly paired by RFJ; the FBI API independently matches the charged identity."
+      ]
+    },
+    {
+      "id": "claim-sok-group-leader-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organization": "Yanbian Silverstar",
+        "role": "Group Leader / middle manager",
+        "responsibilities": "direct supervision of IT workers and occasional IT work"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 20",
+          "quote": "CHO CHUNG POM, HYON CHOL SONG, SON UN CHOL, and SOK KWANG HYOK, all DPRK nationals, acted as middle management also known as \"Group Leaders\" for Yanbian Silverstar and reported to Delegation Leader RIM UN CHOL. The Group Leaders directly supervised IT workers and occasionally conducted IT work themselves."
+        },
+        {
+          "source_id": "src-943148fa1b08",
+          "locator": "JSON field: occupations[0]",
+          "quote": "Group Leader"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation corroborated as a reported occupation by the FBI; it does not establish current employment."
+      ]
+    },
+    {
+      "id": "claim-sok-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft",
+          "aggravated identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 1, caption",
+          "quote": "4:24CR648 MTS/JSD"
+        },
+        {
+          "source_id": "src-2a68627cc0e5",
+          "locator": "PDF p. 1, charge heading",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act; Conspiracy to Commit Wire Fraud; Money Laundering Conspiracy; Conspiracy to Commit Identity Theft; Aggravated Identity Theft"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; Sok Kwang Hyok is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-sok-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "alleged_scheme_period": "approximately April 2017 to approximately March 2023"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2a68627cc0e5",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Sok Kwang Hyok is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-2a68627cc0e5",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Sok Kwang Hyok in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        },
+        {
+          "source_id": "src-943148fa1b08",
+          "locator": "JSON field: caution",
+          "quote": "Sok Kwang Hyok is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-943148fa1b08",
+          "locator": "JSON field: caution",
+          "quote": "A federal arrest warrant was issued for Sok Kwang Hyok in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Wanted and warrant status do not establish guilt; status is reported as displayed on the retrieved official poster."
+      ]
+    },
+    {
+      "id": "claim-sok-ordered-stolen-pii-use",
+      "type": "incident",
+      "predicate": "named_in_order_to_use_stolen_pii",
+      "value": {
+        "period": "approximately February-March 2021",
+        "conduct": "allegedly ordered to use stolen PII"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "Between approximately February and March 2021, CHO CHUNG POM, CHOE JONG YONG, SON UN CHOL, KIM YE WON, and SOK KWANG HYOK were ordered to use Personally Identifiable Information (\"PII\") stolen from 188 U.S. persons."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation. No underlying PII fields, person identifiers, or victim selectors are retained."
+      ]
+    },
+    {
+      "id": "claim-sok-stolen-pii-use",
+      "type": "incident",
+      "predicate": "named_in_stolen_pii_use_allegation",
+      "value": {
+        "conduct": "allegedly used stolen PII from the SSN LIST in furtherance of the charged conspiracy"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "In several instances, CHO CHUNG POM, CHOE JONG YONG, SON UN CHOL, KIM YE WON, SOK KWANG HYOK, and conspirators known and unknown to the Grand Jury used the stolen PII in the SSN LIST in furtherance of their conspiracy."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Aggregate defendant-specific allegation; no victim identities, selectors, or PII values are retained."
+      ]
+    },
+    {
+      "id": "claim-sok-paid-impersonation-arrangement",
+      "type": "employment",
+      "predicate": "allegedly_participated_in_paid_impersonation_arrangement",
+      "value": {
+        "date": "2021-10-16",
+        "conduct": "allegedly agreed with Kim Ye Won to make a payment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 10, paragraph 30",
+          "quote": "KIM YE WON and SOK KWANG HYOK agreed to pay"
+        }
+      ],
+      "observed_at": "2021-10-16",
+      "notes": [
+        "Claim intentionally stops where the source continues into private-person, payment-amount, impersonated-identity, and victim-organization selectors."
+      ]
+    },
+    {
+      "id": "claim-sok-stolen-identity-account-allegation",
+      "type": "incident",
+      "predicate": "allegedly_opened_account",
+      "value": {
+        "date": "2021-10-04",
+        "conduct": "allegedly opened an account using interstate and foreign wire communications"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 10, paragraph 32",
+          "quote": "SOK KWANG HYOK used wire communications in interstate and foreign commerce to open an account"
+        }
+      ],
+      "observed_at": "2021-10-04",
+      "notes": [
+        "Claim intentionally stops before the source's provider, private-identity, identity-data, and identity-document selectors."
+      ]
+    },
+    {
+      "id": "claim-sok-extortion-threat-allegation",
+      "type": "incident",
+      "predicate": "allegedly_threatened_to_publish_proprietary_information",
+      "value": {
+        "date": "2022-03-07",
+        "conduct": "allegedly threatened a public posting if money was not paid"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 11, paragraph 36",
+          "quote": "SOK KWANG HYOK stated that if the money was not paid, he would publicly post"
+        }
+      ],
+      "observed_at": "2022-03-07",
+      "notes": [
+        "Claim intentionally stops before the source's private persona, victim-organization, payment-service, and amount selectors."
+      ]
+    },
+    {
+      "id": "claim-sok-program-reward-context",
+      "type": "legal_event",
+      "predicate": "named_on_program_level_reward_page",
+      "value": {
+        "program": "Rewards for Justice",
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Program-level reward language on a page naming Sok and the Yanbian/Volasys network. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-sok-qualified-china-ties",
+      "type": "location",
+      "predicate": "fbi_reported_ties_or_possible_travel",
+      "value": {
+        "locations": [
+          "China"
+        ],
+        "qualification": "has ties to or may visit"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2a68627cc0e5",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Sok Kwang Hyok has ties to or may visit China."
+        },
+        {
+          "source_id": "src-943148fa1b08",
+          "locator": "JSON field: remarks",
+          "quote": "Sok Kwang Hyok has ties to or may visit China."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Qualified FBI wording only. It does not establish travel, residence, continuous presence, or present location in China."
+      ]
+    },
+    {
+      "id": "claim-sok-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/yanbian-silverstar-and-volasys-silverstar",
+        "media_url": "https://rewardsforjustice.net/wp-content/uploads/2026/01/Rewards-Sok-Kwang-Hyok-석광혁.png",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list and source-named rewards image link",
+          "quote": "Sok Kwang Hyok (석광혁), mid-level manager"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Linked image href",
+          "quote": "Rewards-Sok-Kwang-Hyok-석광혁.png"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Official source-explicit media reference only. The asset was not downloaded, cropped, compared, or used for facial recognition or identity inference; charged and wanted status does not establish guilt or current appearance."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Sok Kwang Hyok (석광혁), the charged defendant explicitly named by Rewards for Justice, the FBI, and E.D. Mo. No. 4:24-cr-00648-MTS-JSD; name or image similarity yields separate records, and every criminal-conduct claim remains allegation-only."
+}

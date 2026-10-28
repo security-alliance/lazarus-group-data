@@ -1,0 +1,88 @@
+{
+  "id": "anzo6-ttp-australia-hiring-access-and-containment-controls",
+  "type": "ttp",
+  "name": "Australian DPRK IT-worker hiring, access, and containment controls",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Australian sanctions and cyber-risk guidance; the cited material supplies sanctions and cyber-risk context, while local incident, contravention, offence, and adjudication status require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ANZO6-AUS-DFAT-ADVISORY-2024-2026",
+      "ANZO6-AUS-DFAT-CYBER-2025-11-06"
+    ]
+  },
+  "ttps": [
+    "access-log-and-code-change-review",
+    "identity-profile-location-consistency-review",
+    "independent-document-verification",
+    "layered-applicant-identity-verification",
+    "multi-channel-interview-verification",
+    "remote-access-governance",
+    "role-based-access-control",
+    "supported-suspicion-containment"
+  ],
+  "caveats": [
+    "DPRK affiliation requires corroboration beyond accent, nationality, location, price, camera use or one technical anomaly.",
+    "Raw logs, selectors, and personal records remain unpublished.",
+    "Identity documents, applicant personal details, financial selectors and contact details stay unreproduced.",
+    "Ordinary VPN, RMM, GitHub, or LinkedIn use supplies contextual telemetry rather than standalone attribution.",
+    "Guidance, sanctions, procurement, and coordination material supplies context rather than evidence of a named incident or adjudicated violation.",
+    "Keep observed techniques separate from possible harms and cited third-party case studies.",
+    "Legal-status precision: guidance about a local intrusion, malicious-code insertion or sanctions offence requires a separate finding.",
+    "Legal-status precision: the page says payments violate applicable sanctions and employment may constitute a serious offence; employer charge and named-case liability remain unestablished.",
+    "The July 2026 Australian guidance provides local targeting context; individual weak indicators remain non-diagnostic.",
+    "Some broad cyber-risk statements in the Australian guidance are prospective or based on external public cases rather than a disclosed Australian incident.",
+    "The dataset retains source-bounded context while excluding people, personas, accounts, entities, images, identifiers, victim or private data, payment data, wallets, and raw indicators.",
+    "Fraud or DPRK attribution requires corroboration beyond any single nationality, language, accent, location, camera behavior, remote-work preference, technical tool or other weak signal.",
+    "Present post-detection steps as Australian guidance, rather than universal legal advice."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-it-worker-specific-advisory-and-defensive-control-context",
+      "statements": [
+        "The Australian Sanctions Office says DPRK IT workers seek Australian remote work while concealing nationality, identity and location through fake personas, proxy accounts, stolen identities and falsified documents. It states Australian businesses have been targeted through mainstream freelance/networking platforms and formal recruitment companies. Its July 31, 2026 update adds AI-assisted interview communication, identity/profile inconsistencies, remote-access and account-location anomalies, independent identity and document verification, multi-channel interviews, role-based access control, software review and payment suspension or access restriction after a supported suspicion.",
+        "The separate November 6, 2025 advisory describes remote workers using stolen identities, fabricated online portfolios, AI image generation and voice alteration, VPNs and legitimate remote-management tooling. It recommends independent identity-document verification, limiting access to role needs, reviewing access logs, scanning for unauthorized software or code changes, restricting remote access after a supported suspicion and assessing what material was accessed."
+      ],
+      "limitations": [
+        "The July 2026 Australian guidance provides local targeting context; individual weak indicators remain non-diagnostic.",
+        "Legal-status precision: The page says payments violate applicable sanctions and employment may constitute a serious offence; it does not identify a charged employer or establish liability in a named case.",
+        "Do not infer DPRK affiliation from accent, nationality, location, price, camera use or one technical anomaly.",
+        "Do not reproduce identity documents, applicant personal details, financial selectors or contact details.",
+        "Present post-detection steps as Australian guidance, not universal legal advice.",
+        "Some broad cyber-risk statements in the Australian guidance are prospective or based on external public cases rather than a disclosed Australian incident.",
+        "Legal-status precision: Guidance, not proof of a local intrusion, malicious-code insertion or sanctions offence.",
+        "Keep observed techniques separate from possible harms and cited third-party case studies.",
+        "Do not turn ordinary VPN, RMM, GitHub or LinkedIn use into standalone attribution.",
+        "Do not publish raw logs, selectors or personal records.",
+        "Guidance, sanctions, procurement, and coordination material is context—not evidence of a named incident or adjudicated violation.",
+        "No single nationality, language, accent, location, camera behavior, remote-work preference, technical tool, or other weak signal establishes fraud or DPRK attribution.",
+        "No people, personas, accounts, entities, images, identifiers, victim or private data, payment data, wallets, or raw indicators are retained."
+      ],
+      "source_ids": [
+        "ANZO6-AUS-DFAT-ADVISORY-2024-2026",
+        "ANZO6-AUS-DFAT-CYBER-2025-11-06"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-fake-identities",
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-stolen-identities"
+  ],
+  "sources": [
+    {
+      "source_id": "ANZO6-AUS-DFAT-ADVISORY-2024-2026",
+      "support": "The Australian Sanctions Office says DPRK IT workers seek Australian remote work while concealing nationality, identity and location through fake personas, proxy accounts, stolen identities and falsified documents. It states Australian businesses have been targeted through mainstream freelance/networking platforms and formal recruitment companies. Its July 31, 2026 update adds AI-assisted interview communication, identity/profile inconsistencies, remote-access and account-location anomalies, independent identity and document verification, multi-channel interviews, role-based access control, software review and payment suspension or access restriction after a supported suspicion. The source was first published 2024-08-26 and states that it was updated 2026-07-31. Legal-status boundary: Guidance on potential sanctions and criminal-offence risk; not a charge, adjudication or notice of a named contravention",
+      "locator": "First Published / updated lines; paragraphs under Advice to Australians and Australian businesses, What are the characteristics, Red flag indicators, Due diligence measures and post-detection guidance"
+    },
+    {
+      "source_id": "ANZO6-AUS-DFAT-CYBER-2025-11-06",
+      "support": "The separate November 6, 2025 advisory describes remote workers using stolen identities, fabricated online portfolios, AI image generation and voice alteration, VPNs and legitimate remote-management tooling. It recommends independent identity-document verification, limiting access to role needs, reviewing access logs, scanning for unauthorized software or code changes, restricting remote access after a supported suspicion and assessing what material was accessed. Legal-status boundary: Advisory and risk-control guidance; cited public case studies and third-party reporting are not Australian adjudications",
+      "locator": "Cyber risks; Employment screening; Ongoing monitoring and risk mitigation options; Post detection requirements; Case Study"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

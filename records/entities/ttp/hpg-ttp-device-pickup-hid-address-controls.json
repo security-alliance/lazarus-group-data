@@ -1,0 +1,101 @@
+{
+  "id": "hpg-ttp-device-pickup-hid-address-controls",
+  "type": "ttp",
+  "name": "Verified device custody, possession, and remote-control correlation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Device, shipping, remote-access, and location signals require corroboration and serve as contextual indicators. Mandiant defensive guidance is based on vendor-observed aggregate activity, with Mandiant source-reported aggregate patterns combined with Sophos guidance.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DC2-S02",
+      "DC2-S06",
+      "hpg-s01"
+    ]
+  },
+  "ttps": [
+    "device-telemetry-tampering",
+    "kvm-over-ip",
+    "laptop-farm",
+    "laptop-forwarding",
+    "remote-management-tool",
+    "vpn"
+  ],
+  "caveats": [
+    "Alternate shipping addresses, reception desks, relocation services, and equipment depots are common.",
+    "Apply controls consistently with privacy, employment, labor, accessibility, retention, notice, correction, and access-governance requirements.",
+    "Commercial VPNs, HIDs and alternate shipping addresses all have benign uses and require contextual correlation.",
+    "Choose privacy-preserving identity assurance appropriate to law and policy; biometrics and demographic screening require a separate legal and policy basis from this source.",
+    "Geolocation is approximate; VPNs, mobile networks, corporate egress, travel, and privacy controls can make it wrong.",
+    "Human-interface-device logging and address divergence are contextual controls; DPRK affiliation requires additional source-backed signals.",
+    "RMM, KVM, hardware tokens, and activity helpers have legitimate enterprise or accessibility uses; alert on unauthorized combinations rather than product presence alone.",
+    "Use the pattern to prioritize documented human-led review; DPRK affiliation, fraud, and malicious intent require a combined evidence record."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Bind approved shipping destination, courier events, asset serial, hardware-backed authentication, enrollment telemetry, and observed device location to the same onboarding case.",
+        "Hunt for combinations of unauthorized KVM/RMM, several remote-control products, persistent uptime with little role-expected interaction, and sudden address/location divergence.",
+        "Maintain explicit allowlists and exception workflows for IT support, accessibility, travel, relocations, mailrooms, shared workspaces, and managed service providers."
+      ],
+      "limitations": [
+        "Geolocation is approximate; VPNs, mobile networks, corporate egress, travel, and privacy controls can make it wrong.",
+        "Alternate shipping addresses, reception desks, relocation services, and equipment depots are common.",
+        "RMM, KVM, hardware tokens, and activity helpers have legitimate enterprise or accessibility uses; alert on unauthorized combinations, not product presence alone."
+      ],
+      "source_ids": [
+        "DC2-S02",
+        "DC2-S06"
+      ]
+    },
+    {
+      "type": "source-reported-observed-case-pattern",
+      "statements": [
+        "Mandiant recommends confirming device delivery and possession during onboarding and reports cases involving multiple remote-management tools, network KVM use, and activity-simulation software after shipment."
+      ],
+      "limitations": [
+        "Mandiant-observed patterns and recommendations. Named commercial tools and services have legitimate uses and are not indicators by themselves."
+      ],
+      "source_ids": [
+        "DC2-S06"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Require in-person pickup of corporate laptops with identity verification when feasible; apply enhanced verification when equipment is shipped somewhere not listed in employment records.",
+        "Log human-interface-device connections and monitor new-hire endpoints for remote-access software and VPN use.",
+        "Mandiant specifically highlighted Astrill VPN in this 2025 guidance, but use of any commercial VPN is not attribution by itself."
+      ],
+      "source_ids": [
+        "hpg-s01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "drh-ttp-endpoint-custody-posthire-control-bundle",
+    "hpg-ttp-device-pickup-hid-address-controls",
+    "ttp-late-2026-15-workers-immediately-inventory-controlled-hosts-with-dxd"
+  ],
+  "sources": [
+    {
+      "source_id": "DC2-S02",
+      "support": "The Sophos matrix recommends review of late shipping changes or courier redirection, a defined enhanced-monitoring period for new hires, and correlation of persistent device uptime with limited role-expected activity",
+      "locator": "Worksheets: Project Tracker Sheet, Banking payroll and finance, Security and monitoring, Threat hunting"
+    },
+    {
+      "source_id": "hpg-s01",
+      "support": "Require in-person pickup of corporate laptops with identity verification when feasible; apply enhanced verification when equipment is shipped somewhere not listed in employment records. Log human-interface-device connections and monitor new-hire endpoints for remote-access software and VPN use. Mandiant specifically highlighted Astrill VPN in this 2025 guidance, but use of any commercial VPN is not attribution by itself",
+      "locator": "Blog paragraphs headed The Evolving Threat Landscape and Emerging Trends; executive-edition PDF pp. 4-5, Democratic People's Republic of Korea Insider Threats"
+    },
+    {
+      "source_id": "DC2-S06",
+      "support": "Mandiant recommends confirming device delivery and possession during onboarding and reports cases involving multiple remote-management tools, network KVM use, and activity-simulation software after shipment",
+      "locator": "Incident Response Observations; Mitigations: Information Technology; Mitigations: Human Resources"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "choe-ju-hyon",
+  "real_name": "Choe Ju Hyon",
+  "fake_names": [
+    "LoiDang",
+    "SaraAdel"
+  ],
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-choe-ju-hyon",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Choe Ju Hyon is the person named in the MSMT Annex 7 KMCTC employment table. LoiDang and SaraAdel are preserved only as source-reported employment labels; they are not established civil identities, separate people, or evidence of present account control.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-choe-ju-hyon-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-ju-hyon-kmctc-table",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 heading, PDF file p. 109 (printed p. 107)",
+          "quote": "KMCTC IT Workers"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), DPRK IT Worker column",
+          "quote": "Choe Ju Hyon"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-ju-hyon-label-loidang",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), Choe Ju Hyon row, Alias column",
+          "quote": "LoiDang"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-ju-hyon-label-saraadel",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), Choe Ju Hyon row, Alias column",
+          "quote": "SaraAdel"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-ju-hyon-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), DPRK IT Worker column",
+          "quote": "Choe Ju Hyon"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

@@ -1,0 +1,565 @@
+{
+  "id": "worker-jong-kyong-chol",
+  "type": "worker",
+  "name": "Jong Kyong Chol",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12. Wanted and charged status records an allegation; the case remains unadjudicated. A later HTTP 403 leaves removal and fresh status verification unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-13",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Jong Kyong Chol",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "Keep this charged defendant separate from the OFAC entry JO, Kyong-Chol / CHO, Kyo'ng-ch'o'l; the surname form differs and reviewed official sources supply no link.",
+    "FBI pages may change; retain verification date.",
+    "The record excludes facial recognition and cross-persona identity inference.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-13",
+      "source_url": "https://www.fbi.gov/wanted/cyber/jong-kyong-chol",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/jong-kyong-chol/@@images/image/large",
+      "caption": "FBI wanted-page image published for Jong Kyong Chol, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "domain",
+      "value": "babyboxinfo.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cubixtechus.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "culturebx.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "helix-us.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "nextnets.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "purpleishtech.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-jong-kyong-chol"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-13",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Jong Kyong Chol; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Jong Kyong Chol as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Jong Kyong Chol and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Jong Kyong Chol as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Jong Kyong Chol; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "src-2c35594063af"
+    },
+    {
+      "source_id": "src-0153ccf784c7"
+    },
+    {
+      "source_id": "src-0aadaf68279b"
+    },
+    {
+      "source_id": "src-6683f04c2f65"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Jong Kyong Chol",
+        "korean": "정경철"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About, named-person list, item 13",
+          "quote": "Jong Kyong Chol (정경철), IT worker"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 1, caption",
+          "quote": "JONG KYONG CHOL (정경철)"
+        },
+        {
+          "source_id": "src-2c35594063af",
+          "locator": "identified-individuals list",
+          "quote": "Jong Kyong Chol (정경철)"
+        }
+      ],
+      "observed_at": "2024-12-12"
+    },
+    {
+      "id": "claim-nationality",
+      "type": "location",
+      "predicate": "reported_nationality",
+      "value": {
+        "nationality": "North Korean"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21, contiguous fragment 1 of 2",
+          "quote": "CHOE JONG YONG, KO CHUNG SOK, KIM YE WON, JONG KYONG CHOL, and JANG CHOL MYONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21, contiguous fragment 2 of 2",
+          "quote": "all DPRK nationals"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Nationality is an officially alleged/reported attribute and is not a current-location claim."
+      ]
+    },
+    {
+      "id": "claim-yanbian-role",
+      "type": "employment",
+      "predicate": "worked_as_it_worker_for",
+      "value": {
+        "organization": "Yanbian Silverstar Network Technology Co., Ltd.",
+        "role": "IT worker",
+        "reporting_line": "Group Leaders"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21, contiguous fragment 1 of 2",
+          "quote": "JONG KYONG CHOL"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21, contiguous fragment 2 of 2",
+          "quote": "worked as IT workers for Yanbian Silverstar and reported to the Group Leaders."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The relationship is stated in a charging instrument and remains an allegation."
+      ]
+    },
+    {
+      "id": "claim-conspiracy-period",
+      "type": "legal_event",
+      "predicate": "charged_in_ieepa_conspiracy",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "count": 1,
+        "alleged_period_start": "2017-04",
+        "alleged_period_end": "2023-03"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20-21, Count 1 paragraphs 84-85, contiguous fragment 1 of 3",
+          "quote": "From in or around April 2017 to in or around March 2023"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20-21, Count 1 paragraphs 84-85, contiguous fragment 2 of 3",
+          "quote": "JONG KYONG CHOL"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20-21, Count 1 paragraphs 84-85, contiguous fragment 3 of 3",
+          "quote": "did knowingly and willfully combine, conspire, confederate, and agree to export, and cause U.S. persons and entities to export and reexport, goods and services to North Korea"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "A charge is an allegation; no conviction or disposition was located."
+      ]
+    },
+    {
+      "id": "claim-culturebx-registration",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "culturebx.com",
+        "date": "2022-05-13",
+        "identity_marker": "S.G."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 79",
+          "quote": "On or about May 13, 2022, JONG KYONG CHOL, using the S.G. identity, registered the domain culturebx.com from U.S. Domain Registrar #1."
+        }
+      ],
+      "observed_at": "2022-05-13",
+      "notes": [
+        "The initials identify an alleged borrowed or stolen identity boundary, not an alias to expand or resolve."
+      ]
+    },
+    {
+      "id": "claim-nextnets-registration",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "nextnets.com",
+        "date": "2023-03-07",
+        "identity_marker": "S.G."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 80",
+          "quote": "On or about March 7, 2023, JONG KYONG CHOL, using the identity of S.G., a U.S. person, registered the domain nextnets.com from U.S. Domain Registrar #1."
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "The victim's identity is retained only as initials and must not be investigated or published beyond this boundary."
+      ]
+    },
+    {
+      "id": "claim-purpleishtech-registration",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "purpleishtech.com",
+        "date": "2023-08-02",
+        "identity_marker": "S.G."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 81",
+          "quote": "On or about August 2, 2023, JONG KYONG CHOL, using the S.G. identity, registered the domain purpleishtech.com from U.S. Domain Registrar #1."
+        }
+      ],
+      "observed_at": "2023-08-02",
+      "notes": [
+        "The victim's identity is retained only as initials and must not be investigated or published beyond this boundary."
+      ]
+    },
+    {
+      "id": "claim-cubixtechus-registration",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "cubixtechus.com",
+        "date": "2022-01-22",
+        "identity_marker": "J.S."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, paragraph 83",
+          "quote": "On or about February 3, 2022, January 22, 2022, and January 27, 2022, JONG KYONG CHOL, using the identity J.S., registered the domains babyboxinfo.com, cubixtechus.com, and helix-us.com, respectively"
+        }
+      ],
+      "observed_at": "2022-01-22",
+      "notes": [
+        "The date is mapped to the second listed domain by the source's 'respectively' construction."
+      ]
+    },
+    {
+      "id": "claim-helix-registration",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "helix-us.com",
+        "date": "2022-01-27",
+        "identity_marker": "J.S."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, paragraph 83",
+          "quote": "On or about February 3, 2022, January 22, 2022, and January 27, 2022, JONG KYONG CHOL, using the identity J.S., registered the domains babyboxinfo.com, cubixtechus.com, and helix-us.com, respectively"
+        }
+      ],
+      "observed_at": "2022-01-27",
+      "notes": [
+        "The date is mapped to the third listed domain by the source's 'respectively' construction."
+      ]
+    },
+    {
+      "id": "claim-babyboxinfo-registration",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "babyboxinfo.com",
+        "date": "2022-02-03",
+        "identity_marker": "J.S."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, paragraph 83",
+          "quote": "On or about February 3, 2022, January 22, 2022, and January 27, 2022, JONG KYONG CHOL, using the identity J.S., registered the domains babyboxinfo.com, cubixtechus.com, and helix-us.com, respectively"
+        }
+      ],
+      "observed_at": "2022-02-03",
+      "notes": [
+        "The date is mapped to the first listed domain by the source's 'respectively' construction."
+      ]
+    },
+    {
+      "id": "claim-fraudulent-domain-purpose",
+      "type": "incident",
+      "predicate": "allegedly_used_domains_to_support_false_employment_information",
+      "value": {
+        "purpose": "support false information supplied to prospective U.S. employers and nonprofits"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 21, paragraph 87, contiguous fragment 1 of 2",
+          "quote": "HYON CHOL SONG, JONG KYONG CHOL, JANG CHOL MYONG, and other conspirators"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 21, paragraph 87, contiguous fragment 2 of 2",
+          "quote": "use fictitious and fraudulent aliases to falsely register domains, and did knowingly used those domains to create websites designed to support the false information that the conspirators provided to U.S. businesses and not-for-profits in order to be hired and paid"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "This is a collective charging allegation that expressly names Jong Kyong Chol; it is not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-current-wanted-record",
+      "type": "legal_event",
+      "predicate": "listed_on_fbi_wanted_record",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0153ccf784c7",
+          "locator": "API item uid 9850b1c338324eaaa9fa77504def2df4, caution",
+          "quote": "A federal arrest warrant was issued for Jong Kyong Chol in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        },
+        {
+          "source_id": "src-0aadaf68279b",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Jong Kyong Chol is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The API record was present when reviewed and had a 2026-03-15 modified timestamp. Wanted status and an arrest warrant do not establish guilt."
+      ]
+    },
+    {
+      "id": "claim-china-ties",
+      "type": "location",
+      "predicate": "reported_ties_or_possible_travel",
+      "value": {
+        "country": "China"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0153ccf784c7",
+          "locator": "API item uid 9850b1c338324eaaa9fa77504def2df4, remarks",
+          "quote": "Jong Kyong Chol has ties to or may visit China."
+        },
+        {
+          "source_id": "src-0aadaf68279b",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Jong Kyong Chol has ties to or may visit China."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This is the FBI's broad travel/ties wording, not a claim of present residence or location."
+      ]
+    },
+    {
+      "id": "claim-six-domains-seized",
+      "type": "infrastructure",
+      "predicate": "linked_domains_display_fbi_seizure_notice",
+      "value": {
+        "domains": [
+          "babyboxinfo.com",
+          "cubixtechus.com",
+          "culturebx.com",
+          "helix-us.com",
+          "nextnets.com",
+          "purpleishtech.com"
+        ],
+        "status": "FBI seizure notice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-6683f04c2f65",
+          "locator": "identical page title and image alternative text at all six domains",
+          "quote": "This domain has been seized by the Federal Bureau of Investigation in accordance with a seizure warrant issued by the United States District Court for the Eastern District of Missouri"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The six domains were retrieved passively and returned byte-identical notices. This does not establish present control by Jong Kyong Chol."
+      ]
+    },
+    {
+      "id": "claim-jong-kyong-chol-program-reward-context",
+      "type": "legal_event",
+      "predicate": "named_on_program_level_reward_page",
+      "value": {
+        "program": "Rewards for Justice",
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "reward paragraph and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "src-0aadaf68279b",
+          "locator": "PDF p. 1, Reward",
+          "quote": "The Rewards For Justice Program, United States Department of State, is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Program-level disruption reward context on pages associated with Jong and the listed network. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-jong-kyong-chol-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/yanbian-silverstar-and-volasys-silverstar",
+        "media_url": "https://rewardsforjustice.net/wp-content/uploads/2026/01/Rewards-Jong-Kyong-Chol-정경철.png",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "source-labeled image link adjacent to the named-person materials",
+          "quote": "https://rewardsforjustice.net/wp-content/uploads/2026/01/Rewards-Jong-Kyong-Chol-정경철.png"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Link-only official-source media reference. Do not cache, crop, republish, compare faces, infer current appearance, or use the image to merge any account or identity; editorial rights and allegation-context review remain required."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "The North Korean national and charged Yanbian Silverstar IT worker named Jong Kyong Chol appears in E.D. Mo. No. 4:24-cr-00648; he remains separate from the OFAC entry JO, Kyong-Chol / CHO, Kyo'ng-ch'o'l, stolen U.S. identities identified only by initials, and employment personas sharing a name or image."
+}

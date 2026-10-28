@@ -1,0 +1,76 @@
+{
+  "id": "front-company-deep-sea-luc",
+  "type": "front_company",
+  "name": "Deep Sea Luc Co. Limited",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported front company or recruitment front; legal adjudication requires a separate official record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "front_companies": [
+    "Deep Sea Luc Co. Limited"
+  ],
+  "locations": [
+    "Hong Kong"
+  ],
+  "ttps": [
+    "copied or templated company website",
+    "front-company or linked-company presentation",
+    "shared hosting and registration patterns"
+  ],
+  "caveats": [
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Registry numbers and street address omitted from public profile as unnecessary.",
+    "source window: website registered between 2022-04 and 2024-09; exact company-domain date remains unspecified in narrative; as of 2026 08 12: historical indicator; current operation status untested."
+  ],
+  "aliases": [
+    {
+      "value": "深海露斯有限公司",
+      "alias_type": "alternate-spelling",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "cluster",
+      "value": "TAG-121",
+      "status": "Insikt Group designation",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "hosting",
+      "value": "202.53.148[.]32",
+      "status": "source-observed",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "website",
+      "value": "deepsealuc[.]com",
+      "status": "source-observed",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports Deep Sea Luc Co. Limited in the stated front-company or corporate-linkage context: deepsealuc[.]com; 202.53.148[.]32; TAG-121",
+      "locator": "PDF pp. 9-10 and Appendix D p. 18"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

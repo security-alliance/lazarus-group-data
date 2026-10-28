@@ -1,0 +1,169 @@
+{
+  "id": "ldoc-simon-technical-manager",
+  "type": "persona",
+  "name": "Simon — reported technical-manager moniker",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The affidavit alleges Didenko referred customers with remote-computer connectivity problems to Simon, identified in chats as the Technical Manager, and supplied messaging identifiers that are redacted and unavailable as text in the public copy.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-04"
+    ]
+  },
+  "caveats": [
+    "Moniker only; keep it separate from a similarly named individual or account absent independent evidence.",
+    "Moniker only; similarly named people and accounts remain separate pending corroboration.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "aliases": [
+    {
+      "value": "Simon",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "ldoc-04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-04",
+      "support": "The affidavit alleges Didenko referred customers with remote-computer connectivity problems to Simon, identified in chats as the Technical Manager, and supplied messaging identifiers that are redacted/not text-extractable in the public copy",
+      "locator": "Affidavit ¶38, pp. 14-15"
+    },
+    {
+      "source_id": "src-77a52bc03300"
+    },
+    {
+      "source_id": "src-b2c91a01cd89"
+    },
+    {
+      "source_id": "src-150bb31635dc"
+    },
+    {
+      "source_id": "dln26-s05"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-simon-reported-manager-moniker",
+      "type": "identity_name",
+      "predicate": "affidavit_reported_manager_moniker_and_role",
+      "value": {
+        "moniker": "Simon",
+        "reported_role": "Technical Manager",
+        "identity_status": "unresolved moniker"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ldoc-04",
+          "locator": "p. 14, para. 38",
+          "quote": "DIDENKO refers them to “Simon”, the Technical Manager."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause affidavit allegation only; the moniker is not resolved to a legal person or public account."
+      ]
+    },
+    {
+      "id": "claim-simon-reported-function",
+      "type": "employment",
+      "predicate": "affidavit_reported_manager_function",
+      "value": {
+        "moniker": "Simon",
+        "reported_role": "Technical Manager",
+        "reported_function": "remote-computer connectivity support"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ldoc-04",
+          "locator": "p. 14, para. 38(a)",
+          "quote": "He will help if your computer is offline or there are problems with the Internet"
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "The narrow source-reported function is retained without messaging, customer, payment, account, or contact selectors."
+      ]
+    },
+    {
+      "id": "claim-simon-reported-connectivity-support-context",
+      "type": "incident",
+      "predicate": "affidavit_reported_remote_connectivity_support_context",
+      "value": {
+        "moniker": "Simon",
+        "reported_context": "customers having problems logging into computers remotely",
+        "reported_function": "support for offline computers or Internet problems",
+        "reported_example": "Didenko directed a customer with an Internet-connection issue to ping Simon",
+        "example_period": "September 2023"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ldoc-04",
+          "locator": "p. 14, para. 38 and 38(a)",
+          "quote": "please, ping simon"
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause affidavit allegation only. The example does not prove Simon's civil identity, account control, technical access, current activity, or criminal liability.",
+        "No messaging identifier, customer identity, computer selector, network identifier, credential, or connection detail is retained."
+      ]
+    },
+    {
+      "id": "claim-simon-later-proceeding-boundary",
+      "type": "legal_event",
+      "predicate": "later_didenko_proceedings_do_not_establish_simon_legal_posture",
+      "value": {
+        "named_defendant": "Oleksandr Didenko",
+        "didenko_plea_date": "2025-11-10",
+        "didenko_sentence_date": "2026-02-19",
+        "didenko_judgment_date": "2026-02-24",
+        "simon_named_in_reviewed_statement_of_offense": false,
+        "simon_named_in_reviewed_government_sentencing_memorandum": false,
+        "simon_named_in_reviewed_doj_plea_release": false,
+        "simon_legal_posture_established": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-77a52bc03300",
+          "locator": "November 10, 2025 plea minute entry",
+          "quote": "Plea entered by OLEKSANDR DIDENKO (1) Guilty to Counts 1 and 4."
+        },
+        {
+          "source_id": "src-b2c91a01cd89",
+          "locator": "p. 1, introductory stipulation",
+          "quote": "the defendant, OLEKSANDR DIDENKO"
+        },
+        {
+          "source_id": "src-150bb31635dc",
+          "locator": "p. 1, caption",
+          "quote": "OLEKSANDR DIDENKO"
+        },
+        {
+          "source_id": "dln26-s05",
+          "locator": "Oleksandr Didenko Guilty Plea section",
+          "quote": "Oleksandr Didenko pleaded guilty to one count of wire fraud conspiracy and one count of aggravated identity theft"
+        }
+      ],
+      "observed_at": "2026-02-24",
+      "notes": [
+        "Complete review and exact-text checks found no Simon or Technical Manager reference in the statement of offense, government sentencing memorandum, or DOJ plea release. The CourtListener docket disposition is expressly for Oleksandr Didenko.",
+        "This is a non-transfer boundary, not a claim that Simon was exonerated or that no other evidence exists. Didenko's guilty plea, sentence, judgment, admissions, and legal status do not apply to the unresolved Simon moniker."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "“Simon” is preserved only as a manager moniker reported in a probable-cause affidavit; civil identity, defendant name, public-account bridge, nationality, and involvement remain unresolved."
+}

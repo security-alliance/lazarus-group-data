@@ -1,0 +1,280 @@
+{
+  "id": "persona-alvaro-morales",
+  "type": "persona",
+  "name": "Alvaro Morales",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "platform-s1",
+      "platform-s1-landing"
+    ]
+  },
+  "ttps": [
+    "new persona backstopped by mature nickdev0118 identity"
+  ],
+  "caveats": [
+    "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens leave this label and other labels unlinked as natural-person identities.",
+    "Asset-level reuse license status is unestablished; keep the reference link-only and obtain permission before republication.",
+    "This normalized package omits binary hash and byte-derived metadata; the publisher may replace the asset at the stable URL.",
+    "No facial recognition, face comparison, reverse-face search, identity inference, cropping, portrait extraction, or binary caching is permitted.",
+    "The displayed avatar may be synthetic, manipulated, stock, stolen, or unrelated; identity, nationality, intent, and current ownership require independent source evidence.",
+    "The intact network map is persona/cluster evidence; verified portrait, biometric reference, and legal-identity image status require separate sources.",
+    "Image provenance for an employment persona records source context; natural-person identity requires a separate source.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "accounts": [
+    {
+      "platform": "Developer/resume platform",
+      "identifier": "nickdev0118",
+      "url": "https://torre.ai/nickdev0118",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1"
+      ],
+      "note": "historical resume URL"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "platform-s1-landing",
+      "source_url": "https://nisos.com/research/dprk-github-employment-fraud/",
+      "direct_asset_url": "https://nisos.com/wp-content/uploads/2025/03/Network-map-DPRK-personas.jpg",
+      "caption": "Nisos network map labeling the reported Alvaro Morales employment persona in the nickdev0118 account cluster. This is persona/cluster evidence, not a verified portrait or legal-identity image.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "persona-alvaro-morales"
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s1",
+      "support": "“Huy Diep and likely newly created persona Alvaro Morales were associated with username nickdev0118.”",
+      "locator": "Persona Creation and Backstopping, Alvaro Morales discussion and Graphic 29, report p. 15"
+    },
+    {
+      "source_id": "platform-s1-landing",
+      "support": "Nisos describes Alvaro Morales as a likely newly created persona associated with nickdev0118 and publishes an intact network-map figure containing a node labeled Alvaro Morales. The figure is persona/cluster context only and does not authenticate the avatar or establish any depicted person's legal identity",
+      "locator": "Graphic 1: Network map of likely DPRK-affiliated personas"
+    },
+    {
+      "source_id": "src-2ada49eaa06c"
+    },
+    {
+      "source_id": "src-c6468217e7be"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-reported-alvaro-morales-persona",
+      "type": "identity_name",
+      "predicate": "reported_employment_persona",
+      "value": {
+        "name": "Alvaro Morales",
+        "identity_status": "likely newly created persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 15, Backstopping",
+          "quote": "both Huy Diep and likely newly created persona Alvaro Morales were associated with username nickdev0118."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Research attribution only; Huy Diep remains a separate persona label and is not merged."
+      ]
+    },
+    {
+      "id": "claim-historical-nickdev0118-association",
+      "type": "account",
+      "predicate": "historically_associated_username",
+      "value": {
+        "username": "nickdev0118"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 15, Backstopping",
+          "quote": "both Huy Diep and likely newly created persona Alvaro Morales were associated with username nickdev0118."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Historical research association only; a reused username label does not prove that persona labels or account users are one natural person."
+      ]
+    },
+    {
+      "id": "claim-current-nickdev0118-reachability",
+      "type": "account",
+      "predicate": "current_public_username_reachability",
+      "value": {
+        "username": "nickdev0118",
+        "torre_status": "reachable persona page presenting Alvaro Morales",
+        "github_status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Page title at /nickdev0118",
+          "quote": "Alvaro Morales Web Developer | Torre.ai"
+        },
+        {
+          "source_id": "src-c6468217e7be",
+          "locator": "JSON response",
+          "quote": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"404\"}"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current reachability does not establish present ownership or control; the GitHub removal cause and timing are unknown."
+      ]
+    },
+    {
+      "id": "claim-current-torre-presentation",
+      "type": "account",
+      "predicate": "current_public_page_presents_persona",
+      "value": {
+        "platform": "Torre",
+        "path": "nickdev0118",
+        "name": "Alvaro Morales",
+        "claimed_role": "Web Developer",
+        "claimed_location": "Russia"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Profile heading and detail section",
+          "quote": "Alvaro Morales\n\nAbout\n\nDetail\n\nWeb Developer\n\nRussia"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Persona-page assertions only; not verified location, nationality, civil identity, or present control."
+      ]
+    },
+    {
+      "id": "claim-torre-claimed-employment-chronology",
+      "type": "employment",
+      "predicate": "persona_page_claimed_employment",
+      "value": {
+        "verification_status": "0% verified",
+        "roles": [
+          {
+            "organization": "Remote, Upwork",
+            "role": "Full Stack Developer",
+            "period": "2022-08 to 2023-04"
+          },
+          {
+            "organization": "Remote, Upwork",
+            "role": "Blockchain Developer",
+            "period": "2021-04 to 2022-08"
+          },
+          {
+            "organization": "Cloudteam Remote",
+            "role": "Back End Developer",
+            "period": "2019-01 to 2021-04"
+          },
+          {
+            "organization": "HubStaff Malaga",
+            "role": "Front End Developer",
+            "period": "2016-10 to 2018-12"
+          },
+          {
+            "organization": "Social Seeder Barcelona",
+            "role": "Front End Developer",
+            "period": "2014-09 to 2016-10"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Jobs section, verification banner",
+          "quote": "Jobs verified_user 0% verified"
+        },
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Jobs section, Full Stack Developer role and dates",
+          "quote": "Full Stack Developer\n\nRemote, Upwork\n\nAug 2022 - Apr 2023 (9 months)"
+        },
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Jobs section, Blockchain Developer role and dates",
+          "quote": "Blockchain Developer\n\nRemote, Upwork\n\nApr 2021 - Aug 2022 (1 year 5 months)"
+        },
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Jobs section, Back End Developer role and dates",
+          "quote": "Back End Developer\n\nCloudteam Remote\n\nJan 2019 - Apr 2021 (2 years 4 months)"
+        },
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Jobs section, first Front End Developer role and dates",
+          "quote": "Front End Developer\n\nHubStaff Malaga\n\nOct 2016 - Dec 2018 (2 years 3 months)"
+        },
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Jobs section, Social Seeder Front End Developer role and dates",
+          "quote": "Front End Developer\n\nSocial Seeder Barcelona\n\nSep 2014 - Oct 2016 (2 years 2 months)"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Unverified self-presentation; none of the claimed employers or roles was independently corroborated."
+      ]
+    },
+    {
+      "id": "claim-torre-claimed-education-and-projects",
+      "type": "note",
+      "predicate": "persona_page_claimed_education_and_projects",
+      "value": {
+        "verification_status": "0% verified",
+        "education": {
+          "institution": "University of Burgos",
+          "credential": "Bachelor's degree",
+          "period": "2010-04 to 2014-08"
+        },
+        "project_urls": [
+          "https://capsho-app-bekmuradov-capsho.vercel.app/",
+          "https://www.azuki.com/"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Education section",
+          "quote": "Education verified_user 0% verified\n\nBachelor's degree\n\nUniversity of Burgos C. Prta Romeros\n\nApr 2010 - Aug 2014 (4 years 5 months)"
+        },
+        {
+          "source_id": "src-2ada49eaa06c",
+          "locator": "Projects section",
+          "quote": "Projects (professional or personal) verified_user 0% verified\n\nhttps://capsho-app-bekmuradov-capsho.vercel.app/\n\nhttps://www.azuki.com/"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The street fragment displayed beside the institution is not propagated into the claim value.",
+        "Project URLs are persona assertions, not proof of authorship or current control."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Nisos-reported employment persona Alvaro Morales associated with the historical label nickdev0118. Keep this persona separate from Huy Diep, a GitHub account holder, any apparent identity owner, and any verified civil identity; current public pages record persona assertions, while truth and present control require separate evidence."
+}

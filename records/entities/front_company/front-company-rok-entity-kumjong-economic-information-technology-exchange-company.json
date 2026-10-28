@@ -1,0 +1,36 @@
+{
+  "id": "front-company-rok-entity-kumjong-economic-information-technology-exchange-company",
+  "type": "front_company",
+  "name": "조선금정경제정보기술교류사",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Entity designated under the Republic of Korea's unilateral sanctions regime for involvement in dispatching or supporting DPRK IT personnel; administrative sanctions designation, with criminal charge and conviction status absent from this record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ROK-MOFA-2024-IT15",
+      "ROK-MOFA-SANCTIONS-LIST"
+    ]
+  },
+  "legal_or_reported_name": "조선금정경제정보기술교류사",
+  "caveats": [
+    "The included Korean sources print a Korean-script form only; an authoritative source is required before a Latin-script form is supplied or normalized.",
+    "Stored in the schema's front_company category for publication compatibility; the official source describes a designated DPRK IT-worker entity, while sham-company legal status requires a separate source.",
+    "The dated designation announcement and the living sanctions list are two Republic of Korea Ministry of Foreign Affairs publications in one official source family; retain both for complementary claim-level support and treat them as one source family. The living-list citation establishes list presence and naming as accessed; current activity, location, role, and operational control require newer evidence."
+  ],
+  "sources": [
+    {
+      "source_id": "ROK-MOFA-2024-IT15",
+      "support": "The December 26, 2024 designation announcement names 조선금정경제정보기술교류사, says it dispatched DPRK IT personnel overseas, and alleges that resulting foreign-currency proceeds supported the DPRK regime’s military-related funding",
+      "locator": "Body paragraph beginning “조선금정경제정보기술교류사는”; entity name, overseas-dispatch allegation, and military-funding allegation. | Official document/download: https://www.korea.kr/common/download.do?fileId=197999152&tblKey=GMN"
+    },
+    {
+      "source_id": "ROK-MOFA-SANCTIONS-LIST",
+      "support": "As accessed on 2026-08-12, the living ROK unilateral-sanctions list includes 조선금정경제정보기술교류사 in its 단체 designation rows with designation date 2024-12-30. This supports list presence, the designation date, and the displayed canonical name form only",
+      "locator": "단체 designation row for “조선금정경제정보기술교류사”, dated 24.12.30. | Availability note (2026-08-12): Living sanctions list. A passive check followed an HTTP 307 redirect and then timed out; this does not establish removal. Keep publication_date null and use accessed_date for every extraction"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

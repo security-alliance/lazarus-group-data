@@ -1,0 +1,41 @@
+{
+  "id": "deep-index-2026-di26-f01",
+  "type": "ttp",
+  "name": "Extended dwell time makes onboarding-only screening insufficient",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed defensive research finding; adjudication and independent dispositive force require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-2026-di26-s01"
+    ]
+  },
+  "ttps": [
+    "Continue identity, access, SaaS, endpoint, and code-repository monitoring well after onboarding; a clean first week does not resolve worker risk."
+  ],
+  "caveats": [
+    "The public summary presents one 122-day value for both categories; separate North-Korean-IT-worker-only sample size and distribution are unspecified."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Mandiant reports that the 2025 median dwell time for both cyber-espionage and North Korean IT-worker incident categories was 122 days, versus a 14-day global median across its investigations."
+      ],
+      "source_ids": [
+        "deep-index-2026-di26-s01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-2026-di26-s01",
+      "support": "Mandiant reports that the 2025 median dwell time for both cyber-espionage and North Korean IT-worker incident categories was 122 days, versus a 14-day global median across its investigations",
+      "locator": "Section “By the Numbers: M-Trends 2026,” bullet “Global Median Dwell Time”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

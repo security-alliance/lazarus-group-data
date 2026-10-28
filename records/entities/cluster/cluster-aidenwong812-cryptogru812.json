@@ -1,0 +1,313 @@
+{
+  "id": "cluster-aidenwong812-cryptogru812",
+  "type": "cluster",
+  "name": "aidenwong812 / cryptogru812 cluster",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s5"
+    ]
+  },
+  "ttps": [
+    "cross-contributed with lionstar259007, hi-tech-AI, brightlystar0117, ImfanAi, and techeng322",
+    "GitHub handle changed from aidenwong812 to cryptogru812 on 2025-02-26",
+    "paid for PRs across four Starknet-related projects on onlyDust",
+    "same emails rotated among Aiden Wong, Ruslan Vinnichuk, Yehor, V0410, and Maksym Poplavskyi",
+    "same Git credentials and avatar linked V0410"
+  ],
+  "caveats": [
+    "The source links multiple presented identities and accounts; alias status for each label remains source-qualified rather than person-level.",
+    "This is the original blackbigswan/Heiner investigation. It is strong account-clustering evidence, but remains independent OSINT rather than government attribution.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "Maksym Poplavskyi",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "value": "Ruslan Vinnichuk",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "value": "Ruslan",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "value": "Yehor",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "value": "V0410",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "V0410",
+      "url": "https://github.com/V0410",
+      "status": "active",
+      "relationship": "same-operator",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "HTTP 200 on direct fetch"
+    },
+    {
+      "platform": "onlyDust",
+      "identifier": "aidenwong812 / cryptogru812",
+      "url": "https://app.onlydust.com/",
+      "status": "historical",
+      "relationship": "same-operator",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "historical billing identity; exact user URL not stable"
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "aidenwong812",
+      "url": "https://github.com/aidenwong812",
+      "status": "removed",
+      "relationship": "same-operator",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "404 on direct fetch; source says renamed/deleted 2025-02-26"
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "cryptogru812",
+      "url": "https://github.com/cryptogru812",
+      "status": "removed",
+      "relationship": "same-operator",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "404 on direct fetch; replacement handle in source"
+    },
+    {
+      "platform": "LinkedIn",
+      "identifier": "maksym-poplavskyi-337b782bb",
+      "url": "https://ua.linkedin.com/in/maksym-poplavskyi-337b782bb",
+      "status": "removed",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "reported deleted before publication"
+    },
+    {
+      "platform": "Fiverr",
+      "identifier": "vincenzagiorgi6",
+      "url": "https://www.fiverr.com/vincenzagiorgi6/make-meme-coin-tax-token-presale-staking-pumpfun-on-ethereum-base-solana-ton",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "historical source URL"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "platform-s5",
+      "source_url": "https://www.ketman.org/dprk-it-workers-in-freelance-platform-onlyDust.html",
+      "caption": "Original report shows a Minion avatar and cached LinkedIn/profile views; no facial recognition was performed.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "related-account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "ImfanAi",
+        "url": "https://github.com/ImfanAi",
+        "status_as_of_2026-08-11": "404 on direct fetch",
+        "basis": "cross-commit into aidenwong812 repository"
+      },
+      "relationship": "related-cluster",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "related-account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "brightlystar0117",
+        "url": "https://github.com/brightlystar0117",
+        "status_as_of_2026-08-11": "404 on direct fetch",
+        "basis": "cross-commit into aidenwong812 repository"
+      },
+      "relationship": "related-cluster",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "related-account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "hi-tech-AI",
+        "url": "https://github.com/hi-tech-AI",
+        "status_as_of_2026-08-11": "HTTP 200 on direct fetch",
+        "basis": "cross-commit into aidenwong812 repository"
+      },
+      "relationship": "related-cluster",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "related-account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "lionstar259007",
+        "url": "https://github.com/lionstar259007",
+        "status_as_of_2026-08-11": "404 on direct fetch",
+        "basis": "cross-commit into aidenwong812 repository"
+      },
+      "relationship": "related-cluster",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "related-account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "techeng322",
+        "url": "https://github.com/techeng322",
+        "status_as_of_2026-08-11": "HTTP 200 on direct fetch",
+        "basis": "cross-commit into aidenwong812 repository"
+      },
+      "relationship": "related-cluster",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://app.onlydust.com/projects/hackathon-bot",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://app.onlydust.com/projects/spotnet",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://app.onlydust.com/projects/starkcade",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://app.onlydust.com/projects/starknet-id",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://app.onlydust.com/projects/starknet-quest",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://app.onlydust.com/projects/weaver",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "affected-project-url",
+      "value": "https://github.com/djeck1432/spotnet/commits?author=aidenwong812",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "gru.dev259007@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "pwlkjakub@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "vincenzagiorgi6@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "wongaiden812@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s5",
+      "support": "“aidenwong812 got ‘spooked’ ... and changed his identity ... choosing cryptogru812 as a new handle.” The report says pwlkjakub@gmail[.]com used “Ruslan Vinnichuk / V0410 / Yehor / aidenwong812.” The same vincenzagiorgi6@gmail[.]com appeared with Maksym Poplavskyi and V0410",
+      "locator": "Sections documenting the aidenwong812 / cryptogru812 handle change, the V0410 and related persona links, and the 0xExp-po Build on Stellar / OnlyDust account pivot"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

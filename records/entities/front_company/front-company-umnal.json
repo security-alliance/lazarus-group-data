@@ -1,0 +1,30 @@
+{
+  "id": "front-company-umnal",
+  "type": "front_company",
+  "name": "Umnal",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Delegation subordinate to Chinyong Information Technology Cooperation Company",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "Likely Russia in 2025"
+  ],
+  "caveats": [
+    "Potentially generic entity label; retain the cited affiliation and geography to avoid collision with unrelated organizations."
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 10",
+      "locator": "Annex 10 delegation description and items 1-10, PDF pp. 127-129 / printed pp. 125-127 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

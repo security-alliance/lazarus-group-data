@@ -1,0 +1,60 @@
+{
+  "id": "jannik-villostas",
+  "real_name": "Jannik Villostas",
+  "aliases": [
+    "0xtomoon",
+    "mrcontract17877",
+    "Henry Amin",
+    "gonzalodecruz",
+    "shoyano",
+    "vaccode365"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "melonman913@gmail.com"
+  ],
+  "twitter_usernames": [
+    "mrcontract17877"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "telegram": [
+    {
+      "id": "7245484067",
+      "usernames": [
+        "janbuidl"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xtomoon",
+      "usernames": [
+        "0xtomoon"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x1FEbc069606ABfbA5d021Ed3768cb5D90c9407D5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/jannik-villostas/jannik-villostas-av.png",
+      "short_description": "Jannik Villostas avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

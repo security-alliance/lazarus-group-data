@@ -1,0 +1,53 @@
+{
+  "id": "cluster-famous-chollima-2026",
+  "type": "cluster",
+  "name": "FAMOUS CHOLLIMA (October 2026 DOJ disruption label)",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CrowdStrike and the DOJ N.D. Texas release use FAMOUS CHOLLIMA as a label for the broader DPRK IT-worker and helper network. The label covers the wider network; individual defendants may be different operators, and conviction status is a separate legal matter.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ndtx-release",
+      "crowdstrike-2026-10-13-famous-chollima-disruption"
+    ]
+  },
+  "caveats": [
+    "A campaign label describes a group; shared aliases or methods alone leave records separate."
+  ],
+  "identity_boundary": "Source-reported adversary label for the October 2026 disruption; keep separate from named workers and facilitators absent an explicit source link.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ndtx-release",
+      "support": "The DOJ release says CrowdStrike identified the group as Famous Chollima.",
+      "locator": "Operation Lonestar Roundup release, FAMOUS CHOLLIMA paragraph"
+    },
+    {
+      "source_id": "crowdstrike-2026-10-13-famous-chollima-disruption",
+      "support": "CrowdStrike describes the FBI-assisted disruption of FAMOUS CHOLLIMA laptop farms.",
+      "locator": "Opening paragraph"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-famous-chollima-label",
+      "type": "alias",
+      "predicate": "source_reported_network_label",
+      "value": {
+        "label": "FAMOUS CHOLLIMA"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ndtx-release",
+          "locator": "FAMOUS CHOLLIMA paragraph",
+          "quote": "U.S. cybersecurity firm CrowdStrike has identified this group of DPRK IT workers and their helpers as “Famous Chollima,” a name that many victims now use to describe the broader threat network."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

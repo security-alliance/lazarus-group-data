@@ -1,0 +1,51 @@
+{
+  "id": "crypto-incident-favrr-2025",
+  "type": "cluster",
+  "name": "Favrr — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Multigovernment MSMT report; underlying incident mechanics or identity linkage may remain source-qualified",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "Favrr"
+  ],
+  "ttps": [
+    "Immediate laundering attempt",
+    "Multiple co-located/related worker personas on one team",
+    "One persona previously linked to at least nine other crypto projects",
+    "Smart-contract update used to drain project funds"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "MSMT cites the ZachXBT 2025 thread and private-sector reporting."
+  ],
+  "aliases": [
+    {
+      "value": "Alex Hong",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-msmt-2025-2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "alex-hong"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "DPRK IT workers are also engaging in cryptocurrency thefts",
+      "locator": "PDF pp. 34–35, “DPRK IT Workers” (Munchables case study); p. 37 (Favrr case study)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

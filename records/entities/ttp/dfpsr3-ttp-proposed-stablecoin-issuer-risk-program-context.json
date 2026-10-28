@@ -1,0 +1,58 @@
+{
+  "id": "dfpsr3-ttp-proposed-stablecoin-issuer-risk-program-context",
+  "type": "ttp",
+  "name": "Proposed stablecoin-issuer AML and sanctions risk-program context",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official notice of proposed rulemaking using allegation-based risk evidence; it is a proposal, while final rule, adjudicated case, sanctions designation and transaction-level indicator require later action.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFPSR3-S06-FINCEN-OFAC-PPSI-2026"
+    ]
+  },
+  "ttps": [
+    "aml-risk-assessment",
+    "payment-platform",
+    "payroll-channel",
+    "sanctions-compliance",
+    "stablecoin-payment"
+  ],
+  "caveats": [
+    "The proposed 2026 financial-sector regulatory framework cites 2025 forfeiture allegations; the case count remains tied to the cited forfeiture matter.",
+    "Label this as a proposal and allegations; the rule remains unfinalized, while stablecoin usage alone remains an insufficient basis for suspicion.",
+    "This record includes no people, personas, victim institutions, front companies, accounts, wallets, payment identifiers, addresses, or images.",
+    "Treat controls as risk-based and source-qualified; DPRK linkage requires multiple corroborated signals."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-proposed-rule-policy-context",
+      "statements": [
+        "FinCEN and OFAC cite alleged stablecoin use by DPRK IT workers as one reason payment-stablecoin issuers need risk-based AML and sanctions programs. The defensible publication point is governance and monitoring coverage for payroll-like or contractor-payment channels, not publication of account or wallet indicators."
+      ],
+      "limitations": [
+        "Label as a proposal and allegations; do not state that the rule is final or that stablecoin usage alone is suspicious.",
+        "The proposed 2026 financial-sector regulatory framework cites 2025 forfeiture allegations; it does not establish another forfeiture case.",
+        "Treat controls as risk-based and source-qualified; no single location, language, accent, camera, payment, network, device, or behavioral signal establishes DPRK linkage.",
+        "This record includes no people, personas, victim institutions, front companies, accounts, wallets, payment identifiers, addresses, or images."
+      ],
+      "source_ids": [
+        "DFPSR3-S06-FINCEN-OFAC-PPSI-2026"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfp-ttp-payroll-beneficiary-screening-boundary",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DFPSR3-S06-FINCEN-OFAC-PPSI-2026",
+      "support": "The proposal cites alleged DPRK IT-worker laundering through stablecoins and states that a 2025 forfeiture complaint alleged workers requested stablecoin payment because of value stability and easier conversion to fiat. The example supports proposed AML and sanctions-program obligations for payment-stablecoin issuers. FinCEN and OFAC cite alleged stablecoin use by DPRK IT workers as one reason payment-stablecoin issuers need risk-based AML and sanctions programs. The defensible publication point is governance and monitoring coverage for payroll-like or contractor-payment channels, not publication of account or wallet indicators",
+      "locator": "PDF pages 15 and 21; stablecoin illicit-finance discussion and DPRK IT-worker example"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

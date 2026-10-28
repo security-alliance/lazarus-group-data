@@ -1,0 +1,50 @@
+{
+  "id": "deep2-government-dgl-2026-doj-nsd-budget",
+  "type": "cluster",
+  "name": "U.S. facilitator/laptop-farm enforcement scale through FY 2026",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official U.S. government aggregate or risk-assessment finding. Underlying pending case summaries remain allegations where applicable",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-government-dgl-2026-doj-nsd-budget"
+    ]
+  },
+  "ttps": [
+    "laptop-farm",
+    "payroll-fraud",
+    "us-based-facilitator"
+  ],
+  "caveats": [
+    "The 10-person, approximately $25 million, and approximately 525-laptop figures aggregate multiple investigations and overlap individual case totals.",
+    "The publication date uses the DOJ landing page's Updated May 29, 2026 date; the linked PDF's separate issue-date field is absent.",
+    "This is a DOJ budget/performance narrative rather than a charging instrument or adjudicated finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "DOJ states that from May 2024 through FY 2025, National Security Cyber charged 10 U.S.-based individuals who helped DPRK IT-worker teams generate approximately $25 million in income.",
+        "DOJ states that approximately 525 employer-provided laptops were seized in these and other DPRK IT-worker investigations from U.S.-based facilitator residences.",
+        "The document says DPRK IT-worker teams can generate as much as $3 million annually."
+      ],
+      "source_ids": [
+        "deep2-government-dgl-2026-doj-nsd-budget"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-government-dgl-2026-doj-nsd-budget",
+      "support": "DOJ states that from May 2024 through FY 2025, National Security Cyber charged 10 U.S.-based individuals who helped DPRK IT-worker teams generate approximately $25 million in income. DOJ states that approximately 525 employer-provided laptops were seized in these and other DPRK IT-worker investigations from U.S.-based facilitator residences. The document says DPRK IT-worker teams can generate as much as $3 million annually",
+      "locator": "PDF page 13 (printed page 11), subsection 'Prosecution of the DPRK's U.S.-Based Facilitators.'"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

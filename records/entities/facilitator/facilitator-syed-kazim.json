@@ -1,0 +1,49 @@
+{
+  "id": "facilitator-syed-kazim",
+  "type": "facilitator",
+  "name": "Syed Kazim",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT says the Pakistani Federal Investigation Agency opened a case naming Syed Kazim as a suspected facilitator; legal action was ongoing in the report, with conviction status unreported.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "The source-bounded facilitator record for Syed Kazim; another person sharing the name or a related organization requires an explicit source link before merging.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Syed Kazim.",
+      "locator": "PDF p. 70, Pakistan-based facilitators paragraph"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-syed-kazim",
+      "type": "identity_name",
+      "predicate": "fia_case_named_person",
+      "value": {
+        "name": "Syed Kazim",
+        "case_status": "legal action ongoing"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 70, Pakistan-based facilitators paragraph",
+          "quote": "Syed Sohail Mehdi and Syed Kazim, and legal action is ongoing."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

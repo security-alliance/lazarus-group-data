@@ -1,0 +1,293 @@
+{
+  "id": "facilitator-son-kyong-sik",
+  "type": "facilitator",
+  "name": "Son Kyong Sik",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. The record describes a DPRK national and Korea Osong representative under an administrative sanctions designation; no criminal charge or conviction is asserted.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-e31464a55e89",
+      "gov-f598afa3ba78"
+    ]
+  },
+  "legal_or_reported_name": "Son Kyong Sik",
+  "organizations": [
+    "Korea Osong Shipping Co",
+    "Korea Osong Shipping Corporation"
+  ],
+  "locations": [
+    "Shenyang, China (OFAC listing context; not current location)"
+  ],
+  "ttps": [
+    "IT-worker revenue generation in Laos"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The city appears only as sanctions-list context; present presence requires newer evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Korea Osong Shipping Corporation",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-son-kyong-sik"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-f598afa3ba78",
+      "support": "OFAC designated two individuals and four entities tied to Korea Osong Shipping Co and DPRK IT-worker revenue generation in Laos",
+      "locator": "Illicit IT Worker Revenue Generation section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 52286 support only the retained coarse sanctions-list location values. The city is sanctions-list context and does not establish current presence. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 52286"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 52286 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add Shenyang listing context and retain the explicit Korea Osong link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 52286"
+    },
+    {
+      "source_id": "src-d5fdc8f9e16c"
+    },
+    {
+      "source_id": "src-9f3c86e99feb"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-son-kyong-sik-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Son Kyong Sik",
+        "ofac_primary_name": "SON, Kyong Sik"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section, Son paragraph",
+          "quote": "Son Kyong Sik"
+        },
+        {
+          "source_id": "src-d5fdc8f9e16c",
+          "locator": "SDN additions, Son entry",
+          "quote": "SON, Kyong Sik"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 52286",
+          "quote": "SON, Kyong Sik"
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Official name formatting variants, not separate identities."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-osong-chief-representative",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_chief_representative_role",
+      "value": {
+        "organization": "Korea Osong Shipping Corporation",
+        "role": "chief representative",
+        "reported_base": "Shenyang, China",
+        "as_of": "2025-01-16"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section, Son paragraph",
+          "quote": "Son Kyong Sik is the Shenyang, China-based chief representative of 53 Department's Osong."
+        },
+        {
+          "source_id": "src-d5fdc8f9e16c",
+          "locator": "SDN additions, Son entry",
+          "quote": "Linked To: KOREA OSONG SHIPPING CORPORATION"
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Historical designation-time role and geography only. The source does not establish present employment or location."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13722",
+        "date": "2025-01-16",
+        "reported_basis": "acting or purporting to act for or on behalf of Korea Osong"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section, Son designation sentence",
+          "quote": "OFAC is designating Son Kyong Sik pursuant to E.O. 13722 for acting or purporting to act for or on behalf of, directly or indirectly, Osong"
+        },
+        {
+          "source_id": "src-d5fdc8f9e16c",
+          "locator": "SDN additions, Son entry",
+          "quote": "SON, Kyong Sik"
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "DPRK3",
+        "checked_at": "2026-08-14",
+        "linked_organization": "Korea Osong Shipping Corporation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 52286",
+          "quote": "52286,\"SON, Kyong Sik\",\"individual\",\"DPRK3\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 52286",
+          "quote": "Linked To: KOREA OSONG SHIPPING CORPORATION."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Dated administrative-list observation; it does not establish criminal guilt, present role, or present location."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-media-name-form",
+      "type": "identity_name",
+      "predicate": "derivative_media_reported_name_form",
+      "value": {
+        "name": "Son Kyong-sik",
+        "source_role": "derivative government coverage"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-9f3c86e99feb",
+          "locator": "third body paragraph, named individuals",
+          "quote": "The two individuals added to the sanctions list are Jong In-chol, the president of Chonsurim's North Korean IT worker delegation in Laos, and Son Kyong-sik, the China-based chief representative of Osong."
+        }
+      ],
+      "observed_at": "2025-01-17",
+      "notes": [
+        "Separate-publisher spelling form in Treasury-derived coverage; it is a formatting/romanization variant, not a separate identity or independently established alias."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-source-reported-nationality",
+      "type": "note",
+      "predicate": "media_reported_nationality",
+      "value": {
+        "nationality": "North Korean",
+        "source_role": "Yonhap report published by The Korea Herald"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-9f3c86e99feb",
+          "locator": "opening paragraph",
+          "quote": "The United States on Thursday imposed sanctions on two North Koreans and four entities to target a network that uses North Korean information technology workers to generate revenue for the recalcitrant regime's weapons programs."
+        },
+        {
+          "source_id": "src-9f3c86e99feb",
+          "locator": "third body paragraph, identification of the two individuals",
+          "quote": "The two individuals added to the sanctions list are Jong In-chol, the president of Chonsurim's North Korean IT worker delegation in Laos, and Son Kyong-sik, the China-based chief representative of Osong."
+        }
+      ],
+      "observed_at": "2025-01-17",
+      "notes": [
+        "Public source-reported nationality only. No citizenship selector, birth data, passport data, or present-location inference is retained."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-historical-shenyang-context",
+      "type": "location",
+      "predicate": "treasury_reported_historical_base",
+      "value": {
+        "location": "Shenyang, China",
+        "context": "designation-time chief-representative description",
+        "present_location_inference": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section, Son paragraph",
+          "quote": "Son Kyong Sik is the Shenyang, China-based chief representative of 53 Department's Osong."
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Atomic coarse historical geography split from the role claim. It is not a residence, precise address, continued-presence, travel, or present-location claim."
+      ]
+    },
+    {
+      "id": "claim-son-kyong-sik-osong-department53-context",
+      "type": "relationship",
+      "predicate": "treasury_reported_role_organization_parent_context",
+      "value": {
+        "role_organization": "Korea Osong Shipping Co",
+        "organization_parent_context": "Department 53",
+        "direct_personal_department53_role_inference": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section, Osong paragraph",
+          "quote": "Department 53 front company Korea Osong Shipping Co (Osong) has maintained delegations of DPRK IT workers in Laos since at least 2022."
+        },
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section, Son paragraph",
+          "quote": "Son Kyong Sik is the Shenyang, China-based chief representative of 53 Department's Osong."
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Organization-parent context for Son's source-reported Osong role. It does not establish a separate personal Department 53 title, direct employment, command responsibility, or individual participation in Osong's delegation-wide conduct."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Son Kyong Sik, listed by OFAC as SON, Kyong Sik, is the person Treasury described as Korea Osong’s chief representative. The source’s administrative designation and historical representative role remain attached to the record; Osong delegation-wide conduct remains collective, while criminal guilt, present location, and same-named account linkage remain unverified."
+}

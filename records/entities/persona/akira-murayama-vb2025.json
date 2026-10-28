@@ -1,0 +1,382 @@
+{
+  "id": "akira-murayama-vb2025",
+  "type": "persona",
+  "name": "Akira Murayama",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "NEC researcher Yoshihiro Koike presents Akira Murayama as a North Korean IT-worker account observed in Japanese crowdsourcing; this is research attribution, with government-confirmed legal identity unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S1",
+      "CM-S2"
+    ]
+  },
+  "organizations": [
+    "CrowdWorks",
+    "NEC",
+    "Wantedly"
+  ],
+  "locations": [
+    "Japan (claimed persona and work market)"
+  ],
+  "ttps": [
+    "Claim a detailed residential address that resolves to a rental property",
+    "Copy technical articles, images, and writing style from other sources",
+    "Maintain a portfolio and GitHub account to support the persona",
+    "Populate profiles from machine-translated templates",
+    "Use an anime or stock-derived profile image rather than a verified portrait",
+    "Use Japanese business social networking and public product achievements to seek further work",
+    "Use Japanese crowdsourcing services under a localized persona"
+  ],
+  "caveats": [
+    "The projected portrait is a projected image; publication as a verified face is prohibited.",
+    "The employment name may belong to a synthetic or appropriated persona.",
+    "The projected slide was insufficiently legible for transcription of the GitHub handle/URL.",
+    "This is a source-reported persona label from public conference material; legal and civil identity status is unverified."
+  ],
+  "aliases": [
+    {
+      "value": "Akira Murayama",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "Public account linked from the conference slide; handle not retained because the projected URL is not reliably legible",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "CM-S1"
+      ]
+    },
+    {
+      "platform": "CrowdWorks",
+      "identifier": "TopBalancer",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ],
+      "note": "Public worker-profile label visible in the conference slide."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "CM-S1",
+      "source_url": "https://www.youtube.com/watch?v=0SQ_T-uxHr8",
+      "caption": "Slide 21: public CrowdWorks profile for Akira Murayama / TopBalancer. The profile image appears to be an anime/stock-image composite and is not a verified portrait.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S2",
+      "support": "Official VB2025 abstract page identifying Yoshihiro Koike and framing the presentation as NEC threat-intelligence research into Japanese-language crowdsourcing activity",
+      "locator": "Abstract and speaker biography"
+    },
+    {
+      "source_id": "CM-S1",
+      "support": "Official Virus Bulletin recording of Yoshihiro Koike’s VB2025 presentation. It supplies slide-level cases, public persona labels, local-platform observations, and timestamps",
+      "locator": "00:00–21:34; especially slides 4, 7–13, 21–36 at 02:05–20:56"
+    },
+    {
+      "source_id": "src-64c138f7a08b"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-akira-persona-label",
+      "type": "identity_name",
+      "predicate": "conference_reported_crowdsourcing_persona_name",
+      "value": {
+        "name": "Akira Murayama",
+        "identity_status": "conference-reported persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "11:48-12:09, slide 21; source-exact name verified visually",
+          "quote": "Akira Murayama"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "The label is not independently established as a legal name."
+      ]
+    },
+    {
+      "id": "claim-akira-research-attribution",
+      "type": "organization_affiliation",
+      "predicate": "conference_attributed_north_korean_it_worker_case",
+      "value": {
+        "attribution": "North Korean IT worker",
+        "attribution_type": "NEC researcher presentation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "11:40-11:51, transition to slide 21",
+          "quote": "we present the case of a successful North Korean IT worker"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Research attribution, not a government-confirmed identity or nationality determination."
+      ]
+    },
+    {
+      "id": "claim-akira-template-translation-profile",
+      "type": "incident",
+      "predicate": "conference_reported_template_and_machine_translation_use",
+      "value": {
+        "profile_characteristics": [
+          "template",
+          "machine translated"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "11:48-12:04, slide 21; source-exact wording verified visually",
+          "quote": "A profile consists of template and machine translated"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "A profile-language observation, not proof of civil identity or nationality by itself."
+      ]
+    },
+    {
+      "id": "claim-akira-portfolio-github",
+      "type": "account",
+      "predicate": "conference_reported_public_artifact_types",
+      "value": {
+        "artifacts": [
+          "portfolio",
+          "GitHub account"
+        ],
+        "github_selector_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "12:02-12:09, slide 21",
+          "quote": "He has a portfolio and a GitHub account."
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "The projected GitHub URL was not reliably legible and is deliberately not transcribed or guessed."
+      ]
+    },
+    {
+      "id": "claim-akira-stock-derived-collage",
+      "type": "image",
+      "predicate": "conference_reported_stock_derived_profile_collage",
+      "value": {
+        "finding": "profile picture was a collage using a stock-image face",
+        "image_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "12:44-13:11, slide 23",
+          "quote": "the profile picture was created by pasting a face from a stock image"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "No face comparison or identity inference was performed; the source slide was reviewed only for the stated manipulation finding."
+      ]
+    },
+    {
+      "id": "claim-akira-claimed-residence-mismatch",
+      "type": "location",
+      "predicate": "conference_reported_claimed_residence_mismatch",
+      "value": {
+        "selector_retained": false,
+        "finding": "profile address resolved to a rental property",
+        "residence_verified": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "13:24-13:40, slide 24; slide text visually verified",
+          "quote": "However, it was a property for rent. There was likely no actual residence there."
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "The residential selector is deliberately excluded. This is a source assessment, not a verified operator location."
+      ]
+    },
+    {
+      "id": "claim-akira-plagiarized-technical-posts",
+      "type": "incident",
+      "predicate": "conference_reported_plagiarized_technical_posts",
+      "value": {
+        "artifacts": "technical blog posts",
+        "reported_reuse": [
+          "text",
+          "images",
+          "writing style"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "13:53-14:20, slide 25; source-exact heading visually verified",
+          "quote": "Technical articles are created through plagiarism."
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Conference-reported artifact reuse; no downloaded code or private data involved."
+      ]
+    },
+    {
+      "id": "claim-akira-wantedly-account",
+      "type": "account",
+      "predicate": "conference_reported_business_social_account",
+      "value": {
+        "platform": "Wantedly",
+        "status": "historical",
+        "selector_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "14:30-14:46, slide 26",
+          "quote": "He also created an account of Wantedly."
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Historical source-reported account type; no present ownership or current status is inferred."
+      ]
+    },
+    {
+      "id": "claim-akira-claimed-cto-role",
+      "type": "employment",
+      "predicate": "conference_reported_startup_cto_role",
+      "value": {
+        "role": "CTO",
+        "organization_type": "Japanese startup company",
+        "company_selector_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "14:46-15:05, slide 26",
+          "quote": "hired as CTO at a Japanese startup company"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "The speaker said the claim was consistent with company public-relations and recruitment material and that he believed it was true; the company is withheld pending separate victim/editorial review."
+      ]
+    },
+    {
+      "id": "claim-akira-two-product-development",
+      "type": "employment",
+      "predicate": "conference_reported_product_development_involvement",
+      "value": {
+        "products": 2,
+        "organization_type": "Japanese startup company"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "15:05-15:11, slide 26",
+          "quote": "He appears to have be involved in the development of two products."
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Source assessment and automatic-caption grammar preserved; product and company selectors are withheld."
+      ]
+    },
+    {
+      "id": "claim-topbalancer-crowdworks-label",
+      "type": "account",
+      "predicate": "conference_displayed_crowdworks_profile_label",
+      "value": {
+        "platform": "CrowdWorks",
+        "label": "TopBalancer",
+        "status": "historical"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "11:48-12:20, slide 21; label verified visually on CrowdWorks profile",
+          "quote": "TopBalancer"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Historical profile label, not a civil identity or proof of current account control."
+      ]
+    },
+    {
+      "id": "claim-topbalancer-current-search-status",
+      "type": "account",
+      "predicate": "historical_crowdworks_label_status_at_cutoff",
+      "value": {
+        "platform": "CrowdWorks",
+        "label": "TopBalancer",
+        "historical_source_status": "conference displayed",
+        "public_search_status": "no matching member returned",
+        "checked_at": "2026-08-14"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "11:48-12:20, slide 21; historical CrowdWorks profile label",
+          "quote": "TopBalancer"
+        },
+        {
+          "source_id": "src-64c138f7a08b",
+          "locator": "Public worker-search result message",
+          "quote": "検索したキーワードに該当するメンバー情報がみつかりませんでした。"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current public-search observation only. It does not establish deletion, suspension, rename, transfer, present control, or any status of the source-reported operator."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "This is a Virus Bulletin conference-reported crowdsourcing persona; civil-identity verification requires separate evidence. The Akira Murayama label, CrowdWorks label TopBalancer, portfolio, GitHub account, Wantedly account, claimed residence, claimed CTO role, and stock-derived profile image remain distinct evidence types; the GitHub selector is withheld because the projected URL's legibility is unreliable in the projection."
+}

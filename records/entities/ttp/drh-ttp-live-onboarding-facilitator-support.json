@@ -1,0 +1,50 @@
+{
+  "id": "drh-ttp-live-onboarding-facilitator-support",
+  "type": "ttp",
+  "name": "Laptop-farm facilitators can provide live employer onboarding support",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CNN reconstructs a facilitator’s live-onboarding workflow from public court records; this source covers the workflow only, with facilitator and affected-organization status requiring separate records.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DRH-S02"
+    ]
+  },
+  "ttps": [
+    "laptop-farm",
+    "remote-desktop",
+    "us-based-facilitator"
+  ],
+  "caveats": [
+    "CNN describes a stolen identity only as anonymous victim context; Breeyan Cornelius is excluded from the actor, persona, alias, account, and legal-identity records.",
+    "Private messages, computer records, stolen identity details, and images from the interactive are excluded.",
+    "The workflow describes the same facilitator and legal case; it adds only workflow context."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "CNN's court-record-based reconstruction shows that a US laptop-farm facilitator did more than receive and host devices: the facilitator was asked to join an employer's Microsoft Teams setup meeting, follow IT staff instructions, restart the laptop, and help explain the use of multiple devices.",
+        "This supports treating device recipients as possible active onboarding and troubleshooting intermediaries, not merely passive forwarding addresses."
+      ],
+      "source_ids": [
+        "DRH-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-08-collaborator-laptop-identity-contracts",
+    "facilitator-christina-marie-chapman"
+  ],
+  "sources": [
+    {
+      "source_id": "DRH-S02",
+      "support": "CNN's court-record-based reconstruction shows that a US laptop-farm facilitator did more than receive and host devices: the facilitator was asked to join an employer's Microsoft Teams setup meeting, follow IT staff instructions, restart the laptop, and help explain the use of multiple devices. This supports treating device recipients as possible active onboarding and troubleshooting intermediaries, not merely passive forwarding addresses",
+      "locator": "How the operation works; Fake resumes and rehearsed lines powered by AI; Christina Chapman's laptop farm; paragraphs describing company-laptop setup and Microsoft Teams support"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

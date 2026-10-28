@@ -1,0 +1,73 @@
+{
+  "id": "chai-somsri",
+  "real_name": "Chai Somsri",
+  "aliases": [
+    "ChaiSomsri96",
+    "George Capraroiu",
+    "george19871205"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "chaisomsri96@gmail.com",
+    "georgecapraroiu1205@gmail.com",
+    "melonman913@gmail.com"
+  ],
+  "twitter_usernames": [
+    "chaisomsri96"
+  ],
+  "websites": [
+    "https://medium.com/@chaisomsri96",
+    "https://cryptototem.com/credbull-cbl/"
+  ],
+  "employment": [
+    {
+      "company": "Credbull",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://www.linkedin.com/in/chai-somsri/"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "7022528006",
+      "usernames": [
+        "chaisomsri"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "ChaiSomsri96",
+      "usernames": [
+        "ChaiSomsri96"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xE5a86c150ac44ab8F8B2661c9e8d8b13887360f0",
+        "0x9ce96e07c091662c2605eaae9180de22aad6e8db"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/chai-somsri/chai-somsri.jpg",
+      "short_description": "KYC photo of Chai Somsri.",
+      "tags": [
+        "document"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

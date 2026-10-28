@@ -1,0 +1,591 @@
+{
+  "id": "persona-lazarus-muhammad-abdullah",
+  "type": "persona",
+  "name": "Muhammad Abdullah",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Lazarus Group publishes this registry profile and its listed selectors and work history; this single research source supplies a registry profile, while civil identity, current account control, and legal liability remain unresolved.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "lazarus-group-team"
+    ]
+  },
+  "identity_boundary": "This record is the Lazarus Group registry persona at /team/muhammad-abdullah. Same-named people, associates, companies, images, or handles remain separate pending an independent source link.",
+  "caveats": [
+    "The site is a secondary research source and the profile remains needs_corroboration.",
+    "Historical selectors are defanged, and current account control remains unestablished.",
+    "Shared names, handles, photographs and listed associates create leads; records require source linkage before being treated as the same natural person.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "lazarus_group_routes": [
+    "muhammad-abdullah"
+  ],
+  "sources": [
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Muhammad Abdullah in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/muhammad-abdullah"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-muhammad-abdullah-0001",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0002",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "polartar"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Basic Information, Aliases",
+          "quote": "polartar"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0003",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "talentdev2020"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Basic Information, Aliases",
+          "quote": "talentdev2020"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0004",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "aristidesgpg"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Basic Information, Aliases",
+          "quote": "aristidesgpg"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0005",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "WebExpert2000"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Basic Information, Aliases",
+          "quote": "WebExpert2000"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0006",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Muhammad Abdullah"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Basic Information, Fake Names",
+          "quote": "Muhammad Abdullah"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0007",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "polaris[dot]center[at]outlook[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Contact Information, Emails",
+          "quote": "polaris[dot]center[at]outlook[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0008",
+      "type": "account",
+      "predicate": "contact-information-twitter",
+      "value": {
+        "platform": "X/Twitter",
+        "identifier": "m_polartar"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Contact Information, Twitter",
+          "quote": "m_polartar"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0009",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "talentdev2020"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, GitHub ID",
+          "quote": "talentdev2020"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0010",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Jan 11, 2021"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Creation Date",
+          "quote": "Jan 11, 2021"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0011",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "polartar"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, GitHub ID",
+          "quote": "polartar"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0012",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Jan 5, 2023"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Creation Date",
+          "quote": "Jan 5, 2023"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0013",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "aristidesgpg"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, GitHub ID",
+          "quote": "aristidesgpg"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0014",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "aristidesgpg"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Usernames",
+          "quote": "aristidesgpg"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0015",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "talentdevsilvio"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Names",
+          "quote": "talentdevsilvio"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0016",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "polaris[dot]center[at]outlook[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Emails",
+          "quote": "polaris[dot]center[at]outlook[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0017",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "m_ polartar"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Usernames",
+          "quote": "m_ polartar"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0018",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "Muhammad Abdullah"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, GitHub, Names",
+          "quote": "Muhammad Abdullah"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0019",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-muhammad-abdullah-0020",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xf7f89251eaa664993893efea0e55d8ec3306d959"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/muhammad-abdullah, Salary Details, Addresses",
+          "quote": "0xf7f89251eaa664993893efea0e55d8ec3306d959"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "polartar",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "talentdev2020",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "aristidesgpg",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "WebExpert2000",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Muhammad Abdullah",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "polaris[dot]center[at]outlook[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "X/Twitter",
+      "identifier": "m_polartar",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "talentdev2020",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "polartar",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "aristidesgpg",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "m_ polartar",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ]
+}

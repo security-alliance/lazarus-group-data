@@ -1,0 +1,55 @@
+{
+  "id": "dunnr12-ttp-separate-worker-income-from-crypto-theft",
+  "type": "ttp",
+  "name": "Separate worker-earned income from cryptocurrency-theft claims",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official multilateral diplomatic statement providing aggregate financing context; case-level attribution and adjudicated status require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DUNNR12-S02-G7-NPDG-2024"
+    ]
+  },
+  "ttps": [
+    "preserve-distinct-evidence-classes",
+    "separate-worker-earned-income-from-cryptocurrency-theft"
+  ],
+  "caveats": [
+    "The statement has separate cryptocurrency-theft and overseas-worker clauses; each clause retains its own scope.",
+    "This aggregate statement covers aggregate context; people, entities, host countries, and payment routes require separate source records.",
+    "This aggregate statement covers aggregate context; operational overlap, malicious cyber activity, identity, location, employer, payment route, and individual conduct require source-specific records.",
+    "The record retains bounded source context; people, entities, accounts, incidents, images, financial selectors, and private data stay outside it.",
+    "Separate worker-earned income from cryptocurrency-theft claims."
+  ],
+  "infrastructure": [
+    {
+      "type": "multilateral-claim-separation-control",
+      "statements": [
+        "The April 19, 2024 G7 Non-Proliferation Directors Group statement discusses DPRK cryptocurrency theft and money laundering separately from income earned by overseas DPRK IT workers and laborers.",
+        "Analysts should preserve those separate claim paths and should not convert an aggregate worker-income financing statement into an allegation that every worker steals cryptocurrency."
+      ],
+      "limitations": [
+        "This is multilateral provenance for an already established aggregate financing proposition, not a new incident, person, entity, host-country, payment route, or transaction finding.",
+        "Separate clauses in a diplomatic statement do not establish operational overlap in a specific case."
+      ],
+      "source_ids": [
+        "DUNNR12-S02-G7-NPDG-2024"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-dprk-it-worker-2024-revenue-estimate",
+    "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation"
+  ],
+  "sources": [
+    {
+      "source_id": "DUNNR12-S02-G7-NPDG-2024",
+      "support": "The statement separately discusses DPRK cryptocurrency theft and money laundering, then income earned by overseas DPRK IT workers and laborers as financing context. The source supports keeping those evidence classes separate",
+      "locator": "Regional threats, paragraph 30"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

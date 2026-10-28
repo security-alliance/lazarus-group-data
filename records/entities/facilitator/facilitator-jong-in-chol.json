@@ -1,0 +1,252 @@
+{
+  "id": "facilitator-jong-in-chol",
+  "type": "facilitator",
+  "name": "Jong In Chol",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here: DPRK national; president of Chonsurim’s DPRK IT-worker delegation in Laos. This is an administrative sanctions designation; criminal charge and conviction status are absent.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-e31464a55e89",
+      "gov-f598afa3ba78"
+    ]
+  },
+  "legal_or_reported_name": "Jong In Chol",
+  "organizations": [
+    "Chonsurim Trading Corporation"
+  ],
+  "locations": [
+    "Laos (OFAC listing context; not current location)"
+  ],
+  "ttps": [
+    "IT-worker revenue generation in Laos"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The country is sanctions-list context; current presence remains unresolved."
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Chonsurim Trading Corporation",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-jong-in-chol"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-f598afa3ba78",
+      "support": "OFAC designated two individuals and four entities tied to Korea Osong Shipping Co and DPRK IT-worker revenue generation in Laos",
+      "locator": "Illicit IT Worker Revenue Generation section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 52289 support only the retained coarse sanctions-list location values. The country is sanctions-list context and does not establish current presence. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 52289"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 52289 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows retain the Chonsurim link and add Laos country listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 52289"
+    },
+    {
+      "source_id": "src-9f3c86e99feb"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jong-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "JONG, In Chol",
+        "display": "Jong In Chol"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 52289",
+          "quote": "52289,\"JONG, In Chol\",\"individual\",\"DPRK3\""
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "The OFAC entity number binds the primary name to the current row; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-jong-korea-herald-name-variant",
+      "type": "identity_name",
+      "predicate": "separately_published_hyphenated_name_form",
+      "value": {
+        "name": "Jong In-chol",
+        "publisher": "The Korea Herald / Yonhap"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-9f3c86e99feb",
+          "locator": "third body paragraph, identification of the two designated individuals",
+          "quote": "The two individuals added to the sanctions list are Jong In-chol, the president of Chonsurim's North Korean IT worker delegation in Laos, and Son Kyong-sik, the China-based chief representative of Osong."
+        }
+      ],
+      "observed_at": "2025-01-17",
+      "notes": [
+        "The exact organization, role, country context, and sanctions event bridge this hyphenated publisher spelling to the OFAC subject; name similarity alone is not the bridge.",
+        "This is a source-reported spelling form, not a newly resolved civil identity, legal alias, online handle, or basis to merge MSMT-listed Chong In Chol."
+      ]
+    },
+    {
+      "id": "claim-jong-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK3",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 52289",
+          "quote": "52289,\"JONG, In Chol\",\"individual\",\"DPRK3\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-jong-ofac-linked-chonsurim",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Chonsurim Trading Corporation",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 52289",
+          "quote": "Linked To: CHONSURIM TRADING CORPORATION."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-jong-delegation-president",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_it_worker_delegation_president",
+      "value": {
+        "organization": "Chonsurim Trading Corporation",
+        "role": "president of DPRK IT worker delegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section",
+          "quote": "Jong In Chol is the president of Chonsurim’s DPRK IT worker delegation in Laos"
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Treasury designation-time report; no present employment or location is inferred."
+      ]
+    },
+    {
+      "id": "claim-jong-historical-laos-context",
+      "type": "location",
+      "predicate": "treasury_reported_delegation_country_context",
+      "value": {
+        "country": "Laos",
+        "granularity": "country",
+        "context": "Chonsurim DPRK IT-worker delegation",
+        "as_of": "2025-01-16"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section",
+          "quote": "Jong In Chol is the president of Chonsurim’s DPRK IT worker delegation in Laos"
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Country-level historical agency context at designation only; it does not establish an address, city, personal residence, present location, or continuing role in Laos."
+      ]
+    },
+    {
+      "id": "claim-jong-revenue-use-assessment",
+      "type": "incident",
+      "predicate": "treasury_reported_delegation_revenue_use",
+      "value": {
+        "reported_use": "support of the DPRK munitions sector",
+        "scope": "Chonsurim delegation revenue"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section",
+          "quote": "the revenue of which is used exclusively to support the DPRK’s munitions sector."
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Treasury report about delegation revenue; no individual transaction, account, employer, client, or payment selector is retained."
+      ]
+    },
+    {
+      "id": "claim-jong-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-01-16",
+        "authority_basis": "Executive Order 13722",
+        "basis_entity": "Chonsurim Trading Corporation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f598afa3ba78",
+          "locator": "Illicit IT Worker Revenue Generation section",
+          "quote": "Jong in Chol is being designated pursuant to E.O. 13722 for acting or purporting to act for or on behalf of, directly or indirectly, Chonsurim"
+        }
+      ],
+      "observed_at": "2025-01-16",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jong In Chol, listed by OFAC as JONG, In Chol and separately published as Jong In-chol, is the Chonsurim Trading Corporation delegation president described in Treasury's January 2025 sanctions action. Preserve the administrative-designation and historical Laos context; criminal guilt, present location, and same-named-public-account ownership remain unresolved. Keep this OFAC subject separate from MSMT-listed Chong In Chol absent a source-explicit or unique-identifier bridge."
+}

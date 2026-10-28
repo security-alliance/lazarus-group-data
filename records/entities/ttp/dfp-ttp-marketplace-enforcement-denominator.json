@@ -1,0 +1,45 @@
+{
+  "id": "dfp-ttp-marketplace-enforcement-denominator",
+  "type": "ttp",
+  "name": "Marketplace enforcement metrics require an explicit non-DPRK denominator",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is first-party platform-control or threat-research guidance normalized as defensive context; identity attribution and control effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFP-S03"
+    ]
+  },
+  "ttps": [
+    "freelance-platform"
+  ],
+  "caveats": [
+    "Marketplace-wide abuse-enforcement metrics describe platform activity; confirmed DPRK accounts, workers, applications, and hires require separate sourcing.",
+    "Metrics cover all marketplace abuse rather than DPRK-specific activity; they measure marketplace reports, with undetected accounts and successful fraudulent hires outside scope."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Upwork reported that malicious-client offers declined more than 91% year over year, bad-actor freelancer proposals fell 82%, identity-verified freelancers increased 22%, and LLM-assisted moderation with human review caught nearly 40,000 violating jobs not detected by other models or reports."
+      ],
+      "limitations": [
+        "Metrics cover all marketplace abuse and are not DPRK-specific. They do not measure undetected accounts or successful fraudulent hires."
+      ],
+      "source_ids": [
+        "DFP-S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFP-S03",
+      "support": "Upwork reports marketplace-wide 2025 enforcement changes, including lower malicious-client offers and bad-actor freelancer proposals and nearly 40,000 violating jobs found by LLM-assisted moderation with human review. These are all-abuse metrics, not confirmed DPRK-worker counts or a measure of successful hires",
+      "locator": "PDF pp. 2-5, especially p. 4 'Our progress in 2025'"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

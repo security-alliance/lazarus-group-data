@@ -1,0 +1,71 @@
+{
+  "id": "hotmon-netprovider-tools",
+  "type": "infrastructure",
+  "name": "Hotmon and NetProvider DPRK IT-worker communications tools",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Gordon identifies Hotmon as a HopanaTech tool used by DPRK IT workers and NetProvider as a functionally similar variant",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S5"
+    ]
+  },
+  "organizations": [
+    "HopanaTech"
+  ],
+  "ttps": [
+    "Require key-file and password material for access",
+    "Reuse functionally similar software under a different interface/name",
+    "Use specialized peer-to-peer communication software among IT workers or with operators in the DPRK"
+  ],
+  "caveats": [
+    "The researcher lacked the key/password, so behavior was inferred from static inspection and community context."
+  ],
+  "aliases": [
+    {
+      "value": "Hotmon",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ]
+    },
+    {
+      "value": "NetProvider",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_id": "CM-S5",
+      "source_url": "https://www.youtube.com/watch?v=x4a24slACeU",
+      "caption": "Slide showing Hotmon and NetProvider key/password interfaces.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "software",
+      "value": "WinPcap-based peer-to-peer communication applications requiring a key file and password",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S5",
+      "support": "Official conference-channel recording of Daniel Gordon’s research into backdoored software distributed to DPRK IT workers and a low-confidence attribution assessment for the HEPTA-X cluster",
+      "locator": "01:45–09:31 Hopana Tech/Hotmon findings; 09:31–18:55 HEPTA-X investigation and attribution; 18:55–20:23 takeaways"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

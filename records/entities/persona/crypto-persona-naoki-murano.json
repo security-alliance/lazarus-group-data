@@ -1,0 +1,1791 @@
+{
+  "id": "crypto-persona-naoki-murano",
+  "type": "persona",
+  "name": "Naoki Murano",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "An MSMT participating state reported the Choe Il-Kuk/Naoki Murano mapping as an attributed intelligence finding. The report is an intelligence assessment at that stage; adjudication and independent legal-identity verification are absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-vientiane",
+      "crypto-msmt-2025-2",
+      "lazarus-group-team"
+    ]
+  },
+  "caveats": [
+    "The presented identity/persona is source-reported; its legal identity remains unverified.",
+    "The Choe Il-kuk mapping is attributed only to MSMT and retains the report's may-be-connected qualifier; Chollima Group supplies related context rather than independent verification.",
+    "The Choe Il-Kuk mapping is source-attributed; public incident causality for the later DeltaPrime event remains qualified.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "aliases": [
+    {
+      "value": "Choe Il-Kuk",
+      "alias_type": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-msmt-2025-2"
+      ]
+    },
+    {
+      "value": "Supermutecx",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Naoki Murano",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "supermutecx",
+      "url": "https://github.com/supermutecx",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane",
+        "crypto-msmt-2025-2"
+      ],
+      "note": "Source-reported handle."
+    },
+    {
+      "platform": "email",
+      "identifier": "naokimurano[at]outlook[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "murano[at]outlook[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "mutano1996[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "X/Twitter",
+      "identifier": "xCristian88",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "ccristian88",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "yokoyama1205",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "murano1205",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "murano1996",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "muranox",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "cristian951105",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "kenji[at]dev-email[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "ccristian88[at]outlook[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "lazarus_group_routes": [
+    "naoki-murano"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "support": "Chollima Group supports the public supermutecx/Naoki Murano linkage and September context; it is not independent support for the Choe Il-kuk legal-name mapping or November incident",
+      "locator": "Naoki Murano/supermutecx and September 2024 DeltaPrime discussion"
+    },
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "An MSMT participating state reported that Choe Il-kuk used the false persona Naoki Murano and may be connected to Wagemole/Contagious Interview; MSMT separately lists the two dated DeltaPrime losses under IT Workers",
+      "locator": "MSMT/2025/2 report p. 64; Annex 7 table on PDF p. 110; cryptocurrency-theft table on report p. 27"
+    },
+    {
+      "source_id": "src-5f214ae7d114"
+    },
+    {
+      "source_id": "src-3271d2e4b745"
+    },
+    {
+      "source_id": "src-a95dd763d58a"
+    },
+    {
+      "source_id": "src-08de7cf8696a"
+    },
+    {
+      "source_id": "src-2e2f396eeba6"
+    },
+    {
+      "source_id": "src-ac5be7623fb6"
+    },
+    {
+      "source_id": "crypto-coindesk-2024-10-02"
+    },
+    {
+      "source_id": "src-e5848da4760d"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Naoki Murano in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/naoki-murano"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-naoki-persona-name",
+      "type": "identity_name",
+      "predicate": "research_attributed_persona_name",
+      "value": {
+        "name": "Naoki Murano",
+        "identity_status": "false employment persona"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-msmt-2025-2",
+          "locator": "report p. 64, Case Study: IT Workers in Russia",
+          "quote": "an Umnal IT worker, Choe Il-kuk, who has used the false persona Naoki Murano"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The persona label is not itself a civil identity."
+      ]
+    },
+    {
+      "id": "claim-supermutecx-handle",
+      "type": "alias",
+      "predicate": "research_reported_online_handle",
+      "value": {
+        "handle": "supermutecx",
+        "platform": "GitHub"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos — A Celebration in Vientiane, persona list",
+          "quote": "Naoki Murano AKA supermutecx"
+        }
+      ],
+      "observed_at": "2025-02-18",
+      "notes": [
+        "Historical source attribution; current control is not established."
+      ]
+    },
+    {
+      "id": "claim-choe-il-kuk-mapping",
+      "type": "identity_name",
+      "predicate": "participating_state_attributed_operator_name",
+      "value": {
+        "name": "Choe Il-kuk",
+        "attribution": "MSMT Participating State"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-msmt-2025-2",
+          "locator": "report p. 64, Case Study: IT Workers in Russia",
+          "quote": "According to an MSMT Participating State, an Umnal IT worker, Choe Il-kuk, who has used the false persona Naoki Murano"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Attributed intelligence finding, not an adjudication or independently verified civil-identity determination."
+      ]
+    },
+    {
+      "id": "claim-umnal-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "participating_state_attributed_worker_delegation",
+      "value": {
+        "organization": "Umnal",
+        "role": "IT worker"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-msmt-2025-2",
+          "locator": "report p. 64, Case Study: IT Workers in Russia",
+          "quote": "an Umnal IT worker, Choe Il-kuk"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Participating-state attribution."
+      ]
+    },
+    {
+      "id": "claim-qualified-malicious-activity-link",
+      "type": "incident",
+      "predicate": "report_qualified_activity_connection",
+      "value": {
+        "activity": [
+          "Wagemole",
+          "Contagious Interview"
+        ],
+        "qualifier": "may be connected"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-msmt-2025-2",
+          "locator": "report p. 64, Case Study: IT Workers in Russia",
+          "quote": "may be connected to malicious IT worker activity known as Wagemole and Contagious Interview"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The report footnote attributes this information to Palo Alto; retain the exact 'may be connected' qualifier."
+      ]
+    },
+    {
+      "id": "claim-russia-observation",
+      "type": "location",
+      "predicate": "research_reported_present_in_photos",
+      "value": {
+        "location": "Ussuriysk area, Primorskiy Krai, Russia",
+        "time": "early 2024"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "From Vladivostok with Love",
+          "quote": "Though technically in Ussuriysk, a Russian city with a large Korean minority near Vladivostok, and not Vladivostok itself, several members of the Laos cluster were spotted here in early 2024"
+        },
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "From Vladivostok with Love, identified people",
+          "quote": "we do see Naoki Murano, Seo Sigoto, NKC03, and NKC06"
+        }
+      ],
+      "observed_at": "2024-02-01",
+      "notes": [
+        "Researcher interpretation of published photos; no facial recognition or independent image matching was performed. observed_at uses a month-resolution placeholder."
+      ]
+    },
+    {
+      "id": "claim-may-2025-observation",
+      "type": "location",
+      "predicate": "research_reported_last_seen_in_region",
+      "value": {
+        "location": "Primorskiy Krai, Russia",
+        "last_seen": "2025-05"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "From Vladivostok with Love, later edit, May 2025 sentence",
+          "quote": "Since the original post, Naoki Murano, Joshua Palmer, Jason Kwon, Kazune Takeda and Kim Hyo Dong have been spotted on multiple different occasions in Primorskiy Krai (the territory in which Vladivostok resides). Naoki Murano, Kazune Takeda, and Kim Hyo Dong were last seen in this area in May 2025."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Research report observation; no facial recognition was performed. observed_at uses a month-resolution placeholder."
+      ]
+    },
+    {
+      "id": "claim-naoki-site-reported-historical-accounts",
+      "type": "account",
+      "predicate": "legacy_site_reported_historical_account_labels",
+      "value": {
+        "accounts": [
+          {
+            "platform": "GitHub",
+            "handle": "Supermutecx"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "yokoyama1205"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "murano1205"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "murano1996"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "muranox"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "ccristian88"
+          },
+          {
+            "platform": "GitHub",
+            "handle": "cristian951105"
+          },
+          {
+            "platform": "X",
+            "handle": "xCristian88"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, X label and GitHub account-label fields",
+          "quote": "twitter_usernames:[\"xCristian88\"],employment:[{company:\"Undisclosed Company 1\",role:\"Smart Contract Engineer\""
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, first GitHub cluster username field",
+          "quote": "usernames:[\"yokoyama1205\",\"murano1205\",\"murano1996\",\"muranox\",\"ccristian88\",\"cristian951105\"]"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, second GitHub cluster identifier",
+          "quote": "gh_id:\"ccristian88\",creation_date:new Date(\"2019-10-28\"),names:[\"Cristian\"]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Only public platform labels were retained from the raw source quote; contact values shown in the quoted source fragment are not modeled as claims or publication fields.",
+        "Historical source association only. No present ownership, control, civil identity, or unchanged operator is inferred."
+      ]
+    },
+    {
+      "id": "claim-naoki-site-reported-associate-clusters",
+      "type": "relationship",
+      "predicate": "legacy_site_reported_associate_account_clusters",
+      "value": {
+        "associates": [
+          {
+            "reported_persona": "Jenson Collins",
+            "historical_github_labels": [
+              "JCollinsX",
+              "JensonUZ",
+              "nonfungiblejc"
+            ]
+          },
+          {
+            "reported_persona": "Seo Sigoto",
+            "historical_github_labels": [
+              "seosigoto"
+            ]
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, Jenson Collins associate username field",
+          "quote": "usernames:[\"JCollinsX\",\"JensonUZ\",\"nonfungiblejc\"]"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, Seo Sigoto associate identifier and name",
+          "quote": "gh_id:\"seosigoto\",creation_date:new Date(\"2020-11-11\"),names:[\"Seo Sigoto\"]"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, Seo Sigoto associate username field",
+          "quote": "usernames:[\"seosigoto\"]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "These are relationships, not Naoki aliases. Contact values present in the source fragment are excluded from the modeled value.",
+        "The record does not establish the type, duration, command structure, criminal agreement, or present status of either association."
+      ]
+    },
+    {
+      "id": "claim-naoki-site-reported-employment",
+      "type": "employment",
+      "predicate": "legacy_site_reported_employment_record",
+      "value": {
+        "organization": "Undisclosed Company 1",
+        "role": "Smart Contract Engineer",
+        "date_hired": "2024-01-01",
+        "date_identified": "2024-08-01"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, employment field",
+          "quote": "employment:[{company:\"Undisclosed Company 1\",role:\"Smart Contract Engineer\",date_hired:new Date(\"2024-01-01\"),date_identified:new Date(\"2024-08-01\"),managed_laptop:!1,background_check:!1,kyc_collected:!1}]"
+        }
+      ],
+      "observed_at": "2024-08-01",
+      "notes": [
+        "Source-reported employment context only. The employer remains undisclosed and the record is not an employer confirmation, legal finding, or proof of work quality."
+      ]
+    },
+    {
+      "id": "claim-naoki-github-primary-label-status",
+      "type": "account",
+      "predicate": "source_reported_github_labels_status_at_cutoff",
+      "value": {
+        "checked_at": "2026-08-14",
+        "status": "not found",
+        "handles": [
+          "supermutecx",
+          "yokoyama1205",
+          "murano1205",
+          "murano1996",
+          "muranox",
+          "ccristian88",
+          "cristian951105"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, source bridge for exact GitHub labels",
+          "quote": "github:[{gh_id:\"Supermutecx\""
+        },
+        {
+          "source_id": "src-3271d2e4b745",
+          "locator": "Identical JSON response bodies for seven source-reported primary labels",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The legacy source supplies the historical account-label bridge. Not Found does not establish whether an account never existed, was renamed, deleted, suspended, made unavailable, or changed operator."
+      ]
+    },
+    {
+      "id": "claim-naoki-associate-github-label-status",
+      "type": "relationship",
+      "predicate": "reported_associate_github_labels_status_at_cutoff",
+      "value": {
+        "checked_at": "2026-08-14",
+        "not_found": [
+          "JCollinsX",
+          "JensonUZ",
+          "seosigoto"
+        ],
+        "reachable": {
+          "queried_label": "nonfungiblejc",
+          "canonical_login": "NonFungibleJC",
+          "public_repositories": 0,
+          "created_at": "2020-05-13",
+          "updated_at": "2022-06-16"
+        }
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, associate source bridge",
+          "quote": "associates:[{gh_id:\"JCollinsX\""
+        },
+        {
+          "source_id": "src-3271d2e4b745",
+          "locator": "Identical JSON response bodies for JCollinsX, JensonUZ, and seosigoto",
+          "quote": "\"message\":\"Not Found\""
+        },
+        {
+          "source_id": "src-a95dd763d58a",
+          "locator": "Public user metadata",
+          "quote": "\"login\":\"NonFungibleJC\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "These statuses concern source-reported associates, not Naoki-owned accounts. Reachability and timestamps do not establish current operator, civil identity, present association, or authorship."
+      ]
+    },
+    {
+      "id": "claim-dtex-laos-vladivostok-relocation",
+      "type": "location",
+      "predicate": "dtex_reported_historical_relocation",
+      "value": {
+        "from": "Laos",
+        "to": "Vladivostok, Russia",
+        "co_reported_persona": "Jenson Collins"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-08de7cf8696a",
+          "locator": "report p. 10, Figure 2 caption",
+          "quote": "This image shows two IT workers, personas “Naoki Murano” and “Jenson Collins”, who were relocated from Laos to Vladivostok, Russia."
+        },
+        {
+          "source_id": "src-2e2f396eeba6",
+          "locator": "article body, opening and The Misfits Move In",
+          "quote": "Around 2022 and 2023, DTEX claims both Naoki Murano and Jenson Collins—their real names are not known—were based in Laos and also travelled between Vladivostok, in Russia."
+        }
+      ],
+      "notes": [
+        "DTEX and WIRED reporting, not an immigration, travel-record, or present-location finding. No image comparison or facial recognition was performed."
+      ]
+    },
+    {
+      "id": "claim-dtex-qualified-chinyong-association",
+      "type": "organization_affiliation",
+      "predicate": "dtex_suspected_chinyong_related_efforts",
+      "value": {
+        "organization": "Chinyong Information Technology Cooperation Company",
+        "qualifier": "suspected to be associated with Chinyong-related IT worker efforts",
+        "co_reported_persona": "Jenson Collins"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-08de7cf8696a",
+          "locator": "report p. 10, Figure 2 caption",
+          "quote": "Both are suspected to be associated with Chinyong related IT worker efforts."
+        },
+        {
+          "source_id": "src-ac5be7623fb6",
+          "locator": "article body, DTEX-derived Naoki and Jenson paragraph",
+          "quote": "Two individuals associated with Chinyong-related IT worker efforts have been unmasked as having used the personas Naoki Murano and Jenson Collins to raise funds for North Korea"
+        }
+      ],
+      "notes": [
+        "Retain DTEX's suspected qualifier. MSMT separately attributes Choe Il-kuk to Umnal; the two organization labels are not collapsed, reconciled, or treated as simultaneously confirmed."
+      ]
+    },
+    {
+      "id": "claim-naoki-deltaprime-heist-association",
+      "type": "incident",
+      "predicate": "multiple_sources_report_deltaprime_heist_association",
+      "value": {
+        "incident": "DeltaPrime heist",
+        "incident_date": "2024-09-16",
+        "reported_loss": "approximately USD 6 million",
+        "association_status": "source-reported association; not an adjudication"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-08de7cf8696a",
+          "locator": "report p. 10, Figure 2 caption",
+          "quote": "Naoki, left, is associated with the DeltaPrime Heist of $6 million USD."
+        },
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "article body, profile context",
+          "quote": "According to public reporting, Naoki Murano is associated with the DeltaPrime heist of $6M+ that occurred in Sept. 2024"
+        },
+        {
+          "source_id": "src-2e2f396eeba6",
+          "locator": "article body, opening paragraph",
+          "quote": "Murano alleged to have previously been linked to a $6 million heist at crypto firm DeltaPrime last year."
+        },
+        {
+          "source_id": "src-ac5be7623fb6",
+          "locator": "article body, DTEX-derived Naoki paragraph",
+          "quote": "Murano previously linked to a $6 million heist at crypto firm DeltaPrime in September 2024."
+        }
+      ],
+      "observed_at": "2024-09-16",
+      "notes": [
+        "The sources report an association or link, not a criminal adjudication or a complete technical attribution. WIRED and The Hacker News are derivative of DTEX, Chollima Group, CoinDesk, and related researchers.",
+        "Reported loss figures vary by source and accounting point; the value preserves the approximately $6 million wording used by DTEX and derivative coverage."
+      ]
+    },
+    {
+      "id": "claim-coindesk-deltaprime-project-connection",
+      "type": "incident",
+      "predicate": "coindesk_reported_project_payments_and_code_contributions",
+      "value": {
+        "project": "DeltaPrime",
+        "reported_evidence_categories": [
+          "payments",
+          "code contributions"
+        ],
+        "connection": "CoinDesk reported that the evidence connected the project to the Naoki Murano persona"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "article body, DeltaPrime breach paragraph",
+          "quote": "CoinDesk had previously uncovered payments and code contributions connecting Delta Prime to Naoki Murano, one of the DPRK-linked developers publicized by ZachXBT"
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "This supports a historical project connection. It does not establish that the contributions were malicious, that the persona held or compromised a private key, or that the persona caused the breach.",
+        "Underlying transaction selectors, wallet paths, commit emails, and source-code content were excluded."
+      ]
+    },
+    {
+      "id": "claim-naoki-reported-japanese-document-use",
+      "type": "note",
+      "predicate": "publisher_reported_identity_document_use",
+      "value": {
+        "document_type": "Japanese passport",
+        "publisher_characterization": "authentic-looking",
+        "reported_use": "provided to companies",
+        "handling": "narrative_only_no_document_fields_or_image"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "article image caption in identity-document discussion",
+          "quote": "\"Naoki Murano,\" one of the suspected North Korean IT workers identified by ZachXBT, provided companies with an authentic-looking Japanese passport."
+        },
+        {
+          "source_id": "src-e5848da4760d",
+          "locator": "article body and repeated image caption",
+          "quote": "\"Naoki Murano,\" one of the suspected North Korean IT workers identified by ZachXBT, provided companies with an authentic-looking Japanese passport."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "The bounded narrative is retained because it describes persona tradecraft. No identity-document number, date, address, portrait, image URL, or field was retained, and no document-authenticity analysis was independently performed."
+      ]
+    },
+    {
+      "id": "claim-naoki-vientiane-celebration-co-presence",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_co_presence",
+      "value": {
+        "context": "private celebration photographed around New Year 2023",
+        "coarse_location": "Vientiane, Laos",
+        "source_reported_people": [
+          "Jenson Collins",
+          "Keisuke Watanabe",
+          "Kazune Takeda"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, participant list",
+          "quote": "Jenson Collins AKA nfbigjc AKA jcollinsx\nKeisuke Watanabe AKA kAsky53 AKA hirayama1534\nKazune Takeda AKA Greg Takeo AKA Joe Hisaishi AKA mtfuji25\nNaoki Murano AKA supermutecx"
+        }
+      ],
+      "notes": [
+        "Source-attributed historical co-presence only. It does not establish shared employment, command structure, criminal agreement, continuing relationship, or present location. No facial comparison was performed."
+      ]
+    },
+    {
+      "id": "claim-naoki-seo-jenson-travel-association",
+      "type": "relationship",
+      "predicate": "publisher_reported_frequent_historical_travel",
+      "value": {
+        "coarse_location_context": "Vientiane, Laos",
+        "source_reported_people": [
+          "Seo Sigoto",
+          "Jenson Collins"
+        ],
+        "publisher_characterization": "seen traveling frequently"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "Parkson Mall and Downtown Vientiane",
+          "quote": "Other images from the Mekong Terrassen in downtown show another individual, Seo Sigoto, who is seen traveling frequently with Naoki Murano and Jenson Collins."
+        }
+      ],
+      "notes": [
+        "Publisher interpretation of a historical photo set; no independent image matching, travel-record search, present-location inference, or relationship escalation was performed."
+      ]
+    },
+    {
+      "id": "claim-naoki-vladivostok-event-co-presence",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_co_presence",
+      "value": {
+        "context": "event in the Vladivostok area",
+        "coarse_location": "Primorskiy Krai, Russia",
+        "source_reported_people": [
+          "Joshua Palmer",
+          "Jason Kwon",
+          "Seo Sigoto"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "From Vladivostok with Love",
+          "quote": "two other IT workers from ZachXBT's reporting, Joshua Palmer and Jason Kwon, can also be seen at this event in Vladivostok alongside Naoki Murano and Seo Sigoto."
+        }
+      ],
+      "observed_at": "2024-02-01",
+      "notes": [
+        "Source-attributed historical co-presence only. observed_at uses a month-resolution placeholder based on the article's February 2024 context; no facial recognition or exact-location reconstruction was performed."
+      ]
+    },
+    {
+      "id": "claim-naoki-chollima-link-only-media",
+      "type": "image",
+      "predicate": "publisher_contextualized_link_only_persona_media",
+      "value": {
+        "source_page": "https://chollima-group.io/posts/tracking-a-north-korean-it-worker-cell",
+        "handling": "link_only",
+        "identification_use": false,
+        "media": [
+          {
+            "url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/6.png",
+            "context": "publisher-annotated Vientiane celebration lineup"
+          },
+          {
+            "url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/17.png",
+            "context": "publisher-annotated Naoki Murano and Joshua Palmer image near Vladivostok"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos and From Vladivostok with Love, images 6 and 17 with adjacent captions",
+          "quote": "Naoki Murano AKA supermutecx"
+        }
+      ],
+      "observed_at": "2025-02-18",
+      "notes": [
+        "Media remains link-only. Assets were not separately downloaded, cached, cropped, compared, reverse-searched, or used for facial recognition, appearance inference, or civil-identity resolution."
+      ]
+    },
+    {
+      "id": "claim-naoki-lazarus-link-only-media",
+      "type": "image",
+      "predicate": "legacy_site_source_captioned_link_only_media",
+      "value": {
+        "handling": "link_only",
+        "identification_use": false,
+        "excluded_document_media": [
+          "naoki_murano_4.jpg"
+        ],
+        "media": [
+          {
+            "url": "https://www.lazarus.group/team-images/naoki-murano/naoki_murano_0.jpg",
+            "description": "Naoki waving the flag of North Korea"
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/naoki-murano/naoki_murano_1.jpg",
+            "description": "Naoki dining with his friends"
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/naoki-murano/naoki_murano_2.jpg",
+            "description": "Naoki with an American Jeep"
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/naoki-murano/naoki_murano_3.jpg",
+            "description": "Naoki with his friends"
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/naoki-murano/naoki_murano_5.jpg",
+            "description": "Happy Naoki"
+          },
+          {
+            "url": "https://www.lazarus.group/team-images/naoki-murano/naoki_murano_6.jpg",
+            "description": "Naoki with his friend Jenson Collins"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, non-document image paths and short_description fields",
+          "quote": "images:[{path:\"/team-images/naoki-murano/naoki_murano_0.jpg\",short_description:\"Naoki waving the flag of North Korea\",tags:[\"face\"]},{path:\"/team-images/naoki-murano/naoki_murano_1.jpg\",short_description:\"Naoki dining with his friends\",tags:[\"face\"]},{path:\"/team-images/naoki-murano/naoki_murano_2.jpg\",short_description:\"Naoki with an American Jeep\",tags:[\"face\"]},{path:\"/team-images/naoki-murano/naoki_murano_3.jpg\",short_description:\"Naoki with his friends\",tags:[\"face\"]}"
+        },
+        {
+          "source_id": "src-5f214ae7d114",
+          "locator": "Naoki Murano object, final non-document image paths",
+          "quote": "{path:\"/team-images/naoki-murano/naoki_murano_5.jpg\",short_description:\"Happy Naoki\",tags:[\"face\"]},{path:\"/team-images/naoki-murano/naoki_murano_6.jpg\",short_description:\"Naoki with his friend Jenson Collins\",tags:[\"face\"]}"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The source-captioned media remains link-only. The image labeled Naoki KYC and tagged document was deliberately excluded.",
+        "Assets were not separately downloaded, cached, cropped, compared, reverse-searched, or used for facial recognition, appearance inference, nationality inference, or civil-identity resolution."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0023",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0024",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "Supermutecx"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Basic Information, Aliases",
+          "quote": "Supermutecx"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0025",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Naoki Murano"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Basic Information, Fake Names",
+          "quote": "Naoki Murano"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0026",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "naokimurano[at]outlook[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Contact Information, Emails",
+          "quote": "naokimurano[at]outlook[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0027",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "murano[at]outlook[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Contact Information, Emails",
+          "quote": "murano[at]outlook[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0028",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "mutano1996[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Contact Information, Emails",
+          "quote": "mutano1996[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0029",
+      "type": "account",
+      "predicate": "contact-information-twitter",
+      "value": {
+        "platform": "X/Twitter",
+        "identifier": "xCristian88"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Contact Information, Twitter",
+          "quote": "xCristian88"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0030",
+      "type": "note",
+      "predicate": "real-location-info-real-citizenships",
+      "value": {
+        "citizenship": "North Korea",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Real Location Info, Real Citizenships",
+          "quote": "North Korea"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0031",
+      "type": "note",
+      "predicate": "fake-location-info-fake-citizenships",
+      "value": {
+        "citizenship": "Japan",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Fake Location Info, Fake Citizenships",
+          "quote": "Japan"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0032",
+      "type": "note",
+      "predicate": "fake-location-info-fake-citizenships",
+      "value": {
+        "citizenship": "Austria",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Fake Location Info, Fake Citizenships",
+          "quote": "Austria"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0033",
+      "type": "location",
+      "predicate": "fake-location-info-fake-locations",
+      "value": {
+        "location": "Tokyo",
+        "reported_as": "site-labelled fake location"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Fake Location Info, Fake Locations",
+          "quote": "Tokyo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0034",
+      "type": "location",
+      "predicate": "fake-location-info-fake-locations",
+      "value": {
+        "location": "Graz",
+        "reported_as": "site-labelled fake location"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Fake Location Info, Fake Locations",
+          "quote": "Graz"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0035",
+      "type": "employment",
+      "predicate": "employment-history-hired",
+      "value": {
+        "field": "Hired",
+        "value": "Jan 1, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, Hired",
+          "quote": "Jan 1, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0036",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "Aug 1, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, Identified",
+          "quote": "Aug 1, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0037",
+      "type": "employment",
+      "predicate": "employment-history-managed-laptop",
+      "value": {
+        "field": "Managed Laptop",
+        "value": "false"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, Managed Laptop",
+          "quote": "false"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0038",
+      "type": "employment",
+      "predicate": "employment-history-background-check",
+      "value": {
+        "field": "Background Check",
+        "value": "false"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, Background Check",
+          "quote": "false"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0039",
+      "type": "employment",
+      "predicate": "employment-history-kyc-collected",
+      "value": {
+        "field": "KYC Collected",
+        "value": "false"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, KYC Collected",
+          "quote": "false"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0040",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Undisclosed Company 1"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, company",
+          "quote": "Undisclosed Company 1"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0041",
+      "type": "employment",
+      "predicate": "employment-history-claimed-role",
+      "value": {
+        "role": "Smart Contract Engineer"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Employment History, claimed_role",
+          "quote": "Smart Contract Engineer"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0042",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "Supermutecx"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, GitHub ID",
+          "quote": "Supermutecx"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0043",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Aug 4, 2021"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Creation Date",
+          "quote": "Aug 4, 2021"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0044",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "ccristian88"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, GitHub ID",
+          "quote": "ccristian88"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0045",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Oct 28, 2019"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Creation Date",
+          "quote": "Oct 28, 2019"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0046",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "yokoyama1205"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Usernames",
+          "quote": "yokoyama1205"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0047",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "murano1205"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Usernames",
+          "quote": "murano1205"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0048",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "murano1996"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Usernames",
+          "quote": "murano1996"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0049",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "muranox"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Usernames",
+          "quote": "muranox"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0050",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "ccristian88"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Usernames",
+          "quote": "ccristian88"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0051",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "cristian951105"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Usernames",
+          "quote": "cristian951105"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0052",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "Naoki Murano"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Names",
+          "quote": "Naoki Murano"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0053",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "kenji[at]dev-email[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Emails",
+          "quote": "kenji[at]dev-email[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0054",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "Cristian"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Names",
+          "quote": "Cristian"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0055",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "ccristian88[at]outlook[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, GitHub, Emails",
+          "quote": "ccristian88[at]outlook[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0056",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xca3b78831a101a6d6d0a153653483e3c9a90948f"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Salary Details, Addresses",
+          "quote": "0xca3b78831a101a6d6d0a153653483e3c9a90948f"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0057",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x85e0504fcd7981baa68774431099c5e2dcf074dd"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Salary Details, Addresses",
+          "quote": "0x85e0504fcd7981baa68774431099c5e2dcf074dd"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0058",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x6188a9e76794e7cb337b8e5a2b91808ce34fc6d1"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Salary Details, Addresses",
+          "quote": "0x6188a9e76794e7cb337b8e5a2b91808ce34fc6d1"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0059",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x44A33a4a822194d3C8402629932dd88B0FF49b09"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Salary Details, Addresses",
+          "quote": "0x44A33a4a822194d3C8402629932dd88B0FF49b09"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-naoki-murano-0060",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xe6c2d1d7f6ee9e4ee9f8b865d9b5931c06c9c7d1"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/naoki-murano, Salary Details, Addresses",
+          "quote": "0xe6c2d1d7f6ee9e4ee9f8b865d9b5931c06c9c7d1"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Research-attributed employment persona Naoki Murano and the historical handle supermutecx. MSMT attributes the persona to an Umnal worker named Choe Il-kuk; that participating-state attribution and its qualified activity link remain source-bound. Imagery and account status are contextual evidence; civil-identity proof requires separate source evidence.",
+  "locations": [
+    "Tokyo",
+    "Graz"
+  ],
+  "organizations": [
+    "Undisclosed Company 1"
+  ]
+}

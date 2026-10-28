@@ -1,0 +1,384 @@
+{
+  "id": "facilitator-yuan-ziyou",
+  "type": "facilitator",
+  "name": "Yuan Ziyou",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. Through 2026-08-12, the verified record reaches charging in the District of Massachusetts Wang matter; later merits disposition remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Yuan Ziyou",
+  "ttps": [
+    "laundering DPRK IT-worker proceeds",
+    "shell-company and payment infrastructure"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "The image supports the source-described context around Samuel Yuan; account and domain attribution requires separate evidence.",
+    "Facial recognition is excluded, and campaign context stays with the image.",
+    "The image is retained as visual context only. Biometric matching and resolution of employment personas, aliases, accounts, and victim identities are outside the method.",
+    "Keep alleged-role and source context adjacent.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The official reward-page role remains an allegation unless separately adjudicated."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dipf-rfj-north-korea-money-laundering-9-individuals"
+      ],
+      "value": "Samuel Yuan"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "caption": "Official Rewards for Justice subject card for Yuan Ziyou; the cited role is an allegation and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-yuan-ziyou"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "RFJ identifies nine people tied to shell companies, payment accounts, infrastructure, laptop farms, and laundering proceeds from over 100 U.S. companies | The official Rewards for Justice page publishes a separately named subject image for Yuan Ziyou in the page's alleged DPRK IT-worker facilitation and money-laundering context. The image does not establish guilt or linkage to any other alias, account, company, or image",
+      "locator": "Individual subject card labeled Yuan Ziyou | Named-person list and English poster image"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ identifies the eight Wang-case facilitators as charged defendants in the District of Massachusetts matter; the charges are allegations and do not establish guilt",
+      "locator": "District of Massachusetts section beginning “In a third coordinated action”; paragraph listing the eight additional charged defendants"
+    },
+    {
+      "source_id": "flr6-s19"
+    },
+    {
+      "source_id": "src-55b829310f0a"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "display_order": "Yuan Ziyou",
+        "indictment_order": "Ziyou Yuan"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Yuan-specific entry",
+          "quote": "Yuan Ziyou (Samuel Yuan)"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts section, charged-defendant list",
+          "quote": "Ziyou Yuan (زيو)"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Yuan Ziyou (Samuel Yuan)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "The official sources use different name orderings; no additional same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-samuel-yuan-alias",
+      "type": "alias",
+      "predicate": "officially_reported_alias",
+      "value": {
+        "alias": "Samuel Yuan"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Yuan-specific entry",
+          "quote": "Yuan Ziyou (Samuel Yuan)"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Yuan Ziyou (Samuel Yuan)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Official source-scoped alias; common-name public accounts were not merged on name similarity."
+      ]
+    },
+    {
+      "id": "claim-doj-arabic-script-name-rendering",
+      "type": "alias",
+      "predicate": "doj_source_used_arabic_script_name_rendering",
+      "value": {
+        "name": "زيو",
+        "source_characterization": "Arabic-script rendering paired with Ziyou Yuan"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts defendant list",
+          "quote": "Ziyou Yuan (زيو)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Retained exactly as published by DOJ. It is a source-used rendering, not a separately verified alias, nationality, ethnicity, residence, or separate person."
+      ]
+    },
+    {
+      "id": "claim-criminal-case-identifier",
+      "type": "legal_event",
+      "predicate": "criminal_case_identifier",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "case_number_as_printed": "25cr10273 NMG-MPK"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 1, caption",
+          "quote": "Criminal No. 25cr10273 NMG-MPK"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Case identifier printed on the DOJ-republished indictment; the public copy reviewed here does not display a filing date. The indictment is not a finding of guilt."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "case_number_as_printed": "25cr10273 NMG-MPK",
+        "counts": [
+          "conspiracy to commit wire fraud and mail fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts charged-defendant list",
+          "quote": "Ziyou Yuan (زيو)"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 13, Count One title and defendant list",
+          "quote": "COUNT ONE\nConspiracy to Commit Wire Fraud and Mail Fraud\n(18 U.S.C. § 1349)"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 13, Count One defendant list",
+          "quote": "(6) ZIYOU YUAN, and"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 40, Count Two title and defendant list",
+          "quote": "COUNT TWO\nMoney Laundering Conspiracy\n(18 U.S.C. § 1956(h))"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 40, Count Two defendant list",
+          "quote": "(6) ZIYOU YUAN,"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 42, Count Three title and defendant list",
+          "quote": "COUNT THREE\nConspiracy to Commit Identity Theft\n(18 U.S.C. §§ 1028(a)(7) and (f))"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 42, Count Three defendant list",
+          "quote": "(6) ZIYOU YUAN, and"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "closing legal-posture caveat",
+          "quote": "The details in the above-described court documents are merely allegations. All defendants are presumed innocent until proven guilty beyond a reasonable doubt in a court of law."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Yuan appears in Counts One through Three. He is not listed as a defendant in Counts Four or Five. Charges are allegations and do not establish guilt."
+      ]
+    },
+    {
+      "id": "claim-reported-nationality-and-residence",
+      "type": "location",
+      "predicate": "indictment_reported_nationality_and_residence",
+      "value": {
+        "reported_nationality": "Chinese",
+        "reported_residence": "United Arab Emirates",
+        "as_alleged_in": "2025 indictment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 19, opening sentence",
+          "quote": "Defendant Ziyou YUAN was a Chinese citizen residing in the UAE."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Indictment allegation and historical country-level statement only; no present nationality or residence is inferred."
+      ]
+    },
+    {
+      "id": "claim-infrastructure-registration-allegation",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_and_paid_for_scheme_infrastructure",
+      "value": {
+        "reported_classes": [
+          "web domains for Hopana Tech, Tony WKJ, and Independent Lab",
+          "account with an online background-check service provider"
+        ],
+        "reported_use": "support of the alleged conspiracy and searches concerning stolen U.S. identities"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 19",
+          "quote": "YUAN registered and paid for multiple online accounts and other infrastructure that were used in furtherance of the conspiracy, including the Hopana Tech, Tony WKJ, and Independent Lab web domains, and an account with an online background check service provider used to conduct searches concerning stolen U.S. person identities."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Indictment allegation only. No domain, account, login, victim, or other operational selector is retained."
+      ]
+    },
+    {
+      "id": "claim-rfj-alleged-role-context",
+      "type": "incident",
+      "predicate": "rfj_seeks_information_for_reported_role",
+      "value": {
+        "reported_context": "exportation of DPRK IT workers and money laundering",
+        "posture": "information sought by Rewards for Justice"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "introduction to individual list",
+          "quote": "The Department is seeking information on the following individuals for their role in the exportation of IT workers from North Korea and money laundering on behalf of the DPRK regime:"
+        }
+      ],
+      "notes": [
+        "RFJ allegation and reward-program context only; not an adjudicated fact or an individualized finding about every campaign activity."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-status",
+      "type": "legal_event",
+      "predicate": "doj_reported_at_large_and_wanted_by_fbi",
+      "value": {
+        "status": "at large and wanted by the FBI",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘The other eight defendants’",
+          "quote": "The other eight defendants indicted in June 2025 remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Yuan Ziyou (Samuel Yuan)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Dated official report. Wanted status and pending charges do not establish guilt; no later merits disposition was verified through the cutoff."
+      ]
+    },
+    {
+      "id": "claim-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "reward heading and opening paragraph",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Concurrent with today’s announcement’",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Program-level reward language on pages that include Yuan. It must not be presented as a USD 5 million individual arrest reward, guaranteed payment, conviction, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals",
+        "media_description": "official source-labeled portrait",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "source image grid containing the separately named Yuan Ziyou asset and adjacent named-person list",
+          "quote": "Yuan Ziyou (Samuel Yuan)"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official link-only editorial reference. Visual review verified only that the source-labeled asset is person-bearing rather than a placeholder; no face comparison or identity inference was performed. Do not export the direct asset, cache, crop, republish, perform facial recognition, compare appearance, infer current appearance, or use it to merge an identity or account. Rights and allegation-context review remain required before any display."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Yuan Ziyou, also officially reported as Ziyou Yuan and Samuel Yuan, is the overseas defendant named in the District of Massachusetts indictment. Preserve the charged-and-wanted posture; plea, conviction, sentence, present residence, and same-named public-account ownership remain unreported in the reviewed record."
+}

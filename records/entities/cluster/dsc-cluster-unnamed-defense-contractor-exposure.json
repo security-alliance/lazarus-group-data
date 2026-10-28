@@ -1,0 +1,66 @@
+{
+  "id": "dsc-cluster-unnamed-defense-contractor-exposure",
+  "type": "cluster",
+  "name": "Unnamed defense-contractor exposure in a separate laptop-farm scheme",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Official DOJ aggregate description tied to facilitator convictions; the affected defense contractor and employer-specific impact remain unnamed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S02",
+      "DSC-S03"
+    ]
+  },
+  "ttps": [
+    "laptop-farm",
+    "shell-company",
+    "stolen-identity",
+    "us-based-facilitator"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "Official DOJ aggregate description tied to facilitator convictions; the affected defense contractor and employer-specific impact remain unnamed.",
+    "official DOJ statement tied to facilitator convictions; company-specific incident details unavailable"
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "defense/aerospace",
+      "event_period": "approximately 2021-2025; sentencing reported 2026-04-15",
+      "statements": [
+        "DOJ states that a separate laptop-farm, stolen-identity, and shell-company scheme enabled overseas IT workers, including DPRK workers, to obtain work at more than 100 U.S. companies, including an unnamed defense contractor. The employer-specific access and impact are not public."
+      ],
+      "defensive_controls": [
+        "Defense contractors should verify remote device custody and detect out-of-band remote control or domestic proxy hosting.",
+        "Identity assurance must include repeated identity continuity, not just a one-time document check.",
+        "Do not publish or speculate about the unnamed contractor."
+      ],
+      "source_ids": [
+        "DSC-S02",
+        "DSC-S03"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "drh-ttp-endpoint-custody-posthire-control-bundle",
+    "front-company-hopana-tech-llc",
+    "front-company-independent-lab-llc",
+    "front-company-tony-wkj-llc"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S03",
+      "support": "DOJ states that a separate laptop-farm, stolen-identity, and shell-company scheme enabled overseas IT workers, including DPRK workers, to obtain work at more than 100 U.S. companies, including an unnamed defense contractor. The employer-specific access and impact are not public",
+      "locator": "Lead and search-warrant paragraphs; reference to compromised U.S. companies and sensitive data"
+    },
+    {
+      "source_id": "DSC-S02",
+      "support": "DOJ states that a separate laptop-farm, stolen-identity, and shell-company scheme enabled overseas IT workers, including DPRK workers, to obtain work at more than 100 U.S. companies, including an unnamed defense contractor. The employer-specific access and impact are not public",
+      "locator": "Opening paragraphs; DPRK RevGen overview; sentencing facts"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

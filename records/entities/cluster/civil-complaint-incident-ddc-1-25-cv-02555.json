@@ -1,0 +1,59 @@
+{
+  "id": "civil-complaint-incident-ddc-1-25-cv-02555",
+  "type": "cluster",
+  "name": "D.D.C. 1:25-cv-02555 alleged August 2024 remote-developer theft",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The verified federal civil-forfeiture complaint sets out allegations. The seizure, clerk's default, and motion for default judgment are procedural steps; no criminal conviction or final forfeiture judgment is recorded, and final judgment status through August 12, 2026 remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DOLG25-S08-USDT-COMPLAINT",
+      "DOLG25-S09-USDT-DOCKET"
+    ]
+  },
+  "organizations": [
+    "Unnamed U.S. virtual-currency company"
+  ],
+  "ttps": [
+    "communication difficulties and recurring microphone problems before termination",
+    "cross-chain conversion and exchange use described as laundering; selectors omitted",
+    "developer access to private-key or wallet-management functions",
+    "remote developer hiring under fraudulent persona information",
+    "reported key-storage weakness followed by unauthorized treasury transfers",
+    "worker referral of additional developers"
+  ],
+  "caveats": [
+    "All incident and attribution statements remain allegations in a verified civil complaint.",
+    "Public entries observed through the cutoff supplied no verified final forfeiture judgment.",
+    "This record keeps each persona label at its source level and maps incidents only through source-backed links.",
+    "Victim, wallet, transaction, exchange, contact, payment, and identity-document selectors are excluded from retention."
+  ],
+  "infrastructure": [
+    {
+      "type": "civil-forfeiture-complaint-incident",
+      "value": "D.D.C. No. 1:25-cv-02555-ABJ",
+      "incident_date": "2024-08",
+      "reported_loss": "approximately $1.35 million",
+      "source_ids": [
+        "DOLG25-S08-USDT-COMPLAINT",
+        "DOLG25-S09-USDT-DOCKET"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DOLG25-S08-USDT-COMPLAINT",
+      "support": "The verified civil-forfeiture complaint alleges that DPRK IT workers obtained remote-developer access at an unnamed U.S. virtual-currency company and stole approximately $1.35 million in August 2024. It describes referral, communication and microphone difficulties, access to key-management functions, a reported key-storage weakness, unauthorized treasury transfers, and laundering through cross-chain and exchange services. Selectors are omitted",
+      "locator": "D.D.C. No. 1:25-cv-02555-ABJ, Doc. 1, PDF pp. 8-14 and 18-21, paras. 30-43, 47-49, 56-63"
+    },
+    {
+      "source_id": "DOLG25-S09-USDT-DOCKET",
+      "support": "The public docket shows the complaint, clerk's entry of default, and the government's motion for default judgment, but no final default judgment or final forfeiture order in the entries observed through the cutoff",
+      "locator": "D.D.C. No. 1:25-cv-02555-ABJ, Docs. 1 and 4-9 and minute orders through March 25, 2026"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

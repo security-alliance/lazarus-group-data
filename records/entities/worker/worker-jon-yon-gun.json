@@ -1,0 +1,360 @@
+{
+  "id": "worker-jon-yon-gun",
+  "type": "worker",
+  "name": "Jon Yon Gun",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Chinyong IT-worker delegation leader; current OFAC exact-ID component-table data confirms the administrative-list entry and bounded structured context. DPRK national; Republic of Korea autonomously sanctioned Jon Yon Gun on 2023-05-23 and OFAC designated him on 2024-03-27. ROK MOFA identifies him as Chinyong's representative in Laos, consistent with the existing delegation-leader record. These are administrative sanctions designations; no criminal charge or conviction is recorded.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doaa-s04",
+      "doaa-s05",
+      "doar9-ofac-sdn-current",
+      "gov-28e42dec45a8",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Jon Yon Gun",
+  "romanizations": [
+    "JON, Yun Gun",
+    "전연근"
+  ],
+  "organizations": [
+    "Limited Liability Company Alis",
+    "Pioneer Bencont Star Real Estate"
+  ],
+  "locations": [
+    "Laos (OFAC listing context; not current location)"
+  ],
+  "ttps": [
+    "Russia/Laos delegation management"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Romanization variants describe one name form rather than separate identities.",
+    "Sanctions designations are administrative actions; the record carries no conviction.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The country is historical context; current table spelling 'JON, Yun Gun' remains the existing record spelling, with current presence unresolved.",
+    "The ROK release’s forced-labor sentence is action-wide and collectively scoped to five footnoted IT-branch managers, including Jon Yon Gun; scope is collective rather than an individual adjudication."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doaa-s05"
+      ],
+      "value": "CHO'N, Yo'n Ku'n"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Pioneer Bencont Star Real Estate",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-jon-yon-gun"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "OFAC designated Chinyong subordinate companies and IT-worker delegation leader Jon Yon Gun",
+      "locator": "DPRK IT Worker Delegations section"
+    },
+    {
+      "source_id": "doaa-s05",
+      "support": "The OFAC administrative notice supplies Jon Yon Gun's official list entry, Korean spelling, and alternate romanization. It does not supply the ROK release's separate Laos-role or collective labor-control allegations",
+      "locator": "JON, Yun Gun entry; Korean spelling 전연근 and alias CHO'N, Yo'n Ku'n"
+    },
+    {
+      "source_id": "doaa-s04",
+      "support": "The ROK release designates Jon Yon Gun, identifies him as Chinyong's representative in Laos, and collectively alleges labor-control practices by five footnoted IT-branch managers without separately proving every practice by each manager",
+      "locator": "Named-person table and explanatory footnote for 전연근, Chinyong representative in Laos"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 48262 support only the retained coarse sanctions-list location values. The country does not establish current presence; the current table spelling 'JON, Yun Gun' is not introduced as a separate person. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 48262"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 48262 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add Laos country listing context and retain the explicit Pioneer Bencont link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 48262"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current"
+    },
+    {
+      "source_id": "gov-2d8dc05b8be6"
+    },
+    {
+      "source_id": "un-s-2023-656"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jon-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "name": "Jon Yon Gun",
+        "ofac_primary_name": "JON, Yun Gun",
+        "korean": "전연근"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "DPRK IT Worker Delegations section",
+          "quote": "Jon Yon Gun"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Jon entry",
+          "quote": "JON, Yun Gun (Korean: 전연근)"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48262",
+          "quote": "JON, Yun Gun"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Official romanization and native-script variants are the same sanctions-listed person, not separate identities."
+      ]
+    },
+    {
+      "id": "claim-jon-ofac-alias",
+      "type": "alias",
+      "predicate": "officially_listed_alias",
+      "value": {
+        "alias": "CHO'N, Yo'n Ku'n",
+        "alias_type": "official romanization"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Jon entry",
+          "quote": "a.k.a. CHO'N, Yo'n Ku'n"
+        },
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row for OFAC entity number 48262",
+          "quote": "CHO'N, Yo'n Ku'n"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Official alternate romanization, not a separate civil identity."
+      ]
+    },
+    {
+      "id": "claim-jon-chinyong-laos-role",
+      "type": "organization_affiliation",
+      "predicate": "reported_representative_of",
+      "value": {
+        "organization": "Chinyong Information Technology Cooperation Company",
+        "role": "representative in Laos"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s04",
+          "locator": "Sanctions target table",
+          "quote": "전연근"
+        },
+        {
+          "source_id": "doaa-s04",
+          "locator": "Sanctions target table, role line following 전연근",
+          "quote": "진영정보기술개발협조회사 주라오스 대표"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "ROK administrative finding; it does not establish a criminal conviction."
+      ]
+    },
+    {
+      "id": "claim-jon-pioneer-team-lead",
+      "type": "organization_affiliation",
+      "predicate": "reported_team_lead_and_payment_coordinator",
+      "value": {
+        "organization": "Pioneer Bencont Star Real Estate",
+        "role": "team lead",
+        "conduct": "reported involvement in coordinating payments from Pioneer to Chinyong"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "DPRK IT Worker Delegations section",
+          "quote": "The team-lead for this company, Jon Yon Gun, was involved in coordinating payments from Pioneer Bencont Star Real Estate to Chinyong."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Treasury administrative sanctions finding. Alis LLC was sanctioned in the same action but is not directly linked to Jon in this sentence."
+      ]
+    },
+    {
+      "id": "claim-jon-rok-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2023-05-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s04",
+          "locator": "Opening designation paragraph",
+          "quote": "한미 정부는 5.23(화) 북한 IT 인력의 해외 외화벌이 활동에 직접 관여해 온 북한 기관과 개인을 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "doaa-s04",
+          "locator": "Sanctions target table",
+          "quote": "전연근"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction. The primary ROK release supports May 23; Treasury's later May 5 sentence is treated as a date inconsistency."
+      ]
+    },
+    {
+      "id": "claim-jon-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13687",
+        "date": "2024-03-27",
+        "basis": "reported support for Pioneer Bencont Star Real Estate"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "DPRK IT Worker Delegations section",
+          "quote": "Jon Yon Gun is being designated pursuant to E.O. 13687 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Pioneer Bencont Star Real Estate."
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Jon entry",
+          "quote": "JON, Yun Gun"
+        },
+        {
+          "source_id": "gov-2d8dc05b8be6",
+          "locator": "sanctioned-individuals paragraph",
+          "quote": "It named the six individuals as Yu Pu Ung, Ri Tong Hyok, Han Chol Man, O In Chun, Jong Song Ho and Jon Yon Gun."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-jon-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "checked_at": "2026-08-14",
+        "linked_organization": "Pioneer Bencont Star Real Estate"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48262",
+          "quote": "JON, Yun Gun"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48262",
+          "quote": "Linked To: PIONEER BENCONT STAR REAL ESTATE."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current-list presence is a dated administrative-list observation, not evidence of criminal guilt. Sensitive fields in the same row were excluded."
+      ]
+    },
+    {
+      "id": "claim-jon-collective-labor-control-allegation",
+      "type": "incident",
+      "predicate": "included_in_rok_collective_labor_control_allegation",
+      "value": {
+        "scope": "collective statement about five named overseas IT-branch managers",
+        "reported_conduct": "surveillance and control, workplace abuse, nonpayment of wages, and forced labor"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "doaa-s04",
+          "locator": "Collective labor-control paragraph",
+          "quote": "특히, 이들 IT 지부 책임자들은 IT 인력에 대한 감시ㆍ통제ㆍ갑질, 임금 미지급 등 강제노동을 강요하여 이들의 인권을 유린해 왔다."
+        },
+        {
+          "source_id": "doaa-s04",
+          "locator": "Footnote 1 identifying the five IT-branch managers",
+          "quote": "김상만, 김기혁, 김성일, 전연근, 김효동"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Action-wide ROK allegation. The source includes Jon among five footnoted managers but does not separately establish that every listed practice was personally committed by each manager; this is not an adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-jon-un-annex70-oh-chung-song-context",
+      "type": "relationship",
+      "predicate": "un_member_state_reported_oh_chung_song_group_context",
+      "value": {
+        "reported_group_context": "one of eight DPRK individuals related to Oh Chung Song",
+        "reported_occupation": "Representative of Chinyong IT in the Lao PDR",
+        "exact_korean_name": "전연근",
+        "source_scope": "Member State information reproduced in Annex 70",
+        "current_relationship_or_activity_inferred": false,
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Annex 70, PDF file p. 328, visually reviewed Jon Yon Gun row and annex heading",
+          "quote": "Jon Yon Gun (전연근, last name : Jon) \nOccupation:  \nRepresentative of Chinyong IT in the Lao PDR"
+        }
+      ],
+      "observed_at": "2023-09-07",
+      "notes": [
+        "The exact Latin and Korean names and Chinyong/Lao PDR role align with this profile's official U.S. and ROK sources; identity-document selectors in the annex were excluded.",
+        "Annex 70 is Member State-supplied historical group context. It does not establish current association, current employment, present location, criminal guilt, or conduct by Jon beyond what the source explicitly reports."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jon Yon Gun is the Chinyong-linked IT-delegation leader identified by Treasury; JON, Yun Gun, 전연근, and CHO'N, Yo'n Ku'n are official name forms in U.S. and ROK sanctions sources for one source-linked subject. Preserve U.S. and ROK administrative-designation posture separately from any criminal allegation or conviction."
+}

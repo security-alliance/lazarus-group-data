@@ -1,0 +1,42 @@
+{
+  "id": "pavel-yamato",
+  "fake_names": [
+    "Pavel Yamato"
+  ],
+  "aliases": [
+    "cutelocker"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Poland"
+  ],
+  "github": [
+    {
+      "gh_id": "cutelocker",
+      "usernames": [
+        "cutelocker"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xBc02773Dc075FB3734152EB5964C67e69FE305d6",
+        "0xc62598078589b0f65a20e934f4d397d1e50f21d2",
+        "0xd040FF8d66c01029205D4A3CD7909C119666A122",
+        "0x128B782b94168AD9DCb8C7AD6cB2703F3105E687",
+        "0x4819f3508a35e0f92a6c9d5b6b8bbada6024c32a"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/pavel-yamato/pavel-yamato-1.jpg",
+      "short_description": "Pavel Yamato.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

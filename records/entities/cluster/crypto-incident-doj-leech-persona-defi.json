@@ -1,0 +1,89 @@
+{
+  "id": "crypto-incident-doj-leech-persona-defi",
+  "type": "cluster",
+  "name": "Unnamed U.S. DeFi employer of ChienHui Lee — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Court filings and DOJ announcements describe allegations; conviction requires a separate court record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-doj-civil-forfeiture-1-25-cv-1769"
+    ]
+  },
+  "organizations": [
+    "Unnamed U.S. DeFi employer of ChienHui Lee"
+  ],
+  "ttps": [
+    "Indictment allegation: ChienHui Lee profile claimed Regina, Saskatchewan; Solidity/TypeScript/Ethers/Web3; Asia Pacific University; 500+ connections",
+    "Indictment allegation: Funds flowed to worker payment/consolidation addresses",
+    "Indictment allegation: Reused “leech” identifiers",
+    "Indictment allegation: Russian IP access",
+    "Indictment allegation: Same email used at Binance, Coinbase, and Bittrex",
+    "Indictment allegation: Singapore ID under a different name",
+    "Indictment allegation: UK contact indicator"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "The filing says Karlo Lee Chan and ChienHui Lee appear to be the same person; legal-identity status is unestablished."
+  ],
+  "aliases": [
+    {
+      "value": "ChienHui Lee",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    },
+    {
+      "value": "Karlo Lee Chan",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    },
+    {
+      "value": "LEE Chan",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Github",
+      "identifier": "leech_dev",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "payment-network",
+      "value": "Source-reported wallet/payment or exchange-deposit infrastructure; individual addresses intentionally omitted.",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+      "support": "DeFi Company 1 hired two remote IT workers who asked to be paid to worker addresses",
+      "locator": "Complaint ¶¶ 67–81 (PDF pp. 27–36), subsections “North Korean IT Workers Employed by DeFi Company 1,” “...DeFi Company 2,” and account-linkage allegations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

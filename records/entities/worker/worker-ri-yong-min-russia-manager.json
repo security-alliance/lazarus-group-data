@@ -1,0 +1,122 @@
+{
+  "id": "worker-ri-yong-min-russia-manager",
+  "type": "worker",
+  "name": "Ri Yong Min",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel reporting relays Member State information and a host-state response; it reports an operational role, with criminal judgment and sanctions designation status absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-un-s-2020-840"
+    ]
+  },
+  "legal_or_reported_name": "Ri Yong Min",
+  "locations": [
+    "Russia"
+  ],
+  "ttps": [
+    "it-worker-team-management"
+  ],
+  "caveats": [
+    "Preserve the Russian Federation's departure and pandemic-delay response adjacent to the allegation.",
+    "Sensitive biographical and document identifiers reproduced in the source are intentionally omitted.",
+    "The displayed name is a source-reported name; independent legal-identity verification is absent.",
+    "The reported management role is a source report; conviction, sanctions designation and personal involvement in hacking require separate findings.",
+    "These are reported operational roles; convictions, sanctions designations, and personal hacking involvement require separate findings."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-it-worker-management-role",
+      "statements": [
+        "The Panel described Ri Yong Min as managing an approximately 15-person IT-worker group.",
+        "The Russian Federation replied that most relevant DPRK migrant workers—including Pak Kwang Hyok and Ri Yong Min—had left by the end of 2019; it attributed delayed remaining departures after employment termination to pandemic transport suspension."
+      ],
+      "role": "reported manager of an approximately 15-person DPRK IT-worker group in Russia",
+      "evidence_class": "official UN Panel report relaying Member State information with host-state response",
+      "source_ids": [
+        "duir6-un-s-2020-840"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-un-s-2020-840",
+      "support": "Evidence class: official UN Panel report relaying Member State information with host-state response. Source-qualified support: The Panel described an approximately 50-person Vladivostok IT-worker group managed by Ri Kyong Sik and Pak Kwang Hyok, with Ri in charge of six software-development teams. It described a separate Munitions Industry Department-subordinate group led by Jang Ho Yong and a third approximately 15-person group managed by Ri Yong Min. The Russian Federation replied that the majority of the relevant DPRK migrant workers, including Ri Kyong Sik, Pak Kwang Hyok, and Ri Yong Min, had left by the end of 2019; remaining departures were reportedly delayed after employment termination because transport was suspended during the COVID-19 pandemic",
+      "locator": "S/2020/840, PDF pp. 34-35, para. 113; Annex 47, PDF pp. 173-174"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ri-yong-min-officially-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Ri Yong Min"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 113",
+          "quote": "the manager of that group is Ri Yong Min"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Name as reported by the UN Panel while relaying Member State information; no additional civil-identity fields were established."
+      ]
+    },
+    {
+      "id": "claim-ri-yong-min-group-manager",
+      "type": "employment",
+      "predicate": "reported_it_worker_group_manager",
+      "value": {
+        "role": "manager of a Democratic People's Republic of Korea information technology worker group",
+        "approximate_group_size": 15,
+        "reported_period": "February 2020"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 113; quotation stops before the excluded address clause",
+          "quote": "The third group, of approximately 15 workers, earned about $40,000 in February 2020, and the manager of that group is Ri Yong Min"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Operational reporting attributed by the Panel to a Member State. The source-published precise street address was excluded.",
+        "The group-level revenue is retained only inside the literal source quote, not as a person-level earning or financial selector."
+      ]
+    },
+    {
+      "id": "claim-ri-yong-min-russia-departure-response",
+      "type": "location",
+      "predicate": "host_state_reported_departure_by",
+      "value": {
+        "host_state": "Russian Federation",
+        "reported_status": "included among the majority said to have left the Russian Federation",
+        "reported_by": "end of 2019"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 114",
+          "quote": "the majority of persons in that category, including Ri Kyong Sik, Pak Kwang Hyok and Ri Yong Min, had left the Russian Federation by the end of 2019"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Host-state response, not an independently adjudicated location finding. It conflicts in timing with the preceding Member State reporting of group activity in February 2020 and does not establish Ri's present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ri Yong Min is the manager named in paragraph 113 of UN report S/2020/840. The precise street address is withheld; present-location inference, alias, account, image-based identity bridge, and merges with similarly named people remain outside the record."
+}

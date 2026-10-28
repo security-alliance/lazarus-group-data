@@ -1,0 +1,37 @@
+{
+  "id": "infrastructure-04-linkedin-com-in-lai-we-wang-ba355a1a2",
+  "type": "infrastructure",
+  "name": "LinkedIn profile: linkedin.com/in/lai-we-wang-ba355a1a2",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "caveats": [
+    "Historical account/payment indicators may be reassigned or belong to identity/payment proxies; current ownership requires current evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "LinkedIn profile",
+      "value": "linkedin.com/in/lai-we-wang-ba355a1a2",
+      "attribution": "Chon Kwon Uk using 'Lai We Wang'",
+      "status": "defunct at publication",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Chon Kwon Uk using 'Lai We Wang': linkedin.com/in/lai-we-wang-ba355a1a2",
+      "locator": "Annex 9, Table 4 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

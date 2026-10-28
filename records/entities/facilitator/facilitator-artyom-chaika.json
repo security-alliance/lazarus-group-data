@@ -1,0 +1,49 @@
+{
+  "id": "facilitator-artyom-chaika",
+  "type": "facilitator",
+  "name": "Artyom Chaika",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "MSMT states that Artyom Chaika is subject to U.S., UK, Canadian and EU sanctions; this record describes an administrative sanctions posture and adds no criminal finding.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "Source-bounded facilitator record for Artyom Chaika; keep it separate from another person sharing the name or a related organization unless an explicit source link exists.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Artyom Chaika.",
+      "locator": "PDF p. 34 fn. 152"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-artyom-chaika",
+      "type": "identity_name",
+      "predicate": "msmt_reported_sanctioned_associated_person",
+      "value": {
+        "name": "Artyom Chaika",
+        "association": "chair of ICIE"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 34 fn. 152",
+          "quote": "Artyom Chaika is currently subject to sanctions by the U.S., UK, Canada, and EU for his alleged involvement in supporting the Russian government and state -owned enterprises."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

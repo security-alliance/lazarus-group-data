@@ -1,0 +1,211 @@
+{
+  "id": "worker-song-ryong-choe",
+  "type": "worker",
+  "name": "Song-Ryong Choe",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "GitLab-assessed North Korean national and cell member in the Beijing-based Kil-Nam Kang cell",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-gitlab-2026-tradecraft"
+    ]
+  },
+  "legal_or_reported_name": "Song-Ryong Choe",
+  "organizations": [
+    "Kil-Nam Kang Beijing IT-worker cell"
+  ],
+  "locations": [
+    "Beijing, China"
+  ],
+  "ttps": [
+    "organized remote-employment fraud cell"
+  ],
+  "caveats": [
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The 345 GitLab-published account indicators remain in a separate cluster because the source maps each value at cluster level rather than one-to-one to this individual.",
+    "The name and role are transcribed from GitLab’s assessed organization-chart figure; this dataset uses source transcription rather than facial recognition."
+  ],
+  "images": [
+    {
+      "source_id": "vendor-gitlab-2026-tradecraft",
+      "source_url": "https://about.gitlab.com/blog/gitlab-threat-intelligence-reveals-north-korean-tradecraft/",
+      "caption": "GitLab-assessed organization chart containing the printed label Song-Ryong Choe; no facial recognition was performed.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-gitlab-2026-tradecraft",
+      "support": "GitLab explicitly labels this North Korean national as cell member in Kil-Nam Kang’s Beijing-based IT-worker cell. The name is transcribed from GitLab’s public figure; no facial recognition was used",
+      "locator": "Case Study 1, assessed organization-chart figure"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-song-ryong-choe-chart-name",
+      "type": "identity_name",
+      "predicate": "publisher_chart_displayed_worker_name",
+      "value": {
+        "displayed_name": "Song-Ryong Choe",
+        "identity_status": "source-assessed figure-transcribed worker label"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, printed member label",
+          "quote": "Song-Ryong Choe"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The printed label is not independently verified as a legal or civil identity."
+      ]
+    },
+    {
+      "id": "claim-song-ryong-choe-source-assessed-nationality",
+      "type": "note",
+      "predicate": "publisher_assessed_worker_nationality",
+      "value": {
+        "assessed_nationality": "North Korean",
+        "assessment_not_adjudication": true
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Song-Ryong Choe member label",
+          "quote": "Song-Ryong Choe"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, organization-chart caption",
+          "quote": "Assessed organization chart of the North Korean IT worker cell managed by Kil-Nam Kang."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "GitLab's assessed nationality applied through the organization-chart and cell context; no government identity verification or legal adjudication was found."
+      ]
+    },
+    {
+      "id": "claim-song-ryong-choe-kil-nam-cell-membership",
+      "type": "relationship",
+      "predicate": "publisher_chart_assessed_cell_membership",
+      "value": {
+        "cell_manager": "Kil-Nam Kang",
+        "role": "cell member",
+        "historical_source_assessment": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Song-Ryong Choe node",
+          "quote": "Song-Ryong Choe"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, organization-chart caption",
+          "quote": "Assessed organization chart of the North Korean IT worker cell managed by Kil-Nam Kang."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Historical chart relationship only; present membership is not asserted."
+      ]
+    },
+    {
+      "id": "claim-song-ryong-choe-cell-location-context",
+      "type": "location",
+      "predicate": "publisher_assessed_cell_location_context",
+      "value": {
+        "assessed_cell_location": "Beijing, China",
+        "scope": "cell-level during investigated period",
+        "individual_present_location": null
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Song-Ryong Choe node",
+          "quote": "Song-Ryong Choe"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, Summary, final sentence",
+          "quote": "We assess that the cell is highly likely colocated and operating from Beijing, China."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Cell-level vendor assessment only. It does not establish Song-Ryong Choe's present or residential location."
+      ]
+    },
+    {
+      "id": "claim-song-ryong-choe-gitlab-chart-media",
+      "type": "image",
+      "predicate": "publisher_chart_link_only_media_reference",
+      "value": {
+        "source_page": "https://about.gitlab.com/blog/gitlab-threat-intelligence-reveals-north-korean-tradecraft/",
+        "visual_context": "publisher organization chart containing a source-labeled portrait",
+        "handling": "link_only",
+        "direct_asset_retained": false,
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "assessed organization chart, source-labeled Song-Ryong Choe node",
+          "quote": "Song-Ryong Choe"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Source-page citation only; no direct asset is retained for caching, cropping, republication, facial recognition, visual matching, identity resolution, or current-appearance inference.",
+        "The chart visual is publisher attribution context and does not independently verify a civil identity."
+      ]
+    },
+    {
+      "id": "claim-song-ryong-choe-cell-revenue-model-context",
+      "type": "incident",
+      "predicate": "publisher_reported_cell_revenue_model_context",
+      "value": {
+        "cell": "Kil-Nam Kang-managed North Korean IT-worker cell",
+        "working_group": "assessed organization chart",
+        "reported_activity": "freelance software development under false identities",
+        "scope": "cell-level during investigated period",
+        "individual_conduct_attributed": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "assessed organization chart, source-labeled Song-Ryong Choe node",
+          "quote": "Song-Ryong Choe"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, opening paragraph",
+          "quote": "Kang’s cell currently includes seven other North Korean nationals and generates revenue through freelance software development under false identities."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Cell-level publisher context only; it does not assign a specific job, employer, client, payment, credential, account, victim, or revenue amount to this individual.",
+        "The claim does not establish present activity or individual legal responsibility."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Song-Ryong Choe is a figure-transcribed, GitLab-assessed member label in the Kil-Nam Kang cell, with chart context rather than an independently verified civil identity. Keep this profile chart-only: another member's conduct, role, accounts, or indicators stay with that member; common-name people remain separate, and present location, current membership, account control, or image-based identity require source links."
+}

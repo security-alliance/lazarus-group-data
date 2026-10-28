@@ -1,0 +1,999 @@
+{
+  "id": "worker-kim-kwang-jin",
+  "type": "worker",
+  "name": "Kim Kwang Jin",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker charged in employer virtual-currency thefts",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad",
+      "gov-ndga-2025-indictment",
+      "lazarus-group-team"
+    ]
+  },
+  "legal_or_reported_name": "Kim Kwang Jin",
+  "ttps": [
+    "alleged employment using a misused victim label",
+    "alleged false explanations over Telegram",
+    "alleged mixer laundering",
+    "alleged source-code and smart-contract access",
+    "alleged virtual-currency theft"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "P.S. is a source-redacted victim label allegedly misused by the defendant; it remains outside public employment-persona records and any identification, profiling, or contact action.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "infrastructure": [
+    {
+      "type": "other",
+      "value": "GitHub activity referenced in chats",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "Telegram account using the source-redacted victim label",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "Tornado Cash (alleged laundering method)",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "pemba-sherpa"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-ndga-2025-indictment",
+      "support": "The indictment names Kim Kwang Jin, alleges use of victim P.S. as an alias, and describes remote source-code work and theft",
+      "locator": "Indictment pp. 1-2, 7-8"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ names Kim Kwang Jin in the N.D. Georgia virtual-currency case. The release-wide laptop-farm, account, and website totals concern other coordinated actions and are not attributed to him individually; the charges remain allegations.",
+      "locator": "IT Worker Actions section; N.D. Georgia case summary naming Kim Kwang Jin"
+    },
+    {
+      "source_id": "crypto-chollima-reframing"
+    },
+    {
+      "source_id": "src-f6034840364d"
+    },
+    {
+      "source_id": "src-71c8f5ac1552"
+    },
+    {
+      "source_id": "src-2e0dbe82f3ff"
+    },
+    {
+      "source_id": "src-89e7b1a6c322"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Kim Kwang Jin in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/pemba-sherpa"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-kwang-jin-official-name",
+      "type": "identity_name",
+      "predicate": "officially_charged_name_forms",
+      "value": {
+        "name": "Kim Kwang Jin",
+        "korean": "김관진"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KIM KWANG JIN (김관진)"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "Kim Kwang Jin (김관진)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Officially reported identity in a pending criminal case; this is not an adjudication of guilt."
+      ]
+    },
+    {
+      "id": "claim-kim-north-korean-nationality-allegation",
+      "type": "identity_name",
+      "predicate": "alleged_nationality",
+      "value": {
+        "reported_nationality": "North Korean"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file pages 3-4 (printed pp. 1-2), paragraph 2",
+          "quote": "were citizens of North Korea"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Collective indictment allegation applying to the four named defendants; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-kim-redacted-identity-misuse-allegation",
+      "type": "incident",
+      "predicate": "allegedly_used_source_redacted_victim_identity",
+      "value": {
+        "conduct": "allegedly used the source-redacted victim label P.S. as an alias to obtain employment"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 8 (printed p. 6), paragraph 23",
+          "quote": "defendant KIM KWANG JIN, using the name of victim P.S. as an alias, was employed by the founder of Company-1 to develop source code."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending allegation. P.S. is a source-redacted identity-victim label, not a public persona, civil identity, or contact lead."
+      ]
+    },
+    {
+      "id": "claim-kim-source-code-employment-allegation",
+      "type": "employment",
+      "predicate": "allegedly_employed_as_source_code_developer",
+      "value": {
+        "role": "source-code developer",
+        "employer": "Company-1, source-anonymized blockchain research and development company",
+        "reported_period": "approximately December 2020 to April 2022"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 8 (printed p. 6), paragraph 23",
+          "quote": "was employed by the founder of Company-1 to develop source code."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending allegation; Company-1 remains source-anonymized and no victim-identifying inference is made."
+      ]
+    },
+    {
+      "id": "claim-kim-smart-contract-access-allegation",
+      "type": "incident",
+      "predicate": "allegedly_gained_smart_contract_source_access",
+      "value": {
+        "conduct": "allegedly gained access to Company-1 smart-contract source code through employment"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 9 (printed p. 7), paragraph 24",
+          "quote": "After being hired by Company-1, defendant KIM KWANG JIN eventually gained access to Company-1’s source code for its smart contracts."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending allegation; access alone is kept separate from the later alleged modification and theft."
+      ]
+    },
+    {
+      "id": "claim-kim-contract-modification-allegation",
+      "type": "incident",
+      "predicate": "allegedly_modified_smart_contract_source",
+      "value": {
+        "conduct": "allegedly modified source code for two Company-1 smart contracts without knowledge or consent",
+        "blockchains": [
+          "Ethereum",
+          "Polygon"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 11 (printed p. 9), paragraph 31",
+          "quote": "defendant KIM KWANG JIN, without Company-1’s knowledge or consent, modified the source code for two smart contracts owned and controlled by Company-1 that resided on the Ethereum and Polygon blockchains."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending allegation. The alleged change to withdrawal rules is supported by the next sentence but not expanded into a separate technical selector."
+      ]
+    },
+    {
+      "id": "claim-kim-approximately-740k-theft-allegation",
+      "type": "incident",
+      "predicate": "allegedly_stole_virtual_currency",
+      "value": {
+        "conduct": "allegedly stole virtual currency from Company-1",
+        "approximate_value_at_time": "$740,000",
+        "reported_period": "March 2022"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "In March 2022, Kim Kwang Jin stole virtual currency worth approximately $740,000 at the time of theft by modifying the source code of two of his employer’s smart contracts"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "DOJ allegation, not an adjudicated fact. Token quantities, receiving address, and other financial selectors were excluded."
+      ]
+    },
+    {
+      "id": "claim-kim-tornado-cash-allegation",
+      "type": "incident",
+      "predicate": "allegedly_sent_proceeds_through_tornado_cash",
+      "value": {
+        "conduct": "allegedly sent converted proceeds to Tornado Cash for mixing"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 15 (printed p. 13), paragraph 44",
+          "quote": "defendant KIM KWANG JIN sent virtual currency of approximately 31,000 MATIC tokens, 165 BNB, and 96 Ether to Tornado Cash for mixing."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending allegation. The structured value excludes token quantities, wallet addresses, transaction hashes, and exchange-account selectors."
+      ]
+    },
+    {
+      "id": "claim-kim-wire-fraud-conspiracy-charge",
+      "type": "legal_event",
+      "predicate": "charged_with_wire_fraud_conspiracy",
+      "value": {
+        "case": "United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-CR-291",
+        "count": "Count One",
+        "offense": "wire fraud conspiracy",
+        "statute": "18 U.S.C. § 1349"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 6 (printed p. 4), Count One heading",
+          "quote": "Count One Wire Fraud Conspiracy (18 U.S.C. § 1349)"
+        },
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 6 (printed p. 4), paragraph 21 defendant list",
+          "quote": "KIM KWANG JIN"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending charge; Kim is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-kim-wire-fraud-charges",
+      "type": "legal_event",
+      "predicate": "charged_with_wire_fraud",
+      "value": {
+        "case": "United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-CR-291",
+        "counts": "Counts Two through Four",
+        "offense": "wire fraud",
+        "statute": "18 U.S.C. § 1343"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 12 (printed p. 10), Counts Two through Four heading and charging paragraph",
+          "quote": "Counts Two through Four Wire Fraud (18 U.S.C. § 1343)"
+        },
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 12 (printed p. 10), paragraph 36",
+          "quote": "defendant KIM KWANG JIN"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending charges specific to Kim Kwang Jin; Kim is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-kim-money-laundering-conspiracy-charge",
+      "type": "legal_event",
+      "predicate": "charged_with_money_laundering_conspiracy",
+      "value": {
+        "case": "United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-CR-291",
+        "count": "Count Five",
+        "offense": "money laundering conspiracy",
+        "statute": "18 U.S.C. § 1956(h)"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 13 (printed p. 11), Count Five heading",
+          "quote": "Count Five Money Laundering Conspiracy (18 U.S.C. § 1956(h))"
+        },
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 13 (printed p. 11), paragraph 38 defendant list",
+          "quote": "KIM KWANG JIN"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending charge; Kim is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-kim-wanted-posture",
+      "type": "legal_event",
+      "predicate": "reported_at_large_and_wanted",
+      "value": {
+        "posture": "reported at large and wanted by the FBI",
+        "as_of": "2025-06-30"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Dated DOJ-reported posture; it is not a conviction or present-location finding."
+      ]
+    },
+    {
+      "id": "claim-kim-pemba-sherpa-publisher-assessment",
+      "type": "alias",
+      "predicate": "publisher_assessed_persona",
+      "value": {
+        "alias": "Pemba Sherpa",
+        "alias_type": "publisher-assessed employment persona"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "From what we can piece together, we believe that Pemba Sherpa (Kim Kwang Jin)"
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Chollima Group's qualified assessment, not an official identity determination. No identity inference was made from article images."
+      ]
+    },
+    {
+      "id": "claim-kim-bureau61-umnal-publisher-assessment",
+      "type": "organization_affiliation",
+      "predicate": "publisher_assessed_affiliation",
+      "value": {
+        "organization": "Bureau 61",
+        "likely_front_company": "Umnal",
+        "assessment_source": "Chollima Group"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "we believe that Pemba Sherpa (Kim Kwang Jin), Charles Palmer (Kang Tae Bok), and Bryan Cho (Jong Pong Ju) are also Bureau 61 workers, most likely under the Umnal front company."
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Qualified specialist-publisher assessment partly presented alongside imagery. It is retained as source-attributed review-tier OSINT only; no independent image-based inference was made."
+      ]
+    },
+    {
+      "id": "claim-kim-pemba-gulu-legacy-cluster",
+      "type": "alias",
+      "predicate": "legacy_osint_cluster_alias",
+      "value": {
+        "alias": "Pemba Gulu",
+        "alias_type": "legacy OSINT cluster label"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f6034840364d",
+          "locator": "Pemba Sherpa / Pemba Gulu section heading",
+          "quote": "#### Pemba Sherpa / Pemba Gulu"
+        },
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "Pemba Sherpa (Kim Kwang Jin)"
+        }
+      ],
+      "notes": [
+        "Transitive legacy-cluster association through Pemba Sherpa, not an official or independently confirmed alias. Spelling variants such as Pemba Gelu in excluded contact fields were not elevated."
+      ]
+    },
+    {
+      "id": "claim-kim-paladin120-legacy-account",
+      "type": "account",
+      "predicate": "legacy_reported_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "paladin-120",
+        "url": "https://github.com/paladin-120"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f6034840364d",
+          "locator": "Pemba Sherpa / Pemba Gulu section",
+          "quote": "- github.com/paladin-120 • [Archive](https://archive.ph/nVIz9)"
+        }
+      ],
+      "notes": [
+        "Historical curated-cluster attribution, not proof of current ownership or an official bridge to Kim."
+      ]
+    },
+    {
+      "id": "claim-kim-paladin120-current-observation",
+      "type": "account",
+      "predicate": "current_public_account_observation",
+      "value": {
+        "platform": "GitHub",
+        "handle": "paladin-120",
+        "status": "publicly reachable",
+        "public_repository_count": 6,
+        "account_created_at": "2015-01-31T21:33:39Z",
+        "profile_updated_at": "2024-05-31T12:30:37Z",
+        "observed_on": "2026-08-13"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-71c8f5ac1552",
+          "locator": "GitHub public user API response",
+          "quote": "\"login\": \"paladin-120\""
+        },
+        {
+          "source_id": "src-71c8f5ac1552",
+          "locator": "GitHub public user API response",
+          "quote": "\"public_repos\": 6"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "The account observation is current, but the controller and identity bridge to Kim Kwang Jin are unverified. Repository content and profile imagery were not used to infer identity."
+      ]
+    },
+    {
+      "id": "claim-kim-uae-2019-group-context",
+      "type": "location",
+      "predicate": "media_reported_historical_group_travel_and_colocation",
+      "value": {
+        "location": "United Arab Emirates",
+        "period": "2019",
+        "context": "source-reported collective travel and colocated work allegation",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "the defendants traveled to the United Arab Emirates on North Korean travel documents and worked as a co-located team."
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ],
+      "notes": [
+        "Secondary-source date paired with DOJ's group allegation. This is not an independently verified individual itinerary, residence, present location, or adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-kim-collective-fbi-reward-report",
+      "type": "legal_event",
+      "predicate": "media_reported_collective_fbi_reward",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "collective reward for information leading to the arrest of the four charged men",
+        "reported_at": "2025-06-30"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, North Korean Cryptocurrency Theft Case section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "The amount is reported collectively and must not be presented as an individual reward amount or as proof of guilt; current reward status was not independently reverified."
+      ]
+    },
+    {
+      "id": "claim-kim-vladivostok-publisher-assessment",
+      "type": "location",
+      "predicate": "publisher_captioned_historical_group_location",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "timeframe": "historical; exact date unstated",
+        "context": "publisher-captioned group image",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kim Kwang Jin (Pemba Sherpa), Jong Pong Ju (Bryan Cho) in Vladivostok, Russia"
+        }
+      ],
+      "notes": [
+        "Source-attributed historical caption context only. The article does not state the image date, and no precise or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-kim-link-only-chollima-group-image",
+      "type": "image",
+      "predicate": "publisher_captioned_link_only_group_image",
+      "value": {
+        "media_type": "publisher-captioned group image",
+        "source_url": "https://chollima-group.io/posts/reframing-insights-our-research-msmt",
+        "handling": "link_only",
+        "caption_label": "Kim Kwang Jin (Pemba Sherpa)"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kim Kwang Jin (Pemba Sherpa)"
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Link-only source reference. No crop, cache, redistribution, facial recognition, appearance comparison, or independent image-based identity inference is authorized."
+      ]
+    },
+    {
+      "id": "claim-kim-paladin120-public-repository-metadata",
+      "type": "skill",
+      "predicate": "current_public_repository_metadata_for_legacy_linked_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "paladin-120",
+        "metadata_only": true,
+        "repositories": [
+          {
+            "repository": "paladin-120/DefiLlama-Adapters",
+            "fork": true,
+            "language": "JavaScript",
+            "last_public_push": "2024-04-17T14:26:40Z"
+          },
+          {
+            "repository": "paladin-120/testing-tx-fetcher",
+            "fork": false,
+            "language": "TypeScript",
+            "last_public_push": "2022-11-16T15:32:11Z"
+          },
+          {
+            "repository": "paladin-120/bunzz-testing",
+            "fork": false,
+            "language": "TypeScript",
+            "last_public_push": "2022-10-18T23:47:25Z"
+          },
+          {
+            "repository": "paladin-120/yflink-gov",
+            "fork": false,
+            "language": "JavaScript",
+            "last_public_push": "2022-03-23T13:56:52Z"
+          },
+          {
+            "repository": "paladin-120/mars-field",
+            "fork": false,
+            "language": "TypeScript",
+            "last_public_push": "2022-03-23T14:32:42Z"
+          },
+          {
+            "repository": "paladin-120/lesstools-frontend-develop",
+            "fork": false,
+            "language": "HTML",
+            "last_public_push": "2022-04-13T21:26:17Z"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f6034840364d",
+          "locator": "Pemba Sherpa / Pemba Gulu section",
+          "quote": "github.com/paladin-120"
+        },
+        {
+          "source_id": "src-89e7b1a6c322",
+          "locator": "GitHub public repository API objects",
+          "quote": "\"full_name\": \"paladin-120/DefiLlama-Adapters\""
+        },
+        {
+          "source_id": "src-89e7b1a6c322",
+          "locator": "GitHub public repository API objects",
+          "quote": "\"full_name\": \"paladin-120/testing-tx-fetcher\""
+        },
+        {
+          "source_id": "src-89e7b1a6c322",
+          "locator": "GitHub public repository API objects",
+          "quote": "\"full_name\": \"paladin-120/mars-field\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current public metadata for a legacy-cluster-linked account only. The repository names, fork flags, language labels, and timestamps do not prove Kim's authorship, skill level, current control, or participation in the named projects; no code was cloned or executed."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0023",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Kim Kwang Jin"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Basic Information, Real Name",
+          "quote": "Kim Kwang Jin"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0024",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0025",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "Pemba Gulu"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Basic Information, Aliases",
+          "quote": "Pemba Gulu"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0026",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "paladin-120"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Basic Information, Aliases",
+          "quote": "paladin-120"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0027",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Pemba Sherpa"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Basic Information, Fake Names",
+          "quote": "Pemba Sherpa"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0028",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Pemba Gulu"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Basic Information, Fake Names",
+          "quote": "Pemba Gulu"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0029",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "pemba[dot]sherpa5232[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Contact Information, Emails",
+          "quote": "pemba[dot]sherpa5232[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0030",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "pemba[dot]gelu5232[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Contact Information, Emails",
+          "quote": "pemba[dot]gelu5232[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0031",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "paladin-120"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, GitHub, GitHub ID",
+          "quote": "paladin-120"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0032",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-pemba-sherpa-0033",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xfb5d591e8216f5d0964286f09b1f61114c16aab0"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/pemba-sherpa, Salary Details, Addresses",
+          "quote": "0xfb5d591e8216f5d0964286f09b1f61114c16aab0"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kim Kwang Jin (김관진) is the defendant charged in N.D. Ga. No. 1:25-CR-291. P.S. is a source-redacted identity-victim label allegedly misused by Kim; it remains outside civil-identity profiling. Pemba Sherpa, Pemba Gulu, and paladin-120 remain publisher-attributed or legacy OSINT links rather than official identity determinations; current account control remains unverified.",
+  "aliases": [
+    {
+      "value": "Pemba Gulu",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "paladin-120",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Pemba Sherpa",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Pemba Gulu",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "pemba[dot]sherpa5232[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "pemba[dot]gelu5232[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "paladin-120",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ]
+}

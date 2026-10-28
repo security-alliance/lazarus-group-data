@@ -1,0 +1,65 @@
+{
+  "id": "dmtr11-ttp-external-forwarding-correlated-access-review",
+  "type": "ttp",
+  "name": "Correlate new external email-forwarding rules with unusual cloud, repository, identity, and device telemetry",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is defensive practitioner guidance. It supplies no government attribution, legal finding, disclosed case record, or standalone basis for attributing a worker or account.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMTR11-S01",
+      "DMTR11-S02"
+    ]
+  },
+  "ttps": [
+    "cloud-storage-access-correlation",
+    "device-custody-correlation",
+    "external-email-forwarding-rule-review",
+    "human-review",
+    "identity-continuity-correlation",
+    "mail-audit-log-preservation",
+    "source-repository-access-correlation"
+  ],
+  "caveats": [
+    "Correlate newly created external forwarding rules with cloud, repository, identity-continuity, and device-custody telemetry; a forwarding rule alone leaves malicious intent unresolved.",
+    "Email forwarding has many legitimate uses; affiliation assessment requires additional evidence.",
+    "External forwarding rules, high-volume access, off-hours activity, identity changes, and device changes all have legitimate explanations and are nonspecific individually.",
+    "The record retains citation context; external address, victim, and raw selector details stay outside it.",
+    "The package retains source-publication provenance required to audit the finding while excluding people, speakers, personas, accounts, organizations, destinations, addresses, victims, products, raw selectors, and executable artifacts.",
+    "Practitioner guidance only; retain review status and treat the correlation as a lead pending independently verified incident telemetry.",
+    "Private forwarding destinations are sensitive incident data and remain unpublished and narrowly circulated.",
+    "The source presents practitioner guidance rather than a disclosed case with independently verifiable logs.",
+    "The source omits illustrative destination geography; the cited method treats geography as an unreliable selector or nationality/affiliation proxy.",
+    "Use the signal only as a correlated, role-aware review trigger with documented business context, proportional access governance, and a correction-and-appeal path; an adverse employment or attribution decision requires more evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "review-level-correlated-post-hire-detection-control",
+      "statement": "Review newly created external auto-forwarding or inbox rules when they coincide with unusual bulk cloud-storage or source-repository access, atypical transfer timing, or identity- and device-continuity anomalies. Preserve mail-rule change and access audit telemetry, compare the activity with role expectations and approved business need, and route the correlation to human review rather than treating any component as proof.",
+      "evidence_class": "Practitioner defensive guidance supported by a publisher-hosted transcript and the corresponding first-party slide deck; not independently verified incident telemetry or a measured detection-efficacy study.",
+      "source_ids": [
+        "DMTR11-S01",
+        "DMTR11-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep-detection-controls-2 coordinated termination inventory of forwarding rules"
+  ],
+  "sources": [
+    {
+      "source_id": "DMTR11-S01",
+      "support": "The publisher-hosted transcript states at 44:03-44:51 that newly created external email-forwarding rules should be reviewed with unusual cloud or repository access and related post-hire telemetry",
+      "locator": "44:03-44:51 (external forwarding in the SOC telemetry discussion)"
+    },
+    {
+      "source_id": "DMTR11-S02",
+      "support": "The publisher's stable URL redirects on the same site to /uploads/media/wp-content/...; only the original URL is retained to avoid duplicate registry entries. The first-party slide deck lists on page 34 email-forwarding rules created by new hires alongside unusual repository/cloud access and identity, endpoint, network, and data-protection telemetry",
+      "locator": "page 34 (SOC Telemetry)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

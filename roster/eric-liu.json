@@ -1,0 +1,65 @@
+{
+  "id": "eric-liu",
+  "real_name": "Eric Liu",
+  "aliases": [
+    "vigorousdeveloper",
+    "top-dev-mania",
+    "VigorousDevelopment524",
+    "Vigorous Developer",
+    "supervenus0725",
+    "SuperDev",
+    "Jason07250000",
+    "venus07250000"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "VigorousDevelopment524@gmail.com",
+    "dev.mania.639@gmail.com",
+    "venus07250000@gmail.com"
+  ],
+  "employment": [
+    {
+      "company": "MagicCraft",
+      "date_identified": {
+        "$date": "2022-01-01"
+      }
+    },
+    {
+      "company": "Humansdotai?"
+    },
+    {
+      "company": "Cosmos stuff?"
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "vigorousdeveloper"
+    },
+    {
+      "gh_id": "top-dev-mania"
+    },
+    {
+      "gh_id": "SuperVenus0725"
+    },
+    {
+      "gh_id": "Jason07250000"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/eric-liu/eric-liu-magiccraft-1.png",
+      "short_description": "Eric Liu from MagicCraft team.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/eric-liu/eric-liu-magiccraft-2.jpeg",
+      "short_description": "Eric Liu from MagicCraft team.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

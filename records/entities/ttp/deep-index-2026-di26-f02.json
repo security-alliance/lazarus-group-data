@@ -1,0 +1,42 @@
+{
+  "id": "deep-index-2026-di26-f02",
+  "type": "ttp",
+  "name": "Hiring-pipeline correlation signals that document checks miss",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed defensive research finding; adjudication and independent dispositive force require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-2026-di26-s02"
+    ]
+  },
+  "ttps": [
+    "Correlate candidate artifacts across ATS, identity verification, interview telemetry, address collection, and known network-risk context rather than treating a passed background check as proof of operator identity."
+  ],
+  "caveats": [
+    "Signals are non-exclusive and require safeguards against demographic or nationality-proxy use.",
+    "The source is a vendor blog and should be paired with case-specific or official provenance where available."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Nisos lists mirrored job-description language, multiple same-name resume accounts with inconsistent histories, VoIP numbers, VPN-associated IPs, pauses or off-screen glances during interviews, and abrupt logoff when asked to share a screen as analyst-visible signals."
+      ],
+      "source_ids": [
+        "deep-index-2026-di26-s02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-2026-di26-s02",
+      "support": "Nisos lists mirrored job-description language, multiple same-name resume accounts with inconsistent histories, VoIP numbers, VPN-associated IPs, pauses or off-screen glances during interviews, and abrupt logoff when asked to share a screen as analyst-visible signals",
+      "locator": "Section “The Red Flags Traditional Screening Misses,” especially its five-item list; contextual boundary from “Background Checks Verify Documents, Not Identity” through “Internal Monitoring Starts After the Hire”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

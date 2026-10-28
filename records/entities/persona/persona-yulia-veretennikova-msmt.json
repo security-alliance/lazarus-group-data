@@ -1,0 +1,49 @@
+{
+  "id": "persona-yulia-veretennikova-msmt",
+  "type": "persona",
+  "name": "Yulia Veretennikova",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "MSMT reproduces a dialogue participant’s name; criminal-role attribution and facilitation of DPRK labour remain outside the source statement.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "Source-bounded persona record for Yulia Veretennikova; keep it separate from another person sharing the name or a related organization absent an explicit source link.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Yulia Veretennikova.",
+      "locator": "PDF p. 36–37, dialogue following Figure 8"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-yulia-veretennikova-msmt",
+      "type": "identity_name",
+      "predicate": "msmt_dialogue_participant",
+      "value": {
+        "name": "Yulia Veretennikova",
+        "role": "dialogue participant in the report"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 36–37, dialogue following Figure 8",
+          "quote": "Yulia Veretennikova"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

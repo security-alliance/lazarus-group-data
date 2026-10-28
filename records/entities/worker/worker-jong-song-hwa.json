@@ -1,0 +1,533 @@
+{
+  "id": "worker-jong-song-hwa",
+  "type": "worker",
+  "name": "Jong Song Hwa",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Jong Song Hwa was CEO of Yanbian Silverstar and Volasys Silverstar; he was charged in the United States in 2024, and the charges are allegations. He is reported as a DPRK national. Current OFAC exact-ID component-table data adds only the bounded administrative-list verification and structured context stated here. The existing charging-stage posture is unchanged; the FBI page listed him as wanted when reviewed on 2026-08-12. OFAC designated Jong Song Hwa on 2018-09-13, and the Republic of Korea autonomously sanctioned him on 2023-04-24. Official sources identify him as CEO of Yanbian Silverstar. The sanctions are administrative actions; adjudication and conviction status remain unestablished.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-01",
+      "doaa-s02",
+      "doaa-s03",
+      "doaa-s13",
+      "doaa-s14",
+      "doar9-ofac-sdn-current",
+      "gov-107f8a96865d"
+    ]
+  },
+  "legal_or_reported_name": "Jong Song Hwa",
+  "romanizations": [
+    "정성화"
+  ],
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "Facial recognition is excluded; linkage to a separate employment persona requires source evidence.",
+    "FBI pages may change; retain verification date.",
+    "A blank address placeholder remains outside location data, and the current administrative listing leaves the separate criminal charges unadjudicated.",
+    "Prefer the source page link while asset provenance or seal handling remains uncleared.",
+    "Retain 'wanted' and 'alleged' context adjacent to the image.",
+    "Sanctions designations are administrative actions; the record carries no conviction.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The 2024 charges remain allegations.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-01",
+      "source_url": "https://www.fbi.gov/wanted/cyber/jong-song-hwa",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/jong-song-hwa/@@images/image/large",
+      "caption": "FBI wanted-page image published for Jong Song Hwa, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-jong-song-hwa"
+  ],
+  "sources": [
+    {
+      "source_id": "doaa-s02",
+      "support": "OFAC's September 13, 2018 action lists Jong Song Hwa in the North Korea designations and links him to Yanbian Silverstar; the designation is an administrative action, not a conviction",
+      "locator": "JONG, Song Hwa entry; Korean spelling and Yanbian Silverstar-linked designation"
+    },
+    {
+      "source_id": "doaa-s13",
+      "support": "Rewards for Justice names Jong Song Hwa in the Yanbian Silverstar and Volasys Silverstar campaign, identifies his listed role, and presents reward/wanted allegations rather than a conviction | RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person and role list for 14 defendants | Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 24979 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current SDN row verifies that entity number 24979 remains in the current export but exposes no additional safe structured fact. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 24979"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-01",
+      "support": "The individual FBI page listed Jong Song Hwa as wanted and charged when reviewed on 2026-08-12; the charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Jong Song Hwa; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "doaa-s14",
+      "support": "DOJ names Jong Song Hwa as a charged defendant and reports his alleged role. Stolen identities, front sites, laptop farms, transfers, and extortion are scheme-wide allegations and are not attributed to him individually by this release; the charges remain allegations | DOJ names Jong Song Hwa as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Defendant list and alleged roles; indictment posture | Press release — named-defendant entry for Jong Song Hwa and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Jong Song Hwa as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Jong Song Hwa; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "doaa-s03",
+      "support": "The Republic of Korea consolidated sanctions table lists 정성화 (JONG, Song Hwa), identifies him as Yanbian Silverstar's CEO, and gives the autonomous-designation date as April 24, 2023",
+      "locator": "Individual table row 정성화 (JONG, Song Hwa), Yanbian Silverstar CEO, designation date 2023-04-24"
+    },
+    {
+      "source_id": "src-2c35594063af"
+    },
+    {
+      "source_id": "src-2526579a96b6"
+    },
+    {
+      "source_id": "src-e5856064bd6a"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Jong Song Hwa",
+        "korean": "정성화"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s02",
+          "locator": "individual added to SDN List",
+          "quote": "JONG, Song Hwa (Korean: 정성화)"
+        },
+        {
+          "source_id": "src-2c35594063af",
+          "locator": "identified-individuals list",
+          "quote": "Jong Song Hwa (정성화)"
+        }
+      ],
+      "observed_at": "2018-09-13",
+      "notes": [
+        "Latin and Hangul forms are explicitly paired by the primary source and independently repeated by a second publisher."
+      ]
+    },
+    {
+      "id": "claim-fbi-alias-zheng-chenghua",
+      "type": "alias",
+      "predicate": "officially_reported_alias",
+      "value": {
+        "alias": "Zheng Chenghua",
+        "source": "FBI Wanted Person API and poster"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, aliases[0]",
+          "quote": "Zheng Chenghua"
+        },
+        {
+          "source_id": "src-e5856064bd6a",
+          "locator": "PDF p. 1, Description",
+          "quote": "Aliases: Zheng Chenghua, Jong Song Hua"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Official FBI alias only. No same-name public account, separate civil identity, or present use is inferred."
+      ]
+    },
+    {
+      "id": "claim-fbi-alias-jong-song-hua",
+      "type": "alias",
+      "predicate": "officially_reported_alias",
+      "value": {
+        "alias": "Jong Song Hua",
+        "source": "FBI Wanted Person API and poster"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, aliases[1]",
+          "quote": "Jong Song Hua"
+        },
+        {
+          "source_id": "src-e5856064bd6a",
+          "locator": "PDF p. 1, Description",
+          "quote": "Aliases: Zheng Chenghua, Jong Song Hua"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Official FBI alias only. No same-name public account, separate civil identity, or present use is inferred."
+      ]
+    },
+    {
+      "id": "claim-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "list": "SDN List",
+        "program": "DPRK4"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s02",
+          "locator": "individual added to SDN List, introductory line",
+          "quote": "The following individual has been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "doaa-s02",
+          "locator": "individual added to SDN List, JONG entry",
+          "quote": "JONG, Song Hwa (Korean: 정성화)"
+        }
+      ],
+      "observed_at": "2018-09-13",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 20, Count 1 title",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 20, Count 1 defendant list",
+          "quote": "JONG SONG HWA"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 22, Count 2 title",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 22, Count 2 defendant list",
+          "quote": "JONG SONG HWA"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 23, Count 3 title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 23, Count 3 defendant list",
+          "quote": "JONG SONG HWA"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 25, Count 4 title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 20–25, Counts 1–4; p. 25, Count 4 defendant list",
+          "quote": "JONG SONG HWA"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-mission-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organizations": [
+          "Yanbian Silverstar",
+          "Volasys Silverstar"
+        ],
+        "role": "Mission Representative or leader"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 6, paragraph 14",
+          "quote": "JONG SONG HWA, a DPRK national, was the Mission Representative (or leader) of Yanbian Silverstar and Volasys Silverstar."
+        },
+        {
+          "source_id": "doaa-s13",
+          "locator": "named-person list",
+          "quote": "Jong Song Hwa (정성화), CEO of both IT companies"
+        },
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, occupations[0]",
+          "quote": "Mission Representative/CEO of Yanbian Silverstar and Volasys Silverstar"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The indictment supplies the charged role allegation; RFJ and the FBI independently use the CEO title. No present role or authority is inferred."
+      ]
+    },
+    {
+      "id": "claim-strategic-direction-allegation",
+      "type": "incident",
+      "predicate": "allegedly_set_goals_and_direction",
+      "value": {
+        "organizations": [
+          "Yanbian Silverstar",
+          "Volasys Silverstar"
+        ],
+        "scope": "managers and employees"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 6, paragraph 14",
+          "quote": "As Mission Representative, JONG SONG HWA set the strategic goals of, and gave orders and direction to, managers and employees of Yanbian Silverstar and Volasys Silverstar."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Defendant-specific charged allegation; no present control is inferred.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-revenue-expectation-allegation",
+      "type": "incident",
+      "predicate": "allegedly_set_monthly_revenue_expectation",
+      "value": {
+        "currency": "USD",
+        "amount": 10000,
+        "period": "monthly",
+        "scope": "each IT worker at Yanbian Silverstar and Volasys Silverstar"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 6, paragraph 14",
+          "quote": "JONG SONG HWA expected every IT worker at Yanbian Silverstar and Volasys Silverstar to generate at least $10,000 in revenue for the DPRK every month."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation, not an adjudicated fact.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-socialism-competitions-allegation",
+      "type": "incident",
+      "predicate": "allegedly_organized_worker_revenue_competitions",
+      "value": {
+        "organizations": [
+          "Yanbian Silverstar",
+          "Volasys Silverstar"
+        ],
+        "label": "socialism competitions",
+        "with": [
+          "Kim Ryu Song",
+          "Ri Kyong Sik"
+        ],
+        "reported_incentives": "bonuses and other prizes"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 17",
+          "quote": "Among other things, JONG SONG HWA, KIM RYU SONG, and RI KYONG SIK organized periodic \"socialism competitions,\" where Yanbian Silverstar and Volasys Silverstar IT workers would compete to generate money for the DPRK through IT work, and they awarded bonuses and other prizes to the top performers in the competition."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Defendant-specific indictment allegation; not an adjudicated finding or a claim that all competition activity was personally performed by Jong.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-extortion-direction-allegation",
+      "type": "incident",
+      "predicate": "named_in_extortion_direction_allegation",
+      "value": {
+        "scope": "Yanbian and Volasys employees, group leaders, and other alleged conspirators"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 8–9, paragraph 25, sentence continuing onto printed p. 9",
+          "quote": "At the direction of JONG SONG HWA, KIM RYU SONG, RI KYONG SIK, RIM UN CHOL, and KIM MU RIM, the Yanbian Employees, Group Leaders, and other conspirators sent the salary or extortion payments they received to accounts controlled by the DPRK, including accounts at banks based in the PRC."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charged allegation explicitly naming Jong; not a conviction and not a claim that every scheme method was personally performed by him.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "alleged_scheme_period": "approximately April 2017 to approximately March 2023"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, caution",
+          "quote": "Jong Song Hwa is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-e5856064bd6a",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Jong Song Hwa in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Wanted and warrant status do not establish guilt. The official API record was last modified in March 2026 and was retrieved successfully on 2026-08-14."
+      ]
+    },
+    {
+      "id": "claim-rfj-program-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s13",
+          "locator": "About section and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, reward_text",
+          "quote": "The Rewards For Justice Program, United States Department of State, is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Program-level reward language on pages associated with Jong and the listed network. It must not be presented as a USD 5 million individual arrest reward, guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-fbi-china-russia-ties",
+      "type": "location",
+      "predicate": "fbi_reported_country_ties_or_possible_travel",
+      "value": {
+        "countries": [
+          "China",
+          "Russia"
+        ],
+        "wording": "has ties to or may visit",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, remarks",
+          "quote": "Jong Song Hwa has ties to or may visit China and Russia."
+        },
+        {
+          "source_id": "src-e5856064bd6a",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Jong Song Hwa has ties to or may visit China and Russia."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Coarse FBI-reported country context only. It does not establish residence, an itinerary, a current visit, or present location."
+      ]
+    },
+    {
+      "id": "claim-link-only-fbi-image",
+      "type": "image",
+      "predicate": "official_link_only_wanted_page_image",
+      "value": {
+        "media_type": "official wanted-page images",
+        "source_url": "https://www.fbi.gov/wanted/cyber/jong-song-hwa",
+        "handling": "link_only",
+        "reuse_status": "editorial_review_required"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-2526579a96b6",
+          "locator": "Jong Song Hwa API object, title, url, and images metadata",
+          "quote": "https://www.fbi.gov/wanted/cyber/jong-song-hwa"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Link to the official context page only. No direct asset export, cache, crop, republication, facial recognition, appearance comparison, or identity inference is authorized; charged and wanted status does not establish guilt or current appearance."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jong Song Hwa is the officially named and charged identity. Zheng Chenghua and Jong Song Hua are official FBI aliases for this same record; same-name public accounts, separate civil identities, and image-similarity matches remain separate records."
+}

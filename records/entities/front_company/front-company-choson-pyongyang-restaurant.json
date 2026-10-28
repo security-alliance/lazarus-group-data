@@ -1,0 +1,48 @@
+{
+  "id": "front-company-choson-pyongyang-restaurant",
+  "type": "front_company",
+  "name": "Choson Pyongyang Restaurant",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT reports that a room in the building housing Choson Pyongyang Restaurant served as a GRIB IT-worker base; the restaurant record is limited to that report.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "Source-bounded organization record; merge similar names only with an explicit source link.",
+    "This record retains no street addresses, payment selectors, or private contact data."
+  ],
+  "identity_boundary": "The organization label Choson Pyongyang Restaurant is reported by MSMT; another entity sharing a name or transliteration requires an explicit source link before merging.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Choson Pyongyang Restaurant.",
+      "locator": "PDF p. 71, Laos IT-worker discussion"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-front-company-choson-pyongyang-restaurant",
+      "type": "organization_affiliation",
+      "predicate": "grib_it_worker_base",
+      "value": {
+        "organization": "Choson Pyongyang Restaurant"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 71, Laos IT-worker discussion",
+          "quote": "Consequently, the local North Korean diplomatic mission staff in Laos rented two rooms in the building that houses the North Korean Choson Pyongyang Restaurant in Vang Vieng. One room served as a base for IT workers of the GRIB."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

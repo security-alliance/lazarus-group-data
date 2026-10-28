@@ -1,0 +1,511 @@
+{
+  "id": "facilitator-audricus-phagnasay",
+  "type": "facilitator",
+  "name": "Audricus Phagnasay",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced on March 19, 2026 in S.D. Ga. docket 1:25-cr-00061-JRH-BKE to three years of probation, a $2,000 fine, and a $100 special assessment, with restitution recorded as $0 and $681,926 forfeiture. Probation supervision later transferred to E.D. Cal. docket 1:26-cr-00093-KES; the transfer left the conviction and sentence unchanged.",
+    "as_of": "2026-08-18",
+    "source_ids": [
+      "DOLG25-S01A-PHAGNASAY-DOCKET-27",
+      "DOLG25-S01B-PHAGNASAY-JUDGMENT-29",
+      "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+      "DOLG25-S01D-PHAGNASAY-EDCA-DOCKET",
+      "dln26-s05",
+      "flr6-s01",
+      "flr6-s06",
+      "flr6-s07",
+      "sar55-s01-phagnasay-edca-feed"
+    ]
+  },
+  "legal_or_reported_name": "Audricus Phagnasay",
+  "ttps": [
+    "assistance passing employer vetting",
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "The later public transfer-packet source independently supplies the controlling signed judgment; this record follows that judgment for imprisonment terms.",
+    "The controlling signed judgment establishes probation, fine, assessment, no-restitution, and forfeiture terms; imprisonment carries no imposed term.",
+    "The E.D. California docket records a probation-supervision transfer and administrative closure; it preserves the conviction's procedural history without creating a second prosecution, new sentence, or dismissal of the conviction.",
+    "Only defendant-specific plea, sentence and role facts in the cited DOJ release are assigned to this person; aggregate enforcement totals remain separate.",
+    "This is an administrative transfer of probation supervision and closure of the transfer docket; second prosecution, new sentence, dismissal of the conviction, and merits change fall outside it.",
+    "This is an exact sentence-detail correction; conviction or sentencing status is unchanged."
+  ],
+  "infrastructure": [
+    {
+      "type": "probation-supervision-transfer",
+      "value": "E.D. Cal. No. 1:26-cr-00093-KES",
+      "receiving_case_filed": "2026-05-22",
+      "transfer_documents_received": "2026-06-02",
+      "source_ids": [
+        "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+        "DOLG25-S01D-PHAGNASAY-EDCA-DOCKET"
+      ]
+    },
+    {
+      "type": "criminal-case-docket",
+      "value": "S.D. Ga. No. 1:25-cr-00061-JRH-BKE",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s01",
+        "flr6-s06",
+        "flr6-s07"
+      ]
+    },
+    {
+      "type": "criminal-sentence-detail",
+      "value": "S.D. Ga. No. 1:25-cr-00061-JRH-BKE",
+      "sentence_date": "2026-03-19",
+      "sentence": "three years of probation; $2,000 fine; $100 special assessment; no restitution; $681,926 forfeiture",
+      "source_ids": [
+        "DOLG25-S01A-PHAGNASAY-DOCKET-27",
+        "DOLG25-S01B-PHAGNASAY-JUDGMENT-29",
+        "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-audricus-phagnasay"
+  ],
+  "sources": [
+    {
+      "source_id": "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+      "support": "The public E.D. California transfer packet contains the controlling signed Southern District judgment confirming a March 19, 2026 sentence of three years probation, a $2,000 fine, a $100 assessment, no restitution, and incorporation of the $681,926 final forfeiture order entered January 22, 2026",
+      "locator": "E.D. Cal. No. 1:26-cr-00093-KES, Doc. 3, PDF pp. 1-3 and 11-16"
+    },
+    {
+      "source_id": "flr6-s06",
+      "support": "The filed information identifies United States v. Audricus Phagnasay, S.D. Ga. No. 1:25-cr-00061-JRH-BKE",
+      "locator": "S.D. Ga. No. 1:25-cr-00061-JRH-BKE, Doc. 1, caption and Count One"
+    },
+    {
+      "source_id": "flr6-s07",
+      "support": "The signed plea agreement identifies the Phagnasay criminal docket and guilty-plea posture",
+      "locator": "S.D. Ga. No. 1:25-cr-00061-JRH-BKE, Doc. 14, pages 1-4 and factual basis"
+    },
+    {
+      "source_id": "DOLG25-S01A-PHAGNASAY-DOCKET-27",
+      "support": "The public docket description states that Phagnasay was sentenced to three years of probation, a $2,000 fine, and a $100 special assessment",
+      "locator": "Document 27 docket description, filed March 19, 2026"
+    },
+    {
+      "source_id": "DOLG25-S01B-PHAGNASAY-JUDGMENT-29",
+      "support": "The public signed-judgment docket description repeats the sentence: three years of probation, a $2,000 fine, and a $100 special assessment",
+      "locator": "Document 29 docket description, filed March 23, 2026"
+    },
+    {
+      "source_id": "sar55-s01-phagnasay-edca-feed",
+      "support": "The CourtListener Atom feed reproduces the same defendant-specific court-docket transfer entries and dates as the previously reviewed docket page",
+      "locator": "Atom entry 2, published 2026-05-22; Atom entry 3, published 2026-06-02"
+    },
+    {
+      "source_id": "DOLG25-S01D-PHAGNASAY-EDCA-DOCKET",
+      "support": "The receiving docket records transfer of probation supervision from the Southern District of Georgia to E.D. Cal. No. 1:26-cr-00093-KES and receipt of transfer documents on June 2, 2026",
+      "locator": "Docket header and Documents 2-3, May 22 and June 2, 2026"
+    },
+    {
+      "source_id": "dln26-s05",
+      "support": "Audricus Phagnasay pleaded guilty on November 13, 2025, to conspiracy to commit wire fraud and admitted helping overseas workers pass employer vetting",
+      "locator": "Three Guilty Pleas — Southern District of Georgia; Oleksandr Didenko Guilty Plea; Erick Ntekereze Prince Guilty Plea"
+    },
+    {
+      "source_id": "flr6-s01",
+      "support": "DOJ reports that Audricus Phagnasay pleaded guilty, was sentenced, assisted overseas workers in passing employer vetting, received at least $3,450, and was ordered to forfeit $681,926. The release does not state the exact sentencing date, and its approximately $1.28 million salary total is aggregate rather than Phagnasay-specific.",
+      "locator": "Opening; common plea-conduct paragraphs; defendant-specific paragraph for Audricus Phagnasay"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name",
+      "type": "identity_name",
+      "predicate": "legal_name_in_plea_order",
+      "value": {
+        "name": "Audricus Phagnasay"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 15, caption",
+          "quote": "UNITED STATES OF AMERICA v. AUDRICUS PHAGNASAY"
+        }
+      ],
+      "observed_at": "2025-11-13"
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the Southern District of Georgia",
+        "docket": "1:25-cr-00061-JRH-BKE"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 1, filing header",
+          "quote": "Case 1:25-cr-00061-JRH-BKE     Document 14     Filed 11/13/25"
+        }
+      ],
+      "observed_at": "2025-11-13"
+    },
+    {
+      "id": "claim-guilty-plea",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty",
+      "value": {
+        "offense": "wire fraud conspiracy",
+        "statute": "18 U.S.C. § 1349"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 1, §1 Guilty Plea",
+          "quote": "agrees to waive that right and enter a plea of guilty to Count One of the Information, which charges a violation of 18 U.S.C. § 1349, Wire Fraud Conspiracy."
+        }
+      ],
+      "observed_at": "2025-11-13",
+      "notes": [
+        "The court accepted the plea in the signed order on PDF p. 15."
+      ]
+    },
+    {
+      "id": "claim-identity-use",
+      "type": "incident",
+      "predicate": "allowed_identity_use",
+      "value": {
+        "purpose": "overseas IT-worker employment scheme",
+        "start": "2019-12-10",
+        "end": "2021-12-13"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 3, factual basis, paragraph beginning “In furtherance”",
+          "quote": "from on or about December 10, 2019, until on or about December 13, 2021, the Defendant knowingly allowed his identity to be used by overseas IT workers"
+        }
+      ],
+      "observed_at": "2021-12-13",
+      "notes": [
+        "This date-bounded admission was newly established at profile-claim granularity during the pilot; it does not identify the overseas workers as the defendant."
+      ]
+    },
+    {
+      "id": "claim-employer-vetting",
+      "type": "relationship",
+      "predicate": "enabled_employer_vetting",
+      "value": {
+        "method": "video interviews"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 3, factual basis, item (3)",
+          "quote": "pass employer vetting procedures such as video interviews"
+        }
+      ],
+      "observed_at": "2021-12-13",
+      "notes": [
+        "The plea does not say he personally appeared in each interview; the claim is limited to enabling the process."
+      ]
+    },
+    {
+      "id": "claim-financial-services-enablement",
+      "type": "account",
+      "predicate": "allowed_accounts_in_name",
+      "value": {
+        "account_class": "financial services accounts",
+        "purpose": "receive employer payments"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 3, factual basis, item (4)",
+          "quote": "open financial services accounts in the Defendant’s name to receive payments from U.S. companies for work the Defendant was not performing."
+        }
+      ],
+      "observed_at": "2021-12-13",
+      "notes": [
+        "No provider, account number, transaction, or current ownership is recorded. The historical observation does not establish present account ownership."
+      ]
+    },
+    {
+      "id": "claim-laptop-hosting",
+      "type": "infrastructure",
+      "predicate": "hosted_employer_laptops",
+      "value": {
+        "device_class": "company-provided laptops"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 3, factual basis, second paragraph",
+          "quote": "The Defendant received laptops at his home provided by U.S. companies to overseas IT workers who were using the Defendant’s identity."
+        }
+      ],
+      "observed_at": "2021-12-13",
+      "notes": [
+        "The residential address and victim-company identities are excluded."
+      ]
+    },
+    {
+      "id": "claim-remote-access-software",
+      "type": "infrastructure",
+      "predicate": "installed_remote_access_software",
+      "value": {
+        "software_class": "unauthorized remote access software",
+        "device_class": "company-provided laptops"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF p. 3, factual basis, second paragraph",
+          "quote": "The Defendant also installed unauthorized remote access software on company-provided laptops and allowed overseas IT workers using his identity to access the laptops remotely"
+        }
+      ],
+      "observed_at": "2021-12-13",
+      "notes": [
+        "No unsupported software product or current infrastructure is inferred."
+      ]
+    },
+    {
+      "id": "claim-company-impact",
+      "type": "incident",
+      "predicate": "caused_companies_to_hire_workers",
+      "value": {
+        "us_companies_minimum": 10
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s07",
+          "locator": "PDF pp. 3-4, factual basis",
+          "quote": "The Defendant’s actions caused at least ten U.S. companies to hire one or more overseas IT workers"
+        }
+      ],
+      "observed_at": "2021-12-13",
+      "notes": [
+        "Victim-company names and the aggregate salary amount are excluded."
+      ]
+    },
+    {
+      "id": "claim-probation-sentence",
+      "type": "legal_event",
+      "predicate": "sentenced_to_probation",
+      "value": {
+        "years": 3,
+        "sentence_date": "2026-03-19",
+        "judgment_signed_and_filed": "2026-03-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DOLG25-S01A-PHAGNASAY-DOCKET-27",
+          "locator": "Document 27 public docket description, filed March 19, 2026",
+          "quote": "Def sentenced to 3 years probation; $2000 fine; $100 special assessment."
+        },
+        {
+          "source_id": "DOLG25-S01B-PHAGNASAY-JUDGMENT-29",
+          "locator": "Document 29 public docket description, filed March 23, 2026",
+          "quote": "JUDGMENT as to Audricus Phagnasay (1), Count 1, 3 years probation; $2000 fine; $100 special assessment."
+        },
+        {
+          "source_id": "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+          "locator": "Packet p. 11 / judgment p. 1, Date of Imposition of Judgment; packet p. 12 / judgment p. 2, Probation",
+          "quote": "You are hereby sentenced to probation for a term of: 3 years."
+        }
+      ],
+      "observed_at": "2026-03-19",
+      "notes": [
+        "The controlling signed judgment was recovered in the E.D. California transfer packet and confirms the docket descriptions; no imprisonment term was imposed or inferred."
+      ]
+    },
+    {
+      "id": "claim-fine",
+      "type": "legal_event",
+      "predicate": "ordered_fine",
+      "value": {
+        "amount_usd": 2000
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DOLG25-S01B-PHAGNASAY-JUDGMENT-29",
+          "locator": "Document 29 public docket description, filed March 23, 2026",
+          "quote": "JUDGMENT as to Audricus Phagnasay (1), Count 1, 3 years probation; $2000 fine; $100 special assessment."
+        },
+        {
+          "source_id": "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+          "locator": "Packet p. 15 / judgment p. 5, Criminal Monetary Penalties totals",
+          "quote": "Assessment $100     Restitution N/A     Fine $2,000"
+        }
+      ],
+      "observed_at": "2026-03-19",
+      "notes": [
+        "A public adjudicated monetary penalty, not a private financial selector; payment-schedule details are not promoted as a separate profile claim."
+      ]
+    },
+    {
+      "id": "claim-special-assessment",
+      "type": "legal_event",
+      "predicate": "ordered_special_assessment",
+      "value": {
+        "amount_usd": 100
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DOLG25-S01B-PHAGNASAY-JUDGMENT-29",
+          "locator": "Document 29 public docket description, filed March 23, 2026",
+          "quote": "JUDGMENT as to Audricus Phagnasay (1), Count 1, 3 years probation; $2000 fine; $100 special assessment."
+        },
+        {
+          "source_id": "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+          "locator": "Packet p. 15 / judgment p. 5, Criminal Monetary Penalties totals",
+          "quote": "Assessment $100     Restitution N/A     Fine $2,000"
+        }
+      ],
+      "observed_at": "2026-03-19",
+      "notes": [
+        "A public adjudicated monetary penalty, not a private financial selector."
+      ]
+    },
+    {
+      "id": "claim-defendant-receipts",
+      "type": "incident",
+      "predicate": "doj_reported_scheme_receipts",
+      "value": {
+        "minimum_usd": 3450
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s01",
+          "locator": "Defendant-specific conduct paragraph beginning ‘Travis’",
+          "quote": "Phagnasay and Salazar earned at least $3,450 and $4,500, respectively."
+        }
+      ],
+      "observed_at": "2026-03-20",
+      "notes": [
+        "The amount is defendant-specific. The release-wide approximately $1.28 million salary total is not assigned solely to Phagnasay."
+      ]
+    },
+    {
+      "id": "claim-final-forfeiture-money-judgment",
+      "type": "legal_event",
+      "predicate": "ordered_forfeiture",
+      "value": {
+        "money_judgment_usd": 681926,
+        "final_order_entered": "2026-01-22"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DOLG25-S01C-PHAGNASAY-TRANSFER-PACKET",
+          "locator": "Packet p. 16 / judgment p. 6, Schedule of Payments, forfeiture paragraph",
+          "quote": "The defendant shall forfeit the defendant’s interest in the following property to the United States: a money judgment in the amount of $681,926, as stated in this Court’s Final Order of Forfeiture entered on January 22, 2026, which is incorporated into this judgment by specific reference."
+        },
+        {
+          "source_id": "flr6-s01",
+          "locator": "Opening defendant-specific sentence paragraph",
+          "quote": "Jason Salazar, 30, of Clovis, California, and Audricus Phagnasay, 25, of Fresno, California, were sentenced and ordered to forfeit $409,876 and $681,926, respectively."
+        }
+      ],
+      "observed_at": "2026-01-22",
+      "notes": [
+        "The DOJ sentence uses a joint sentence construction with Jason Salazar; ‘respectively’ assigns $681,926 to Phagnasay, and the signed judgment independently confirms the amount and final-order date."
+      ]
+    },
+    {
+      "id": "claim-probation-jurisdiction-transfer",
+      "type": "legal_event",
+      "predicate": "probation_supervision_jurisdiction_transferred",
+      "value": {
+        "from_court": "U.S. District Court for the Southern District of Georgia",
+        "to_court": "U.S. District Court for the Eastern District of California",
+        "receiving_docket": "1:26-cr-00093-KES",
+        "receiving_case_filed": "2026-05-22",
+        "transfer_documents_received": "2026-06-02"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DOLG25-S01D-PHAGNASAY-EDCA-DOCKET",
+          "locator": "Docket header and Documents 2-3",
+          "quote": "TRANSFER of JURISDICTION (PROBATION 22 In) signed on 5/22/2026 as to Audricus Phagnasay from Southern District of Georgia. DEFENDANT TERMINATED. CASE CLOSED."
+        },
+        {
+          "source_id": "DOLG25-S01D-PHAGNASAY-EDCA-DOCKET",
+          "locator": "Document 3, filed June 2, 2026",
+          "quote": "TRANSFER DOCUMENTS RECEIVED from Southern District of Georgia re Probation 22 as to Audricus Phagnasay."
+        },
+        {
+          "source_id": "sar55-s01-phagnasay-edca-feed",
+          "locator": "Atom entry 2, published 2026-05-22",
+          "quote": "TRANSFER of JURISDICTION (PROBATION 22 In) signed on 5/22/2026 as to Audricus Phagnasay from Southern District of Georgia. DEFENDANT TERMINATED. CASE CLOSED."
+        },
+        {
+          "source_id": "sar55-s01-phagnasay-edca-feed",
+          "locator": "Atom entry 3, published 2026-06-02",
+          "quote": "TRANSFER DOCUMENTS RECEIVED from Southern District of Georgia re Probation 22 as to Audricus Phagnasay."
+        }
+      ],
+      "observed_at": "2026-06-02",
+      "notes": [
+        "This is a transfer of probation-supervision jurisdiction and administrative closure of the receiving transfer docket, not a second prosecution, new sentence, acquittal, dismissal of the conviction, or merits change."
+      ]
+    },
+    {
+      "id": "claim-audricus-phagnasay-coarse-historical-location",
+      "type": "location",
+      "predicate": "official_source_reported_coarse_historical_location",
+      "value": {
+        "location": "Fresno, California, United States",
+        "context": "DOJ sentence-time city descriptor",
+        "present_location_inferred": false,
+        "precise_location_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s01",
+          "locator": "Opening defendant-specific sentence paragraph",
+          "quote": "Jason Salazar, 30, of Clovis, California, and Audricus Phagnasay, 25, of Fresno, California, were sentenced and ordered to forfeit $409,876 and $681,926, respectively."
+        }
+      ],
+      "observed_at": "2026-03-20",
+      "notes": [
+        "Coarse source-time geography only; it does not establish present residence, custody, travel, precise location, or continued presence.",
+        "Street addresses, residential details, facility details, and other precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Audricus Phagnasay is the defendant in S.D. Ga. docket 1:25-cr-00061-JRH-BKE; his admitted conduct and sentence remain distinct from aggregate campaign facts and from the overseas workers who used his identity."
+}

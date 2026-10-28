@@ -1,0 +1,48 @@
+{
+  "id": "dhgr9-ttp-ordinary-work-insider-access-cyber-support-boundary",
+  "type": "ttp",
+  "name": "Boundary between ordinary IT work, insider-enabled access, and cyber support",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHGR9-S01-US-INTERAGENCY-2022"
+    ]
+  },
+  "ttps": [
+    "access-continuity",
+    "least-privilege",
+    "shared-code"
+  ],
+  "caveats": [
+    "An advisory's possible access pathway is a pathway description; employee or contractor hacker status requires case-specific evidence.",
+    "Foreign contractors, customers, local companies, schools, universities, jurisdictions, networks, and service providers require direct evidence before treatment as knowing participants.",
+    "Keep employment fraud, insider-enabled access, logistical support, and external intrusion as separate evidence classes.",
+    "Retain as an analytical boundary and defensive lesson. It distinguishes fraudulent employment from external cyber operations; this record is not a new malware or intrusion cluster.",
+    "The source describes known and assessed risk as of May 2022; malicious-activity findings require case-specific employment evidence.",
+    "This is a historical, source-qualified program-level finding; current census and person, organization, jurisdiction, platform-user or technology-user status require current sources.",
+    "Use least privilege, code review, logging, and access-continuity controls for all remote staff rather than nationality-based screening."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-analytical-boundary",
+      "statement": "The advisory says DPRK IT workers normally perform IT work distinct from malicious cyber activity, while noting that some used contractor access to enable intrusions or provided logistical support such as virtual-infrastructure access, support for stolen-data sales, money laundering, virtual-currency transfers, or procurement. It explicitly says the workers themselves were unlikely to be involved in malicious cyber activity in some described support cases.",
+      "evidence_class": "official intelligence, sanctions, law-enforcement, and compliance synthesis",
+      "historical_boundary": "The source describes known and assessed risk as of May 2022; it does not prove malicious activity in every employment case.",
+      "source_ids": [
+        "DHGR9-S01-US-INTERAGENCY-2022"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DHGR9-S01-US-INTERAGENCY-2022",
+      "support": "The advisory says DPRK IT workers normally perform IT work distinct from malicious cyber activity, while noting that some used contractor access to enable intrusions or provided logistical support such as virtual-infrastructure access, support for stolen-data sales, money laundering, virtual-currency transfers, or procurement. It explicitly says the workers themselves were unlikely to be involved in malicious cyber activity in some described support cases",
+      "locator": "PDF pp. 1 and 4, executive warning and How DPRK IT Workers Operate"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

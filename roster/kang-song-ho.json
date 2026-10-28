@@ -1,0 +1,147 @@
+{
+  "id": "kang-song-ho",
+  "real_name": "Kang Song Ho",
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-kang-song-ho",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-30",
+    "caveats": [
+      "Identity boundary: MSMT-reported worker identity only. The historical handle roberto629 is source-scoped and does not establish present account control or a civil identity; do not merge by name or image similarity.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "KMCTC-wide methods or practices are not projected to Kang Song Ho personally.",
+      "Same-source depth from the already-admitted MSMT/2025/2 report; not independent corroboration or an independent source family.",
+      "The already-represented employment alias, presented-country field, email/contact and account selectors, client/victim identities, passport/identity details, and precise locations are excluded.",
+      "The three person-specific Annex 7 rows support only historical contract-target geography and listed/aggregate rate and workload metadata; duration and current or continuous employment are not established.",
+      "Source-reported alias labels with no platform stated: roberto629. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "MSMT lists 'roberto629' in its Alias column and names no platform. No live account on any platform is identified with this record; an unrelated GitHub account with a similar name exists and is not connected.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-kang-song-ho-kmctc-affiliation",
+      "label": "Msmt reported kmctc worker affiliation",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Case Study: Korea Mangyongdae Computer Technology Corporation, PDF p. 58 / printed p. 56, opening paragraph",
+          "quote": "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 introduction, printed p. 107 / PDF p. 109",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, printed p. 108 / PDF p. 110",
+          "quote": "Kang Song Ho"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-song-ho-msmt-contract-target-summary-round67",
+      "label": "Msmt reported historical contract target engagement summary",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108); alias and contact selector omitted",
+          "quote": "Canada \n$34/hour, 30 \nhours/week"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108); alias and contact selector omitted",
+          "quote": "United \nStates \n$30/hour, 30 \nhours/week"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108); alias and contact selector omitted",
+          "quote": "United \nStates \n$30/hour, 25 \nhours/week"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-song-ho-reported-name",
+      "label": "Msmt reported worker name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, printed p. 108 / PDF p. 110",
+          "quote": "Kang Song Ho"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-song-ho-roberto-canada-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, first Kang Song Ho / roberto629 row, printed p. 108 / PDF p. 110; selector and rate omitted",
+          "quote": "roberto629 \nArgentina \nCanada \n$34/hour, 30 \nhours/week \n-"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-song-ho-roberto-handle",
+      "label": "Historical source reported employment handle",
+      "category": "account",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, Kang Song Ho row, printed p. 108 / PDF p. 110",
+          "quote": "roberto629"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-song-ho-roberto-us-engagement-one",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, second Kang Song Ho / roberto629 row, printed p. 108 / PDF p. 110; selector and rate omitted",
+          "quote": "roberto629 \nArgentina \nUnited \nStates \n$30/hour, 30 \nhours/week \n-"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-song-ho-roberto-us-engagement-two",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, third Kang Song Ho / roberto629 row, printed p. 108 / PDF p. 110; selector and rate omitted",
+          "quote": "roberto629 \nArgentina \nUnited \nStates \n$30/hour, 25 \nhours/week \n-"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

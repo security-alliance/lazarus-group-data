@@ -1,0 +1,82 @@
+{
+  "id": "dimf-ttp-continuous-device-address-payment-assurance",
+  "type": "ttp",
+  "name": "Continuous device, address, and payment assurance",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S05",
+      "DIMF-S06",
+      "DIMF-S07"
+    ]
+  },
+  "ttps": [
+    "continuous-identity-assurance",
+    "device-chain-of-custody",
+    "payment-change-review"
+  ],
+  "caveats": [
+    "Limit collection to necessary employment and security data with documented retention and access controls.",
+    "Named vendor investigators and multi-source reporting support the control, while individual indicators remain nonspecific.",
+    "A single address, country, payment service, remote-work request, or BYOD choice is contextual; DPRK affiliation requires corroborated evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "Organizations should reverify identity and work location when material facts change, correlate shipping and device custody with endpoint telemetry, and review unexpected payment-routing or address changes together with other evidence."
+      ],
+      "limitations": [
+        "Named vendor investigators and multi-source reporting support the control, while individual indicators remain nonspecific.",
+        "No single address, country, payment service, remote-work request, or BYOD choice proves DPRK affiliation.",
+        "Limit collection to necessary employment and security data with documented retention and access controls."
+      ],
+      "source_ids": [
+        "DIMF-S05",
+        "DIMF-S06",
+        "DIMF-S07"
+      ]
+    },
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S05",
+        "DIMF-S06",
+        "DIMF-S07"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "existing continuous re-verification and endpoint chain-of-custody controls"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S07",
+      "support": "Fortune describes identity theft, domestically hosted employer laptops, communication platforms, and gig-platform use as linked parts of the reported operating model",
+      "locator": "Opening operational overview; sections on identity theft, laptop farms, communication tools, gig platforms, and management structure"
+    },
+    {
+      "source_id": "DIMF-S06",
+      "support": "Axios describes employment-fraud activity that can progress from recruitment and company discovery into company access",
+      "locator": "Opening scope; sections on recruitment, company discovery, data access, and the split between employment fraud and separate malicious campaigns"
+    },
+    {
+      "source_id": "DIMF-S05",
+      "support": "The Guardian reports investigator-observed patterns involving bring-your-own-device requests, avoidance of video, changed work or shipping addresses, and changes in wage routing",
+      "locator": "Named-source passages on UK targeting, facilitator physical presence, BYOD, video avoidance, address changes, and wage-routing changes"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

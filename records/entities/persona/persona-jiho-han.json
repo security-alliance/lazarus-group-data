@@ -1,0 +1,204 @@
+{
+  "id": "persona-jiho-han",
+  "type": "persona",
+  "name": "Jiho Han",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "John Doe is a defendant charged under the reported alias Jiho Han; the underlying legal identity remains publicly undisclosed.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-5353a9559e88",
+      "gov-b385deb5f41c"
+    ]
+  },
+  "ttps": [
+    "foreign money-transfer account used to receive payroll associated with laptops hosted at Chapman residences"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "The indictment charges a John Doe under this alias; the underlying legal identity is not public. The RFJ image remains source context; actor-portrait verification requires separate source evidence.",
+    "The underlying legal identity remains unpublished; publish only as an officially reported alias/persona."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-5353a9559e88",
+      "support": "Rewards for Justice names Jiho Han, Chunji Jin, Haoran Xu, and Zhonghua as employment aliases in the Chapman scheme; the page does not establish that the person shown in its image is the underlying actor",
+      "locator": "Named-alias list and campaign image"
+    },
+    {
+      "source_id": "gov-b385deb5f41c",
+      "support": "The indictment charges John Doe 1 under the alias Jiho Han and alleges that Han used a foreign money-transfer account to receive payroll associated with laptops hosted at Chapman’s residences",
+      "locator": "D.D.C. No. 1:24-cr-00173-TSC, caption and ¶13, pp. 1 and 8–9"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jiho-indictment-alias-forms",
+      "type": "alias",
+      "predicate": "officially_reported_charged_alias_forms",
+      "value": {
+        "employment_alias": "Jiho Han",
+        "source_scoped_non_latin_form": "한지호",
+        "placeholder": "JOHN DOE 1"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 8, paragraph 13 alias clause",
+          "quote": "JOHN DOE 1, alias 한지호 Jiho HAN (HAN)"
+        },
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, second body paragraph",
+          "quote": "The Department is seeking information on North Korean information technology (IT) workers using aliases Jiho Han, Chunji Jin, and Haoran Xu, and their manager Zhonghua."
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "Alias, source-scoped written form, and John Doe placeholder only; the reviewed sources do not disclose the person's underlying civil identity."
+      ]
+    },
+    {
+      "id": "claim-jiho-defendant-caption-posture",
+      "type": "legal_event",
+      "predicate": "named_in_superseding_indictment_defendant_caption",
+      "value": {
+        "court": "U.S. District Court for the District of Columbia",
+        "case": "United States v. Chapman et al.",
+        "posture": "JOHN DOE 1 charged under the alias Jiho Han"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 1, defendant caption",
+          "quote": "JOHN DOE 1, alias JIHO HAN,"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "The caption records a charged alias for an unidentified John Doe defendant. Charges are allegations, the defendant is presumed innocent, and no conviction or underlying legal identity is inferred."
+      ]
+    },
+    {
+      "id": "claim-jiho-rfj-false-identity-scheme",
+      "type": "incident",
+      "predicate": "rfj_collective_false_identity_telework_scheme",
+      "value": {
+        "collective_subjects": [
+          "Jiho Han",
+          "Chunji Jin",
+          "Haoran Xu"
+        ],
+        "activity": "obtained telework employment using false identities belonging to more than 60 real U.S. persons"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, second body paragraph",
+          "quote": "These individuals engaged in a scheme that enabled Han, Jin, and Xu to obtain illicit telework employment with U.S. companies using false identities belonging to more than 60 real U.S. persons."
+        }
+      ],
+      "notes": [
+        "Collective Rewards for Justice attribution only. It is not treated as an adjudicated finding or as evidence identifying the real persons whose identities were misused."
+      ]
+    },
+    {
+      "id": "claim-jiho-rfj-collective-revenue",
+      "type": "incident",
+      "predicate": "rfj_collective_scheme_revenue_report",
+      "value": {
+        "amount_floor_usd": 6800000,
+        "beneficiary": "DPRK",
+        "allocation": "collective scheme total; no individual allocation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, second body paragraph",
+          "quote": "The illicit scheme generated at least $6.8 million for the DPRK."
+        }
+      ],
+      "notes": [
+        "The amount is retained only as the official page's collective scheme report and is not assigned to Jiho Han individually."
+      ]
+    },
+    {
+      "id": "claim-jiho-rfj-developer-work",
+      "type": "employment",
+      "predicate": "rfj_collective_remote_developer_work",
+      "value": {
+        "role": "remote software and applications developer",
+        "reported_period": "about October 2020 until October 2023",
+        "facilitator": "Christina Chapman",
+        "scope": "collective statement about Han, Jin, and Xu"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, third body paragraph",
+          "quote": "From about October 2020 until October 2023, U.S. national Christina Chapman helped Han, Jin, and Xu obtain work as remote software and applications developers with companies in a range of sectors and industries."
+        }
+      ],
+      "notes": [
+        "Collective Rewards for Justice characterization; no specific employer or individually allocated work period is asserted."
+      ]
+    },
+    {
+      "id": "claim-jiho-rfj-failed-government-applications",
+      "type": "incident",
+      "predicate": "rfj_collective_failed_government_employment_attempts",
+      "value": {
+        "attempted_employers": "two U.S. government agencies",
+        "outcome": "failed",
+        "scope": "collective statement about Han, Jin, and Xu"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, third body paragraph",
+          "quote": "They also attempted — but failed — to gain similar employment at two U.S. government agencies."
+        }
+      ],
+      "notes": [
+        "The agencies are not identified, and no individual attempt count is assigned to Jiho Han."
+      ]
+    },
+    {
+      "id": "claim-jiho-rfj-munitions-industry-link",
+      "type": "organization_affiliation",
+      "predicate": "rfj_collective_link_to_munitions_industry_department",
+      "value": {
+        "organization": "DPRK Munitions Industry Department",
+        "attribution_scope": "the three IT-worker aliases collectively"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, fourth body paragraph",
+          "quote": "These IT workers are linked to the DPRK’s Munitions Industry Department, which oversees the development of the DPRK’s ballistic missiles, weapons production, and research and development programs."
+        }
+      ],
+      "notes": [
+        "Rewards for Justice attribution only. The statement is retained collectively and does not establish a specific position, unit, or employment relationship for Jiho Han."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jiho Han is a source-reported employment alias used for the person charged as JOHN DOE 1 in the Chapman superseding indictment. The source-scoped form 한지호 belongs only to that charged-alias record; both forms are source-reported aliases, with civil-identity verification outside this record. Charges are allegations, the defendant is presumed innocent, same-named accounts remain separate records, and Rewards for Justice imagery remains source context with actor-portrait status outside this record."
+}

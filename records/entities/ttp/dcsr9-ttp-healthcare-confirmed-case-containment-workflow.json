@@ -1,0 +1,53 @@
+{
+  "id": "dcsr9-ttp-healthcare-confirmed-case-containment-workflow",
+  "type": "ttp",
+  "name": "Healthcare confirmed-case containment and enterprise-scoping workflow",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive workflow guidance informed by sector investigations; it covers workflow controls, with legal requirement, named incident, and compromise finding outside its scope.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCSR9-S02-AHA-FBI-HEALTHISAC-2026"
+    ]
+  },
+  "ttps": [
+    "code-and-work-product-review",
+    "credential-rotation",
+    "enterprise-related-artifact-scoping",
+    "identity-validation-beyond-interview",
+    "issued-equipment-custody-verification",
+    "least-privilege-and-access-restriction",
+    "security-and-legal-coordination"
+  ],
+  "caveats": [
+    "Evidence class: speaker guidance informed by sector investigations",
+    "Guidance and prospective scenarios are presented as guidance, while source-reported suspicion remains distinct from adjudicated fact.",
+    "Legal-status boundary: defensive guidance; legal requirement and compromise status require separate evidence.",
+    "Nationality, accent, language, appearance, geography, camera behavior, remote-work preference, job title, and any single technical signal require corroboration before attribution or adverse action.",
+    "Unnamed organizations and people remain unidentified in the source record.",
+    "Use only after a substantiated case or documented control trigger. Coworker nationality, school, recruiter, location, appearance, and other weak associations do not trigger search or discipline. Apply legal, privacy, and labor review.",
+    "Use proportionate, documented, privacy-preserving review with a meaningful human appeal path."
+  ],
+  "infrastructure": [
+    {
+      "type": "sector-informed-defensive-guidance",
+      "statement": "The AHA transcript recommends an incident workflow that brings security and legal teams together, validates identity beyond the interview, limits access, verifies physical possession of issued equipment, searches the enterprise for related identity artifacts, changes credentials and reviews code or other work product after a confirmed case.",
+      "evidence_class": "speaker guidance informed by sector investigations",
+      "sector": "healthcare and other regulated organizations",
+      "source_ids": [
+        "DCSR9-S02-AHA-FBI-HEALTHISAC-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DCSR9-S02-AHA-FBI-HEALTHISAC-2026",
+      "support": "The transcript reports Health-ISAC receiving healthcare-sector inquiries about suspected DPRK IT-worker applications or presence almost weekly and characterizes the issue as ongoing across organizations. The speakers recommend involving security and legal teams, validating identity beyond the interview, limiting access, verifying physical possession of issued equipment, searching enterprise data for related identity artifacts, changing credentials and reviewing code or other work product after a confirmed case. Evidence class: source-reported recurring sector observations and defensive guidance Legal-status boundary: Sector awareness and incident-response discussion; no named hospital, worker, charge, regulatory action or adjudicated event",
+      "locator": "Transcript section beginning John Riggi's North Korean IT-worker question through Michael McAndrews's response and containment recommendations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

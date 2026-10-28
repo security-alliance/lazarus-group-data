@@ -1,0 +1,89 @@
+{
+  "id": "ttp-waterplum-2026-advisory-scale",
+  "type": "ttp",
+  "name": "WaterPlum job-seeker targeting and cryptocurrency theft",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This record preserves the cited publication’s defensive research or advisory description; legal identity requires separate evidence.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "fbi-2026-09-18-waterplum-advisory",
+      "cyberscoop-2026-09-18-waterplum",
+      "therecord-2026-09-18-waterplum"
+    ]
+  },
+  "caveats": [
+    "The technique description is source-bounded; attribution or employment decisions require a separate rule and evidence.",
+    "This public dataset retains no victim details, contact selectors, addresses, credentials, wallets, or private data."
+  ],
+  "identity_boundary": "A source-bounded technique record for WaterPlum job-seeker targeting and cryptocurrency theft; link it to a person, persona, or campaign only with an explicit source link.",
+  "ttps": [
+    "WaterPlum job-seeker targeting and cryptocurrency theft"
+  ],
+  "sources": [
+    {
+      "source_id": "fbi-2026-09-18-waterplum-advisory",
+      "support": "FBI and partner agencies describe WaterPlum targeting IT professionals and associated IT-worker activity.",
+      "locator": "PDF pp. 1–3"
+    },
+    {
+      "source_id": "cyberscoop-2026-09-18-waterplum",
+      "support": "CyberScoop reports the advisory’s device and wallet scale.",
+      "locator": "News report body"
+    },
+    {
+      "source_id": "therecord-2026-09-18-waterplum",
+      "support": "The Record reports more than $10.5 million stolen in a North Korean campaign targeting job seekers.",
+      "locator": "News report opening"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ttp-waterplum-2026-scale",
+      "type": "incident",
+      "predicate": "reported_scale",
+      "value": {
+        "devices_lower_bound": 30000,
+        "countries_lower_bound": 100,
+        "wallets_lower_bound": 7000
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "fbi-2026-09-18-waterplum-advisory",
+          "locator": "PDF p. 2",
+          "quote": "WaterPlum actors have infected at least 30,000 devices in more than 100 countries and exfiltrated funds or account credentials from over 7,000 cryptocurrency wallets."
+        },
+        {
+          "source_id": "cyberscoop-2026-09-18-waterplum",
+          "locator": "News report body",
+          "quote": "Collectively, WaterPlum has infected more than 30,000 devices in more than 100 countries, targeting IT professionals in Japan, the United States, Europe and other nations."
+        }
+      ]
+    },
+    {
+      "id": "claim-therecord-2026-09-18-waterplum-waterplum-scale",
+      "type": "incident",
+      "predicate": "waterplum_scale",
+      "value": {
+        "publication": "therecord-2026-09-18-waterplum",
+        "statement": "The Record reports more than $10.5 million stolen in a North Korean campaign targeting job seekers."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "therecord-2026-09-18-waterplum",
+          "locator": "News report opening",
+          "quote": "More than $10.5 million has been stolen by North Korean hackers targeting job seekers as part of a long-running cyber campaign to infiltrate tech companies and fill Pyongyang’s coffers with illicitly gained funds."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

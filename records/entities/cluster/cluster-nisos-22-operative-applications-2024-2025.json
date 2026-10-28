@@ -1,0 +1,48 @@
+{
+  "id": "cluster-nisos-22-operative-applications-2024-2025",
+  "type": "cluster",
+  "name": "Nisos-reported 22-operative job-application campaign (2024–2025)",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Nisos reports application and employment-offer totals for a suspected DPRK IT-worker cell; these are publisher-reported observations with criminal adjudication outside the report.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "nisos-2026-09-01-dprk-investigation"
+    ]
+  },
+  "identity_boundary": "The cell is described in Nisos’s September 2026 coverage of applications between December 2024 and September 2025. The quoted totals remain separate from the Nisos June 2026 operation and its dashboard identifiers pending an identity link.",
+  "caveats": [
+    "Applications and offers describe recruitment stages, while completed hires are separate. Aggregate cell totals remain unassigned to individual workers or employers."
+  ],
+  "sources": [
+    {
+      "source_id": "nisos-2026-09-01-dprk-investigation",
+      "support": "Nisos reports over 170,000 applications by 22 operatives between December 2024 and September 2025, yielding 76 employment offers.",
+      "locator": "Nisos investigation summary"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-nisos-2026-09-01-dprk-investigation-application-volume",
+      "type": "incident",
+      "predicate": "application_volume",
+      "value": {
+        "publication": "nisos-2026-09-01-dprk-investigation",
+        "statement": "Nisos reports over 170,000 applications by 22 operatives between December 2024 and September 2025, yielding 76 employment offers."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "nisos-2026-09-01-dprk-investigation",
+          "locator": "Nisos investigation summary",
+          "quote": "This single cell submitted over 170,000 job applications across 22 operatives between December 2024 and September 2025, yielding 76 employment offers from US companies."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

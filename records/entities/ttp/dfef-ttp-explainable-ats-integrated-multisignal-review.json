@@ -1,0 +1,84 @@
+{
+  "id": "dfef-ttp-explainable-ats-integrated-multisignal-review",
+  "type": "ttp",
+  "name": "Explainable ATS-integrated multi-signal review",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure with defensive guidance; legal attribution remains at source and service level.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFEF-S08",
+      "DFEF-S09",
+      "DFEF-S10"
+    ]
+  },
+  "ttps": [
+    "direct-application",
+    "multiple-personas"
+  ],
+  "caveats": [
+    "Deep-first-party-platforms covers Greenhouse/CLEAR and Persona identity workflows; this adds ATS-native explainability, job-scoped configuration, and review/reporting mechanics.",
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims.",
+    "These pages provide platform guidance; DPRK-specific detection rate and validated performance remain unreported. Device and network attributes can create false positives for travelers, shared networks, accessibility tools, and privacy-protective users."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Configure deeper review for roles according to access and business risk",
+        "Surface specific signals and logs rather than a nationality or fraud verdict",
+        "Require multiple signals and a human determination",
+        "Retain auditable outcomes and trends while minimizing applicant data",
+        "Provide candidate notice, appeal, accessibility, and lawful data-retention controls"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S08",
+        "DFEF-S09",
+        "DFEF-S10"
+      ]
+    },
+    {
+      "type": "source-reported-behavior-or-platform-pattern",
+      "statements": [
+        "Ashby's product documentation illustrates a risk-based ATS workflow: customers select jobs for checks; the system considers device, IP, email, phone, location, identity, and assessment signals; reviewers see the underlying reasons; and humans mark outcomes rather than accepting an opaque fraud verdict."
+      ],
+      "limitations": [
+        "These pages provide no DPRK-specific detection rate or validated performance evidence. Device and network attributes can create false positives for travelers, shared networks, accessibility tools, and privacy-protective users.",
+        "Deep-first-party-platforms covers Greenhouse/CLEAR and Persona identity workflows; this adds ATS-native explainability, job-scoped configuration, and review/reporting mechanics."
+      ],
+      "source_ids": [
+        "DFEF-S08",
+        "DFEF-S09",
+        "DFEF-S10"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "drh-ttp-continuous-recruitment-integrity-governance"
+  ],
+  "sources": [
+    {
+      "source_id": "DFEF-S08",
+      "support": "Ashby says its ATS surfaces specific location, identity-verification, and assessment signals for customer review instead of issuing an opaque fraud verdict",
+      "locator": "Our Philosophy; What We Built"
+    },
+    {
+      "source_id": "DFEF-S10",
+      "support": "Ashby documents bulk fraud checks, completion logs, and a review queue filtered to candidates with multiple signals",
+      "locator": "Bulk Run Fraud Check action; completion log; filtered review queue"
+    },
+    {
+      "source_id": "DFEF-S09",
+      "support": "Ashby documents device, IP, email, and phone signals, multi-signal risk groupings, reviewer drill-down, manual determinations, and aggregate reporting",
+      "locator": "How Fraudulent Candidate Management in Ashby helps; signal types; reviewer workflow"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

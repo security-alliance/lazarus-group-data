@@ -1,0 +1,56 @@
+{
+  "id": "james-zook",
+  "real_name": "James Zook",
+  "aliases": [],
+  "fake_names": [
+    "Russel Hieu"
+  ],
+  "gender": "male",
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "russell-hieu"
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x38037C0fafae5c97D411c0460c5f0Af40F82B7bd",
+        "0x4480206854d67338c8b792a1db2a9189ee75d813",
+        "0xB5BcB3935e0B3e6A581FBA37F40D0F472CCf378A",
+        "0x1cF9a8fc7A5568B6Dca9f5F73200bC1De69e3ecE",
+        "BaHNYFQYsBKX541kjEB9sgoHCc7NQdwc16S5ZE9bmYYv"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/james-zook/james-zook-1.jpg",
+      "short_description": "James Zook 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/james-zook/james-zook-team.jpg",
+      "short_description": "James Zook team.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/images/no-photo.svg",
+      "short_description": "James Zook avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

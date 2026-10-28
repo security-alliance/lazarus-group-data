@@ -1,0 +1,83 @@
+{
+  "id": "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+  "type": "ttp",
+  "name": "Internal monitoring and minimum-revenue quotas drive concurrent employment and continuous identity acquisition",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "BBC first-person historical testimony, corroborated only in broad outline; defensive synthesis of cited public sources; technique mapping describes methods rather than an identity; universal rate estimate status is unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DRH-S01",
+      "DRH-S07",
+      "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-05-worker-monitoring-and-production-quota",
+      "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-05-worker-monitoring-and-production-quota"
+    ]
+  },
+  "ttps": [
+    "multiple-personas",
+    "multiple-simultaneous-jobs",
+    "regime-remittance",
+    "team-manager"
+  ],
+  "caveats": [
+    "ATT&CK references describe analogous observable behavior; employer-system use for DPRK internal surveillance requires source-specific evidence.",
+    "BBC could not independently verify every specific in the testimony, although another former-worker account and a separate defector supported the general description.",
+    "False-positive caution: Behavior may reflect labor exploitation or coercion. Preserve worker safety and legal obligations rather than treating every case solely as malicious insider conduct.",
+    "Many people lawfully hold multiple jobs or work flexible hours. Productivity metrics are error-prone and unsuitable for broad employee surveillance.",
+    "Jin-su is a source-protection pseudonym and must remain context-only.",
+    "The 85 percent figure comes from one former worker's historical account; a current program-wide rate requires broader data.",
+    "The protected BBC pseudonym Jin-su remains source context; it carries only the source's protected label."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The BBC's pseudonymous former worker said his China-based group generally worked in teams of ten and that he remitted 85 percent of earnings to the state-linked system.",
+        "He described holding multiple jobs across the United States and Europe and earning at least about $5,000 per month, while some colleagues earned more."
+      ],
+      "source_ids": [
+        "DRH-S01",
+        "DRH-S07"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "BBC reports 24-hour screen monitoring, sanctions for sustained underperformance, rising monthly revenue targets, and workers holding three or four company roles to meet quotas. UN S/2020/151 independently reports a minimum-earnings rule and removal for prolonged failure. Together they support a control mechanism that explains job volume and persona churn without converting those behaviors into standalone attribution signals."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-05-worker-monitoring-and-production-quota",
+        "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-05-worker-monitoring-and-production-quota"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-05-worker-monitoring-and-production-quota",
+      "support": "UN S/2020/151 reports a minimum-earnings rule and removal for prolonged failure",
+      "locator": "Para. 121, footnote 153, and annex 29"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-05-worker-monitoring-and-production-quota",
+      "support": "BBC reports continuous screen monitoring, sanctions for sustained underperformance, rising revenue targets, and concurrent jobs",
+      "locator": "Monitoring, quota, and multiple-company testimony"
+    },
+    {
+      "source_id": "DRH-S01",
+      "support": "The BBC's pseudonymous former worker said his China-based group generally worked in teams of ten and that he remitted 85 percent of earnings to the state-linked system. He described holding multiple jobs across the United States and Europe and earning at least about $5,000 per month, while some colleagues earned more",
+      "locator": "Opening through Getting the jobs; paragraphs beginning 'Jin-su says', 'Jin-su was an IT worker', and 'Jin-su spent most of his time'; A rare escape route"
+    },
+    {
+      "source_id": "DRH-S07",
+      "support": "Official BBC alternate-format reporting corroborates the broad former-worker account. It is contextual evidence only and does not identify the protected source",
+      "locator": "00:00-17:23; former-worker segment from 04:27; Hyun-Seung Lee segment from 07:53"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

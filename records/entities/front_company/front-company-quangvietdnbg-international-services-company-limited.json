@@ -1,0 +1,86 @@
+{
+  "id": "front-company-quangvietdnbg-international-services-company-limited",
+  "type": "front_company",
+  "name": "Quangvietdnbg International Services Company Limited",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. The entry describes a Vietnamese currency-conversion company under an administrative sanctions designation; criminal charge and conviction status are absent from this record.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dln26-s09",
+      "doar9-ofac-sdn-current",
+      "gov-54cada63e515",
+      "gov-e31464a55e89"
+    ]
+  },
+  "locations": [
+    "Hanoi, Vietnam (OFAC listing context)"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "The alias comes from the SDN entry and applies to the source-named entity; unrelated Shopar-named firms remain outside its scope.",
+    "Company identifiers, tax data, precise address fields, financial selectors, and any current-operation inference are excluded.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s09"
+      ],
+      "value": "Shopar International E-Trade Company Limited"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Nguyen Quang Viet",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    },
+    {
+      "type": "organization-establishment-date",
+      "value": "2022-07-04",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-quangvietdnbg-international-services-company-limited"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "OFAC designated six individuals and two entities across the DPRK, Vietnam, Laos, and Spain, including DPRK team lead Yun Song Guk and Amnokgang Technology Development Company",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks section"
+    },
+    {
+      "source_id": "dln26-s09",
+      "support": "OFAC lists the following aliases for Quangvietdnbg International Services Company Limited: Shopar International E-Trade Company Limited",
+      "locator": "Specially Designated Nationals List Update — YUN, Song Guk; AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY; QUANGVIETDNBG INTERNATIONAL SERVICES COMPANY LIMITED"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 57057 support only the retained coarse sanctions-list location values. Company identifiers, tax data, precise address fields, financial selectors, and any current-operation inference are excluded. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 57057"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 57057 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows record a July 4, 2022 establishment date, Hanoi listing context, and an explicit Nguyen Quang Viet link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 57057"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

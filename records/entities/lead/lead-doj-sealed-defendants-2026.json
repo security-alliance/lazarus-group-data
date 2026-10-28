@@ -1,0 +1,48 @@
+{
+  "id": "lead-doj-sealed-defendants-2026",
+  "type": "lead",
+  "name": "Two sealed defendants (October 2026 Ohio indictment)",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The DOJ release says two defendants remain under seal; their identities are unavailable in the public record.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ndoh-release"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded lead record for Two sealed defendants (October 2026 Ohio indictment), kept separate from people or accounts sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ndoh-release",
+      "support": "The DOJ indictment reports Two sealed defendants (October 2026 Ohio indictment) in the described scheme.",
+      "locator": "N.D. Ohio release, arrests paragraph"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lead-doj-sealed-defendants-2026",
+      "type": "alias",
+      "predicate": "sealed_defendants",
+      "value": {
+        "count": 2
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ndoh-release",
+          "locator": "N.D. Ohio release, arrests paragraph",
+          "quote": "Two defendants remain under seal."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

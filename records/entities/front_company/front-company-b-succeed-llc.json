@@ -1,0 +1,48 @@
+{
+  "id": "front-company-b-succeed-llc",
+  "type": "front_company",
+  "name": "B SUCCEED, LLC",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment alleges that B SUCCEED, LLC was incorporated for employment-validation activity in the scheme; the legal posture remains a charging-stage allegation.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded front_company record for B SUCCEED, LLC; the name or identifier links it only where a source links it.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports B SUCCEED, LLC in the described scheme.",
+      "locator": "PDF p. 9 ¶28"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-front-company-b-succeed-llc",
+      "type": "alias",
+      "predicate": "indictment_describes_company",
+      "value": {
+        "company": "B SUCCEED, LLC"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 9 ¶28",
+          "quote": "LONG also incorporated the company B SUCCEED, LLC, in the state of Texas in an effort to create a purported legitimate U.S.-based company who could provide validation of past employment for fraudulent overseas IT worker applications."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

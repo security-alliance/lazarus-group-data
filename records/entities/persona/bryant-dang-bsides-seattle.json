@@ -1,0 +1,370 @@
+{
+  "id": "bryant-dang-bsides-seattle",
+  "type": "persona",
+  "name": "Bryant Dang",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Jesse Buonanno calls Bryant an actual DPRK candidate in a worked detection example; legal identity and government attribution remain unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S3",
+      "CM-S4"
+    ]
+  },
+  "organizations": [
+    "BSides Seattle"
+  ],
+  "locations": [
+    "Indonesia, Philippines, and Malaysia (source-observed client-origin signals, not residence claims)"
+  ],
+  "ttps": [
+    "Maintain a sparse LinkedIn account with little activity or connection history",
+    "Route application traffic through data-center/tunnel infrastructure",
+    "Submit an unusually verbose, apparently LLM-assisted résumé",
+    "Use a fresh email following a word-plus-digits naming pattern",
+    "Use a VoIP number shared with multiple suspicious candidates"
+  ],
+  "caveats": [
+    "Regional network signals describe network context; physical location requires a separate location source.",
+    "The BSides Seattle event page returned HTTP 404 on 2026-08-12 and is retained only as last-known historical provenance; the live official recording with timestamps is the claim-bearing source.",
+    "The BSides Seattle recording and historical event page document one presentation and form one source family; corroboration remains within that family.",
+    "The phone number was deliberately redacted and remains unreconstructed here.",
+    "The precise underlying employer/case is undisclosed.",
+    "This is a source-reported persona label from public conference material; legal and civil identity status is unverified."
+  ],
+  "aliases": [
+    {
+      "value": "Bryant Dang",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S3"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "LinkedIn",
+      "identifier": "Bryant Dang persona profile (URL not disclosed)",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "CM-S3"
+      ],
+      "note": "Speaker describes minimal activity, no profile photo, and few connections."
+    },
+    {
+      "platform": "Email",
+      "identifier": "bryantdang1018@outlook[.]com",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S3"
+      ],
+      "note": "Publicly spoken and shown in the conference worked example; historical threat indicator."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "CM-S3",
+      "source_url": "https://www.youtube.com/watch?v=NSFh4XH-Lo4",
+      "caption": "Worked-example slides show Bryant’s résumé and sparse LinkedIn profile. Link-only; no detached résumé or portrait should be republished.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "email",
+      "value": "Outlook account created for the persona",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S3",
+        "CM-S4"
+      ]
+    },
+    {
+      "type": "network",
+      "value": "Data-center/tunnel traffic with source-observed Southeast Asian client-origin signals",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S3",
+        "CM-S4"
+      ]
+    },
+    {
+      "type": "telephony",
+      "value": "Onvoy VoIP number, redacted by speaker",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S3",
+        "CM-S4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S4",
+      "support": "Last-known official event-page provenance for the talk title, abstract, and speaker; it is not the sole support for any retained claim",
+      "locator": "Event abstract and speaker biography | Availability note (2026-08-12): the official event page returned HTTP 404; retained only as stale historical provenance because no exact official replacement or archive was verified"
+    },
+    {
+      "source_id": "CM-S3",
+      "support": "Official BSides Seattle recording of Jesse Buonanno’s systematic hiring-lifecycle detection framework and a worked example involving a source-labeled DPRK candidate named Bryant",
+      "locator": "17:33–20:37 worked Bryant example; 13:30–17:32 composite detection; 20:37–23:31 controls"
+    },
+    {
+      "source_id": "src-5371af06c9ba"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-bryant-source-attribution",
+      "type": "identity_name",
+      "predicate": "speaker_reported_dprk_candidate",
+      "value": {
+        "name": "Bryant Dang",
+        "identity_status": "employment persona; civil identity unverified"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 17:49; visually verified slide heading",
+          "quote": "Meet Bryant Dang"
+        },
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 17:49-17:55; yt-dlp English auto-caption (en-orig and en tracks)",
+          "quote": "And now we're going to meet Bryant. And this was an actual DPRK candidate that applied."
+        }
+      ],
+      "observed_at": "2026-03-30"
+    },
+    {
+      "id": "claim-bryant-email-newness",
+      "type": "account",
+      "predicate": "speaker_reported_fresh_email_signal",
+      "value": {
+        "platform": "Outlook",
+        "breach_history": "none found",
+        "vendor_fraud_score": "80/100",
+        "provider_first_seen": true,
+        "publisher_reported_pattern": "known DPRK-style name-plus-digits email pattern"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 18:17-18:24; composite-detection slide; selector omitted",
+          "quote": "First, we’ll check to see if it’s in any breaches to establish that it has a history, which it is not."
+        },
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 18:29-18:34; composite-detection slide; selector omitted",
+          "quote": "the fraud score that came back from our fraud vendor rated it 80 out of 100."
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 19, email result column; selector omitted, contiguous fragment 1 of 3",
+          "quote": "No Breaches"
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 19, email result column; selector omitted, contiguous fragment 2 of 3",
+          "quote": "Scored 80/100 by provider"
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 19, email result column; selector omitted, contiguous fragment 3 of 3",
+          "quote": "TRUE - First time seen by provider"
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "The historical email selector is deliberately omitted. These are source-reported vendor and pattern signals, not proof of identity or current account control."
+      ]
+    },
+    {
+      "id": "claim-bryant-voip-shared",
+      "type": "infrastructure",
+      "predicate": "speaker_reported_shared_voip_signal",
+      "value": {
+        "provider": "Onvoy",
+        "vendor_fraud_score": "85/100",
+        "other_suspicious_candidates": 4,
+        "number": "redacted by source"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 18:52-19:03; composite-detection slide",
+          "quote": "The phone number was registered to Onvoy. And this one particularly came back with four other suspicious candidates tied to that phone number."
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "The source redacted the selector and it was not reconstructed. Provider, fraud-score, and shared-candidate observations do not establish a subscriber or civil identity."
+      ]
+    },
+    {
+      "id": "claim-bryant-network-signals",
+      "type": "infrastructure",
+      "predicate": "speaker_reported_network_signals",
+      "value": {
+        "origin": "data center",
+        "traffic": "tunnel",
+        "client_origin_signals": [
+          "Indonesia",
+          "Philippines",
+          "Malaysia"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 19:06-19:18; composite-detection slide",
+          "quote": "It was data center origin, which had tunnel traffic, and the original client information came from Indonesia, Philippines, and Malaysia."
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "Signals do not establish physical location or residence."
+      ]
+    },
+    {
+      "id": "claim-bryant-linkedin-details",
+      "type": "account",
+      "predicate": "speaker_reported_profile_characteristics",
+      "value": {
+        "platform": "LinkedIn",
+        "profile_path": "brdang",
+        "profile_picture": false,
+        "activity": "low",
+        "connections": "low",
+        "connections_observed": 182,
+        "current_status": "not established"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 18:04-18:08; visually verified profile slide",
+          "quote": "And this is his LinkedIn profile, which you’ll see has little to no activity on it."
+        },
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 19:20-19:24",
+          "quote": "Already showed you the LinkedIn, no profile picture, low activity, low connections."
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 18, visually verified résumé/profile slide",
+          "quote": "www.linkedin.com/in/brdang ... 182 connections"
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "The source-explicit historical path is retained because the slide bridges it to the Bryant worked example. A 2026-08-14 unauthenticated request ended with LinkedIn HTTP 999, so current reachability and control are unresolved.",
+        "Claimed employer, role, education, and location shown on the historical profile were not retained because they may be fabricated, stolen, or victim-related and do not establish a civil identity."
+      ]
+    },
+    {
+      "id": "claim-bryant-resume-llm-assessment",
+      "type": "incident",
+      "predicate": "speaker_assessed_resume_as_wordy_and_llm_generated",
+      "value": {
+        "artifact": "application résumé",
+        "speaker_assessment": "very wordy and apparently LLM-generated",
+        "underlying_authorship_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 17:55-18:02; visually verified résumé slide",
+          "quote": "It's very wordy, very obviously like LLM generated. Not all applications are going to look like this, but this just happens to be a particularly bad one."
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "This verifies the speaker's assessment, not definitive authorship by a language model. The résumé, job history, skills, contact selectors, and possible victim attributes were not retained."
+      ]
+    },
+    {
+      "id": "claim-bryant-composite-detection-score",
+      "type": "incident",
+      "predicate": "speaker_reported_composite_detection_result",
+      "value": {
+        "score": 16,
+        "result": "well above the worked-example auto-reject threshold",
+        "policy_context": "speaker described auto-reject as optional and recommended a human-in-the-loop risk-owner decision"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 19:20-19:29, composite-score conclusion",
+          "quote": "So, for us, this is a—we're now at plus 16 and well above the auto reject limit."
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 19, visually verified score conclusion",
+          "quote": "16 Score well above threshold to auto-reject"
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 20, response controls, contiguous fragment 1 of 2",
+          "quote": "Auto Reject - *Optional* based on risk tolerance and severity confidence"
+        },
+        {
+          "source_id": "src-5371af06c9ba",
+          "locator": "PDF p. 20, response controls, contiguous fragment 2 of 2",
+          "quote": "Have SOP for risk owner to make human in the loop final decision"
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "Organization-specific worked-example scoring, not a universal legal or identity conclusion. Raw selectors are excluded and the human-review caveat should remain adjacent to the score."
+      ]
+    },
+    {
+      "id": "claim-bryant-link-only-conference-media",
+      "type": "image",
+      "predicate": "publisher_hosted_link_only_worked_example_media",
+      "value": {
+        "source_page": "https://www.youtube.com/watch?v=NSFh4XH-Lo4",
+        "locator": "17:49-19:29",
+        "media_description": "conference recording shows the Bryant worked-example résumé, sparse LinkedIn profile, and composite-detection slides",
+        "handling": "link_only",
+        "detached_resume_or_profile_republication": false,
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S3",
+          "locator": "Video 17:49-19:29; visually verified worked-example slides",
+          "quote": "And now we’re going to meet Bryant."
+        }
+      ],
+      "observed_at": "2026-03-30",
+      "notes": [
+        "Source-page and timestamp reference only. No résumé, profile screenshot, account image, selector, crop, or detached asset is cached or authorized for publication; the media was not used for facial or civil-identity inference."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Source-reported employment or online persona; civil identity verification remains open for this label, account, and image."
+}

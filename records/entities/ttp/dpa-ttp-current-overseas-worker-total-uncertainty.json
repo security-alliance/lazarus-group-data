@@ -1,0 +1,44 @@
+{
+  "id": "dpa-ttp-current-overseas-worker-total-uncertainty",
+  "type": "ttp",
+  "name": "Historical workforce estimates are not credible current totals",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official OHCHR reporting on overseas-worker deployments and the absence of a credible current total; historical estimates remain historical",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dpa-s02-a-hrc-60-58"
+    ]
+  },
+  "caveats": [
+    "Historical figures, enforcement totals, vendor observations, incident counts, and application counts remain separate measures; a current workforce total requires a defined common denominator.",
+    "Some deployments report student cover; this fact supplies context rather than a screening heuristic for students, remote workers, or nationals of any country."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-structural-context",
+      "statements": [
+        "A/HRC/60/58 reports that overseas workers in information technology, construction and hospitality continued to be deployed after the Security Council repatriation deadline, reportedly under student cover in some cases.",
+        "OHCHR expressly states that no credible current figure is available for the total number of DPRK overseas workers remaining abroad.",
+        "Historical workforce estimates, incident counts and application volumes therefore must not be combined or relabeled as a current worldwide worker total."
+      ],
+      "source_ids": [
+        "dpa-s02-a-hrc-60-58"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-unhistory-un-2020-scale-quota-and-geography"
+  ],
+  "sources": [
+    {
+      "source_id": "dpa-s02-a-hrc-60-58",
+      "support": "Supports continued overseas information-technology deployments reportedly using student cover in some cases and OHCHR's express statement that no credible current overseas-worker total is available",
+      "locator": "A/HRC/60/58 para. 31 (PDF p. 8)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

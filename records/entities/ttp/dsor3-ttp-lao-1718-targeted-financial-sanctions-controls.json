@@ -1,0 +1,68 @@
+{
+  "id": "dsor3-ttp-lao-1718-targeted-financial-sanctions-controls",
+  "type": "ttp",
+  "name": "Lao targeted-financial-sanctions controls covering UNSC Resolution 1718",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is a general law and administrative framework effective November 4, 2025. It supplies no designation, investigation, charge, asset-freeze result, conviction, or implementation finding against a catalog subject.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSOR3-S02-LAO-BOL-DECREE-554-2025"
+    ]
+  },
+  "ttps": [
+    "false-positive-verification",
+    "ongoing-customer-due-diligence",
+    "proliferation-finance-reporting",
+    "sanctions-screening",
+    "targeted-financial-sanctions"
+  ],
+  "caveats": [
+    "Call it an IT-worker case only when a separate official source identifies one.",
+    "The decree states a measure; effective enforcement and a completed freeze remain unverified.",
+    "Identity-document numbers and financial selectors are excluded from the record.",
+    "This record retains no person, company, account, address, identifier, image, payment selector, victim, or private data.",
+    "This is prevention or policy context; newly observed IT-worker incident and enforcement-result status are unreported.",
+    "Use multiple identifiers and escalation because Article 14 expressly addresses false-positive name matches."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-legal-and-regulatory-control-not-an-enforcement-result",
+      "statements": [
+        "Decree No. 554/GOV supplies a newer Lao official legal-control source relevant to DPRK IT-worker revenue because it covers UNSC Resolution 1718 designations and requires ongoing screening, immediate withholding/freezing and reporting, list circulation, and false-positive verification. The decree does not identify an IT worker, facilitator, company or enforcement action.",
+        "Reporting entities must screen transactions, services and customers against proliferation-financing designations on an ongoing basis.",
+        "Suspected designated-person activity must be reported and relevant funds withheld or frozen without prior notice under the decree's procedures.",
+        "Potential name matches must be verified and false positives released, supporting a multi-identifier approach rather than name-only adverse action.",
+        "UNSC list updates are to be circulated and published through official channels.",
+        "Decree No. 554/GOV was dated September 4, 2025 and states an effective date of November 4, 2025."
+      ],
+      "limitations": [
+        "General law and administrative framework effective November 4, 2025; not a designation, investigation, charge, asset-freeze result, conviction, or proof of implementation against a catalog subject.",
+        "Existing work captures the 2023 APG shortcomings and historic Laos operating-hub evidence. This later decree is a distinct official legal development, but no public IT-worker-specific enforcement result was found.",
+        "Do not imply that the decree proves effective enforcement or a completed freeze.",
+        "Do not claim an IT-worker case unless a separate official source identifies one.",
+        "Use multiple identifiers and escalation because Article 14 expressly addresses false-positive name matches.",
+        "Do not retain identity-document numbers or financial selectors.",
+        "The reviewed PDF is an AMLIO-hosted unofficial English translation; September 4, 2025 is the decree date, not a separately verified web-publication date."
+      ],
+      "source_ids": [
+        "DSOR3-S02-LAO-BOL-DECREE-554-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "darf-ttp-proliferation-finance-program-context",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DSOR3-S02-LAO-BOL-DECREE-554-2025",
+      "support": "Decree No. 554/GOV supplies a newer Lao official legal-control source relevant to DPRK IT-worker revenue because it covers UNSC Resolution 1718 designations and requires ongoing screening, immediate withholding/freezing and reporting, list circulation, and false-positive verification. The decree does not identify an IT worker, facilitator, company or enforcement action. Exact source support: The decree applies targeted financial-sanctions controls to UNSC designations including Resolution 1718. It requires ongoing customer due diligence; immediate withholding, suspension or freezing and reporting to MOPS and AMLIO; publication and circulation of list updates; reporting of suspected designated-person activity; and verification of possible false-positive name matches. Article 37 states an entry-into-force date of November 4, 2025. Translation note: The PDF labels itself an unofficial translation. Its face states Decree No. 554/Gov., dated September 4, 2025; that is the instrument date, not a separately verified web-publication date. The directly accessible AMLIO-hosted PDF replaces a Bank decree-index file URL that returned an HTML error page during the August 12, 2026 recovery check",
+      "locator": "Decree No. 554/GOV; Articles 10-14, 17-22, 25-27 and 35-37"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

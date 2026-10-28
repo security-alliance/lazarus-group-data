@@ -1,0 +1,273 @@
+{
+  "id": "worker-kim-kwang-jin-un-2023",
+  "type": "worker",
+  "name": "Kim Kwang Jin",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Member State information reproduced in a United Nations Panel report. The annex supplies source-qualified historical movement context, with UN designation, criminal allegation, and adjudication status outside its scope.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "ducr46-un-s-2023-656"
+    ]
+  },
+  "legal_or_reported_name": "Kim Kwang Jin",
+  "locations": [
+    "Vientiane, Lao People's Democratic Republic (historical group context, 2021–2023)"
+  ],
+  "caveats": [
+    "Collision control DUCR46-COLLISION-KIM-KWANG-JIN-DOJ: The official sources use different Korean names, and the Annex 70 source supplies no legal-case, alias, organization, location, or unique-selector bridge. The records stay unmerged.",
+    "Identity-document, personal-date, account, financial, contact, image, victim, and present-location details are excluded.",
+    "OpenSanctions/RUSI entity ID is a derivative discovery cross-reference; corroboration remains source-dependent.",
+    "Six reports contain no exact audited name form; later disposition and present-location updates require newer sources.",
+    "The exact Korean name prevents merger with the existing charged 김관진 record.",
+    "The Latin-name match to the existing charged worker remains separate because the Korean names differ.",
+    "The movement language is collective; Kim's individual departure date, destination, repatriation, and present location remain unestablished."
+  ],
+  "aliases": [
+    {
+      "value": "김광진",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "ducr46-un-s-2023-656"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "cross-report-exact-name-audit",
+      "method": "Case-insensitive exact substring counts after collapsing all extraction whitespace.",
+      "query_terms": [
+        "Kim Kwang Jin",
+        "김광진"
+      ],
+      "results": [
+        {
+          "source_id": "ducr46-un-s-2021-211",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2021-777",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2022-132",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2022-668",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2023-171",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "counts": [
+            1,
+            1
+          ],
+          "outcome": "claim_evidence"
+        },
+        {
+          "source_id": "ducr46-un-s-2024-215",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        }
+      ],
+      "collision_decisions": [
+        {
+          "decision_id": "DUCR46-COLLISION-KIM-KWANG-JIN-DOJ",
+          "candidate_record_id": "worker-kim-kwang-jin",
+          "decision": "not_merged",
+          "annex70_korean_name": "김광진",
+          "candidate_korean_name": "김관진",
+          "reason": "The official sources use different Korean names, and the Annex 70 source supplies no legal-case, alias, organization, location, or unique-selector bridge."
+        }
+      ],
+      "derivative_cross_reference": {
+        "provider": "OpenSanctions/RUSI derivative dataset",
+        "entity_id": "kprusi-59c59e7bc88d0208aedcc15a3bcd6e0199aff9e9",
+        "handling": "Discovery cross-reference only; not an independent source family or corroborating source."
+      },
+      "source_ids": [
+        "ducr46-un-s-2021-211",
+        "ducr46-un-s-2021-777",
+        "ducr46-un-s-2022-132",
+        "ducr46-un-s-2022-668",
+        "ducr46-un-s-2023-171",
+        "ducr46-un-s-2023-656",
+        "ducr46-un-s-2024-215"
+      ]
+    },
+    {
+      "type": "historical-group-movement-context",
+      "statement": "The report places the Annex 70 group in historical Vientiane movement context and later reports collective departure. It does not individually date this worker's departure or establish destination or present location.",
+      "relationship": "Annex 70 lists the worker among eight people related to Oh Chung Song.",
+      "source_ids": [
+        "ducr46-un-s-2023-656"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ducr46-un-s-2021-211",
+      "support": "The complete 419-page extraction returned exact counts [0, 0] for ['Kim Kwang Jin', '김광진']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 419-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2021-777",
+      "support": "The complete 261-page extraction returned exact counts [0, 0] for ['Kim Kwang Jin', '김광진']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 261-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2022-132",
+      "support": "The complete 423-page extraction returned exact counts [0, 0] for ['Kim Kwang Jin', '김광진']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 423-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2022-668",
+      "support": "The complete 370-page extraction returned exact counts [0, 0] for ['Kim Kwang Jin', '김광진']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 370-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2023-171",
+      "support": "The complete 487-page extraction returned exact counts [0, 0] for ['Kim Kwang Jin', '김광진']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 487-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2023-656",
+      "support": "Annex 70 supplies the source-explicit name Kim Kwang Jin (김광진), occupation IT worker, and historical Oh Chung Song group context. Paragraph 122 supplies qualified historical Vientiane movement context",
+      "locator": "PDF file p. 50, paragraph 122; PDF file p. 328, Annex 70"
+    },
+    {
+      "source_id": "ducr46-un-s-2024-215",
+      "support": "The complete 615-page extraction returned exact counts [0, 0] for ['Kim Kwang Jin', '김광진']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 615-page text extraction"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-worker-kim-kwang-jin-un-2023-source-printed-identity",
+      "type": "identity_name",
+      "predicate": "un_annex_source_printed_identity",
+      "value": {
+        "latin_name": "Kim Kwang Jin",
+        "korean_name": "김광진",
+        "source_scope": "Member State information reproduced in UN Annex 70"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Name: Kim Kwang Jin (김광진, last name : Kim) Occupation: IT Worker"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Both script forms are source-explicit and retained to prevent same-Latin-name false merges."
+      ]
+    },
+    {
+      "id": "claim-worker-kim-kwang-jin-un-2023-reported-it-worker-role",
+      "type": "employment",
+      "predicate": "member_state_reported_it_worker",
+      "value": {
+        "reported_role": "IT worker",
+        "source_scope": "Member State information reproduced in UN Annex 70",
+        "current_activity_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Name: Kim Kwang Jin (김광진, last name : Kim) Occupation: IT Worker"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "The annex role is not a criminal allegation, UN designation, or proof of current work."
+      ]
+    },
+    {
+      "id": "claim-worker-kim-kwang-jin-un-2023-oh-chung-song-group",
+      "type": "relationship",
+      "predicate": "un_annex_reported_group_relationship",
+      "value": {
+        "related_person": "Oh Chung Song",
+        "relationship_context": "one of eight DPRK individuals related to Oh Chung Song in Annex 70",
+        "relationship_nature_beyond_grouping_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Annex 70: Information on eight DPRK individuals related to Oh Chung Song"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Source-heading relationship only; employment, command, family, financial, or account linkage is not inferred."
+      ]
+    },
+    {
+      "id": "claim-worker-kim-kwang-jin-un-2023-historical-vientiane-context",
+      "type": "location",
+      "predicate": "un_reported_historical_group_movement",
+      "value": {
+        "location": "Vientiane, Lao People's Democratic Republic",
+        "historical_group_arrival": "December 2021",
+        "individual_departure_date_established": false,
+        "destination_established": false,
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Mr. Oh, with eight other Democratic People’s Republic of Korea-related individuals, moved from Dubai, United Arab Emirates, to Vientiane, in December 2021"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "The movement statement is collective and does not establish this worker's individual departure date, destination, repatriation, or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "The Annex 70 Kim Kwang Jin is 김광진. The existing charged worker with the same Latin name is 김관진; the exact Korean spelling difference supports separation, and the identity bridge remains absent."
+}

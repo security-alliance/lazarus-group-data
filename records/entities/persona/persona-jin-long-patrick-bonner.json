@@ -1,0 +1,49 @@
+{
+  "id": "persona-jin-long-patrick-bonner",
+  "type": "persona",
+  "name": "PATRICK BONNER",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded persona record for PATRICK BONNER; the name or identifier links it only where a source links it.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports PATRICK BONNER in the described scheme.",
+      "locator": "PDF p. 8 ¶28"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-jin-long-patrick-bonner",
+      "type": "alias",
+      "predicate": "source_reported_moniker",
+      "value": {
+        "persona": "PATRICK BONNER",
+        "source_reported_for": "JIN LONG, also known by the online monikers “PATRICK BONNER,” and “JOHN ANTHONY NEVAREZ,”"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 8 ¶28",
+          "quote": "JIN LONG, also known by the online monikers “PATRICK BONNER,” and “JOHN ANTHONY NEVAREZ,” resided in China."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

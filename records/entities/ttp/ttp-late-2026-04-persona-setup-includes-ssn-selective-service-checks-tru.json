@@ -1,0 +1,30 @@
+{
+  "id": "ttp-late-2026-04-persona-setup-includes-ssn-selective-service-checks-tru",
+  "type": "ttp",
+  "name": "Persona setup includes SSN/Selective Service checks, TruthFinder vetting, DMV reprints, photo manipulation, and barcode validation.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: high",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-nisos-operation-pdf"
+    ]
+  },
+  "ttps": [
+    "Persona setup includes SSN/Selective Service checks, TruthFinder vetting, DMV reprints, photo manipulation, and barcode validation."
+  ],
+  "caveats": [
+    "Victim PII remains excluded from the record."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-nisos-operation-pdf",
+      "support": "Persona setup includes SSN/Selective Service checks, TruthFinder vetting, DMV reprints, photo manipulation, and barcode validation",
+      "locator": "Graphic 1: Discord channel structure; Graphics 2-3: Vercel calendar and leaderboard; Graphics 7-8: persona and license-verification instructions; Graphic 9: 710TECH LI backstop site; Graphic 10: live AI interview-assistance view | Landing page publication date; PDF metadata shows creation on June 11, 2026"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

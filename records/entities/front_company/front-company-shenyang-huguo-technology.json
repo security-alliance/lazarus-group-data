@@ -1,0 +1,64 @@
+{
+  "id": "front-company-shenyang-huguo-technology",
+  "type": "front_company",
+  "name": "Shenyang Huguo Technology Ltd.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported front company or recruitment front; legal adjudication requires a separate official record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s1-sentinelone-2024-fronts"
+    ]
+  },
+  "front_companies": [
+    "Shenyang Huguo Technology Ltd."
+  ],
+  "locations": [
+    "Shenyang, Liaoning, China"
+  ],
+  "ttps": [
+    "front-company or linked-company presentation"
+  ],
+  "caveats": [
+    "first source observation: 2023-10 domain registration; last source observation: 2024-10-25; as of 2026 08 12: historical indicator; current operation testing status remains open.",
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Publish as a SentinelLabs-reported front company; legal-entity status requires independent adjudication."
+  ],
+  "infrastructure": [
+    {
+      "kind": "hosting",
+      "value": "103.15.29[.]44 / Asia Web Services Ltd.",
+      "status": "source-observed in 2024",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    },
+    {
+      "kind": "network",
+      "value": "same A1 building and similar web tradecraft as disrupted Shenyang Tonywang Technology",
+      "status": "source-assessed",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    },
+    {
+      "kind": "website",
+      "value": "huguotechltd[.]com",
+      "status": "source reported online until 2024-10-25, then ceased resolving",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s1-sentinelone-2024-fronts",
+      "support": "The cited source reports Shenyang Huguo Technology Ltd. in the stated front-company or corporate-linkage context: huguotechltd[.]com; 103.15.29[.]44 / Asia Web Services Ltd.; same A1 building and similar web tradecraft as disrupted Shenyang Tonywang Technology",
+      "locator": "The Mysterious A1 Building"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

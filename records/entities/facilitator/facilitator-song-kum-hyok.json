@@ -1,0 +1,475 @@
+{
+  "id": "facilitator-song-kum-hyok",
+  "type": "facilitator",
+  "name": "Song Kum Hyok",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and bounded structured context: DPRK-based cyber actor and IT-workforce facilitator. The Federal Register provides durable publication of the same OFAC administrative designation. Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dln26-s01",
+      "dln26-s02",
+      "doar9-ofac-sdn-current",
+      "dofr62-2025-12906",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Song Kum Hyok",
+  "locations": [
+    "North Korea (OFAC listing context; not current location)",
+    "Yanji, Jilin, China (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Birth data, address, nationality, gender, email, passport or identity-document data, wallets, financial selectors, related-person selectors, and contact details are excluded.",
+    "Historical sanctions indicator; email ownership or current control can change.",
+    "Private or inferred account data is excluded from the record.",
+    "Postal, street, email, birth, and identity-document fields are excluded; neither row establishes present location or current selector control.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The account provides historical context; current ownership, control, or activity remains unestablished.",
+    "This notice adds durable official publication metadata; person, legal event, designation posture, and independent-source-family status remain unchanged."
+  ],
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "wangge327@yahoo[.]com",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01",
+        "dln26-s02"
+      ],
+      "note": "Historical OFAC-published sanctions indicator; inactive status and current ownership or control are unknown. Do not contact or treat as proof of present control."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "federal-register-durable-publication-of-existing-ofac-action",
+      "document_number": "2025-12906",
+      "citation": "90 FR 31115",
+      "official_name": "SONG, Kum Hyok",
+      "action_issued_date": "2025-07-08",
+      "publication_date": "2025-07-11",
+      "designation_bases": [
+        "section 1(a)(ii)(D) of Executive Order 13694, as amended by Executive Orders 13757, 14144, and 14306",
+        "section 2(a)(ix) of Executive Order 13722"
+      ],
+      "same_ofac_action_already_represented": true,
+      "independent_corroboration": false,
+      "new_legal_event": false,
+      "source_ids": [
+        "dofr62-2025-12906"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-song-kum-hyok"
+  ],
+  "sources": [
+    {
+      "source_id": "dln26-s02",
+      "support": "OFAC designated Song Kum Hyok and a Russia-based network that contracted to receive DPRK IT workers | OFAC published this email address in Song Kum Hyok's July 8, 2025 sanctions entry. It is retained only as a historical screening indicator; current ownership or control is unknown",
+      "locator": "Key Facilitator and Asatryan IT Worker Network sections | Key Facilitator for Kim Regime’s Overseas IT Workforce; Asatryan IT Worker Network"
+    },
+    {
+      "source_id": "dln26-s01",
+      "support": "OFAC published this email address in Song Kum Hyok's July 8, 2025 sanctions entry. It is retained only as a historical screening indicator; current ownership or control is unknown",
+      "locator": "Specially Designated Nationals List Update — ASATRYAN, Gayk; SONG, Kum Hyok; and four entity entries"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 49970 support only the retained coarse sanctions-list location values. Postal, street, email, birth, and identity-document fields are excluded; neither row establishes present location or current selector control. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 49970"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 49970 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add coarse Yanji, Jilin and North Korea listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 49970"
+    },
+    {
+      "source_id": "dofr62-2025-12906",
+      "support": "This action was issued on July 8, 2025. 1. SONG, Kum Hyok, Designated pursuant to section 1(a)(ii)(D) of Executive Order 13694 Designated pursuant to section 2(a)(ix) of Executive Order 13722 Source boundary: Durable official publication of the July 8, 2025 OFAC administrative designation action; not an independent source family, criminal allegation, conviction, or adjudication",
+      "locator": "90 FR 31115, DATES; individual entry 1 and following designation paragraphs"
+    },
+    {
+      "source_id": "src-11239e950c24"
+    },
+    {
+      "source_id": "src-2cd5b159d1c6"
+    },
+    {
+      "source_id": "src-b6fb0b3a8282"
+    },
+    {
+      "source_id": "src-6270c08c0772"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-song-ofac-sdn-addition",
+      "type": "legal_event",
+      "predicate": "added_to_ofac_sdn_list",
+      "value": {
+        "name": "Song Kum Hyok",
+        "designation_date": "2025-07-08",
+        "program": "CYBER4"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s01",
+          "locator": "Specially Designated Nationals List Update, individuals heading",
+          "quote": "The following individuals have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "dln26-s01",
+          "locator": "Specially Designated Nationals List Update, Song entry",
+          "quote": "SONG, Kum Hyok"
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-song-andariel-association",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_association_with_andariel",
+      "value": {
+        "organization": "Andariel",
+        "parent": "DPRK Reconnaissance General Bureau",
+        "role": "malicious cyber actor associated with the group"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s02",
+          "locator": "Opening designation paragraph",
+          "quote": "a malicious cyber actor associated with the sanctioned Democratic People’s Republic of Korea (DPRK) Reconnaissance General Bureau (RGB) hacking group Andariel."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Treasury-reported association; not an independent technical attribution produced by this review."
+      ]
+    },
+    {
+      "id": "claim-song-it-worker-facilitation",
+      "type": "incident",
+      "predicate": "treasury_reported_it_worker_identity_facilitation",
+      "value": {
+        "activity": "recruited workers and provided falsified identities and nationalities for employment",
+        "purpose": "generate revenue for the DPRK regime"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s02",
+          "locator": "Opening designation paragraph, facilitation sentence",
+          "quote": "Song facilitated an information technology (IT) worker scheme in which individuals, often DPRK nationals working from countries such as China and Russia, were recruited and provided with falsified identities and nationalities to obtain employment at unwitting companies to generate revenue for the DPRK regime."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Treasury sanctions finding; no worker or victim identifiers are retained."
+      ]
+    },
+    {
+      "id": "claim-song-personal-information-misuse",
+      "type": "incident",
+      "predicate": "treasury_reported_use_of_misappropriated_personal_information",
+      "value": {
+        "activity": "used U.S. persons' information to create worker aliases",
+        "identifier_categories": [
+          "names",
+          "social security numbers",
+          "addresses"
+        ],
+        "specific_identifiers_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s02",
+          "locator": "Key Facilitator section, alias-creation sentence",
+          "quote": "Song used U.S. persons’ information, including names, social security numbers, and addresses to create aliases for the hired foreign workers."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Only data categories are retained; no victim identities or selectors were collected."
+      ]
+    },
+    {
+      "id": "claim-song-designation-authority",
+      "type": "legal_event",
+      "predicate": "ofac_designation_authority",
+      "value": {
+        "designation_date": "2025-07-08",
+        "authority": "Executive Order 13694, as amended by Executive Order 14306"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s02",
+          "locator": "Key Facilitator section, designation paragraph",
+          "quote": "Song is being designated pursuant to Executive Order (E.O.) 13694, as further amended by E.O. 14306"
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Administrative sanctions designation, not a criminal adjudication."
+      ]
+    },
+    {
+      "id": "claim-song-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "display": "Song Kum Hyok",
+        "ofac_primary": "SONG, Kum Hyok"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s02",
+          "locator": "opening designation paragraph",
+          "quote": "OFAC) sanctioned Song Kum Hyok, (Song)"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 49970",
+          "quote": "49970,\"SONG, Kum Hyok\",\"individual\",\"CYBER4\""
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Official formatting variants, not separate identities or an alias expansion."
+      ]
+    },
+    {
+      "id": "claim-song-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "CYBER4",
+        "checked_at": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 49970",
+          "quote": "49970,\"SONG, Kum Hyok\",\"individual\",\"CYBER4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Dated administrative-list observation only; it does not establish criminal guilt, a current operational role, account control, or present location."
+      ]
+    },
+    {
+      "id": "claim-song-ofac-listed-nationality",
+      "type": "note",
+      "predicate": "ofac_listed_nationality",
+      "value": {
+        "nationality": "North Korean"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 49970, public nationality field",
+          "quote": "nationality Korea, North"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Public official nationality field only. Birth, gender, address, and contact selectors in the same row remain excluded from new public claims."
+      ]
+    },
+    {
+      "id": "claim-song-designation-era-dprk-base",
+      "type": "location",
+      "predicate": "treasury_reported_historical_base",
+      "value": {
+        "location": "Democratic People's Republic of Korea",
+        "context": "Treasury's July 2025 designation-time description",
+        "present_location_inference": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s02",
+          "locator": "Key Facilitator for Kim Regime's Overseas IT Workforce, opening sentence",
+          "quote": "Song is a DPRK-based cyber actor who used foreign-hired IT workers to seek remote employment with U.S. companies and planned to split income with them."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Coarse historical source description only. It is not a residence, precise address, continued-presence, travel, citizenship, or present-location claim; a separate media report's province-level address detail was excluded."
+      ]
+    },
+    {
+      "id": "claim-song-thn-first-public-andariel-it-worker-link-assessment",
+      "type": "note",
+      "predicate": "media_assessed_first_public_andariel_it_worker_link",
+      "value": {
+        "publisher_assessment": "the sanctions marked the first public tie between an Andariel-linked threat actor and the DPRK IT-worker scheme",
+        "independent_technical_attribution": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-11239e950c24",
+          "locator": "paragraph following the sanctions subject list",
+          "quote": "The sanctions mark the first time a threat actor linked to Andariel, a sub-cluster within the Lazarus Group, has been tied to the IT worker scheme"
+        }
+      ],
+      "observed_at": "2025-07-09",
+      "notes": [
+        "The Hacker News publisher assessment in derivative sanctions coverage. It is not an independently reproduced technical attribution, evidence that Song participated in every Andariel operation, or a basis to merge him with any other Andariel subject."
+      ]
+    },
+    {
+      "id": "claim-song-github-wangge327-account-candidate",
+      "type": "account",
+      "predicate": "github_public_search_matched_ofac_historical_indicator",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "wangge327",
+        "profile_url": "https://github.com/wangge327",
+        "observed_reachable_at": "2026-08-15",
+        "identity_attribution_status": "candidate_only",
+        "current_control_known": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-2cd5b159d1c6",
+          "locator": "single result from exact in:email query using OFAC's restricted historical indicator",
+          "quote": "\"login\": \"wangge327\""
+        },
+        {
+          "source_id": "src-b6fb0b3a8282",
+          "locator": "public user metadata",
+          "quote": "\"html_url\": \"https://github.com/wangge327\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Review-tier account candidate based on a domain-specific public GitHub search match to OFAC's historical indicator. It does not establish that Song created, used, authored, presently controls, or is the civil identity behind the account. Do not contact, authenticate, test, face-match, or infer a current email from the account.",
+        "The profile display name Wang is not promoted to an alias without a source-explicit person-level bridge."
+      ]
+    },
+    {
+      "id": "claim-song-github-candidate-repository-metadata",
+      "type": "note",
+      "predicate": "candidate_account_public_repository_metadata",
+      "value": {
+        "account": "wangge327",
+        "repositories": [
+          {
+            "name": "SocialPost",
+            "primary_language": "PHP",
+            "created_at": "2023-02-05",
+            "last_push_metadata": "2023-05-05"
+          },
+          {
+            "name": "GoldenRain",
+            "primary_language": "PHP",
+            "created_at": "2023-03-22",
+            "last_push_metadata": "2023-03-29"
+          }
+        ],
+        "personal_authorship_inference": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-6270c08c0772",
+          "locator": "SocialPost repository metadata item",
+          "quote": "\"full_name\": \"wangge327/SocialPost\""
+        },
+        {
+          "source_id": "src-6270c08c0772",
+          "locator": "GoldenRain repository metadata item",
+          "quote": "\"full_name\": \"wangge327/GoldenRain\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Platform metadata for the review-tier candidate account only. No repository was cloned or executed, and no code, purpose, safety, authorship, proficiency, identity, or current-control inference is made about Song."
+      ]
+    },
+    {
+      "id": "claim-song-kum-hyok-federal-register-durability-round62",
+      "type": "legal_event",
+      "predicate": "federal_register_durable_publication_of_existing_ofac_action",
+      "value": {
+        "document_number": "2025-12906",
+        "citation": "90 FR 31115",
+        "official_name": "SONG, Kum Hyok",
+        "action_issued_date": "2025-07-08",
+        "publication_date": "2025-07-11",
+        "designation_bases": [
+          "section 1(a)(ii)(D) of Executive Order 13694, as amended by Executive Orders 13757, 14144, and 14306",
+          "section 2(a)(ix) of Executive Order 13722"
+        ],
+        "same_ofac_action_already_represented": true,
+        "independent_corroboration": false,
+        "new_legal_event": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dofr62-2025-12906",
+          "locator": "90 FR 31115, DATES; individual entry 1 and following designation paragraphs",
+          "quote": "This action was issued on July 8, 2025."
+        },
+        {
+          "source_id": "dofr62-2025-12906",
+          "locator": "90 FR 31115, DATES; individual entry 1 and following designation paragraphs",
+          "quote": "1. SONG, Kum Hyok,"
+        },
+        {
+          "source_id": "dofr62-2025-12906",
+          "locator": "90 FR 31115, DATES; individual entry 1 and following designation paragraphs",
+          "quote": "Designated pursuant to section 1(a)(ii)(D) of Executive Order 13694"
+        },
+        {
+          "source_id": "dofr62-2025-12906",
+          "locator": "90 FR 31115, DATES; individual entry 1 and following designation paragraphs",
+          "quote": "Designated pursuant to section 2(a)(ix) of Executive Order 13722"
+        }
+      ],
+      "observed_at": "2025-07-11",
+      "notes": [
+        "Durable official publication of the same OFAC administrative designation action already represented; this does not change designation posture or create a new legal event.",
+        "The Federal Register notice belongs to the same OFAC action family and is not independent legal or adjudicative corroboration.",
+        "Only safe name forms, action/publication dates, executive-order bases, citation, and document number are retained from the person entry."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Reported facilitator or legal subject; preserve allegation, designation, conviction, and identity posture separately for every claim."
+}

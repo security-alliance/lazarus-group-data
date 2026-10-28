@@ -1,0 +1,44 @@
+{
+  "id": "deep2-vendor-dv-f07",
+  "type": "cluster",
+  "name": "CrowdStrike FAMOUS CHOLLIMA 2025 infiltration scale",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s05-dv-f07"
+    ]
+  },
+  "caveats": [
+    "CrowdStrike phrases real-time deepfake use as reported; the subclaim remains at that source wording.",
+    "The public post leaves the companies and precise confirmation threshold for each infiltration unspecified."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "CrowdStrike reported that FAMOUS CHOLLIMA infiltrated more than 320 companies during the preceding 12 months, a 220% year-over-year increase.",
+        "CrowdStrike said the cluster used GenAI at every hiring/employment stage: generating attractive resumes, reportedly masking identities with real-time deepfakes in video interviews, and using AI coding tools to perform work."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s05-dv-f07"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "bitso-mateo-alfredo-cluster",
+    "bitso-sebastian-jesus-sebastian-cluster"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s05-dv-f07",
+      "support": "CrowdStrike reported that FAMOUS CHOLLIMA infiltrated more than 320 companies during the preceding 12 months, a 220% year-over-year increase. CrowdStrike said the cluster used GenAI at every hiring/employment stage: generating attractive resumes, reportedly masking identities with real-time deepfakes in video interviews, and using AI coding tools to perform work",
+      "locator": "AI-Powered Adversaries"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

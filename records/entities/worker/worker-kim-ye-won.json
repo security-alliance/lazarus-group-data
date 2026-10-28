@@ -1,0 +1,396 @@
+{
+  "id": "worker-kim-ye-won",
+  "type": "worker",
+  "name": "Kim Ye Won",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12. Wanted and charged status records an allegation; the case remains unadjudicated. A later HTTP 403 leaves removal and fresh status verification unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-12",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Kim Ye Won",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "FBI pages may change; retain verification date.",
+    "The record excludes facial recognition and cross-persona identity inference.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-12",
+      "source_url": "https://www.fbi.gov/wanted/cyber/kim-ye-won",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/kim-ye-won/@@images/image/large",
+      "caption": "FBI wanted-page image published for Kim Ye Won, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-kim-ye-won"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-12",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Kim Ye Won; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Kim Ye Won as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Kim Ye Won and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Kim Ye Won as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Kim Ye Won; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "src-27158e6ed446"
+    },
+    {
+      "source_id": "src-06f24e344e15"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Ye Won",
+        "korean": "김예원"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Kim Ye Won (김예원), IT worker"
+        },
+        {
+          "source_id": "src-27158e6ed446",
+          "locator": "JSON field: title",
+          "quote": "KIM YE WON"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "The Latin and Hangul forms are explicitly paired by RFJ; the FBI API title independently matches the charged identity. No same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-yanbian-it-worker-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organization": "Yanbian Silverstar",
+        "role": "IT worker"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21",
+          "quote": "KIM YE WON"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21",
+          "quote": "worked as IT workers for Yanbian Silverstar and reported to the Group Leaders."
+        },
+        {
+          "source_id": "src-27158e6ed446",
+          "locator": "JSON field: occupations[0]",
+          "quote": "IT Worker"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The role-class allegation expressly includes the subject in the same paragraph; it does not establish current employment."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft",
+          "aggravated identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 title",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 21, Count 1 defendant list",
+          "quote": "KIM YE WON"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 title",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 defendant list",
+          "quote": "KIM YE WON"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 24, Count 3 defendant list",
+          "quote": "KIM YE WON"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 defendant list",
+          "quote": "KIM YE WON"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 title",
+          "quote": "Aggravated Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 defendant list",
+          "quote": "KIM YE WON"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06f24e344e15",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Kim Ye Won is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-06f24e344e15",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Kim Ye Won in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        },
+        {
+          "source_id": "src-27158e6ed446",
+          "locator": "JSON field: caution",
+          "quote": "Kim Ye Won is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-27158e6ed446",
+          "locator": "JSON field: caution",
+          "quote": "A federal arrest warrant was issued for Kim Ye Won in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Wanted and warrant status do not establish guilt; status is reported as displayed on the retrieved official poster."
+      ]
+    },
+    {
+      "id": "claim-ordered-stolen-pii-use-allegation",
+      "type": "incident",
+      "predicate": "named_in_order_to_use_stolen_pii",
+      "value": {
+        "conduct": "allegedly ordered to use stolen PII",
+        "aggregate_affected_persons": 188
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "Between approximately February and March 2021, CHO CHUNG POM, CHOE JONG YONG, SON UN CHOL, KIM YE WON, and SOK KWANG HYOK were ordered to use Personally Identifiable Information (\"PII\") stolen from 188 U.S. persons."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Aggregate count only; no victim identity, selector, or PII value is retained.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-stolen-pii-use-allegation",
+      "type": "incident",
+      "predicate": "named_in_stolen_pii_use_allegation",
+      "value": {
+        "conduct": "allegedly used stolen PII from the SSN LIST in furtherance of the charged conspiracy"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "In several instances, CHO CHUNG POM, CHOE JONG YONG, SON UN CHOL, KIM YE WON, SOK KWANG HYOK, and conspirators known and unknown to the Grand Jury used the stolen PII in the SSN LIST in furtherance of their conspiracy."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Aggregate defendant-specific allegation; no victim identities, selectors, or PII fields are retained.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-interview-impersonation-direction-allegation",
+      "type": "incident",
+      "predicate": "allegedly_directed_job_interview_impersonation",
+      "value": {
+        "conduct": "another person allegedly acted at Kim Ye Won's behest during a job interview"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 10, paragraph 29",
+          "quote": "acting at the behest of KIM YE WON."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The private participant and victim selectors in the surrounding sentence were deliberately excluded."
+      ]
+    },
+    {
+      "id": "claim-kim-ye-won-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "src-06f24e344e15",
+          "locator": "PDF p. 1, Reward",
+          "quote": "offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Program-level reward language on pages associated with Kim and the listed network. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-kim-ye-won-fbi-china-ties",
+      "type": "location",
+      "predicate": "fbi_reported_country_ties_or_possible_travel",
+      "value": {
+        "country": "China",
+        "wording": "has ties to or may visit",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-27158e6ed446",
+          "locator": "JSON field: remarks",
+          "quote": "Kim Ye Won has ties to or may visit China."
+        },
+        {
+          "source_id": "src-06f24e344e15",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Kim Ye Won has ties to or may visit China."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Coarse FBI-reported country context only. It does not establish residence, an itinerary, a current visit, or present location."
+      ]
+    },
+    {
+      "id": "claim-kim-ye-won-link-only-fbi-image",
+      "type": "image",
+      "predicate": "official_link_only_wanted_page_image",
+      "value": {
+        "media_type": "official wanted-page image",
+        "source_url": "https://www.fbi.gov/wanted/cyber/kim-ye-won",
+        "handling": "link_only",
+        "reuse_status": "editorial_review_required"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06f24e344e15",
+          "locator": "Official one-page wanted poster with source-labeled photographs",
+          "quote": "KIM YE WON"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Link to the official context page only. No direct asset export, cache, crop, republication, face matching, appearance comparison, or identity inference is authorized; charged and wanted status does not establish guilt or current appearance."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kim Ye Won (김예원), the charged defendant explicitly named by Rewards for Justice, the FBI, and E.D. Mo. No. 4:24-cr-00648-MTS-JSD; same-name public accounts remain separate pending corroboration, and every criminal-conduct claim remains allegation-only."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "crypto-incident-doj-defi-company-1-workers",
+  "type": "cluster",
+  "name": "DeFi Company 1 (U.S. IT development company; unnamed) — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Court filings and DOJ announcements describe allegations; conviction requires a separate court record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-doj-civil-forfeiture-1-25-cv-1769"
+    ]
+  },
+  "organizations": [
+    "DeFi Company 1 (U.S. IT development company; unnamed)"
+  ],
+  "ttps": [
+    "Indictment allegation: Bram Chen profile claimed Khosta/Krasnodar, Russia; Senior Blockchain Developer; 500+ connections; Singapore Institute of Technology",
+    "Indictment allegation: Direct onward transfers into DPRK consolidation infrastructure",
+    "Indictment allegation: Fraudulent W-9 using another U.S. citizen’s government identifier",
+    "Indictment allegation: Physical address on W-9 was a pizzeria",
+    "Indictment allegation: Requested salary in USDC to worker-controlled addresses",
+    "Indictment allegation: Same persona used Joshua Palmer for employment and Wong Shao Onn for Binance/freelance profile",
+    "Indictment allegation: Second worker wrote smart contracts and supplied a Russia-based contact indicator",
+    "Indictment allegation: UAE IP access with Malaysian identity documents"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "This record alleges no theft or malicious act against the employer."
+  ],
+  "aliases": [
+    {
+      "value": "Bram Chen",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    },
+    {
+      "value": "Joshua Palmer",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    },
+    {
+      "value": "Wong Shao Onn",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-civil-forfeiture-1-25-cv-1769"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "joshua-palmer"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+      "support": "DeFi Company 1 hired two remote IT workers who asked to be paid to worker addresses",
+      "locator": "Complaint ¶¶ 67–81 (PDF pp. 27–36), subsections “North Korean IT Workers Employed by DeFi Company 1,” “...DeFi Company 2,” and account-linkage allegations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

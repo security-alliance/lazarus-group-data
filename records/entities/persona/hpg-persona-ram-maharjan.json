@@ -1,0 +1,488 @@
+{
+  "id": "hpg-persona-ram-maharjan",
+  "type": "persona",
+  "name": "Ram Maharjan",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Nisos-assessed likely fake employment persona; the label remains source-attributed, while civil identity, legal name, nationality, and adjudicated DPRK attribution require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "hpg-s06"
+    ]
+  },
+  "ttps": [
+    "code-hosting-account",
+    "multiple-personas",
+    "referral-network",
+    "shared-portfolio"
+  ],
+  "caveats": [
+    "A shared contact value is a correlation lead; a common operator requires separate evidence.",
+    "The article's email addresses, phone numbers, profile images, and current-employer claims stay out of the dataset.",
+    "This persona label is a research identifier; investigation of an apparent real person requires independent, lawful corroboration.",
+    "Reverse-image matching supports inconsistency review; facial recognition and civil-identity inference stay outside the method.",
+    "The GitHub account is source-linked to more than one persona; shared linkage supplies a relationship lead, while operator identity requires separate evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Ram Maharjan",
+      "alias_type": "employment-persona",
+      "relationship": "uncertain",
+      "source_ids": [
+        "hpg-s06"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Nisos identified Ram Maharjan as a likely fake employment persona sharing contact information with Karl Chong and linked the 2024-created persona set to repositories under GitHub account imcode65."
+      ],
+      "source_ids": [
+        "hpg-s06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "hpg-s06",
+      "support": "Nisos identified Ram Maharjan as a likely fake employment persona sharing contact information with Karl Chong and linked the 2024-created persona set to repositories under GitHub account imcode65",
+      "locator": "Executive Summary; Risk Mitigation Steps; Fake Persona Network; Karl Chong subsections"
+    },
+    {
+      "source_id": "drpd63-nisos-mitigation"
+    },
+    {
+      "source_id": "src-bef24ad5b7d4"
+    },
+    {
+      "source_id": "src-63221b5d932b"
+    },
+    {
+      "source_id": "src-996b06182d64"
+    },
+    {
+      "source_id": "src-e5485f1375d6"
+    },
+    {
+      "source_id": "src-17339d97d953"
+    },
+    {
+      "source_id": "src-23f5924cf79a"
+    },
+    {
+      "source_id": "src-258f835c3ba6"
+    },
+    {
+      "source_id": "src-b8d4fb76e1bd"
+    },
+    {
+      "source_id": "src-53c427489ace"
+    },
+    {
+      "source_id": "src-cb05c221240c"
+    },
+    {
+      "source_id": "src-a618897b7023"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ram-reported-persona",
+      "type": "identity_name",
+      "predicate": "researcher_assessed_fake_employment_persona",
+      "value": {
+        "name": "Ram Maharjan",
+        "identity_status": "Nisos-assessed likely fake employment persona"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "hpg-s06",
+          "locator": "Executive Summary",
+          "quote": "Two additional fake personas, Roman Kryveha and Ram Maharjan"
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Research assessment only; not a civil-identity, nationality, sanctions, or legal determination."
+      ]
+    },
+    {
+      "id": "claim-ram-karl-shared-contact-network",
+      "type": "relationship",
+      "predicate": "publisher_reported_shared_contact_network",
+      "value": {
+        "other_persona": "Karl Chong",
+        "basis": "shared contact information",
+        "publisher_assessment": "likely created to obtain remote employment"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 3, Executive Summary",
+          "quote": "Roman Kryveha and Ram Maharjan, who share contact information with Karl Chong, were likely created to also obtain remote employment as part of the employment scheme."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "No contact value is retained. Shared contact information is a source-reported network link, not proof of one operator."
+      ]
+    },
+    {
+      "id": "claim-ram-claimed-development-role",
+      "type": "employment",
+      "predicate": "source_reported_persona_role_claim",
+      "value": {
+        "claimed_roles": [
+          "full-stack developer",
+          "senior front-end developer"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, Ram Maharjan",
+          "quote": "Ram Maharjan claims to be a full-stack and senior front-end developer."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical persona claims, not verified employment or expertise."
+      ]
+    },
+    {
+      "id": "claim-ram-historical-vercel-site",
+      "type": "infrastructure",
+      "predicate": "source_reported_persona_website",
+      "value": {
+        "url": "https://ram-maharjan.vercel.app/",
+        "status": "historical source report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, footnote 17",
+          "quote": "https://ram-maharjan[.]vercel.app"
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical source attribution; no present control inferred."
+      ]
+    },
+    {
+      "id": "claim-ram-code-0605-historical",
+      "type": "account",
+      "predicate": "source_reported_github_username",
+      "value": {
+        "platform": "GitHub",
+        "username": "code-0605",
+        "relationship_scope": "listed on Ram Maharjan and Karl Chong websites"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, Ram Maharjan",
+          "quote": "His website lists the same GitHub account, code-0605, as Karl Chong’s website."
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, Backstopping",
+          "quote": "Both the Karl Chong and Ram Maharjan personas listed GitHub username code-0605 in their contact information in their resumes."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical shared account label; present control and same-operator identity are not established."
+      ]
+    },
+    {
+      "id": "claim-ram-account-backstopping-assessment",
+      "type": "relationship",
+      "predicate": "publisher_assessed_shared_github_backstopping",
+      "value": {
+        "account": "code-0605",
+        "assessment": "reused to backstop newly created personas with matured work profiles"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, Backstopping, assessment clause before footnote markers",
+          "quote": "Nisos assesses that likely DPRK IT workers reuse GitHub accounts to"
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, Backstopping, assessment clause after footnote markers",
+          "quote": "backstop their newly created personas with matured work profiles."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Publisher assessment; account reuse does not establish that all linked personas are one natural person."
+      ]
+    },
+    {
+      "id": "claim-ram-imcode65-repository-cluster",
+      "type": "relationship",
+      "predicate": "publisher_reported_related_repository_cluster",
+      "value": {
+        "account": "imcode65",
+        "relationship_scope": "2024 persona repositories",
+        "one_to_one_account_attribution": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 4, Fake Persona Network",
+          "quote": "The newly created personas were all created and updated in 2024 in repositories linked to GitHub account imcode65."
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 8, Newly Created Personas",
+          "quote": "Nisos identified three personas that share usernames and GitHub accounts with Karl Chong."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Cluster relationship only. Nisos explicitly considered both a wrong-account explanation and a similarly named new account; imcode65 is not assigned as Ram's personal account."
+      ]
+    },
+    {
+      "id": "claim-ram-no-freelancer-accounts-at-report-time",
+      "type": "note",
+      "predicate": "publisher_reported_search_silence",
+      "value": {
+        "finding": "Nisos did not identify freelancer accounts",
+        "time_scope": "report publication",
+        "publisher_inference": "likely created recently and not used to obtain remote work yet"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 11, continuation of Backstopping",
+          "quote": "Nisos did not identify any freelancer accounts for this persona, which suggests that it was likely created recently and has not been used to obtain remote work yet."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Search silence and the recency/non-use language are Nisos's publication-time findings and inference, not proof that no account ever existed or that the persona never applied, interviewed, worked, received payment, or changed after the report."
+      ]
+    },
+    {
+      "id": "claim-ram-vercel-endpoint-not-found-2026",
+      "type": "infrastructure",
+      "predicate": "public_endpoint_not_found_at_cutoff",
+      "value": {
+        "url": "https://ram-maharjan.vercel.app/",
+        "http_status": 404,
+        "observed_on": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-bef24ad5b7d4",
+          "locator": "HTTP response body",
+          "quote": "The deployment could not be found on Vercel."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Endpoint status only; deletion timing, cause, and past or present controller are unknown."
+      ]
+    },
+    {
+      "id": "claim-ram-code-0605-not-found-2026",
+      "type": "account",
+      "predicate": "public_endpoint_not_found_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "username": "code-0605",
+        "http_status": 404,
+        "exact_login_search_results": 0,
+        "observed_on": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-63221b5d932b",
+          "locator": "JSON message field",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-996b06182d64",
+          "locator": "complete exact-login search result",
+          "quote": "\"total_count\": 0"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "User-endpoint and exact-login status only; they do not establish when or why the historical label became unavailable, whether it was renamed, or whether Nisos's label referred to a user rather than the separately documented repository."
+      ]
+    },
+    {
+      "id": "claim-ram-imcode65-not-found-2026",
+      "type": "relationship",
+      "predicate": "related_cluster_endpoint_not_found_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "related_account": "imcode65",
+        "http_status": 404,
+        "exact_login_search_results": 0,
+        "observed_on": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-e5485f1375d6",
+          "locator": "JSON message field",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-17339d97d953",
+          "locator": "complete exact-login search result",
+          "quote": "\"total_count\": 0"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current user/login status of a historically related cluster label; no one-to-one Ram Maharjan account attribution. Surviving old repository-route redirects are narrower artifact continuity and do not prove a user-account rename or one operator."
+      ]
+    },
+    {
+      "id": "claim-ram-new-persona-creation-window",
+      "type": "relationship",
+      "predicate": "publisher_reported_new_persona_set_creation_update_window",
+      "value": {
+        "group_scope": "three newly created personas including the Ram Maharjan label",
+        "publisher_reported_window": "2024-03 through 2024-05",
+        "basis": "GitHub commit review",
+        "individual_account_creation_date_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 8, Newly Created Personas, group chronology sentence",
+          "quote": "A review of GitHub commits shows that the three accounts were all created and updated between March and May 2024."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "This is Nisos's group-level source finding. It is not converted into an exact Ram account creation date, current activity finding, civil identity, physical location, employment event, or proof that one operator controlled all three personas."
+      ]
+    },
+    {
+      "id": "claim-ram-historical-repository-current-status",
+      "type": "account",
+      "predicate": "publisher_figured_repository_artifact_currently_unavailable",
+      "value": {
+        "platform": "GitHub",
+        "publisher_figured_owner": "imcode65",
+        "publisher_figured_repository": "ram-maharjan",
+        "publisher_figured_updated_date": "2024-05-16",
+        "historical_owner_route_status_at_cutoff": 404,
+        "current_related_owner_route_status_at_cutoff": 404,
+        "current_related_owner_public_repo_count": 43,
+        "present_in_complete_current_owner_listing": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 11, Graphic 17, visually verified repository label and displayed update date",
+          "quote": "Graphic 17: Imcode65’s Github repositories for fake persona resume updates."
+        },
+        {
+          "source_id": "src-53c427489ace",
+          "locator": "complete JSON response",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-cb05c221240c",
+          "locator": "complete JSON response",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-a618897b7023",
+          "locator": "complete 43-item owner-repository listing",
+          "quote": "\"name\": \"code-0605\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The May 16, 2024 date is metadata displayed in Nisos's source figure, not independently retrieved Git history. Current absence from both tested paths and the complete owner listing does not establish deletion date, cause, transfer, rename, past content, present controller, authorship, or activity.",
+        "The code-0605 and jab-p artifacts remain in the current owner listing; their survival does not prove that a one-record count difference from Nisos's 44-repository screenshot is solely the ram-maharjan repository because other repositories may have been added or removed."
+      ]
+    },
+    {
+      "id": "claim-ram-nisos-figures-link-only",
+      "type": "image",
+      "predicate": "source_pages_contain_relevant_network_and_artifact_figures",
+      "value": {
+        "source_page_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-worker-scam-mitigation.pdf",
+        "relevant_pages": [
+          4,
+          10,
+          11
+        ],
+        "safe_figure_scope": [
+          "publisher persona-network relationship map in Graphic 1",
+          "publisher image-manipulation comparison context in Graphics 15 and 16",
+          "publisher historical repository-listing context in Graphic 17"
+        ],
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 4, Graphic 1 caption",
+          "quote": "Graphic 1: Network map of likely DPRK-affiliated personas."
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 10, Graphic 15 caption",
+          "quote": "Graphic 15: Photo from Ram Maharjan’s website."
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 11, Graphic 17 caption",
+          "quote": "Graphic 17: Imcode65’s Github repositories for fake persona resume updates."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Retain the publisher PDF link only. Do not export, cache, crop, or republish direct figure, portrait, avatar, or screenshot assets without rights and editorial review.",
+        "Graphic 1 contains contact selectors and person images; Graphics 15 and 16 contain a possible victim and a publisher-assessed likely worker image. No selector, face, direct asset, or third-party identity is retained in this claim or usable for identification."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ram Maharjan is a Nisos-assessed likely fake employment persona in the Karl Chong/imcode65 artifact network, with unverified civil identity and nationality. The historical website, code-0605 label, imcode65 cluster link, current kanbei65 repository-route continuity, profile image, and same-name search results remain separate absent an explicit source bridge. Repository redirects establish artifact continuity only; account rename, one operator, and Ram's personal-account ownership remain unresolved."
+}

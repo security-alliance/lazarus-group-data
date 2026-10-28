@@ -1,0 +1,219 @@
+{
+  "id": "dppr5-anotherrusty-account-family",
+  "type": "cluster",
+  "name": "AnotherRusty account family",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Research attribution only; public charge, adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dppr5-ketman-github-organizations-2025"
+    ]
+  },
+  "organizations": [
+    "HyperbuildX",
+    "m8s-lab"
+  ],
+  "ttps": [
+    "Source-attributed public employment-persona and developer-account use"
+  ],
+  "caveats": [
+    "Current ownership or control of any public account remains unresolved; account-holder contact, targeting, and investigation require a separate lawful basis.",
+    "Avatars, physical appearance, follower graphs, and code style alone leave common control unestablished.",
+    "Keep every named persona separate from natural persons and stolen-identity victims.",
+    "Keep the three public GitHub accounts grouped only as a source-assessed account family until independently corroborated.",
+    "Ketman assesses the three GitHub personas as accounts operated by one worker and reports shared portfolio and communication-account continuity. This is researcher attribution; legal identity requires separate verification.",
+    "Name similarity, appearance, avatars, code style, followers, stars, forks, organization membership, and social amplification provide context only; relationships require source links.",
+    "Persona labels and public handles are source-reported indicators; legal identity and criminal-guilt status require separate official findings.",
+    "The source-displayed person image is omitted because its provenance and depicted-person identity remain unestablished."
+  ],
+  "aliases": [
+    {
+      "value": "Mathias Li",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "Matthias Li",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "Matthias Tovar",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "Apollum",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "Hudesdev",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "MacSolDev",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "MtBotDev",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "PupSol",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "SolMatts",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "Solust_Rusty",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "husreodev",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "rusty015",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "rustynail015",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "AnotherRusty",
+      "url": "https://github.com/AnotherRusty",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit primary account. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "apollotoday",
+      "url": "https://github.com/apollotoday",
+      "status": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-assessed same worker. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "X",
+      "identifier": "j_apollum",
+      "url": "hxxps://x[.]com/j_apollum",
+      "status": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-reported apollotoday account. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "m4rcu5o",
+      "url": "https://github.com/m4rcu5o",
+      "status": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-assessed same worker. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "X",
+      "identifier": "m4rcu5o",
+      "url": "hxxps://x[.]com/m4rcu5o",
+      "status": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-reported m4rcu5o account. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "X",
+      "identifier": "x_fivefingers",
+      "url": "hxxps://x[.]com/x_fivefingers",
+      "status": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-reported active account. Current ownership, control, and activity are not independently established.",
+      "archived_url": "https://web.archive.org/web/20260108003233/hxxps://x[.]com/x_fivefingers"
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep-index-history-ldh-f031"
+  ],
+  "sources": [
+    {
+      "source_id": "dppr5-ketman-github-organizations-2025",
+      "support": "Ketman assesses the three GitHub personas as accounts operated by one worker and reports shared portfolio and communication-account continuity. This is researcher attribution, not a verified legal identity",
+      "locator": "The Core Team of HyperbuildX; Other DPRK IT Workers in the orbit of HyperbuildX; Indicators of Compromise"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

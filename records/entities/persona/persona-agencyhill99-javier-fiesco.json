@@ -1,0 +1,291 @@
+{
+  "id": "persona-agencyhill99-javier-fiesco",
+  "type": "persona",
+  "name": "Javier Fiesco",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "organizations": [
+    "AgencyHill99",
+    "PurpleBravo"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "Publish only as an Insikt Group-attributed recruiter persona.",
+    "Source-observed in late 2024 and reported 2025-02-13; current account ownership remains unverified.",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Javier Fiesco",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "LinkedIn",
+      "identifier": "LinkedIn recruiter/CTO presentation",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    },
+    {
+      "platform": "remote3",
+      "identifier": "remote3 profile",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports Javier Fiesco as a persona or account linked to AgencyHill99, PurpleBravo; historical indicators described by the source include LinkedIn recruiter/CTO presentation, remote3 profile",
+      "locator": "PDF p. 4"
+    },
+    {
+      "source_id": "src-eda734d4369c"
+    },
+    {
+      "source_id": "src-249e014d66ce"
+    },
+    {
+      "source_id": "src-7b1bf200a3cd"
+    },
+    {
+      "source_id": "src-1ae4ec881b51"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-javier-linkedin-presentation",
+      "type": "account",
+      "predicate": "researcher_reported_historical_linkedin_presentation",
+      "value": {
+        "platform": "LinkedIn",
+        "name": "Javier Fiesco",
+        "claimed_role": "CTO of AgencyHill99"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 4, PurpleBravo’s Fraudulent Profiles",
+          "quote": "The interviewer used a LinkedIn account with the name Javier Fiesco, who describes themself as the CTO of AgencyHill99."
+        },
+        {
+          "source_id": "src-eda734d4369c",
+          "locator": "PurpleBravo’s Fraudulent Profiles, interviewer paragraph",
+          "quote": "The interviewer used a LinkedIn account with the name Javier Fiesco, who describes themself as the CTO of AgencyHill99."
+        }
+      ],
+      "observed_at": "2024-12-03",
+      "notes": [
+        "Historical source-reported presentation only; no exact LinkedIn URL, verified civil identity, employment, or current account control was established."
+      ]
+    },
+    {
+      "id": "claim-javier-remote3-presentation",
+      "type": "account",
+      "predicate": "researcher_reported_remote3_profile",
+      "value": {
+        "platform": "remote3",
+        "name": "Javier Fiesco",
+        "profile_path": "javier0923",
+        "availability": "available for work",
+        "earliest_verified_archive_capture": "2025-02-14T18:04:13Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 4, PurpleBravo’s Fraudulent Profiles",
+          "quote": "Further investigation into Javier Fiesco uncovered an individual with the same name available for work on remote3, a Web3 development job board."
+        },
+        {
+          "source_id": "src-eda734d4369c",
+          "locator": "PurpleBravo’s Fraudulent Profiles, linked Remote3 sentence",
+          "quote": "Further investigation into Javier Fiesco uncovered an individual with the same name available for work on remote3, a Web3 development job board."
+        },
+        {
+          "source_id": "src-249e014d66ce",
+          "locator": "HTML title and Open Graph URL",
+          "quote": "Javier Fiesco -"
+        }
+      ],
+      "observed_at": "2025-02-13",
+      "notes": [
+        "Recorded Future's direct link and the archived page title establish the historical platform path at the account-label level; they do not verify a civil identity, employment, location, or current controller."
+      ]
+    },
+    {
+      "id": "claim-javier-interview-context",
+      "type": "incident",
+      "predicate": "researcher_reported_suspected_operator_interview_context",
+      "value": {
+        "activity": "recruiter interview followed by coding-challenge download request",
+        "report_context": "developer described experience with a suspected PurpleBravo operator",
+        "malware_assessment": "Insikt Group assessed the file as BeaverTail with high confidence; the developer did not attribute the malware or actor"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 4, PurpleBravo’s Fraudulent Profiles, opening sentence",
+          "quote": "On December 3, 2024, a developer posted a blog about their experience with a suspected PurpleBravo operator."
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 4, PurpleBravo’s Fraudulent Profiles",
+          "quote": "An individual claiming to be a recruiter contacted them about a job offer and then followed up with an interview. During the interview, the interviewer asked the developer to download a coding challenge from a repository."
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 4, PurpleBravo’s Fraudulent Profiles, malware assessment",
+          "quote": "While the developer does not attribute the malware or actor, Insikt Group assesses with high confidence the file is a BeaverTail infostealer."
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 4, PurpleBravo’s Fraudulent Profiles, interviewer account",
+          "quote": "The interviewer used a LinkedIn account with the name Javier Fiesco, who describes themself as the CTO of AgencyHill99."
+        },
+        {
+          "source_id": "src-eda734d4369c",
+          "locator": "PurpleBravo’s Fraudulent Profiles, linked blog and interviewer paragraphs",
+          "quote": "On December 3, 2024, a developer posted a blog about their experience with a suspected PurpleBravo operator."
+        },
+        {
+          "source_id": "src-7b1bf200a3cd",
+          "locator": "Opening narrative, LinkedIn approach",
+          "quote": "On an afternoon, I casually opened LinkedIn. There was a chat notification from someone offering a full-time remote position"
+        },
+        {
+          "source_id": "src-7b1bf200a3cd",
+          "locator": "Opening narrative, GitHub invitation and screen-sharing request",
+          "quote": "Then, he asked for my GitHub user.I was invited to a project using Node.js, and he asked me to share my screen because he said this was a screening stage"
+        }
+      ],
+      "observed_at": "2024-12-03",
+      "notes": [
+        "The suspected-operator description and BeaverTail identification are source attributions, not independently established facts about the persona.",
+        "The original blog text corroborates the approach and interview sequence but does not textually name Javier; that bridge remains Recorded Future's source attribution.",
+        "No linked code artifact, screenshot, image, or download was retained, and no code was executed."
+      ]
+    },
+    {
+      "id": "claim-javier-public-legitimacy-question",
+      "type": "account",
+      "predicate": "researcher_reported_historical_linkedin_message",
+      "value": {
+        "platform": "LinkedIn",
+        "name_as_reported": "Javier Feisco",
+        "organization": "AgencyHill99",
+        "event": "recipient publicly questioned legitimacy"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 6, Telegram-post summary",
+          "quote": "On November 30, 2024, a Telegram user posted asking if a job offer on LinkedIn from the account mentioned above, Javier Feisco associated with Agencyhill99, was legitimate and shared a screenshot of the message."
+        },
+        {
+          "source_id": "src-eda734d4369c",
+          "locator": "PurpleBravo’s Fraudulent Profiles, November 30 Telegram summary",
+          "quote": "On November 30, 2024, a Telegram user posted asking if a job offer on LinkedIn from the account mentioned above, Javier Feisco associated with Agencyhill99, was legitimate and shared a screenshot of the message."
+        }
+      ],
+      "observed_at": "2024-11-30",
+      "notes": [
+        "The report spells the surname “Feisco” in the cited evidenceage; no identity merge beyond the report’s own cross-reference is inferred."
+      ]
+    },
+    {
+      "id": "claim-javier-remote3-current-access-boundary",
+      "type": "account",
+      "predicate": "historical_remote3_path_currently_authentication_gated",
+      "value": {
+        "platform": "Remote3",
+        "profile_path": "javier0923",
+        "status_at_cutoff": "authentication required",
+        "current_profile_data_publicly_visible": false,
+        "current_account_control_established": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-eda734d4369c",
+          "locator": "PurpleBravo’s Fraudulent Profiles, Remote3 hyperlink",
+          "quote": "https://remote3.co/p/javier0923"
+        },
+        {
+          "source_id": "src-1ae4ec881b51",
+          "locator": "Visible access gate",
+          "quote": "Authentication Required"
+        },
+        {
+          "source_id": "src-1ae4ec881b51",
+          "locator": "Visible access gate",
+          "quote": "Please log in to view profiles."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The current gate prevents unauthenticated profile review; no login or bypass was attempted.",
+        "An authentication gate is not evidence that the historical profile remains active, that the same operator controls it, or that its former contents are still accurate."
+      ]
+    },
+    {
+      "id": "claim-javier-feisco-source-form",
+      "type": "alias",
+      "predicate": "researcher_reported_account_name_misspelling",
+      "value": {
+        "alias": "Javier Feisco",
+        "form_type": "source-reported apparent misspelling in account-message context",
+        "civil_identity_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF p. 6 (printed p. 5), Telegram legitimacy-question bullet",
+          "quote": "On November 30, 2024, a Telegram user posted asking if a job offer on LinkedIn from the account mentioned above, Javier Feisco associated with Agencyhill99, was legitimate and shared a screenshot of the message."
+        }
+      ],
+      "observed_at": "2024-11-30",
+      "notes": [
+        "Retained as a source-explicit apparent misspelling of the historical account label, not a second civil identity, separate operator, current account, or independently verified alias.",
+        "The underlying screenshot, sender, contact data, and message contents are not retained or republished."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Source-reported LinkedIn and Remote3 persona label. Recorded Future's exact Remote3 link and an archived page title bridge the name Javier Fiesco to the historical path javier0923, but the label, account, spelling variant, role, and image remain unverified for civil identity or current operator."
+}

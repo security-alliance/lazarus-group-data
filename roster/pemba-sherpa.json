@@ -1,0 +1,256 @@
+{
+  "id": "pemba-sherpa",
+  "named_in": "Indictment, United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-cr-00291 (unsealed 2025-06-30)",
+  "real_name": "Kim Kwang Jin",
+  "fake_names": [
+    "Pemba Sherpa",
+    "Pemba Gulu"
+  ],
+  "aliases": [
+    "Pemba Gulu",
+    "paladin-120"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "pemba.sherpa5232@gmail.com",
+    "pemba.gelu5232@gmail.com"
+  ],
+  "github": [
+    {
+      "gh_id": "paladin-120"
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xfb5d591e8216f5d0964286f09b1f61114c16aab0"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/pemba-sherpa/pemba-sherpa-wanted.jpeg",
+      "short_description": "FBI wanted poster, issued in the legal name",
+      "tags": [
+        "document"
+      ]
+    }
+  ],
+  "research_id": "worker-kim-kwang-jin",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "charged-allegation",
+    "summary": "DPRK national; IT worker charged in employer virtual-currency thefts",
+    "case": "1:25-CR-291",
+    "court": "U.S. District Court for the Northern District of Georgia",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Kim Kwang Jin (김관진) is the defendant charged in N.D. Ga. No. 1:25-CR-291. P.S. is a source-redacted identity-victim label allegedly misused by Kim, not a civil identity to identify or profile. Pemba Sherpa, Pemba Gulu, and paladin-120 remain publisher-attributed or legacy OSINT links rather than official identity determinations; current account control is unverified.",
+      "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+      "P.S. is a source-redacted victim label allegedly misused by the defendant, not a public employment persona or a person to identify, profile, or contact.",
+      "Do not attach 'P.S.' (source-redacted-victim-label): legal-context-only-do-not-attach.",
+      "The indictment describes the employment alias as a real victim's identity, redacted as 'P.S.'. This site therefore does not treat the 'Pemba Sherpa' persona name as fabricated, and does not assert that any named person is 'P.S.'."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-47616eafd0cd",
+      "title": "Reframing Insights: Our Research through the lens of the 2025 MSMT Report",
+      "publisher": "Chollima Group",
+      "url": "https://chollima-group.io/posts/reframing-insights-our-research-msmt",
+      "date": "2025-11-19"
+    },
+    {
+      "id": "doc-8fe1311bd7cb",
+      "title": "Indictment, United States v. Kim Kwang Jin et al.",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/media/1406396/dl",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "doc-eb442144975a",
+      "title": "Justice Department Announces Coordinated Nationwide Actions to Combat North Korean Remote Information Technology Worker Schemes",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "doc-fox5atlanta-kim-kwang-jin-2025",
+      "title": "North Korean nationals wanted in cryptocurrency embezzlement scheme; $5M reward",
+      "publisher": "FOX 5 Atlanta",
+      "url": "https://www.fox5atlanta.com/news/north-korean-nationals-wanted-cryptocurrency-embezzlement-scheme-5m-reward",
+      "date": "2025-06-30"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-kim-bureau61-umnal-publisher-assessment",
+      "label": "Publisher assessed affiliation",
+      "category": "organization_affiliation",
+      "observed": "2025-11-19",
+      "evidence": [
+        {
+          "source_id": "doc-47616eafd0cd",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "we believe that Pemba Sherpa (Kim Kwang Jin), Charles Palmer (Kang Tae Bok), and Bryan Cho (Jong Pong Ju) are also Bureau 61 workers, most likely under the Umnal front company."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-collective-fbi-reward-report",
+      "label": "Media-reported collective reward of up to $5M (State Department Rewards for Justice, as reported)",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-fox5atlanta-kim-kwang-jin-2025",
+          "locator": "Structured article body, North Korean Cryptocurrency Theft Case section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-kwang-jin-official-name",
+      "label": "Officially charged name forms",
+      "category": "identity_name",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KIM KWANG JIN (김관진)"
+        },
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "Kim Kwang Jin (김관진)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-link-only-chollima-group-image",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-11-19",
+      "evidence": [
+        {
+          "source_id": "doc-47616eafd0cd",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kim Kwang Jin (Pemba Sherpa)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-money-laundering-conspiracy-charge",
+      "label": "Charged with money laundering conspiracy",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 13 (printed p. 11), Count Five heading",
+          "quote": "Count Five Money Laundering Conspiracy (18 U.S.C. § 1956(h))"
+        },
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 13 (printed p. 11), paragraph 38 defendant list",
+          "quote": "KIM KWANG JIN"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-north-korean-nationality-allegation",
+      "label": "Alleged nationality",
+      "category": "identity_name",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file pages 3-4 (printed pp. 1-2), paragraph 2",
+          "quote": "were citizens of North Korea"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-pemba-sherpa-publisher-assessment",
+      "label": "Publisher assessed persona",
+      "category": "alias",
+      "observed": "2025-11-19",
+      "evidence": [
+        {
+          "source_id": "doc-47616eafd0cd",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "From what we can piece together, we believe that Pemba Sherpa (Kim Kwang Jin)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-uae-2019-group-context",
+      "label": "Media reported historical group travel and colocation",
+      "category": "location",
+      "evidence": [
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "the defendants traveled to the United Arab Emirates on North Korean travel documents and worked as a co-located team."
+        },
+        {
+          "source_id": "doc-fox5atlanta-kim-kwang-jin-2025",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-wanted-posture",
+      "label": "Reported at large and wanted",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-wire-fraud-charges",
+      "label": "Charged with wire fraud",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 12 (printed p. 10), Counts Two through Four heading and charging paragraph",
+          "quote": "Counts Two through Four Wire Fraud (18 U.S.C. § 1343)"
+        },
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 12 (printed p. 10), paragraph 36",
+          "quote": "defendant KIM KWANG JIN"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-wire-fraud-conspiracy-charge",
+      "label": "Charged with wire fraud conspiracy",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 6 (printed p. 4), Count One heading",
+          "quote": "Count One Wire Fraud Conspiracy (18 U.S.C. § 1349)"
+        },
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 6 (printed p. 4), paragraph 21 defendant list",
+          "quote": "KIM KWANG JIN"
+        }
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

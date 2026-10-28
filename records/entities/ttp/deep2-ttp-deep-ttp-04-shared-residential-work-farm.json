@@ -1,0 +1,45 @@
+{
+  "id": "deep2-ttp-deep-ttp-04-shared-residential-work-farm",
+  "type": "ttp",
+  "name": "Overseas residential work farms can combine communal living, multiple devices per worker, multiple personas, and U.S./European work hours",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources; the technique mapping supplies context rather than an identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-04-shared-residential-work-farm"
+    ]
+  },
+  "ttps": [
+    "multiple-personas",
+    "multiple-simultaneous-jobs",
+    "shared-account"
+  ],
+  "caveats": [
+    "False-positive caution: Contractors may rotate lawful devices or use virtual desktops. Provide an exception process and avoid invasive home monitoring.",
+    "False-positive caution: Coworking spaces, universities, call centers, shared housing, and managed service providers can create shared infrastructure. A common NAT address can reflect shared infrastructure; identity and device-control inconsistencies are the required additional signals.",
+    "Former-worker testimony is retrospective and approximate; its numeric estimates describe reported scale rather than exact values."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "BBC’s former-worker account describes roughly ten workers living together, about twenty computers in one residence, one worker moving among two or three computers and identities, and overnight schedules aligned to Western clients. This is distinct from the familiar U.S.-based employer-laptop forwarding farm: it is a worker-side communal operations site abroad."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-04-shared-residential-work-farm"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-04-shared-residential-work-farm",
+      "support": "BBC’s former-worker account describes roughly ten workers living together, about twenty computers in one residence, one worker moving among two or three computers and identities, and overnight schedules aligned to Western clients. This is distinct from the familiar U.S.-based employer-laptop forwarding farm: it is a worker-side communal operations site abroad",
+      "locator": "Metadata; sections “IT 노동자는 조직의 말단”, “거실로 출근”, and “북한 지우기 비밀 규칙”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

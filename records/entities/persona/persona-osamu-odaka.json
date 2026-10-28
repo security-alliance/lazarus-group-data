@@ -1,0 +1,731 @@
+{
+  "id": "persona-osamu-odaka",
+  "type": "persona",
+  "name": "Osamu Odaka",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s3"
+    ]
+  },
+  "organizations": [
+    "LinkX Inc (reported persona use)"
+  ],
+  "ttps": [
+    "portfolio content later reused by WeiTao Wang",
+    "same GitHub account appeared on LaborX, ProPursuit, and Remote OK"
+  ],
+  "caveats": [
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved.",
+    "This source-reported persona or account label has unverified legal or civil identity. Historical observation or page reachability covers historical context; present ownership, control, activity, affiliation, nationality, sanctions status, and lawful identity remain unverified, and account-holder contact or targeting is prohibited."
+  ],
+  "aliases": [
+    {
+      "value": "Link",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "AnacondaDev0120",
+      "url": "https://github.com/AnacondaDev0120",
+      "status": "removed",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "brilliant0120",
+      "url": "hxxps://t[.]me/brilliant0120",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "LaborX",
+      "identifier": "id241156",
+      "url": "https://laborx.com/freelancers/users/id241156",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "nightfury00120",
+      "url": "hxxps://t[.]me/nightfury00120",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "Discord",
+      "identifier": "nightfury0120#2829",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "RemoteHub",
+      "identifier": "odaka.osamu",
+      "url": "https://www.remotehub.com/odaka.osamu",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s3"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "platform-s3",
+      "source_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-threat-japan.pdf",
+      "caption": "Nisos says the persona image was digitally manipulated; report Graphics 21–22 show source/body comparison.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "email",
+      "value": "anacondaDev0120@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s3"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "odaka0120hayai@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s3",
+      "support": "The Osamu Odaka resume claimed GitHub username anacondadev0120. The same GitHub username appeared on three freelance employment websites",
+      "locator": "Fake Persona 2: Osamu Odaka and freelancer-account discussion, report pp. 13-18; contact table p. 19"
+    },
+    {
+      "source_id": "src-c3dade237d85"
+    },
+    {
+      "source_id": "src-ee3419133d2e"
+    },
+    {
+      "source_id": "src-1a659ab0e000"
+    },
+    {
+      "source_id": "src-55198efefcdc"
+    },
+    {
+      "source_id": "src-9dad6a8481c3"
+    },
+    {
+      "source_id": "src-fdff670582b1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-reported-persona",
+      "type": "identity_name",
+      "predicate": "reported_employment_persona",
+      "value": {
+        "name": "Osamu Odaka",
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 13, 'Fake Persona 2: Osamu Odaka'",
+          "quote": "Nisos researcher identified the persona Osamu Odaka—used by the likely DPRK IT worker to obtain remote work in Japan"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Nisos attribution; the label is not a legal identity determination."
+      ]
+    },
+    {
+      "id": "claim-github-anacondadev0120",
+      "type": "account",
+      "predicate": "historically_used_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "AnacondaDev0120"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 13, opening paragraph",
+          "quote": "based on the persona listing Github username anacondadev0120 on their resume"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Historical attribution only; the cited report does not establish present ownership, control, or current endpoint status."
+      ]
+    },
+    {
+      "id": "claim-github-screenname",
+      "type": "account",
+      "predicate": "historically_used_github_screenname",
+      "value": {
+        "platform": "GitHub",
+        "screenname": "O_O",
+        "account": "AnacondaDev0120"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 3, 'GitHub Account AnacondaDev0120'",
+          "quote": "which used the username O_O—likely the initials for the likely DPRK IT worker persona Osamu Odaka—and screenname AnacondaDev0120"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "New atomic extraction from the fully reviewed seed document; Nisos describes the initials interpretation as likely."
+      ]
+    },
+    {
+      "id": "claim-laborx-account",
+      "type": "account",
+      "predicate": "used_laborx_profile",
+      "value": {
+        "platform": "LaborX",
+        "identifier": "id241156",
+        "observed_status": "publicly reachable at cutoff"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 5, 'LaborX'",
+          "quote": "The resume on freelancer website LaborX listed the name Osamu Odaka while claiming the Github account anacondadev0120."
+        },
+        {
+          "source_id": "src-c3dade237d85",
+          "locator": "page title and profile header",
+          "quote": "Freelancer Osamu Odaka - Work experience: Linkx"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Public reachability on the cutoff date does not establish present control or civil identity."
+      ]
+    },
+    {
+      "id": "claim-laborx-created",
+      "type": "account",
+      "predicate": "laborx_profile_created_at",
+      "value": {
+        "platform": "LaborX",
+        "identifier": "id241156",
+        "created_at": "2023-06-28T00:22:25"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-c3dade237d85",
+          "locator": "embedded public profile state, freelancerDetails.value, contiguous fragment 1 of 2",
+          "quote": "\"user_id\":241156,\"first_name\":\"Osamu\",\"last_name\":\"Odaka\""
+        },
+        {
+          "source_id": "src-c3dade237d85",
+          "locator": "embedded public profile state, freelancerDetails.value, contiguous fragment 2 of 2",
+          "quote": "\"created_at\":\"2023-06-28 00:22:25\""
+        }
+      ],
+      "observed_at": "2023-06-28",
+      "notes": [
+        "Platform timestamp, not evidence of who created the profile."
+      ]
+    },
+    {
+      "id": "claim-laborx-linkedin",
+      "type": "account",
+      "predicate": "laborx_profile_linked_account",
+      "value": {
+        "platform": "LinkedIn",
+        "identifier": "osamu-odaka-777625269",
+        "source_profile": "LaborX id241156"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-c3dade237d85",
+          "locator": "profile Contacts and embedded Channel record",
+          "quote": "www.linkedin.com/in/osamu-odaka-777625269"
+        }
+      ],
+      "observed_at": "2023-06-28",
+      "notes": [
+        "The link was present on the persona profile; the LinkedIn account itself was not authenticated or merged with a person."
+      ]
+    },
+    {
+      "id": "claim-propursuit-link",
+      "type": "alias",
+      "predicate": "used_platform_name",
+      "value": {
+        "alias": "Link",
+        "platform": "ProPursuit"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 5, 'ProPursuit'",
+          "quote": "The resume on freelancer website ProPursuit listed the name ‘Link,’ while claiming the Github account anacondadev0120."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "The shared GitHub claim is the evidentiary bridge; the alias is not a civil name."
+      ]
+    },
+    {
+      "id": "claim-remoteok-shaowtw",
+      "type": "alias",
+      "predicate": "related_platform_name",
+      "value": {
+        "alias": "shaowtw",
+        "platform": "Remote OK"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 6, 'Remote Ok'",
+          "quote": "The resume on freelancer website Remote Ok listed the name ‘shaowtw,’ while claiming the Github account anacondadev0120."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Related cluster label, not asserted as the same civil identity."
+      ]
+    },
+    {
+      "id": "claim-linkx-employment",
+      "type": "employment",
+      "predicate": "claimed_employment",
+      "value": {
+        "organization": "LinkX Inc.",
+        "role": "Full-stack web engineer",
+        "start": "2022-04",
+        "end": "2023-06"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-c3dade237d85",
+          "locator": "Work experience section, contiguous fragment 1 of 2",
+          "quote": "Linkx April 2022 – June 2023"
+        },
+        {
+          "source_id": "src-c3dade237d85",
+          "locator": "Work experience section, contiguous fragment 2 of 2",
+          "quote": "Full-stack Engineer"
+        },
+        {
+          "source_id": "src-ee3419133d2e",
+          "locator": "PDF p. 1, Work Experience, contiguous fragment 1 of 2",
+          "quote": "Front-end & Back-end Web Engineer, Linkx .Inc"
+        },
+        {
+          "source_id": "src-ee3419133d2e",
+          "locator": "PDF p. 1, Work Experience, contiguous fragment 2 of 2",
+          "quote": "April 2022 – June 2023"
+        }
+      ],
+      "notes": [
+        "Persona claim corroborated across two linked LaborX artifacts; it is not independent employer confirmation."
+      ]
+    },
+    {
+      "id": "claim-newit-employment",
+      "type": "employment",
+      "predicate": "claimed_employment",
+      "value": {
+        "organization": "NewIT Inc.",
+        "role": "Web back-end developer",
+        "location_claim": "Vietnam",
+        "start": "2015-05",
+        "end": "2017-07"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-ee3419133d2e",
+          "locator": "PDF p. 1, Work Experience",
+          "quote": "Web Back-end Developer NewIT .Inc Vietnam. May 2015–July 2017"
+        }
+      ],
+      "notes": [
+        "Self-asserted persona résumé claim; no employer verification was found."
+      ]
+    },
+    {
+      "id": "claim-cvdesignr-offthem",
+      "type": "employment",
+      "predicate": "claimed_employment",
+      "value": {
+        "organization": "OFFTHEM",
+        "role": "Frontend Developer",
+        "location_claim": "Remote",
+        "start": "2019-03",
+        "end": "2020-01"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1a659ab0e000",
+          "locator": "Work experience, Frontend Developer",
+          "quote": "Frontend Developer OFFTHEM Remote From Mar. 2019 to Jan. 2020"
+        }
+      ],
+      "notes": [
+        "Self-asserted persona CV claim; not verified against the named organization."
+      ]
+    },
+    {
+      "id": "claim-cvdesignr-kaizen",
+      "type": "employment",
+      "predicate": "claimed_employment",
+      "value": {
+        "organization": "Kaizen Platform",
+        "role": "Web Developer",
+        "location_claim": "Minato-ku, Tokyo",
+        "start": "2017-11",
+        "end": "2019-03"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1a659ab0e000",
+          "locator": "Work experience, Web Developer",
+          "quote": "Web Developer Kaizen Platform Minato-ku, Tokyo From Nov. 2017 to Mar. 2019"
+        }
+      ],
+      "notes": [
+        "Self-asserted persona CV claim; not verified against the named organization."
+      ]
+    },
+    {
+      "id": "claim-cvdesignr-linkedin-one",
+      "type": "account",
+      "predicate": "cv_linked_account",
+      "value": {
+        "platform": "LinkedIn",
+        "identifier": "odaka-osamu-986b60263"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1a659ab0e000",
+          "locator": "Contact links",
+          "quote": "hxxps://www[.]linkedin[.]com/in/odaka-osamu-986b60263/"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "CV hyperlink only; no current LinkedIn ownership inference."
+      ]
+    },
+    {
+      "id": "claim-cvdesignr-linkedin-two",
+      "type": "account",
+      "predicate": "cv_linked_account",
+      "value": {
+        "platform": "LinkedIn",
+        "identifier": "osamu-odaka-0a1959231"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1a659ab0e000",
+          "locator": "Contact links",
+          "quote": "hxxps://www[.]linkedin[.]com/in/osamu-odaka-0a1959231/"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "CV hyperlink only; no current LinkedIn ownership inference."
+      ]
+    },
+    {
+      "id": "claim-telegram-brilliant0120",
+      "type": "account",
+      "predicate": "historically_reported_handle",
+      "value": {
+        "platform": "Telegram",
+        "handle": "brilliant0120"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 19, contact table",
+          "quote": "Telegram        brilliant0120        Osamu Odaka"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Historical source attribution; no contact or present-control claim."
+      ]
+    },
+    {
+      "id": "claim-telegram-nightfury00120",
+      "type": "account",
+      "predicate": "historically_reported_handle",
+      "value": {
+        "platform": "Telegram",
+        "handle": "nightfury00120"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 19, contact table",
+          "quote": "Telegram        nightfury00120       Osamu Odaka"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Historical source attribution; no contact or present-control claim."
+      ]
+    },
+    {
+      "id": "claim-discord-nightfury",
+      "type": "account",
+      "predicate": "historically_reported_handle",
+      "value": {
+        "platform": "Discord",
+        "handle": "nightfury0120#2829"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 19, contact table",
+          "quote": "Discord         nightfury0120#2829   Osamu Odaka"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Historical source attribution; Discord discriminators can change and do not establish present control."
+      ]
+    },
+    {
+      "id": "claim-remotehub-account",
+      "type": "account",
+      "predicate": "used_remotehub_profile",
+      "value": {
+        "platform": "RemoteHub",
+        "identifier": "odaka.osamu",
+        "joined": "2022-02-25"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55198efefcdc",
+          "locator": "archived Overview, Intro, contiguous fragment 1 of 2",
+          "quote": "Odaka Osamu"
+        },
+        {
+          "source_id": "src-55198efefcdc",
+          "locator": "archived Overview, Intro, contiguous fragment 2 of 2",
+          "quote": "Joined February 25, 2022"
+        }
+      ],
+      "observed_at": "2022-02-25",
+      "notes": [
+        "Archived platform observation; the live page no longer exposes the profile content and current control is unknown."
+      ]
+    },
+    {
+      "id": "claim-remotehub-blockchain-profile",
+      "type": "skill",
+      "predicate": "claimed_specialization",
+      "value": {
+        "profile": "RemoteHub odaka.osamu",
+        "specialization": "Blockchain and Frontend Developer",
+        "experience_claim": "5+ years"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-55198efefcdc",
+          "locator": "archived Overview, About",
+          "quote": "I am a Blockchain & Frontend Developer and I have Result Oriented Professional Certified having Extensive 5+ years of experience."
+        }
+      ],
+      "observed_at": "2024-09-13",
+      "notes": [
+        "Self-asserted persona claim; not a verified qualification."
+      ]
+    },
+    {
+      "id": "claim-image-manipulation",
+      "type": "image",
+      "predicate": "reported_profile_image_manipulation",
+      "value": {
+        "method": "head pasted onto stock-photo body",
+        "publication_handling": "link only"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF pp. 13-14, Graphics 21-22",
+          "quote": "Nisos researchers found that the head of the individual was pasted onto a stock photo of a man in a blue shirt with a brown belt."
+        },
+        {
+          "source_id": "src-9dad6a8481c3",
+          "locator": "'Digitally Manipulated Images', Graphics 4-5",
+          "quote": "Graphic 4: Profile Photo of likely DPRK persona Osamu Odaka. ... Graphic 5: Stock Photo of the outfit used in Graphic 4."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "No facial recognition or inference about the depicted person's legal identity was performed."
+      ]
+    },
+    {
+      "id": "claim-weitao-same-operator",
+      "type": "relationship",
+      "predicate": "reported_same_operator_as_persona",
+      "value": {
+        "other_persona": "WeiTao Wang"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 3, Executive Summary, contiguous fragment 1 of 4",
+          "quote": "Nisos identified a likely DPRK IT worker"
+        },
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 3, Executive Summary, contiguous fragment 2 of 4",
+          "quote": "currently employed under the name Weitao Wang"
+        },
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 3, Executive Summary, contiguous fragment 3 of 4",
+          "quote": "and"
+        },
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 3, Executive Summary, contiguous fragment 4 of 4",
+          "quote": "previously employed under the name Osamu Odaka"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Vendor assessment of a likely same operator, not a civil-identity resolution."
+      ]
+    },
+    {
+      "id": "claim-weitao-resume-reuse",
+      "type": "relationship",
+      "predicate": "content_reused_by_persona",
+      "value": {
+        "other_persona": "WeiTao Wang",
+        "items_reported": 3
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF pp. 8-9, 'Shared Resume Content'",
+          "quote": "The WeiTao Wang persona borrowed three pieces of content from the Osamu Odaka persona."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "The report describes project imagery, meeting imagery, and work-history overlap."
+      ]
+    },
+    {
+      "id": "claim-nickdev-coauthored-commit",
+      "type": "relationship",
+      "predicate": "github_account_coauthored_commit_with",
+      "value": {
+        "account": "AnacondaDev0120",
+        "other_account": "nickdev0118",
+        "commit_date": "2024-03-12"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s3",
+          "locator": "PDF p. 4, first paragraph and Graphic 2",
+          "quote": "the page in March 2024 that was co-authored by github user nickdev0118, which was associated with the email address nickdev0118@gmail[.]com."
+        },
+        {
+          "source_id": "src-fdff670582b1",
+          "locator": "'Fake Persona 1: Huy Diep/HuiGia Diep', Graphic 2",
+          "quote": "the account co-authored commits with a previously identified, likely DPRK IT worker persona, which used the GitHub account AnacondaDev0120"
+        }
+      ],
+      "observed_at": "2024-03-12",
+      "notes": [
+        "Repository collaboration supports an account relationship, not shared legal identity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Source-reported employment or online persona; civil identity verification remains open for this label, account, and image."
+}

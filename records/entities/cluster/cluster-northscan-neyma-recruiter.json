@@ -1,0 +1,73 @@
+{
+  "id": "cluster-northscan-neyma-recruiter",
+  "type": "cluster",
+  "name": "Neyma Diaz recruiter cluster",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "suspected recruiter/facilitator persona cluster",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-northscan-github-diaries"
+    ]
+  },
+  "caveats": [
+    "GitHub's ghost label is shared by deleted users; treat it as a deletion marker rather than a stable actor account.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Neyma Diaz",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Calendly",
+      "identifier": "7codewizard",
+      "url": "https://calendly.com/7codewizard/30min",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ],
+      "note": "source-published recruiter scheduling infrastructure"
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "NeymaFullStack",
+      "url": "https://github.com/NeymaFullStack",
+      "status": "removed",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ],
+      "note": "deleted or unavailable at access"
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "ghost",
+      "url": "https://github.com/ghost",
+      "status": "removed",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-northscan-github-diaries"
+      ],
+      "note": "unstable deleted-user label; not a unique durable actor identifier"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-northscan-github-diaries",
+      "support": "Near-identical proxy-interview pitch Salary split and referral offer Same Neyma Diaz signature Calendly link reused in prior ANY.RUN reporting",
+      "locator": "Figures 1-17: primary personas and identity artifacts; Figure 18: repeated ordered GitHub issue-reference activity; Figures 19-24: recruiter workflow and Calendly reuse | Discovery index gives June 30; the original page itself displays only June 2026. | Embedded article: https://northscan.co/articles/github-diaries.html | Source-published evidence URLs: https://github.com/anupam-tiwari/productivity_tracker/issues/1; https://github.com/typescript-cheatsheets/react/issues/12"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

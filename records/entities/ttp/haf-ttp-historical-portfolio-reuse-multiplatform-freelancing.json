@@ -1,0 +1,62 @@
+{
+  "id": "haf-ttp-historical-portfolio-reuse-multiplatform-freelancing",
+  "type": "ttp",
+  "name": "Historical portfolio reuse across freelancing platforms and company sites",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S1",
+      "HAF-S2"
+    ]
+  },
+  "ttps": [
+    "freelance-platform",
+    "multiple-personas",
+    "shared-portfolio"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "The sources document platform hopping and portfolio reuse by 2018 in a specific historical network.",
+    "Publish as historical TTP context; current detection status requires newer evidence.",
+    "Repeated portfolio-artifact reuse and cross-platform account relationships are directly described by both investigations."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-source-attributed-behavior-or-context",
+      "statements": [
+        "The two 2018 investigations found the same or closely related software portfolio artifacts reused across Upwork, Elance, Freelancer.com, Guru.com, social profiles, and a front-company website.",
+        "Accounts claimed different names and locations while advertising a consistent specialty set centered on computer vision and mobile/software development.",
+        "C4ADS reported that kjg197318-associated programmers completed or were offered 89 Freelancer.com projects involving clients in 35 countries."
+      ],
+      "limitations": [
+        "Publish as historical TTP context, not as a current detection indicator.",
+        "The sources document platform hopping and portfolio reuse by 2018 in a specific historical network."
+      ],
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "hpg-ttp-ai-assisted-job-market-workflow"
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "The two 2018 investigations found the same or closely related software portfolio artifacts reused across Upwork, Elance, Freelancer.com, Guru.com, social profiles, and a front-company website. Accounts claimed different names and locations while advertising a consistent specialty set centered on computer vision and mobile/software development. C4ADS reported that kjg197318-associated programmers completed or were offered 89 Freelancer.com projects involving clients in 35 countries",
+      "locator": "PDF pp. 45-48, including Images 19-24 and Figure 7"
+    },
+    {
+      "source_id": "HAF-S1",
+      "support": "The two 2018 investigations found the same or closely related software portfolio artifacts reused across Upwork, Elance, Freelancer.com, Guru.com, social profiles, and a front-company website. Accounts claimed different names and locations while advertising a consistent specialty set centered on computer vision and mobile/software development. C4ADS reported that kjg197318-associated programmers completed or were offered 89 Freelancer.com projects involving clients in 35 countries",
+      "locator": "PDF pp. 5, 10-13 (printed pp. 2, 7-10)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

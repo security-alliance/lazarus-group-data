@@ -1,0 +1,263 @@
+{
+  "id": "worker-kim-il-hyok-un-2023",
+  "type": "worker",
+  "name": "Kim Il Hyok",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Member State information reproduced in a United Nations Panel report. The annex supplies source-qualified historical movement context, with UN designation, criminal allegation, and adjudication status outside its scope.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "ducr46-un-s-2023-656"
+    ]
+  },
+  "legal_or_reported_name": "Kim Il Hyok",
+  "locations": [
+    "Vientiane, Lao People's Democratic Republic (historical group context, 2021–2023)"
+  ],
+  "caveats": [
+    "Identity-document, personal-date, account, financial, contact, image, victim, and present-location details are excluded.",
+    "The record covers only the source-explicit Annex 70 group description; account, employer, project, conduct, and relationship details require a separate source.",
+    "Same-named catalog people, public accounts, and employment personas remain separate records.",
+    "OpenSanctions/RUSI entity ID is a derivative discovery cross-reference; corroboration remains source-dependent.",
+    "Six reports contain no exact audited name form; later disposition and present-location updates require newer sources.",
+    "The February 2023 departure statement gives a departure date; destination and present location remain outside the statement."
+  ],
+  "aliases": [
+    {
+      "value": "김일혁",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "ducr46-un-s-2023-656"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "cross-report-exact-name-audit",
+      "method": "Case-insensitive exact substring counts after collapsing all extraction whitespace.",
+      "query_terms": [
+        "Kim Il Hyok",
+        "김일혁"
+      ],
+      "results": [
+        {
+          "source_id": "ducr46-un-s-2021-211",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2021-777",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2022-132",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2022-668",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2023-171",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        },
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "counts": [
+            2,
+            1
+          ],
+          "outcome": "claim_evidence"
+        },
+        {
+          "source_id": "ducr46-un-s-2024-215",
+          "counts": [
+            0,
+            0
+          ],
+          "outcome": "no_exact_name_match"
+        }
+      ],
+      "collision_decisions": [],
+      "derivative_cross_reference": {
+        "provider": "OpenSanctions/RUSI derivative dataset",
+        "entity_id": "kprusi-a1e027d2260731a0b287d0a0aa0009d9f06da1c7",
+        "handling": "Discovery cross-reference only; not an independent source family or corroborating source."
+      },
+      "source_ids": [
+        "ducr46-un-s-2021-211",
+        "ducr46-un-s-2021-777",
+        "ducr46-un-s-2022-132",
+        "ducr46-un-s-2022-668",
+        "ducr46-un-s-2023-171",
+        "ducr46-un-s-2023-656",
+        "ducr46-un-s-2024-215"
+      ]
+    },
+    {
+      "type": "historical-group-movement-context",
+      "statement": "Laos reported that Kim Il Hyok departed Vientiane with Oh Chung Song and Kim Myong Chol in February 2023. The source supplies no destination or present-location information.",
+      "relationship": "Annex 70 lists the worker among eight people related to Oh Chung Song.",
+      "source_ids": [
+        "ducr46-un-s-2023-656"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ducr46-un-s-2021-211",
+      "support": "The complete 419-page extraction returned exact counts [0, 0] for ['Kim Il Hyok', '김일혁']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 419-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2021-777",
+      "support": "The complete 261-page extraction returned exact counts [0, 0] for ['Kim Il Hyok', '김일혁']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 261-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2022-132",
+      "support": "The complete 423-page extraction returned exact counts [0, 0] for ['Kim Il Hyok', '김일혁']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 423-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2022-668",
+      "support": "The complete 370-page extraction returned exact counts [0, 0] for ['Kim Il Hyok', '김일혁']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 370-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2023-171",
+      "support": "The complete 487-page extraction returned exact counts [0, 0] for ['Kim Il Hyok', '김일혁']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 487-page text extraction"
+    },
+    {
+      "source_id": "ducr46-un-s-2023-656",
+      "support": "Annex 70 supplies the source-explicit name Kim Il Hyok (김일혁), occupation IT worker, and historical Oh Chung Song group context. Paragraph 122 supplies qualified historical Vientiane movement context",
+      "locator": "PDF file p. 50, paragraph 122; PDF file p. 328, Annex 70"
+    },
+    {
+      "source_id": "ducr46-un-s-2024-215",
+      "support": "The complete 615-page extraction returned exact counts [0, 0] for ['Kim Il Hyok', '김일혁']. This is a bounded negative search result, not proof of lifetime absence under every spelling",
+      "locator": "Complete 615-page text extraction"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-worker-kim-il-hyok-un-2023-source-printed-identity",
+      "type": "identity_name",
+      "predicate": "un_annex_source_printed_identity",
+      "value": {
+        "latin_name": "Kim Il Hyok",
+        "korean_name": "김일혁",
+        "source_scope": "Member State information reproduced in UN Annex 70"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Name: Kim Il Hyok (김일혁, last name : Kim) Occupation: IT worker"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Both script forms are source-explicit and retained to prevent same-Latin-name false merges."
+      ]
+    },
+    {
+      "id": "claim-worker-kim-il-hyok-un-2023-reported-it-worker-role",
+      "type": "employment",
+      "predicate": "member_state_reported_it_worker",
+      "value": {
+        "reported_role": "IT worker",
+        "source_scope": "Member State information reproduced in UN Annex 70",
+        "current_activity_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Name: Kim Il Hyok (김일혁, last name : Kim) Occupation: IT worker"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "The annex role is not a criminal allegation, UN designation, or proof of current work."
+      ]
+    },
+    {
+      "id": "claim-worker-kim-il-hyok-un-2023-oh-chung-song-group",
+      "type": "relationship",
+      "predicate": "un_annex_reported_group_relationship",
+      "value": {
+        "related_person": "Oh Chung Song",
+        "relationship_context": "one of eight DPRK individuals related to Oh Chung Song in Annex 70",
+        "relationship_nature_beyond_grouping_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "Annex 70: Information on eight DPRK individuals related to Oh Chung Song"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Source-heading relationship only; employment, command, family, financial, or account linkage is not inferred."
+      ]
+    },
+    {
+      "id": "claim-worker-kim-il-hyok-un-2023-historical-vientiane-context",
+      "type": "location",
+      "predicate": "un_reported_historical_group_movement",
+      "value": {
+        "location": "Vientiane, Lao People's Democratic Republic",
+        "historical_group_arrival": "December 2021",
+        "reported_departure": "February 2023",
+        "destination_established": false,
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ducr46-un-s-2023-656",
+          "locator": "PDF file p. 50 / printed p. 50, paragraph 122; PDF file p. 328 / printed p. 328, Annex 70",
+          "quote": "The Lao People’s Democratic Republic replied that Mr. Oh, with two other individuals (Kim Il Hyok and Kim Myong Chol), departed Vientiane in February 2023"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Laos's historical departure response is individual to Kim Il Hyok but supplies no destination or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "The Annex 70 Kim Il Hyok (김일혁) is a Member State-reported DPRK IT worker in the historical Oh Chung Song-associated Vientiane group. The exact Korean name is retained; current location, account, employer, adjudication, and UN-designation status remain unreported."
+}

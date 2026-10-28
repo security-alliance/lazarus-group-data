@@ -1,0 +1,75 @@
+{
+  "id": "eeca6-ttp-bulgaria-cert-geographic-defensive-context",
+  "type": "ttp",
+  "name": "CERT Bulgaria advisory context for DPRK fraudulent IT-worker risk",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Threat-awareness guidance; legal and enforcement status, including a specific Bulgarian incident, requires a separate incident, regulatory, or court source.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "eeca6-bg-govcert-purplebravo-2026"
+    ]
+  },
+  "locations": [
+    "Bulgaria"
+  ],
+  "ttps": [
+    "data-minimization",
+    "employee-referral-recruitment",
+    "false-identity-remote-hiring",
+    "hr-security-coordination",
+    "layered-applicant-verification",
+    "least-privilege-access",
+    "legitimate-remote-management-tools",
+    "post-hire-anomaly-monitoring",
+    "substitute-payee-use",
+    "third-party-equipment-delivery"
+  ],
+  "caveats": [
+    "Attribute the Bulgaria statement to CERT Bulgaria and disclose that the campaign detail is sourced to Insikt Group/Recorded Future.",
+    "This derivative article supplies an article-level context for PurpleBravo, TAG-120, TAG-121, malware and front-company discussion; record creation requires corroboration.",
+    "The page presents generalized risk claims; attribution of espionage, theft, extortion, backdoor installation, and operational disruption remains case-specific.",
+    "Nationality, appearance, accent, camera behavior, remote-work preference, and a single anomaly require corroboration before adverse attribution.",
+    "The article identifies Insikt Group/Recorded Future as its source. It is retained as an official Bulgarian national-CERT publication and geographic/defensive-context source; the underlying PurpleBravo, TAG-121, malware, victim, and front-company claims remain source-attributed rather than independent Bulgarian attribution.",
+    "The country-level location is retained solely because the official source expressly identifies Bulgaria in its generalized affected geography.",
+    "The Bulgarian national CERT includes Bulgaria in the affected geography and provides hiring and post-hire controls; Bulgarian victim, worker, facilitator, company, investigation, and enforcement identities remain unreported.",
+    "This record supplies advisory and geographic context; named incident, legal finding, sanctions designation, or actor attribution requires a separate source.",
+    "Use layered, lawful identity and access checks; public profiles exclude raw identity documents, addresses, payment data, and employee monitoring artifacts."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-national-cert-advisory-context",
+      "statements": [
+        "CERT Bulgaria states that DPRK fraudulent IT-worker activity affects European states including Bulgaria.",
+        "The advisory describes false-identity remote hiring, referrals, third-party equipment delivery, substitute payees, avoidance of direct visual contact, legitimate remote-management tooling, and data-theft or extortion risk as generalized warning signs and risks.",
+        "It recommends layered identity verification, video interviews, least-privilege technical access, data minimization, anomaly monitoring, and coordinated HR and information-security awareness."
+      ],
+      "limitations": [
+        "The campaign detail is materially derived from Insikt Group/Recorded Future and is not independent Bulgarian attribution of the underlying campaign, malware, victim, or front-company claims.",
+        "The advisory does not identify a Bulgarian victim, worker, facilitator, company, investigation, enforcement action, or confirmed incident.",
+        "No single behavior, tool, nationality, appearance, accent, camera issue, or remote-work preference establishes fraud or DPRK attribution.",
+        "Use lawful, proportionate, layered review with human adjudication; do not publish or retain raw identity, payment, or employee-monitoring data in public profiles."
+      ],
+      "source_ids": [
+        "eeca6-bg-govcert-purplebravo-2026"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-data-theft-extortion",
+    "ttp-ttp-false-identities",
+    "ttp-ttp-laptop-farms",
+    "ttp-ttp-remote-access-tools"
+  ],
+  "sources": [
+    {
+      "source_id": "eeca6-bg-govcert-purplebravo-2026",
+      "support": "Bulgarian support: „Севернокорейски IT работници се внедряват в международни компании и си осигуряват дистанционни позиции под фалшиви самоличности. Сред засегнатите региони са редица европейски държави, включително България...“ The article also lists referral by a newly hired worker, delivery of equipment to a close friend, diversion of pay to accomplices, avoidance of face-to-face contact, camera excuses, use of JumpConnect/TinyPilot/RustDesk/TeamViewer/AnyViewer/AnyDesk, and identity, access, data-exposure and anomaly-monitoring controls. English translation: North Korean IT workers infiltrate international companies and obtain remote positions under false identities; affected regions include several European countries, including Bulgaria. The article additionally identifies referral, third-party equipment delivery, substitute payees, avoidance of in-person contact, camera excuses and legitimate remote-management tools, and recommends identity verification, video interviews, technical access controls, data minimization, anomaly monitoring, and joint HR/IT-security awareness. Translation note: Close researcher translation of reviewed Bulgarian official text; product names retained verbatim",
+      "locator": "Opening paragraphs; section on the PurpleBravo campaign; 'Отличителни признаци на потенциално злонамерени служители и кандидати за работа'; 'Как да се предпазим?'; source attribution at the end"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "roster/angelo-cruz-recruiter-persona.json.sourced_facts[6].evidence[0].source_id",
+    "source_id": "doc-github-stackpilot108-user-20260815",
+    "reason": "Inherited date-suffixed citation has no matching source definition in the original registry. Preserved verbatim for lossless migration; correction requires source review."
+  },
+  {
+    "path": "roster/angelo-cruz-recruiter-persona.json.sourced_facts[6].evidence[1].source_id",
+    "source_id": "doc-github-stackpilot108-user-20260815",
+    "reason": "Inherited date-suffixed citation has no matching source definition in the original registry. Preserved verbatim for lossless migration; correction requires source review."
+  },
+  {
+    "path": "roster/angelo-cruz-recruiter-persona.json.sourced_facts[7].evidence[0].source_id",
+    "source_id": "doc-github-stackpilot108-user-20260815",
+    "reason": "Inherited date-suffixed citation has no matching source definition in the original registry. Preserved verbatim for lossless migration; correction requires source review."
+  },
+  {
+    "path": "roster/angelo-cruz-recruiter-persona.json.sourced_facts[7].evidence[1].source_id",
+    "source_id": "doc-github-stackpilot108-user-20260815",
+    "reason": "Inherited date-suffixed citation has no matching source definition in the original registry. Preserved verbatim for lossless migration; correction requires source review."
+  },
+  {
+    "path": "roster/shaorun-zhang.json.sourced_facts[1].evidence[2].source_id",
+    "source_id": "doc-github-superbluestar-status-20260815",
+    "reason": "Inherited date-suffixed citation has no matching source definition in the original registry. Preserved verbatim for lossless migration; correction requires source review."
+  },
+  {
+    "path": "roster/shaorun-zhang.json.sourced_facts[11].evidence[2].source_id",
+    "source_id": "doc-telegram-superbluestar-20260815",
+    "reason": "Inherited date-suffixed citation has no matching source definition in the original registry. Preserved verbatim for lossless migration; correction requires source review."
+  }
+]

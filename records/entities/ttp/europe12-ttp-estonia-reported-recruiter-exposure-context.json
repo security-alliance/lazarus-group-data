@@ -1,0 +1,71 @@
+{
+  "id": "europe12-ttp-estonia-reported-recruiter-exposure-context",
+  "type": "ttp",
+  "name": "Estonia reported recruiter-exposure context",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Official national cyber-authority overview. The Estonia-specific sentence uses 'reportedly'; case count, victim, first-hand investigative basis, and enforcement outcome fall outside the cited overview.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "EUROPE12-EST-RIA-CYBERSECURITY-2026",
+      "EUROPE12-EST-RIA-CYBERSECURITY-2026-PDF"
+    ]
+  },
+  "locations": [
+    "Estonia"
+  ],
+  "ttps": [
+    "employment-generated-revenue-objective",
+    "potential-internal-information-theft",
+    "potential-post-access-extortion",
+    "reported-ai-generated-application-media",
+    "reported-fake-identity-job-seeking",
+    "reported-reverse-recruitment-malware-lure"
+  ],
+  "caveats": [
+    "Accent, language, appearance, claimed geography, sector, remote-work preference, and any single anomaly require corroboration before supporting an identity, nationality, employer, or wrongdoing finding.",
+    "Reverse-recruitment malware, employment-generated revenue, insider access, information theft, and extortion remain separate categories unless a source connects them in the same event.",
+    "The source supplies aggregate context; company, recruiter, applicant, worker, and incident identities require separate evidence, and names are kept separate from local hiring reports and other sources.",
+    "RIA's Europe defense-sector and identity-count discussion is attributed to external analysis; Estonian government attribution requires a separate official source.",
+    "The Estonia-specific sentence uses 'reportedly'; retain it as qualified review context rather than a confirmed employment, intrusion, victim, or enforcement record.",
+    "Use as country-level awareness and reported recruiter-exposure context; employment, intrusion, victim, and enforcement record status is unconfirmed."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-national-cyber-authority-reported-exposure-context",
+      "statements": [
+        "RIA states that recruiters at some international companies operating in Estonia had reportedly encountered the North Korean IT-worker fraud scheme.",
+        "The source does not establish a completed hiring, compromise, victim, case count, first-hand investigation, or enforcement outcome."
+      ],
+      "limitations": [
+        "RIA expressly attributes the Europe defence-sector targeting and at-least-12-identities statements to Google’s analysis; they are not an independent Estonian government attribution.",
+        "The Estonia-specific statement is reported exposure, not proof that any company hired a worker or suffered compromise.",
+        "Do not merge reverse-recruitment malware with a worker-employment incident unless a source explicitly establishes both in the same event."
+      ],
+      "source_ids": [
+        "EUROPE12-EST-RIA-CYBERSECURITY-2026-PDF"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk",
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "EUROPE12-EST-RIA-CYBERSECURITY-2026",
+      "support": "Official web article corresponding to the yearbook passage. It preserves the February 11, 2026 publication chronology and publication-family provenance, but does not independently corroborate the claim-bearing PDF",
+      "locator": "Official article corresponding to PDF page 27, section AI in the service of attackers"
+    },
+    {
+      "source_id": "EUROPE12-EST-RIA-CYBERSECURITY-2026-PDF",
+      "support": "Estonia-specific passage: Recruiters at some international companies operating in Estonia have also reportedly encountered the scheme. The statement is retained only as official country-level reported recruiter-exposure context. It provides no case count, named company, identified recruiter or applicant, confirmed hiring, compromise, first-hand investigative basis, or enforcement outcome",
+      "locator": "PDF page 27, section AI in the service of attackers"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

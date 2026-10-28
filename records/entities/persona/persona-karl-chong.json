@@ -1,0 +1,239 @@
+{
+  "id": "persona-karl-chong",
+  "type": "persona",
+  "name": "Karl Chong",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s1",
+      "platform-s2"
+    ]
+  },
+  "organizations": [
+    "Enver Studio claimed in portfolio"
+  ],
+  "ttps": [
+    "portfolio reused Naoyuki Tanaka work",
+    "resume text reused with Roman Kryveha"
+  ],
+  "caveats": [
+    "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens leave this label and other labels unlinked as natural-person identities.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "infrastructure": [
+    {
+      "type": "portfolio-or-domain",
+      "value": "https://kanbei-profile.vercel.app",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    },
+    {
+      "type": "portfolio-or-domain",
+      "value": "https://kanbei-profile.vercel.app/karlchong_resume.pdf",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "Karl Chong and Roman Kryveha used the same or similar resume introduction",
+      "locator": "Reused Resume Content and fake-location examples, Graphics 14-15 and 17, report pp. 7-9"
+    },
+    {
+      "source_id": "platform-s1",
+      "support": "“Karl Chong’s portfolio is being backstopped using Naoyuki Tanaka’s work.”",
+      "locator": "Persona Creation and Backstopping, Karl Chong discussion and Graphics 27-28, report pp. 14-15"
+    },
+    {
+      "source_id": "drpd63-nisos-mitigation"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-karl-reported-persona",
+      "type": "identity_name",
+      "predicate": "researcher_reported_employment_persona",
+      "value": {
+        "name": "Karl Chong",
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 4, Karl Chong",
+          "quote": "Nisos identified Karl Chong—used by a likely DPRK IT worker to obtain remote work in the United States—by investigating the GitHub account superredstar, which Nisos previously linked to a likely DPRK-affiliated network of remote worker personas."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Research attribution only; it is not a legal-identity or nationality determination."
+      ]
+    },
+    {
+      "id": "claim-karl-resume-site-history",
+      "type": "infrastructure",
+      "predicate": "researcher_reported_resume_site_creation",
+      "value": {
+        "artifact": "Karl Chong resume website",
+        "creating_account": "superredstar",
+        "created": "2022-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF pp. 4-5, Karl Chong",
+          "quote": "The GitHub account superredstar was used to create a resume website for Karl Chong via GitHub in April 2022."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical source finding; it does not establish present control of any site or account."
+      ]
+    },
+    {
+      "id": "claim-karl-location-inconsistency",
+      "type": "location",
+      "predicate": "researcher_reported_conflicting_claimed_locations",
+      "value": {
+        "claimed_locations": [
+          "Singapore",
+          "United States",
+          "Turkey"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 6, Misaligned locations",
+          "quote": "Karl Chong claims to be located in Singapore, the United States, and Turkey on his various online resumes."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "These are conflicting persona claims, not verified locations."
+      ]
+    },
+    {
+      "id": "claim-karl-naoyuki-backstopping",
+      "type": "relationship",
+      "predicate": "researcher_reported_portfolio_backstopping",
+      "value": {
+        "other_persona": "Naoyuki Tanaka",
+        "reused_work_claim": "Enver Studio"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 15, Backstopping",
+          "quote": "Nisos also found that newly created persona Karl Chong’s resume included Naoyuki Tanaka’s claimed Enver Studio work in its portfolio."
+        },
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 15, Backstopping",
+          "quote": "Nisos assesses that Karl Chong’s portfolio is being backstopped using Naoyuki Tanaka’s work."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "The persona labels remain distinct; reused work does not establish one natural person."
+      ]
+    },
+    {
+      "id": "claim-karl-roman-resume-reuse",
+      "type": "relationship",
+      "predicate": "researcher_reported_similar_resume_introduction",
+      "value": {
+        "other_persona": "Roman Kryveha",
+        "shared_claim": "over seven years of blockchain-development experience"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 7, Reused Resume Content",
+          "quote": "DPRK-affiliated personas Karl Chong and Roman Kryveha for example stated that they both are experienced developers with over seven years of experience in blockchain development."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Similar resume language is an artifact relationship, not proof of a shared operator."
+      ]
+    },
+    {
+      "id": "claim-karl-freelancer-footprint",
+      "type": "account",
+      "predicate": "researcher_reported_freelancer_profile_set",
+      "value": {
+        "platforms": [
+          "Remote OK",
+          "LaborX",
+          "RemoteHub",
+          "XING"
+        ],
+        "profile_count": 4
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 8, Freelancer Employment Websites Linked To Karl Chong",
+          "quote": "Nisos identified four freelance employment websites, which listed the persona name, location, GitHub, and work history of the persona."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Historical source-reported profiles; current reachability or control was not established."
+      ]
+    },
+    {
+      "id": "claim-karl-related-persona-development",
+      "type": "relationship",
+      "predicate": "researcher_reported_related_persona_repository_timeline",
+      "value": {
+        "related_personas": 3,
+        "repository_account": "imcode65",
+        "creation_window": "2024-03 to 2024-05"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 8, Newly Created Personas",
+          "quote": "Nisos identified three personas that share usernames and GitHub accounts with Karl Chong."
+        },
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF p. 8, Newly Created Personas",
+          "quote": "A review of GitHub commits shows that the three accounts were all created and updated between March and May 2024."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Shared artifacts are a network link, not proof that the persona labels are one individual."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Nisos-reported employment persona in a reused portfolio, resume, and GitHub-account network. Karl Chong, related persona labels, account handles, claimed locations, employer claims, and images remain source-reported; one-person civil identity or operator status requires a source bridge."
+}

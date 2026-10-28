@@ -1,0 +1,417 @@
+{
+  "id": "facilitator-jason-salazar",
+  "type": "facilitator",
+  "name": "Jason Salazar",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced in S.D. Ga. No. 1:25-cr-00060-JRH-BKE to three years of probation, with $409,876.30 forfeiture. The reviewed DOJ release leaves the exact sentencing date unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dln26-s05",
+      "flr6-s01",
+      "flr6-s05"
+    ]
+  },
+  "legal_or_reported_name": "Jason Salazar",
+  "ttps": [
+    "assistance passing employer vetting",
+    "identity or account enablement",
+    "payment or laptop-farm support",
+    "proxy appearance for drug testing"
+  ],
+  "caveats": [
+    "The record retains defendant-specific probation and forfeiture terms; aggregate enforcement totals remain separate from this person.",
+    "Only defendant-specific plea, sentence and role facts in the cited DOJ release are assigned to this person; aggregate enforcement totals remain separate."
+  ],
+  "infrastructure": [
+    {
+      "type": "criminal-case-docket",
+      "value": "S.D. Ga. No. 1:25-cr-00060-JRH-BKE",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s01",
+        "flr6-s05"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "flr6-s05",
+      "support": "The filed information identifies United States v. Jason Salazar, S.D. Ga. No. 1:25-cr-00060-JRH-BKE",
+      "locator": "S.D. Ga. No. 1:25-cr-00060-JRH-BKE, Doc. 1, caption and Count One"
+    },
+    {
+      "source_id": "dln26-s05",
+      "support": "Jason Salazar pleaded guilty on November 13, 2025, to conspiracy to commit wire fraud; DOJ says he helped overseas workers pass employer vetting and appeared for drug testing on their behalf",
+      "locator": "Three Guilty Pleas — Southern District of Georgia; Oleksandr Didenko Guilty Plea; Erick Ntekereze Prince Guilty Plea"
+    },
+    {
+      "source_id": "flr6-s01",
+      "support": "DOJ reports that Jason Salazar pleaded guilty, was sentenced, assisted overseas workers in passing employer vetting, and appeared for drug testing on their behalf. The release does not state the exact sentencing date, and release-wide aggregate facts are not assigned solely to him.",
+      "locator": "Opening; common plea-conduct paragraphs; defendant-specific paragraph for Jason Salazar"
+    },
+    {
+      "source_id": "src-06aa61f1c20d"
+    },
+    {
+      "source_id": "src-d6d3ebd8331f"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name",
+      "type": "identity_name",
+      "predicate": "legal_name_in_judgment",
+      "value": {
+        "name": "Jason Salazar"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 1, case caption",
+          "quote": "UNITED STATES OF AMERICA v. Jason Salazar"
+        }
+      ],
+      "observed_at": "2026-03-23"
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the Southern District of Georgia",
+        "docket": "1:25-cr-00060-JRH-BKE"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s05",
+          "locator": "p. 1, docket header",
+          "quote": "Case 1:25-cr-00060-JRH-BKE     Document 1"
+        }
+      ],
+      "observed_at": "2025-09-04"
+    },
+    {
+      "id": "claim-scheme-period",
+      "type": "incident",
+      "predicate": "admitted_scheme_period",
+      "value": {
+        "start": "2020-09-23",
+        "end": "2022-10-28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 3, factual basis",
+          "quote": "from on or about September 23, 2020, until on or about October 28, 2022"
+        }
+      ],
+      "observed_at": "2025-11-13",
+      "notes": [
+        "Plea-admitted period, more defendant-specific than the multi-defendant DOJ summary."
+      ]
+    },
+    {
+      "id": "claim-identity-use",
+      "type": "incident",
+      "predicate": "admitted_allowing_identity_use",
+      "value": {
+        "purpose": "false resumes and employment applications for overseas IT workers"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 3, factual basis",
+          "quote": "the Defendant knowingly allowed his identity to be used by overseas IT workers"
+        }
+      ],
+      "observed_at": "2025-11-13"
+    },
+    {
+      "id": "claim-vetting-assistance",
+      "type": "incident",
+      "predicate": "admitted_assisting_employer_vetting",
+      "value": {
+        "examples": [
+          "video interviews",
+          "drug tests"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 3, factual basis, item 3",
+          "quote": "pass employer vetting procedures such as video interviews and drug tests"
+        }
+      ],
+      "observed_at": "2025-11-13"
+    },
+    {
+      "id": "claim-drug-testing-appearance",
+      "type": "incident",
+      "predicate": "doj_reported_appearing_for_drug_testing",
+      "value": {
+        "on_behalf_of": "overseas IT workers"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "section 'Three Guilty Pleas – Southern District of Georgia', first paragraph",
+          "quote": "Travis and Salazar, in particular, appeared for drug testing on behalf of the overseas IT workers."
+        }
+      ],
+      "observed_at": "2025-11-14",
+      "notes": [
+        "DOJ defendant-specific report, consistent with the plea's admitted vetting conduct."
+      ]
+    },
+    {
+      "id": "claim-laptop-hosting",
+      "type": "incident",
+      "predicate": "admitted_hosting_company_laptops",
+      "value": {
+        "location": "home"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 3, factual basis",
+          "quote": "The Defendant received laptops at his home provided by U.S. companies to overseas IT workers who were using the Defendant’s identity."
+        }
+      ],
+      "observed_at": "2025-11-13",
+      "notes": [
+        "No address is retained."
+      ]
+    },
+    {
+      "id": "claim-remote-access",
+      "type": "incident",
+      "predicate": "admitted_installing_unauthorized_remote_access",
+      "value": {
+        "purpose": "overseas workers remotely completed assigned work while appearing U.S.-based"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 3, factual basis",
+          "quote": "The Defendant also installed unauthorized remote access software on company-provided laptops"
+        }
+      ],
+      "observed_at": "2025-11-13",
+      "notes": [
+        "No software or access selector is retained."
+      ]
+    },
+    {
+      "id": "claim-company-impact",
+      "type": "incident",
+      "predicate": "admitted_company_impact",
+      "value": {
+        "minimum_companies": 14,
+        "salary_total_more_than_usd": "409000"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 4, factual basis",
+          "quote": "The Defendant’s actions caused at least fourteen U.S. companies to hire one or more overseas IT workers and pay those individuals a combined total of over $409,000 in salary."
+        }
+      ],
+      "observed_at": "2025-11-13",
+      "notes": [
+        "Employer identities are excluded; this is not represented as Salazar's personal gain."
+      ]
+    },
+    {
+      "id": "claim-personal-payment",
+      "type": "incident",
+      "predicate": "admitted_receiving_payment",
+      "value": {
+        "minimum_usd": "4500"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 4, factual basis",
+          "quote": "For his participation in this scheme, the Defendant received at least $4,500."
+        }
+      ],
+      "observed_at": "2025-11-13"
+    },
+    {
+      "id": "claim-guilty-plea",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty_to",
+      "value": {
+        "count": 1,
+        "offense": "wire fraud conspiracy",
+        "date": "2025-11-13"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-d6d3ebd8331f",
+          "locator": "p. 1, section 1",
+          "quote": "enter a plea of guilty to Count One of the Information, which charges a violation of 18 U.S.C. § 1349, Wire Fraud Conspiracy."
+        }
+      ],
+      "observed_at": "2025-11-13"
+    },
+    {
+      "id": "claim-adjudicated-guilty",
+      "type": "legal_event",
+      "predicate": "adjudicated_guilty_after_plea",
+      "value": {
+        "count": 1,
+        "offense": "wire fraud conspiracy"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 1, 'The Defendant' and offense table",
+          "quote": "pleaded guilty to Count 1"
+        },
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 1, adjudicated-offenses table, Nature of Offense",
+          "quote": "Wire fraud conspiracy"
+        }
+      ],
+      "observed_at": "2026-03-19"
+    },
+    {
+      "id": "claim-probation",
+      "type": "legal_event",
+      "predicate": "sentenced_to_probation",
+      "value": {
+        "years": 3,
+        "date": "2026-03-19"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 2, 'Probation'",
+          "quote": "You are hereby sentenced to probation for a term of: 3 years."
+        }
+      ],
+      "observed_at": "2026-03-19"
+    },
+    {
+      "id": "claim-fine",
+      "type": "legal_event",
+      "predicate": "ordered_fine",
+      "value": {
+        "currency": "USD",
+        "amount": "2000"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 5, criminal monetary penalties table",
+          "quote": "Fine $2,000"
+        }
+      ],
+      "observed_at": "2026-03-19",
+      "notes": [
+        "Separate from the $100 statutory assessment."
+      ]
+    },
+    {
+      "id": "claim-no-restitution",
+      "type": "legal_event",
+      "predicate": "judgment_lists_no_restitution",
+      "value": {
+        "restitution": "N/A"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 5, criminal monetary penalties table",
+          "quote": "Restitution N/A"
+        }
+      ],
+      "observed_at": "2026-03-19"
+    },
+    {
+      "id": "claim-forfeiture",
+      "type": "legal_event",
+      "predicate": "ordered_forfeiture_money_judgment",
+      "value": {
+        "currency": "USD",
+        "amount": "409876.30"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-06aa61f1c20d",
+          "locator": "p. 6, final checked forfeiture paragraph",
+          "quote": "a money judgment in the amount of $409,876.30"
+        }
+      ],
+      "observed_at": "2026-03-19",
+      "notes": [
+        "The archived DOJ release rounds this amount to $409,876; the filed judgment supplies the exact amount."
+      ]
+    },
+    {
+      "id": "claim-jason-salazar-coarse-historical-location",
+      "type": "location",
+      "predicate": "official_source_reported_coarse_historical_location",
+      "value": {
+        "location": "Clovis, California, United States",
+        "context": "DOJ sentence-time city descriptor",
+        "present_location_inferred": false,
+        "precise_location_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s01",
+          "locator": "Opening defendant-specific sentence paragraph",
+          "quote": "Jason Salazar, 30, of Clovis, California, and Audricus Phagnasay, 25, of Fresno, California, were sentenced and ordered to forfeit $409,876 and $681,926, respectively."
+        }
+      ],
+      "observed_at": "2026-03-20",
+      "notes": [
+        "Coarse source-time geography only; it does not establish present residence, custody, travel, precise location, or continued presence.",
+        "Street addresses, residential details, facility details, and other precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jason Salazar, the defendant in S.D. Ga. No. 1:25-cr-00060-JRH-BKE; charging allegations, admitted plea facts, adjudication, sentence, and bounded later-posture findings remain source- and date-specific. Jason Salazar is a common name; source-explicit corroboration is required before linking a public account or same-name person."
+}

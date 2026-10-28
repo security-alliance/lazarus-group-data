@@ -1,0 +1,276 @@
+{
+  "id": "persona-saja-damian-kowalczyk",
+  "type": "persona",
+  "name": "Damian Kowalczyk",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "organizations": [
+    "Saja portfolio network"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Nisos assessed that the same actor likely operated this and three other personas; report that assessment as a source judgment alongside the persona links.",
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "Source-observed through 2025-05-01; current account ownership remains unestablished.",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Damian Kowalczyk",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "SoftwarePassioner",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    },
+    {
+      "platform": "Website",
+      "identifier": "softwarepassioner.github[.]io",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Damian Kowalczyk as a persona or account linked to Saja portfolio network; historical indicators described by the source include GitHub SoftwarePassioner, softwarepassioner.github[.]io",
+      "locator": "PDF pp. 11-12"
+    },
+    {
+      "source_id": "src-63b896d3c6a0"
+    },
+    {
+      "source_id": "src-b73fa0d83d7e"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-damian-account-presentation",
+      "type": "account",
+      "predicate": "researcher_reported_github_persona",
+      "value": {
+        "platform": "GitHub",
+        "handle": "SoftwarePassioner",
+        "presented_name": "Damian Kowalczyk"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "Nisos identified a GitHub account, softwarepassioner, which included a photo of the threat actor with the name Damian Kowalczyk."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Source-reported persona/account presentation, not a civil-identity finding; the image was not used for matching."
+      ]
+    },
+    {
+      "id": "claim-damian-experience-presentation",
+      "type": "skill",
+      "predicate": "account_claimed_development_experience",
+      "value": {
+        "claimed_experience": "10+ years",
+        "verified": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "The GitHub account stated that Damian Kowalczyk has 10+ years of experience and listed a number of completed projects."
+        },
+        {
+          "source_id": "src-63b896d3c6a0",
+          "locator": "About section",
+          "quote": "10+ years of progressive experience"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Persona assertion only; no education or employment history was independently verified."
+      ]
+    },
+    {
+      "id": "claim-damian-network-link",
+      "type": "relationship",
+      "predicate": "researcher_linked_account_to_saja_portfolio_network",
+      "value": {
+        "network": "Saja portfolio network",
+        "basis": "similar portfolio information"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "This information is similar to the information included on the portfolio websites listed in the section above, suggesting that this account is linked to the network."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Nisos's source assessment; similarity does not identify a single natural person."
+      ]
+    },
+    {
+      "id": "claim-damian-location-presentation",
+      "type": "location",
+      "predicate": "account_claimed_location",
+      "value": {
+        "claimed_location": "Poland",
+        "verified_location": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "The GitHub account stated that Damian Kowalczyk is located in Poland and links to an inactive professional networking platform account."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Country-level persona claim only; the more specific public profile address was not retained."
+      ]
+    },
+    {
+      "id": "claim-damian-portfolio-chronology",
+      "type": "account",
+      "predicate": "researcher_observed_portfolio_repository_creation",
+      "value": {
+        "artifact": "portfolio repository",
+        "created": "late June 2024",
+        "report_time_site_status": "inactive"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "The GitHub account created a repository for a portfolio website in late June 2024, however, the website is not active."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "The portfolio was publicly reachable at the 2026-08-13 cutoff; report-time and cutoff-time states are recorded separately."
+      ]
+    },
+    {
+      "id": "claim-damian-portfolio-current",
+      "type": "account",
+      "predicate": "public_portfolio_reachable_at_cutoff",
+      "value": {
+        "url": "https://softwarepassioner.github.io/",
+        "presentation": "software engineer portfolio",
+        "status": "reachable"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-63b896d3c6a0",
+          "locator": "Page heading and About section",
+          "quote": "Seasoned Software Engineer"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current reachability and persona text do not establish current operator control or civil identity."
+      ]
+    },
+    {
+      "id": "claim-damian-aff-project",
+      "type": "skill",
+      "predicate": "portfolio_claimed_aff_leadership",
+      "value": {
+        "project": "AFF (Assistant For Freelancer)",
+        "claimed_role": "team leader",
+        "team_size": 6,
+        "verified": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-63b896d3c6a0",
+          "locator": "About section",
+          "quote": "team leader in the creation of the ✔ AFF(Assistant For Freelancer) service, collaborating with 6 international colleagues."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Portfolio claim only; project authorship and employment were not independently verified."
+      ]
+    },
+    {
+      "id": "claim-damian-current-owner-repository-inventory",
+      "type": "account",
+      "predicate": "current_public_owner_repository_inventory",
+      "value": {
+        "platform": "GitHub",
+        "handle": "SoftwarePassioner",
+        "returned_owner_repository_records": 5,
+        "repository_names": [
+          "FTPDTS",
+          "React-Components",
+          "Scraping-actions",
+          "SoftwarePassioner",
+          "SoftwarePassioner.github.io"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-b73fa0d83d7e",
+          "locator": "FTPDTS repository name field",
+          "quote": "\"name\": \"FTPDTS\""
+        },
+        {
+          "source_id": "src-b73fa0d83d7e",
+          "locator": "SoftwarePassioner.github.io repository name field",
+          "quote": "\"name\": \"SoftwarePassioner.github.io\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The record count is derived from the complete returned array. Repository names and ownership metadata do not establish who authored or maintained each repository, expertise, employment, present control, or civil identity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Nisos-reported employment persona associated with the SoftwarePassioner GitHub account and portfolio. Profile location, biography, image, and current account reachability leave the operator and present control unresolved."
+}

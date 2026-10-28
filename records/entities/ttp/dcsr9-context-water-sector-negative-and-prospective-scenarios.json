@@ -1,0 +1,50 @@
+{
+  "id": "dcsr9-context-water-sector-negative-and-prospective-scenarios",
+  "type": "ttp",
+  "name": "Water-sector no-tracked-attempt boundary and prospective operational scenarios",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "The source reports no water-sector incident or legal matter; operational effects are preparedness scenarios rather than observed compromise.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCSR9-S01-WATERISAC-MULTIISAC-2025"
+    ]
+  },
+  "ttps": [
+    "critical-infrastructure-preparedness",
+    "negative-evidence-boundary",
+    "operational-technology-risk-planning",
+    "prospective-scenario-classification"
+  ],
+  "caveats": [
+    "The source reports no compromise of a water utility, building-management system, HVAC platform, badge system, elevator or other operational technology. Public use should pair that finding with the date and bounded source scope.",
+    "Evidence class: negative observation plus guidance-level scenario",
+    "Guidance and prospective scenarios are presented as guidance, while source-reported suspicion remains distinct from adjudicated fact.",
+    "Legal-status boundary: no incident or legal matter is represented in this record.",
+    "Nationality, accent, language, appearance, geography, camera behavior, remote-work preference, job title, and any single technical signal require corroboration before attribution or adverse action.",
+    "Unnamed organizations and people remain unidentified in the source record.",
+    "Use proportionate, documented, privacy-preserving review with a meaningful human appeal path."
+  ],
+  "infrastructure": [
+    {
+      "type": "dated-negative-observation-and-prospective-risk-boundary",
+      "statement": "WaterISAC says it had not tracked attempts by DPRK IT workers to gain water-sector employment. The report's water, smart-building, shared-infrastructure and operational-technology consequences are contingent scenarios intended for preparedness, not public evidence of infiltration or disruption.",
+      "evidence_class": "negative observation plus guidance-level scenario",
+      "sector": "water and wastewater; commercial facilities",
+      "source_ids": [
+        "DCSR9-S01-WATERISAC-MULTIISAC-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DCSR9-S01-WATERISAC-MULTIISAC-2025",
+      "support": "The report says some critical-infrastructure sectors experienced the threat directly. It records suspected DPRK-linked applicants for remote technology roles at North American electric utilities, says those roles typically required high-level or administrative access, and says WaterISAC had tracked no comparable attempts in water and wastewater. Its commercial-facilities and water operational-technology effects are explicitly framed as possible or likely future risk rather than public confirmed compromise. Evidence class: sector observations combined with guidance and explicitly prospective scenarios Legal-status boundary: Industry intelligence and defensive guidance; no named victim, worker, charge, regulatory finding or adjudication",
+      "locator": "PDF pp. 1-3, 5, 7-11; especially Sector/Industry Impact: Commercial Facilities, Energy, Tribal Organizations and Water; Mitigation Strategies; Access and Monitoring Practices"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

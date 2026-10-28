@@ -1,0 +1,12 @@
+{
+  "id": "src-f0d3ae217812",
+  "publisher": "GitHub",
+  "title": "GitHub pull-request search: imyugioh in MetaMask",
+  "url": "https://api.github.com/search/issues?q=author%3Aimyugioh%20org%3AMetaMask",
+  "accessed_at": "2026-08-14",
+  "sha256": "6584aa66e44951323a9b8b6d575377c2ec567e8ced9e2517a5a2e14d5119adc2",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "deep2-vendor-dv-f09",
+  "type": "ttp",
+  "name": "Unit 42 low-cost synthetic identity pipeline and IDV bypass demonstration",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s07-dv-f09"
+    ]
+  },
+  "ttps": [
+    "ai-altered-profile-photo",
+    "fabricated-resume",
+    "forged-identity-document"
+  ],
+  "caveats": [
+    "The synthetic-candidate demonstration leaves whether the accounts were DPRK-operated unresolved.",
+    "The identity-verification vendor is unnamed publicly in the article; the record carries the description only, with raw document and synthetic face material outside it.",
+    "This was Unit 42's controlled red-team experiment; it records a simulated hiring scenario only, and any observed DPRK persona or successful hire requires separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Unit 42 created two fully synthetic job-candidate identities using commercial GenAI avatar and resume services at a reported total cost of US$8.20.",
+        "The test accounts passed one external identity-verification provider's selfie and document checks using an expired genuine document and an AI-generated avatar, and were then used to apply for remote positions including government and defense roles.",
+        "Unit 42 correlated the experiment to Wagemole tradecraft and emphasized inconsistencies among resume, identity document, deepfake presentation, and claimed location/time zone."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s07-dv-f09"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s07-dv-f09",
+      "support": "Unit 42 created two fully synthetic job-candidate identities using commercial GenAI avatar and resume services at a reported total cost of US$8.20. The test accounts passed one external identity-verification provider's selfie and document checks using an expired genuine document and an AI-generated avatar, and were then used to apply for remote positions including government and defense roles. Unit 42 correlated the experiment to Wagemole tradecraft and emphasized inconsistencies among resume, identity document, deepfake presentation, and claimed location/time zone",
+      "locator": "Interviewing North Koreans; Creating a Synthetic Identity; Verifying the Synthetic Identity"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

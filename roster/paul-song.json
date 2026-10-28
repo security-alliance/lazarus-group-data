@@ -1,0 +1,87 @@
+{
+  "id": "paul-song",
+  "real_name": "Paul Song",
+  "aliases": [
+    "grudev325",
+    "seniordev",
+    "drujustine0122",
+    "snowdev1205",
+    "BestSilverTiger"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "sr.paul.song@gmail.com",
+    "seniordev1225@gmail.com",
+    "snowdev1205@gmail.com"
+  ],
+  "websites": [
+    "https://remoteok.com/@seniordev",
+    "https://paul-song-cv.herokuapp.com"
+  ],
+  "employment": [
+    {
+      "company": "Pixelcraft",
+      "date_identified": {
+        "$date": "2022-01-01"
+      }
+    },
+    {
+      "company": "Munchables",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "drujustine0122",
+      "usernames": [
+        "drujustine0122"
+      ]
+    },
+    {
+      "gh_id": "grudev325",
+      "usernames": [
+        "grudev325"
+      ]
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/paul-song-225505224/"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/paul-song/paul-song-1.png",
+      "short_description": "Paul Song 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/paul-song/paul-song-2.png",
+      "short_description": "Paul Song 2.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/paul-song/paul-song-3.jpg",
+      "short_description": "Paul Song 3.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/paul-song/paul-song-av.png",
+      "short_description": "Paul Song avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

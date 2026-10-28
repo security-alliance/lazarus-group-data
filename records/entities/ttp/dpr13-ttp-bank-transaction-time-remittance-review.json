@@ -1,0 +1,78 @@
+{
+  "id": "dpr13-ttp-bank-transaction-time-remittance-review",
+  "type": "ttp",
+  "name": "Transaction-time review of remittances for DPRK IT-worker risk",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party provider descriptions of controls adopted in response to government warnings; they document provider controls rather than observed DPRK case evidence, an enforcement action, or an adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPR13-S01-HIGO-2025",
+      "DPR13-S02-JAPAN-POST-BANK-2025",
+      "DPR13-S03-SMTB-2025",
+      "DPR13-S06-KOSAN-SHINKIN-2025",
+      "DPR13-S07-TOYOTA-SHINKIN-2025"
+    ]
+  },
+  "ttps": [
+    "documented-remittance-escalation",
+    "payment-to-hiring-control-continuity",
+    "proportionate-transaction-decision",
+    "risk-based-transaction-context-review"
+  ],
+  "caveats": [
+    "A request for information or supporting documentation is a routine review step; suspicion requires additional case-specific evidence.",
+    "Kosan Shinkin Bank and Toyota Shinkin Bank provide supporting implementation evidence; their source dates are known only to month precision and are normalized to 2025-09-01 with that limitation stated in source support.",
+    "The sources describe possible inquiries, review, and refusal. Customer, beneficiary, account, payment, suspicious-activity report, frozen asset, declined remittance, and enforcement outcome require separate disclosures.",
+    "These notices implement or reference Japanese government warnings; they provide policy context, with observed DPRK case evidence outside this record.",
+    "These provider statements document control design; product efficacy and DPRK detection require independent validation.",
+    "Risk-based, documented human review with independent corroboration; automatic blocking follows documented evidence rather than nationality, geography, occupation, remote work, or online-platform use."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-bank-payment-execution-control",
+      "statement": "Several Japanese deposit-taking institutions state that, when a remittance or similar request raises a possible DPRK IT-worker connection, they may review the transaction context, ask relevant platform operators or commissioning businesses about implementation of government-requested countermeasures, and in some policies decline the transaction after review. This is a provider-stated implementation layer at payment execution, not evidence that any institution observed or stopped a DPRK-linked payment.",
+      "source_ids": [
+        "DPR13-S01-HIGO-2025",
+        "DPR13-S02-JAPAN-POST-BANK-2025",
+        "DPR13-S03-SMTB-2025",
+        "DPR13-S06-KOSAN-SHINKIN-2025",
+        "DPR13-S07-TOYOTA-SHINKIN-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-payment-routing"
+  ],
+  "sources": [
+    {
+      "source_id": "DPR13-S01-HIGO-2025",
+      "support": "Higo Bank says it had been checking for relevant transactions when accepting foreign remittances and announced stronger handling after the January 14, 2025 trilateral statement on DPRK cryptocurrency theft and public-private cooperation. For foreign-remittance requests from customers that operate online IT-service contracting platforms or commission work through them, the bank says it may ask individually about the transaction and the customer's implementation of countermeasures requested in the government advisory. Evidence boundary: This is a bank-announced review policy. The notice does not identify a customer, counterparty, beneficiary, account, remittance, refusal, suspicious-activity report, or enforcement outcome",
+      "locator": "Opening paragraph and paragraph beginning with the notice to customers that provide or use online IT-service platforms"
+    },
+    {
+      "source_id": "DPR13-S02-JAPAN-POST-BANK-2025",
+      "support": "Japan Post Bank says that when a customer requests an international remittance or similar transaction to a company suspected of a DPRK IT-worker connection, the bank may ask the company individually whether it is implementing the countermeasures requested by Japanese authorities, depending on the transaction's content and circumstances. Evidence boundary: The bank describes a possible inquiry workflow. It does not disclose that it observed, processed, suspended, reported, or rejected a DPRK-linked transaction",
+      "locator": "Dated notice, second paragraph"
+    },
+    {
+      "source_id": "DPR13-S06-KOSAN-SHINKIN-2025",
+      "support": "Date precision: month only (2025-09); the first day is a normalization placeholder, not a claimed exact publication day. The institution says that when a customer is a platform operator or commissioning company covered by the government advisory, it may check whether the requested countermeasures are being followed during transactions. Evidence boundary: Supporting evidence of sector implementation; no transaction or customer case disclosed",
+      "locator": "PDF page 1, final substantive paragraph"
+    },
+    {
+      "source_id": "DPR13-S07-TOYOTA-SHINKIN-2025",
+      "support": "Date precision: month only (2025-09); the first day is a normalization placeholder, not a claimed exact publication day. The institution says it may confirm transaction details and the customer's implementation of government-requested measures when a remittance request raises a suspected DPRK IT-worker connection. Evidence boundary: Supporting policy statement; no observed transaction, customer, or refusal disclosed",
+      "locator": "PDF page 1, paragraph concerning remittance requests"
+    },
+    {
+      "source_id": "DPR13-S03-SMTB-2025",
+      "support": "Sumitomo Mitsui Trust Bank says it will carefully confirm details when it receives a remittance or similar request suspected of a DPRK IT-worker connection and may decline to handle the transaction. Evidence boundary: The notice establishes a possible control outcome, not an observed refusal or a finding against any customer or beneficiary",
+      "locator": "PDF page 1, lines 7-9 in extracted text"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

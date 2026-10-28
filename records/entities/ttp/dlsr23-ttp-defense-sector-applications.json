@@ -1,0 +1,53 @@
+{
+  "id": "dlsr23-ttp-defense-sector-applications",
+  "type": "ttp",
+  "name": "DPRK IT-worker applications to defense-related organizations",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed aggregate or sector-targeting telemetry; affected-organization finding, adjudication, successful employment, and compromise remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DLSR23-S02-GTIG-DEFENSE-INDUSTRIAL-BASE"
+    ]
+  },
+  "ttps": [
+    "defense-sector-job-applications",
+    "hiring-process-infiltration",
+    "personnel-centered-attack-surface"
+  ],
+  "caveats": [
+    "Applications are application-stage records; successful hiring, access, compromise, data theft and a named affected organization require separate evidence.",
+    "Adjacent DPRK espionage or fake-recruiter malware activity stays outside the IT-worker record unless an explicit source link connects it."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-bounded-sector-telemetry",
+      "statements": [
+        "GTIG observed evidence of DPRK IT workers applying to jobs at defense-related organizations.",
+        "GTIG frames personnel and hiring processes as a defense-sector attack surface that can evade conventional enterprise-security visibility."
+      ],
+      "limitations": [
+        "Applications do not establish successful hiring, access, compromise, data theft, or a named affected organization.",
+        "Do not merge adjacent DPRK espionage or fake-recruiter malware activity into the IT-worker record without explicit source bridging."
+      ],
+      "source_ids": [
+        "DLSR23-S02-GTIG-DEFENSE-INDUSTRIAL-BASE"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DLSR23-S02-GTIG-DEFENSE-INDUSTRIAL-BASE",
+      "support": "GTIG states that personnel and hiring processes are part of the defense-sector attack surface and that it observed evidence of DPRK IT workers applying to jobs at defense-related organizations. It describes the activity as continuing through 2025 and incorporating publicly available tooling. Evidence boundary: Sector-targeting telemetry. Evidence of applications is not evidence of successful employment, access, compromise, theft, or a named affected organization. Adjacent malware and espionage sections are separate activity unless explicitly bridged",
+      "locator": "Section 2, “Employees in the Crosshairs”; subsection “North Korea’s Insider Threat and Revenue Generation”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

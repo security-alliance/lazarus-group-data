@@ -1,0 +1,28 @@
+{
+  "id": "jack-li",
+  "real_name": "Jack Li",
+  "aliases": [
+    "jackli16",
+    "zeus16",
+    "dream0239",
+    "jacky864"
+  ],
+  "gender": "male",
+  "salary_details": [
+    {
+      "addresses": [
+        "0x605ca6fb59211d13b369e54a273a42538b087c36"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/jack-li/jack-li-av.png",
+      "short_description": "Jack Li avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

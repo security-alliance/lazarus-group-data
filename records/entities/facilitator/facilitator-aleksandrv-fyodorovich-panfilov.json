@@ -1,0 +1,49 @@
+{
+  "id": "facilitator-aleksandrv-fyodorovich-panfilov",
+  "type": "facilitator",
+  "name": "Aleksandrv Fyodorovich Panfilov",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "MSMT states that Sodeystviye and its representative Aleksandrv Fyodorovich Panfilov were sanctioned by the Republic of Korea in April 2024; it states no conviction.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "The source-bounded facilitator record for Aleksandrv Fyodorovich Panfilov; a link to another person or related organization requires an explicit source link.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Aleksandrv Fyodorovich Panfilov.",
+      "locator": "PDF p. 37"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-aleksandrv-fyodorovich-panfilov",
+      "type": "identity_name",
+      "predicate": "rok_sanctioned_representative",
+      "value": {
+        "name": "Aleksandrv Fyodorovich Panfilov",
+        "sanctioning_authority": "Republic of Korea"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 37",
+          "quote": "Sodesystviye and its representative, Aleksandrv Fyodorovich Panfilov, were sanctioned by the Republic of Korea (ROK) in April 2024 for facilitating the dispatch of North Korean labourers to Russia."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

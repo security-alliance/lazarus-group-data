@@ -1,0 +1,40 @@
+{
+  "id": "front-company-sangsin-trading-corporation",
+  "type": "front_company",
+  "name": "Sangsin Trading Corporation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT expressly identifies the company as a DPRK front subordinate to the Second Academy of Natural Sciences Foreign Affairs Bureau",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFCE-S01"
+    ]
+  },
+  "legal_or_reported_name": "Sangsin Trading Corporation",
+  "organizations": [
+    "Second Academy of Natural Sciences Foreign Affairs Bureau"
+  ],
+  "locations": [
+    "Laos"
+  ],
+  "caveats": [
+    "Use the existing delegation-level SANS FAB cluster without duplicating it; model Sangsin as the exact company entity and link it to that cluster.",
+    "Exclude account, wallet and individual identity selectors from public output.",
+    "Sangsin Trading Corporation is represented as the exact company entity; the existing SANS FAB IT record remains the broader delegation/company context and should connect by relationship rather than replacement.",
+    "This record reflects the cited MSMT source posture; separate corporate-registry or criminal-adjudication status requires separate sources."
+  ],
+  "lazarus_group_routes": [
+    "front-company-sans-fab-it"
+  ],
+  "sources": [
+    {
+      "source_id": "DFCE-S01",
+      "support": "MSMT identifies Sangsin Trading Corporation as a DPRK front subordinate to the Second Academy of Natural Sciences Foreign Affairs Bureau and describes its Laos-based IT delegation",
+      "locator": "Report pp. 66-68 / PDF pp. 68-70, Case Study: Sangsin; Annex 12"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

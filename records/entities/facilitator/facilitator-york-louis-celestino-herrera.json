@@ -1,0 +1,289 @@
+{
+  "id": "facilitator-york-louis-celestino-herrera",
+  "type": "facilitator",
+  "name": "York Louis Celestino Herrera",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Spain-linked freelance-contract facilitator; administrative sanctions designation; no criminal charge or conviction is on record.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-1bfbb0e72fae",
+      "gov-54cada63e515",
+      "gov-ded09ec68479",
+      "gov-e31464a55e89",
+      "ofac-2026-09-09-sdn-update"
+    ]
+  },
+  "legal_or_reported_name": "York Louis Celestino Herrera",
+  "locations": [
+    "Barcelona, Spain (OFAC-listed location; not a present-location inference)"
+  ],
+  "caveats": [
+    "An exact-name GitHub account also states Barcelona. Name and city alone leave the OFAC-listed-person link unestablished, so the account remains separate."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "Treasury reports that since at least 2024 York Louis Celestino Herrera worked with Yun Song Guk to develop freelance IT service contracts for Yun and records Celestino's E.O. 13810 administrative designation for support to Yun. This is an administrative-source assessment, not a criminal adjudication; no employer, customer, contract, platform, account, contact, or financial selector is retained",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Celestino paragraph"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Barcelona, Spain for OFAC entity number 57036 without a street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 57036"
+    },
+    {
+      "source_id": "gov-ded09ec68479",
+      "support": "Recorded Future News independently names York Louis Celestino Herrera as a Spanish national and summarizes the U.S. accusation that he worked with Yun Song Guk since 2024 to develop freelance IT service contracts. It reports that the Spanish Foreign Ministry did not respond to a request for comment; that silence is not official corroboration",
+      "locator": "Paragraph naming York Louis Celestino Herrera"
+    },
+    {
+      "source_id": "gov-1bfbb0e72fae",
+      "support": "The official notice lists York Louis Celestino Herrera at Barcelona, Spain, links the entry to Yun Song Guk, and records the E.O. 13810 administrative designation basis. The location is retained only at coarse city-and-country level; birth, birthplace, nationalities, passports, national ID, financial, and other sensitive selectors are excluded",
+      "locator": "Federal Register p. 12905, Celestino Herrera entry and designation paragraph"
+    },
+    {
+      "source_id": "dln26-s09"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    },
+    {
+      "source_id": "ofac-2026-09-09-sdn-update",
+      "support": "OFAC’s September 9, 2026 SDN update shows the existing entry and linked-to relationship; no delisting is stated for this entity.",
+      "locator": "Specially Designated Nationals List Updates, entity update entry"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-celestino-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "York Louis Celestino Herrera",
+        "ofac_primary_name": "CELESTINO HERRERA, York Louis"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Celestino paragraph",
+          "quote": "York Louis Celestino Herrera"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Celestino Herrera entry",
+          "quote": "CELESTINO HERRERA, York Louis"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57036",
+          "quote": "CELESTINO HERRERA, York Louis"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, individual entry 4",
+          "quote": "CELESTINO HERRERA, York Louis"
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Official name-order variants, not separate identities. Treasury's Celestino shorthand is not represented as a legal alias."
+      ]
+    },
+    {
+      "id": "claim-celestino-yun-contract-development",
+      "type": "incident",
+      "predicate": "treasury_reported_contract_development_collaboration_with",
+      "value": {
+        "person": "Yun Song Guk",
+        "since": "2024",
+        "reported_conduct": "worked to develop freelance IT service contracts for Yun"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Celestino paragraph",
+          "quote": "Since at least 2024, Yun also worked with York Louis Celestino Herrera (Celestino) to develop freelance IT service contracts for Yun."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding. No employer, customer, contract, platform, account, contact, victim, or financial selector is retained or inferred."
+      ]
+    },
+    {
+      "id": "claim-celestino-yun-support-relationship",
+      "type": "relationship",
+      "predicate": "treasury_and_ofac_reported_support_for",
+      "value": {
+        "person": "Yun Song Guk",
+        "relationship": "reported material or services support and current OFAC linked-to relationship"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Minh/Celestino designation sentence",
+          "quote": "OFAC is designating Minh and Celestino pursuant to E.O. 13810 for having materially assisted, sponsored, or provided financial, material, or technological support for, goods or services to or in support of Yun."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Celestino Herrera entry",
+          "quote": "Linked To: YUN, Song Guk"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative-source relationship, not proof of employment, agency, present collaboration, or criminal guilt."
+      ]
+    },
+    {
+      "id": "claim-celestino-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13810",
+        "date": "2026-03-12",
+        "reported_basis": "support for Yun Song Guk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Minh/Celestino designation sentence",
+          "quote": "OFAC is designating Minh and Celestino pursuant to E.O. 13810 for having materially assisted, sponsored, or provided financial, material, or technological support for, goods or services to or in support of Yun."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Celestino Herrera entry",
+          "quote": "CELESTINO HERRERA, York Louis"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, Celestino Herrera designation paragraph",
+          "quote": "Designated pursuant to section 1(a)(v) of E.O. 13810"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-celestino-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "DPRK4",
+        "checked_at": "2026-10-18",
+        "linked_person": "Yun Song Guk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57036",
+          "quote": "57036,\"CELESTINO HERRERA, York Louis\",\"individual\",\"DPRK4\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 57036",
+          "quote": "Linked To: YUN, Song Guk."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Dated administrative-list observation; it does not establish criminal guilt, present collaboration, present location, or ownership of any public account."
+      ]
+    },
+    {
+      "id": "claim-celestino-ofac-listed-location",
+      "type": "location",
+      "predicate": "ofac_listed_coarse_location",
+      "value": {
+        "location": "Barcelona, Spain",
+        "precision": "coarse city-and-country only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, individual entry 4",
+          "quote": "CELESTINO HERRERA, York Louis, Barcelona, Spain"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 57036",
+          "quote": "\"Barcelona\",\"Spain\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Exact-ID official listing context only. It does not establish a street address, residence, continued presence, or present location. The matching Barcelona field on an exact-name GitHub candidate is not treated as a sufficient identity bridge."
+      ]
+    },
+    {
+      "id": "claim-celestino-independent-media-coverage",
+      "type": "note",
+      "predicate": "independently_published_designation_coverage",
+      "value": {
+        "publisher": "Recorded Future News",
+        "published_at": "2026-03-12",
+        "coverage": "Named York Louis Celestino Herrera and summarized the U.S. freelance-contract accusation",
+        "Spanish_government_response": "Spanish Foreign Ministry did not respond to the publisher's request for comment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ded09ec68479",
+          "locator": "Paragraph naming York Louis Celestino Herrera",
+          "quote": "U.S. officials also accused Yun of working with Spanish national York Louis Celestino Herrera since 2024 to develop freelance IT service contracts."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "This establishes a reputable second publisher, not independent proof of the underlying conduct or an official Spanish finding. A non-response to a request for comment is not corroboration."
+      ]
+    },
+    {
+      "id": "claim-celestino-ofac-2026-09-09-update",
+      "type": "legal_event",
+      "predicate": "confirmed_in_ofac_september_2026_sdn_update",
+      "value": {
+        "name": "CELESTINO HERRERA, York Louis",
+        "program": "DPRK4",
+        "linked_to": "YUN, Song Guk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ofac-2026-09-09-sdn-update",
+          "locator": "Specially Designated Nationals List Updates, entity update entry",
+          "quote": "CELESTINO HERRERA, York Louis"
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The update retains the administrative sanctions entry; it does not create a criminal charge or conviction."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "York Louis Celestino Herrera, listed by OFAC as CELESTINO HERRERA, York Louis, is the person Treasury reported as working with Yun Song Guk to develop freelance IT service contracts. An exact-name GitHub result also states Barcelona; name and geography alone carry no merge authority. Preserve the administrative designation and relationship; public-account, criminal-guilt, present-location, and current-conduct attribution require separate evidence."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "dmt-ttp-ethical-investigation-scoping",
+  "type": "ttp",
+  "name": "Ethical scoping for applicant-fraud investigations",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified defensive abstraction only. The stated evidence class covers a defensive abstraction; legal identity, nationality, employer compromise, prevalence rate, and adjudicated fact require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMT-S13"
+    ]
+  },
+  "ttps": [
+    "data-minimization",
+    "legal-review",
+    "passive-verification",
+    "research-ethics"
+  ],
+  "caveats": [
+    "Claim attribution: Christophe Haubursin, Tunnel Vision.",
+    "Evidence class: journalistic methodology lesson.",
+    "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence.",
+    "The record excludes people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, and leaked material.",
+    "Accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, and technical anomaly are contextual signals; fraud or DPRK attribution requires independent evidence.",
+    "Targeted contact carries legal, sanctions, safety, and misidentification risks; routine company screening should use other methods.",
+    "This project remained passive and preserved the journalist's interaction as reported context.",
+    "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path."
+  ],
+  "infrastructure": [
+    {
+      "type": "journalistic-methodology-lesson",
+      "statements": [
+        "Haubursin says he initially posted fake roles on multiple career sites, then stopped after recognizing that doing so wasted the time of genuine job seekers. He instead limited outreach to accounts already identified by a researcher collective before conducting a controlled interview.",
+        "Do not use broad fake vacancies as an indiscriminate collection technique.",
+        "Prefer passive verification, consented internal testing, or narrowly scoped investigations with legal and ethics review.",
+        "Minimize collection, avoid actor contact where possible, and preserve legitimate applicants' time and privacy."
+      ],
+      "limitations": [
+        "Evidence class: journalistic methodology lesson.",
+        "Claim attribution: Christophe Haubursin, Tunnel Vision.",
+        "Targeted contact still carries legal, sanctions, safety, and misidentification risks and is not recommended for routine company screening.",
+        "This project remained passive and did not reproduce the journalist's interaction."
+      ],
+      "source_ids": [
+        "DMT-S13"
+      ]
+    },
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Retain the source's observation class and do not generalize a controlled test, speaker claim, vendor sample, or demonstration into measured prevalence."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, or technical anomaly establishes fraud or DPRK attribution.",
+        "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path.",
+        "No people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, or leaked material are included.",
+        "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence."
+      ],
+      "source_ids": [
+        "DMT-S13"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DMT-S13",
+      "support": "Haubursin says he initially posted fake roles on multiple career sites, then stopped after recognizing that doing so wasted the time of genuine job seekers. He instead limited outreach to accounts already identified by a researcher collective before conducting a controlled interview",
+      "locator": "07:29–08:37"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

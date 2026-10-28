@@ -1,0 +1,43 @@
+{
+  "id": "dp16-persona-aaron-taylor",
+  "type": "lead",
+  "name": "Aaron Taylor",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Recorded Future Insikt Group research attribution only. PurpleBravo fake-interview artifacts and PurpleDelta fraudulent-employment activity remain distinct unless the cited source explicitly bridges a particular artifact",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dp16-recordedfuture-purplebravo-2026"
+    ]
+  },
+  "ttps": [
+    "Source-published operational label in qualified PurpleBravo/PurpleDelta overlap reporting"
+  ],
+  "caveats": [
+    "Held outside the fraudulent-employment persona catalog because the source leaves this label's IT-worker employment role unspecified.",
+    "Historical source attribution only; present account, profile, and brand control require current source evidence.",
+    "The source describes PurpleBravo and PurpleDelta overlap; identifiers remain distinct across those activity sets unless separately linked.",
+    "The source supplies a label; legal identity and public-account mapping require separate source evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Aaron Taylor",
+      "alias_type": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dp16-recordedfuture-purplebravo-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dp16-recordedfuture-purplebravo-2026",
+      "support": "Recorded Future Insikt Group source-published name; retained as a possible operational/employment persona only. Retained as a historical, source-attributed public identifier; no present ownership or civil identity is inferred",
+      "locator": "PDF p. 26, PurpleBravo and PurpleDelta Overlap"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

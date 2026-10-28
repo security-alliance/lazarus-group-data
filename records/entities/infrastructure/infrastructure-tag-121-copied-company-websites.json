@@ -1,0 +1,63 @@
+{
+  "id": "infrastructure-tag-121-copied-company-websites",
+  "type": "infrastructure",
+  "name": "TAG-121 copied-company website cluster",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported infrastructure or relationship cluster",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "ttps": [
+    "grouped infrastructure correlation",
+    "shared portfolio, recruitment, hosting, or corporate-linkage analysis"
+  ],
+  "caveats": [
+    "Indicators are grouped to avoid noisy standalone profiles and must be treated as historical.",
+    "Publish grouped technical indicators with the report's caveat that listed owners and actual business activity remain unestablished.",
+    "registration window: 2022-04 through 2024-09; source report: 2025-02-13; as of 2026 08 12: historical indicators; current status was assessed from passive sources only."
+  ],
+  "infrastructure": [
+    {
+      "kind": "grouped-indicator-set",
+      "members": [
+        "pengzhoutrading[.]com",
+        "xiwangtechltd[.]com",
+        "wuxiantechltd[.]com",
+        "diditechltd[.]com",
+        "deepsealuc[.]com",
+        "hisolution[.]io",
+        "hi-devs[.]com",
+        "103.15.29[.]45",
+        "202.53.148[.]16",
+        "180.235.135[.]180",
+        "202.53.148[.]32",
+        "180.235.135[.]184",
+        "103.51.141[.]153",
+        "103.51.141[.]152"
+      ],
+      "relationship_summary": "Recorded Future identified seven additional suspected front companies by pivoting from Shenyang Huguo hosting and assessed copied legitimate-company websites, overlapping hosts, and common registration characteristics consistent with DPRK operations.",
+      "temporal_status": {
+        "registration_window": "2022-04 through 2024-09",
+        "source_report": "2025-02-13",
+        "as_of_2026_08_12": "historical indicators; no active scanning"
+      },
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports TAG-121 copied-company website cluster and describes this relationship: Recorded Future identified seven additional suspected front companies by pivoting from Shenyang Huguo hosting and assessed copied legitimate-company websites, overlapping hosts, and common registration characteristics consistent with DPRK operations",
+      "locator": "PDF pp. 9-10; Appendices B and D"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

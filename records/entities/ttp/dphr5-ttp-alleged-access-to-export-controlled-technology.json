@@ -1,0 +1,57 @@
+{
+  "id": "dphr5-ttp-alleged-access-to-export-controlled-technology",
+  "type": "ttp",
+  "name": "Alleged employment access to export-controlled military technology",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "High-level federal charging allegation; access, theft, exfiltration, and onward transfer remain separate propositions",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPHR5-S05-DOJ-NATIONWIDE-2025"
+    ]
+  },
+  "ttps": [
+    "employment-derived-access",
+    "export-controlled-information-risk",
+    "least-privilege",
+    "sensitive-technology-access"
+  ],
+  "caveats": [
+    "Access, theft and onward transfer are separate propositions; the source supports only the exfiltration or transmission it explicitly describes.",
+    "The record describes reported conduct by specific fraudulent workers; theft, extortion, espionage, persistence, and sabotage remain case-specific.",
+    "Evidence class: official enforcement allegation.",
+    "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+    "The record retains bounded source context; people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, and private repository content stay outside it.",
+    "The release summarizes court allegations; the record contains no completed adjudication."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-enforcement-allegation",
+      "statements": [
+        "DOJ states that workers in one charged scheme gained access to and in some cases stole sensitive employer information including export-controlled U.S. military technology."
+      ],
+      "limitations": [
+        "Evidence class: official enforcement allegation.",
+        "The release summarizes court allegations and does not establish completed adjudication.",
+        "Access, theft and onward transfer are separate propositions; do not claim exfiltration or transmission beyond what the source establishes.",
+        "No people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, or private repository content are retained.",
+        "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+        "Do not infer that every fraudulent worker performs theft, extortion, espionage, persistence, or sabotage."
+      ],
+      "source_ids": [
+        "DPHR5-S05-DOJ-NATIONWIDE-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPHR5-S05-DOJ-NATIONWIDE-2025",
+      "support": "DOJ says workers obtained access to and in some cases stole sensitive employer information, including export-controlled U.S. military technology and virtual currency. A separate charged scheme allegedly used employment at a blockchain company to steal more than $900,000 in virtual currency. DOJ also reiterates that workers have exfiltrated proprietary and sensitive company data and committed data extortion. DOJ states that workers in one charged scheme gained access to and in some cases stole sensitive employer information including export-controlled U.S. military technology",
+      "locator": "Opening scheme summary; Massachusetts and Northern District of Georgia case sections; advisory recap"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

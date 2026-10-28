@@ -1,0 +1,471 @@
+{
+  "id": "cluster-cl-sta-0237",
+  "type": "cluster",
+  "name": "CL-STA-0237",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Unit 42 temporary cluster explicitly linking fake-worker and BeaverTail phishing activity",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-unit42-2024-clsta0237"
+    ]
+  },
+  "ttps": [
+    "BeaverTail video-conference phishing",
+    "fraudulent remote-employment activity",
+    "shared email and network infrastructure"
+  ],
+  "caveats": [
+    "The cluster spans both fake-worker and malware-delivery activity; IOC-to-persona attribution requires source support.",
+    "These are historical cluster indicators; current account or domain-holder status is unreported."
+  ],
+  "accounts": [
+    {
+      "platform": "Email",
+      "identifier": "312011217@qq[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "adonis_eros@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "alhinglovena3000@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "brightstar1116@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "buyerlao@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "casey_qadir@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "cescernand@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "devstar1116@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "ebcappservices@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "hakajakin@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "ideationbrand@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "jumphon2103@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "legend_dev@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "liko.sonexarth@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "liko.sonexarth@hotmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "lisettekolson8@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "longines0924@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "lujindane@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "matthewhall14541@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "mobilephetjum@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "niko.sonexarth@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "niko.sonexarth@hotmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "oscar.vetres127@europe[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "oscar.vetres127@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "phetchamphone1998@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "pinefirst@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "reply9998@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "richard.stewart.1202@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "richard.stewart.1202@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "sniper_bruce@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "stp.walsh33@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "techcare127@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "truepai415@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "truestar222@outlook[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "volodimir.work2020@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "zhangming_k@yahoo[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    },
+    {
+      "platform": "Email",
+      "identifier": "zhuming1116@gmail[.]com",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ],
+      "note": "Published by Unit 42 as a CL-STA-0237 IOC; not mapped to a named individual."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "domain",
+      "value": "effertz-carroll.com",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "freeconference.io",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ftpserver0909.com",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ipcheck.cloud",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mirotalk.io",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mirotalk.net",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "regioncheck.net",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    },
+    {
+      "type": "ip",
+      "value": "167.88.36.13",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-unit42-2024-clsta0237"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-unit42-2024-clsta0237",
+      "support": "Tracks CL-STA-0237, likely Laos-based, and explicitly links its fake-worker activity to BeaverTail video-conference phishing while retaining attribution uncertainty. Publishes 38 email indicators, six domains, and one IP",
+      "locator": "Executive Summary; Fake resumes Figures 1-2; Attribution; Indicators of Compromise"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

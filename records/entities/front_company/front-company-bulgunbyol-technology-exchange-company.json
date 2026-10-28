@@ -1,0 +1,74 @@
+{
+  "id": "front-company-bulgunbyol-technology-exchange-company",
+  "type": "front_company",
+  "name": "Bulgunbyol Technology Exchange Company",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT reports a Russian-source account that a company believed affiliated with the DPRK Red Star Technology Exchange Company opened a representative office in Vladivostok. This is a source-reported affiliation; sanctions designation and conviction status are outside that report.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "aliases": [
+    {
+      "value": "Red Star Technology Trading Company",
+      "alias_type": "source-reported alias",
+      "relationship": "explicitly reported",
+      "source_ids": [
+        "msmt-2026-1"
+      ]
+    },
+    {
+      "value": "Pulynpel Technical Foreign Trade Company",
+      "alias_type": "source-reported alias",
+      "relationship": "explicitly reported",
+      "source_ids": [
+        "msmt-2026-1"
+      ]
+    }
+  ],
+  "organizations": [
+    "Red Star Technology Exchange Company"
+  ],
+  "caveats": [
+    "MSMT says the affiliation is believed and relays Russian open-source reporting; designation status remains unassigned.",
+    "The report’s precise office address and named representative are excluded."
+  ],
+  "identity_boundary": "The company and aliases are reported by MSMT; shared address or name leaves the entities separate pending an explicit source link.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT reports the aliases, believed DPRK operating-system-company affiliation, and Vladivostok representative-office opening.",
+      "locator": "PDF p. 51, Bulgunbyol Technology Exchange Company and Korea Ragwon Trading Corp. subsection"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-bulgunbyol-aliases-and-office",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_bulgunbyol_aliases_and_office",
+      "value": {
+        "reported_affiliation": "believed affiliated with Red Star Technology Exchange Company",
+        "office_city_country": "Vladivostok, Russia",
+        "office_opened": "2025-09-24"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 51, Bulgunbyol Technology Exchange Company and Korea Ragwon Trading Corp. subsection",
+          "quote": "According to a Russian news report dated October 7, 2025, Bulgunbyol Technology Trading Company, an entity believed to be affiliated with the North Korean operating system and development company, Red Star Technology Exchange Company, opened a representative office in Vladivostok on September 24, 2025."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Historical city-level context only; no present office status or address is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ncao5-ttp-canada-sanctions-financial-compliance-bridge",
+  "type": "ttp",
+  "name": "Canadian sanctions and financial-compliance bridge for DPRK IT-worker risk",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Advisory and compliance guidance from the RCMP and Canada Border Services Agency describes possible contraventions in general terms. It supplies a compliance posture; charge, liability finding, conviction, designation, and reported enforcement action require separate records. No IT-worker-specific Canadian proceeding is named.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "NCAO5-CAN-FINTRAC-DPRK-2025-03-22-EN",
+      "NCAO5-CAN-FINTRAC-DPRK-2025-03-22-FR",
+      "NCAO5-CAN-GAC-SANCTIONS-DPRK-EN",
+      "NCAO5-CAN-GAC-SANCTIONS-DPRK-FR",
+      "NCAO5-CAN-RCMP-2025-07-16-EN",
+      "NCAO5-CAN-RCMP-2025-07-16-FR"
+    ]
+  },
+  "ttps": [
+    "enhanced-financial-due-diligence",
+    "lawful-suspicious-transaction-reporting",
+    "north-korea-transaction-linkage-review",
+    "sanctions-risk-assessment"
+  ],
+  "caveats": [
+    "Adds jurisdiction-specific legal and financial-compliance context to the represented Canadian warning. It supports Canadian publication and control design; a sanctions violation requires case-specific facts beyond hiring a remote worker.",
+    "Advisory and compliance guidance describing possible contraventions. The RCMP and Canada Border Services Agency are the cited authorities for investigation and enforcement; the record names no IT-worker-specific Canadian proceeding.",
+    "Apply financial controls through lawful compliance processes; protect account numbers and unrelated customer information.",
+    "Canadian sanctions and FINTRAC guidance supply a compliance framework; each remote-worker engagement requires its own sanctions analysis.",
+    "Reporting telephone numbers, email addresses, street address, and suspected account-holder and transaction details reproduced by the advisory remain unpublished.",
+    "Engagement with a person later assessed as a DPRK IT worker requires case-specific sanctions analysis; automatic offence classification is unsupported.",
+    "No Canadian IT-worker-specific charge, conviction, designation, or enforcement action is represented."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-canadian-sanctions-and-financial-compliance-guidance",
+      "statements": [
+        "The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea.",
+        "Evidence class: official national advisory plus primary compliance guidance."
+      ],
+      "limitations": [
+        "Advisory and compliance guidance, not a charge, finding of liability, conviction, designation or reported enforcement action. The RCMP says possible contraventions are investigated and enforced by the RCMP and Canada Border Services Agency; no IT-worker-specific Canadian proceeding is named.",
+        "Adds jurisdiction-specific legal and financial-compliance context to the represented Canadian warning. It is useful for Canadian publication and control design, but does not establish that hiring any remote worker automatically violates sanctions.",
+        "Do not state that every engagement with a person later assessed as a DPRK IT worker is automatically a proven sanctions offence.",
+        "Do not publish the reporting telephone numbers, email addresses, street address or suspected account-holder and transaction details reproduced by the advisory.",
+        "Apply financial controls through lawful compliance processes; do not expose account numbers or unrelated customer information.",
+        "Canadian sanctions and FINTRAC guidance supplies a compliance framework, not proof that every remote-worker engagement is a sanctions offence.",
+        "No Canadian IT-worker-specific charge, conviction, designation, or enforcement action is represented."
+      ],
+      "source_ids": [
+        "NCAO5-CAN-FINTRAC-DPRK-2025-03-22-EN",
+        "NCAO5-CAN-FINTRAC-DPRK-2025-03-22-FR",
+        "NCAO5-CAN-GAC-SANCTIONS-DPRK-EN",
+        "NCAO5-CAN-GAC-SANCTIONS-DPRK-FR",
+        "NCAO5-CAN-RCMP-2025-07-16-EN",
+        "NCAO5-CAN-RCMP-2025-07-16-FR"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "NCAO5-CAN-FINTRAC-DPRK-2025-03-22-EN",
+      "support": "Evidence class: official national advisory plus primary compliance guidance. Claim support: The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea. Attribution boundary: Explains existing Canadian obligations for transactions with a suspicion, explicit connection, origin or destination involving North Korea. It is not an IT-worker case notice",
+      "locator": "Why this Ministerial Directive was issued; Who needs to apply; Requirements; Additional measures required"
+    },
+    {
+      "source_id": "NCAO5-CAN-FINTRAC-DPRK-2025-03-22-FR",
+      "support": "Evidence class: official national advisory plus primary compliance guidance. Claim support: The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea. Original-language support (fr): La GRC indique que l’embauche de travailleurs des TI déployés par le gouvernement nord-coréen pourrait entraîner des conséquences juridiques liées aux sanctions canadiennes. Elle renvoie les entités déclarantes à CANAFE. La directive de CANAFE exige l’évaluation du risque de contournement des sanctions et des mesures renforcées pour les opérations soupçonnées d’avoir un lien explicite avec la Corée du Nord ou d’en provenir ou d’y être destinées. Attribution boundary: French counterpart to the FINTRAC guidance; not an independent IT-worker incident",
+      "locator": "Motif; personnes et entités visées; exigences; autres mesures requises"
+    },
+    {
+      "source_id": "NCAO5-CAN-RCMP-2025-07-16-FR",
+      "support": "Evidence class: official national advisory plus primary compliance guidance. Claim support: The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea. Original-language support (fr): La GRC indique que l’embauche de travailleurs des TI déployés par le gouvernement nord-coréen pourrait entraîner des conséquences juridiques liées aux sanctions canadiennes. Elle renvoie les entités déclarantes à CANAFE. La directive de CANAFE exige l’évaluation du risque de contournement des sanctions et des mesures renforcées pour les opérations soupçonnées d’avoir un lien explicite avec la Corée du Nord ou d’en provenir ou d’y être destinées. Attribution boundary: Authoritative French counterpart to NCAO5-CAN-RCMP-2025-07-16-EN; not an independent incident source",
+      "locator": "Contenu; Conseils aux Canadiens et aux entreprises canadiennes; Signes; Mesures d’atténuation et de diligence raisonnable; Contexte"
+    },
+    {
+      "source_id": "NCAO5-CAN-RCMP-2025-07-16-EN",
+      "support": "Evidence class: official national advisory plus primary compliance guidance. Claim support: The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea. Attribution boundary: An official Canadian risk and compliance advisory. It does not disclose a named Canadian incident, subject, prosecution or sanctions designation",
+      "locator": "Content; Advice to Canadians and Canadian businesses; Red flags; Mitigation and due diligence measures; Background"
+    },
+    {
+      "source_id": "NCAO5-CAN-GAC-SANCTIONS-DPRK-EN",
+      "support": "Evidence class: official national advisory plus primary compliance guidance. Claim support: The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea. Attribution boundary: Authoritative description of Canadian DPRK sanctions, not an IT-worker designation or enforcement action",
+      "locator": "Prohibitions; Exceptions; Background; Regulations"
+    },
+    {
+      "source_id": "NCAO5-CAN-GAC-SANCTIONS-DPRK-FR",
+      "support": "Evidence class: official national advisory plus primary compliance guidance. Claim support: The RCMP-led advisory says employing IT workers deployed by the North Korean government could have consequences under Canadian sanctions and directs reporting entities to FINTRAC. FINTRAC's underlying guidance requires sanctions-evasion risk assessment and enhanced measures for transactions with suspicion, an explicit North Korea connection, or origin in or destination to North Korea. Original-language support (fr): La GRC indique que l’embauche de travailleurs des TI déployés par le gouvernement nord-coréen pourrait entraîner des conséquences juridiques liées aux sanctions canadiennes. Elle renvoie les entités déclarantes à CANAFE. La directive de CANAFE exige l’évaluation du risque de contournement des sanctions et des mesures renforcées pour les opérations soupçonnées d’avoir un lien explicite avec la Corée du Nord ou d’en provenir ou d’y être destinées. Attribution boundary: French counterpart; not an independent IT-worker designation or case",
+      "locator": "Interdictions; Exceptions; Contexte; Règlements"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

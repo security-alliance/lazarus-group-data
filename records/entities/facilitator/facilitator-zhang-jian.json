@@ -1,0 +1,403 @@
+{
+  "id": "facilitator-zhang-jian",
+  "type": "facilitator",
+  "name": "Zhang Jian",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "OFAC administratively designated the subject on December 17, 2024 under the stated non-proliferation authority; the existing OFAC administrative designation posture is unchanged. Current-list verification is administrative. MSMT’s same-family historical synthesis is historical reporting; court charge, conviction, civil judgment, guilt finding, and adjudication status are absent.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "DLSR29-S01-TREASURY-JY2752",
+      "DLSR29-S02-OFAC-20241217",
+      "doar9-ofac-sdn-current",
+      "gov-e31464a55e89",
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Zhang Jian",
+  "locations": [
+    "United Arab Emirates (source-described/listing context; not current location)"
+  ],
+  "ttps": [
+    "digital-asset or fiat conversion",
+    "DPRK IT-worker revenue laundering support"
+  ],
+  "caveats": [
+    "An OFAC designation is an administrative action; the record has no criminal charge or conviction.",
+    "Birth, identity-document, government-ID, precise-address, contact, account, wallet, payment, transaction, and other sensitive selectors are excluded.",
+    "Source pages provide contextual reporting; omitted addresses, identity documents, government identifiers, payment details, and wallet selectors stay outside publication.",
+    "MSMT footnote 264 apparently misdates jy2752 as July 29, 2025; the admitted Treasury release is dated December 17, 2024.",
+    "MSMT/2025/2 republishes or synthesizes the Treasury jy2752 action family for these findings; the source family remains singular.",
+    "The sources support historical context; present activity, present control and new legal posture require current sources.",
+    "UAE wording is source-described historical or listing context; residence, continued presence, travel, and current location require separate evidence."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DLSR29-S02-OFAC-20241217"
+      ],
+      "value": "ZHANG, Jian"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-treasury-same-family-bounded-historical-depth",
+      "msmt_source_described_context": "UAE-based Chinese national",
+      "historical_fiat_exchange_period": "late 2022 and early 2023",
+      "historical_fiat_exchange_assistance": "helped facilitate the exchange of fiat currency for Sim Hyon Sop",
+      "historical_courier_description": "purportedly acted as a courier for Sim Hyon Sop",
+      "courier_qualifier": "purportedly",
+      "current_ofac_entity_number": 52174,
+      "current_ofac_program": "NPWMD",
+      "current_ofac_listed_name": "ZHANG, Jian",
+      "current_ofac_linked_to": "Sim Hyon Sop",
+      "current_ofac_country_listing_context": "United Arab Emirates",
+      "independent_corroboration": false,
+      "current_presence_or_activity_inferred": false,
+      "new_legal_posture": false,
+      "sensitive_selectors_retained": false,
+      "msmt_underlying_source_family": "Treasury December 17, 2024 jy2752 action family",
+      "msmt_apparent_footnote_date_defect": "Footnote 264 labels the Treasury jy2752 release as July 29, 2025, while the admitted Treasury document at that URL is dated December 17, 2024. The URL and underlying action family are retained; the apparent footnote date is not promoted as a publication date.",
+      "source_ids": [
+        "doar9-ofac-sdn-current",
+        "gov-e31464a55e89",
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DLSR29-S01-TREASURY-JY2752",
+      "support": "Treasury describes Zhang Jian in the stated role: Treasury-described facilitator of fiat exchange for a network handling DPRK IT-worker and cybercrime proceeds; Treasury stated that Zhang purportedly acted as a courier. Personal, identity-document, address, payment, and wallet selectors are omitted",
+      "locator": "Opening; section ‘Digital Assets to Fund Regime’s Activities’; paragraphs naming Sim Hyon Sop, Lu Huaying, and Zhang Jian"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Two associates—UAE-based Chinese nationals Lu Huaying and Zhang Jian—have recently assisted in Sim’s money laundering schemes. In late 2022 and early 2023, Zhang also helped facilitate the exchange of fiat currency for Sim. Zhang also purportedly acted as a courier for Sim",
+      "locator": "UAE subsection, printed p. 85, PDF file p. 87; footnote 264"
+    },
+    {
+      "source_id": "DLSR29-S02-OFAC-20241217",
+      "support": "OFAC's recent-action notice lists Zhang Jian as an SDN addition and supports the displayed sanctions posture and exact listed name forms; it does not independently establish the fuller Treasury or DOJ role description. Personal, identity-document, address, payment, and wallet selectors are omitted",
+      "locator": "SDN additions for LU, Huaying and ZHANG, Jian; personal and financial selectors omitted"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The exact entity-number 52174 ADD row supports only United Arab Emirates country-level listing context; precise address fields are excluded and no current presence is inferred",
+      "locator": "ADD.CSV exact row joined to OFAC entity number 52174"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "Exact current OFAC entity number 52174 supports administrative-list verification as ZHANG, Jian under NPWMD and the source-explicit Linked To: SIM, Hyon Sop field; excluded personal selectors are not reproduced",
+      "locator": "SDN.CSV exact row for OFAC entity number 52174"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-zhang-reported-name",
+      "type": "identity_name",
+      "predicate": "official_source_named_subject",
+      "value": {
+        "name": "Zhang Jian"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "Opening paragraph",
+          "quote": "Lu Huaying and Zhang Jian worked through a UAE-based front company"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 52174",
+          "quote": "52174,\"ZHANG, Jian\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Officially listed name; not independently verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-zhang-ofac-listed-form",
+      "type": "alias",
+      "predicate": "ofac_listed_name_form",
+      "value": {
+        "name": "ZHANG, Jian"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S02-OFAC-20241217",
+          "locator": "SDN List Update, Zhang entry",
+          "quote": "ZHANG, Jian,"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 52174",
+          "quote": "ZHANG, Jian"
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "OFAC display form only; omitted selectors are not reproduced."
+      ]
+    },
+    {
+      "id": "claim-zhang-reported-nationality",
+      "type": "note",
+      "predicate": "official_sources_reported_nationality",
+      "value": {
+        "nationality": "Chinese",
+        "ofac_country_form": "China"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "DPRK Laundering Digital Assets section, Zhang paragraph",
+          "quote": "UAE-based PRC national Zhang Jian"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks for OFAC entity number 52174",
+          "quote": "nationality China"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official source-reported nationality only. It does not establish ethnicity, residence, present location, or linkage to any same-named person or account."
+      ]
+    },
+    {
+      "id": "claim-zhang-historical-uae-context",
+      "type": "location",
+      "predicate": "official_sources_reported_uae_context",
+      "value": {
+        "location": "United Arab Emirates",
+        "precision": "country only",
+        "historical_source_context": "Treasury described Zhang as UAE-based in its December 2024 release",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "DPRK Laundering Digital Assets section, Zhang paragraph",
+          "quote": "UAE-based PRC national Zhang Jian"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 52174",
+          "quote": "\"United Arab Emirates\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Country-level historical and listing context only. The city and street address were excluded; this does not establish residence, continued presence, travel, or present location."
+      ]
+    },
+    {
+      "id": "claim-zhang-fiat-exchange-role",
+      "type": "incident",
+      "predicate": "treasury_reported_fiat_exchange_facilitation",
+      "value": {
+        "activity": "helped facilitate fiat-currency exchange",
+        "reported_principal": "Sim Hyon Sop",
+        "time_context": "late 2022 and early 2023"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "DPRK Laundering Digital Assets section, Zhang paragraph",
+          "quote": "In late 2022 and early 2023, UAE-based PRC national Zhang Jian (Zhang) has also helped facilitate the exchange of fiat currency for Sim."
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Treasury assessment; no transaction, account, payment, wallet, or current-location selector retained."
+      ]
+    },
+    {
+      "id": "claim-zhang-purported-courier-role",
+      "type": "incident",
+      "predicate": "treasury_reported_purported_courier_role",
+      "value": {
+        "reported_role": "courier",
+        "reported_principal": "Sim Hyon Sop",
+        "qualifier": "purportedly"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "DPRK Laundering Digital Assets section, Zhang paragraph",
+          "quote": "Additionally, Zhang himself has purportedly acted as a courier for Sim Hyon Sop."
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "The source's 'purportedly' qualifier is preserved; this is not presented as adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-zhang-sim-reported-relationship",
+      "type": "relationship",
+      "predicate": "treasury_and_ofac_reported_acting_for",
+      "value": {
+        "related_person": "Sim Hyon Sop",
+        "relationship_context": "acted or purported to act on behalf of"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "Designation paragraph",
+          "quote": "OFAC is designating Lu Huaying and Zhang Jian for being owned or controlled by or having acted or purported to act for or on behalf of, directly or indirectly, Sim Hyon Sop"
+        },
+        {
+          "source_id": "DLSR29-S02-OFAC-20241217",
+          "locator": "SDN List Update, Zhang entry",
+          "quote": "(individual) [NPWMD] (Linked To: SIM, Hyon Sop)."
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Administrative designation rationale and list linkage; not a finding of criminal liability."
+      ]
+    },
+    {
+      "id": "claim-zhang-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "date": "2024-12-17",
+        "program": "NPWMD",
+        "authority_context": "Executive Order 13382"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S02-OFAC-20241217",
+          "locator": "SDN List Update heading",
+          "quote": "The following individuals have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "Designation paragraph",
+          "quote": "OFAC is designating Lu Huaying and Zhang Jian"
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Administrative sanctions action only; no criminal charge, conviction, or guilt finding established."
+      ]
+    },
+    {
+      "id": "claim-zhang-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "NPWMD",
+        "checked_at": "2026-08-15",
+        "ofac_entity_number": 52174,
+        "linked_person": "Sim Hyon Sop"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 52174",
+          "quote": "52174,\"ZHANG, Jian\",\"individual\",\"NPWMD\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks for OFAC entity number 52174",
+          "quote": "Linked To: SIM, Hyon Sop."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Dated administrative-list observation, not a criminal charge, conviction, finding of guilt, current operational-role claim, or present-location claim. OFAC entity number 21042 is a different same-name person and was not merged."
+      ]
+    },
+    {
+      "id": "claim-zhang-msmt-fiat-exchange-period-round66",
+      "type": "incident",
+      "predicate": "msmt_synthesized_historical_fiat_exchange_assistance",
+      "value": {
+        "source_described_context": "UAE-based Chinese national",
+        "historical_period": "late 2022 and early 2023",
+        "reported_activity": "helped facilitate the exchange of fiat currency",
+        "reported_principal": "Sim Hyon Sop",
+        "independent_corroboration": false,
+        "current_presence_or_activity_inferred": false,
+        "new_legal_posture": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "UAE subsection, printed p. 85, PDF file p. 87; footnote 264",
+          "quote": "In late 2022 and early 2023, Zhang also helped facilitate the exchange of fiat currency for Sim."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT/2025/2 is a republication or synthesis dependent on Treasury jy2752, not independent corroboration.",
+        "Footnote 264 apparently misdates jy2752 as July 29, 2025; the admitted Treasury page is dated December 17, 2024.",
+        "UAE wording is source-described historical context and does not establish residence, continued presence, travel, or current location.",
+        "No account, wallet, payment, transaction, identity-document, precise-address, or other sensitive selector is retained."
+      ]
+    },
+    {
+      "id": "claim-zhang-msmt-purported-courier-round66",
+      "type": "incident",
+      "predicate": "msmt_synthesized_purported_courier_role",
+      "value": {
+        "reported_role": "courier",
+        "reported_principal": "Sim Hyon Sop",
+        "qualifier": "purportedly",
+        "independent_corroboration": false,
+        "current_presence_or_activity_inferred": false,
+        "new_legal_posture": false
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "UAE subsection, printed p. 85, PDF file p. 87; footnote 264",
+          "quote": "Zhang also purportedly acted as a courier for Sim."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT/2025/2 is a republication or synthesis dependent on Treasury jy2752, not independent corroboration.",
+        "Footnote 264 apparently misdates jy2752 as July 29, 2025; the admitted Treasury page is dated December 17, 2024.",
+        "UAE wording is source-described historical context and does not establish residence, continued presence, travel, or current location.",
+        "No account, wallet, payment, transaction, identity-document, precise-address, or other sensitive selector is retained.",
+        "The source's 'purportedly' qualifier is mandatory; the role is not presented as adjudicated fact."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Zhang Jian is identified here as the person named in Treasury's December 17, 2024 administrative designation materials. Treasury-reported conduct, including the qualified courier statement, is an agency assessment; the OFAC designation is administrative, with criminal charge, conviction, and guilt status unadjudicated. The record retains source-backed designation context and excludes present location, addresses, birth data, identity documents, government identifiers, account, payment, wallet, victim, and private selectors."
+}

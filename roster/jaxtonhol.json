@@ -1,0 +1,111 @@
+{
+  "id": "jaxtonhol",
+  "aliases": [
+    "jaxtonhol"
+  ],
+  "notes": "Telegram username that, per Recorded Future Insikt Group (February 2025), appeared in recruiter advertisements using agencyhill99[.]com addresses, sharing an address with the Dale_V account. Recorded Future places AgencyHill99 in its PurpleBravo (Famous Chollima) reporting.",
+  "telegram": [
+    {
+      "usernames": [
+        "jaxtonhol"
+      ]
+    }
+  ],
+  "images": [],
+  "research_id": "persona-agencyhill99-jaxtonhol",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Telegram username that, per Recorded Future Insikt Group (February 2025), appeared in recruiter advertisements using agencyhill99[.]com addresses, sharing an address with the Dale_V account. Recorded Future places AgencyHill99 in its PurpleBravo (Famous Chollima) reporting.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Historical Telegram recruiter account label reported by Recorded Future in the AgencyHill99/PurpleBravo cluster. Do not infer a civil identity, a single continuing operator, or present control from account reachability, repeated advertisements, or a reused organization-domain email indicator.",
+      "Historical public indicator; do not contact or assume current ownership.",
+      "job advertisements observed 2024-09-26 through 2024-12-07",
+      "No identity conclusion may be drawn from profile imagery or visual similarity.",
+      "This is a source-reported persona or account label, not a verified legal identity.",
+      "Source-reported alias labels with no platform stated: jaxtonhol. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "As of 2026-09-04, t.me/jaxtonhol shows Telegram's generic placeholder; no public account is exposed under this username.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-c84c0687ad0a",
+      "title": "From IT Workers to Cyber Operations: Tracking North Korean Threat Actors Around the Globe",
+      "publisher": "Recorded Future Insikt Group",
+      "url": "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-nk-2025-0213.pdf",
+      "date": "2025-02-13"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-jaxtonhol-agencyhill99-indicator",
+      "label": "Used reported agencyhill99 domain indicator",
+      "category": "relationship",
+      "observed": "2024-09-26",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, Telegram summary; mailbox local part omitted",
+          "quote": "an account with the username jaxtonhol and email address"
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, same address, exact organization-domain fragment; mailbox local part omitted",
+          "quote": "agencyhill99[.]com"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-jaxtonhol-blockchain-recruitment",
+      "label": "Posted blockchain engineer advertisements",
+      "category": "incident",
+      "observed": "2024-12-07",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 6, Telegram-post summary",
+          "quote": "On November 13, 2024, the Telegram user jaxtonhol posted in the Telegram channel “near_jobs” seeking blockchain engineers."
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 6, repeat-post sentence before omitted contact selector",
+          "quote": "The same user posted again on December 7, 2024, in the same channel"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-jaxtonhol-historical-telegram",
+      "label": "Researcher reported historical telegram account",
+      "category": "account",
+      "observed": "2024-09-26",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, Telegram-post summary; organization-domain contact selector omitted",
+          "quote": "On September 26, 2024, an account with the username jaxtonhol"
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, same sentence after omitted contact selector",
+          "quote": "posted in the Telegram channel “indeedemploijobeur” that they were looking to hire a developer."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-jaxtonhol-recorded-future-link-only-source-page",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-02-13",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF file pp. 6-7 (printed footer pp. 5-6), visually reviewed Telegram chronology; contact selectors and unrelated Figure 1 excluded",
+          "quote": "On November 13, 2024, the Telegram user jaxtonhol posted in the Telegram channel “near_jobs” seeking blockchain engineers."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

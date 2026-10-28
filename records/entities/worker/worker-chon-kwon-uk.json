@@ -1,0 +1,348 @@
+{
+  "id": "worker-chon-kwon-uk",
+  "type": "worker",
+  "name": "Chon Kwon Uk",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Chon Kwon Uk",
+  "organizations": [
+    "Kyonghung Information Technology Exchange Company"
+  ],
+  "locations": [
+    "China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details."
+  ],
+  "aliases": [
+    {
+      "value": "Lai We Wang",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    },
+    {
+      "value": "Zhong",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    },
+    {
+      "value": "laiwe",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Official profile photo plus fraudulent Chinese ID and 'Lai We Wang' profile.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 9 identifies the director and developers; says Chong developed gambling sites and Chon developed gambling sites and sold personal-information databases",
+      "locator": "Annex 9 Table 1, PDF p. 122 / printed p. 120; Figures 5-6, PDF p. 125 / printed p. 123; Table 4, PDF p. 126 / printed p. 124 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "src-d05b2dead9a3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-chon-kwon-uk-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_and_source_form",
+      "value": {
+        "name": "Chon Kwon Uk",
+        "source_scoped_non_latin_form": "전권욱"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "Name: Chon Kwon Uk (전권욱)"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The source form is scoped to the MSMT report and is not supplemented with identity-document data."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-kyonghung-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "reported_worker_of",
+      "value": {
+        "organization": "Kyonghung Information Technology Exchange Company",
+        "short_name": "Kyonghung IT"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "North Korean IT workers such as Chong Ryu Song (정류성) and Chon Kwon Uk (전권욱)."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported organizational relationship; no present employment or location inference."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-gambling-websites",
+      "type": "incident",
+      "predicate": "source_reported_development_activity",
+      "value": {
+        "activity": "develops gambling websites",
+        "source_scope": "MSMT Annex 9"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "Chon develops gambling \nwebsites"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "An MSMT source report, not a criminal charge or adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-personal-information-databases",
+      "type": "incident",
+      "predicate": "source_reported_database_sales",
+      "value": {
+        "activity": "sells databases containing personal information online",
+        "source_scope": "MSMT Annex 9"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "sells databases \ncontaining personal \ninformation online."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "No victim, dataset, contact, or personal-information selectors were retained."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-lai-we-wang",
+      "type": "alias",
+      "predicate": "source_reported_fraudulent_profile_name",
+      "value": {
+        "label": "Lai We Wang",
+        "label_type": "fraudulent profile name"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Figure 6 caption, PDF file p. 125 (printed p. 123); text extraction only because the page contains identity-document imagery",
+          "quote": "A fraudulent profile created by Chon Kwon Uk under the name of “Lai We Wang”"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The page's identity-document image was not rendered, cached, cropped, transcribed, or used for identity inference."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-zhong-label",
+      "type": "alias",
+      "predicate": "source_reported_account_label",
+      "value": {
+        "label": "Zhong",
+        "label_type": "source-reported account ID label"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 4 row 6, PDF file p. 126 (printed p. 124), ID label only",
+          "quote": "Zhong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The adjacent messaging-account selector was excluded. This label is not a verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-linkedin-profile",
+      "type": "account",
+      "predicate": "source_reported_public_profile",
+      "value": {
+        "platform": "LinkedIn",
+        "profile_path": "lai-we-wang-ba355a1a2",
+        "source_status": "currently defunct"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 4 row 5, PDF file p. 126 (printed p. 124)",
+          "quote": "www.linkedin.com/in/lai-we-\nwang-ba355a1a2"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 4 row 5, PDF file p. 126 (printed p. 124)",
+          "quote": "LinkedIn profile used by Chon \nKwon Uk"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source attribution; no present account control or identity of a borrowed profile owner is inferred."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-allombo",
+      "type": "infrastructure",
+      "predicate": "source_reported_site_development",
+      "value": {
+        "domain": "allombo.com",
+        "description": "social media site developed by Chon Kwon Uk",
+        "source_status": "historical"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 4 row 13, PDF file p. 126 (printed p. 124)",
+          "quote": "allombo.com"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 4 row 13, PDF file p. 126 (printed p. 124)",
+          "quote": "Social media site developed \nby Chon Kwon Uk"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source report. No active probing or current-control inference was performed."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-report-era-dandong-context",
+      "type": "location",
+      "predicate": "source_reported_coarse_location_context",
+      "value": {
+        "location": "Fengcheng, Dandong, China",
+        "timeframe": "report-era context published 2025-10-22",
+        "precision": "coarse city-level only"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "Kyonghung IT is headquartered in Dandong, China, and consists of 15 individuals, including its director Kim Kwang Myong (김광명) who is affiliated with the UN-sanctioned Reconnaissance General Bureau (KPe.031), and North Korean IT workers such as Chong Ryu Song (정류성) and Chon Kwon Uk (전권욱)."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "These North Korean nationals live together in the dormitory of a clothing factory located in Fengcheng, Dandong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical report wording only. The factory name, address, precise site, travel, and present location are excluded; the claim does not establish that Chon remains in Dandong."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-link-only-report-photo",
+      "type": "image",
+      "predicate": "source_explicit_link_only_profile_photo",
+      "value": {
+        "media_type": "profile photo",
+        "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+        "pdf_file_page": 122,
+        "handling": "link_only"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120), source-labeled portrait row",
+          "quote": "Name: Chon Kwon Uk (전권욱)"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Link-only source reference. No crop, cache, redistribution, facial recognition, or comparison is authorized. The separate identity-document image on file page 125 remains excluded."
+      ]
+    },
+    {
+      "id": "claim-chon-kwon-uk-allombo-archive-context",
+      "type": "infrastructure",
+      "predicate": "source_attributed_site_with_archived_public_description",
+      "value": {
+        "domain": "allombo.com",
+        "archived_at": "2018-06-13T14:22:17Z",
+        "archived_title": "Allombo - Share yourself",
+        "archived_description": "free photo and video site allowing user uploads, ratings, and comments"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 4 row 13, PDF file p. 126 (printed p. 124)",
+          "quote": "Social media site developed \nby Chon Kwon Uk"
+        },
+        {
+          "source_id": "src-d05b2dead9a3",
+          "locator": "HTML title",
+          "quote": "Allombo - Share yourself"
+        },
+        {
+          "source_id": "src-d05b2dead9a3",
+          "locator": "HTML description metadata",
+          "quote": "Allombo (ALB) is a free photo & video site allowing user uploading and viewing of photos & videos with ratings and comments."
+        }
+      ],
+      "observed_at": "2018-06-13",
+      "notes": [
+        "The Internet Archive supplies historical service context, not independent attribution of development or control. No live-domain request or active probing was performed."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Chon Kwon Uk is the worker named in the MSMT Kyonghung IT case study and Annex 9. Lai We Wang and Zhong are source-reported labels only. The group-level laiwe GitHub handle remains a separate label pending a one-to-one source bridge to Chon."
+}

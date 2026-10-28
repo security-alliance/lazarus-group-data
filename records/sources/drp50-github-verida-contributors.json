@@ -1,0 +1,12 @@
+{
+  "id": "drp50-github-verida-contributors",
+  "publisher": "GitHub",
+  "title": "GitHub contributors: verida/proof-connector-dapp",
+  "url": "https://api.github.com/repos/verida/proof-connector-dapp/contributors?anon=1&per_page=100",
+  "accessed_at": "2026-08-16",
+  "sha256": "7d424ff631ac70ab6e5fa92cc16e0a7c30b313a7969e615a82d5f2344fd3d8ab",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

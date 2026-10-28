@@ -1,0 +1,43 @@
+{
+  "id": "deep2-unhistory-un-yong-bong-chand-nepal",
+  "type": "front_company",
+  "name": "Yong Bong Chand IT Company, Nepal",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-yong-bong-chand-nepal"
+    ]
+  },
+  "ttps": [
+    "false-location"
+  ],
+  "caveats": [
+    "Nepal reported that it had deported or repatriated DPRK nationals associated with the companies and later informed the Panel that the nine Yong Bong Chand workers had been repatriated in October 2019.",
+    "The historical directory listing supports the reported concealment model; current operation requires newer evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported that nine DPRK IT workers were sent in late 2018 to Yong Bong Chand IT Company, one of nine companies operated by DPRK nationals in Nepal.",
+        "The Panel found a November 2019 e-commerce business-directory entry that omitted any DPRK presence and allowed transactions entirely online, which the Panel described as identity concealment that could cause customers unknowingly to contract with DPRK IT workers."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-yong-bong-chand-nepal"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-yong-bong-chand-nepal",
+      "support": "Verifies the exact company, nine-worker allegation, online-only directory concealment and Nepal repatriation response",
+      "locator": "PDF pp. 53-54, para. 128 and footnote 158; annexes 33-34"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

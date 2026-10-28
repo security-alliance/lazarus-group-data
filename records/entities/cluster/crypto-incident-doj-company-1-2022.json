@@ -1,0 +1,65 @@
+{
+  "id": "crypto-incident-doj-company-1-2022",
+  "type": "cluster",
+  "name": "Company-1 (Atlanta-area blockchain R&D company; unnamed) — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Court filings and DOJ announcements describe allegations; conviction requires a separate court record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-reframing",
+      "crypto-doj-2025-06-30",
+      "crypto-doj-indictment-ndga-1-25-cr-291"
+    ]
+  },
+  "organizations": [
+    "Company-1 (Atlanta-area blockchain R&D company; unnamed)"
+  ],
+  "ttps": [
+    "Indictment allegation: False explanations over Telegram",
+    "Indictment allegation: Gained smart-contract source access",
+    "Indictment allegation: Laundered through Tornado Cash",
+    "Indictment allegation: Modified Ethereum and Polygon contract withdrawal rules",
+    "Indictment allegation: Stolen identity and false ID"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "P.S. is a source-redacted stolen-identity victim label referenced in the indictment, rather than an actor alias or public handle.",
+    "Treat criminal allegations as allegations unless adjudicated."
+  ],
+  "aliases": [
+    {
+      "value": "Pemba Sherpa",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "pemba-sherpa"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-reframing",
+      "support": "Pemba Sherpa is mapped to Kim Kwang Jin, and Bryan Cho to Jong Pong Ju",
+      "locator": "Section “Bureau 61 (From Vientiane to Vladivostok)” and “Righting Wrongs”"
+    },
+    {
+      "source_id": "crypto-doj-indictment-ndga-1-25-cr-291",
+      "support": "They worked on victim companies’ smart contracts and collectively stole and laundered more than $900,000",
+      "locator": "Indictment ¶¶ 19–45 (PDF pp. 6–16), Company-1 and Company-2 allegations"
+    },
+    {
+      "source_id": "crypto-doj-2025-06-30",
+      "support": "Workers allegedly sought jobs at virtual-currency businesses and stole more than $900,000 in assets",
+      "locator": "Body paragraphs under “IT Worker Actions” describing virtual-currency employers and more than $900,000 stolen"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

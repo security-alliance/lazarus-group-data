@@ -1,0 +1,84 @@
+{
+  "id": "front-company-inspiration-with-digital-living",
+  "type": "front_company",
+  "name": "Inspiration With Digital Living",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported front company or recruitment front; legal adjudication requires a separate official record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "front_companies": [
+    "Inspiration With Digital Living"
+  ],
+  "locations": [
+    "Presented as United States-based; Nisos assessed listed U.S. address as false"
+  ],
+  "ttps": [
+    "fake freelance software-company presentation",
+    "front-company or linked-company presentation",
+    "portfolio and code-hosting infrastructure"
+  ],
+  "caveats": [
+    "First source observation: 2024-11-22 registration; last source observation: 2025-05-01 report; as of 2026 08 12, this is a historical indicator, and live interaction or current-state status awaits a new test.",
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Publish as a Nisos-reported fake software-solutions company in a likely DPRK-affiliated employment-scam network. The false residential-style address and images of uninvolved named people stay unpublished."
+  ],
+  "aliases": [
+    {
+      "value": "IWDL",
+      "alias_type": "organization-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "github_organization",
+      "value": "github[.]com/orgs/IWLD/repositories",
+      "status": "source-observed in 2025; spelling is IWLD in the URL",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    },
+    {
+      "kind": "persona",
+      "value": "Wojciech Mazur",
+      "status": "claimed to have developed the company website",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    },
+    {
+      "kind": "persona",
+      "value": "Taylor Fuller",
+      "status": "source-linked",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    },
+    {
+      "kind": "website",
+      "value": "iwdl[.]org",
+      "status": "registered 2024-11-22 according to Nisos; source-observed in 2025",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Inspiration With Digital Living in the stated front-company or corporate-linkage context: iwdl[.]org; github[.]com/orgs/IWLD/repositories; Taylor Fuller; Wojciech Mazur",
+      "locator": "PDF pp. 10-12, Inspiration With Digital Living and persona sections"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

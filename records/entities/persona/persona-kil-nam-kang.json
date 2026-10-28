@@ -1,0 +1,394 @@
+{
+  "id": "persona-kil-nam-kang",
+  "type": "persona",
+  "name": "Kil-Nam Kang",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s7"
+    ]
+  },
+  "organizations": [
+    "Kim Il-sung University Joint Research Center in Beijing (personnel designation in records)"
+  ],
+  "ttps": [
+    "kept account credentials, personnel dossiers, and financial records",
+    "managed an eight-person cell"
+  ],
+  "caveats": [
+    "The platform investigation names the cell manager behind many false identities; this record therefore describes the manager rather than a fake Western persona.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "강길남",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s7"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s7",
+      "support": "GitLab identified a private project almost certainly controlled by North Korean national Kil-Nam Kang",
+      "locator": "“Case Study 1: North Korean IT Worker Cell Manager Financial and Administrative Records,” especially “Summary” and “Key findings”"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kil-nam-kang-korean-script-name",
+      "type": "alias",
+      "predicate": "publisher_reported_korean_script_name",
+      "value": {
+        "romanized_name": "Kil-Nam Kang",
+        "korean_script_name": "강길남"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary, opening sentence",
+          "quote": "Kil-Nam Kang (강길남)"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Publisher-reported name pair; not an employment persona alias."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-source-described-natural-person",
+      "type": "note",
+      "predicate": "publisher_described_natural_person_operator",
+      "value": {
+        "source_description": "North Korean national managing a North Korean IT worker cell",
+        "catalog_model": "persona",
+        "editorial_model_review_needed": true
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary, opening sentence",
+          "quote": "a North Korean national managing a North Korean IT worker cell"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "GitLab's source description creates a person-versus-persona modeling boundary for editorial review; it is not an adjudicated nationality finding."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-private-project-control-assessment",
+      "type": "account",
+      "predicate": "publisher_assessed_historical_private_project_control",
+      "value": {
+        "platform": "GitLab",
+        "object": "private project containing cell financial and administrative records",
+        "assessment": "almost certainly controlled by Kil-Nam Kang",
+        "historical_investigation": true
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary, opening sentence",
+          "quote": "We identified a private project almost certainly controlled by Kil-Nam Kang (강길남)"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "GitLab's estimative-language assessment about historical project control. No project URL, credentials, present endpoint, or current-control claim is retained."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-managed-cell",
+      "type": "relationship",
+      "predicate": "publisher_reported_cell_manager_role",
+      "value": {
+        "role": "manager",
+        "managed_entity": "North Korean IT worker cell"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary, opening sentence",
+          "quote": "Kil-Nam Kang (강길남), a North Korean national managing a North Korean IT worker cell"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Publisher-reported management role; no legal finding or present organizational role is inferred."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-cell-size-at-publication",
+      "type": "relationship",
+      "predicate": "publisher_reported_cell_membership_count",
+      "value": {
+        "other_reported_members": 7,
+        "total_including_manager": 8,
+        "time_scope": "GitLab publication-time report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary",
+          "quote": "Kang’s cell currently includes seven other North Korean nationals"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The source's 'currently' is bounded to its February 2026 publication. No present-day membership is asserted."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-recorded-earnings",
+      "type": "incident",
+      "predicate": "publisher_reported_cell_income_total",
+      "value": {
+        "reported_income_usd": 1640000,
+        "amount_qualifier": "more than in summary; aggregated total in key findings",
+        "period_start": "2022-Q1",
+        "period_end": "2025-Q3"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary",
+          "quote": "earnings of more than US$1.64 million between Q1 2022 and Q3 2025"
+        },
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, aggregated financial data",
+          "quote": "We aggregated financial data and identified a total reported income of US$1.64 million from Q1 2022 to Q3 2025."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Publisher-reported aggregate cell income, not a personal asset total, judgment, or independently audited figure. No account selectors are retained."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-beijing-colocation-assessment",
+      "type": "location",
+      "predicate": "publisher_assessed_cell_operating_location",
+      "value": {
+        "assessed_location": "Beijing, China",
+        "assessment": "highly likely colocated and operating"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary, final sentence",
+          "quote": "We assess that the cell is highly likely colocated and operating from Beijing, China."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Vendor assessment about the cell during the investigated period; not proof of Kang's current location or residence."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-cell-operating-chronology",
+      "type": "incident",
+      "predicate": "publisher_reported_cell_records_chronology",
+      "value": {
+        "detailed_records_period": "2022-Q1 to 2025-Q3",
+        "earliest_less_detailed_indication": 2019
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, opening paragraph",
+          "quote": "Detailed financial records span from Q1 2022 to Q3 2025, however less detailed records indicate the cell was operating as early as 2019."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Chronology derived from GitLab's reviewed project records, not a claim that Kang controlled every activity throughout the full period."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-management-structure-change",
+      "type": "incident",
+      "predicate": "publisher_reported_management_structure_change",
+      "value": {
+        "structure_2022": "two subteams",
+        "tracking_from_2023": "individual-level performance"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, management paragraph",
+          "quote": "Records indicate that Kang managed the cell as two subteams in 2022, however from 2023 onwards only tracked performance at the individual level."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Publisher-reported management chronology."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-personnel-records",
+      "type": "incident",
+      "predicate": "publisher_reported_personnel_recordkeeping",
+      "value": {
+        "record_types": [
+          "team-member dossiers",
+          "performance reviews"
+        ],
+        "excluded_material": true
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, management paragraph",
+          "quote": "Kang maintains detailed personnel records, including dossiers on each team member, performance reviews"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Only high-level record categories are retained. Identity documents, credentials, device access, and personal dossier contents were excluded."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-research-center-designation",
+      "type": "organization_affiliation",
+      "predicate": "publisher_reported_personnel_dossier_designation",
+      "value": {
+        "designation": "Researcher at Kim Il-sung University Joint Research Center in Beijing",
+        "context": "designation listed in cell personnel dossiers",
+        "publisher_interpretation": "possible academic pretext"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, personnel-dossier designation paragraph",
+          "quote": "Personnel dossiers list each of the cell members as “베이징주재 김일성종합대학 공동연구중심 연구사”, translating to “Researcher at Kim Il-sung University Joint Research Center in Beijing”."
+        },
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, personnel-dossier designation paragraph",
+          "quote": "This designation suggests that the cell’s presence in China may be under an academic pretext."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "A source-reported personnel-record designation and qualified interpretation, not independently verified university employment or affiliation."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-freelance-development-revenue",
+      "type": "employment",
+      "predicate": "publisher_reported_cell_revenue_activity",
+      "value": {
+        "activity": "freelance and contract software development services",
+        "development_focus": [
+          "web applications",
+          "mobile applications"
+        ],
+        "false_identity_context": true
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Summary",
+          "quote": "generates revenue through freelance software development under false identities"
+        },
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, revenue-workflow paragraph",
+          "quote": "Financial records indicate that the cell generates revenue through freelance and contract software development services."
+        },
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, revenue-workflow paragraph",
+          "quote": "The cell focused on web and mobile app development."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Cell-level publisher report, not verified lawful employment by Kang or every named member. Client, facilitator, payment, and identity selectors are excluded."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-structured-financial-monitoring",
+      "type": "incident",
+      "predicate": "publisher_reported_structured_financial_monitoring",
+      "value": {
+        "artifact_count_minimum": 120,
+        "tracked_scope": "quarterly individual income performance against targets",
+        "publisher_interpretation": "regular monitoring and reporting to leadership"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, financial-monitoring paragraph",
+          "quote": "The project contained more than 120 spreadsheets, presentations, and documents that systematically track quarterly income performance for individual team members."
+        },
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, financial-monitoring paragraph",
+          "quote": "The comprehensiveness and highly structured nature of financial reports is indicative of regular financial monitoring and reporting to leadership."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "No underlying spreadsheets, client names, payment selectors, or personal performance data were collected."
+      ]
+    },
+    {
+      "id": "claim-kil-nam-kang-2020-performance-reviews",
+      "type": "incident",
+      "predicate": "publisher_reported_historical_performance_reviews",
+      "value": {
+        "review_year": 2020,
+        "publisher_finding": "reviews confirmed physical colocation of the cell"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s7",
+          "locator": "Case Study 1, Key findings, performance-review paragraph",
+          "quote": "The private project also contained performance reviews for cell members, dated 2020. These performance reviews confirm that the cell is physically colocated"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Historical publisher finding about the cell. Review contents about household, ideology, and personal matters were not retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "GitLab reports Kil-Nam Kang (강길남) as a North Korean natural person/operator who managed an IT-worker cell, while the current catalog models this record as a persona. Preserve that editorial model boundary: these are publisher assessments rather than an adjudication, and historical private-project evidence is historical; present control of any account or infrastructure requires current source evidence."
+}

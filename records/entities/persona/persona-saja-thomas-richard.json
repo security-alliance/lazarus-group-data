@@ -1,0 +1,190 @@
+{
+  "id": "persona-saja-thomas-richard",
+  "type": "persona",
+  "name": "Thomas Richard",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "organizations": [
+    "Saja portfolio network"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Limited public account detail; it functions as a network alias, while a standalone person profile requires additional corroboration.",
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "source-observed through 2025-05-01",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Thomas Richard",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Thomas Richard as a persona or account linked to Saja portfolio network; historical indicators described by the source include appeared in AFF screenshots and Saja portfolio testimonials",
+      "locator": "PDF pp. 9 and 13"
+    },
+    {
+      "source_id": "src-63b896d3c6a0"
+    },
+    {
+      "source_id": "src-0a29730a61f8"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-thomas-richard-reported-persona",
+      "type": "identity_name",
+      "predicate": "researcher_reported_network_persona_label",
+      "value": {
+        "name": "Thomas Richard",
+        "identity_status": "Saja-network persona label"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF file p. 13, Thomas Richard",
+          "quote": "A photo of the threat actor was included alongside the name Thomas Richard"
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Source-reported label only; no legal identity, nationality, or natural-person merge."
+      ]
+    },
+    {
+      "id": "claim-thomas-richard-fake-testimonial-network",
+      "type": "relationship",
+      "predicate": "publisher_reported_fake_testimonial_persona",
+      "value": {
+        "network": "Saja portfolio network",
+        "artifact": "fake testimonial sections",
+        "other_listed_personas": [
+          "Kornel Dudek",
+          "Fred Rowe",
+          "Juan Pablo Torres"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF file p. 9, ‘Testimonial’ Section",
+          "quote": "The “testimonial” sections frequently contained fake testimonials from other personas included within the network"
+        },
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF file p. 9, ‘Testimonial’ Section",
+          "quote": "The personas included: Kornel Dudek, Fred Rowe, Juan Pablo Torres, and Thomas Richard."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "The testimonial attribution is a network artifact and does not establish that a person named Thomas Richard authored the text."
+      ]
+    },
+    {
+      "id": "claim-thomas-richard-aff-screenshot",
+      "type": "account",
+      "predicate": "publisher_reported_aff_service_label",
+      "value": {
+        "service": "AFF",
+        "artifact": "screenshot displayed on portfolio sections",
+        "site_count_scope": "several source-linked portfolio websites"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF file p. 13, Thomas Richard",
+          "quote": "A photo of the threat actor was included alongside the name Thomas Richard in a screenshot of the AFF service on the portfolio section of several portfolio websites linked to the network."
+        }
+      ],
+      "observed_at": "2025-05-01",
+      "notes": [
+        "Historical screenshot evidence only; no standalone AFF account identifier or current controller was established."
+      ]
+    },
+    {
+      "id": "claim-thomas-softwarepassioner-testimonial-current",
+      "type": "relationship",
+      "predicate": "source_linked_public_testimonial_label_observed",
+      "value": {
+        "site": "softwarepassioner.github.io",
+        "displayed_name": "Thomas Richard",
+        "displayed_text": "The key advantages lie in the creativity of the idea and the effectiveness of the solution. These are the significant benefits he brings to us.",
+        "observed_on": "2026-08-14"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-63b896d3c6a0",
+          "locator": "Testimonials section, first item",
+          "quote": "The key advantages lie in the creativity of the idea and the effectiveness of the solution. These are the significant benefits he brings to us."
+        },
+        {
+          "source_id": "src-63b896d3c6a0",
+          "locator": "Testimonials section, first item",
+          "quote": "Thomas Richard"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current network-site content only. It does not establish authorship, endorsement, identity, or current activity by a person named Thomas Richard."
+      ]
+    },
+    {
+      "id": "claim-thomas-veteransoftdev-testimonial-current",
+      "type": "relationship",
+      "predicate": "source_linked_public_testimonial_label_observed",
+      "value": {
+        "site": "veteransoftdev.github.io",
+        "displayed_name": "Thomas Richard",
+        "displayed_text": "The creative idea and best solution, These are his important benefits.",
+        "observed_on": "2026-08-14"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-0a29730a61f8",
+          "locator": "Testimonials section, first item",
+          "quote": "The creative idea and best solution, These are his important benefits."
+        },
+        {
+          "source_id": "src-0a29730a61f8",
+          "locator": "Testimonials section, first item",
+          "quote": "Thomas Richard"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current Jan Kowalski/VeteranSoftDev network-site content only; no Thomas Richard account ownership or testimonial authorship is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Thomas Richard is a Nisos-reported label appearing in AFF screenshots and reused testimonial sections across the Saja portfolio network; civil identity, personal account, and testimonial authorship remain unresolved, while common-name results and profile images remain separate."
+}

@@ -1,0 +1,179 @@
+{
+  "id": "dfef-ttp-lifecycle-identity-continuity",
+  "type": "ttp",
+  "name": "Identity continuity across application, interview, shipment, onboarding, and work",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure and defensive guidance, including provider observations and source-attributed investigations. The material supplies a source-qualified evidence class; named-person legal attribution, court findings, identity determinations, prevalence estimates, independently validated product-efficacy studies, government endorsement, attributed DPRK incidents, adjudications, telemetry disclosure, and effectiveness studies remain outside it. It is vendor interpretation of official guidance plus one anonymous, DPRK-unattributed provider observation.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DEPVG27-S04-PINDROP-JOINT-ALERT",
+      "DFEF-S01",
+      "DFEF-S02",
+      "DFEF-S03",
+      "DFEF-S04",
+      "DFEF-S06",
+      "DFEF-S07",
+      "DFEF-S08",
+      "DFEF-S09",
+      "DPPLR19-S01-PINDROP-TELEMETRY",
+      "DPPLR19-S02-GITLAB-TRADECRAFT"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "credential-sharing",
+    "cross-interaction-identity-review",
+    "government-versus-vendor-provenance",
+    "identity-continuity",
+    "laptop-forwarding",
+    "proxy-interviewee",
+    "single-signal-limitation",
+    "stage-bound-reverification"
+  ],
+  "caveats": [
+    "A verification result, profile inconsistency, location-related mismatch, synthetic-media alert, or other single signal remains only one signal; legal identity, nationality, DPRK affiliation, present account control, and malicious intent require corroboration.",
+    "Any lifecycle review must be purpose-limited and bounded against discriminatory or intrusive workforce surveillance.",
+    "Controls require notice, proportionality, minimization, bounded retention, trained human review, meaningful correction and appeal, accessible alternatives, anti-discrimination safeguards, and jurisdiction-specific legal review.",
+    "The July 31 joint alert is separate from continuous identity verification, Pindrop's framework, and product recommendations; those attributions require their own sources.",
+    "Identity-document imagery, synthetic-image examples, biometric templates, candidate-level telemetry, and raw graph nodes stay out of publication and operational use.",
+    "Extends existing continuous-identity guidance with concrete ATS, trusted-channel, live-task, shipping, and post-hire handoff checkpoints from newly reviewed first-party sources.",
+    "Identity or attribution requires more than a single face, image, document, VPN, location, device, network, profile, résumé, repository, contact, or behavior signal.",
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "Provider implementation and product statements describe controls; independently validated efficacy and error-rate studies belong to separate evidence.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims.",
+    "Successful or failed verification is one bounded observation; legal identity, nationality, DPRK affiliation, worker continuity, present account control and product-wide performance require separate evidence.",
+    "The anonymous case supports a cross-interaction review lesson; candidate identity, DPRK affiliation, employment, access and harm require separate evidence.",
+    "This is a defensive synthesis; product or signal attribution requires corroborated evidence. Controls must be proportionate, accessible, privacy-preserving, and reviewed for bias.",
+    "Use explainable multi-signal review, minimization, bounded retention, trained human adjudication, correction, appeal, accessibility accommodations, and applicable legal review."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Define identity checkpoints and handoff evidence across the full worker lifecycle",
+        "Use trusted-channel verification independent of applicant-supplied contact points",
+        "Reverify after material changes such as device replacement, payroll change, account recovery, or work-location change",
+        "Share only necessary risk context across recruiting, legal, privacy, HR, IT, and security",
+        "Never use language, accent, ethnicity, or nationality as a detector"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S01",
+        "DFEF-S02",
+        "DFEF-S03",
+        "DFEF-S04",
+        "DFEF-S06",
+        "DFEF-S07",
+        "DFEF-S08",
+        "DFEF-S09"
+      ]
+    },
+    {
+      "type": "government-vendor-provenance-and-cross-interaction-boundary",
+      "statements": [
+        "Keep the joint governments' recommendations separate from Pindrop's own continuous-identity interpretation and product mapping; the source itself says the alert did not prescribe continuous identity verification or endorse a technology.",
+        "Pindrop's anonymous case supports a bounded lesson that a documented comparison across interactions can reveal an inconsistency that no single interaction made obvious."
+      ],
+      "limitations": [
+        "The anonymous case is not attributed to DPRK and does not establish a hire, access event, harm event, legal identity, nationality, or malicious intent.",
+        "No location, network, voice, video, biometric, candidate, or other private telemetry is retained or implied.",
+        "Cross-interaction comparison is a contextual human-review input, not continuous intrusive surveillance or an automatic adverse-decision rule."
+      ],
+      "source_ids": [
+        "DEPVG27-S04-PINDROP-JOINT-ALERT"
+      ]
+    },
+    {
+      "type": "source-reported-behavior-or-platform-pattern",
+      "statements": [
+        "The first-party disclosures converge on identity continuity rather than a one-time background check: compare applicant identity and contact history, confirm the same person performs live tasks, reconfirm approved shipping and work location, bind onboarding to the verified individual and device, and review later identity or access changes through a joint recruiting/security process.",
+        "Use one identity owner, interviewer, facilitator, and worker at different stages",
+        "Exploit gaps between ATS, recruiter, background-check, equipment, payroll, and security teams",
+        "Use aged or stolen accounts to defeat account-age heuristics"
+      ],
+      "limitations": [
+        "This is a defensive synthesis, not a claim that any product or signal proves DPRK affiliation. Controls must be proportionate, accessible, privacy-preserving, and reviewed for bias.",
+        "Extends existing continuous-identity guidance with concrete ATS, trusted-channel, live-task, shipping, and post-hire handoff checkpoints from newly reviewed first-party sources."
+      ],
+      "source_ids": [
+        "DFEF-S01",
+        "DFEF-S02",
+        "DFEF-S03",
+        "DFEF-S04",
+        "DFEF-S06",
+        "DFEF-S07",
+        "DFEF-S08",
+        "DFEF-S09"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfef-ttp-lifecycle-identity-continuity",
+    "drh-ttp-continuous-recruitment-integrity-governance",
+    "hpg-ttp-device-pickup-hid-address-controls"
+  ],
+  "sources": [
+    {
+      "source_id": "DPPLR19-S02-GITLAB-TRADECRAFT",
+      "support": "GitLab reports just-over-40-percent success across one observed operation's attempts to obtain enhanced verification on unnamed professional networking services. This source-reported result is a bounded point-in-time observation, not proof of legal identity or worker continuity. Evidence boundary: GitLab's source-attributed investigation, not a court finding. The platform being verified is not named in the relevant claim, the attempt count and decision criteria are not disclosed, and successful platform verification does not establish civil identity, worker continuity, present account control, or product-wide failure rate",
+      "locator": "Case Study 3: synthetic identity construction workflow, verification-status field, aggregate success result, implications and mitigations; Case Study 4: payment-processor rotation and facilitator/device-access observations"
+    },
+    {
+      "source_id": "DFEF-S04",
+      "support": "Cinder says it combined ATS data with identity, liveness, network, contact, and code-hosting checks and routed the resulting signals to human review",
+      "locator": "North Koreans are applying to your company; Using Cinder to Defend Cinder; From Internal Tool to Customer Solution"
+    },
+    {
+      "source_id": "DFEF-S06",
+      "support": "Jobstreet recommends live practical tasks, profile-credential checks, in-person interviewing where feasible, and review of suspicious or overlapping login infrastructure",
+      "locator": "Summary; Measures taken to protect Jobstreet's customers; Tactics used; Top Recommendations"
+    },
+    {
+      "source_id": "DFEF-S03",
+      "support": "Alex reports that two shortlisted candidates appeared to present as the same person under different names and employment claims",
+      "locator": "The Case; Where Traditional Hiring Breaks Down; Catching Fraud Before the First Interview"
+    },
+    {
+      "source_id": "DFEF-S08",
+      "support": "Ashby says reviewers can inspect location, identity-verification, and assessment anomalies and make the risk decision rather than relying on a black-box verdict",
+      "locator": "Our Philosophy; What We Built"
+    },
+    {
+      "source_id": "DFEF-S07",
+      "support": "Ashby describes generic fake-candidate indicators including account-history mismatch, copied resumes, changed shipping addresses, and post-hire remote-management software",
+      "locator": "Scam #3: Fake Candidates; How Recruiters and Hiring Managers Can Safeguard the Recruitment Process"
+    },
+    {
+      "source_id": "DFEF-S09",
+      "support": "Ashby documents review of device, IP, email, and phone signals, reviewer drill-down, and human determination",
+      "locator": "How Fraudulent Candidate Management in Ashby helps; signal types; reviewer workflow"
+    },
+    {
+      "source_id": "DFEF-S01",
+      "support": "Tofu says independent contact with the established profile owner revealed that the person associated with the borrowed profile had not applied",
+      "locator": "How Tofu Stopped a North Korean Actor (Before the Offer); The Impersonation Era; Identity Fraud is Just the Tip of the Iceberg"
+    },
+    {
+      "source_id": "DFEF-S02",
+      "support": "Tofu reports that a screen-share exposed two remote-control instances in the candidate environment alongside broader identity inconsistencies",
+      "locator": "Opening prospect case; What We Found; The Key Insight; The Scale of the Problem; What to Watch For"
+    },
+    {
+      "source_id": "DPPLR19-S01-PINDROP-TELEMETRY",
+      "support": "Pindrop reports at least two source-labeled suspected cases in which synthetic imagery passed document verification. Evidence boundary: Provider-reported observations from Pindrop's own pipeline. The article does not publish methodology sufficient to reproduce its labels, cohort sizes for every percentage, independent validation, named candidates, legal identities, or a labor-market prevalence estimate. Its 'confirmed fraud' and 'linked to North Korea' labels are source labels, not adjudications",
+      "locator": "Opening comparison with GitLab; Pindrop Research: Fraud runs rampant in job applicant pools; Device telemetry; Geography & network characteristics; Synthetic identity construction; From one suspicious node to a cluster; Beyond deepfakes: What hiring telemetry actually shows"
+    },
+    {
+      "source_id": "DEPVG27-S04-PINDROP-JOINT-ALERT",
+      "support": "Pindrop explicitly distinguishes the July 31 joint government alert's stronger identity-verification and suspicious-account recommendations from Pindrop's own continuous-identity framework and product mapping; the governments did not prescribe continuous identity verification or endorse a technology. Pindrop separately reports an anonymous case in which comparison across two interactions surfaced an inconsistency that neither interaction made obvious alone. The case is not attributed to DPRK, and no candidate or underlying telemetry is retained",
+      "locator": "Visible article header: July 31, 2026; Opening paragraphs and section “What the joint alert says”; Paragraph beginning “A recent Pindrop case illustrates the pattern”; Paragraph beginning “This is Pindrop’s security framework, not a recommendation stated in the joint alert”; Page schema metadata: datePublished 2026-07-31T22:39:44-04:00; dateModified 2026-08-04T17:20:38-04:00"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

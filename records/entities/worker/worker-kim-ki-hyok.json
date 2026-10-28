@@ -1,0 +1,221 @@
+{
+  "id": "worker-kim-ki-hyok",
+  "type": "worker",
+  "name": "Kim Ki Hyok",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Republic of Korea; Administrative sanctions designation. The record states no criminal charge or conviction.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023"
+    ]
+  },
+  "legal_or_reported_name": "Kim Ki Hyok",
+  "romanizations": [
+    "김기혁"
+  ],
+  "organizations": [
+    "Jinyong Information Technology Development Cooperation Company (representative in Russia)"
+  ],
+  "locations": [
+    "Russia"
+  ],
+  "caveats": [
+    "Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "The forced-labor sentence applies across the action and collectively to the five footnoted IT-branch managers; person-specific adjudication requires a separate finding."
+  ],
+  "sources": [
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "The ROK joint release designates Kim Ki Hyok and names him as Jinyong's representative in Russia; it collectively alleges labor-control practices by five footnoted IT-branch managers without separately proving every practice by each manager",
+      "locator": "body; named-person table, representative role, manager footnote and labor-control paragraph | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "The FSC mirror reproduces the same designation, Russia role, and collective five-manager labor-control allegation; it is not independent corroboration",
+      "locator": "joint release pp. 1-2; designation label on attachment p. 5 | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. The attachment SHA-256 was 4f8871cda387b9f163b01c4590198c30df6f43d777649653659001e4c56f1e8a. Sensitive identification, payment, and person-image fields on page 5 are deliberately excluded"
+    },
+    {
+      "source_id": "un-s-2023-656"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-ki-hyok-reported-name",
+      "type": "identity_name",
+      "predicate": "rok_reported_worker_name",
+      "value": {
+        "name": "Kim Ki Hyok",
+        "source_form": "김기혁"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "named-person table",
+          "quote": "김기혁"
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "designation label on attachment",
+          "quote": "김기혁"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The English display form is a catalog romanization of the Korean source form; no separate civil-identity bridge was added."
+      ]
+    },
+    {
+      "id": "claim-kim-ki-hyok-jinyong-role",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_jinyong_representative_role",
+      "value": {
+        "organization": "Jinyong Information Technology Development Cooperation Company",
+        "un_source_form": "Chinyong IT",
+        "role": "representative in Russia"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "named-person table, row immediately following 김기혁",
+          "quote": "진영정보기술개발협조회사 주러시아 대표"
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "attachment p. 5, Kim Ki Hyok entry; personal selectors excluded",
+          "quote": "Representative of Jinyong IT Cooperation Company in Russia"
+        },
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50",
+          "quote": "Kim Ki Hyok, Jon Yon Gun and Kim Song Il, representatives of Chinyong IT in the Russian Federation, the Lao People’s Democratic Republic and China, respectively"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The role and organization are independently reported by the ROK and UN Panel sources. Jinyong and Chinyong are source-family romanizations of the organization, not personal aliases. Russia is historical role context, not a present-location finding."
+      ]
+    },
+    {
+      "id": "claim-kim-ki-hyok-collective-allegation-boundary",
+      "type": "note",
+      "predicate": "rok_collective_manager_allegation_boundary",
+      "value": {
+        "scope": "collective allegation involving five footnoted IT-branch managers"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "manager footnote and labor-control paragraph",
+          "quote": "김상만, 김기혁, 김성일, 전연근, 김효동"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The release does not separately prove every collective labor-control practice by Kim Ki Hyok; no collective allegation is converted into an individual finding."
+      ]
+    },
+    {
+      "id": "claim-kim-ki-hyok-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2023-05-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "Opening designation paragraph and named-person table",
+          "quote": "우리 정부는 북한 기관 3개와 개인 7명을 제재대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "Named-person table",
+          "quote": "김기혁"
+        },
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50",
+          "quote": "one of the two Member States also designated Democratic People’s Republic of Korea individuals Kim Ki Hyok, Jon Yon Gun and Kim Song Il in May"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Administrative designation, not a criminal charge, conviction, or adjudication. The ROK source supplies the exact May 23 date; the UN report corroborates only the month and action context."
+      ]
+    },
+    {
+      "id": "claim-kim-ki-hyok-russia-role-location",
+      "type": "location",
+      "predicate": "officially_reported_role_location",
+      "value": {
+        "country": "Russia",
+        "context": "Jinyong/Chinyong representative",
+        "timeframe": "reported in 2023",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "Attachment p. 5, Kim Ki Hyok entry; personal selectors excluded",
+          "quote": "Representative of Jinyong IT Cooperation Company in Russia"
+        },
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50",
+          "quote": "representatives of Chinyong IT in the Russian Federation, the Lao People’s Democratic Republic and China, respectively"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Country-level historical role location only. It does not establish a city, residence, travel event, or present location."
+      ]
+    },
+    {
+      "id": "claim-kim-ki-hyok-un-revenue-generation-allegation",
+      "type": "incident",
+      "predicate": "un_reported_collective_foreign_revenue_generation_allegation",
+      "value": {
+        "scope": "Kim Ki Hyok, Jon Yon Gun, and Kim Song Il collectively",
+        "reported_conduct": "alleged illicit generation of foreign revenue for the DPRK",
+        "source_posture": "said to have engaged"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50, contiguous fragment 1 of 2",
+          "quote": "Kim Ki Hyok, Jon Yon Gun and Kim Song Il"
+        },
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50, contiguous fragment 2 of 2",
+          "quote": "are said to have engaged in the illicit generation of foreign revenue for the Democratic People’s Republic of Korea."
+        }
+      ],
+      "observed_at": "2023-09-07",
+      "notes": [
+        "Collective, source-attributed allegation, not an adjudicated individual finding. Russia replied that it had no data on the relevant suspected activity; the report states investigations continued. Organization-level transaction totals, bank accounts, and money-transfer details were not assigned to Kim individually."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Officially reported worker identity to the extent established by ROK government sources; keep records separate by name or image. Role and organization are source-reported, with present location and account control requiring separate evidence."
+}

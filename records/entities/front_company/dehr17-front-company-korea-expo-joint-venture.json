@@ -1,0 +1,145 @@
+{
+  "id": "dehr17-front-company-korea-expo-joint-venture",
+  "type": "front_company",
+  "name": "Korea Expo Joint Venture (Chosun Expo)",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Historical front-company and paid-IT-work context comes from a court-filed complaint affidavit, administrative sanctions listings, and a UN Panel report. These sources document reporting and listings; entity conviction status and modern fraudulent remote hiring remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DEHR17-S05-DOJ-PARK-AFFIDAVIT",
+      "DEHR17-S07-AUSTRALIA-INSTRUMENT-2025",
+      "DEHR17-S08-UK-SANCTIONS-20260806",
+      "DEHR17-S10-US-OFAC-20180906",
+      "DEHR17-S11-UN-S2019-171"
+    ]
+  },
+  "legal_or_reported_name": "Korea Expo Joint Venture",
+  "organizations": [
+    "Democratic People's Republic of Korea government"
+  ],
+  "locations": [
+    "China (historical overseas work context)"
+  ],
+  "ttps": [
+    "overseas-dispatched-it-work",
+    "revenue-remittance"
+  ],
+  "caveats": [
+    "China's reported non-verification response must remain adjacent to the U.S.-reported registration and operation account.",
+    "Historical context only: stolen-identity hiring, laptop farms, applicant impersonation, hidden payroll, and fraudulent acquisition of remote jobs remain unreported for this entity in the reviewed sources.",
+    "The record carries source-bounded context; employees, clients, counterparties, addresses, registration identifiers, accounts, identity documents, and payment selectors stay outside it.",
+    "Sanctions designations are administrative measures, and complaint-affidavit descriptions are allegations and evidence summaries rather than a conviction of the entity.",
+    "The source-scoped alias 'Chosun Expo (APT 38)' applies to this legal entity; other APT38, Lazarus Group, or similarly named references require their own source link."
+  ],
+  "aliases": [
+    {
+      "value": "Chosun Expo Joint Venture",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S05-DOJ-PARK-AFFIDAVIT",
+        "DEHR17-S07-AUSTRALIA-INSTRUMENT-2025",
+        "DEHR17-S10-US-OFAC-20180906"
+      ]
+    },
+    {
+      "value": "Chosun Expo",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S07-AUSTRALIA-INSTRUMENT-2025",
+        "DEHR17-S08-UK-SANCTIONS-20260806",
+        "DEHR17-S10-US-OFAC-20180906"
+      ]
+    },
+    {
+      "value": "Chosun Expo (APT 38)",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S07-AUSTRALIA-INSTRUMENT-2025"
+      ]
+    },
+    {
+      "value": "KEJV",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S07-AUSTRALIA-INSTRUMENT-2025"
+      ]
+    },
+    {
+      "value": "Chosen Expo",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S08-UK-SANCTIONS-20260806"
+      ]
+    },
+    {
+      "value": "Korean Export Joint Venture",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S08-UK-SANCTIONS-20260806"
+      ]
+    },
+    {
+      "value": "Korea Expo Joint Venture Corporation",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DEHR17-S10-US-OFAC-20180906"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-paid-software-and-it-work-context",
+      "statements": [
+        "A DOJ-filed affidavit describes the entity as a DPRK government front that supplied software and freelance software-development services and dispatched personnel to China for paid non-malicious software and IT projects.",
+        "The same affidavit reports that some dispatched employees remitted most salary to the DPRK government.",
+        "A UN Panel report preserves the U.S. account and China's response that it had not found a company registered under that name or information regarding Park Jin Hyok."
+      ],
+      "source_ids": [
+        "DEHR17-S05-DOJ-PARK-AFFIDAVIT",
+        "DEHR17-S11-UN-S2019-171"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dsar4-f02-chosun-expo-cross-jurisdiction-alias-package"
+  ],
+  "sources": [
+    {
+      "source_id": "DEHR17-S11-UN-S2019-171",
+      "support": "The Panel reports the U.S. account that Park conducted legitimate IT work in China under Chosun Expo/Korea Expo Joint Venture and records China's response that it had not found a company registered under that name or information regarding Park. This corroborates the attributed IT-work context while preserving a host-country non-verification response",
+      "locator": "PDF/printed p. 50, paragraph 111 and footnote 110; annex 36 cross-reference"
+    },
+    {
+      "source_id": "DEHR17-S10-US-OFAC-20180906",
+      "support": "Primary name Korea Expo Joint Venture; exact aliases Chosun Expo, Chosun Expo Joint Venture and Korea Expo Joint Venture Corporation. Sensitive fields excluded",
+      "locator": "Entity addition for Korea Expo Joint Venture"
+    },
+    {
+      "source_id": "DEHR17-S08-UK-SANCTIONS-20260806",
+      "support": "Primary name Chosun Expo; exact aliases Chosen Expo and Korean Export Joint Venture. Grounds concern malicious cyber activity and support to malicious cyber actors under the RGB, not identity-based hiring fraud or laptop-farm activity",
+      "locator": "CYB0004 / OFSI group 13910"
+    },
+    {
+      "source_id": "DEHR17-S05-DOJ-PARK-AFFIDAVIT",
+      "support": "The affidavit identifies Chosun Expo Joint Venture as also known as Korea Expo Joint Venture; describes it as a DPRK government front; says it supplied software and freelance software-development services; says Park and others worked in China for paying clients on non-malicious software and IT projects; and reports that some dispatched employees kept only a small fraction of salary while remitting the rest to the DPRK government. These are affidavit allegations/evidence summaries, not a conviction of the entity",
+      "locator": "PDF pp. 7, 137-147; printed pp. 3 and 133-143; paragraphs 6, 264, 269-280, especially 270-271, 274 and 280"
+    },
+    {
+      "source_id": "DEHR17-S07-AUSTRALIA-INSTRUMENT-2025",
+      "support": "Primary name Chosun Expo; exact aliases Korea Expo Joint Venture, Chosun Expo (APT 38), Chosun Expo Joint Venture and KEJV. The parenthetical form is source-scoped and does not make every APT38 reference interchangeable with the legal entity",
+      "locator": "Schedule 1, item 2, entity 52; PDF page 7 / substantive page 3"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

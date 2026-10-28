@@ -1,0 +1,74 @@
+{
+  "id": "dfef-ttp-ats-community-fake-candidate-sequence",
+  "type": "ttp",
+  "name": "ATS-community fake-candidate sequence with shipping and endpoint changes",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure with defensive guidance; legal attribution remains at source and service level.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFEF-S07"
+    ]
+  },
+  "ttps": [
+    "fabricated-resume",
+    "laptop-forwarding",
+    "remote-management-tool"
+  ],
+  "caveats": [
+    "Accent and other demographic or cultural proxies are intentionally excluded from the normalized control logic.",
+    "Ashby's community reports cover broad candidate fraud, including operations beyond DPRK cases. Accent, camera use, social-media absence, remote preference, and closed former employers are weak signals; nationality assessment requires source-backed evidence.",
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "Several controls overlap deep-first-party-platforms. The useful additions are ATS-community trend provenance and the sequence from application artifacts to changed shipping address and remote-management software.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-behavior-or-platform-pattern",
+      "statements": [
+        "Ashby reports an increase in fake-candidate reports across its team and talent community and describes a sequence combining shallow professional accounts, copied resume content, identity and accent inconsistencies, remote-only constraints, later shipping-address changes, and remote-management software after hire.",
+        "Copy resume material from real professionals",
+        "Build accounts whose depth does not match the claimed career",
+        "Change the equipment shipping address after hire",
+        "Install remote-management software after onboarding"
+      ],
+      "limitations": [
+        "Ashby's community reports cover broad candidate fraud, not only DPRK operations. Accent, camera use, social-media absence, remote preference, and closed former employers are weak signals and must never become nationality proxies.",
+        "Several controls overlap deep-first-party-platforms. The useful additions are ATS-community trend provenance and the sequence from application artifacts to changed shipping address and remote-management software."
+      ],
+      "source_ids": [
+        "DFEF-S07"
+      ]
+    },
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Complete background and employment verification before shipping equipment or granting access",
+        "Independently validate former employers and references",
+        "Use structured on-camera and live practical steps while allowing accessibility exceptions",
+        "Reconfirm identity and approved location at equipment shipment and first access"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S07"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "hpg-ttp-applicant-reference-network-correlation",
+    "hpg-ttp-device-pickup-hid-address-controls"
+  ],
+  "sources": [
+    {
+      "source_id": "DFEF-S07",
+      "support": "Ashby reports an increase in fake-candidate reports across its team and talent community and describes a sequence combining shallow professional accounts, copied resume content, identity and accent inconsistencies, remote-only constraints, later shipping-address changes, and remote-management software after hire. Complete background and employment verification before shipping equipment or granting access Independently validate former employers and references Use structured on-camera and live practical steps while allowing accessibility exceptions Reconfirm identity and approved location at equipment shipment and first access",
+      "locator": "Scam #3: Fake Candidates; How Recruiters and Hiring Managers Can Safeguard the Recruitment Process"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

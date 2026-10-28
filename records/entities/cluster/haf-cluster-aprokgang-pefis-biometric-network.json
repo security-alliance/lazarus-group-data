@@ -1,0 +1,63 @@
+{
+  "id": "haf-cluster-aprokgang-pefis-biometric-network",
+  "type": "cluster",
+  "name": "Korea Aprokgang / PEFIS historical biometric-technology network",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S1"
+    ]
+  },
+  "organizations": [
+    "Katrad Aprokgyang Technologies Company",
+    "Korea Amnokgang Technology Development Corporation",
+    "Korea Aprokgang Technology Company",
+    "Korea Aprokgang Technology Development Company",
+    "Korea Yalu River Technology Development Association",
+    "PEFIS Electronic Technology (Beijing) Co., Ltd.",
+    "Pei Fuji Electronic Technology (Beijing) Co., Ltd."
+  ],
+  "ttps": [
+    "company-formation",
+    "foreign-based-facilitator",
+    "shell-company"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "Named network and relationships are the central case study of a reputable research report using public corporate records and contemporaneous source material; historical revenue figures and product claims are explicitly caveated by the authors.",
+    "Publish as a historical front-company/network profile with source attribution and date context; present activity requires newer evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-source-attributed-organization-network",
+      "statements": [
+        "The 2018 CNS report describes Korea Aprokgang as a DPRK IT company active since the 1990s and specializing in biometric security products and software.",
+        "It links the network to a Nigerian-registered company and to Beijing-registered PEFIS through trademark, product, registry, and shareholder evidence.",
+        "The report identifies operations or product sales involving China, Nigeria, Russia, Thailand, Japan, and broader Asian and African markets."
+      ],
+      "limitations": [
+        "Publish as a historical front-company/network profile with source attribution and date context; do not infer present activity.",
+        "Named foreign partners or clients must not be described as knowing participants unless the cited source explicitly says so."
+      ],
+      "source_ids": [
+        "HAF-S1"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-amnokgang-technology-development-company"
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S1",
+      "support": "The 2018 CNS report describes Korea Aprokgang as a DPRK IT company active since the 1990s and specializing in biometric security products and software. It links the network to a Nigerian-registered company and to Beijing-registered PEFIS through trademark, product, registry, and shareholder evidence. The report identifies operations or product sales involving China, Nigeria, Russia, Thailand, Japan, and broader Asian and African markets",
+      "locator": "PDF pp. 3-6 (printed pp. 1-4), section 'The Korea Aprokgang Technology Company Network'; annexes 1-4"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

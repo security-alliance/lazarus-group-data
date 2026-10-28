@@ -1,0 +1,78 @@
+{
+  "id": "ldoc-payment-account-cluster-397674",
+  "type": "infrastructure",
+  "name": "35 redacted-provider payment cardholder IDs seized in 2023",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The affidavit alleges probable cause that the accounts and funds were obtained through unlawful DPRK IT-worker employment and involved in money laundering",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-02"
+    ]
+  },
+  "caveats": [
+    "The provider and emails are redacted; the IDs carry historical status and require current source evidence for account attribution.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "infrastructure": [
+    {
+      "type": "payment-cardholder-id-set",
+      "identifier_type": "historical-provider-cardholder-id",
+      "count": 35,
+      "values": [
+        "34661348",
+        "48539184",
+        "40408285",
+        "38065868",
+        "47630229",
+        "42388706",
+        "23163213",
+        "56502641",
+        "47779486",
+        "53718284",
+        "48542914",
+        "44911814",
+        "27185130",
+        "52324106",
+        "32838551",
+        "48724076",
+        "39841566",
+        "42231644",
+        "36782803",
+        "31740755",
+        "37224382",
+        "36280506",
+        "15531742",
+        "50966482",
+        "27500570",
+        "47739824",
+        "36917596",
+        "39386453",
+        "42171940",
+        "32872372",
+        "46171038",
+        "27150482",
+        "42401507",
+        "42171486",
+        "42654210"
+      ],
+      "relationship": "reported-link",
+      "source_ids": [
+        "ldoc-02"
+      ],
+      "status": "historical",
+      "note": "Values are reproduced only as a grouped, review-only legal-document indicator set. They are not current account identifiers and are not attributed to individual account holders."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-02",
+      "support": "The affidavit alleges probable cause that the accounts and funds were obtained through unlawful DPRK IT-worker employment and involved in money laundering",
+      "locator": "Attachment A, pp. 51-52; probable-cause synthesis at ¶43"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

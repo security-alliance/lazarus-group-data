@@ -1,0 +1,87 @@
+{
+  "id": "deep2-ttp-deep-ttp-02-bbc-persona-fishing-social-sites",
+  "type": "ttp",
+  "name": "Recruiting identity and account lenders through friendship, dating, and social communities",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "BBC first-person historical testimony describes a multi-stage identity-lender workflow; the defensive synthesis maps techniques while leaving lender identities outside the record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DRH-S01",
+      "DRH-S07",
+      "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-02-bbc-persona-fishing-social-sites",
+      "deep2-ttp-deep-ttp-s8-nisos-operation-2026-deep-ttp-02-bbc-persona-fishing-social-sites"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "freelance-account",
+    "freelance-platform",
+    "multiple-personas",
+    "referral-network"
+  ],
+  "caveats": [
+    "BBC attributes the pen-pal/dating-site expansion partly to a long-running independent scam observer; confidence is lower than for the directly reviewed internal records.",
+    "Lender identities stay private; nationality assessment uses source-backed evidence rather than appearance, accent, or demographic traits.",
+    "False-positive caution: People legitimately use pseudonyms, have thin online histories, or receive help from partners. Social/dating-platform use, nationality, and relationship status require additional evidence before raising suspicion.",
+    "False-positive caution: Travel, device replacement, VPN use, and account sharing can be legitimate. Apply privacy minimization and platform policy.",
+    "The protected BBC pseudonym is contextual evidence only; lender identity, nationality inference, and demographic screening rules remain outside retained context.",
+    "This is first-person historical testimony; the model is source-specific."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The former worker described first posing as Chinese while recruiting people in countries including Hungary and Turkey to lend identities for a share of earnings.",
+        "He then used those identities to approach people in Western Europe, often seeking UK identities for applications to higher-paying US and European employers.",
+        "Workers with stronger English could specialize in applications, while freelancer platforms and text-centric workplace communication reduced face-to-face verification pressure."
+      ],
+      "source_ids": [
+        "DRH-S01",
+        "DRH-S07"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "BBC reports that workers sought people willing to lend identity and job-platform accounts through overseas pen-pal/friendship sites as well as Telegram and Discord, offering a percentage of income. Existing local records cover Reddit, PeopleGPT, Chaturbate, Discord, and Telegram; the material addition is deliberate expansion into friendship/dating-style communities under a relationship-building pretext."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-02-bbc-persona-fishing-social-sites",
+        "deep2-ttp-deep-ttp-s8-nisos-operation-2026-deep-ttp-02-bbc-persona-fishing-social-sites"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-02-bbc-persona-fishing-social-sites",
+    "deep2-ttp-deep-ttp-08-collaborator-laptop-identity-contracts",
+    "lead-nisos-accountproviderforyou",
+    "ttp-late-2026-05-recruit-natives-through-reddit-peoplegpt-chaturbate-dis"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s8-nisos-operation-2026-deep-ttp-02-bbc-persona-fishing-social-sites",
+      "support": "Nisos independently documents facilitator recruitment channels and identity/account support roles",
+      "locator": "Facilitator-recruitment channels"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-02-bbc-persona-fishing-social-sites",
+      "support": "BBC reports recruitment of identity/account lenders through friendship or pen-pal communities, Telegram, and Discord, with a share of income offered",
+      "locator": "Opening and identity-fishing sections"
+    },
+    {
+      "source_id": "DRH-S01",
+      "support": "The former worker described first posing as Chinese while recruiting people in countries including Hungary and Turkey to lend identities for a share of earnings. He then used those identities to approach people in Western Europe, often seeking UK identities for applications to higher-paying US and European employers. Workers with stronger English could specialize in applications, while freelancer platforms and text-centric workplace communication reduced face-to-face verification pressure",
+      "locator": "Opening through Getting the jobs; paragraphs beginning 'Jin-su says', 'Jin-su was an IT worker', and 'Jin-su spent most of his time'; A rare escape route"
+    },
+    {
+      "source_id": "DRH-S07",
+      "support": "Official BBC alternate-format reporting corroborates the broad former-worker account. It is contextual evidence only and does not identify the protected source",
+      "locator": "00:00-17:23; former-worker segment from 04:27; Hyun-Seung Lee segment from 07:53"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

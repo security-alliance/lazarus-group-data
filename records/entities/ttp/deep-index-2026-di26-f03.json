@@ -1,0 +1,41 @@
+{
+  "id": "deep-index-2026-di26-f03",
+  "type": "ttp",
+  "name": "Resume address and equipment-delivery address divergence",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed defensive research finding; adjudication and independent dispositive force require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-2026-di26-s02"
+    ]
+  },
+  "ttps": [
+    "Investigate unexplained divergence among claimed residence, tax/payroll identity, equipment destination, device enrollment, and login geography before shipping privileged endpoints."
+  ],
+  "caveats": [
+    "The identity-theft victim's details and the delivery address are excluded."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "In Nisos's controlled candidate investigation, the requested equipment-delivery address differed from the resume address and had no connection to the real Florida resident whose identity was appropriated."
+      ],
+      "source_ids": [
+        "deep-index-2026-di26-s02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-2026-di26-s02",
+      "support": "In Nisos's controlled candidate investigation, the requested equipment-delivery address differed from the resume address and had no connection to the real Florida resident whose identity was appropriated",
+      "locator": "Section “The Red Flags Traditional Screening Misses,” especially its five-item list; contextual boundary from “Background Checks Verify Documents, Not Identity” through “Internal Monitoring Starts After the Hire”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "drh-cluster-unnamed-blockchain-posttermination-sabotage",
+  "type": "cluster",
+  "name": "Unnamed blockchain organization post-termination sabotage attempt",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "DTEX-described, DPRK-affiliated post-termination incident at an unnamed blockchain organization; attribution is vendor-stated and independently uncorroborated in public records",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DRH-S05"
+    ]
+  },
+  "ttps": [
+    "backdoor-introduction",
+    "privilege-escalation"
+  ],
+  "caveats": [
+    "Attribution is DTEX's statement; the organization and workers are unnamed, and independent public incident-record status is unreported.",
+    "The record excludes code, repository locator, credentials, internal system details, and victim-identifying data.",
+    "The separate Top 2000 engineer logic-bomb case is described later in the advisory; its relationship to DPRK activity is unreported, so incident records stay separate.",
+    "The unrelated Top 2000 logic-bomb case in the same advisory is outside DPRK attribution and this record."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-context",
+      "statements": [
+        "DTEX states that, while working with affected organizations, it observed post-termination activity by workers it described as DPRK-affiliated targeting critical infrastructure at an unnamed blockchain entity.",
+        "The dismissed workers allegedly tried to regain access to the main database and execute code intended to sabotage the system; DTEX says the attempt failed because the employer revoked privileges in time.",
+        "The case supports immediate access revocation, session and token invalidation, credential rotation, and focused post-termination monitoring for privileged remote workers."
+      ],
+      "source_ids": [
+        "DRH-S05"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-nickel-tapestry",
+    "deep2-vendor-dv-f02"
+  ],
+  "sources": [
+    {
+      "source_id": "DRH-S05",
+      "support": "DTEX states that, while working with affected organizations, it observed post-termination activity by workers it described as DPRK-affiliated targeting critical infrastructure at an unnamed blockchain entity. The dismissed workers allegedly tried to regain access to the main database and execute code intended to sabotage the system; DTEX says the attempt failed because the employer revoked privileges in time. The case supports immediate access revocation, session and token invalidation, credential rotation, and focused post-termination monitoring for privileged remote workers",
+      "locator": "Threat overview, paragraph beginning 'Working with affected organizations'; DTEX investigations and indicators; Post-investigation review"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

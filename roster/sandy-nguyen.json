@@ -1,0 +1,89 @@
+{
+  "id": "sandy-nguyen",
+  "fake_names": [
+    "Sandy Nguyen"
+  ],
+  "aliases": [
+    "xgracias",
+    "smarterdegen",
+    "bullishgopher",
+    "versatile-programmer"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "superwebdev0330@gmail.com",
+    "wictor95@bk.ru"
+  ],
+  "github": [
+    {
+      "gh_id": "bullishgopher",
+      "creation_date": {
+        "$date": "2019-03-28"
+      },
+      "names": [
+        "Sandy Nguyen"
+      ],
+      "emails": [
+        "tkcong@gmail.com"
+      ],
+      "usernames": [
+        "bullishgopher"
+      ]
+    }
+  ],
+  "twitter_usernames": [
+    "bullishgopher"
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/tkcong/"
+      ]
+    }
+  ],
+  "websites": [
+    "https://web3.career/@bullishgopher"
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "smarterdegen.eth"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "0xb2c681b80ca1f35bf379a3fd44b0eaed032c982a",
+        "0x5fdd9679b656e48c7f899c65a47503ec8732fc6c",
+        "0x7af7a8e4a0190bf3e48f3a021fb9251ea915e4d8",
+        "0xe1157497de4d4b0780474da85990ece6ccb0ad36",
+        "0x2a8f7065eccfa6d8ee49ea9a256315fb6374ee2e"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "79Jqz5La12SVDZKJD9YRiP9s39W3NEtki7PUdF3CPWzJ",
+        "EW8oTqNfWi2eQZPqDSG6YqJJnGb6rL4DvDukW421Fzc"
+      ],
+      "currency": "SOL"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/sandy-nguyen/sandy-nguyen.png",
+      "short_description": "Profile picture of Sandy Nguyen.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/sandy-nguyen/1937972789497168329.jpeg",
+      "short_description": "Image of Sandy Nguyen.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

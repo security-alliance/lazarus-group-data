@@ -1,0 +1,180 @@
+{
+  "id": "crypto-incident-munchables-2024",
+  "type": "cluster",
+  "name": "Munchables — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Multigovernment MSMT report; underlying incident mechanics or identity linkage may remain source-qualified",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-coinlive-munchables",
+      "crypto-msmt-2025-2",
+      "crypto-rekt-munchables",
+      "crypto-slowmist-2024-report"
+    ]
+  },
+  "organizations": [
+    "Munchables"
+  ],
+  "ttps": [
+    "Cross-chain laundering attempts constrained by bridge limits",
+    "Insider access to upgradeable proxy contracts",
+    "Malicious implementation prepared before theft",
+    "Mutual referrals between sockpuppet developers",
+    "Returned keys and funds after public attribution and operational pressure",
+    "Shared payment and exchange-deposit infrastructure"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "Public-profile images exist in archived screenshots; first-party image URL recovery remains incomplete."
+  ],
+  "aliases": [
+    {
+      "value": "Kaiming Hong",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ]
+    },
+    {
+      "value": "Nelson Murua",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ]
+    },
+    {
+      "value": "Paul Martin",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ]
+    },
+    {
+      "value": "Paul Song",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Github",
+      "identifier": "BrightDragon0719",
+      "url": "https://github.com/BrightDragon0719",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "NelsonMurua913",
+      "url": "https://github.com/NelsonMurua913",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "Super1114",
+      "url": "https://github.com/Super1114",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "Werewolves0493",
+      "url": "https://github.com/Werewolves0493",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "payment-network",
+      "value": "Source-reported wallet/payment or exchange-deposit infrastructure; individual addresses intentionally omitted.",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coinlive-munchables",
+        "crypto-msmt-2025-2",
+        "crypto-rekt-munchables",
+        "crypto-slowmist-2024-report"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "kaiming-hong",
+    "nelson-murua",
+    "paul-song"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "DPRK IT workers are also engaging in cryptocurrency thefts",
+      "locator": "PDF pp. 34–35, “DPRK IT Workers” (Munchables case study); p. 37 (Favrr case study)"
+    },
+    {
+      "source_id": "crypto-rekt-munchables",
+      "support": "They recommended each other for the job and funded each other’s wallets",
+      "locator": "Incident narrative beneath title “Munchables — REKT”"
+    },
+    {
+      "source_id": "crypto-coinlive-munchables",
+      "support": "Four GitHub identities regularly transferred payments to the same two exchange deposit addresses",
+      "locator": "News-flash body beneath headline (March 27, 2024)"
+    },
+    {
+      "source_id": "crypto-slowmist-2024-report",
+      "support": "Munchables’ developer ultimately returned all the funds without requiring any ransom",
+      "locator": "PDF pp. 11–12, §2.2.5 “Munchables”; pp. 46–47, DPRK/return-of-funds discussion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

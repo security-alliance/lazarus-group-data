@@ -1,0 +1,51 @@
+{
+  "id": "ttp-proof-face-rental-2026",
+  "type": "ttp",
+  "name": "Face rental for remote-work identity checks",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This record preserves the cited publication’s defensive research or advisory description; legal identity requires separate evidence.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "proof-2026-09-28-face-rental"
+    ]
+  },
+  "caveats": [
+    "The technique description is source-bounded; attribution or employment decisions require a separate rule and evidence.",
+    "This public dataset retains no victim details, contact selectors, addresses, credentials, wallets, or private data."
+  ],
+  "identity_boundary": "A source-bounded technique record for Face rental for remote-work identity checks; linked to a person, persona, or campaign only by an explicit source link.",
+  "ttps": [
+    "Face rental for remote-work identity checks"
+  ],
+  "sources": [
+    {
+      "source_id": "proof-2026-09-28-face-rental",
+      "support": "Proof describes a real person and genuine identity document being used for an interview while another person performs the work.",
+      "locator": "Face Rental section"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ttp-proof-face-rental-model",
+      "type": "note",
+      "predicate": "source_reported_identity_check_bypass",
+      "value": {
+        "model": "face rental"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "proof-2026-09-28-face-rental",
+          "locator": "Face Rental section",
+          "quote": "The person on that camera is real. The government ID is theirs, genuinely issued. Their face matches it because it is their face, and they are demonstrably alive and present."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

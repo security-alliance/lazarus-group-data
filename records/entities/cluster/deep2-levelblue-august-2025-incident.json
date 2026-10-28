@@ -1,0 +1,59 @@
+{
+  "id": "deep2-levelblue-august-2025-incident",
+  "type": "cluster",
+  "name": "Unnamed August 2025 ten-day detected-hire incident",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Affected-organization/vendor assessment of a suspected North Korea-linked operative; public legal identity and adjudication are outside the record, and the negative findings limit the harm claim.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-conference-dco-s2",
+      "levelblue-2026-03-17-remote-worker"
+    ]
+  },
+  "ttps": [
+    "proxy-chain",
+    "remote-desktop",
+    "vpn"
+  ],
+  "caveats": [
+    "Affected-organization/vendor assessment of a suspected North Korea-linked operative; public legal identity and adjudication are outside the record, and the negative findings limit the harm claim.",
+    "Employer and worker identities remain unresolved.",
+    "The two exact login IPs remain unpublished unless an operational IOC appendix specifically requires them; the behavioral sequence is the durable lesson.",
+    "Publish the exact ten-day chronology and the no-exfiltration/no-persistence result.",
+    "The LevelBlue article and webinar describe the same August 2025 investigation and count as one source family.",
+    "The March 17 blog and May 7 webinar describe the same case and provide a single corroboration stream."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A suspected DPRK-linked applicant passed standard verification and was hired on August 15, 2025 for remote work involving Salesforce data.",
+        "Cybereason XDR learned a China login baseline, then flagged an unmanaged-device login through a US endpoint on August 21. A second login on August 22 matched LevelBlue OTX intelligence for Astrill-associated infrastructure.",
+        "The organization revoked the account on August 25, ten days after hiring and one business day after the threat-intelligence match.",
+        "SpiderLabs reviewed interactions, group-chat additions, accessed resources, persistence mechanisms, and remote-access tooling and reported no residual access, backdoors, malicious artifacts, or evidence of exfiltration.",
+        "LevelBlue maps the case to Valid Accounts (T1078), External Remote Services (T1133), and Multi-hop Proxy (T1090.003)."
+      ],
+      "source_ids": [
+        "deep2-conference-dco-s2",
+        "levelblue-2026-03-17-remote-worker"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-conference-dco-s2",
+      "support": "The webinar corroborates the same August 2025 ten-day detected-hire case and rapid account revocation",
+      "locator": "Webinar summary and learning objectives"
+    },
+    {
+      "source_id": "levelblue-2026-03-17-remote-worker",
+      "support": "A suspected DPRK-linked applicant passed standard verification and was hired on August 15, 2025 for remote work involving Salesforce data. Cybereason XDR learned a China login baseline, then flagged an unmanaged-device login through a US endpoint on August 21. A second login on August 22 matched LevelBlue OTX intelligence for Astrill-associated infrastructure. The organization revoked the account on August 25, ten days after hiring and one business day after the threat-intelligence match. SpiderLabs reviewed interactions, group-chat additions, accessed resources, persistence mechanisms, and remote-access tooling and reported no residual access, backdoors, malicious artifacts, or evidence of exfiltration. LevelBlue maps the case to Valid Accounts (T1078), External Remote Services (T1133), and Multi-hop Proxy (T1090.003)",
+      "locator": "Opening; Detection Timeline; Investigation Findings; MITRE ATT&CK Mapping"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

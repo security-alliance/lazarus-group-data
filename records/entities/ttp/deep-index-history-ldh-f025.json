@@ -1,0 +1,45 @@
+{
+  "id": "deep-index-history-ldh-f025",
+  "type": "ttp",
+  "name": "Hidden Threat: North Korean IT Workers Exposed",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher-attributed public research finding; legal adjudication and civil identity require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-history-ldh-025"
+    ]
+  },
+  "ttps": [
+    "identity-workflow and non-software professional expansion"
+  ],
+  "caveats": [
+    "Attribution is KELA’s assessment; the record carries a research attribution.",
+    "Infostealer contents, credentials, identity-document images, personal photographs, raw emails, wallet selectors, and victim/client details remain unpublished.",
+    "The operator remains unnamed in this dataset."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "KELA reports an unnamed suspected DPRK operator seeking architecture, structural-engineering, industrial-design and interior-design work, expanding the hiring-risk model beyond conventional software roles.",
+        "The report describes a structured persona-management workflow using a multi-profile browser, separate email purposes, translation, proxies and cryptocurrency, plus repositories used to stage résumé and proposal material.",
+        "The public article says identity-editing resources and platform-specific folders were organized at scale; this supports a persona-factory TTP but not publication of the underlying IDs, credentials, photographs or victim data."
+      ],
+      "source_ids": [
+        "deep-index-history-ldh-025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-history-ldh-025",
+      "support": "KELA reports an unnamed suspected DPRK operator seeking architecture, structural-engineering, industrial-design and interior-design work, expanding the hiring-risk model beyond conventional software roles. The report describes a structured persona-management workflow using a multi-profile browser, separate email purposes, translation, proxies and cryptocurrency, plus repositories used to stage résumé and proposal material. The public article says identity-editing resources and platform-specific folders were organized at scale; this supports a persona-factory TTP but not publication of the underlying IDs, credentials, photographs or victim data",
+      "locator": "Sections “Infostealer Evidence,” “Case Study: North Korean Operator in Architecture and Design,” “Conclusion: An Expanding Threat Beyond IT,” and “Takeaways for Businesses”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

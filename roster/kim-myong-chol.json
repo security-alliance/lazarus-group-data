@@ -1,0 +1,199 @@
+{
+  "id": "kim-myong-chol",
+  "real_name": "Kim Myong Chol",
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-kim-myong-chol",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Kim Myong Chol is the person named in the MSMT Annex 7 KMCTC employment table. Giang, John, Julian, and Luan are source-reported employment labels only; they are not established civil identities, separate people, or evidence of present account control. The same name also appears for an OFAC-listed SEK Studio representative and in UN reporting on an Oh Chung Song-associated Dubai/Vientiane group; neither record is merged because no reviewed source provides a unique identity bridge to the KMCTC worker.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "The source also lists single-name alias labels for this individual: Giang, John, Julian, Luan. They are kept out of the searchable name fields because a bare first name identifies nobody; see the sourced facts for their context.",
+      "No connection is asserted to Kim Myong-chol (born 1944), the Japan-based writer described as an unofficial DPRK spokesman, nor to the OFAC-designated SEK Studio representative of the same name. MSMT's identity table gives a birth date a decade apart from OFAC's.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-kim-myong-chol-giang-long-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), first Kim Myong Chol / Giang row; selector and rate omitted",
+          "quote": "Giang Vietnam United States $50/hour, 40 hours/week 6 months"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-giang-short-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), second Kim Myong Chol / Giang row; selector and rate omitted",
+          "quote": "Giang Vietnam United States $30/hour, 40 hours/week 1 month"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-john-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Myong Chol / John row; selector and rate omitted",
+          "quote": "John Colombia United States $30/hour, 20 hours/week 2 weeks"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-julian-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table continuation, PDF file p. 111 (printed p. 109), Kim Myong Chol / Julian row; selector and rate omitted",
+          "quote": "Julian Argentina United States $35/hour, 40 hours/week 1 month"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-kmctc-table",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 heading, PDF file p. 109 (printed p. 107)",
+          "quote": "KMCTC IT Workers"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), DPRK IT Worker column",
+          "quote": "Kim Myong \nChol"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-label-giang",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Myong Chol row, Alias column",
+          "quote": "Giang"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-label-john",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Myong Chol row, Alias column",
+          "quote": "John"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-label-julian",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table continuation, PDF file p. 111 (printed p. 109), Kim Myong Chol row, Alias column",
+          "quote": "Julian"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-label-luan",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Myong Chol row, Alias column",
+          "quote": "Luan"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-luan-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Myong Chol / Luan row; selector and rate omitted",
+          "quote": "Luan Vietnam United States $25/hour, 40 hours/week 6 months"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-myong-chol-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), DPRK IT Worker column",
+          "quote": "Kim Myong \nChol"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

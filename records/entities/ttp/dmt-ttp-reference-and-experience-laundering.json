@@ -1,0 +1,78 @@
+{
+  "id": "dmt-ttp-reference-and-experience-laundering",
+  "type": "ttp",
+  "name": "Independent verification of references and NDA-covered experience",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified defensive abstraction only. The stated evidence class covers a defensive abstraction; legal identity, nationality, employer compromise, prevalence rate, and adjudicated fact require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMT-S02"
+    ]
+  },
+  "ttps": [
+    "fabricated-work-history",
+    "front-employer",
+    "reference-laundering",
+    "skills-verification"
+  ],
+  "caveats": [
+    "Claim attribution: Aidan Raney, SecretCon 2025.",
+    "Evidence class: controlled infiltration observation.",
+    "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence.",
+    "NDA work is common and carries ordinary confidentiality context; suspicion requires separate evidence.",
+    "The record excludes people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, and leaked material.",
+    "Accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, and technical anomaly are contextual signals; fraud or DPRK attribution requires independent evidence.",
+    "The transcript's company-name rendering is omitted because auto-caption spelling and corporate attribution were not independently verified.",
+    "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path."
+  ],
+  "infrastructure": [
+    {
+      "type": "controlled-infiltration-observation",
+      "statements": [
+        "Raney says the operation inflated his GIS experience, inserted employment at a company he attributed to the operation, and used supposed NDA-bound contract work to explain experience absent from his public history. He notes that an operator-controlled employer could answer a reference check and validate the fabricated projects.",
+        "Do not rely on a single employer-provided reference; independently verify the employer's age, operations, staff history, contact channels, and project footprint.",
+        "Ask for non-sensitive, falsifiable detail about claimed NDA work and corroborate skills through live, changing tasks rather than résumé claims."
+      ],
+      "limitations": [
+        "Evidence class: controlled infiltration observation.",
+        "Claim attribution: Aidan Raney, SecretCon 2025.",
+        "The transcript's company-name rendering is not retained because auto-caption spelling and corporate attribution were not independently verified.",
+        "NDA work is common and is not itself suspicious."
+      ],
+      "source_ids": [
+        "DMT-S02"
+      ]
+    },
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Retain the source's observation class and do not generalize a controlled test, speaker claim, vendor sample, or demonstration into measured prevalence."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, or technical anomaly establishes fraud or DPRK attribution.",
+        "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path.",
+        "No people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, or leaked material are included.",
+        "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence."
+      ],
+      "source_ids": [
+        "DMT-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference hiring composite detection",
+    "front-company records"
+  ],
+  "sources": [
+    {
+      "source_id": "DMT-S02",
+      "support": "Raney says the operation inflated his GIS experience, inserted employment at a company he attributed to the operation, and used supposed NDA-bound contract work to explain experience absent from his public history. He notes that an operator-controlled employer could answer a reference check and validate the fabricated projects",
+      "locator": "18:02–18:52"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "japanese-crowdsourcing-dprk-ttp-vb2025",
+  "type": "ttp",
+  "name": "Japanese crowdsourcing localization and ranking manipulation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This record summarizes Koike’s NEC research into Japanese-language crowdsourcing activity attributed to DPRK IT workers",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S1",
+      "CM-S2"
+    ]
+  },
+  "organizations": [
+    "CrowdWorks",
+    "NEC",
+    "Wantedly"
+  ],
+  "locations": [
+    "Japan"
+  ],
+  "ttps": [
+    "Acquire or repurpose established accounts belonging to real people",
+    "Build long-lived platform reputation and obtain top-tier or PRO worker badges",
+    "Discover linked accounts through public ranking/thank-you logs",
+    "Mutually press “thank you” or ranking buttons across linked worker accounts",
+    "Rely on machine translation for Japanese-language profiles and client interactions",
+    "Reuse profile templates containing unnatural Japanese phrasing",
+    "Translate Korean through English into Japanese, leaving word-order and vocabulary artifacts",
+    "Use AI-generated, anime, free-stock, or composited profile images",
+    "Use local business social networks to advertise claimed startup achievements",
+    "Use local-language services because Japanese employers search in Japanese"
+  ],
+  "caveats": [
+    "Each signal can occur benignly; use the set as a composite detection aid rather than a nationality proxy."
+  ],
+  "infrastructure": [
+    {
+      "type": "crowdsourcing-platform",
+      "value": "Japanese-language marketplaces with anonymous registration and public worker rankings",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S1",
+        "CM-S2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S2",
+      "support": "Official VB2025 abstract page identifying Yoshihiro Koike and framing the presentation as NEC threat-intelligence research into Japanese-language crowdsourcing activity",
+      "locator": "Abstract and speaker biography"
+    },
+    {
+      "source_id": "CM-S1",
+      "support": "Official Virus Bulletin recording of Yoshihiro Koike’s VB2025 presentation. It supplies slide-level cases, public persona labels, local-platform observations, and timestamps",
+      "locator": "00:00–21:34; especially slides 4, 7–13, 21–36 at 02:05–20:56"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

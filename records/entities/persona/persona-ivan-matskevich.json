@@ -1,0 +1,47 @@
+{
+  "id": "persona-ivan-matskevich",
+  "type": "persona",
+  "name": "Ivan Matskevich",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor-reported fabricated worker persona",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-sophos-2025-nickel-tapestry"
+    ]
+  },
+  "organizations": [
+    "NICKEL TAPESTRY"
+  ],
+  "ttps": [
+    "fabricated or misappropriated identity materials",
+    "fraudulent remote-employment persona"
+  ],
+  "caveats": [
+    "Shared Telegram, FTP, and domain indicators remain on the NICKEL TAPESTRY cluster; persona attribution requires an explicit one-to-one mapping.",
+    "Sophos describes this as a fabricated actor persona; publication should identify the source persona, with same-name real-person involvement requiring separate evidence.",
+    "The currently cited live article omits this name and retained claim locator. Keep this historical candidate out of public exports until an immutable claim-bearing version is verified; the current page leaves the earlier claim unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "Ivan Matskevich",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "vendor-sophos-2025-nickel-tapestry"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-sophos-2025-nickel-tapestry",
+      "support": "Sophos Counter Threat Unit explicitly names Ivan Matskevich among the fabricated worker personas used by NICKEL TAPESTRY",
+      "locator": "Actor personas; Tables 1 and 3; Figures 1–7"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Ivan Matskevich remains an unresolved historical catalog label for a reported employment persona. The current migrated Sophos article and its earliest available immutable archive snapshot omit this name and the cataloged persona tables, leaving the label unverified by those sources and separate from any same-named account or civil identity."
+}

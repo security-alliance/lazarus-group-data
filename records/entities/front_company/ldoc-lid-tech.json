@@ -1,0 +1,33 @@
+{
+  "id": "ldoc-lid-tech",
+  "type": "front_company",
+  "name": "LID Tech",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment alleges Choe Jong Yong claimed prior employment at LID Tech, described as a fake U.S.-based company; its website and state-registration status are reported as absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-05"
+    ]
+  },
+  "organizations": [
+    "LID Tech"
+  ],
+  "front_companies": [
+    "LID Tech"
+  ],
+  "caveats": [
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-05",
+      "support": "The indictment alleges Choe Jong Yong claimed prior employment at LID Tech, described as a fake U.S.-based company with no website or state registration",
+      "locator": "Indictment pp. 17-18, ¶72"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

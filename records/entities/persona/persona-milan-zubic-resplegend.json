@@ -1,0 +1,769 @@
+{
+  "id": "persona-milan-zubic-resplegend",
+  "type": "persona",
+  "name": "Milan Zubic / resplegend",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "An accessible downstream summary of an archived meowmfer investigation attributes the account cluster to DPRK IT-worker activity. GitHub independently verifies the narrower public author/account mappings and Verida contribution count; DPRK attribution, civil identity, criminal allegation, sanctions designation, employment relationship, and malicious code change are outside GitHub's finding.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "drp50-github-commit-fantohm",
+      "drp50-github-commit-milan",
+      "drp50-github-commit-phantohm",
+      "drp50-github-commit-trust0212",
+      "drp50-github-icebera-user",
+      "drp50-github-icetrust-user",
+      "drp50-github-milan-search",
+      "drp50-github-resplegend-user",
+      "drp50-github-trust0212-status",
+      "drp50-github-verida-contributors",
+      "drp50-lazarusday-verida",
+      "lazarus-group-team"
+    ]
+  },
+  "ttps": [
+    "multiple related public developer accounts",
+    "rotating public developer author labels"
+  ],
+  "caveats": [
+    "GitHub commit attribution supports account/author-label association on the platform; related accounts still require separate evidence to establish one natural person.",
+    "GitHub maps Milan Zubic commits to resplegend and trust0212/fantohm author labels to icetrust0212; the mapping shows two platform accounts, with person-level identity requiring further evidence.",
+    "Milan Zubic is a public Git author/persona label that GitHub maps to the resplegend account. A downstream research summary places resplegend and Milan Zubic in a related cluster with icetrust0212, while GitHub maps those labels to two distinct account IDs. The record covers two platform accounts; person-level identity and current control require separate evidence.",
+    "Public commit emails, Telegram identifiers, phone numbers, VPN/IP indicators, application contacts, wallet addresses, portraits, and present-location signals are excluded.",
+    "The current icebera account has a different GitHub numeric ID from icetrust0212; the Lazarus.group snapshot supports separate account records.",
+    "The exact trust0212 user endpoint returned Not Found. Platform attribution of historical trust0212 commits to icetrust0212 is stronger than string similarity; the endpoint reason and the FireTail applicant-to-commit-author linkage remain unresolved.",
+    "The original archive endpoint was access-challenged during review; the DPRK-specific and cross-account attribution comes from one downstream summary of that thread.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "aliases": [
+    {
+      "value": "Milan Zubic",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "drp50-github-commit-milan",
+        "drp50-github-milan-search"
+      ]
+    },
+    {
+      "value": "resplegend",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "drp50-github-commit-milan",
+        "drp50-github-resplegend-user"
+      ]
+    },
+    {
+      "value": "trust0212-fantohm",
+      "alias_type": "online-handle",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "drp50-github-commit-fantohm",
+        "drp50-lazarusday-verida"
+      ]
+    },
+    {
+      "value": "trust0212-phantohm",
+      "alias_type": "online-handle",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "drp50-github-commit-phantohm"
+      ]
+    },
+    {
+      "value": "trust0212",
+      "alias_type": "online-handle",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "drp50-github-commit-trust0212",
+        "drp50-lazarusday-verida"
+      ]
+    },
+    {
+      "value": "icetrust0212",
+      "alias_type": "online-handle",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "drp50-github-icetrust-user",
+        "drp50-lazarusday-verida"
+      ]
+    },
+    {
+      "value": "Milan Zubic",
+      "alias_type": "site-listed-profile-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile name differs from the established dataset name; this is not a civil-identity determination."
+    },
+    {
+      "value": "icetrust0212",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "icebera",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Patrick Kishi",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "icetrust0212",
+      "url": "https://github.com/icetrust0212",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "drp50-github-icetrust-user",
+        "drp50-lazarusday-verida"
+      ],
+      "note": "The research summary reports this as a related identity; GitHub verifies a distinct account and narrower author-label mappings, not a natural-person merge with resplegend."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "resplegend",
+      "url": "https://github.com/resplegend",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "drp50-github-commit-milan",
+        "drp50-github-resplegend-user"
+      ],
+      "note": "GitHub maps all eleven reviewed Milan Zubic author-name search results to this account. Present controller and civil identity are not inferred."
+    },
+    {
+      "platform": "email",
+      "identifier": "zaza[dot]liveedu[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "icebera",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "public-code-contribution",
+      "repository": "verida/proof-connector-dapp",
+      "account": "icetrust0212",
+      "contributions": 103,
+      "employment_established": false,
+      "malicious_change_established": false,
+      "source_ids": [
+        "drp50-github-verida-contributors",
+        "drp50-lazarusday-verida"
+      ]
+    },
+    {
+      "type": "historical-account-status",
+      "account": "trust0212",
+      "status_at_cutoff": "not found",
+      "reason_or_date_established": false,
+      "source_ids": [
+        "drp50-github-trust0212-status"
+      ]
+    },
+    {
+      "type": "account-collision-boundary",
+      "accounts": [
+        "icetrust0212",
+        "icebera"
+      ],
+      "distinct_github_account_ids": true,
+      "rename_or_continuity_established": false,
+      "source_ids": [
+        "drp50-github-icebera-user",
+        "drp50-github-icetrust-user"
+      ]
+    },
+    {
+      "type": "github-author-account-crosswalk",
+      "author_label": "Milan Zubic",
+      "platform_account": "resplegend",
+      "reviewed_result_count": 11,
+      "natural_person_identity_established": false,
+      "source_ids": [
+        "drp50-github-commit-milan",
+        "drp50-github-milan-search"
+      ]
+    },
+    {
+      "type": "github-author-account-crosswalk",
+      "author_labels": [
+        "trust0212",
+        "trust0212-fantohm",
+        "trust0212-phantohm"
+      ],
+      "platform_account": "icetrust0212",
+      "natural_person_identity_established": false,
+      "source_ids": [
+        "drp50-github-commit-fantohm",
+        "drp50-github-commit-phantohm",
+        "drp50-github-commit-trust0212"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "milan-zubic"
+  ],
+  "sources": [
+    {
+      "source_id": "drp50-github-commit-trust0212",
+      "support": "Representative platform-native commit maps the trust0212 Git author label to the icetrust0212 GitHub account",
+      "locator": "commit.author.name and top-level author.login"
+    },
+    {
+      "source_id": "drp50-github-commit-phantohm",
+      "support": "Representative platform-native commit maps the trust0212-phantohm spelling variant to the icetrust0212 GitHub account",
+      "locator": "commit.author.name and top-level author.login"
+    },
+    {
+      "source_id": "drp50-github-commit-milan",
+      "support": "Representative platform-native commit maps the Milan Zubic Git author label to the resplegend GitHub account",
+      "locator": "commit.author.name and top-level author.login"
+    },
+    {
+      "source_id": "drp50-github-commit-fantohm",
+      "support": "Representative platform-native commit maps the trust0212-fantohm Git author label to the icetrust0212 GitHub account",
+      "locator": "commit.author.name and top-level author.login"
+    },
+    {
+      "source_id": "drp50-github-verida-contributors",
+      "support": "GitHub's public contributor response records 103 contributions by icetrust0212 to verida/proof-connector-dapp; it does not establish employment or a malicious contribution",
+      "locator": "Complete six-row public contributor response"
+    },
+    {
+      "source_id": "drp50-github-milan-search",
+      "support": "All eleven complete author-name search results use the Milan Zubic author label and map to the resplegend GitHub account",
+      "locator": "Complete eleven-result public search response"
+    },
+    {
+      "source_id": "drp50-github-icebera-user",
+      "support": "The current icebera account has a GitHub numeric ID distinct from icetrust0212; it cannot be treated as a rename or continuation from the baseline association alone",
+      "locator": "Complete public JSON response"
+    },
+    {
+      "source_id": "drp50-github-icetrust-user",
+      "support": "Verifies the public icetrust0212 GitHub account as a distinct platform account without establishing civil identity or present controller",
+      "locator": "Complete public JSON response"
+    },
+    {
+      "source_id": "drp50-github-resplegend-user",
+      "support": "Verifies the public resplegend GitHub account as a distinct platform account without establishing civil identity or present controller",
+      "locator": "Complete public JSON response"
+    },
+    {
+      "source_id": "drp50-github-trust0212-status",
+      "support": "The exact trust0212 public user endpoint returned Not Found at the cutoff; cause and date are not established",
+      "locator": "Complete public JSON response"
+    },
+    {
+      "source_id": "drp50-lazarusday-verida",
+      "support": "Downstream summary of the archived meowmfer thread linking Milan Zubic, resplegend, trust0212 variants, and icetrust0212 and reporting 103 Verida repository contributions; retained as review-only attribution",
+      "locator": "Share summary paragraph"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Milan Zubic in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/milan-zubic"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-milan-zubic-resplegend-milan-zubic-author-label",
+      "type": "identity_name",
+      "predicate": "github_attributed_git_author_label",
+      "value": {
+        "author_label": "Milan Zubic",
+        "platform": "GitHub",
+        "mapped_account": "resplegend",
+        "reviewed_commit_results": 11,
+        "verified_civil_identity": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-milan-search",
+          "locator": "All eleven items, commit.author.name and author.login",
+          "quote": "\"name\":\"Milan Zubic\""
+        },
+        {
+          "source_id": "drp50-github-commit-milan",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"login\":\"resplegend\""
+        }
+      ],
+      "observed_at": "2025-12-09",
+      "notes": [
+        "GitHub supplies a platform-native author/account association. It does not verify Milan Zubic as a civil or legal name or establish the present controller."
+      ]
+    },
+    {
+      "id": "claim-persona-milan-zubic-resplegend-resplegend-public-account",
+      "type": "account",
+      "predicate": "historical_github_account_associated_with_author_label",
+      "value": {
+        "platform": "GitHub",
+        "handle": "resplegend",
+        "author_label": "Milan Zubic",
+        "status": "historical",
+        "current_controller_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-resplegend-user",
+          "locator": "Complete public user response",
+          "quote": "\"login\":\"resplegend\""
+        },
+        {
+          "source_id": "drp50-github-commit-milan",
+          "locator": "top-level author.login",
+          "quote": "\"login\":\"resplegend\""
+        }
+      ],
+      "observed_at": "2025-12-09",
+      "notes": [
+        "The account is modeled historically. No contact, login, current-control test, or civil-identity inference was performed."
+      ]
+    },
+    {
+      "id": "claim-persona-milan-zubic-resplegend-reported-related-account-cluster",
+      "type": "relationship",
+      "predicate": "research_summary_reported_related_identity_cluster",
+      "value": {
+        "reported_labels": [
+          "Milan Zubic",
+          "resplegend",
+          "icetrust0212",
+          "trust0212",
+          "trust0212-fantohm"
+        ],
+        "underlying_source": "archived meowmfer thread",
+        "same_natural_person_established": false,
+        "independent_dprk_attribution_families": 1
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-lazarusday-verida",
+          "locator": "Share summary paragraph",
+          "quote": "The author links icetrust0212 to related identities including trust0212, trust0212-fantohm, resplegend, and “Milan Zubic” through commit emails, authored commits, job applications, Telegram activity, and prior Lazarus/Bluenoroff research."
+        }
+      ],
+      "observed_at": "2026-04-17",
+      "notes": [
+        "The original archive was challenge-gated and the accessible page is a downstream summary, so this remains medium-confidence review evidence.",
+        "Related cluster does not mean same account, same controller, or same natural person."
+      ]
+    },
+    {
+      "id": "claim-persona-milan-zubic-resplegend-icetrust-author-label-mappings",
+      "type": "relationship",
+      "predicate": "github_mapped_author_labels_to_related_account",
+      "value": {
+        "platform_account": "icetrust0212",
+        "git_author_labels": [
+          "trust0212",
+          "trust0212-fantohm",
+          "trust0212-phantohm"
+        ],
+        "same_as_resplegend_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-commit-trust0212",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"name\":\"trust0212\""
+        },
+        {
+          "source_id": "drp50-github-commit-fantohm",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"name\":\"trust0212-fantohm\""
+        },
+        {
+          "source_id": "drp50-github-commit-phantohm",
+          "locator": "commit.author.name and top-level author.login",
+          "quote": "\"name\":\"trust0212-phantohm\""
+        }
+      ],
+      "observed_at": "2024-04-11",
+      "notes": [
+        "These are Git author labels associated by GitHub with icetrust0212. They do not prove the FireTail applicant, resplegend, or every commit author was one natural person."
+      ]
+    },
+    {
+      "id": "claim-persona-milan-zubic-resplegend-verida-contribution-count",
+      "type": "employment",
+      "predicate": "github_recorded_related_account_repository_contributions",
+      "value": {
+        "platform": "GitHub",
+        "account": "icetrust0212",
+        "repository": "verida/proof-connector-dapp",
+        "contributions": 103,
+        "employment_established": false,
+        "malicious_change_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-verida-contributors",
+          "locator": "icetrust0212 contributor row",
+          "quote": "\"contributions\":103"
+        },
+        {
+          "source_id": "drp50-lazarusday-verida",
+          "locator": "Share summary paragraph",
+          "quote": "The developer reportedly made 103 commits to the credential-verification system"
+        }
+      ],
+      "observed_at": "2024-05-30",
+      "notes": [
+        "GitHub independently confirms the count reported by the research summary. It does not establish employment, access beyond the public repository, malicious intent, or a malicious code change."
+      ]
+    },
+    {
+      "id": "claim-persona-milan-zubic-resplegend-distinct-account-boundary",
+      "type": "note",
+      "predicate": "github_account_collision_nonmerge",
+      "value": {
+        "distinct_accounts": [
+          "resplegend",
+          "icetrust0212",
+          "icebera"
+        ],
+        "distinct_numeric_ids": true,
+        "rename_or_same_operator_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp50-github-resplegend-user",
+          "locator": "Complete public user response",
+          "quote": "\"login\":\"resplegend\""
+        },
+        {
+          "source_id": "drp50-github-icetrust-user",
+          "locator": "Complete public user response",
+          "quote": "\"login\":\"icetrust0212\""
+        },
+        {
+          "source_id": "drp50-github-icebera-user",
+          "locator": "Complete public user response",
+          "quote": "\"login\":\"icebera\""
+        }
+      ],
+      "observed_at": "2026-08-16",
+      "notes": [
+        "The current accounts have distinct GitHub IDs. Co-occurrence in research, author metadata, or the Lazarus.group baseline is not platform rename evidence and does not justify a natural-person merge."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0007",
+      "type": "identity_name",
+      "predicate": "profile-name",
+      "value": {
+        "field": "name",
+        "value": "Milan Zubic"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, profile, name",
+          "quote": "Milan Zubic"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0008",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Milan Zubic"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Basic Information, Real Name",
+          "quote": "Milan Zubic"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0009",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0010",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "icetrust0212"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Basic Information, Aliases",
+          "quote": "icetrust0212"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0011",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "icebera"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Basic Information, Aliases",
+          "quote": "icebera"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0012",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Patrick Kishi"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Basic Information, Fake Names",
+          "quote": "Patrick Kishi"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0013",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "zaza[dot]liveedu[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Contact Information, Emails",
+          "quote": "zaza[dot]liveedu[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0014",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "Jan 1, 2025"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Employment History, Identified",
+          "quote": "Jan 1, 2025"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0015",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Unknown Company"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Employment History, company",
+          "quote": "Unknown Company"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0016",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "icebera"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, GitHub, GitHub ID",
+          "quote": "icebera"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0017",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "icebera"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, GitHub, Usernames",
+          "quote": "icebera"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-milan-zubic-0018",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x35FcB352027cdDc632b7aE8a50A0410C5bf36248"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/milan-zubic, Salary Details, Addresses",
+          "quote": "0x35FcB352027cdDc632b7aE8a50A0410C5bf36248"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Milan Zubic is a public Git author/persona label that GitHub maps to the resplegend account. A downstream research summary places resplegend and Milan Zubic in a related cluster with icetrust0212, while GitHub maps those labels to two distinct account IDs. The record covers two platform accounts; person-level identity and current control require separate evidence.",
+  "organizations": [
+    "Unknown Company"
+  ]
+}

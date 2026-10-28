@@ -1,0 +1,468 @@
+{
+  "id": "facilitator-o-in-jun",
+  "type": "facilitator",
+  "name": "O In-jun (오인준)",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Korea Daesong Bank representative and financial facilitator sanctioned by the United States and Republic of Korea; named by an issuing government or multilateral sanctions-monitoring source. The record carries an administrative sanctions designation; criminal charge and conviction require separate records.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-28e42dec45a8",
+      "gov-2d8dc05b8be6",
+      "gov-32a750c6b801",
+      "gov-81fd96ced830",
+      "gov-e31464a55e89",
+      "int-rok-mofa-2024-sanctions",
+      "ofac-2026-09-09-sdn-update"
+    ]
+  },
+  "legal_or_reported_name": "O In-jun (오인준)",
+  "organizations": [
+    "Korea Daesong Bank"
+  ],
+  "locations": [
+    "Vladivostok, Russia"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "The official primary name O, In Chun and aliases O, In Jun and source-literal O, ln-chun are source-specific romanizations tied to one OFAC entity. Only designation-era Vladivostok city-and-country context is retained; present location and precise address require separate evidence."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "O, In Chun"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "O, In Jun"
+    },
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "O, ln-chun"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "Treasury identifies O In Chun as a Russia-based representative of Korea Daesong Bank, reports that he worked to unfreeze funds for an unnamed bank subordinate to the Munitions Industry Department, and records his E.O. 13551 designation. These are administrative-source assessments, not adjudicated findings; no account, fund, counterparty, or transaction selector is retained",
+      "locator": "O In Chun paragraph"
+    },
+    {
+      "source_id": "gov-32a750c6b801",
+      "support": "The administrative action lists O, In Chun, the Korean form 오인준, the aliases O, In Jun and source-literal O, ln-chun, Vladivostok, Russia, the DPRK program, and the linked-to relationship with Korea Daesong Bank. Birth, nationality, gender, passport, compliance, and other sensitive fields are excluded",
+      "locator": "SDN additions, O entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Vladivostok, Russia for OFAC entity number 48268 without a street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 48268"
+    },
+    {
+      "source_id": "gov-81fd96ced830",
+      "support": "The official notice lists O In Chun at Vladivostok, Russia, records the Korean name, both alternate romanizations, and the Korea Daesong Bank link, and states the E.O. 13551 administrative designation basis. The location is retained only at coarse city-and-country level; birth, passport, and other sensitive selectors are excluded",
+      "locator": "Federal Register p. 22774, individual entry 3 and continuing designation paragraph on p. 22775"
+    },
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "The ROK sanctions table identifies O In-jun (오인준) as the Vladivostok representative of Korea Daesong Bank. Vladivostok is person-specific; Shenyang belongs to other separately listed representatives and is not attributed to O",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    },
+    {
+      "source_id": "gov-2d8dc05b8be6",
+      "support": "The Reuters report published by Voice of America independently names O In Chun among six people sanctioned in the coordinated U.S.-ROK action. It relies on Treasury for the underlying event and adds no independent proof of the alleged conduct, account control, or present location",
+      "locator": "Article body, named-individuals paragraph"
+    },
+    {
+      "source_id": "doaa-s05"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    },
+    {
+      "source_id": "ofac-2026-09-09-sdn-update",
+      "support": "OFAC’s September 9, 2026 SDN update shows the existing entry and linked-to relationship; no delisting is stated for this entity.",
+      "locator": "Specially Designated Nationals List Updates, entity update entry"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-o-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "display": "O In-jun",
+        "ofac_primary": "O, In Chun",
+        "korean": "오인준"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, O row",
+          "quote": "오인준 주블라디보스톡 조선대성은행 대표"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, O entry",
+          "quote": "O, In Chun (Korean: 오인준)"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48268",
+          "quote": "O, In Chun"
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Official romanization and native-script variants bound by the same OFAC entry and coordinated action, not separate identities."
+      ]
+    },
+    {
+      "id": "claim-o-ofac-aliases",
+      "type": "alias",
+      "predicate": "officially_listed_aliases",
+      "value": {
+        "aliases": [
+          "O, In Jun",
+          "O, In-chun"
+        ],
+        "alias_type": "alternate romanizations",
+        "ofac_entity_number": "48268"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, O entry",
+          "quote": "a.k.a. O, In Jun; a.k.a. O, ln-chun"
+        },
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias rows joined by OFAC entity number 48268",
+          "quote": "O, In Jun"
+        },
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias rows joined by OFAC entity number 48268",
+          "quote": "O, In-chun"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Official source-scoped romanizations, not separate civil identities. The second alias is source-literal and begins with a lowercase l after the comma."
+      ]
+    },
+    {
+      "id": "claim-o-daesong-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "reported_bank_representative_role",
+      "value": {
+        "organization": "Korea Daesong Bank",
+        "role": "representative",
+        "reported_base": "Russia",
+        "rok_posting": "Vladivostok, Russia",
+        "as_of": "2024-03"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "O In Chun paragraph, first sentence",
+          "quote": "O In Chun is a Russia-based representative of U.S- and UN-designated Korea Daesong Bank, which is operated by the U.S.-designated Office 39."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, O row",
+          "quote": "오인준 주블라디보스톡 조선대성은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Historical designation-time role and geography only; no present employment or location is inferred."
+      ]
+    },
+    {
+      "id": "claim-o-mid-bank-fund-unfreezing",
+      "type": "incident",
+      "predicate": "treasury_reported_fund_unfreezing_activity",
+      "value": {
+        "reported_conduct": "worked to unfreeze funds on behalf of an unnamed bank subordinate to the Munitions Industry Department"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "O In Chun paragraph, fund-unfreezing sentence",
+          "quote": "Furthermore, O In Chun worked to unfreeze funds on behalf of a bank that is subordinate to the U.S.-and UN-designated MID."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Treasury administrative finding, not an adjudicated criminal fact. The bank and funds are not identified or inferred, and no account, counterparty, or financial selector is retained."
+      ]
+    },
+    {
+      "id": "claim-o-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13551",
+        "date": "2024-03-27",
+        "reported_basis": "acting or purporting to act for or on behalf of Korea Daesong Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "O In Chun paragraph, designation sentence",
+          "quote": "O In Chun is being designated pursuant to E.O. 13551 for acting or purporting to act for or on behalf of, directly or indirectly, Korea Daesong Bank."
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, O entry",
+          "quote": "O, In Chun"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-o-rok-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2024-03-28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "opening designation paragraph",
+          "quote": "우리 정부는 3.28(목) 북한 IT 인력의 해외 외화벌이 활동에 관여하거나 불법 자금을 조달한 기관 2개와 개인 4명을 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, O row",
+          "quote": "오인준 주블라디보스톡 조선대성은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-o-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "DPRK",
+        "checked_at": "2026-10-18",
+        "linked_organization": "Korea Daesong Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48268",
+          "quote": "48268,\"O, In Chun\",\"individual\",\"DPRK\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 48268",
+          "quote": "Linked To: KOREA DAESONG BANK."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Dated administrative-list observation; it does not establish criminal guilt, present role, or present location. Sensitive fields in the row were excluded."
+      ]
+    },
+    {
+      "id": "claim-o-ofac-listed-location",
+      "type": "location",
+      "predicate": "treasury_reported_and_ofac_listed_coarse_location",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "precision": "coarse city-and-country only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "O In Chun paragraph",
+          "quote": "O In Chun is a Russia-based representative"
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, O row",
+          "quote": "오인준 주블라디보스톡 조선대성은행 대표"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22774, individual entry 3, contiguous fragment 1 of 2",
+          "quote": "O, In Chun"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22774, individual entry 3, contiguous fragment 2 of 2",
+          "quote": "Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 48268",
+          "quote": "\"Vladivostok\",\"Russia\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Person-specific official designation context only. It does not establish a street address, residence, continued presence, or present location. Shenyang, China was removed from O's aggregate record because the ROK and OFAC tables assign O specifically to Vladivostok."
+      ]
+    },
+    {
+      "id": "claim-o-voa-reuters-designation-corroboration",
+      "type": "legal_event",
+      "predicate": "secondary_publisher_reported_ofac_designation",
+      "value": {
+        "publisher": "Voice of America / Reuters",
+        "reported_date": "2024-03-28",
+        "reported_context": "one of six individuals named in the coordinated U.S.-ROK sanctions action"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2d8dc05b8be6",
+          "locator": "Article body, named-individuals paragraph",
+          "quote": "It named the six individuals as Yu Pu Ung, Ri Tong Hyok, Han Chol Man, O In Chun, Jong Song Ho and Jon Yon Gun."
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Independent publication-level corroboration that O was named in the sanctions action. The Reuters report cites Treasury, so it does not independently prove the underlying conduct or alter the administrative legal posture."
+      ]
+    },
+    {
+      "id": "claim-o-un-annex76-daesong-vladivostok-report",
+      "type": "organization_affiliation",
+      "predicate": "un_member_state_reported_daesong_bank_representative_role",
+      "value": {
+        "organizations": [
+          "Korea Daesong Bank"
+        ],
+        "reported_role": "representative",
+        "historical_location_context": "Vladivostok, Russian Federation",
+        "source_scope": "reported by Member States in Annex 76",
+        "present_location_inferred": false,
+        "individual_sanctions_violation_established": false,
+        "member_state_response": "The Panel had not received a response from the Russian Federation for this row."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Annex 76, PDF file p. 447, visually reviewed subject row and footnote 244",
+          "quote": "O In Jun ... Korea Daesong Bank (KPe.035) Representative ... Vladivostok, Russian Federation"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Annex 76 is a list of individuals reported by Member States; footnote 244 records that two Panel members considered the evidence insufficient to substantiate the affiliation and sanctions-violation allegations.",
+        "The row is retained as source-reported historical role and coarse location context, not a finding of current employment, present location, criminal conduct, or an individualized sanctions violation.",
+        "The relevant Member State response is preserved: The Panel had not received a response from the Russian Federation for this row."
+      ]
+    },
+    {
+      "id": "claim-o-un-green-industry-candidate-crosswalk",
+      "type": "relationship",
+      "predicate": "russian_federation_reported_candidate_identity_crosswalk",
+      "value": {
+        "candidate_record": "Green Industry representative O In Jun",
+        "candidate_role": "representative of the Korean Trading Company Green Industry in Vladivostok",
+        "candidate_link_to_daesong_representative": "could be the same person",
+        "same_person_established": false,
+        "candidate_only": true,
+        "current_role_or_control_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Russian-company table, PDF file p. 499, visually reviewed Green Industry row and Russian Federation response",
+          "quote": "RF: O In Jun could be the same person as the reported Vladivostok-based Korea Daesong Bank (KPe.035) representative O In Jun"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Candidate-only Russian Federation response. The report's could-be language is preserved and no identity merge is performed.",
+        "Company registration identifiers, address, employee count, and current-operation inference are excluded."
+      ]
+    },
+    {
+      "id": "claim-o-ofac-2026-09-09-update",
+      "type": "legal_event",
+      "predicate": "confirmed_in_ofac_september_2026_sdn_update",
+      "value": {
+        "name": "O, In Chun",
+        "program": "DPRK",
+        "linked_to": "KOREA DAESONG BANK"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ofac-2026-09-09-sdn-update",
+          "locator": "Specially Designated Nationals List Updates, entity update entry",
+          "quote": "O, In Chun"
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The update retains the administrative sanctions entry; it does not create a criminal charge or conviction."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "O In-jun (오인준), listed by OFAC under the primary form O, In Chun and aliases O, In Jun and the source-literal O, ln-chun, is the person described by Treasury and the ROK as a Korea Daesong Bank representative. Preserve source-specific romanizations and administrative allegations; criminal guilt, present location, account control, and same-named-account identity linkage remain unverified."
+}

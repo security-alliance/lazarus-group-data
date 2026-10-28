@@ -1,0 +1,45 @@
+{
+  "id": "deep-index-history-ldh-f181",
+  "type": "cluster",
+  "name": "What We Learned Inside a North Korean Internet Server: How Well Do You Know Your Partners?",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher-attributed public research finding; legal adjudication and civil identity require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-history-ldh-181"
+    ]
+  },
+  "ttps": [
+    "outsourcing-chain and animation-work exposure"
+  ],
+  "caveats": [
+    "Named studios or producers appear in the account; complicity and knowing involvement status is unestablished.",
+    "Server address, access details, and project files are excluded from retention.",
+    "Preserve the source’s uncertainty around uploader, partner and contracting chain."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "38 North documented an improperly configured DPRK cloud-storage relay used for animation work, with Chinese-language instructions translated into Korean and work products moving through a likely intermediary.",
+        "The source could not identify the uploader or definitive DPRK partner, but assessed the workflow as likely several subcontracting layers downstream from major producers.",
+        "The case expands due diligence from direct remote hires to subcontractors and creative/animation supply chains; identified upstream companies were not shown to know of DPRK involvement."
+      ],
+      "source_ids": [
+        "deep-index-history-ldh-181"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-history-ldh-181",
+      "support": "38 North documented an improperly configured DPRK cloud-storage relay used for animation work, with Chinese-language instructions translated into Korean and work products moving through a likely intermediary. The source could not identify the uploader or definitive DPRK partner, but assessed the workflow as likely several subcontracting layers downstream from major producers. The case expands due diligence from direct remote hires to subcontractors and creative/animation supply chains; identified upstream companies were not shown to know of DPRK involvement",
+      "locator": "Sections “A Month of Animation,” “Projects Identified,” and “Implications: Due Diligence Needed on IT Outsourcing”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

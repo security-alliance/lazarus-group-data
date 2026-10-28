@@ -1,0 +1,44 @@
+{
+  "id": "dpa-ttp-state-directed-education-assignment-pipeline",
+  "type": "ttp",
+  "name": "Reported State-directed education and assignment pipeline",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN human-rights reporting preserves the report's 'reportedly' language and cited-source limitations; individual student or graduate findings require source-specific evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dpa-s01-a-80-149"
+    ]
+  },
+  "caveats": [
+    "Education, technical skill, age, language, nationality, location, and student status are unsuitable as DPRK-attribution or screening shortcuts.",
+    "The report cites external research for parts of the pipeline and repeatedly uses reported language; student progression into an IT-worker or cyber-operator function requires source-specific evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-structural-context",
+      "statements": [
+        "A/80/149 reports a State-directed pathway in which some pupils selected for mathematics and science ability proceed through specialized secondary schools and top-university programming or specialist training.",
+        "The report says candidates are reportedly recruited into the Korean People's Army and assigned to the Reconnaissance General Bureau, or hired by information-technology organizations and companies.",
+        "The report also says that, since 2021, the National Science and Technology Committee has managed a categorized pool of science-and-technology specialists."
+      ],
+      "source_ids": [
+        "dpa-s01-a-80-149"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation"
+  ],
+  "sources": [
+    {
+      "source_id": "dpa-s01-a-80-149",
+      "support": "Supports the reported school-to-university training pathway, subsequent assignment to military/intelligence or IT organizations, and the reported science-and-technology specialist-pool management role",
+      "locator": "A/80/149 para. 42 (PDF pp. 13-14)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,442 @@
+{
+  "id": "persona-huy-diep",
+  "type": "persona",
+  "name": "Huy Diep",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s1"
+    ]
+  },
+  "organizations": [
+    "Tenpct Inc (reported since September 2023)"
+  ],
+  "ttps": [
+    "co-authored commits with AnacondaDev0120",
+    "reused handle across a later Alvaro Morales resume",
+    "web/mobile persona"
+  ],
+  "caveats": [
+    "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens leave this label and other labels unlinked as natural-person identities.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "HuiGia Diep",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s1"
+      ]
+    },
+    {
+      "value": "Passion118",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s1"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "nickdev0118",
+      "url": "https://github.com/nickdev0118",
+      "status": "removed",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1"
+      ],
+      "note": "404 on direct fetch"
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "superbluestar",
+      "url": "hxxps://t[.]me/superbluestar",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1"
+      ],
+      "note": "historical; not contacted"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "platform-s1",
+      "source_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-github-employment-fraud.pdf",
+      "caption": "Nisos says the profile photo was digitally manipulated; source report Graphic 2.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "email",
+      "value": "nickdev0118@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s1",
+      "support": "“GitHub account nickdev0118” was listed on a site belonging to “Huy Diep/HuiGia Diep.”",
+      "locator": "Fake Persona 1: Huy Diep/HuiGia Diep, report pp. 4-7"
+    },
+    {
+      "source_id": "src-c6468217e7be"
+    },
+    {
+      "source_id": "src-fab3e5e83865"
+    },
+    {
+      "source_id": "src-e5bef19db02e"
+    },
+    {
+      "source_id": "src-f661f2c10fa8"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-reported-huy-diep-persona",
+      "type": "identity_name",
+      "predicate": "reported_employment_persona",
+      "value": {
+        "name": "Huy Diep",
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 4, 'Fake Persona 1: Huy Diep/HuiGia Diep'",
+          "quote": "a website belonging to persona Huy Diep/HuiGia Diep"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Research attribution, not a legal-identity determination."
+      ]
+    },
+    {
+      "id": "claim-huigia-diep-alias",
+      "type": "alias",
+      "predicate": "used_employment_persona_name",
+      "value": {
+        "alias": "HuiGia Diep"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 4, section heading",
+          "quote": "Fake Persona 1: Huy Diep/HuiGia Diep"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Alternate persona presentation, not a verified civil name."
+      ]
+    },
+    {
+      "id": "claim-github-nickdev0118",
+      "type": "account",
+      "predicate": "historically_used_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "nickdev0118",
+        "status_at_cutoff": "not found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 4, opening paragraph",
+          "quote": "We investigated the GitHub account nickdev0118 and found this account listed on a website belonging to persona Huy Diep/HuiGia Diep."
+        },
+        {
+          "source_id": "src-c6468217e7be",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Historical attribution plus cutoff-time unavailability; removal cause is unknown."
+      ]
+    },
+    {
+      "id": "claim-telegram-superbluestar",
+      "type": "account",
+      "predicate": "historically_used_telegram_account",
+      "value": {
+        "platform": "Telegram",
+        "handle": "superbluestar",
+        "status_at_cutoff": "public landing page reachable"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 8, first Naoyuki Tanaka paragraph",
+          "quote": "the Telegram username superbluestar, which was listed on Huy Diep’s and Naoyuki Tanaka’s resumes"
+        },
+        {
+          "source_id": "src-fab3e5e83865",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "No contact occurred; historical reuse across personas does not establish one civil identity.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-coauthored-anacondadev0120",
+      "type": "relationship",
+      "predicate": "github_coauthored_commit_with_account",
+      "value": {
+        "account": "nickdev0118",
+        "other_account": "AnacondaDev0120"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 4, opening paragraph and Graphic 2",
+          "quote": "the account co-authored commits with a previously identified, likely DPRK IT worker persona, which used the GitHub account AnacondaDev0120"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Reported account-network relationship, not proof the persona labels are the same natural person."
+      ]
+    },
+    {
+      "id": "claim-reused-by-alvaro-morales",
+      "type": "relationship",
+      "predicate": "account_label_reused_by_persona",
+      "value": {
+        "account_label": "nickdev0118",
+        "other_persona": "Alvaro Morales"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 15, paragraph above Graphic 29",
+          "quote": "both Huy Diep and likely newly created persona Alvaro Morales were associated with username nickdev0118"
+        },
+        {
+          "source_id": "src-e5bef19db02e",
+          "locator": "Page title and profile heading at /nickdev0118",
+          "quote": "Alvaro Morales Web Developer | Torre.ai"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current path corroborates the report's label reuse; it does not identify a natural person."
+      ]
+    },
+    {
+      "id": "claim-digitally-manipulated-images",
+      "type": "image",
+      "predicate": "reported_digitally_manipulated_profile_images",
+      "value": {
+        "contexts": [
+          "persona website",
+          "F6S"
+        ],
+        "handling": "link to report only; no facial matching"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 6, 'Digital Photo Manipulation'",
+          "quote": "Huy Diep’s website contains two photographs of the likely DPRK IT worker, which were digitally manipulated."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "No facial recognition or independent identity inference was performed."
+      ]
+    },
+    {
+      "id": "claim-tenpct-employment",
+      "type": "employment",
+      "predicate": "reported_employment",
+      "value": {
+        "organization": "Tenpct Inc",
+        "role": "software engineer specializing in web and mobile app programming",
+        "start": "2023-09"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 4, opening paragraph",
+          "quote": "Huy Diep appears to have been employed as a software engineer specializing in web and mobile app programming at Japanese consulting company Tenpct Inc since September 2023."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Report-time attribution; not independently verified civil employment."
+      ]
+    },
+    {
+      "id": "claim-portfolio-tenpct-role",
+      "type": "employment",
+      "predicate": "portfolio_claimed_employment",
+      "value": {
+        "organization": "Tenpct",
+        "role": "Senior Full Stack Developer",
+        "period": "2023-10 to present on cutoff page"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f661f2c10fa8",
+          "locator": "Work experience, first card linked to tenpct.jp",
+          "quote": "Senior Full Stack Developer\n2023.10 ~ now"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Still-live persona assertion; the one-month start discrepancy with Nisos is preserved rather than harmonized."
+      ]
+    },
+    {
+      "id": "claim-portfolio-senkyaku-role",
+      "type": "employment",
+      "predicate": "portfolio_claimed_employment",
+      "value": {
+        "organization": "Senkyaku",
+        "role": "Mobile App Developer",
+        "period": "2023-01 to 2023-09"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f661f2c10fa8",
+          "locator": "Work experience, second card linked to senkyaku.jp",
+          "quote": "Mobile App Developer\n2023.1 ~ 2023.9"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Persona-asserted employment; not independently corroborated."
+      ]
+    },
+    {
+      "id": "claim-portfolio-sweply-role",
+      "type": "employment",
+      "predicate": "portfolio_claimed_employment",
+      "value": {
+        "organization": "Sweply",
+        "role": "Full Stack Developer",
+        "period": "2021-02 to 2022-12"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f661f2c10fa8",
+          "locator": "Work experience, third card linked to Crunchbase organization Sweply",
+          "quote": "Full Stack Developer\n2021.2 ~ 2022.12"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Organization derives from the card link; persona-asserted employment, not independently corroborated."
+      ]
+    },
+    {
+      "id": "claim-portfolio-vjsoft-role",
+      "type": "employment",
+      "predicate": "portfolio_claimed_employment",
+      "value": {
+        "organization": "VJ Soft",
+        "role": "Web Developer",
+        "period": "2016-08 to 2020-12"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f661f2c10fa8",
+          "locator": "Work experience, fourth card linked to itviec.com/companies/vj-soft",
+          "quote": "Web Developer\n2016.8 ~ 2020.12"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Organization derives from the card link; persona-asserted employment, not independently corroborated."
+      ]
+    },
+    {
+      "id": "claim-linkedin-huigia",
+      "type": "account",
+      "predicate": "portfolio_linked_linkedin_account",
+      "value": {
+        "platform": "LinkedIn",
+        "identifier": "huigia-diep-670a6628a",
+        "status": "historical link observed on live portfolio"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-f661f2c10fa8",
+          "locator": "Contact section hyperlink",
+          "quote": "hxxps://www[.]linkedin[.]com/in/huigia-diep-670a6628a/"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Direct link from the attributed persona site; the LinkedIn profile itself was not authenticated or contacted."
+      ]
+    },
+    {
+      "id": "claim-portfolio-vietnam-assertion",
+      "type": "location",
+      "predicate": "portfolio_claimed_location",
+      "value": {
+        "location": "Vietnam"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f661f2c10fa8",
+          "locator": "About section",
+          "quote": "I am Huy Diep from Vietnam."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Persona assertion only; not verified nationality, residence, or operator location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Source-reported employment and online persona in a reused account network; Huy Diep, HuiGia Diep, accounts, biography, and imagery remain source-linked context, with civil identity linkage to apparent owners unresolved."
+}

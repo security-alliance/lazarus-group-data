@@ -1,0 +1,217 @@
+{
+  "id": "angelo-cruz-recruiter-persona",
+  "fake_names": [
+    "Angelo Cruz"
+  ],
+  "notes": "Persona used by a recruiter for suspected Famous Chollima (DPRK) IT workers during the BCA LTD / NorthScan / ANY.RUN controlled investigation published in 2026.",
+  "github": [
+    {
+      "gh_id": "angelocruz408"
+    },
+    {
+      "gh_id": "stackpilot108"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-anyrun-angelo-cruz",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Persona used by a recruiter for suspected Famous Chollima (DPRK) IT workers during the BCA LTD / NorthScan / ANY.RUN controlled investigation published in 2026.",
+    "as_of": "2026-08-11",
+    "caveats": [
+      "Identity boundary: ANY.RUN-reported recruiter persona, not a verified civil identity. Keep the Angelo Cruz label, historical and renamed GitHub handles, Telegram handle, account numeric ID, and person-bearing images as separate evidence types; the ANY.RUN article and DEF CON deck are one investigation family, and present account reachability never proves present ownership or control.",
+      "Account and persona observations are historical to the cited investigation; do not infer current ownership, control, availability, location, nationality, or legal identity.",
+      "Angelo Cruz is a source-assigned persona label, not a verified legal identity.",
+      "Person-bearing imagery is source-page-only: do not cache, crop, republish, perform facial recognition or visual matching, bridge it to a legal identity, or infer current appearance, ownership, control, nationality, or location.",
+      "Presented names and account labels are source-reported personas or handles, not verified legal identities.",
+      "The ANY.RUN article and DEF CON deck describe one controlled investigation and count as one source family, not independent corroboration.",
+      "The cited source page at https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two carries an image related to this record. It is not reproduced: citation only, no caching, cropping, biometric use, or facial comparison.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "The DEF CON 34 slide (p. 13) screenshot reads 'angelocruz408'; the research packet had 'angelocruz408', corrected here after review on 2026-09-04.",
+      "The link angelocruz408 -> stackpilot108 is inferred from the same GitHub discussion (#21 in jfullstackdev/jfullstackdev) appearing under both logins in publisher screenshots; neither publisher states the rename in text.",
+      "'Angelo Cruz' is an extremely common name. The persona presented a driving licence to the researchers; it may be forged or a real person's stolen document. No real Angelo Cruz is identified or implicated.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-937db1e07915",
+      "title": "Smile, You’re on Camera! A Live Stream from Inside Lazarus’ IT Workers Scheme",
+      "publisher": "BCA LTD / NorthScan / ANY.RUN",
+      "url": "https://media.defcon.org/DEF%20CON%2034/DEF%20CON%2034%20presentations/DEF%20CON%2034%20presentations/DEF%20CON%2034%20-%20Heiner%20Garc%C3%ADa%2C%20Mauro%20Eldritch%20-%20Smile%2C%20you%27re%20on%20camera%20Livestreaming%20from%20North%20Korea%27s%20IT%20workers%20laptop%20farm%20-%20Are%20v2.pdf",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "doc-c9dad3ff1438",
+      "title": "HI, I want to discuss with you. — jfullstackdev discussion #21",
+      "publisher": "GitHub public artifact",
+      "url": "https://github.com/jfullstackdev/jfullstackdev/discussions/21",
+      "date": "2026-02-02"
+    },
+    {
+      "id": "doc-dd9ba90143fc",
+      "title": "Smile, You’re on Camera! Part 2: Lazarus IT Workers Exposed",
+      "publisher": "ANY.RUN",
+      "url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "doc-github-stackpilot108-repositories",
+      "title": "GitHub public repositories: stackpilot108",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/stackpilot108/repos?per_page=100&sort=updated"
+    },
+    {
+      "id": "doc-github-stackpilot108-user",
+      "title": "GitHub user status: stackpilot108",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/stackpilot108"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-angelo-cruz-persona-name",
+      "label": "Researcher reported recruiter persona name",
+      "category": "identity_name",
+      "observed": "2026-08-10",
+      "evidence": [
+        {
+          "source_id": "doc-dd9ba90143fc",
+          "locator": "Chapter III: The Horse Trader, opening paragraph",
+          "quote": "Angelo Cruz met Andy on GitHub"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-angelo-famous-chollima-recruiter",
+      "label": "Researcher attributed recruiter role",
+      "category": "organization_affiliation",
+      "observed": "2026-08-10",
+      "evidence": [
+        {
+          "source_id": "doc-dd9ba90143fc",
+          "locator": "paragraph immediately before Chapter III",
+          "quote": "Angelo Cruz, a recruiter from Famous Chollima"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-angelo-github-recruitment-contact",
+      "label": "Researcher reported github recruitment contact",
+      "category": "incident",
+      "observed": "2026-02-02",
+      "evidence": [
+        {
+          "source_id": "doc-dd9ba90143fc",
+          "locator": "Chapter III: The Horse Trader, opening paragraph",
+          "quote": "Angelo Cruz met Andy on GitHub"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-current-handle-same-id",
+      "label": "Public artifact currently resolves account id to handle",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-c9dad3ff1438",
+          "locator": "discussion #21 header and author link",
+          "quote": "stackpilot108"
+        },
+        {
+          "source_id": "doc-github-stackpilot108-user",
+          "locator": "complete public user API response, login and id fields",
+          "quote": "\"id\": 166145845"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-discussion-date",
+      "label": "Public recruitment discussion created at",
+      "category": "incident",
+      "observed": "2026-02-02",
+      "evidence": [
+        {
+          "source_id": "doc-c9dad3ff1438",
+          "locator": "discussion #21 author timestamp",
+          "quote": "Feb 2, 2026"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-historical-github-angelocruz408",
+      "label": "Source displayed historical github handle",
+      "category": "account",
+      "observed": "2026-02-02",
+      "evidence": [
+        {
+          "source_id": "doc-937db1e07915",
+          "locator": "PDF p. 13, The Recruiter: Angelo Cruz, GitHub discussion screenshot",
+          "quote": "angelocruz408"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-stackpilot108-current-status",
+      "label": "Source linked github account publicly reachable",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-github-stackpilot108-user-20260815",
+          "locator": "complete public user API response, login field",
+          "quote": "\"login\": \"stackpilot108\""
+        },
+        {
+          "source_id": "doc-github-stackpilot108-user-20260815",
+          "locator": "complete public user API response, public_repos field",
+          "quote": "\"public_repos\": 9"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-stackpilot108-public-account-chronology",
+      "label": "Public account metadata chronology",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-github-stackpilot108-user-20260815",
+          "locator": "complete public user API response, id and created_at fields",
+          "quote": "\"created_at\": \"2024-04-05T14:51:10Z\""
+        },
+        {
+          "source_id": "doc-github-stackpilot108-user-20260815",
+          "locator": "complete public user API response, updated_at field",
+          "quote": "\"updated_at\": \"2026-07-11T08:44:39Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-stackpilot108-repository-window",
+      "label": "Public repository metadata creation window",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-stackpilot108-repositories",
+          "locator": "complete nine-record public repository listing, latest created_at field",
+          "quote": "\"created_at\": \"2026-04-06T17:27:41Z\""
+        },
+        {
+          "source_id": "doc-github-stackpilot108-repositories",
+          "locator": "complete nine-record public repository listing, earliest created_at field",
+          "quote": "\"created_at\": \"2025-05-03T16:43:13Z\""
+        },
+        {
+          "source_id": "doc-github-stackpilot108-user",
+          "locator": "complete public user API response, public_repos field",
+          "quote": "\"public_repos\": 9"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

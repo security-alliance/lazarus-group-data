@@ -1,0 +1,82 @@
+{
+  "id": "dc2-ttp-coordinated-termination-risk-response",
+  "type": "ttp",
+  "name": "Coordinated termination-risk response and evidence preservation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Sophos and DTEX defensive response guidance is informed by reported risk; guidance describes reported risk and leaves individual worker conduct case-specific.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DC2-S01",
+      "DC2-S02",
+      "DC2-S03",
+      "DC2-S09"
+    ]
+  },
+  "ttps": [
+    "cloud-data-exfiltration",
+    "data-publication-threat",
+    "extortion",
+    "source-code-exfiltration",
+    "trade-secret-theft"
+  ],
+  "caveats": [
+    "Apply controls consistently with privacy, employment, labor, accessibility, retention, notice, correction, and access-governance requirements.",
+    "Counsel-approved communications and established incident-response/law-enforcement channels are the appropriate route; retaliatory or deceptive engagement is outside the process.",
+    "Pre-termination downloads, handoffs, forwarding, and severance questions can be legitimate business activity.",
+    "Preserve evidence proportionately and respect employment, monitoring, privacy, and labor law.",
+    "Use the pattern to prioritize documented human-led review; DPRK affiliation, fraud, and malicious intent require a combined evidence record."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Before an adverse termination, inventory sessions, tokens, repositories, secrets, data stores, forwarding rules, integrations, and managed devices; revoke in a coordinated window.",
+        "Preserve logs and legal hold material, monitor unusual pre-termination downloads and post-revocation access attempts, and establish a controlled channel for extortion communications.",
+        "Separate evidence preservation and employee safety from attribution: respond to the behavior even when DPRK linkage is uncertain."
+      ],
+      "limitations": [
+        "Pre-termination downloads, handoffs, forwarding, and severance questions can be legitimate business activity.",
+        "Do not conduct retaliatory or deceptive engagement; use counsel-approved communications and established incident-response/law-enforcement channels.",
+        "Preserve evidence proportionately and respect employment, monitoring, privacy, and labor law."
+      ],
+      "source_ids": [
+        "DC2-S01",
+        "DC2-S02",
+        "DC2-S03",
+        "DC2-S09"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-nickel-tapestry",
+    "deep2-vendor-dv-f02",
+    "drh-ttp-endpoint-custody-posthire-control-bundle"
+  ],
+  "sources": [
+    {
+      "source_id": "DC2-S09",
+      "support": "The publisher-hosted PDF mirror repeats the cross-functional and detection-oriented framing of the Sophos guide; it is not independent corroboration",
+      "locator": "pp. 1-2, especially Matrix overview and Detection and prevention"
+    },
+    {
+      "source_id": "DC2-S02",
+      "support": "The Sophos matrix supplies implementation detail for coordinated offboarding, monitoring, and evidence-aware response",
+      "locator": "Worksheets: Project Tracker Sheet, Banking payroll and finance, Security and monitoring, Threat hunting"
+    },
+    {
+      "source_id": "DC2-S03",
+      "support": "DTEX recommends monitoring leaver risk and sharing relevant observations across security, HR, legal, finance, vendors, and appropriate authorities",
+      "locator": "pp. 18-19 (Operational Security Lapses), pp. 36-38 (IT-worker methodology), p. 48 (Immediate Steps)"
+    },
+    {
+      "source_id": "DC2-S01",
+      "support": "Sophos recommends data-loss controls for likely extortion paths, coordinated access revocation across worker types, and auditable access and employee-record changes",
+      "locator": "Page heading and sections: Matrix overview; Detection and prevention; linked PDF and control-matrix downloads"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

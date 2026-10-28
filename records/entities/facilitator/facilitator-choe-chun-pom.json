@@ -1,0 +1,376 @@
+{
+  "id": "facilitator-choe-chun-pom",
+  "type": "facilitator",
+  "name": "Choe Chun Pom",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and bounded structured context: DPRK financial representative; sanctions-evasion facilitator. Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Choe Chun Pom",
+  "organizations": [
+    "Central Bank of the Democratic People's Republic of Korea"
+  ],
+  "locations": [
+    "Beijing, China (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The city is sanctions-list context; current presence or employment remains unresolved."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current"
+      ],
+      "value": "CH'OE, Ch'un-po'm"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Central Bank of the Democratic People's Republic of Korea",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-choe-chun-pom"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "OFAC designated eight individuals and two entities, including Korea Mangyongdae Computer Technology Company, for laundering cybercrime and IT-worker funds",
+      "locator": "Bankers and KMCTC sections"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 56039 support only the retained coarse sanctions-list location values. The city is sanctions-list context and does not establish current presence or employment. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 56039"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "The current exact-ID ALT row(s) joined to OFAC entity number 56039 supply the alternate spelling(s): CH'OE, Ch'un-po'm. No name-only identity inference is used",
+      "locator": "ALT.CSV current row(s) joined to OFAC entity number 56039"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 56039 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add a alternate spelling, Beijing listing context, and an explicit Central Bank link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 56039"
+    },
+    {
+      "source_id": "src-38e5789f9f87"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "CHOE, Chun Pom",
+        "display": "Choe Chun Pom"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 56039",
+          "quote": "56039,\"CHOE, Chun Pom\",\"individual\",\"DPRK3\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Official sanctions-list name form; not a criminal adjudication."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "CH'OE, Ch'un-po'm",
+        "ofac_entity_number": "56039"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row joined to OFAC entity number 56039",
+          "quote": "56039,87041,\"aka\",\"CH'OE, Ch'un-po'm\",-0-"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Source-explicit OFAC alias tied by entity number; do not transfer it to a same-name person."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK3",
+        "as_of": "2026-08-14"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 56039",
+          "quote": "56039,\"CHOE, Chun Pom\",\"individual\",\"DPRK3\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current administrative-list observation newly checked during the pilot; not a conviction, account-control finding, or present-location claim."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-central-bank",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Central Bank of the Democratic People's Republic of Korea",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks field for OFAC entity number 56039",
+          "quote": "Linked To: CENTRAL BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current OFAC dataset relationship field; it is part of the same source family as the primary row and alias table."
+      ]
+    },
+    {
+      "id": "claim-treasury-financial-representative",
+      "type": "employment",
+      "predicate": "treasury_reported_financial_representative_role",
+      "value": {
+        "role": "North Korean representative of a DPRK financial institution",
+        "reported_group": [
+          "Ho Yong Chol",
+          "Han Hong Gil",
+          "Jong Sung Hyok",
+          "Choe Chun Pom",
+          "Ri Jin Hyok"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, representative group sentence",
+          "quote": "Ho Yong Chol, Han Hong Gil (Han), Jong Sung Hyok (Jong), Choe Chun Pom (Choe) and Ri Jin Hyok (Ri) are China or Russia-based North Korean representatives of DPRK financial institutions."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury group description. It does not resolve a Choe-specific country or present location."
+      ]
+    },
+    {
+      "id": "claim-central-bank-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_bank_representative_role",
+      "value": {
+        "organization": "Central Bank of the DPRK",
+        "role": "representative",
+        "as_of": "2025-11-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Choe sentence",
+          "quote": "Choe is a representative of the U.S.-designated Central Bank of the DPRK (DPRK Central Bank)"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported designation-time role; not a criminal adjudication or current-employment finding."
+      ]
+    },
+    {
+      "id": "claim-transaction-facilitation",
+      "type": "incident",
+      "predicate": "treasury_reported_transaction_facilitation",
+      "value": {
+        "reported_aggregate": "over $200,000",
+        "reported_currencies": [
+          "U.S. dollars",
+          "Chinese yuan"
+        ],
+        "organization_context": "Central Bank of the DPRK"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Choe sentence",
+          "quote": "Choe is a representative of the U.S.-designated Central Bank of the DPRK (DPRK Central Bank) who has facilitated transactions worth over $200,000 in USD and CNY, while also having coordinated travel for Russian officials to visit Pyongyang, North Korea."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported historical aggregate. No account, transaction, wallet, or counterparty selector is retained."
+      ]
+    },
+    {
+      "id": "claim-russian-official-travel-coordination",
+      "type": "incident",
+      "predicate": "treasury_reported_travel_coordination",
+      "value": {
+        "conduct": "coordinated travel for Russian officials to visit Pyongyang, North Korea",
+        "as_of": "2025-11-04"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Choe sentence",
+          "quote": "Choe is a representative of the U.S.-designated Central Bank of the DPRK (DPRK Central Bank) who has facilitated transactions worth over $200,000 in USD and CNY, while also having coordinated travel for Russian officials to visit Pyongyang, North Korea."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported historical conduct; no traveler identity, itinerary, date, or present-location inference is retained."
+      ]
+    },
+    {
+      "id": "claim-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13722",
+        "basis_entity": "Central Bank of the DPRK"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, designation paragraph",
+          "quote": "and Choe pursuant to E.O. 13722 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, DPRK Central Bank, a person whose property and interests in property are blocked pursuant to E.O. 13722."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-ofac-designation-era-location",
+      "type": "location",
+      "predicate": "ofac_listed_designation_era_location",
+      "value": {
+        "location": "Beijing, China",
+        "precision": "coarse city-level only",
+        "timeframe": "OFAC listing observed 2026-08-14",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 56039",
+          "quote": "\"Beijing\",\"China\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Exact-ID OFAC dataset context. This resolves the country ambiguity in Treasury's collective China-or-Russia sentence for this subject but does not establish residence, a street address, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-cyberscoop-designation-corroboration",
+      "type": "legal_event",
+      "predicate": "secondary_publisher_reported_ofac_designation",
+      "value": {
+        "publisher": "CyberScoop",
+        "reported_date": "2025-11-04",
+        "reported_context": "one of five people working for North Korean financial institutions whom Treasury designated"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-38e5789f9f87",
+          "locator": "Article body, designation summary paragraph",
+          "quote": "It also designated five people who work for North Korean financial institutions: Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Independent publication-level corroboration of the designation context. CyberScoop cites Treasury, so this does not independently prove the underlying conduct or alter the administrative legal posture."
+      ]
+    },
+    {
+      "id": "claim-choe-un-annex76-central-bank-beijing-report",
+      "type": "organization_affiliation",
+      "predicate": "un_member_state_reported_central_bank_representative_role",
+      "value": {
+        "organizations": [
+          "DPRK Central Bank"
+        ],
+        "reported_role": "representative",
+        "historical_location_context": "Beijing, China",
+        "source_scope": "reported by Member States in Annex 76",
+        "present_location_inferred": false,
+        "individual_sanctions_violation_established": false,
+        "member_state_response": "China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Annex 76, PDF file p. 453, visually reviewed subject row and footnote 244",
+          "quote": "Choe Chun Pom ... DPRK Central Bank Representative ... Beijing, China"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Annex 76 is a list of individuals reported by Member States; footnote 244 records that two Panel members considered the evidence insufficient to substantiate the affiliation and sanctions-violation allegations.",
+        "The row is retained as source-reported historical role and coarse location context, not a finding of current employment, present location, criminal conduct, or an individualized sanctions violation.",
+        "The relevant Member State response is preserved: China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Choe Chun Pom, listed by OFAC as CHOE, Chun Pom with alternate romanization CH'OE, Ch'un-po'm, is the Central Bank representative described in Treasury's November 2025 sanctions action. Preserve the administrative designation and historical source context. A separate exact-ID OFAC address row supports China as designation-era location context; present location and same-named public-account ownership require separate evidence, and the administrative record supplies no criminal-guilt finding."
+}

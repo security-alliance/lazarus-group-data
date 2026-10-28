@@ -1,0 +1,72 @@
+{
+  "id": "dfef-cluster-alex-duplicate-persona-shortlist",
+  "type": "cluster",
+  "name": "Alex-reported duplicate-persona shortlist at an unnamed defense contractor",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure with defensive guidance; legal attribution remains at source and service level.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFEF-S03"
+    ]
+  },
+  "ttps": [
+    "fabricated-employment-history",
+    "false-location",
+    "multiple-personas"
+  ],
+  "caveats": [
+    "Alex's source-level label identifies the actor as North Korean; government attribution and person-level identity require separate evidence. The unnamed customer remains generic despite its self-described sector.",
+    "No exact incident match was found in the excluded prior packages. Similar multiple-persona behavior exists, so this is normalized as an unnamed cluster rather than a person.",
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims.",
+    "The source describes visual similarity; the record relies on textual description, with biometric identity assessment outside scope."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-unnamed-incident",
+      "statements": [
+        "Alex reports that an unnamed U.S. defense contractor shortlisted two remote technical candidates who appeared to be the same person on video while using different names and employment claims. Shared face and background, changed clothing, thin digital footprints, and location mismatch exposed the parallel identities.",
+        "Apply multiple times to one organization under separate identities",
+        "Reuse the same interview environment while changing clothing and biographical claims",
+        "Maintain thin or newly established digital footprints",
+        "Present location data inconsistent with the claimed identity"
+      ],
+      "limitations": [
+        "Alex labels the actor North Korean but does not publish government attribution or enough evidence to identify a person. The unnamed customer should remain generic despite its self-described sector.",
+        "No exact incident match was found in the excluded prior packages. Similar multiple-persona behavior exists, so normalize as an unnamed cluster rather than a person."
+      ],
+      "source_ids": [
+        "DFEF-S03"
+      ]
+    },
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Correlate duplicate applicants across the same pipeline using privacy-respecting identity-continuity review",
+        "Compare repeated interview environment and identity signals only with authorized access and human review",
+        "Evaluate location, email, phone, and profile signals together rather than as automatic rejection rules"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S03"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "DFEF-S03",
+      "support": "Alex reports that an unnamed U.S. defense contractor shortlisted two remote technical candidates who appeared to be the same person on video while using different names and employment claims. Shared face and background, changed clothing, thin digital footprints, and location mismatch exposed the parallel identities. Correlate duplicate applicants across the same pipeline using privacy-respecting identity-continuity review Compare repeated interview environment and identity signals only with authorized access and human review Evaluate location, email, phone, and profile signals together rather than as automatic rejection rules",
+      "locator": "The Case; Where Traditional Hiring Breaks Down; Catching Fraud Before the First Interview"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

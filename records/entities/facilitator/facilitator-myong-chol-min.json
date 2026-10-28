@@ -1,0 +1,237 @@
+{
+  "id": "facilitator-myong-chol-min",
+  "type": "facilitator",
+  "name": "Myong Chol Min",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here: a financial facilitator for Korea Sobaeksu network. This is an administrative sanctions designation; the record carries no criminal charge or conviction.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-264fee881740",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Myong Chol Min",
+  "locations": [
+    "North Korea (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The country is sanctions-list context; current presence remains unresolved."
+  ],
+  "lazarus_group_routes": [
+    "facilitator-myong-chol-min"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-264fee881740",
+      "support": "OFAC designated Korea Sobaeksu Trading Company, Kim Se Un, Jo Kyong Hun, and Myong Chol Min for sanctions evasion and IT-worker revenue schemes",
+      "locator": "Overseas Trading and IT Worker Networks section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 54762 support only the retained coarse sanctions-list location values. The country is sanctions-list context and does not establish current presence. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 54762"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 54762 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add North Korea country listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 54762"
+    },
+    {
+      "source_id": "dln26-s03"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-myong-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "MYONG, Chol Min",
+        "display": "Myong Chol Min"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 54762",
+          "quote": "54762,\"MYONG, Chol Min\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "The OFAC entity number binds the primary name to the current row; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-myong-hangul-name-form",
+      "type": "identity_name",
+      "predicate": "ofac_listed_hangul_name_form",
+      "value": {
+        "hangul": "명철민",
+        "ofac_entity_number": "54762"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s03",
+          "locator": "Specially Designated Nationals List Update, Myong entry",
+          "quote": "MYONG, Chol Min (Hangul: 명철민)"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Official source-scoped Hangul name form; it is not used to merge another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-myong-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK4",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 54762",
+          "quote": "54762,\"MYONG, Chol Min\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-myong-trade-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_trade_representative_role",
+      "value": {
+        "role": "trade representative",
+        "organization_scope": "multiple DPRK-based companies",
+        "source_country_descriptor": "North Korea-based"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "Myong Chol Min is a North Korea-based trade representative of multiple DPRK-based companies"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury designation-time report; no company name, present role, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-myong-kim-business-facilitation",
+      "type": "relationship",
+      "predicate": "treasury_reported_business_facilitation_with",
+      "value": {
+        "related_person": "Kim Se Un",
+        "reported_purpose": "facilitate business deals and avoid sanctions to generate DPRK revenue"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "has worked closely with Kim Se Un in order to facilitate various business deals and avoid sanctions to generate revenue for the DPRK."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury administrative report; no company, transaction, account, payment, or counterparty selector is retained."
+      ]
+    },
+    {
+      "id": "claim-myong-import-attempt",
+      "type": "incident",
+      "predicate": "treasury_reported_import_facilitation_attempt",
+      "value": {
+        "reported_activity": "attempted to facilitate imports of tobacco and other products to North Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "Myong Chol Min has also attempted to facilitate the import of tobacco and other products to North Korea."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury administrative report, not an adjudicated criminal fact. No shipment, company, route, payment, or counterparty selector is retained."
+      ]
+    },
+    {
+      "id": "claim-myong-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-07-24",
+        "authority_basis": "Executive Order 13810",
+        "basis": "North Korean person engaged in commercial activity generating revenue for the DPRK government or Workers Party of Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section",
+          "quote": "OFAC is designating Myong Chol Min pursuant to E.O. 13810 for being a North Korean person, including a North Korean person that has engaged in commercial activity that generates revenue for the Government of North Korea or the Workers Party of Korea."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-myong-tocrp-reward-offer",
+      "type": "legal_event",
+      "predicate": "state_department_tocrp_reward_offer",
+      "value": {
+        "program": "Transnational Organized Crime Rewards Program",
+        "maximum_amount_usd": 3000000,
+        "condition": "information leading to Myong Chol Min's arrest and/or conviction",
+        "individual_subject": true
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas Trading and IT Worker Networks section, paragraph following Myong's designation basis",
+          "quote": "The State Department, under the Transnational Organized Crime Rewards Program, authorized a reward offer up to $3 million for information leading to Myong Chol Min’s arrest and/or conviction."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "This is an individual reward-program offer with a maximum amount and an exact arrest-and/or-conviction condition. It is not an adjudication, sentence, guaranteed payment, present-location statement, or finding of guilt.",
+        "The Record's broader bounty-for-whereabouts wording was not retained; the official Treasury-published State Department condition controls."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Myong Chol Min, listed by OFAC as MYONG, Chol Min with Hangul name 명철민, is the trade representative and sanctions-evasion facilitator described in Treasury's July 2025 sanctions action. The record preserves the administrative-designation and designation-time role posture; criminal guilt, present location, and same-named public-account ownership status are unreported."
+}

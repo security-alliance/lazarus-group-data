@@ -1,0 +1,106 @@
+{
+  "id": "daiki-saito",
+  "real_name": "Daiki Saito",
+  "aliases": [
+    "James Ling",
+    "Smart Ninja",
+    "DevSCNinja",
+    "coppn",
+    "lcoppn",
+    "0x.bejaxer",
+    "eratos1123",
+    "eratos1122",
+    "cobang",
+    "bejaxer"
+  ],
+  "fake_names": [
+    "Anthony Keller"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "0x.bejaxer@gmail.com",
+    "eratos1123@gmail.com"
+  ],
+  "telegram": [
+    {
+      "usernames": [
+        "@lcoppn"
+      ],
+      "id": "749123222"
+    }
+  ],
+  "websites": [
+    "https://remote3.co/p/daiki-saito",
+    "https://daiki-saito.herokuapp.com/",
+    "https://stack.money/asset/hector-dao",
+    "https://x.com/MagicCraftGame/status/1532587886234652673",
+    "https://x.com/MagicCraftGame/status/1527876841868087302",
+    "https://www.coindesk.com/tech/2024/10/02/how-north-korea-infiltrated-the-crypto-industry",
+    "https://medium.com/@CryptoSavingExpert/in-depth-review-of-five-new-play-to-earn-games-part-9-magic-craft-professionalism-df7bc9c4b2de"
+  ],
+  "employment": [
+    {
+      "company": "Truflation"
+    },
+    {
+      "company": "Hector Network"
+    },
+    {
+      "company": "MagicCraft"
+    },
+    {
+      "company": "Sushi/Miso"
+    },
+    {
+      "company": "Yearn/Coordinape"
+    }
+  ],
+  "linkedin": [
+    {
+      "id": [
+        "anthony-keller-022486183"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "cobang"
+    },
+    {
+      "gh_id": "bejaxer"
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x4717Af66032b1Dbc35d9b1182F9240994A11bf01",
+        "0x482C9f85644f1686C490D38291511657da767e61"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/daiki-saito/daiki-saito-magiccraft-1.png",
+      "short_description": "Daiki Saito from MagicCraft team.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/daiki-saito/daiki-saito-magiccraft-2.jpeg",
+      "short_description": "Daiki Saito from MagicCraft team.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/daiki-saito/1439093300242239490.png",
+      "short_description": "Profile picture of Daiki Saito.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

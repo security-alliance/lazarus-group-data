@@ -1,0 +1,330 @@
+{
+  "id": "facilitator-hoang-van-nguyen",
+  "type": "facilitator",
+  "name": "Hoang Van Nguyen",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Vietnam-based bank-account and cryptocurrency facilitator; this is an administrative sanctions designation, with no criminal charge or conviction on record.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-1bfbb0e72fae",
+      "gov-54cada63e515",
+      "gov-ded09ec68479",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Hoang Van Nguyen",
+  "locations": [
+    "Vietnam (OFAC-listed country; not a present-location inference)"
+  ],
+  "caveats": [
+    "OFAC's designation is an administrative action; this record carries no criminal charge or conviction. Vietnam is source-listed country context as of the cited sanctions records; current residence, presence, and activity require separate sources, and account, wallet, and transaction selectors are excluded from the public record."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "Treasury reports that Hoang Van Nguyen assisted Kim Se Un in opening bank accounts and enabling cryptocurrency transactions, worked with Kim to procure foreign currency, and in 2022 facilitated a counterfeit-cigarette deal exceeding $200,000 on Kim's behalf. These are administrative-source assessments, not adjudicated findings, and no account, wallet, or transaction selector is retained",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Vietnam for OFAC entity number 57055 without a city or street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 57055"
+    },
+    {
+      "source_id": "gov-ded09ec68479",
+      "support": "Recorded Future News independently names Hoang Van Nguyen among the sanctioned individuals and summarizes the U.S. accusation that he and Do Phi Khanh opened bank accounts receiving IT-worker funds. The article is a separate publisher but relies on official reporting and identifies no account",
+      "locator": "Paragraph naming Nguyen Quang Viet, Do Phi Khanh, and Hoang Van Nguyen"
+    },
+    {
+      "source_id": "gov-1bfbb0e72fae",
+      "support": "The official notice lists Hoang Van Nguyen at country-level Vietnam, links the entry to Kim Se Un, and records the E.O. 13382 administrative designation basis. The country is retained only as coarse listing context; birth, passport, government identifier, financial, and other sensitive selectors are excluded",
+      "locator": "Federal Register p. 12904, Hoang Van Nguyen entry and designation paragraph"
+    },
+    {
+      "source_id": "dln26-s09"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-hoang-van-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "display_name": "Hoang Van Nguyen",
+        "ofac_primary_name": "HOANG, Van Nguyen"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph",
+          "quote": "Hoang Van Nguyen"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "HOANG, Van Nguyen"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57055, fields 1-4",
+          "quote": "57055,\"HOANG, Van Nguyen\",\"individual\",\"NPWMD\""
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, individual entry 2",
+          "quote": "HOANG, Van Nguyen"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Official presentation variants of the same source-defined person; this does not resolve unrelated same-name people."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-treasury-shorthand",
+      "type": "alias",
+      "predicate": "treasury_reference_shorthand",
+      "value": {
+        "shorthand": "Hoang",
+        "scope": "Treasury March 12, 2026 press release"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph",
+          "quote": "Hoang Van Nguyen (Hoang)"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Release-specific shorthand. The current OFAC ALT.CSV export contains no alias row for entity number 57055, so this is not described as an OFAC-listed alias."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-kim-bank-account-assistance",
+      "type": "account",
+      "predicate": "treasury_reported_assistance_opening_bank_accounts",
+      "value": {
+        "person_enabled": "Kim Se Un",
+        "activity": "assisting with opening bank accounts"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph, bank-account clause",
+          "quote": "Hoang Van Nguyen (Hoang) also assists Kim in opening bank accounts"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "Linked To: KIM, Se Un"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, individual entry 2",
+          "quote": "Linked To: KIM, Se Un"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding and OFAC linked-to notation. No bank, account, jurisdiction, selector, present controller, or transaction is retained or inferred."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-kim-cryptocurrency-assistance",
+      "type": "wallet",
+      "predicate": "treasury_reported_enabling_cryptocurrency_transactions",
+      "value": {
+        "person_enabled": "Kim Se Un",
+        "activity": "enabling cryptocurrency transactions"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph, cryptocurrency clause",
+          "quote": "enabling cryptocurrency transactions for Kim"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "Linked To: KIM, Se Un"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "The source gives no blockchain, address, service, transaction, or present controller. No wallet selector is retained or inferred."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-foreign-currency-procurement",
+      "type": "incident",
+      "predicate": "treasury_reported_foreign_currency_procurement",
+      "value": {
+        "counterparty": "Kim Se Un",
+        "reported_beneficiary": "DPRK regime"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph",
+          "quote": "Hoang has worked with Kim to procure foreign currency for the DPRK regime"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury-reported conduct; no amount, financial institution, account, wallet, transaction, or criminal adjudication was established for this general activity."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-2022-counterfeit-cigarette-deal",
+      "type": "incident",
+      "predicate": "treasury_reported_counterfeit_goods_transaction",
+      "value": {
+        "year": 2022,
+        "goods": "counterfeit cigarettes",
+        "reported_amount": "exceeding $200,000",
+        "reported_on_behalf_of": "Kim Se Un"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang/Kim paragraph",
+          "quote": "in 2022, Hoang facilitated a counterfeit goods cigarette deal exceeding $200,000 on Kim’s behalf"
+        }
+      ],
+      "notes": [
+        "The source supplies only the year, general goods description, threshold amount, and reported relationship. No counterparties, accounts, transaction selectors, or adjudication were retained or inferred."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_under_nonproliferation_authority",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation",
+        "date": "2026-03-12",
+        "authority_basis": "Executive Order 13382",
+        "reported_basis": "support for Kim Se Un"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, designation sentence after the Do/Hoang/Kim paragraph",
+          "quote": "OFAC is designating Do and Hoang pursuant to E.O. 13382 for having provided, or attempted to provide, financial, material, technological or other support for, or goods or services in support of Kim."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "HOANG, Van Nguyen"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, Hoang designation paragraph",
+          "quote": "Designated pursuant to section 1(a)(iii) of E.O. 13382 for having provided, or attempted to provide, financial, material, technological or other support for, or goods or services in support of, KIM SE UN"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals and Blocked Persons List",
+        "program": "NPWMD",
+        "checked_at": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57055, fields 1-4",
+          "quote": "57055,\"HOANG, Van Nguyen\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current-list observation as of the access date; it does not establish criminal posture, present location, or current control of an account or wallet."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-ofac-listed-location",
+      "type": "location",
+      "predicate": "ofac_listed_coarse_location",
+      "value": {
+        "location": "Vietnam",
+        "precision": "coarse country-level only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, individual entry 2",
+          "quote": "HOANG, Van Nguyen, Vietnam"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 57055",
+          "quote": "\"Vietnam\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Exact-ID official listing context only. The retained country does not establish a city, street address, residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-hoang-van-independent-media-coverage",
+      "type": "note",
+      "predicate": "independently_published_designation_coverage",
+      "value": {
+        "publisher": "Recorded Future News",
+        "published_at": "2026-03-12",
+        "coverage": "Named Hoang Van Nguyen and summarized the U.S. bank-account accusation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ded09ec68479",
+          "locator": "Paragraph naming Nguyen Quang Viet, Do Phi Khanh, and Hoang Van Nguyen",
+          "quote": "Do Phi Khanh and Hoang Van Nguyen — two men accused of opening bank accounts that intake the funds earned by IT workers."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "This establishes a reputable second publisher for the public profile, not independent proof of the underlying conduct. The article relies on U.S. officials, identifies no account, and does not create an adjudicated finding."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Hoang Van Nguyen, listed by OFAC as HOANG, Van Nguyen and referenced by Treasury as Hoang, is the person Treasury reported as assisting sanctioned DPRK procurement facilitator Kim Se Un with bank-account, cryptocurrency, foreign-currency, and a 2022 counterfeit-cigarette transaction. Preserve those administrative-source allegations and designation posture; criminal guilt, present location, account or wallet control, and same-named-public-account identity remain unresolved."
+}

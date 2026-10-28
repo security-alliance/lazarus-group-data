@@ -1,0 +1,48 @@
+{
+  "id": "ldoc-indictment-domain-cluster-2024",
+  "type": "infrastructure",
+  "name": "Domains listed for forfeiture in the Yanbian/Volasys indictment",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment alleges the domains were property traceable to or involved in the charged offenses; allegations remain unproven unless adjudicated",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-05"
+    ]
+  },
+  "caveats": [
+    "Already-cataloged domains in the same forfeiture list were omitted.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "infrastructure": [
+    {
+      "type": "domain-set",
+      "identifier_type": "domain",
+      "count": 5,
+      "values": [
+        "blackishtech.com",
+        "bynolt.com",
+        "logictech-us.com",
+        "omegasoftware.us",
+        "thefox.cloud"
+      ],
+      "relationship": "reported-link",
+      "source_ids": [
+        "ldoc-05"
+      ],
+      "status": "historical",
+      "note": "Historical domains named in a DOJ forfeiture or seizure proceeding; current ownership, control, and maliciousness are not inferred."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-05",
+      "support": "The indictment alleges the domains were property traceable to or involved in the charged offenses; allegations remain unproven unless adjudicated",
+      "locator": "Indictment p. 33-34, forfeiture allegation ¶100(mmm), items XIX-XXIX"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

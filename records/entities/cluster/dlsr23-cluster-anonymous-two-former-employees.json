@@ -1,0 +1,57 @@
+{
+  "id": "dlsr23-cluster-anonymous-two-former-employees",
+  "type": "cluster",
+  "name": "Anonymous technology-platform two-former-employee investigation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Provider-authored anonymized client assessment; it supplies client context, while charge, adjudication, sanctions, and identity status require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DLSR23-S01-NISOS-NATION-STATE-EMPLOYMENT-FRAUD"
+    ]
+  },
+  "ttps": [
+    "copied-resume-language",
+    "cross-case-application-credential-reuse",
+    "cross-lifecycle-evidence-correlation",
+    "false-employment-documentation"
+  ],
+  "caveats": [
+    "Identity documents, emails, IP addresses, and application credentials are intentionally omitted.",
+    "The employer and former employees are unnamed; identity resolution remains outside the record's scope.",
+    "The source describes Nisos’s assessment; it supplies no public charge, conviction, sanctions designation, or judicial finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-bounded-employment-fraud-observation",
+      "statements": [
+        "A major unnamed technology-platform client investigated two former employees who had supplied false employment documentation.",
+        "Nisos reports copied resume language, limited social presence, and reuse of application credentials and network-origin evidence associated with North Korean threat actors.",
+        "Nisos assessed the two individuals as likely associated and part of a DPRK remote-employment effort; the client terminated them and provided intelligence to law enforcement."
+      ],
+      "limitations": [
+        "The employer and former employees are unnamed; do not attempt identity resolution.",
+        "The source describes Nisos’s assessment, not a public charge, conviction, sanctions designation, or judicial finding.",
+        "Identity documents, emails, IP addresses, and application credentials are intentionally omitted."
+      ],
+      "source_ids": [
+        "DLSR23-S01-NISOS-NATION-STATE-EMPLOYMENT-FRAUD"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DLSR23-S01-NISOS-NATION-STATE-EMPLOYMENT-FRAUD",
+      "support": "Nisos states that a major technology-platform client and its legal counsel investigated two former employees who had supplied false employment documentation and behaved suspiciously. Nisos reports falsified identity documents, copied resume language, limited social presence, and reuse of application credentials and network-origin evidence associated with North Korean threat actors. Nisos assessed the two individuals as likely associated with one another and part of a DPRK remote-employment effort, and states that the client terminated them and supplied actionable intelligence to law enforcement. Evidence boundary: An anonymized provider-authored client success account. It does not name the employer or workers, publish a charge or adjudication, or establish that every cited signal independently proves DPRK affiliation",
+      "locator": "Situation; Why Nisos; Impact"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ttp-kudelski-fraud-playbook",
+  "type": "ttp",
+  "name": "Kudelski external-developer, document-package, hosting, and cash-out playbook",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher research assessment; legal charge, conviction, and verified legal-identity status remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "kudelski-2026-02-24-fraud-playbook"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "cryptocurrency-salary",
+    "forged-identity-document",
+    "money-laundering"
+  ],
+  "caveats": [
+    "Describe the workflow defensively; document templates, images, file samples, prices, and operational instructions stay out of retained material.",
+    "Retain only the payment-rail abstraction. Exclude wallets, balances, transaction paths, timing, and cash-out instructions.",
+    "Retain role and geography abstractions only. Individual names, addresses, identity-document material, and contact details are excluded.",
+    "Retain the named entity relationship and service-role abstraction only; omit credentials, endpoints, configuration, and access details.",
+    "The report describes observed and assessed role patterns. The record retains no individual names, identity documents, raw logs, payment details, wallet material or precise infrastructure."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Kudelski describes recruitment of ordinary developers in Iran, Syria, and South Africa through LinkedIn followed by migration to WhatsApp, plus a structured ecosystem of assistants, HR screeners, callers, interviewees, subcontracted developers, local persons, and supporters. Local persons may provide identity/account/address support, handle corporate equipment, sign forms, or host laptops; callers may take interviews under another persona and manage communications or VPN services.",
+        "Kudelski reports use of data brokers and editable document-image packages to support job-platform, social-media, interview, and background-check verification bypass, with persona switching between interviews and worker roles.",
+        "Kudelski reports that suspected DPRK IT workers had developer-level access to the sanctioned hosting service Funnull and maintained or fixed its Goedge CDN-based delivery infrastructure, linking employment-fraud labor to a broader cybercrime-support ecosystem.",
+        "Kudelski assessed automated TRX-to-USDT flows as supporting cash-out and infrastructure maintenance through a company-designated account."
+      ],
+      "source_ids": [
+        "kudelski-2026-02-24-fraud-playbook"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "kudelski-2026-02-24-fraud-playbook",
+      "support": "Kudelski describes recruitment of ordinary developers in Iran, Syria, and South Africa through LinkedIn followed by migration to WhatsApp, plus a structured ecosystem of assistants, HR screeners, callers, interviewees, subcontracted developers, local persons, and supporters. Local persons may provide identity/account/address support, handle corporate equipment, sign forms, or host laptops; callers may take interviews under another persona and manage communications or VPN services. Kudelski reports use of data brokers and editable document-image packages to support job-platform, social-media, interview, and background-check verification bypass, with persona switching between interviews and worker roles. Kudelski reports that suspected DPRK IT workers had developer-level access to the sanctioned hosting service Funnull and maintained or fixed its Goedge CDN-based delivery infrastructure, linking employment-fraud labor to a broader cybercrime-support ecosystem. Kudelski assessed automated TRX-to-USDT flows as supporting cash-out and infrastructure maintenance through a company-designated account",
+      "locator": "Summary; Understanding the environment around fake IT workers; Figure 2: Table and definition of each role within the cybercrime structure; Links with non-state backed cybercrime; Financial analysis"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "front-company-norihsoft",
+  "type": "front_company",
+  "name": "Norihsoft",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT lists or describes this organization in its account of overseas labour and sanctions evasion; the report supplies organizational context rather than a criminal conviction.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "Source-bounded organization record; merge similar names only with an explicit source link.",
+    "This record retains no street addresses, payment selectors, or private contact data."
+  ],
+  "identity_boundary": "The organization label Norihsoft is reported by MSMT; linkage to another entity requires an explicit source link.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Norihsoft.",
+      "locator": "PDF p. 60, Annex A Chinese organizations"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-front-company-norihsoft",
+      "type": "organization_affiliation",
+      "predicate": "annex_organization",
+      "value": {
+        "organization": "Norihsoft"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 60, Annex A Chinese organizations",
+          "quote": "Norihsoft"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

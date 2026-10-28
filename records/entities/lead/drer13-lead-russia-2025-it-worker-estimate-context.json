@@ -1,0 +1,46 @@
+{
+  "id": "drer13-lead-russia-2025-it-worker-estimate-context",
+  "type": "lead",
+  "name": "Russia 2025 DPRK IT-worker estimate and planned-inflow context",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "These are participating-state estimates and prospective plans reported by MSMT; arrival counts, Russian government findings, worker entry, and performed IT work remain unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "Russia"
+  ],
+  "caveats": [
+    "This source-bounded report covers its cited context; Russian enforcement, host-company knowledge, completed implementation, current operating status, nationality, and criminal liability fall outside its findings.",
+    "The source leaves the scope of contemplated workers' entry into Russia, continued stay, IT work, and identity use unresolved.",
+    "The IT-worker count excludes general construction, industrial, and other labor deployments.",
+    "These are estimates and plans reported by MSMT participating states; verified Russian arrival counts require separate evidence.",
+    "This is aggregate or contract-level context; profiles for listed entity types require person- or case-specific sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-country-deployment-estimate",
+      "statement": "MSMT participating states estimated that 150–300 DPRK IT workers were active in Russia in early 2025 and assessed that Russia could receive 350–1,800 DPRK IT workers during 2025. The report separately described a plan involving more than 40,000 DPRK workers across multiple occupations; that larger figure is not an IT-worker count.",
+      "timeframe": "Early 2025 estimate and 2025 prospective inflow",
+      "evidence_class": "official multilateral report based on participating-state information",
+      "attribution_boundary": "These are participating-state estimates and prospective plans reported by MSMT, not verified arrival counts, Russian government findings, or proof that contemplated workers entered Russia or performed IT work.",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT participating states estimated that 150–300 DPRK IT workers were active in Russia in early 2025 and assessed that Russia could receive 350–1,800 DPRK IT workers during 2025. The report separately described a plan involving more than 40,000 DPRK workers across multiple occupations; that larger figure is not an IT-worker count",
+      "locator": "Report p. 56 / PDF p. 58 and report pp. 63-64 / PDF pp. 65-66"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

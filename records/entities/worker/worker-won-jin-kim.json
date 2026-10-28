@@ -1,0 +1,273 @@
+{
+  "id": "worker-won-jin-kim",
+  "type": "worker",
+  "name": "Won-Jin Kim",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "GitLab-assessed North Korean national and cell member in the Beijing-based Kil-Nam Kang cell",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-gitlab-2026-tradecraft"
+    ]
+  },
+  "legal_or_reported_name": "Won-Jin Kim",
+  "organizations": [
+    "Kil-Nam Kang Beijing IT-worker cell"
+  ],
+  "locations": [
+    "Beijing, China"
+  ],
+  "ttps": [
+    "organized remote-employment fraud cell"
+  ],
+  "caveats": [
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The 345 GitLab-published account indicators remain in a separate cluster because the source maps each value at cluster level rather than one-to-one to this individual.",
+    "The name and role are transcribed from GitLab’s assessed organization-chart figure; this dataset uses source transcription rather than facial recognition."
+  ],
+  "images": [
+    {
+      "source_id": "vendor-gitlab-2026-tradecraft",
+      "source_url": "https://about.gitlab.com/blog/gitlab-threat-intelligence-reveals-north-korean-tradecraft/",
+      "caption": "GitLab-assessed organization chart containing the printed label Won-Jin Kim; no facial recognition was performed.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-gitlab-2026-tradecraft",
+      "support": "GitLab explicitly labels this North Korean national as cell member in Kil-Nam Kang’s Beijing-based IT-worker cell. The name is transcribed from GitLab’s public figure; no facial recognition was used",
+      "locator": "Case Study 1, assessed organization-chart figure"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-won-jin-kim-chart-name",
+      "type": "identity_name",
+      "predicate": "publisher_chart_displayed_worker_name",
+      "value": {
+        "displayed_name": "Won-Jin Kim",
+        "identity_status": "source-assessed figure-transcribed worker label"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, printed member label",
+          "quote": "Won-Jin Kim"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The printed label is not independently verified as a legal or civil identity."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-source-assessed-nationality",
+      "type": "note",
+      "predicate": "publisher_assessed_worker_nationality",
+      "value": {
+        "assessed_nationality": "North Korean",
+        "assessment_not_adjudication": true
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Won-Jin Kim member label",
+          "quote": "Won-Jin Kim"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, organization-chart caption",
+          "quote": "Assessed organization chart of the North Korean IT worker cell managed by Kil-Nam Kang."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "GitLab's assessed nationality applied through the organization-chart and cell context; no government identity verification or legal adjudication was found."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-kil-nam-cell-membership",
+      "type": "relationship",
+      "predicate": "publisher_chart_assessed_cell_membership",
+      "value": {
+        "cell_manager": "Kil-Nam Kang",
+        "role": "cell member",
+        "historical_source_assessment": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Won-Jin Kim node",
+          "quote": "Won-Jin Kim"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, organization-chart caption",
+          "quote": "Assessed organization chart of the North Korean IT worker cell managed by Kil-Nam Kang."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Historical chart relationship only; present membership is not asserted."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-cell-location-context",
+      "type": "location",
+      "predicate": "publisher_assessed_cell_location_context",
+      "value": {
+        "assessed_cell_location": "Beijing, China",
+        "scope": "cell-level during investigated period",
+        "individual_present_location": null
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Won-Jin Kim node",
+          "quote": "Won-Jin Kim"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, Summary, final sentence",
+          "quote": "We assess that the cell is highly likely colocated and operating from Beijing, China."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Cell-level vendor assessment only. It does not establish Won-Jin Kim's present or residential location."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-personnel-designation",
+      "type": "organization_affiliation",
+      "predicate": "publisher_reported_cell_dossier_designation",
+      "value": {
+        "designation": "Researcher at Kim Il-sung University Joint Research Center in Beijing",
+        "source_context": "personnel-dossier designation",
+        "employment_verified": false
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1 assessed organization chart, Won-Jin Kim member label",
+          "quote": "Won-Jin Kim"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, personnel-dossier designation paragraph",
+          "quote": "Personnel dossiers list each of the cell members as “베이징주재 김일성종합대학 공동연구중심 연구사”, translating to “Researcher at Kim Il-sung University Joint Research Center in Beijing”."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Source-reported dossier designation, not independently verified university employment or affiliation."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-dropped-from-q3-tracking",
+      "type": "incident",
+      "predicate": "publisher_reported_removed_from_performance_tracking",
+      "value": {
+        "period": "2025-Q3",
+        "activity": "dropped from cell income-performance tracking"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, Key findings, Q3 2025 cell-income paragraph",
+          "quote": "In Q3 2025, cell member Won-Jin Kim was dropped from tracking"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Historical source report about the project's internal tracking, not a present-status assertion."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-return-directory",
+      "type": "incident",
+      "predicate": "publisher_reported_document_directory_reclassification",
+      "value": {
+        "period": "2025-Q3",
+        "directory_label_korean": "귀국",
+        "publisher_translation": "Return to the home country",
+        "physical_return_verified": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, Key findings, Q3 2025 cell-income paragraph",
+          "quote": "his documentation was shifted to a directory marked “귀국” (“Return to the home country”)"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The directory label is retained because it is part of GitLab's individualized finding. It does not verify a physical move, destination, current location, or nationality beyond the publisher's assessment."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-publisher-assessed-cell-departure",
+      "type": "incident",
+      "predicate": "publisher_assessed_historical_cell_departure",
+      "value": {
+        "assessment": "departure from the cell",
+        "period_context": "2025-Q3 tracking change",
+        "present_status_inferred": false
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, Key findings, Q3 2025 cell-income paragraph",
+          "quote": "Won-Jin Kim’s departure from the cell"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "GitLab's characterization of the historical record change; not independently verified and not a current-status claim."
+      ]
+    },
+    {
+      "id": "claim-won-jin-kim-departure-not-revenue-related",
+      "type": "incident",
+      "predicate": "publisher_assessed_departure_reason_not_revenue_performance",
+      "value": {
+        "assessment": "departure unlikely related to revenue-generation performance",
+        "basis": "consistently high earnings relative to other members"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, Key findings, Q3 2025 cell-income paragraph",
+          "quote": "We assess that Won-Jin Kim’s departure from the cell is unlikely to relate to revenue generation performance based on consistently high earnings relative to other members."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Vendor assessment only. No individual earnings amount, account, employer, or financial selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Won-Jin Kim is a figure-transcribed, GitLab-assessed worker identity in the Kil-Nam Kang cell; civil identity, present location, physical return, current cell membership, and GitLab's separately published account indicators require source evidence. The Q3 2025 tracking change and directory label are historical source reports."
+}

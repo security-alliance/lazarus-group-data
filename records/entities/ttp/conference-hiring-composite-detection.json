@@ -1,0 +1,112 @@
+{
+  "id": "conference-hiring-composite-detection",
+  "type": "ttp",
+  "name": "Hiring-lifecycle composite detection for DPRK IT-worker applicants",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Buonanno presents a concrete composite-scoring framework. First-party platform control and threat-research guidance provide defensive context, while the BSides Pyongyang parody talk warns that simplistic “expert” indicators can be weaponized against legitimate applicants; identity attribution and measured control effectiveness require other evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S3",
+      "CM-S4",
+      "CM-S8",
+      "DFP-S08",
+      "DFP-S10",
+      "DFP-S11"
+    ]
+  },
+  "organizations": [
+    "BSides Pyongyang",
+    "BSides Seattle"
+  ],
+  "ttps": [
+    "Avoid simplistic nationality, accent, geography, camera, or résumé-format heuristics as standalone rules",
+    "Back-propagate confirmed recruiter fraud labels across shared applicant identifiers",
+    "coding-test-outsourcing",
+    "Correlate applicant emails, phone numbers, IPs, social profiles, coding-platform telemetry, and recruiter labels",
+    "Define an incident-response playbook for already-hired workers",
+    "Flag fresh email accounts and VoIP numbers only as components of a broader score",
+    "inconsistent-language-or-timezone",
+    "interview-assistance",
+    "proxy-interviewee",
+    "Retain a human risk owner for late-stage rejection or investigation decisions",
+    "Treat shared identifiers across substantially different candidate names as a stronger signal",
+    "Use account age, breach history, and established legitimate service history as possible negative evidence"
+  ],
+  "caveats": [
+    "Candidate-cheating indicators are nonspecific; combine multiple validated signals and retain human review.",
+    "Composite signals require validation and bias testing.",
+    "Geography, accent, camera quality, and language proficiency are contextual signals; nationality requires cited source evidence.",
+    "Nationality, accent, language proficiency, geography, camera use, and résumé style are contextual features for review; demographic decisions require independent evidence, with no standalone rule based on them.",
+    "Greenhouse warns that a VOIP number or location mismatch alone is fraud-indeterminate; these are triage signals requiring attribution and nationality evidence.",
+    "The article is broad hiring guidance rather than DPRK-specific telemetry, and some examples cite third-party reporting.",
+    "The BSides Seattle event page returned HTTP 404 on 2026-08-12 and is retained only as last-known historical provenance; the live official recording with timestamps is the claim-bearing source.",
+    "The BSides Seattle recording and historical event page document one presentation and form one source family; corroboration remains within that family."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Greenhouse describes surfacing phone, email, IP, location, repeated-pattern, disposable-contact, and VOIP risk signals inside the applicant workflow, with blocklists and recruiter review rather than automatic rejection."
+      ],
+      "limitations": [
+        "Greenhouse expressly warns that a VOIP number or location mismatch is not itself fraud. These are triage signals, not attribution or nationality indicators."
+      ],
+      "source_ids": [
+        "DFP-S10",
+        "DFP-S11"
+      ]
+    },
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "LinkedIn highlights deepfake face/voice masking, human stand-ins, live AI assistance during technical interviews, automated tailored applications, and reused unproctored assessments as a combined hiring-integrity risk."
+      ],
+      "limitations": [
+        "The article is broad hiring guidance, not DPRK-specific telemetry, and some examples cite third-party reporting."
+      ],
+      "source_ids": [
+        "DFP-S08"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-hiring-composite-detection"
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S4",
+      "support": "Last-known official event-page provenance for the talk title, abstract, and speaker; it is not the sole support for any retained claim",
+      "locator": "Event abstract and speaker biography | Availability note (2026-08-12): the official event page returned HTTP 404; retained only as stale historical provenance because no exact official replacement or archive was verified"
+    },
+    {
+      "source_id": "DFP-S10",
+      "support": "Greenhouse describes combining phone, email, IP, location, repeated-pattern, disposable-contact, and VoIP signals in the ATS, using recruiter review rather than automatic rejection",
+      "locator": "What Real Talent actually does about fraud; Fraud signals you can see and act on"
+    },
+    {
+      "source_id": "DFP-S11",
+      "support": "Greenhouse describes combining phone, email, IP, location, repeated-pattern, disposable-contact, and VoIP signals in the ATS, using recruiter review rather than automatic rejection",
+      "locator": "Candidate chaos; Meet Real Talent; CLEAR update"
+    },
+    {
+      "source_id": "DFP-S08",
+      "support": "LinkedIn Talent Solutions describes deepfake face or voice masking, human stand-ins, live AI assistance, automated tailored applications, and reused unproctored assessments as generic hiring-integrity risks",
+      "locator": "'What are we up against?'; 'What's coming?'; employer checklist"
+    },
+    {
+      "source_id": "CM-S3",
+      "support": "Official BSides Seattle recording of Jesse Buonanno’s systematic hiring-lifecycle detection framework and a worked example involving a source-labeled DPRK candidate named Bryant",
+      "locator": "17:33–20:37 worked Bryant example; 13:30–17:32 composite detection; 20:37–23:31 controls"
+    },
+    {
+      "source_id": "CM-S8",
+      "support": "Official conference-channel recording. The speaker explicitly labels the presentation parody and critiques simplistic hiring indicators rather than publishing an actor case",
+      "locator": "00:15–01:48 parody/disclaimer; 04:53–19:42 critique and defensive recommendations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

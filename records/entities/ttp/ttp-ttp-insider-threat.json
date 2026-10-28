@@ -1,0 +1,66 @@
+{
+  "id": "ttp-ttp-insider-threat",
+  "type": "ttp",
+  "name": "TTP-INSIDER-THREAT",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official regional guidance covering a regional pattern; named actor, employer, account, and front company remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ML-DEU-BFV-2025-REPORT",
+      "int-deu-bfv-2024",
+      "int-gbr-ofsi-2024",
+      "int-rok-mofa-2026-joint"
+    ]
+  },
+  "ttps": [
+    "cryptocurrency-salary",
+    "Data exfiltration, sensitive-information theft, cryptocurrency theft, malware placement, and extortion using proprietary source code after employment access.",
+    "trade-secret-theft"
+  ],
+  "caveats": [
+    "The cited material leaves the affected German employer and worker unidentified.",
+    "Possible broader DPRK-Russia infrastructure overlap is excluded from screening guidance because the material supplies context rather than a worker-attribution rule.",
+    "The information-loss and espionage language is a risk assessment; placement-level exfiltration requires case evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "regional-source-context",
+      "statements": [
+        "Germany's 2025 domestic-intelligence report states that German companies had already employed concealed DPRK IT specialists, some working directly from the DPRK and others from abroad. It assesses that their deep system access can support sanctions evasion and may also enable sensitive-information loss and DPRK espionage. The report additionally notes possible limited technical overlap between DPRK and Russian cyber activity through shared infrastructure, but does not attribute any worker persona or employer by name."
+      ],
+      "source_ids": [
+        "ML-DEU-BFV-2025-REPORT"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "int-gbr-ofsi-2024",
+      "support": "OFSI lists threats to release proprietary source code, cryptocurrency theft, and maintaining company-network access for hacking or extortion",
+      "locator": "pp. 7-8 | Original official publication page: https://www.gov.uk/government/publications/north-korean-it-workers-advisory-signs-to-watch-for"
+    },
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "The joint alert warns that workers may abuse employment access to steal sensitive information, place malware, or support extortion and other malicious activity",
+      "locator": "p. 1 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    },
+    {
+      "source_id": "ML-DEU-BFV-2025-REPORT",
+      "support": "Germany's BfV states that German companies had employed concealed DPRK IT specialists working from the DPRK or abroad and assesses that legitimate system access creates sanctions-evasion, sensitive-information-loss, and espionage risk; it also reports cryptocurrency compensation. No employer or worker is named",
+      "locator": "PDF pages 356-357, printed pages 354-355, section IT-Worker: Geld und Informationen gewinnen"
+    },
+    {
+      "source_id": "int-deu-bfv-2024",
+      "support": "BfV reports confirmed malware installation after workers received company equipment and threats to publish internal source code when payment demands were refused",
+      "locator": "pp. 2-3 | Original official publication page: https://www.verfassungsschutz.de/SharedDocs/publikationen/EN/economic-and-scientific-protection/2024-10-01-security-advisory.html"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

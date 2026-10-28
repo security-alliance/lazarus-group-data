@@ -1,0 +1,48 @@
+{
+  "id": "crypto-incident-solareum-2024",
+  "type": "cluster",
+  "name": "Solareum — public incident context",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "Unconfirmed researcher allegation; project-confirmation status remains open.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-skynet-crypto-report"
+    ]
+  },
+  "organizations": [
+    "Solareum"
+  ],
+  "ttps": [
+    "Privileged project access",
+    "User-wallet draining/rug-pull behavior"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "Keep quarantined from named records pending project/investigator primary evidence.",
+    "A 2026 sector report labels the event a rug pull by an IT worker; the reviewed record contains that sector report and its stated evidence trail, while project statement, named investigator evidence, and authoritative corroboration are absent.",
+    "The reviewed sector report states $1.1 million, while public incident datasets report approximately $1.4 million; retain on hold pending primary-source reconciliation."
+  ],
+  "infrastructure": [
+    {
+      "type": "payment-network",
+      "value": "Source-reported wallet/payment or exchange-deposit infrastructure; individual addresses intentionally omitted.",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-skynet-crypto-report"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-skynet-crypto-report",
+      "support": "Notable incidents include Munchables, Solareum, and Paid Network",
+      "locator": "Incident entries for Munchables, Solareum, and Paid Network in the DPRK IT-worker/crypto incident discussion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

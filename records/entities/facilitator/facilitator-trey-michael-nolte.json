@@ -1,0 +1,49 @@
+{
+  "id": "facilitator-trey-michael-nolte",
+  "type": "facilitator",
+  "name": "Trey Michael Nolte",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The indictment names Trey Michael Nolte as a co-conspirator and expressly records uncharged status in that document; conviction status remains unestablished.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded facilitator record for Trey Michael Nolte; kept separate from another person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports Trey Michael Nolte in the described scheme.",
+      "locator": "PDF p. 4 ¶8"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-trey-michael-nolte",
+      "type": "alias",
+      "predicate": "named_but_not_charged",
+      "value": {
+        "name": "Trey Michael Nolte",
+        "alias": "Nolte"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 4 ¶8",
+          "quote": "Trey Michael Nolte, (“Nolte”), named but not charged herein"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

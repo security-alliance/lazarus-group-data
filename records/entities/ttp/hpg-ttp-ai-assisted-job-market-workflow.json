@@ -1,0 +1,47 @@
+{
+  "id": "hpg-ttp-ai-assisted-job-market-workflow",
+  "type": "ttp",
+  "name": "AI-assisted job-market research, proposals, and freelance placement support",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Google platform-abuse research concerns activity associated with North Korea-backed actors; ordinary service use is routine platform context and needs separate attribution evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "hpg-s02"
+    ]
+  },
+  "ttps": [
+    "direct-application",
+    "fabricated-resume",
+    "freelance-platform",
+    "interview-assistance"
+  ],
+  "caveats": [
+    "Gemini, Monica, Ahrefs, Data Annotation Tech, LinkedIn, and Discord are common tools whose use requires contextual evidence.",
+    "Account identifiers and private platform data are excluded from the record."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Google observed a North Korea-backed group using Gemini to draft cover letters and work proposals, research LinkedIn jobs and average salaries, and seek information about freelancer communities and overseas employee exchanges.",
+        "Google separately observed DPRK IT-worker-linked accounts on assistive writing services Monica and Ahrefs and on Data Annotation Tech.",
+        "Google assessed the employment-related usage as likely supporting false-identity freelance or full-time placement; otherwise-common job research is not suspicious without independent attribution."
+      ],
+      "source_ids": [
+        "hpg-s02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "hpg-s02",
+      "support": "Google observed a North Korea-backed group using Gemini to draft cover letters and work proposals, research LinkedIn jobs and average salaries, and seek information about freelancer communities and overseas employee exchanges. Google separately observed DPRK IT-worker-linked accounts on assistive writing services Monica and Ahrefs and on Data Annotation Tech. Google assessed the employment-related usage as likely supporting false-identity freelance or full-time placement; otherwise-common job research is not suspicious without independent attribution",
+      "locator": "PDF pp. 16-18, North Korean government-backed actors / Clandestine IT worker threat; web article, DPRK IT Workers subsection"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

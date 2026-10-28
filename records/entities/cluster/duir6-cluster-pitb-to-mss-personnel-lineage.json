@@ -1,0 +1,69 @@
+{
+  "id": "duir6-cluster-pitb-to-mss-personnel-lineage",
+  "type": "cluster",
+  "name": "Reported PITB-to-MSS personnel-transfer lineage",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official MSMT reporting relays participating-state information about an organizational relationship; the record is administrative reporting, not a sanctions designation or criminal judgment.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "Ministry of State Security",
+    "Pyongyang Information Technology Bureau",
+    "Science and Education Department of the Workers' Party of Korea Central Committee"
+  ],
+  "locations": [
+    "Laos",
+    "North Korea"
+  ],
+  "ttps": [
+    "employment-cyber-function-boundary",
+    "it-worker-operation-expansion",
+    "organizational-transfer"
+  ],
+  "caveats": [
+    "Keep the precise office-location detail unpublished; former PITB worker conduct requires individual source evidence.",
+    "The report says DPRK-based Ministry of State Security teams conduct both remote IT work and malicious cyber operations; functional identity across every team or case remains unspecified.",
+    "The report's precise office-location detail is omitted; former PITB worker conduct requires individual source evidence.",
+    "The source describes a personnel and organizational relationship; PITB has no sanctions designation or criminal judgment in this source.",
+    "This is an organizational-context cluster; front-company profile, sanctions designation and criminal judgment require separate records."
+  ],
+  "aliases": [
+    {
+      "value": "PITB",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "duir6-msmt-2025-2"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "reported-organizational-lineage",
+      "statements": [
+        "MSMT identifies the Pyongyang Information Technology Bureau (PITB) as an IT-worker entity formerly under the Science and Education Department of the Workers' Party of Korea Central Committee.",
+        "MSMT reports that former PITB personnel based in Laos were transferred in 2023 to the Ministry of State Security to support expansion of IT-work operations.",
+        "The source describes DPRK-based Ministry of State Security teams as conducting remote IT work and malicious cyber operations, but does not establish that those functions were identical in every team or case."
+      ],
+      "evidence_class": "official MSMT report relaying participating-state information",
+      "source_ids": [
+        "duir6-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-msmt-2025-2",
+      "support": "Evidence class: official MSMT report relaying participating-state information. Source-qualified support: MSMT identifies the Pyongyang Information Technology Bureau (PITB; Korean name supplied in the report) as an IT-worker entity formerly under the Science and Education Department of the Workers' Party of Korea Central Committee. The report says former PITB personnel based in Laos were transferred to the Ministry of State Security in 2023 to support expansion of IT-work operations. It adds that at least one possible Ministry of State Security unit had established a Pyongyang office by 2023",
+      "locator": "MSMT/2025/2, report pp. 17-18 / PDF pp. 19-20, Ministry of State Security section"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

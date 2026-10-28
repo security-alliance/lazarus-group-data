@@ -1,0 +1,88 @@
+{
+  "id": "deep2-ttp-deep-ttp-10-explicit-overlap-requires-evidence",
+  "type": "ttp",
+  "name": "Employment-fraud and fake-interview malware clusters may overlap, but linkage must be source-specific",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources. First-party platform control or threat-research guidance is normalized as defensive context; technique mapping describes methods. Identity attribution and proof of control effectiveness are outside scope.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFP-S01",
+      "DFP-S02",
+      "deep2-ttp-deep-ttp-s10-unit42-2024-deep-ttp-10-explicit-overlap-requires-evidence",
+      "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-10-explicit-overlap-requires-evidence",
+      "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-10-explicit-overlap-requires-evidence"
+    ]
+  },
+  "caveats": [
+    "Employment fraud and fake-interview malware remain separate absent source-specific cluster, personnel, or infrastructure evidence.",
+    "False-positive caution: Shared infrastructure, hosting provider, malware family, or country attribution alone may be insufficient to prove the same operators.",
+    "False-positive caution: Threat-intelligence indicators age quickly and may be shared or reassigned. Avoid adverse employment decisions based only on technical IOCs.",
+    "Shared infrastructure, personas, or state objective can coexist; employment-persona status is determined separately for each account.",
+    "Shared state sponsorship or infrastructure can span malware and employment contexts; account classification requires source-specific linkage.",
+    "The GitHub fake-interview malware account list is intentionally omitted; the dataset treats it separately from employment-persona records.",
+    "This classification rule derives from the sources; personnel and infrastructure overlap remains an open question."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Provider disclosures must preserve campaign separation: GitHub's 2023 Jade Sleet account and npm list belongs to a malicious repository-invitation campaign, whereas GitLab's 2026 report contains both malware and distinct fraudulent-employment case studies. Account lists should inherit the source's case-study mapping rather than a broad 'DPRK IT worker' label."
+      ],
+      "limitations": [
+        "Shared infrastructure, personas, or state objective can coexist without making every account an employment persona."
+      ],
+      "source_ids": [
+        "DFP-S01",
+        "DFP-S02"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Unit 42 explicitly links CL-STA-0237 fake-worker activity to BeaverTail video-conference phishing, demonstrating that overlap can occur. UN S/2020/151 nevertheless provides a strong default separation, and Kudelski’s June 2026 article primarily describes recruiter-to-victim malware. Therefore, only explicit cluster-level or case-level evidence should merge the two phenomena."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s10-unit42-2024-deep-ttp-10-explicit-overlap-requires-evidence",
+        "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-10-explicit-overlap-requires-evidence",
+        "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-10-explicit-overlap-requires-evidence"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-cl-sta-0237",
+    "cluster-wagemole",
+    "deep2-ttp-deep-ttp-10-explicit-overlap-requires-evidence"
+  ],
+  "sources": [
+    {
+      "source_id": "DFP-S02",
+      "support": "GitHub's named 2023 accounts belong to a malicious repository-invitation campaign, while GitLab's 2026 reporting contains both malware and separate fraudulent-employment case studies. Account-level labels must inherit the source's case mapping",
+      "locator": "Executive summary; Year in Review; Case Studies 1-4; mitigations and appendices"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-10-explicit-overlap-requires-evidence",
+      "support": "UN Annex 29 supports default separation of IT-worker revenue activity from malicious cyber operations",
+      "locator": "Annex 29"
+    },
+    {
+      "source_id": "DFP-S01",
+      "support": "GitHub's named 2023 accounts belong to a malicious repository-invitation campaign, while GitLab's 2026 reporting contains both malware and separate fraudulent-employment case studies. Account-level labels must inherit the source's case mapping",
+      "locator": "Threat actor profile; Attack chain; What GitHub is doing; Indicators"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-10-explicit-overlap-requires-evidence",
+      "support": "Kudelski's reviewed campaign primarily describes recruiter-to-victim malware",
+      "locator": "Campaign summary and repository chain"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s10-unit42-2024-deep-ttp-10-explicit-overlap-requires-evidence",
+      "support": "Unit 42 provides a source-specific example of fake-worker and BeaverTail overlap",
+      "locator": "Executive Summary and attribution"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

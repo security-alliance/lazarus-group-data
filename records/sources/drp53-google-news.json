@@ -1,0 +1,12 @@
+{
+  "id": "drp53-google-news",
+  "publisher": "Google News",
+  "title": "Exact contextual discovery query for Derrik Goon and Eagle Vision/DPRK context",
+  "url": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22Derrik+Goon%22+%28%22Eagle+Vision%22+OR+EagleVision+OR+%22North+Korean%22%29",
+  "accessed_at": "2026-08-16",
+  "sha256": "0ab869c65a797ed6b0ee5ac0b909647502175cd3ce7891d7edc80f5b079e2e4f",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

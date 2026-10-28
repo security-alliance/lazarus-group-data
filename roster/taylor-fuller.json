@@ -1,0 +1,148 @@
+{
+  "id": "taylor-fuller",
+  "fake_names": [
+    "Taylor Fuller"
+  ],
+  "notes": "Security-research-reported persona or historical account; no legal identity attribution",
+  "github": [
+    {
+      "gh_id": "Ideal-Softer"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-saja-taylor-fuller",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Security-research-reported persona or historical account; no legal identity attribution",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Source-reported employment or online persona; do not present this label, account, or image as a verified civil identity.",
+      "No identity conclusion may be drawn from profile imagery or visual similarity.",
+      "Report as a Nisos-attributed persona, not a verified person's identity. Do not republish manipulated photos.",
+      "source-observed through 2025-05-01; current account ownership not assumed",
+      "This is a source-reported persona or account label, not a verified legal identity.",
+      "Professional networking profile account 'ideal-softer' (no URL retained).",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Taylor Fuller' is a common US name; unrelated real software professionals share it, including the GitHub user taylor-fuller, who is not connected to this record. This record refers only to the Ideal-Softer account, portfolio-ideal-softer.vercel.app, and the IWDL presentation identified by Nisos. The quoted portfolio sentence is on the /home route; the root path renders a JavaScript shell.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-a2cf3f705a9c",
+      "title": "Backed by Evidence: Unmasking the People Behind North Korea’s IT Worker Schemes",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/saja-dprk-employment-scam-network.pdf",
+      "date": "2025-05-01"
+    },
+    {
+      "id": "doc-github-ideal-softer-current",
+      "title": "GitHub user status: Ideal-Softer",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/Ideal-Softer"
+    },
+    {
+      "id": "doc-taylor-portfolio-current",
+      "title": "Taylor Fuller",
+      "publisher": "Vercel-hosted portfolio",
+      "url": "https://portfolio-ideal-softer.vercel.app/home"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-taylor-aff-iwdl",
+      "label": "Portfolio claimed development lead",
+      "category": "relationship",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 9, Taylor Fuller",
+          "quote": "The portfolio website claimed that Taylor Fuller led the development of the AFF service, as well as the website of software company, Inspiration With Digital Living (IWDL)."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-taylor-github-current",
+      "label": "Current public account metadata",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-ideal-softer-current",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"Ideal-Softer\""
+        },
+        {
+          "source_id": "doc-github-ideal-softer-current",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Taylor Fuller\""
+        },
+        {
+          "source_id": "doc-github-ideal-softer-current",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 6"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-taylor-github-history",
+      "label": "Researcher reported github profile claim",
+      "category": "account",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 10, Taylor Fuller",
+          "quote": "The GitHub account Ideal-Softer claimed over nine years of experience in web service and mobile applications."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-taylor-persona-artifacts",
+      "label": "Researcher reported persona artifacts",
+      "category": "identity_name",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 9, Taylor Fuller",
+          "quote": "Nisos identified a portfolio website, an active professional networking platform account, a GitHub account, and a software solutions company, which use digitally manipulated photos of the threat actor using the name Taylor Fuller and claiming to be located in the United States."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-taylor-portfolio-current",
+      "label": "Current page presents persona",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-taylor-portfolio-current",
+          "locator": "HTML page title",
+          "quote": "Taylor Fuller"
+        },
+        {
+          "source_id": "doc-taylor-portfolio-current",
+          "locator": "Home page, hero/about section",
+          "quote": "With over 9 years of software development experience and serving as the Lead Engineer of IWDL, I deliver high-quality, tailored solutions."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-taylor-researcher-reported-manipulated-persona-media",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-04-29",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "Taylor Fuller persona discussion",
+          "quote": "Nisos identified a portfolio website, an active professional networking platform account, a GitHub account, and a software solutions company, which use digitally manipulated photos of the threat actor using the name Taylor Fuller and claiming to be located in the United States."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

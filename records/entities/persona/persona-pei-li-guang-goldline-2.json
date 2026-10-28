@@ -1,0 +1,49 @@
+{
+  "id": "persona-pei-li-guang-goldline-2",
+  "type": "persona",
+  "name": "GOLDLINE 2",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded persona record for GOLDLINE 2; it remains separate from any person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports GOLDLINE 2 in the described scheme.",
+      "locator": "PDF p. 7 ¶19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-pei-li-guang-goldline-2",
+      "type": "alias",
+      "predicate": "source_reported_moniker",
+      "value": {
+        "persona": "GOLDLINE 2",
+        "source_reported_for": "PEI LI GUANG, also known by the online moniker “GOLDLINE 2,”"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 7 ¶19",
+          "quote": "PEI LI GUANG, also known by the online moniker “GOLDLINE 2,” resided in China."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

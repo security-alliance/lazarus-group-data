@@ -1,0 +1,43 @@
+{
+  "id": "gabriel-yiu",
+  "real_name": "Gabriel Yiu",
+  "aliases": [
+    "gabrielyiu"
+  ],
+  "gender": "male",
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "gabrielyiu",
+      "usernames": [
+        "gabrielyiu"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0xd80614feb54d49cf46cc861fc549fae0a05b3f7e"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/gabriel-yiu/gabriel-yiu-av.png",
+      "short_description": "Gabriel Yiu avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

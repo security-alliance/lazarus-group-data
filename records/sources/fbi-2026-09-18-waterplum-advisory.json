@@ -1,0 +1,14 @@
+{
+  "id": "fbi-2026-09-18-waterplum-advisory",
+  "publisher": "Federal Bureau of Investigation and partner agencies",
+  "title": "North Korean “WaterPlum,” commonly referred to as “Contagious Interview,” Cyber Actor Group Targeting IT Professionals; Activities of North Korean IT Workers in Japan, the United States and Europe",
+  "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korean-waterplum-commonly-referred-to-as-contagious-interview-cyber-actor-group-targeting-it-professionals-activities-of-north-korean-it-workers-in-japan-the-united-states-and-europe",
+  "published_at": "2026-09-18",
+  "accessed_at": "2026-10-18",
+  "sha256": "4703377852c124cc9184cb6b66fcb861c7a425ace410c0b5d1167f24c6ad2b93",
+  "content_type": "text/plain",
+  "languages": [
+    "en"
+  ],
+  "note": "Fetched through the FBI page rendered by r.jina.ai after the direct page returned HTTP 403; quote text was checked against the fetched rendering."
+}

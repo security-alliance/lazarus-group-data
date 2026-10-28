@@ -1,0 +1,129 @@
+{
+  "id": "facilitator-antonia-doroganova",
+  "type": "facilitator",
+  "name": "Antonia Doroganova",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT Participating State information reproduced in MSMT/2025/2. The record is source-reported information rather than a criminal charge, conviction, sanctions designation, or adjudication.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "dmfd60-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Antonia Doroganova",
+  "locations": [
+    "Argentina"
+  ],
+  "caveats": [
+    "Antonia Doroganova is the exact Latin-script name printed in MSMT/2025/2, with source-reported Argentina context and a bounded collaborator/liaison role and period. Amnokgang and Ryugyong are reported organizations of the assisted workers, with no Doroganova affiliation stated. Generic account-owner wording is source context rather than an identity bridge. Account, exchange, wallet, payment, amount, current-role/location, and legal-posture claims are outside the record.",
+    "The country is retained as source-reported historical context; precise and present location remain unresolved.",
+    "The record contains historical context only; account-holder identity, account or payment selector, exchange, wallet, amount, public account, civil identity, and present-location bridge remain outside it.",
+    "The facilitator record type is repository taxonomy for the reported association; adjudicated status requires a separate legal source.",
+    "The report passage is Participating State attribution; charge, conviction, designation, adjudication, and present-activity status require separate sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-participating-state-reported-facilitator-role",
+      "reported_name": "Antonia Doroganova",
+      "reported_role": "Argentina-based source-reported IT collaborator and liaison assisting two DPRK IT workers",
+      "historical_country_context": "Argentina",
+      "historical_period": "three-year period through early 2025, as reported in 2025",
+      "current_role_inferred": false,
+      "present_location_inferred": false,
+      "legal_event_inferred": false,
+      "facilitator_affiliation_inferred": false,
+      "source_ids": [
+        "dmfd60-msmt-2025-2"
+      ],
+      "assisted_workers_from_organizations": [
+        "Amnokgang Technology Corporation",
+        "Ryugyong Technology Corporation"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dmfd60-msmt-2025-2",
+      "support": "As recently as early 2025, an Argentina-based IT collaborator by the name of Antonia Doroganova Doroganova assisted a DPRK IT worker from the Russia-based Amnokgang Technology Corporation and the Russia-based Ryugyong Technology Corporation. Acting as a liaison between the two DPRK IT workers Over a three-year period, with activity as recently as early 2025",
+      "locator": "PDF file p. 88 (printed p. 86), Argentina subsection; footnote 268"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-antonia-doroganova-name",
+      "type": "identity_name",
+      "predicate": "msmt_report_source_printed_name",
+      "value": {
+        "name": "Antonia Doroganova",
+        "script": "Latin"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file p. 88 (printed p. 86), Argentina subsection; footnote 268",
+          "quote": "Antonia Doroganova"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-antonia-doroganova-role-period",
+      "type": "employment",
+      "predicate": "msmt_participating_state_reported_facilitator_role",
+      "value": {
+        "reported_role": "Argentina-based source-reported IT collaborator and liaison assisting two DPRK IT workers",
+        "historical_country_context": "Argentina",
+        "historical_period": "three-year period through early 2025, as reported in 2025",
+        "current_role_inferred": false,
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file p. 88 (printed p. 86), Argentina subsection; footnote 268",
+          "quote": "As recently as early 2025, an Argentina-based IT collaborator by the name of Antonia Doroganova"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-antonia-doroganova-assisted-worker-organizations",
+      "type": "relationship",
+      "predicate": "msmt_reported_assisted_workers_from_organizations",
+      "value": {
+        "assisted_workers_from_organizations": [
+          "Amnokgang Technology Corporation",
+          "Ryugyong Technology Corporation"
+        ],
+        "facilitator_affiliation_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file p. 88 (printed p. 86), Argentina subsection; footnote 268",
+          "quote": "Doroganova assisted a DPRK IT worker from the Russia-based Amnokgang Technology Corporation and the Russia-based Ryugyong Technology Corporation."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "Antonia Doroganova is the exact Latin-script name printed in MSMT/2025/2, with source-reported Argentina context and a bounded collaborator/liaison role and period. Amnokgang and Ryugyong are reported organizations of the assisted workers, with no Doroganova affiliation stated. Generic account-owner wording is source context rather than an identity bridge. Account, exchange, wallet, payment, amount, current-role/location, and legal-posture claims are outside the record."
+}

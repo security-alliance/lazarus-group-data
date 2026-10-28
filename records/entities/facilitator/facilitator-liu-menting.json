@@ -1,0 +1,352 @@
+{
+  "id": "facilitator-liu-menting",
+  "type": "facilitator",
+  "name": "Liu Menting",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. Through 2026-08-12, the verified record reaches charging in the District of Massachusetts Wang matter; later merits disposition remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Liu Menting",
+  "ttps": [
+    "laundering DPRK IT-worker proceeds",
+    "shell-company and payment infrastructure"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Keep the campaign context intact; the source presents the State Department in a contextual role only.",
+    "Facial recognition and linkage to another account, alias, or image are outside this record.",
+    "The image is retained as visual context only. Biometric matching and resolution of employment personas, aliases, accounts, and victim identities are outside the method.",
+    "Keep alleged-role and source context adjacent.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The official reward-page role remains an allegation unless separately adjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "caption": "Official Rewards for Justice subject card for Liu Menting; the cited role is an allegation and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-liu-menting"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "The official Rewards for Justice page publishes a separately named subject image for Liu Menting in the page's alleged DPRK IT-worker facilitation and money-laundering context. The image does not establish guilt or linkage to any other alias, account, company, or image",
+      "locator": "Individual subject card labeled Liu Menting"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ identifies the eight Wang-case facilitators as charged defendants in the District of Massachusetts matter; the charges are allegations and do not establish guilt",
+      "locator": "District of Massachusetts section beginning “In a third coordinated action”; paragraph listing the eight additional charged defendants"
+    },
+    {
+      "source_id": "flr6-s13"
+    },
+    {
+      "source_id": "flr6-s19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "display_order": "Liu Menting",
+        "indictment_order": "Mengting Liu",
+        "chinese": "劉孟婷"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Liu Menting’",
+          "quote": "Liu Menting 劉孟婷:"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 1, caption",
+          "quote": "MENGTING LIU"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "The paired official references support the order crosswalk; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "docket": "1:25-cr-10273-NMG"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 1, filing header",
+          "quote": "1:25-cr-10273-NMG"
+        }
+      ],
+      "observed_at": "2025-06-26"
+    },
+    {
+      "id": "claim-charged-count",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "docket": "1:25-cr-10273-NMG",
+        "counts": [
+          "money laundering conspiracy"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 40, Count Two title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 40, Count Two defendant list",
+          "quote": "MENGTING LIU"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Charge is an allegation; Liu is presumed innocent unless and until proven guilty. The indictment names Liu in Count Two, not Counts One, Three, Four, or Five."
+      ]
+    },
+    {
+      "id": "claim-financial-intermediary-allegation",
+      "type": "incident",
+      "predicate": "allegedly_registered_accounts_to_transfer_scheme_proceeds",
+      "value": {
+        "account_classes": [
+          "money transfer service",
+          "foreign bank"
+        ],
+        "alleged_purpose": "receive and transfer proceeds generated through the conspiracy"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 10, paragraph 21",
+          "quote": "Mengting LIU and Enchia LIU registered MTS and foreign bank accounts"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 11, continuation of paragraph 21",
+          "quote": "that were used to receive and transfer proceeds generated through the conspiracy"
+        },
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Liu Menting’",
+          "quote": "Registered MTS and foreign bank accounts used to receive and transfer money from the scheme."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Indictment allegation; no account, bank, payment, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-status",
+      "type": "legal_event",
+      "predicate": "doj_reported_at_large_and_wanted_by_fbi",
+      "value": {
+        "status": "at large and wanted by the FBI",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘The other eight defendants’",
+          "quote": "The other eight defendants indicted in June 2025 remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "following defendant list",
+          "quote": "Liu Menting (劉孟婷)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Wanted status and pending charge do not establish guilt. No later public merits disposition was located through the cutoff."
+      ]
+    },
+    {
+      "id": "claim-doj-taiwanese-nationality",
+      "type": "identity_name",
+      "predicate": "doj_reported_nationality",
+      "value": {
+        "nationality": "Taiwanese"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts charging paragraph",
+          "quote": "Taiwanese nationals Mengting Liu (劉 孟婷) and Enchia Liu (刘恩)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "DOJ's nationality description is retained without converting nationality into present residence or location.",
+        "DOJ's press-release spacing is normalized only through the exact RFJ Chinese form 劉孟婷, which controls the name field."
+      ]
+    },
+    {
+      "id": "claim-rfj-reward-program-context",
+      "type": "legal_event",
+      "predicate": "included_in_rfj_program_offer",
+      "value": {
+        "program": "Rewards for Justice",
+        "maximum_amount_usd": 5000000,
+        "scope": "program-wide maximum for information leading to disruption of specified DPRK-supporting financial mechanisms",
+        "individual_amount_assigned": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Opening reward paragraph and Liu Menting individual entry",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "Reward paragraph and following nine-person list",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "This is not an individual USD 5 million arrest bounty, payment, conviction, or finding of guilt. Liu is one of the nine listed subjects under the shared program offer."
+      ]
+    },
+    {
+      "id": "claim-rfj-export-and-money-laundering-role",
+      "type": "incident",
+      "predicate": "rfj_reported_role_scope",
+      "value": {
+        "reported_role_scope": [
+          "exportation of IT workers from North Korea",
+          "money laundering on behalf of the DPRK regime"
+        ],
+        "individual_entry_detail": "registered money-transfer-service and foreign-bank accounts used to receive and transfer money from the scheme"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Paragraph introducing the individual list",
+          "quote": "The Department is seeking information on the following individuals for their role in the exportation of IT workers from North Korea and money laundering on behalf of the DPRK regime:"
+        },
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Liu Menting individual entry",
+          "quote": "Liu Menting 劉孟婷: Registered MTS and foreign bank accounts used to receive and transfer money from the scheme."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Government reward-page allegation, not adjudicated conduct. The individual entry controls the person-specific detail; no account, bank, payment, transaction, worker, or victim selector is retained."
+      ]
+    },
+    {
+      "id": "claim-rfj-subject-image-reference",
+      "type": "image",
+      "predicate": "official_subject_image_reference",
+      "value": {
+        "publisher": "State Department Rewards for Justice",
+        "source_page": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+        "subject_label": "Liu Menting 劉孟婷",
+        "usage": "link_only"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Images section, subject asset linked with Liu-Menting-劉孟婷 filename",
+          "quote": "Liu-Menting-劉孟婷.png"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Source-page citation only. No direct asset is retained for republication, caching, cropping, facial recognition, visual matching, identity resolution, or current-appearance inference.",
+        "The image does not establish guilt or linkage to any alias, account, company, location, or other image."
+      ]
+    },
+    {
+      "id": "claim-indictment-colisted-liu-enchia",
+      "type": "relationship",
+      "predicate": "indictment_colisted_account_registrants",
+      "value": {
+        "other_subject_id": "facilitator-liu-enchia",
+        "other_name_in_indictment": "Enchia Liu",
+        "source_semantics": "both named as registrants of money-transfer-service and foreign-bank accounts"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 10, paragraph 21",
+          "quote": "Mengting LIU and Enchia LIU registered MTS and foreign bank accounts"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "The indictment co-lists the two people as alleged account registrants. It does not establish that they are relatives, that every account was jointly held, or that either controlled the other's accounts."
+      ]
+    },
+    {
+      "id": "claim-liu-menting-rfj-native-name",
+      "type": "identity_name",
+      "predicate": "official_reward_page_native_script_name_form",
+      "value": {
+        "name": "劉孟婷",
+        "script": "source-published CJK form",
+        "latin_label": "Liu Menting"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Liu Menting’",
+          "quote": "Liu Menting 劉孟婷:"
+        }
+      ],
+      "notes": [
+        "Official source-published name form for this reward-page subject; it is not a separate person, an independent civil-identity verification, or proof of the alleged conduct."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Liu Menting, rendered Mengting Liu in the filed indictment and 劉孟婷 by Rewards for Justice, is the Taiwanese national charged only in Count Two of the District of Massachusetts Wang matter. Preserve indictment allegations, wanted status and RFJ reward-program posture separately; present guilt, family relationship with Liu Enchia, present location, account ownership and same-named profile identity require separate evidence."
+}

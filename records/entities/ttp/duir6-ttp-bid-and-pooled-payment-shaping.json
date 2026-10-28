@@ -1,0 +1,61 @@
+{
+  "id": "duir6-ttp-bid-and-pooled-payment-shaping",
+  "type": "ttp",
+  "name": "Bid throttling and pooled-payment shaping to reduce review",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel synthesis of expert interviews and source-qualified examples; criminal finding, sanctions designation, and universal pattern fall outside the synthesis.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-un-s-2023-656"
+    ]
+  },
+  "ttps": [
+    "bid-throttling",
+    "multi-account-bidding",
+    "pooled-payment-account",
+    "third-country-payment-aggregation",
+    "transaction-shaping"
+  ],
+  "caveats": [
+    "Evidence class: UN Panel synthesis of expert interviews.",
+    "The public record retains aggregate context; people, personas, accounts, companies, victims, payment identifiers, wallets, addresses, images, credentials, and raw technical selectors stay outside it.",
+    "Round amounts, multiple accounts, remote access, and several payments are nonspecific; attribution or adverse employment action requires more evidence.",
+    "The record preserves an official-source operating model or case description; attribution rules or proof about an applicant, worker, nationality, or organization require separate evidence.",
+    "Use only lawful, proportionate, multi-signal review and avoid exposing financial identifiers.",
+    "Use only lawful, proportionate, multi-signal review. Location, work-hour, VPN, remote-access, bidding, payment and code-quality signals require combination and corroboration before supporting fraud or DPRK attribution."
+  ],
+  "infrastructure": [
+    {
+      "type": "expert-interview-platform-and-payment-pattern",
+      "statements": [
+        "The Panel annex says workers used remote control of a proxy account holder's computer and internal guidance limiting one account to three project bids per day to reduce scrutiny.",
+        "Workers reportedly used multiple accounts because only a fraction of bids generated responses.",
+        "Group payment accounts received proceeds for multiple workers, often in round amounts; operators limited monthly or annual flow and transaction counts, while payments could arrive every several days or multiple times in one day from different sources.",
+        "Funds were reportedly aggregated in third-country financial systems, with at least some cash withdrawal through proxy-controlled accounts."
+      ],
+      "limitations": [
+        "Evidence class: UN Panel synthesis of expert interviews.",
+        "Round amounts, multiple accounts, remote access, or several payments are nonspecific and must never be used alone for attribution or adverse employment action.",
+        "Use only lawful, proportionate, multi-signal review and avoid exposing financial identifiers.",
+        "The record preserves an official-source operating model or case description; it is not a standalone attribution rule or proof about an applicant, worker, nationality, or organization.",
+        "Use only lawful, proportionate, multi-signal review. No single location, work-hour, VPN, remote-access, bidding, payment, or code-quality signal establishes fraud or DPRK attribution.",
+        "No people, personas, accounts, companies, victims, payment identifiers, wallets, addresses, images, credentials, or raw technical selectors are retained."
+      ],
+      "source_ids": [
+        "duir6-un-s-2023-656"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-un-s-2023-656",
+      "support": "Evidence class: UN Panel synthesis of expert interviews. Source-qualified support: The Panel annex says workers used remote control of a proxy account holder's computer and internal guidance limiting one account to three project bids per day to reduce scrutiny. Workers reportedly used multiple accounts because only a fraction of bids generated responses. Group payment accounts received proceeds for multiple workers, often in round amounts; operators limited monthly or annual flow and transaction counts, while payments could arrive every several days or multiple times in one day from different sources. Funds were reportedly aggregated in third-country financial systems, with at least some cash withdrawal through proxy-controlled accounts",
+      "locator": "S/2023/656, Annex 68, PDF pp. 324-325, sections 5-6"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

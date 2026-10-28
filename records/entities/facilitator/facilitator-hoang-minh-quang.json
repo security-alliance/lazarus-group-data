@@ -1,0 +1,301 @@
+{
+  "id": "facilitator-hoang-minh-quang",
+  "type": "facilitator",
+  "name": "Hoang Minh Quang",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Laos-linked IT-services payment facilitator; administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-1bfbb0e72fae",
+      "gov-54cada63e515",
+      "gov-c7a3e5449167",
+      "gov-ded09ec68479",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Hoang Minh Quang",
+  "locations": [
+    "Hanoi, Vietnam (OFAC-listed location; not a present-location inference)"
+  ],
+  "caveats": [
+    "OFAC's designation is an administrative action with no criminal charge or conviction on record. Hanoi is a source-listed location as of the cited sanctions records; current residence, presence, and activity require separate evidence; excluded wallet and financial selectors remain non-public."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "Treasury reports that Yun Song Guk coordinated several dozen financial transactions totaling more than $70,000 with Hoang Minh Quang relating to IT services performed by Yun, and records Hoang's E.O. 13810 administrative designation for support to Yun. This is an administrative-source assessment, not a criminal adjudication or proof of current account or wallet control",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Minh/Celestino paragraph"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Hanoi, Vietnam for OFAC entity number 57035. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a street address, residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 57035"
+    },
+    {
+      "source_id": "gov-ded09ec68479",
+      "support": "Recorded Future News independently names Hoang Minh Quang and reports that Yun Song Guk worked with him to transfer IT-worker funds through local bank accounts. The article attributes the assessment to U.S. officials, identifies no account, and does not independently prove the conduct or current control",
+      "locator": "Paragraph describing the Boten, Laos network led by Yun Song Guk"
+    },
+    {
+      "source_id": "gov-1bfbb0e72fae",
+      "support": "The official notice lists Hoang Minh Quang at Hanoi, Vietnam, links the entry to Yun Song Guk, and records the E.O. 13810 administrative designation basis. The location is retained only at coarse city level; birth, identity, financial, and other sensitive selectors are excluded, and the listed wallet remains restricted-tier evidence",
+      "locator": "Federal Register p. 12905, Hoang Minh Quang entry and designation paragraph"
+    },
+    {
+      "source_id": "gov-c7a3e5449167",
+      "support": "TRM Labs independently publishes the Hoang name and repeats OFAC's reported several-dozen transactions and more-than-$70,000 aggregate concerning IT services performed by Yun. Its separate on-chain analysis concerns other designated addresses and is not assigned to Hoang; the article does not independently prove the person-specific conduct",
+      "locator": "Paragraph naming Yun Song Guk and Hoang Minh Quang"
+    },
+    {
+      "source_id": "dln26-s09"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-minh-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "display_name": "Hoang Minh Quang",
+        "ofac_primary_name": "HOANG, Minh Quang"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Minh/Celestino paragraph",
+          "quote": "Hoang Minh Quang"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "HOANG, Minh Quang"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57035, fields 1-4",
+          "quote": "57035,\"HOANG, Minh Quang\",\"individual\",\"DPRK4\""
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, individual entry 5",
+          "quote": "HOANG, Minh Quang"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Official presentation variants of the same source-defined person; this does not resolve unrelated same-name people."
+      ]
+    },
+    {
+      "id": "claim-minh-treasury-shorthand",
+      "type": "alias",
+      "predicate": "treasury_reference_shorthand",
+      "value": {
+        "shorthand": "Minh",
+        "scope": "Treasury March 12, 2026 press release"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Minh/Celestino paragraph",
+          "quote": "Hoang Minh Quang (Minh)"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Release-specific shorthand. The current OFAC ALT.CSV export contains no alias row for entity number 57035, so this is not described as an OFAC-listed alias."
+      ]
+    },
+    {
+      "id": "claim-minh-yun-financial-coordination",
+      "type": "relationship",
+      "predicate": "treasury_reported_financial_coordination_with",
+      "value": {
+        "person": "Yun Song Guk",
+        "context": "financial transactions relating to IT services performed by Yun"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Minh/Celestino paragraph",
+          "quote": "Yun coordinated several dozen financial transactions totaling more than $70,000 with Hoang Minh Quang (Minh) relating to IT services performed by Yun."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "Linked To: YUN, Song Guk"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, individual entry 5",
+          "quote": "Linked To: YUN, Song Guk"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding and OFAC linked-to notation. The profile does not retain or infer any account, wallet, transaction hash, or present controller."
+      ]
+    },
+    {
+      "id": "claim-minh-reported-it-services-transactions",
+      "type": "incident",
+      "predicate": "treasury_reported_it_services_transaction_activity",
+      "value": {
+        "counterparty": "Yun Song Guk",
+        "reported_count": "several dozen financial transactions",
+        "reported_aggregate": "more than $70,000",
+        "context": "IT services performed by Yun"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Yun/Minh/Celestino paragraph",
+          "quote": "Yun coordinated several dozen financial transactions totaling more than $70,000 with Hoang Minh Quang (Minh) relating to IT services performed by Yun."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury-reported aggregate only; no individual transaction, financial selector, or criminal adjudication is represented."
+      ]
+    },
+    {
+      "id": "claim-minh-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_under_dprk_authority",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation",
+        "date": "2026-03-12",
+        "authority_basis": "Executive Order 13810",
+        "reported_basis": "material support for Yun Song Guk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, designation sentence after the Yun/Minh/Celestino paragraph",
+          "quote": "OFAC is designating Minh and Celestino pursuant to E.O. 13810 for having materially assisted, sponsored, or provided financial, material, or technological support for, goods or services to or in support of Yun."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Hoang entry",
+          "quote": "HOANG, Minh Quang"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, Hoang designation paragraph",
+          "quote": "Designated pursuant to section 1(a)(v) of E.O. 13810 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, YUN SONG GUK"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-minh-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals and Blocked Persons List",
+        "program": "DPRK4",
+        "checked_at": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57035, fields 1-4",
+          "quote": "57035,\"HOANG, Minh Quang\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current-list observation as of the access date; it does not establish criminal posture, present location, or current control of an account or wallet."
+      ]
+    },
+    {
+      "id": "claim-minh-ofac-listed-location",
+      "type": "location",
+      "predicate": "ofac_listed_coarse_location",
+      "value": {
+        "location": "Hanoi, Vietnam",
+        "precision": "coarse city-level only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12905, individual entry 5",
+          "quote": "HOANG, Minh Quang, Hanoi, Vietnam"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 57035",
+          "quote": "\"Hanoi\",\"Vietnam\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Exact-ID official listing context only. The retained city and country do not establish a street address, residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-minh-independent-media-coverage",
+      "type": "note",
+      "predicate": "independently_published_designation_coverage",
+      "value": {
+        "publishers": [
+          {
+            "name": "Recorded Future News",
+            "coverage": "Reported that Yun Song Guk worked with Hoang Minh Quang to transfer IT-worker funds through local bank accounts"
+          },
+          {
+            "name": "TRM Labs",
+            "coverage": "Repeated OFAC's reported several-dozen transactions and more-than-USD-70,000 aggregate concerning IT services performed by Yun"
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ded09ec68479",
+          "locator": "Paragraph describing the Boten, Laos network led by Yun Song Guk",
+          "quote": "Hoang Minh Quang to transfer IT worker funds through local bank accounts"
+        },
+        {
+          "source_id": "gov-c7a3e5449167",
+          "locator": "Paragraph beginning 'In addition to the above businesses'",
+          "quote": "Yun, in coordination with Hoang Minh Quang, reportedly completed several dozen financial transactions totaling more than USD 70,000 relating to IT services Yun performed."
+        }
+      ],
+      "observed_at": "2026-03-13",
+      "notes": [
+        "These are reputable separate publishers for the sanctions event, not independent proof of the underlying conduct. Recorded Future attributes the assessment to U.S. officials, and TRM explicitly frames its person-specific sentence as reported OFAC information.",
+        "Recorded Future names local bank accounts without publishing a selector. TRM's separate blockchain analysis is not Hoang-specific and is not assigned to this profile."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Hoang Minh Quang, listed by OFAC as HOANG, Minh Quang and referenced by Treasury as Minh, is the person Treasury reported as coordinating IT-services-related financial transactions with DPRK IT-worker group leader Yun Song Guk. Preserve that administrative-source allegation and designation posture; the record leaves criminal guilt, present location, financial-account or wallet control, and identity with a same-named public account unresolved."
+}

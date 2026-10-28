@@ -1,0 +1,270 @@
+{
+  "id": "persona-reuters-richard-lee",
+  "type": "persona",
+  "name": "Richard Lee",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Reuters attributes the forged profile to the DPRK IT-worker scheme; the UN Panel later reproduced the labeled resume as derivative figure evidence. The record carries no criminal charge, conviction, sanctions designation, or verified civil identity.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "drp49-reuters-wire-sight",
+      "drp49-un-s-2024-215",
+      "drp49-x-pearswick"
+    ]
+  },
+  "ttps": [
+    "falsified resume and professional profile",
+    "forged remote-employment persona",
+    "scripted remote-work backstory"
+  ],
+  "caveats": [
+    "The record retains bounded source context; green-card data, portrait, phone, email, account selector, precise address, and apparent identity-owner data stay outside it.",
+    "Reuters reported a historical LinkedIn account but published no stable endpoint in the reviewed text; LinkedIn removed the account after Reuters sought comment.",
+    "Reuters's accessible syndicated article and reporter post are one underlying person-specific journalism source family; S/2024/215 reproduces the same source material, so identity corroboration remains dependent.",
+    "Richard Lee is a common name. The 188-result GitHub exact-full-name search supplies only a common-name result; GitHub account retention is absent.",
+    "Richard Lee remains the forged employment-persona label explicitly reported by Reuters and reproduced in an official UN figure; legal name, civil identity, LinkedIn ownership, actual Jumio employment, and present location remain unresolved.",
+    "The 72-profile Lazarus.group snapshot contains zero exact Richard Lee profiles; this is bounded negative evidence.",
+    "The script's Singapore and Los Angeles statements are persona backstory; actual travel, residence and present location require independent evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "reuters-reported-forged-employment-persona",
+      "persona_label": "Richard Lee",
+      "reported_role": "senior embedded software developer persona seeking remote IT work",
+      "scripted_backstory": "temporary family visit in Singapore followed by a claimed return to Los Angeles",
+      "actual_location_or_travel_inferred": false,
+      "verified_civil_identity": false,
+      "source_ids": [
+        "drp49-reuters-wire-sight",
+        "drp49-x-pearswick"
+      ]
+    },
+    {
+      "type": "official-derivative-figure-crosswalk",
+      "document_symbol": "S/2024/215",
+      "figure": "Annex 64, Figure 1",
+      "visible_label": "Richard Lee",
+      "caption": "Figure 1: DPRK IT worker falsified resumes and freelance job platform message",
+      "independent_identity_source_family": false,
+      "source_ids": [
+        "drp49-un-s-2024-215"
+      ]
+    },
+    {
+      "type": "reuters-reported-historical-linkedin-persona",
+      "platform": "LinkedIn",
+      "display_label": "Richard Lee",
+      "stable_selector_retained": false,
+      "reported_claimed_employer": "Jumio",
+      "employer_response": "Jumio reported no record of Richard Lee as a current or former employee and no evidence it had employed a North Korean worker",
+      "platform_disposition": "Reuters reported LinkedIn removed the account after receiving requests for comment",
+      "current_account_or_owner_inferred": false,
+      "source_ids": [
+        "drp49-reuters-wire-sight"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "drp49-un-s-2024-215",
+      "support": "Annex 64 Figure 1 reproduces the visible Richard Lee resume under the caption DPRK IT worker falsified resumes and freelance job platform message",
+      "locator": "PDF file pp. 355-359, Annex 64, Figures 1-3, visually reviewed"
+    },
+    {
+      "source_id": "drp49-reuters-wire-sight",
+      "support": "Names Richard Lee as a forged remote-employment profile, reproduces the scripted remote-work backstory, reports a historical LinkedIn profile and claimed Jumio experience, preserves Jumio's denial, and reports the account's removal",
+      "locator": "Body paragraphs beginning with the Richard script; Fake Identities section"
+    },
+    {
+      "source_id": "drp49-x-pearswick",
+      "support": "The Reuters reporter explicitly identifies Richard Lee as a North Korean remote-IT-work persona and links the Reuters investigation",
+      "locator": "oEmbed html field"
+    },
+    {
+      "source_id": "drp49-unit42-wagemole"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-reuters-richard-lee-forged-persona-label",
+      "type": "identity_name",
+      "predicate": "reuters_reported_forged_employment_persona_label",
+      "value": {
+        "persona_label": "Richard Lee",
+        "identity_status": "reported forged profile, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-reuters-wire-sight",
+          "locator": "Fake Identities section",
+          "quote": "The ‘Richard’ in Singapore who was seeking remote IT work appeared to refer to a forged profile by the name of ‘Richard Lee’ – the same name on the green card."
+        },
+        {
+          "source_id": "drp49-x-pearswick",
+          "locator": "oEmbed html field",
+          "quote": "NEW: This is Richard Lee, a software developer looking for remote IT work while he visits his ill parents in Singapore. He says he plans to return to LA in the coming months. A valid excuse, perhaps, but 'Richard' is in fact from North Korea"
+        }
+      ],
+      "observed_at": "2023-11-21",
+      "notes": [
+        "The source-printed persona label is retained; it is not treated as a legal name, verified civil identity, or identity-owner attribution.",
+        "The reporter post and Reuters article are one underlying source family."
+      ]
+    },
+    {
+      "id": "claim-persona-reuters-richard-lee-dprk-it-worker-assessment",
+      "type": "relationship",
+      "predicate": "sources_reported_dprk_it_worker_persona",
+      "value": {
+        "assessment": "Reuters-reported DPRK IT-worker remote-employment persona",
+        "official_derivative": "S/2024/215 Annex 64 Figure 1",
+        "independent_person_specific_source_families": 1,
+        "criminal_or_sanctions_posture": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-x-pearswick",
+          "locator": "oEmbed html field",
+          "quote": "NEW: This is Richard Lee, a software developer looking for remote IT work while he visits his ill parents in Singapore. He says he plans to return to LA in the coming months. A valid excuse, perhaps, but 'Richard' is in fact from North Korea"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 355, Annex 64, Figure 1 caption",
+          "quote": "Figure 1: DPRK IT worker falsified resumes and freelance job platform message"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 356, visible resume label",
+          "quote": "Richard Lee"
+        }
+      ],
+      "observed_at": "2023-11-21",
+      "notes": [
+        "The UN figure reproduces the cited Reuters/Unit 42 source material and is not counted as independent identity corroboration.",
+        "This is a research attribution, not a charge, conviction, designation, or verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-persona-reuters-richard-lee-role-and-scripted-backstory",
+      "type": "employment",
+      "predicate": "source_reported_persona_role_and_remote_work_script",
+      "value": {
+        "claimed_role": "senior embedded software developer",
+        "scripted_context": "temporary family visit in Singapore followed by a claimed return to Los Angeles",
+        "actual_employment_verified": false,
+        "actual_location_or_travel_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-reuters-wire-sight",
+          "locator": "Richard script section",
+          "quote": "‘Richard’, a senior embedded software developer"
+        },
+        {
+          "source_id": "drp49-reuters-wire-sight",
+          "locator": "Richard script section",
+          "quote": "I [flew] to Singapore several weeks ago. My parents got COVID and I [decided] to be with family members for a while. Now, I am planning to go back to Los Angeles in three months. I am thinking that I could start work remotely right now, then I will be on board when I go back to LA."
+        }
+      ],
+      "observed_at": "2023-11-21",
+      "notes": [
+        "The role and travel narrative are source-captured persona presentation, not verified employment, residence, travel, or present location."
+      ]
+    },
+    {
+      "id": "claim-persona-reuters-richard-lee-historical-linkedin-persona",
+      "type": "account",
+      "predicate": "reuters_reported_historical_linkedin_profile",
+      "value": {
+        "platform": "LinkedIn",
+        "display_label": "Richard Lee",
+        "reported_claimed_employer": "Jumio",
+        "stable_selector_retained": false,
+        "platform_disposition": "removed after Reuters requests for comment",
+        "current_owner_or_control_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-reuters-wire-sight",
+          "locator": "Fake Identities section",
+          "quote": "Reuters found a LinkedIn account for a Richard Lee with the same profile photo who listed experience at Jumio, a digital identity verification company."
+        },
+        {
+          "source_id": "drp49-reuters-wire-sight",
+          "locator": "Fake Identities section",
+          "quote": "LinkedIn removed the account after receiving requests from Reuters for comment."
+        }
+      ],
+      "observed_at": "2023-11-21",
+      "notes": [
+        "Reuters supplied the source-level profile relationship. No independent facial comparison was performed.",
+        "The reviewed text exposes no stable endpoint, and no current account or controller is inferred."
+      ]
+    },
+    {
+      "id": "claim-persona-reuters-richard-lee-jumio-employment-denial",
+      "type": "organization_affiliation",
+      "predicate": "reported_claimed_employer_denial",
+      "value": {
+        "organization": "Jumio",
+        "claimed_affiliation": "persona listed experience",
+        "organization_response": "no record of Richard Lee as a current or former employee",
+        "employment_verified": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-reuters-wire-sight",
+          "locator": "Fake Identities section",
+          "quote": "We do not have any records of Richard Lee having been a current or former employee of Jumio"
+        }
+      ],
+      "observed_at": "2023-11-21",
+      "notes": [
+        "The denial remains adjacent to the claimed affiliation so the profile cannot be read as verified employment.",
+        "Jumio is not treated as complicit, affected, or as having knowingly employed a DPRK worker."
+      ]
+    },
+    {
+      "id": "claim-persona-reuters-richard-lee-wagemole-resume-corpus-context",
+      "type": "note",
+      "predicate": "unit42_reported_exposed_fraudulent_resume_corpus",
+      "value": {
+        "campaign_label": "Wagemole",
+        "artifact_context": "resumes with fake identities and remote-job application material",
+        "richard_specific_label_in_accessible_unit42_text": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-unit42-wagemole",
+          "locator": "Wagemole Overview bullet list",
+          "quote": "Resumes with fake identities, impersonating individuals of various nationalities"
+        },
+        {
+          "source_id": "drp49-unit42-wagemole",
+          "locator": "Wagemole Overview",
+          "quote": "These files indicate another campaign applying for remote IT jobs using fake identities, which we are calling Wagemole."
+        }
+      ],
+      "observed_at": "2023-11-21",
+      "notes": [
+        "This claim supplies campaign context only. Richard-specific identity attribution remains bounded to Reuters and the derivative UN figure."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Richard Lee remains the forged employment-persona label explicitly reported by Reuters and reproduced in an official UN figure; legal name, civil identity, LinkedIn ownership, actual Jumio employment, and present location remain unresolved."
+}

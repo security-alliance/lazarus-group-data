@@ -1,0 +1,117 @@
+{
+  "id": "infrastructure-kudelski-private-network",
+  "type": "infrastructure",
+  "name": "internal RFC1918 architecture; non-routable context only",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "mixed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-kudelski-infrastructure"
+    ]
+  },
+  "caveats": [
+    "RFC1918 values are private-network addresses; their recurrence across unrelated networks makes them unsuitable as internet IOCs."
+  ],
+  "images": [
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "source_url": "https://kudelskisecurity.com/research/dprk-fake-it-workers-inside-their-evolving-network-infrastructure",
+      "direct_asset_url": "https://cdn.prod.website-files.com/67711be5796275bf61eaabfc/6a58dc69b7a720c5edff4d9f_Figure%205%20Team%20313%20network.png",
+      "caption": "Source figure: Kudelski Team 313 network",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "source_url": "https://kudelskisecurity.com/research/dprk-fake-it-workers-inside-their-evolving-network-infrastructure",
+      "direct_asset_url": "https://cdn.prod.website-files.com/67711be5796275bf61eaabfc/6a58dc9568b32db30f8ea3b1_Figure%206%20RB%20administrative%20network.png",
+      "caption": "Source figure: Kudelski RB administrative network",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "source_url": "https://kudelskisecurity.com/research/dprk-fake-it-workers-inside-their-evolving-network-infrastructure",
+      "direct_asset_url": "https://cdn.prod.website-files.com/67711be5796275bf61eaabfc/6a58dce1296b8b85dbe45e71_Figure%208%20Unmarked%20KUT%20network.png",
+      "caption": "Source figure: Kudelski KUT network",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "internal-network-cluster",
+      "value": "English-training server",
+      "artifacts": [
+        "private-network address (redacted) WordPress media server"
+      ],
+      "confidence_note": "high observed, low threat significance",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "type": "internal-network-cluster",
+      "value": "Team 313",
+      "artifacts": [
+        "private-network address (redacted) Huawei HiLink router gateway"
+      ],
+      "confidence_note": "medium for observed network; low for generalized gateway convention",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "type": "internal-network-cluster",
+      "value": "RB / Ryonbong",
+      "artifacts": [
+        "private-network address (redacted) WebRTC server",
+        "CallPC communications tool"
+      ],
+      "confidence_note": "medium-high source assessment",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "type": "internal-network-cluster",
+      "value": "KUT / Kim Chaek University of Technology",
+      "artifacts": [
+        "41-KUT",
+        "42-KUT",
+        "HQ",
+        "Ryonbong",
+        "13-team reference set"
+      ],
+      "confidence_note": "medium",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "type": "internal-network-cluster",
+      "value": "PUG",
+      "artifacts": [
+        "user/team label Yuhang"
+      ],
+      "confidence_note": "low; acronym, location, and purpose unresolved",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "support": "Team 313: private-network address (redacted) Huawei HiLink router gateway RB / Ryonbong: private-network address (redacted) WebRTC server, CallPC communications tool KUT / Kim Chaek University of Technology: institutional email (redacted), 41-KUT, 42-KUT, HQ, Ryonbong, 13-team reference set PUG: user/team label Yuhang English-training server: private-network address (redacted) WordPress media server",
+      "locator": "Figure 2: Russian exit-node mapping; Figure 4: public-facing infrastructure; Figure 5: Team 313 network; Figure 6: RB administrative network; Figures 7-8: KUT website/network; Figure 9: offensive infrastructure"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

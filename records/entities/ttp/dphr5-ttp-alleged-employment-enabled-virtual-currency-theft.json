@@ -1,0 +1,57 @@
+{
+  "id": "dphr5-ttp-alleged-employment-enabled-virtual-currency-theft",
+  "type": "ttp",
+  "name": "Alleged employment-enabled virtual-currency theft",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Federal charging allegation; the theft finding remains unadjudicated, and the matter stays separate from fake-interview cryptocurrency theft.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPHR5-S05-DOJ-NATIONWIDE-2025"
+    ]
+  },
+  "ttps": [
+    "direct-financial-harm",
+    "employment-derived-technical-access",
+    "source-code-access",
+    "virtual-currency-theft"
+  ],
+  "caveats": [
+    "The record describes reported conduct by specific fraudulent workers; theft, extortion, espionage, persistence, and sabotage remain case-specific.",
+    "This case remains separate from unrelated fake-interview cryptocurrency thefts; shared DPRK-linked actors and blockchain technology provide contextual overlap only.",
+    "Evidence class: case-specific charging allegations.",
+    "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+    "The record retains bounded source context; people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, and private repository content stay outside it.",
+    "The case is charged and remains unadjudicated."
+  ],
+  "infrastructure": [
+    {
+      "type": "case-specific-charging-allegation",
+      "statements": [
+        "DOJ alleges that workers used false identities to obtain employment at a blockchain research and development company, gained access to source code for virtual-currency smart contracts and stole employer virtual currency worth more than $900,000."
+      ],
+      "limitations": [
+        "Evidence class: case-specific charging allegations.",
+        "The case is charged, not adjudicated.",
+        "Do not merge it with unrelated fake-interview cryptocurrency thefts merely because both involve DPRK-linked actors and blockchain technology.",
+        "No people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, or private repository content are retained.",
+        "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+        "Do not infer that every fraudulent worker performs theft, extortion, espionage, persistence, or sabotage."
+      ],
+      "source_ids": [
+        "DPHR5-S05-DOJ-NATIONWIDE-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPHR5-S05-DOJ-NATIONWIDE-2025",
+      "support": "DOJ says workers obtained access to and in some cases stole sensitive employer information, including export-controlled U.S. military technology and virtual currency. A separate charged scheme allegedly used employment at a blockchain company to steal more than $900,000 in virtual currency. DOJ also reiterates that workers have exfiltrated proprietary and sensitive company data and committed data extortion. DOJ alleges that workers used false identities to obtain employment at a blockchain research and development company, gained access to source code for virtual-currency smart contracts and stole employer virtual currency worth more than $900,000",
+      "locator": "Opening scheme summary; Massachusetts and Northern District of Georgia case sections; advisory recap"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

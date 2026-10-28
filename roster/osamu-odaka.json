@@ -1,0 +1,297 @@
+{
+  "id": "osamu-odaka",
+  "fake_names": [
+    "Osamu Odaka"
+  ],
+  "notes": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+  "websites": [
+    "https://web.archive.org/web/20240913013330/https://www.remotehub.com/odaka.osamu"
+  ],
+  "telegram": [
+    {
+      "usernames": [
+        "brilliant0120",
+        "nightfury00120"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "AnacondaDev0120"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-osamu-odaka",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+    "as_of": "2026-08-11",
+    "caveats": [
+      "Identity boundary: Source-reported employment or online persona; do not present this label, account, or image as a verified civil identity.",
+      "This record describes a reported employment persona/account cluster, not proof that the apparent identity owner is a DPRK national.",
+      "This source-reported persona or account label is not a verified legal or civil identity. Historical observation or page reachability does not establish present ownership, control, activity, affiliation, nationality, sanctions status, or lawful identity; do not contact or target the account holder.",
+      "Discord account 'nightfury0120#2829' (no URL retained).",
+      "The cited source page at https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-threat-japan.pdf carries an image related to this record. It is not reproduced: citation only, no caching, cropping, biometric use, or facial comparison.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "A ProPursuit profile named 'Link' claimed the same GitHub account (Nisos p. 5); Nisos does not attribute 'Link' to the Osamu Odaka persona, so it is not shown as a persona name here.",
+      "Nisos assesses, with hedged wording ('appears'), that the same individual was later employed under the name Weitao Wang; see /team/weitao-wang. That assessment is Nisos's, not a fact established here.",
+      "The RemoteHub profile has been removed; the link points to the 2024-09-13 Internet Archive capture.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-5bbf20120d4f",
+      "title": "Japanese Companies Threatened by DPRK IT Workers",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-threat-japan.pdf",
+      "date": "2025-01-23"
+    },
+    {
+      "id": "doc-laborx-id241156",
+      "title": "Freelancer Osamu Odaka - Work experience: Linkx",
+      "publisher": "LaborX",
+      "url": "https://laborx.com/freelancers/users/id241156"
+    },
+    {
+      "id": "doc-laborx-resume-id241156",
+      "title": "Resume Osamu Odaka",
+      "publisher": "LaborX user-supplied document",
+      "url": "https://uploads.laborx.com/cv/OVCQ3HLmpSfFpZ1bGsKrC6mgJQr9yf5M.pdf",
+      "date": "2023-06-28"
+    },
+    {
+      "id": "doc-nisos-github-network-2025",
+      "title": "Likely DPRK Network Backstops on GitHub, Targets Companies Globally",
+      "publisher": "Nisos",
+      "url": "https://nisos.com/research/dprk-github-employment-fraud/",
+      "date": "2025-03-04"
+    },
+    {
+      "id": "doc-remotehub-osamu-archive",
+      "title": "Odaka Osamu | RemoteHub",
+      "publisher": "RemoteHub via Internet Archive",
+      "url": "https://web.archive.org/web/20240913013330/https://www.remotehub.com/odaka.osamu"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-discord-nightfury",
+      "label": "Historically reported handle",
+      "category": "account",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 19, contact table",
+          "quote": "Discord         nightfury0120#2829   Osamu Odaka"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-anacondadev0120",
+      "label": "Historically used github account",
+      "category": "account",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 13, opening paragraph",
+          "quote": "based on the persona listing Github username anacondadev0120 on their resume"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-screenname",
+      "label": "Historically used github screenname",
+      "category": "account",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 3, 'GitHub Account AnacondaDev0120'",
+          "quote": "which used the username O_O—likely the initials for the likely DPRK IT worker persona Osamu Odaka—and screenname AnacondaDev0120"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-laborx-account",
+      "label": "Used laborx profile",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 5, 'LaborX'",
+          "quote": "The resume on freelancer website LaborX listed the name Osamu Odaka while claiming the Github account anacondadev0120."
+        },
+        {
+          "source_id": "doc-laborx-id241156",
+          "locator": "page title and profile header",
+          "quote": "Freelancer Osamu Odaka - Work experience: Linkx"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-laborx-created",
+      "label": "Laborx profile created at",
+      "category": "account",
+      "observed": "2023-06-28",
+      "evidence": [
+        {
+          "source_id": "doc-laborx-id241156",
+          "locator": "embedded public profile state, freelancerDetails.value, contiguous fragment 1 of 2",
+          "quote": "\"user_id\":241156,\"first_name\":\"Osamu\",\"last_name\":\"Odaka\""
+        },
+        {
+          "source_id": "doc-laborx-id241156",
+          "locator": "embedded public profile state, freelancerDetails.value, contiguous fragment 2 of 2",
+          "quote": "\"created_at\":\"2023-06-28 00:22:25\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-linkx-employment",
+      "label": "Claimed employment",
+      "category": "employment",
+      "evidence": [
+        {
+          "source_id": "doc-laborx-id241156",
+          "locator": "Work experience section, contiguous fragment 1 of 2",
+          "quote": "Linkx April 2022 – June 2023"
+        },
+        {
+          "source_id": "doc-laborx-id241156",
+          "locator": "Work experience section, contiguous fragment 2 of 2",
+          "quote": "Full-stack Engineer"
+        },
+        {
+          "source_id": "doc-laborx-resume-id241156",
+          "locator": "PDF p. 1, Work Experience, contiguous fragment 1 of 2",
+          "quote": "Front-end & Back-end Web Engineer, Linkx .Inc"
+        },
+        {
+          "source_id": "doc-laborx-resume-id241156",
+          "locator": "PDF p. 1, Work Experience, contiguous fragment 2 of 2",
+          "quote": "April 2022 – June 2023"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-nickdev-coauthored-commit",
+      "label": "Github account coauthored commit with",
+      "category": "relationship",
+      "observed": "2024-03-12",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 4, first paragraph and Graphic 2",
+          "quote": "Researchers found a commit on the page in March 2024 that was co-authored by github user nickdev0118"
+        },
+        {
+          "source_id": "doc-nisos-github-network-2025",
+          "locator": "'Fake Persona 1: Huy Diep/HuiGia Diep', Graphic 2",
+          "quote": "the account co-authored commits with a previously identified, likely DPRK IT worker persona, which used the GitHub account AnacondaDev0120"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-propursuit-link",
+      "label": "Name on a ProPursuit profile that claimed the same GitHub account (Nisos does not attribute 'Link' to this persona)",
+      "category": "alias",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 5, 'ProPursuit'",
+          "quote": "The resume on freelancer website ProPursuit listed the name ‘Link,’ while claiming the Github account anacondadev0120."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-remotehub-account",
+      "label": "Used remotehub profile",
+      "category": "account",
+      "observed": "2022-02-25",
+      "evidence": [
+        {
+          "source_id": "doc-remotehub-osamu-archive",
+          "locator": "archived Overview, Intro, contiguous fragment 1 of 2",
+          "quote": "Odaka Osamu"
+        },
+        {
+          "source_id": "doc-remotehub-osamu-archive",
+          "locator": "archived Overview, Intro, contiguous fragment 2 of 2",
+          "quote": "Joined February 25, 2022"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-remoteok-shaowtw",
+      "label": "Related platform name",
+      "category": "alias",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 6, 'Remote Ok'",
+          "quote": "The resume on freelancer website Remote Ok listed the name ‘shaowtw,’ while claiming the Github account anacondadev0120."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-reported-persona",
+      "label": "Reported employment persona",
+      "category": "identity_name",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 13, 'Fake Persona 2: Osamu Odaka'",
+          "quote": "Nisos researcher identified the persona Osamu Odaka—used by the likely DPRK IT worker to obtain remote work in Japan"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-telegram-brilliant0120",
+      "label": "Historically reported handle",
+      "category": "account",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 19, contact table",
+          "quote": "Telegram        brilliant0120        Osamu Odaka"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-telegram-nightfury00120",
+      "label": "Historically reported handle",
+      "category": "account",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 19, contact table",
+          "quote": "Telegram        nightfury00120       Osamu Odaka"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-weitao-resume-reuse",
+      "label": "Content reused by persona",
+      "category": "relationship",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF pp. 8-9, 'Shared Resume Content'",
+          "quote": "The WeiTao Wang persona borrowed three pieces of content from the Osamu Odaka persona."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

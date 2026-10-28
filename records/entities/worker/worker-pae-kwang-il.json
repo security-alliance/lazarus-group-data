@@ -1,0 +1,184 @@
+{
+  "id": "worker-pae-kwang-il",
+  "type": "worker",
+  "name": "Pae Kwang Il",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Pae Kwang Il",
+  "organizations": [
+    "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+  ],
+  "locations": [
+    "China (Shenyang/Dandong)"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details."
+  ],
+  "aliases": [
+    {
+      "value": "dmd515@163[.]com",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Government-supplied passport/identity image; cite in place, do not perform facial recognition.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 7 provides employment aliases/accounts and states the delegation used Chinese nationals as banking proxies. Annex 7 also reproduces identity/passport photos for 14 members; sensitive document numbers are intentionally omitted here",
+      "locator": "Annex 7 employment table, PDF p. 111 / printed p. 109; identity table, PDF p. 112 / printed p. 110 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-pae-kwang-il-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Pae Kwang Il"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pae Kwang Il row, DPRK IT Worker column",
+          "quote": "Pae Kwang Il"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported name; no identity-document fields were used."
+      ]
+    },
+    {
+      "id": "claim-pae-kwang-il-kmctc-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "listed_in_kmctc_it_worker_employment_table",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation",
+        "abbreviation": "KMCTC",
+        "source_scope": "Annex 7 employment table"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Pae Kwang Il row",
+          "quote": "Pae Kwang Il"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "A source-table affiliation, not a claim about delegation management, banking-proxy conduct, current employment, or current location."
+      ]
+    },
+    {
+      "id": "claim-pae-kwang-il-us-client-country-engagement",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "presented_country": "not stated",
+        "client_country": "United States",
+        "duration": "not stated"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Pae Kwang Il row; contact-shaped Alias cell, account selector, and rate omitted",
+          "quote": "United States"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source-table row. Presented country and duration are dashes and are preserved as not stated. The contact-shaped label, account selector, and rate are excluded; client country is not client identity or physical-location evidence.",
+        "A second Pae Kwang Il row contains no selector-free country or duration detail beyond dashes and was not converted into a separate public claim."
+      ]
+    },
+    {
+      "id": "claim-pae-kwang-il-kmctc-banking-proxy-context",
+      "type": "incident",
+      "predicate": "msmt_reported_kmctc_delegation_banking_proxy_context",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation",
+        "reported_activity": "use of Chinese nationals as banking proxies for IT-worker revenue generated in China",
+        "scope": "organization/delegation-level",
+        "individual_conduct_attributed": false,
+        "financial_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Organization/delegation-level MSMT context only; it does not attribute personal banking-proxy use, money laundering, account control, or a transaction to this individual.",
+        "No account, proxy identity, payment, transaction, wallet, client, victim, or precise-location selector is retained."
+      ]
+    },
+    {
+      "id": "claim-pae-kwang-il-msmt-source-table-reference",
+      "type": "image",
+      "predicate": "publisher_reported_source_table_row_reference",
+      "value": {
+        "publisher": "Multilateral Sanctions Monitoring Team",
+        "source_page": "PDF file p. 111 (printed p. 109)",
+        "subject_label": "Pae Kwang Il",
+        "media_type": "report table",
+        "handling": "link_and_narrative_only",
+        "image_retained": false,
+        "sensitive_columns_retained": false,
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), visually reviewed Pae Kwang Il row; contact, account, rate, and other selector columns excluded",
+          "quote": "Pae Kwang Il"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Narrative and publisher-link reference only; the source table is not copied, cropped, embedded, or used for biometric or civil-identity inference.",
+        "Email-like strings, account selectors, rates, client detail beyond the existing bounded country claim, and all identity-document material are excluded.",
+        "The adjacent passport and identity-document table on PDF file p. 112 was not used as media."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Pae Kwang Il is the person named in the MSMT Annex 7 KMCTC employment table. The source's Alias cell is contact-shaped and omitted from public alias, civil-identity, and current-account fields. Keep names, image, nationality, geography, and technology similarity from linking records."
+}

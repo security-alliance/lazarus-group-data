@@ -1,0 +1,316 @@
+{
+  "id": "persona-justine-carlo",
+  "type": "persona",
+  "name": "Justine Carlo",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s2"
+    ]
+  },
+  "organizations": [
+    "A U.S. educational company (claimed/reported, unnamed)"
+  ],
+  "ttps": [
+    "multiple locations",
+    "quick repurposing after superredstar removal",
+    "reused resume content"
+  ],
+  "caveats": [
+    "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens leave this label and other labels unlinked as natural-person identities.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved.",
+    "This source-reported persona or account label has unverified legal or civil identity. Historical observation or page reachability covers historical context; present ownership, control, activity, affiliation, nationality, sanctions status, and lawful identity remain unverified, and account-holder contact or targeting is prohibited."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "justine-carlo",
+      "url": "https://github.com/justine-carlo",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "justine-carlo-0116",
+      "url": "https://github.com/justine-carlo-0116",
+      "status": "removed",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "email",
+      "value": "justinecarlo0116@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ]
+    },
+    {
+      "type": "portfolio-or-domain",
+      "value": "https://my-portfolio-3bca0.web.app/index.html",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "Justine Carlo was associated with GitHub accounts justine-carlo and justine-carlo-0116",
+      "locator": "Justine Carlo account-repurposing discussion and Graphics 20-21, report pp. 10-11"
+    },
+    {
+      "source_id": "src-6f78e944302b"
+    },
+    {
+      "source_id": "src-518f8fa30353"
+    },
+    {
+      "source_id": "src-e12718241264"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-justine-reported-persona",
+      "type": "identity_name",
+      "predicate": "researcher_reported_employment_persona",
+      "value": {
+        "name": "Justine Carlo",
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 10, Repurposed Accounts",
+          "quote": "Nisos identified a likely DPRK-affiliated persona, Justine Carlo, who appears to be employed at Japanese company 10pct Inc as a full stack Engineer and appears to have been previously employed at a US educational company."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Research attribution only; employer claims are historical source assessments, not independently verified current employment."
+      ]
+    },
+    {
+      "id": "claim-justine-account-pair",
+      "type": "account",
+      "predicate": "researcher_reported_github_account_pair",
+      "value": {
+        "platform": "GitHub",
+        "handles": [
+          "justine-carlo",
+          "justine-carlo-0116"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 10, Repurposed Accounts",
+          "quote": "The persona is associated with two GitHub accounts, justine-carlo and justine-carlo-0116."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Historical publisher association; the two account objects do not prove one current controller."
+      ]
+    },
+    {
+      "id": "claim-justine-repurposing-history",
+      "type": "relationship",
+      "predicate": "researcher_reported_account_repurposing",
+      "value": {
+        "account": "justine-carlo-0116",
+        "created": "2025-03",
+        "continued_work_of": "superredstar"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 10, Repurposed Accounts",
+          "quote": "GitHub account justine-carlo-0116, however, was created in March 2025, following the removal of DPRK-affiliated GitHub account superredstar from the platform, and has been used to continue the work of that account."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Publisher-reported activity relationship; it does not establish that account labels are the same natural person."
+      ]
+    },
+    {
+      "id": "claim-justine-reported-ttps",
+      "type": "note",
+      "predicate": "researcher_reported_persona_indicators",
+      "value": {
+        "indicators": [
+          "reused resume content",
+          "multiple listed locations",
+          "number 116 in persona artifacts",
+          "unfinished personal website"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 11, Justine Carlo assessment",
+          "quote": "Nisos assesses that Justine Carlo is a DPRK-affiliated persona as the account exhibits a number of DPRK-related TTPs, including reused resume content, multiple listed locations, and the use of the number 116."
+        },
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 11, Justine Carlo assessment",
+          "quote": "Nisos assesses that the persona was created quickly, since its personal website is not fully finished even though the persona claims to have been working professionally since 2016."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "These are researcher-reported persona indicators, not standalone attribution rules."
+      ]
+    },
+    {
+      "id": "claim-justine-location-conflicts",
+      "type": "location",
+      "predicate": "researcher_reported_conflicting_profile_locations",
+      "value": {
+        "claimed_locations": [
+          "Philippines",
+          "United States",
+          "Japan"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 11, Justine Carlo profile comparison",
+          "quote": "Nisos observed a number of profiles on freelancer websites for Justine Carlo, which claim that he is located in the Philippines, the United States, and Japan."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "These are persona-profile claims, not verified locations."
+      ]
+    },
+    {
+      "id": "claim-justine-primary-github-current",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "justine-carlo",
+        "numeric_id": 113611559,
+        "public_repositories": 0,
+        "created_at": "2022-09-15T13:32:18Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-6f78e944302b",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"justine-carlo\""
+        },
+        {
+          "source_id": "src-6f78e944302b",
+          "locator": "JSON field id",
+          "quote": "\"id\": 113611559"
+        },
+        {
+          "source_id": "src-6f78e944302b",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 0"
+        },
+        {
+          "source_id": "src-6f78e944302b",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2022-09-15T13:32:18Z\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current reachability does not establish present control or lawful identity."
+      ]
+    },
+    {
+      "id": "claim-justine-repurposed-github-current",
+      "type": "account",
+      "predicate": "historical_github_account_not_found_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "justine-carlo-0116",
+        "status_at_cutoff": "not found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 10, Repurposed Accounts",
+          "quote": "GitHub account justine-carlo-0116"
+        },
+        {
+          "source_id": "src-518f8fa30353",
+          "locator": "JSON response field message",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Deletion, renaming, suspension, or another cause cannot be determined."
+      ]
+    },
+    {
+      "id": "claim-justine-portfolio-current",
+      "type": "infrastructure",
+      "predicate": "current_public_portfolio_presents_persona",
+      "value": {
+        "page": "Firebase-hosted portfolio",
+        "name": "Justine Carlo",
+        "status": "reachable and visibly incomplete"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e12718241264",
+          "locator": "HTML title",
+          "quote": "<title>Justine Carlo | Home</title>"
+        },
+        {
+          "source_id": "src-e12718241264",
+          "locator": "Home hero",
+          "quote": "I'm <span class=\"header\">Justine Carlo</span>"
+        },
+        {
+          "source_id": "src-e12718241264",
+          "locator": "Twitter link element",
+          "quote": "<a class=\"socialicon twitter\" href=\"\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "The live template's reachability does not establish present ownership or the truth of its claims."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Nisos reports an employment persona and account cluster. The Justine Carlo label, GitHub accounts, portfolio, employer and location claims, work history, and images are source-scoped labels and remain separate from other personas unless a source links them as one natural person."
+}

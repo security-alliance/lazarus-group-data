@@ -1,0 +1,597 @@
+{
+  "id": "dppr5-persona-cornel-cp",
+  "type": "persona",
+  "name": "cornel-cp persona",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Research attribution only; public charge, adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dppr5-ketman-github-organizations-2025"
+    ]
+  },
+  "organizations": [
+    "HyperbuildX",
+    "m8s-lab"
+  ],
+  "ttps": [
+    "Source-attributed public employment-persona and developer-account use"
+  ],
+  "caveats": [
+    "Current ownership or control of any public account remains unresolved; account-holder contact, targeting, and investigation require a separate lawful basis.",
+    "Cornel remains a persona label; natural-person identity is unestablished.",
+    "Common control requires evidence beyond cooperation, amplification, stars, or follows.",
+    "Keep this record separate from g0drlc, 0xMooncity, and promoting accounts.",
+    "Ketman places cornel-cp in the HyperbuildX orbit and reports cooperation with g0drlc and promotion by related accounts. These graph relationships are supporting context; shared control requires independent evidence.",
+    "Name similarity, appearance, avatars, code style, followers, stars, forks, organization membership, and social amplification provide context only; relationships require source links.",
+    "Persona labels and public handles are source-reported indicators; legal identity and criminal-guilt status require separate official findings."
+  ],
+  "aliases": [
+    {
+      "value": "Cornel",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "Cornel-pe",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "cornel-cp",
+      "url": "https://github.com/cornel-cp",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "X",
+      "identifier": "cornel_pe",
+      "url": "hxxps://x[.]com/cornel_pe",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dppr5-ketman-github-organizations-2025",
+      "support": "Ketman places cornel-cp in the HyperbuildX orbit and reports cooperation with g0drlc and promotion by related accounts. Those graph relationships are supporting context, not proof that the accounts share an operator",
+      "locator": "The Core Team of HyperbuildX; Other DPRK IT Workers in the orbit of HyperbuildX; Indicators of Compromise"
+    },
+    {
+      "source_id": "src-65ce99175c54"
+    },
+    {
+      "source_id": "src-e754c8dffb9b"
+    },
+    {
+      "source_id": "src-93c3b41eaddc"
+    },
+    {
+      "source_id": "src-c6170200be40"
+    },
+    {
+      "source_id": "src-102d005e9b96"
+    },
+    {
+      "source_id": "src-9c235eaa556b"
+    },
+    {
+      "source_id": "src-6f18c3f8d997"
+    },
+    {
+      "source_id": "src-d8ea5e21f028"
+    },
+    {
+      "source_id": "src-5300a9f9cd42"
+    },
+    {
+      "source_id": "src-8ebec1c8c81e"
+    },
+    {
+      "source_id": "src-f7387d8400a4"
+    },
+    {
+      "source_id": "src-c1bb9a8fe450"
+    },
+    {
+      "source_id": "src-956a44bafb30"
+    },
+    {
+      "source_id": "src-baca81019c44"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-cornel-source-persona-accounts",
+      "type": "account",
+      "predicate": "publisher_reported_persona_accounts",
+      "value": {
+        "persona_label": "Cornel-pe",
+        "github": "cornel-cp",
+        "x": "cornel_pe"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Cornel-pe section, heading and GitHub line",
+          "quote": "Cornel-pe\nGithub:\nhttps://github.com/cornel-cp"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Cornel-pe section, Twitter line",
+          "quote": "Twitter:\nhxxps://x[.]com/cornel_pe"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Public persona/account labels only; no legal-name or current-controller claim."
+      ]
+    },
+    {
+      "id": "claim-cornel-source-promotion-context",
+      "type": "relationship",
+      "predicate": "publisher_reported_social_amplification",
+      "value": {
+        "promoting_account": "0xMuseNine",
+        "platform": "X",
+        "publisher_context": "m8s-lab and HyperBuildX orbit"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Cornel-pe section, social amplification paragraph",
+          "quote": "Cornel-pe’s account is also receiving ‘boosts’ on Twitter from 0xMuseNine"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Publisher-attributed promotion only. Amplification does not prove common control, employment, civil identity, or culpability by either account."
+      ]
+    },
+    {
+      "id": "claim-cornel-source-hyperbuildx-context",
+      "type": "relationship",
+      "predicate": "publisher_reported_hyperbuildx_participation_and_cooperation",
+      "value": {
+        "organization": "HyperBuildX",
+        "cooperating_account": "g0drlc"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Other DPRK IT Workers in the orbit of HyperbuildX, g0drlc paragraph",
+          "quote": "g0drlc\nis also engaged in some co-operation with\ncornel-cp\n, who is a part of HyperbuildX."
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Cooperation and organization context do not prove shared control, common identity, current employment, or criminal participation by counterparties."
+      ]
+    },
+    {
+      "id": "claim-cornel-source-futuresea-project",
+      "type": "relationship",
+      "predicate": "publisher_reported_persona_project",
+      "value": {
+        "project_url": "https://futuresea.fun"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Cornel-pe section, project paragraph",
+          "quote": "Cornel also seems to operate his own project at\nhttps://futuresea.fun"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Publisher attribution only. Passive DNS and HTTP retrieval still failed on 2026-08-14; current control, former content, outage timing, and project conduct were not established."
+      ]
+    },
+    {
+      "id": "claim-cornel-current-github-metadata",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "cornel-cp",
+        "numeric_id": 199410086,
+        "display_name": "Cornel",
+        "public_repositories": 6,
+        "followers": 214,
+        "following": 519,
+        "created_at": "2025-02-15T21:18:25Z",
+        "updated_at": "2026-08-03T10:15:21Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-65ce99175c54",
+          "locator": "JSON fields login and id",
+          "quote": "\"login\": \"cornel-cp\""
+        },
+        {
+          "source_id": "src-65ce99175c54",
+          "locator": "JSON field id",
+          "quote": "\"id\": 199410086"
+        },
+        {
+          "source_id": "src-65ce99175c54",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Cornel\""
+        },
+        {
+          "source_id": "src-65ce99175c54",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2025-02-15T21:18:25Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The display name and graph counts are mutable and do not verify a civil identity or one continuous controller."
+      ]
+    },
+    {
+      "id": "claim-cornel-current-github-portfolio",
+      "type": "skill",
+      "predicate": "current_public_repository_portfolio",
+      "value": {
+        "platform": "GitHub",
+        "handle": "cornel-cp",
+        "repository_count": 6,
+        "non_forks": 3,
+        "forks": 3,
+        "archived": 0,
+        "safe_themes": [
+          "IPFS validation",
+          "card game",
+          "casino backend",
+          "Polymarket sports bot",
+          "wallet-sniper repository label"
+        ],
+        "public_authored_issue_or_pull_request_results": 0
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-e754c8dffb9b",
+          "locator": "Complete six-object repository response, Card-Game object",
+          "quote": "\"name\": \"Card-Game\""
+        },
+        {
+          "source_id": "src-e754c8dffb9b",
+          "locator": "sports-betting-bot description",
+          "quote": "\"description\": \"sports trading bot for polymarket\""
+        },
+        {
+          "source_id": "src-93c3b41eaddc",
+          "locator": "Complete public organization response",
+          "quote": "[]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Repository counts and themes describe current public metadata only. No code was executed and no authorship, employment, victim, intent, or maliciousness inference was made from repository names."
+      ]
+    },
+    {
+      "id": "claim-cornel-cornel-pe-current-metadata",
+      "type": "account",
+      "predicate": "current_public_related_account_candidate_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "cornel-pe",
+        "numeric_id": 172536691,
+        "display_name": "C.P",
+        "company_field": "Future Sea",
+        "public_repositories": 72,
+        "followers": 836,
+        "following": 1763,
+        "created_at": "2024-06-12T18:28:29Z",
+        "updated_at": "2026-08-03T15:21:46Z",
+        "merge_status": "not merged"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-c6170200be40",
+          "locator": "JSON fields login and id",
+          "quote": "\"login\": \"cornel-pe\""
+        },
+        {
+          "source_id": "src-c6170200be40",
+          "locator": "JSON field company",
+          "quote": "\"company\": \"Future Sea\""
+        },
+        {
+          "source_id": "src-c6170200be40",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2024-06-12T18:28:29Z\""
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Publisher persona and project labels",
+          "quote": "Cornel-pe"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The exact persona-label match and Future Sea company field are source-aligned evidence, strengthened by the separate graph and repository-lineage claim below. They remain insufficient to merge cornel-pe with cornel-cp or identify a natural person."
+      ]
+    },
+    {
+      "id": "claim-cornel-cornel-pe-public-account-relationship",
+      "type": "relationship",
+      "predicate": "current_public_mutual_follow_and_repository_lineage",
+      "value": {
+        "accounts": [
+          "cornel-cp",
+          "cornel-pe"
+        ],
+        "public_follow_edges": [
+          "cornel-pe -> cornel-cp",
+          "cornel-cp -> cornel-pe"
+        ],
+        "repository_lineage": {
+          "child": "cornel-cp/Card-Game",
+          "parent_and_source": "cornel-pe/Card-Game",
+          "source_repository_id": 963388515
+        },
+        "association_assessment": "medium-confidence related-account evidence",
+        "identity_merge": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-102d005e9b96",
+          "locator": "HTTP response status",
+          "quote": "HTTP 204 No Content"
+        },
+        {
+          "source_id": "src-9c235eaa556b",
+          "locator": "HTTP response status",
+          "quote": "HTTP 204 No Content"
+        },
+        {
+          "source_id": "src-6f18c3f8d997",
+          "locator": "JSON parent full_name",
+          "quote": "\"full_name\": \"cornel-pe/Card-Game\""
+        },
+        {
+          "source_id": "src-6f18c3f8d997",
+          "locator": "JSON parent repository id",
+          "quote": "\"id\": 963388515"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This is stronger than name similarity and supports retaining cornel-pe as a related-account candidate within the profile's review context. Mutable follows and a fork relationship still do not prove one controller, one author, a civil identity, or DPRK tasking of the current account."
+      ]
+    },
+    {
+      "id": "claim-cornel-cornel-pe-public-portfolio-and-activity",
+      "type": "skill",
+      "predicate": "current_related_account_public_portfolio_and_activity",
+      "value": {
+        "platform": "GitHub",
+        "handle": "cornel-pe",
+        "repository_count": 72,
+        "non_forks": 45,
+        "forks": 27,
+        "archived": 0,
+        "safe_themes": [
+          "game and casino development",
+          "Web3, NFT, Solana, and smart-contract work",
+          "AI agents",
+          "marketplaces",
+          "streaming and web applications",
+          "developer tooling"
+        ],
+        "author_search_reported_total": 40,
+        "author_search_exposed_items": 38,
+        "exposed_pull_requests": 27,
+        "exposed_issues": 11,
+        "public_organizations": [
+          "EddieHubCommunity",
+          "Design-and-Code"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-c6170200be40",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 72"
+        },
+        {
+          "source_id": "src-d8ea5e21f028",
+          "locator": "README headline",
+          "quote": "Game Developer | Web3 Integrator | Fullstack Engineer"
+        },
+        {
+          "source_id": "src-5300a9f9cd42",
+          "locator": "Search response field total_count",
+          "quote": "\"total_count\": 40"
+        },
+        {
+          "source_id": "src-8ebec1c8c81e",
+          "locator": "Public organization objects",
+          "quote": "\"login\": \"EddieHubCommunity\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Counts describe the distinct current account and are not inherited by cornel-cp as if they were the same account. Repository metadata and self-presentation do not prove skill, employment, one-person authorship, intent, victimhood, or maliciousness; no code was executed."
+      ]
+    },
+    {
+      "id": "claim-cornel-cornel-pe-account-entered-names",
+      "type": "alias",
+      "predicate": "related_account_entered_public_form_names",
+      "value": {
+        "platform": "GitHub",
+        "handle": "cornel-pe",
+        "historical_form_names": [
+          {
+            "value": "Keigo Igarashi",
+            "observed_dates": [
+              "2024-06-17",
+              "2024-07-15"
+            ],
+            "form_count": 4
+          },
+          {
+            "value": "Cornel",
+            "observed_date": "2026-06-10",
+            "form_count": 1
+          },
+          {
+            "value": "cornel-pe",
+            "observed_date": "2026-06-10",
+            "form_count": 1
+          }
+        ],
+        "identity_status": "account-entered labels only"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5300a9f9cd42",
+          "locator": "Tech-Phantoms/community issue 557, Name field",
+          "quote": "Keigo Igarashi"
+        },
+        {
+          "source_id": "src-5300a9f9cd42",
+          "locator": "Design-and-Code/support issue 1171, Name field",
+          "quote": "keigo Igarashi"
+        },
+        {
+          "source_id": "src-5300a9f9cd42",
+          "locator": "App-Choreography/Get-An-Invite issue 412, Name field",
+          "quote": "Cornel"
+        },
+        {
+          "source_id": "src-5300a9f9cd42",
+          "locator": "DevCrafta-Team/community issue 586, Name field",
+          "quote": "cornel-pe"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The evidence establishes only what the GitHub account submitted in public forms. Keigo Igarashi and Cornel are not verified civil identities, and same-named people elsewhere must not be merged."
+      ]
+    },
+    {
+      "id": "claim-cornel-cornel-pe-mighty-mufasa-history",
+      "type": "account",
+      "predicate": "related_account_historical_repository_path_label",
+      "value": {
+        "current_handle": "cornel-pe",
+        "historical_label": "mighty-mufasa",
+        "evidence": {
+          "legacy_repository_path": "mighty-mufasa/mighty-mufasa",
+          "current_repository": "cornel-pe/mighty-mufasa",
+          "stable_repository_id": 814302020,
+          "legacy_user_status": "HTTP 404 Not Found"
+        },
+        "assessment": "likely historical account label; rename versus transfer unresolved",
+        "identity_merge": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f7387d8400a4",
+          "locator": "HTTP redirect and current JSON full_name",
+          "quote": "\"full_name\": \"cornel-pe/mighty-mufasa\""
+        },
+        {
+          "source_id": "src-f7387d8400a4",
+          "locator": "JSON repository id",
+          "quote": "\"id\": 814302020"
+        },
+        {
+          "source_id": "src-f7387d8400a4",
+          "locator": "JSON homepage",
+          "quote": "\"homepage\": \"https://github.com/mighty-mufasa\""
+        },
+        {
+          "source_id": "src-c1bb9a8fe450",
+          "locator": "Public commit author login",
+          "quote": "\"login\": \"cornel-pe\""
+        },
+        {
+          "source_id": "src-956a44bafb30",
+          "locator": "JSON fields message and status",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "GitHub's legacy repository redirect, profile-config metadata, creation timing, and public author logins support historical continuity at the account/repository-label level. They do not prove whether the mechanism was a username rename or transfer, and they do not establish a civil identity or link unrelated Mighty Mufasa labels."
+      ]
+    },
+    {
+      "id": "claim-cornel-current-x-status",
+      "type": "account",
+      "predicate": "current_public_account_endpoint_status",
+      "value": {
+        "platform": "X",
+        "historical_handle": "cornel_pe",
+        "status": "HTTP 404 profile not found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-baca81019c44",
+          "locator": "HTML page title",
+          "quote": "User Profile Not Found - X | 404 Error"
+        },
+        {
+          "source_id": "src-baca81019c44",
+          "locator": "Open Graph description",
+          "quote": "The user profile you're looking for could not be found."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current ownership, removal reason, timing, and historical controller are unknown."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ketman-reported developer persona and public account labels. Civil identity for Cornel or Keigo Igarashi, and linkage among cornel-cp, cornel-pe, or cooperating/promoting accounts, remain unresolved. Public graph, repository, name, company, or project similarities are correlation leads."
+}

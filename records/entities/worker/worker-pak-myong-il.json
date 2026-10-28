@@ -1,0 +1,187 @@
+{
+  "id": "worker-pak-myong-il",
+  "type": "worker",
+  "name": "Pak Myong Il",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Pak Myong Il",
+  "organizations": [
+    "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+  ],
+  "locations": [
+    "China (Shenyang/Dandong)"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details."
+  ],
+  "aliases": [
+    {
+      "value": "Haley",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Government-supplied passport/identity image; cite in place, do not perform facial recognition.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 7 provides employment aliases/accounts and states the delegation used Chinese nationals as banking proxies. Annex 7 also reproduces identity/passport photos for 14 members; sensitive document numbers are intentionally omitted here",
+      "locator": "Annex 7 employment table, PDF p. 111 / printed p. 109; identity table, PDF p. 112 / printed p. 110 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-pak-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_worker_name",
+      "value": {
+        "name": "Pak Myong Il"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7, KMCTC IT Workers, employment table, printed p. 109 / PDF p. 111",
+          "quote": "Pak Myong Il"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Reported name in an MSMT Participating State employment table; no independent civil-identity bridge was added."
+      ]
+    },
+    {
+      "id": "claim-pak-kmctc-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_kmctc_worker_affiliation",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation (KMCTC)",
+        "role": "IT worker"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Case Study: Korea Mangyongdae Computer Technology Corporation, PDF file p. 58 (printed p. 56), opening paragraph",
+          "quote": "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7, introductory paragraph and employment table, printed pp. 107-109 / PDF pp. 109-111",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7, employment table, printed p. 109 / PDF p. 111",
+          "quote": "Pak Myong Il"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The table is source-reported employment information; no precise site, client, rate, banking, or passport detail is included in this claim."
+      ]
+    },
+    {
+      "id": "claim-pak-haley-employment-label",
+      "type": "alias",
+      "predicate": "source_reported_employment_label",
+      "value": {
+        "label": "Haley",
+        "label_type": "employment persona"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7, KMCTC IT Workers employment table, Pak Myong Il row, printed p. 109 / PDF p. 111",
+          "quote": "Haley"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Employment label only; the source does not establish that Haley is Pak Myong Il's civil identity."
+      ]
+    },
+    {
+      "id": "claim-pak-myong-il-haley-engagement-context",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "employment_label": "Haley",
+        "presented_country": "Vietnam",
+        "client_country": "United States",
+        "duration": "not stated",
+        "source_table_rows": 2
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), two Pak Myong Il / Haley rows, presented-country column; selector and rates omitted",
+          "quote": "Vietnam"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), two Pak Myong Il / Haley rows, client-country column; selector and rates omitted",
+          "quote": "United States"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Two historical source-table rows use the same Haley label, Vietnam-presented persona context, U.S. client country, and unstated duration. Their only visible difference is the excluded rate, so they are summarized without inferring whether they are separate engagements, a continuation, or duplicate reporting.",
+        "Presented country is persona context, not civil nationality, client identity, or physical location."
+      ]
+    },
+    {
+      "id": "claim-pak-myong-il-kmctc-banking-proxy-context",
+      "type": "incident",
+      "predicate": "msmt_reported_kmctc_delegation_banking_proxy_context",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation",
+        "reported_activity": "use of Chinese nationals as banking proxies for IT-worker revenue generated in China",
+        "scope": "organization/delegation-level",
+        "individual_conduct_attributed": false,
+        "financial_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Organization/delegation-level MSMT context only; it does not attribute personal banking-proxy use, money laundering, account control, or a transaction to this individual.",
+        "No account, proxy identity, payment, transaction, wallet, client, victim, or precise-location selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Legal or officially reported worker identity only to the extent established by cited sources; keep records separate by name or image. MSMT reports Pak Myong Il as a KMCTC worker and records the employment label Haley; the label remains an employment label."
+}

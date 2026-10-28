@@ -1,0 +1,74 @@
+{
+  "id": "eao7-ttp-yanji-2015-dprk-it-workforce-context",
+  "type": "ttp",
+  "name": "Yanji DPRK IT-workforce and host-employer context (2015)",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The source presents the activity as supported employment and industrial policy; cited material covers legitimate development, training, and cooperation context. Fraud, criminal case, sanctions action, labor violation, and immigration enforcement require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "eao7-cn-most-yanji-2016"
+    ]
+  },
+  "locations": [
+    "Yanji, Jilin, China"
+  ],
+  "ttps": [
+    "aggregate-workforce-reporting",
+    "historical-overseas-it-workforce",
+    "host-jurisdiction-employer-ecosystem"
+  ],
+  "caveats": [
+    "The 14 unnamed employers, the DPRK consulate, unnamed DPRK companies and the 312 workers remain outside profile creation.",
+    "The 14 employers remain unidentified; registry correlation supplies company records rather than a front-company finding.",
+    "The 14 employers remain unnamed; front characterization awaits source-backed identification.",
+    "Nationality or location alone supplies a contextual signal; a fraudulent-employment nexus requires individual evidence.",
+    "The historical count belongs to its source period; a 2026 figure requires current reporting.",
+    "This is an aggregate record; named person, facilitator, persona, account, prosecution, front-company, sensitive-identifier, address, payment-selector, identity-document, and image profiles require separate source records.",
+    "The 312 unnamed workers remain unresolved; listed attributes and later sanctions reporting leave individual identities open.",
+    "The two local companies named elsewhere are separate from the aggregate workforce count in the source text and remain outside this record.",
+    "The Yanji headcount and employer count provide historical context for openly supported DPRK IT labor before later reporting on deceptive platform activity and organizational links.",
+    "This is historical workforce and organizational context; fraudulent employment, deception, sanctions evasion, misconduct, and current-operation status remain unestablished."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-official-host-ecosystem-and-workforce-count",
+      "statements": [
+        "Yanji High-Tech Zone reported that it coordinated with the DPRK consulate and DPRK companies concerning the quantity and quality of DPRK IT recruitment.",
+        "The report stated that 14 companies in the zone employed DPRK IT technical personnel and that 312 personnel had been introduced cumulatively during the reported period.",
+        "The employers and workers are unnamed; the aggregate historical count does not identify any front company, facilitator, persona, account, or individual worker.",
+        "Original-language evidence: “高新区积极协调朝鲜领事馆和朝鲜会社，保证朝鲜IT人才引进的数量和质量，全区招用朝鲜IT技术人才企业达到14家，累计引进朝鲜IT技术人才312人。”",
+        "Researcher-supplied English translation: The report said the high-tech zone coordinated with the DPRK consulate and DPRK companies to maintain the quantity and quality of DPRK IT recruitment; 14 companies in the zone employed DPRK IT technical personnel, with 312 personnel introduced cumulatively."
+      ],
+      "evidence_class": "historical official Chinese employment and industrial-development statement",
+      "translation_method": "Close researcher translation of the reviewed Simplified Chinese official text.",
+      "limitations": [
+        "Do not identify the 14 employers through registry correlation or assume they were fronts.",
+        "Do not treat the historical count as current as of 2026.",
+        "Do not infer a fraudulent-employment nexus for any individual worker from nationality or location alone.",
+        "Do not identify the 14 employers through registry correlation, geography, later reporting, or name similarity, and do not characterize them as fronts.",
+        "The two local companies named elsewhere in the source are not linked by the text to the aggregate workforce count and are not represented here.",
+        "The 312 unnamed workers must not be resolved or attributed through nationality, location, names, images, social graphs, or later sanctions reporting.",
+        "This is historical workforce and organizational context, not proof of fraudulent employment, deception, sanctions evasion, misconduct, or a current operation.",
+        "No named person, facilitator, persona, account, prosecution, front company, sensitive identifier, address, payment selector, identity document, or image is retained."
+      ],
+      "source_ids": [
+        "eao7-cn-most-yanji-2016"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-unhistory-yanji-dalian-it-worker-groups"
+  ],
+  "sources": [
+    {
+      "source_id": "eao7-cn-most-yanji-2016",
+      "support": "Evidence class: historical official Chinese employment and industrial-development statement. Original-language support (zh-Hans): “高新区积极协调朝鲜领事馆和朝鲜会社，保证朝鲜IT人才引进的数量和质量，全区招用朝鲜IT技术人才企业达到14家，累计引进朝鲜IT技术人才312人。” English translation: The report said the high-tech zone coordinated with the DPRK consulate and DPRK companies to maintain the quantity and quality of DPRK IT recruitment; 14 companies in the zone employed DPRK IT technical personnel, with 312 personnel introduced cumulatively. Translation method: Close researcher translation of the reviewed Simplified Chinese official text",
+      "locator": "2015年工作总结, subsection （二）企业服务工作再上新台阶, paragraph beginning 为促进我区电子商务、服务外包等IT产业发展"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

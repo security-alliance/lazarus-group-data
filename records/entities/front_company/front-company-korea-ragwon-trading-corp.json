@@ -1,0 +1,58 @@
+{
+  "id": "front-company-korea-ragwon-trading-corp",
+  "type": "front_company",
+  "name": "Korea Ragwon Trading Corp.",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT lists or describes this organization in its account of overseas labour and sanctions evasion; the report supplies organizational context rather than a criminal conviction.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "Source-bounded organization record; merge similar names only with an explicit source link.",
+    "This record retains no street addresses, payment selectors, or private contact data."
+  ],
+  "identity_boundary": "Organization label Korea Ragwon Trading Corp. as reported by MSMT; keep it separate from another entity sharing a name or transliteration unless an explicit source links them.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Korea Ragwon Trading Corp..",
+      "locator": "PDF p. 50, Bulgunbyol and Korea Ragwon subsection"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-front-company-korea-ragwon-trading-corp",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_company",
+      "value": {
+        "organization": "Korea Ragwon Trading Corp."
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 50, Bulgunbyol and Korea Ragwon subsection",
+          "quote": "Korea Ragwon Trading Corp."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "Korea Rakwon Trading Corp.",
+      "alias_type": "source-reported alias",
+      "relationship": "explicitly reported by MSMT",
+      "source_ids": [
+        "msmt-2026-1"
+      ]
+    }
+  ]
+}

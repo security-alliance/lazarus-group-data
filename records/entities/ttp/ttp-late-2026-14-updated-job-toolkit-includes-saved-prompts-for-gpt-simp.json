@@ -1,0 +1,36 @@
+{
+  "id": "ttp-late-2026-14-updated-job-toolkit-includes-saved-prompts-for-gpt-simp",
+  "type": "ttp",
+  "name": "Updated job toolkit includes Saved Prompts for GPT, Simplify Copilot, AIApply, Final Round AI, and 2fa.cn for shared OTPs.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: high observed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-anyrun-part2",
+      "late-2026-defcon34-slides"
+    ]
+  },
+  "ttps": [
+    "Updated job toolkit includes Saved Prompts for GPT, Simplify Copilot, AIApply, Final Round AI, and 2fa.cn for shared OTPs."
+  ],
+  "caveats": [
+    "The ANY.RUN article and DEF CON deck are one controlled-investigation source family; the deck is retained only for its slide-specific categorized presentation."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "support": "The article’s “Famous Chollima New Toolset & Infrastructure” section lists the browser extensions and 2fa.cn shared-OTP service observed in the controlled engagement",
+      "locator": "“Famous Chollima New Toolset & Infrastructure,” browser extensions and 2fa.cn entries"
+    },
+    {
+      "source_id": "late-2026-defcon34-slides",
+      "support": "Slides 29–31 specifically present the updated toolset as categorized conference-deck material; the deck is part of the same investigation and is not independent corroboration",
+      "locator": "PDF pp. 29–31, updated-toolset slides"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

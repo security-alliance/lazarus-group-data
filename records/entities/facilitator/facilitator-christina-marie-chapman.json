@@ -1,0 +1,516 @@
+{
+  "id": "facilitator-christina-marie-chapman",
+  "type": "facilitator",
+  "name": "Christina Marie Chapman",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "pleaded guilty and sentenced to 102 months on 2025-07-24; U.S. laptop-farm and payroll facilitator",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "dusor8-s01",
+      "gov-20f0beb21b42",
+      "gov-21957b3c5802",
+      "gov-9306abf9a80f",
+      "gov-b385deb5f41c",
+      "gov-c132c03b2f85",
+      "gov-d42de875fbd4"
+    ]
+  },
+  "legal_or_reported_name": "Christina Marie Chapman",
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "Only first-party investigative provenance is added; duplicated scheme facts, monetary amounts, and outcomes are omitted.",
+    "The IRS-CI annual report is a retrospective agency source; it summarizes prior reporting rather than adding a new charge, sentence, investigation, or separate incident.",
+    "The related superseding indictment supplies charging-stage allegations. The signed statement of offense supplies Chapman's plea admissions; the signed judgment, forfeiture order, and restitution order control the adjudicated disposition. DOJ's July 24, 2025 release reports forfeited property of $284,555.92, but the signed order controls at $284,666.92.",
+    "The report year is 2025, and exact public release date remains unestablished; HTTP Last-Modified is excluded from publication dating."
+  ],
+  "infrastructure": [
+    {
+      "type": "investigative-agency-provenance",
+      "agency": "Internal Revenue Service, Criminal Investigation",
+      "office": "Phoenix Field Office",
+      "relationship": "annual-report-significant-case",
+      "source_ids": [
+        "dusor8-s01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-20f0beb21b42",
+      "support": "The signed Rule 11(c)(1)(C) agreement records guilty pleas to Counts 2, 4, and 6 and an agreed total imprisonment range of 94 to 111 months followed by three years of supervised release",
+      "locator": "D.D.C. No. 1:24-cr-00220-RDM, Doc. 22, pp. 1-3"
+    },
+    {
+      "source_id": "gov-c132c03b2f85",
+      "support": "Chapman signed a factual basis admitting the described conduct, including hosting employer laptops, enabling remote access, supporting identity-validation searches, handling payroll proceeds, and charging $176,850 in fees. It states that the conspiracy affected more than 300 companies, compromised more than 70 identities, and generated at least $17.1 million for overseas workers",
+      "locator": "D.D.C. No. 1:24-cr-00220-RDM, Doc. 23, pp. 1-4, 12, 15-16"
+    },
+    {
+      "source_id": "gov-9306abf9a80f",
+      "support": "The signed order identifies $284,666.92 in forfeited property and separately enters a $176,850 forfeiture money judgment. Underlying account, company, identity, and payment selectors are excluded",
+      "locator": "D.D.C. No. 1:24-cr-00220-RDM, Doc. 43, pp. 1 and 5"
+    },
+    {
+      "source_id": "gov-d42de875fbd4",
+      "support": "The signed judgment records sentence imposition on July 24, 2025, signature and filing on July 30, 102 months of imprisonment, three years of supervised release, a $300 assessment, and dismissal of all remaining counts",
+      "locator": "D.D.C. No. 1:24-cr-00220-RDM, Doc. 44, pp. 1-3 and 6"
+    },
+    {
+      "source_id": "dusor8-s01",
+      "support": "The IRS-CI 2025 Annual Report lists the already adjudicated Christina Marie Chapman matter as a Phoenix Field Office significant case. This adds first-party investigative-agency provenance only; it is not a new case filing or outcome",
+      "locator": "PDF page 6, Significant Cases (1/3), 'North Korean Information Technology Scheme'"
+    },
+    {
+      "source_id": "gov-b385deb5f41c",
+      "support": "The indictment alleges that Christina Chapman operated a U.S. laptop farm, helped overseas IT workers validate stolen identities and connect remotely to employer laptops, and handled payroll proceeds",
+      "locator": "D.D.C. No. 1:24-cr-00173-TSC, ¶¶4–5, 12 and pp. 3–4, 8"
+    },
+    {
+      "source_id": "gov-21957b3c5802",
+      "support": "DOJ reports that Christina Marie Chapman pleaded guilty and was sentenced to 102 months in prison and three years of supervised release. The release reports forfeited property of $284,555.92 and a $176,850 judgment; the separately reviewed signed forfeiture order controls the property total at $284,666.92",
+      "locator": "Opening and sentence, supervision, forfeiture, and monetary-judgment paragraphs"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name-and-court",
+      "type": "legal_event",
+      "predicate": "named_criminal_defendant",
+      "value": {
+        "name": "Christina Chapman",
+        "court": "U.S. District Court for the District of Columbia"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 1, court heading",
+          "quote": "IN THE UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA"
+        },
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 1, caption",
+          "quote": "CHRISTINA CHAPMAN"
+        }
+      ],
+      "observed_at": "2024-05-08"
+    },
+    {
+      "id": "claim-operative-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the District of Columbia",
+        "docket": "1:24-cr-00220-RDM"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-20f0beb21b42",
+          "locator": "PDF p. 1, filing header",
+          "quote": "Case 1:24-cr-00220-RDM     Document 22     Filed 02/11/25"
+        },
+        {
+          "source_id": "gov-d42de875fbd4",
+          "locator": "PDF p. 1, judgment case number",
+          "quote": "Case Number: 24-CR-220-RDM-1"
+        }
+      ],
+      "observed_at": "2025-02-11",
+      "notes": [
+        "The related superseding indictment remains correctly cited under 1:24-cr-00173-TSC; the signed plea and judgment establish 1:24-cr-00220-RDM as Chapman's operative prosecution docket."
+      ]
+    },
+    {
+      "id": "claim-admitted-scheme-period-and-identity-validation",
+      "type": "incident",
+      "predicate": "plea_admitted_identity_validation_support",
+      "value": {
+        "start": "2020-10",
+        "end": "2023-10-26",
+        "method": "assisted use of background-check services to validate identity information"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 1, introductory stipulation",
+          "quote": "Chapman agrees and acknowledges that she did, in fact, perform the actions and have the knowledge ascribed to her below."
+        },
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 2, paragraph 6",
+          "quote": "From in or around October 2020, until on or about October 26, 2023, Chapman, a U.S. national, conspired with certain overseas IT workers"
+        },
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 3, paragraph 11",
+          "quote": "the coconspirators used OBCS-1 to conduct more than 80 queries, to include criminal history reports and Social Security Number traces, of 57 U.S. persons’ identities in order to further their impersonation of these U.S. persons with U.S. employers."
+        }
+      ],
+      "observed_at": "2025-02-11",
+      "notes": [
+        "This is a plea-admitted factual basis, not an indictment-only allegation.",
+        "Victim identities, identity-document details, account selectors, and payment details are excluded."
+      ]
+    },
+    {
+      "id": "claim-admitted-laptop-farm-and-remote-access",
+      "type": "infrastructure",
+      "predicate": "plea_admitted_laptop_farm",
+      "value": {
+        "device_class": "U.S. company laptops",
+        "function": "hosted and enabled remote access",
+        "software": "AnyDesk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 4, paragraph 13",
+          "quote": "Chapman received and hosted laptops issued by U.S. companies to the overseas IT workers in her U.S. residences (a “laptop farm”), so that the companies believed the workers to be located in the United States."
+        },
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 6, paragraph 13(d)",
+          "quote": "Chapman then installed AnyDesk and set up the laptop for remote work."
+        },
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 16, paragraph 22",
+          "quote": "Chapman charged coconspirator overseas IT workers for “rent” and other fees for the services that she rendered in operating the laptop farm, to include logging into the U.S. companies’ laptops, connecting to the U.S. companies’ networks, downloading remote access software, connecting the overseas IT workers remotely to the laptops, providing technical support, laptop storage and shipping, and arranging for the transfer of payments."
+        }
+      ],
+      "observed_at": "2025-02-11",
+      "notes": [
+        "This conduct is admitted in the signed statement of offense.",
+        "Residential details, login credentials, device selectors, and raw communications are excluded."
+      ]
+    },
+    {
+      "id": "claim-admitted-payroll-handling-and-fees",
+      "type": "incident",
+      "predicate": "plea_admitted_payroll_handling",
+      "value": {
+        "methods": [
+          "received payroll checks",
+          "forged beneficiary signatures",
+          "deposited checks",
+          "transferred proceeds"
+        ],
+        "compensation": "monthly service and laptop-farm fees",
+        "fees_total_usd": 176850
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 12, paragraph 17",
+          "quote": "Chapman and the coconspirator overseas IT workers impersonated U.S. persons, forging check endorsements and caused U.S. companies to make deposits in the names of individuals who were falsely associated with the transactions"
+        },
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 15, paragraphs 19 and 21",
+          "quote": "after receiving fraudulent wages in her U.S. financial accounts, Chapman further transferred proceeds of the scheme to the coconspirator overseas IT workers. In exchange, Chapman charged monthly fees to the overseas IT workers for her services"
+        },
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 16, paragraph 22",
+          "quote": "The fees charged by Chapman totaled $176,850.00."
+        }
+      ],
+      "observed_at": "2025-02-11",
+      "notes": [
+        "This conduct and the aggregate fee total are admitted in the signed statement of offense.",
+        "No bank, account, check, victim, transfer, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-alleged-linkedin-recruitment",
+      "type": "incident",
+      "predicate": "indictment_alleged_linkedin_approach",
+      "value": {
+        "date": "2020-03",
+        "platform": "LinkedIn",
+        "requested_role": "be the U.S. face"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 13, paragraph 23(a)",
+          "quote": "through her LinkedIn page, and asked her to “be the U.S. face” of their company"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "The public LinkedIn account itself was not resolved or authenticated."
+      ]
+    },
+    {
+      "id": "claim-guilty-plea",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty",
+      "value": {
+        "plea_date": "2025-02-11",
+        "counts": [
+          2,
+          4,
+          6
+        ],
+        "offenses": [
+          "conspiracy to commit wire fraud",
+          "aggravated identity theft",
+          "conspiracy to launder monetary instruments"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-20f0beb21b42",
+          "locator": "PDF p. 1, Charges and Statutory Penalties",
+          "quote": "Your client agrees to plead guilty to Counts Two, Four, and Six in the Indictment, charging your client with Conspiracy to Commit Wire Fraud, Aggravated Identity Theft, and Conspiracy to Launder Monetary Instruments"
+        },
+        {
+          "source_id": "gov-21957b3c5802",
+          "locator": "Opening defendant paragraph",
+          "quote": "pleaded guilty on Feb. 11 in the District of Columbia to conspiracy to commit wire fraud, aggravated identity theft, and conspiracy to launder monetary instruments."
+        }
+      ],
+      "observed_at": "2025-02-11",
+      "notes": [
+        "The government agreed to seek dismissal of Counts 1, 3, 5, 7, and 8 after sentencing; the signed judgment records dismissal of all remaining counts."
+      ]
+    },
+    {
+      "id": "claim-rule-11-sentencing-range",
+      "type": "legal_event",
+      "predicate": "rule_11_c_1_c_agreed_range",
+      "value": {
+        "counts_2_and_6_months_minimum": 70,
+        "counts_2_and_6_months_maximum": 87,
+        "count_4_consecutive_months": 24,
+        "total_months_minimum": 94,
+        "total_months_maximum": 111,
+        "supervised_release_years": 3
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-20f0beb21b42",
+          "locator": "PDF pp. 2-3, paragraph 4, Agreed Sentence",
+          "quote": "a sentence of 70 to 87 months of incarceration on Counts Two and Six, plus an additional 24 months' incarceration on Count Four as required under 18 U.S.C. § 1028A(a)(1), for a total of 94 to 111 months of incarceration, followed by 3 years of supervised release"
+        }
+      ],
+      "observed_at": "2025-02-11",
+      "notes": [
+        "This was the binding-agreement range presented to the court, not the sentence ultimately imposed; the signed judgment separately controls the 102-month disposition."
+      ]
+    },
+    {
+      "id": "claim-sentence-and-supervised-release",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment_and_supervised_release",
+      "value": {
+        "sentence_date": "2025-07-24",
+        "judgment_signed_at": "2025-07-30",
+        "judgment_filed_at": "2025-07-30",
+        "imprisonment_months": 102,
+        "counts_2_and_6_concurrent_months": 78,
+        "count_4_consecutive_months": 24,
+        "supervised_release_years": 3,
+        "special_assessment_usd": 300
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-d42de875fbd4",
+          "locator": "PDF p. 1, disposition and signature",
+          "quote": "pleaded guilty to count(s) 2, 4 and 6"
+        },
+        {
+          "source_id": "gov-d42de875fbd4",
+          "locator": "PDF p. 2, Imprisonment",
+          "quote": "102 months, which consists of concurrent terms of 78 months as to Counts 2 and 6, and 24 months as to Count 4, which shall run consecutively to Counts 2 and 6."
+        },
+        {
+          "source_id": "gov-d42de875fbd4",
+          "locator": "PDF p. 3, Supervised Release",
+          "quote": "36-months as to Counts 2 and 6, and 12 months as to Count 4 all to run concurrently."
+        },
+        {
+          "source_id": "gov-d42de875fbd4",
+          "locator": "PDF p. 6, Criminal Monetary Penalties",
+          "quote": "Assessment $ 300.00"
+        },
+        {
+          "source_id": "gov-21957b3c5802",
+          "locator": "Defendant sentence paragraph",
+          "quote": "In addition to the 102-month prison term, U.S. District Court Judge Randolph D. Moss ordered Chapman to serve three years of supervised release"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Sentence was imposed July 24, 2025; the judgment was signed and filed July 30, 2025. These dates are not interchangeable.",
+        "The judgment initially deferred restitution."
+      ]
+    },
+    {
+      "id": "claim-forfeiture-and-judgment",
+      "type": "legal_event",
+      "predicate": "ordered_forfeiture_and_judgment",
+      "value": {
+        "forfeited_property_usd": 284666.92,
+        "forfeiture_money_judgment_usd": 176850
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-9306abf9a80f",
+          "locator": "PDF p. 1, second WHEREAS clause",
+          "quote": "which includes an amount totaling $284,666.92"
+        },
+        {
+          "source_id": "gov-9306abf9a80f",
+          "locator": "PDF p. 5, paragraph 3",
+          "quote": "A forfeiture money judgment in the amount of $176,850 is entered against the defendant and in favor of the United States."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "The signed court order controls. DOJ's July 24, 2025 release reported $284,555.92, an $111.00 lower and internally inconsistent figure.",
+        "Public aggregate adjudicated amounts are retained; underlying account, company, identity, Social Security, and payment selectors are excluded."
+      ]
+    },
+    {
+      "id": "claim-company-and-device-scale",
+      "type": "incident",
+      "predicate": "doj_reported_company_and_device_scale",
+      "value": {
+        "us_companies": 309,
+        "compromised_us_person_identities_minimum": 70,
+        "revenue_generated_for_overseas_workers_usd_minimum": 17100000,
+        "devices_shipped_overseas": 49,
+        "laptops_seized_minimum": 90
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c132c03b2f85",
+          "locator": "PDF p. 3, paragraph 10",
+          "quote": "The conspiracy impacted more than 300 U.S. companies, compromised more than 70 identities of U.S. persons, caused false information to be conveyed to DHS on more than 100 occasions, created false tax liabilities for more than 70 U.S. persons, and resulted in at least $17.1 million of revenue to be generated for the overseas IT workers."
+        },
+        {
+          "source_id": "gov-21957b3c5802",
+          "locator": "Company-impact paragraph",
+          "quote": "Chapman helped North Korean IT workers obtain jobs at 309 U.S. companies"
+        },
+        {
+          "source_id": "gov-21957b3c5802",
+          "locator": "Laptop-farm paragraph",
+          "quote": "Chapman also shipped 49 laptops and other devices supplied by U.S. companies to locations overseas"
+        },
+        {
+          "source_id": "gov-21957b3c5802",
+          "locator": "Laptop-farm paragraph",
+          "quote": "More than 90 laptops were seized from Chapman’s home following the execution of a search warrant in October 2023."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "DOJ-reported conduct based on court documents; the plea and sentence are adjudicated separately.",
+        "Victim-company names, addresses, and device selectors are excluded."
+      ]
+    },
+    {
+      "id": "claim-irs-ci-phoenix-provenance",
+      "type": "note",
+      "predicate": "investigative_case_provenance",
+      "value": {
+        "agency": "Internal Revenue Service, Criminal Investigation",
+        "office": "Phoenix Field Office",
+        "context": "2025 annual report significant case"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dusor8-s01",
+          "locator": "Report p. 9 / PDF p. 6, Significant Cases, North Korean Information Technology Scheme",
+          "quote": "North Korean Information Technology Scheme     Phoenix Field Office"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Investigative provenance only; not an employment affiliation or a new legal event."
+      ]
+    },
+    {
+      "id": "claim-christina-chapman-source-short-name",
+      "type": "identity_name",
+      "predicate": "court_source_reported_short_name_form",
+      "value": {
+        "name": "Christina Chapman",
+        "form_type": "source-reported shortened court name",
+        "separate_identity_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "Superseding indictment caption",
+          "quote": "CHRISTINA CHAPMAN"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "This is a source-explicit shortened form of the same defendant's name, not an alias, separate civil identity, or common-name merge."
+      ]
+    },
+    {
+      "id": "claim-christina-chapman-coarse-historical-location",
+      "type": "location",
+      "predicate": "official_source_reported_coarse_historical_location",
+      "value": {
+        "location": "Arizona, United States",
+        "context": "DOJ sentencing-release geographic descriptor",
+        "present_location_inferred": false,
+        "precise_location_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-21957b3c5802",
+          "locator": "Official DOJ page title",
+          "quote": "Arizona Woman Sentenced for $17M Information Technology Worker Fraud Scheme that Generated Revenue for North Korea"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Coarse source-time geography only; it does not establish present residence, custody, travel, precise location, or continued presence.",
+        "Street addresses, residential details, facility details, and other precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Christina Marie Chapman is the defendant in D.D.C. No. 1:24-cr-00220-RDM. The related superseding indictment filed under D.D.C. No. 1:24-cr-00173-TSC supplies charging-stage evidence; her signed plea admissions and judgment are separate, while victims and private selectors stay out."
+}

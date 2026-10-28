@@ -1,0 +1,75 @@
+{
+  "id": "dimf-ttp-staged-identity-lender-recruitment-chain",
+  "type": "ttp",
+  "name": "Staged identity-lender recruitment-chain awareness",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S01",
+      "DIMF-S07"
+    ]
+  },
+  "ttps": [
+    "facilitator-recruitment",
+    "identity-lender",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Identity lenders remain outside the research scope; nationality, residence, and platform use supply context requiring source-backed involvement evidence.",
+    "Require account, device, payment, and employment evidence before associating a person with a facilitator network.",
+    "The BBC provides direct historical testimony; Fortune adds court-record and investigator context. The model is plausible and source-supported, with case-specific scope."
+  ],
+  "infrastructure": [
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S01",
+        "DIMF-S07"
+      ]
+    },
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "Some operations recruit people in one jurisdiction to lend identities or provide local presence, then use those identities to approach higher-value employment markets and additional helpers."
+      ],
+      "limitations": [
+        "The BBC provides direct historical testimony; Fortune adds court-record and investigator context. The model is plausible and source-supported but not universal.",
+        "Do not seek or expose identity lenders or infer involvement from nationality, residence, or platform use.",
+        "Require account, device, payment, and employment evidence before associating a person with a facilitator network."
+      ],
+      "source_ids": [
+        "DIMF-S01",
+        "DIMF-S07"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "DRH-F02",
+    "existing identity-lender and domestic-facilitator records"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S07",
+      "support": "Some operations recruit people in one jurisdiction to lend identities or provide local presence, then use those identities to approach higher-value employment markets and additional helpers",
+      "locator": "Opening operational overview; sections on identity theft, laptop farms, communication tools, gig platforms, and management structure"
+    },
+    {
+      "source_id": "DIMF-S01",
+      "support": "Some operations recruit people in one jurisdiction to lend identities or provide local presence, then use those identities to approach higher-value employment markets and additional helpers",
+      "locator": "Opening; sections on recruitment, team organization, wages and remittance, identity lending, and escape"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

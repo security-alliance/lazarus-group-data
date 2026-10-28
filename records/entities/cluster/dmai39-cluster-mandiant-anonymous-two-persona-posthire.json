@@ -1,0 +1,64 @@
+{
+  "id": "dmai39-cluster-mandiant-anonymous-two-persona-posthire",
+  "type": "cluster",
+  "name": "Anonymous Mandiant two-persona post-hire incident",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party Mandiant responder account and source-attributed DPRK IT-worker assessment; the source scope is responder reporting and IT-worker assessment, with charge, adjudication, sanctions designation, civil-identity finding, and named-victim report outside the source.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMAI39-S01-MANDIANT-INCIDENT-EPISODE"
+    ]
+  },
+  "ttps": [
+    "consumer-vpn-and-remote-access-software",
+    "device-shipping-and-claimed-location-mismatch",
+    "incumbent-persona-referral-expansion",
+    "multiple-professional-network-personas",
+    "rapid-post-onboarding-tool-installation",
+    "shared-egress-correlation-across-personas",
+    "stolen-identity-remote-employment",
+    "tax-document-identity-anomaly-detection"
+  ],
+  "caveats": [
+    "AnyDesk, Astrill VPN, Caffeine, shared egress, address mismatch, rapid tool installation, and camera behavior are contextual signals that require corroboration for DPRK affiliation or fraud.",
+    "Controls must be fair, job-relevant, consistently applied, and grounded in job evidence rather than nationality, ethnicity, accent, language, appearance, or other protected traits.",
+    "The source records an incident-specific negative finding for theft, exfiltration, sabotage, malware, and other malicious conduct.",
+    "Mandiant left unresolved whether the employer-facing communicator was the worker or a facilitator.",
+    "Mandiant left unresolved whether the person who communicated with the employer was the underlying worker or a facilitator.",
+    "Explicit negative finding: Mandiant's incident account reports zero theft, exfiltration, sabotage, malware, or other malicious conduct.",
+    "Explicit negative finding: the record retains no employee, stolen-identity victim, employer, address, IP address, LinkedIn profile, image, or other identifying selector.",
+    "The account leaves unresolved whether the two employment personas represented two distinct human operators.",
+    "The Apple Podcasts, Buzzsprout audio, RSS, and YouTube endpoints belong to one episode/document family; source-family count is one.",
+    "The employer, employment personas, and stolen-identity victim are anonymous; identity resolution and victim deanonymization remain outside the record.",
+    "The source-specific observation that one persona appeared on camera and a second rarely did is a local observation; deepfake or attribution rules require broader validation.",
+    "This is one Mandiant responder's account and a source-attributed DPRK assessment; adjudication, sanctions designation, and public civil-identity findings require separate sources.",
+    "Two employment personas reflect the speaker's assessment that one person operated multiple personas."
+  ],
+  "infrastructure": [
+    {
+      "type": "anonymous-post-hire-incident",
+      "statements": [
+        "At 02:16–03:58, Mandiant responder JP Glab says an employer learned that an employee used a false identity after the identity-theft victim received an unexpected W-2; the first employment persona had performed front- and back-end development for about six months and had referred a second persona who was also hired.",
+        "At 04:35–06:29, Mandiant correlated both managed devices using the same external point of presence despite their claimed locations, observed AnyDesk and Astrill VPN, and learned through a parallel HR and legal review that shipping-address information did not align and both devices ultimately appeared in Nevada.",
+        "At 07:20–08:36, returned-device review found access to multiple LinkedIn personas, including profiles unknown to the employer, and artifacts showing AnyDesk and Caffeine installed within hours of onboarding; Glab assessed that one operator was using multiple personas.",
+        "At 09:43–10:51, Glab says the employment personas were terminated and emphasizes that Mandiant did not necessarily find malicious activity in this incident: the workers performed their jobs and appeared primarily motivated by salary.",
+        "At 11:23–15:20, Glab discusses post-hire monitoring of unauthorized applications, consumer VPN use and impossible-travel patterns, pre-hire verification, first-day presence as a possible control, source-specific camera behavior, and the W-2 anomaly as the event that exposed the incident."
+      ],
+      "source_ids": [
+        "DMAI39-S01-MANDIANT-INCIDENT-EPISODE"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DMAI39-S01-MANDIANT-INCIDENT-EPISODE",
+      "support": "Mandiant incident responder JP Glab recounts an anonymous employer investigation involving two employment personas. He says a stolen-identity victim's unexpected W-2 triggered the inquiry after the first persona had worked for about six months and referred the second. Mandiant correlated shared egress, AnyDesk and Astrill VPN use, device-shipping discrepancies, multiple LinkedIn personas, and rapid post-onboarding installation of AnyDesk and Caffeine. Glab says the personas were terminated and, crucially, that the workers in this incident were not necessarily conducting malicious activity: they performed their development work and appeared primarily motivated by salary. Evidence boundary: First-party responder account of an anonymous customer engagement and Mandiant's DPRK IT-worker assessment. It is not an adjudication, sanctions designation, public identity finding, or proof that any one observed signal independently establishes attribution",
+      "locator": "02:16–03:58; 04:35–06:29; 07:20–10:51; 11:23–15:20"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,294 @@
+{
+  "id": "facilitator-zhenxing-wang",
+  "type": "facilitator",
+  "name": "Zhenxing Wang",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced; the exact criminal docket is D. Mass. No. 1:25-cr-10273-NMG. A U.S. facilitator was charged by a separate indictment and later convicted and sentenced.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "flr6-s13",
+      "flr6-s19",
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Zhenxing Wang",
+  "organizations": [
+    "Hopana Tech LLC",
+    "Independent Lab LLC",
+    "Tony WKJ LLC"
+  ],
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "The indictment is a charging instrument; the later DOJ release establishes the adjudicated posture."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "flr6-s19",
+        "gov-61a8cf3633ad"
+      ],
+      "value": "Danny"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "criminal-case-docket",
+      "value": "D. Mass. No. 1:25-cr-10273-NMG",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s13",
+        "flr6-s19"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "KVM devices",
+      "relationship": "reported-link",
+      "source_ids": [
+        "flr6-s19",
+        "gov-61a8cf3633ad"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "flr6-s13",
+      "support": "The filed indictment identifies United States v. Zhenxing Wang, D. Mass. No. 1:25-cr-10273-NMG",
+      "locator": "D. Mass. No. 1:25-cr-10273-NMG, Doc. 1, caption"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ names Zhenxing Wang in the coordinated nationwide action. The release-wide laptop-farm, account, website, and separate virtual-currency-case totals are aggregate context, not conduct attributed to him individually.",
+      "locator": "Named Zhenxing Wang paragraph and release-wide scheme summary"
+    },
+    {
+      "source_id": "flr6-s19",
+      "support": "DOJ reports Zhenxing Wang’s guilty plea and 92-month sentence; his laptop-hosting and KVM role; and the defendants’ joint creation of three shell companies and related financial accounts. The release attributes unauthorized access to ITAR-controlled data to an overseas co-conspirator, not personally to Zhenxing Wang.",
+      "locator": "Opening and Zhenxing Wang sentence paragraph; paragraphs beginning “According to court documents” and “Kejia Wang and Zhenxing Wang created shell companies”; ITAR paragraph"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-zhenxing-name-alias",
+      "type": "identity_name",
+      "predicate": "official_name_and_alias",
+      "value": {
+        "name": "Zhenxing Wang",
+        "alias": "Danny"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Zhenxing Wang et al. section, opening paragraph",
+          "quote": "U.S. national Zhenxing ‘Danny’ Wang"
+        }
+      ],
+      "observed_at": "2025-06-30"
+    },
+    {
+      "id": "claim-zhenxing-charged-case",
+      "type": "legal_event",
+      "predicate": "charged_by_five_count_indictment",
+      "value": {
+        "case": "D. Mass. No. 1:25-cr-10273-NMG",
+        "posture": "charged by five-count indictment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Zhenxing Wang et al. section, opening paragraph",
+          "quote": "pursuant to a five-count indictment"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "The indictment is a charging instrument; this claim does not imply guilt."
+      ]
+    },
+    {
+      "id": "claim-zhenxing-hosted-laptops-kvm",
+      "type": "infrastructure",
+      "predicate": "hosted_laptops_and_enabled_kvm_access",
+      "value": {
+        "devices": [
+          "employer laptops",
+          "keyboard-video-mouse switches"
+        ],
+        "purpose": "remote access by overseas IT workers"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘According to court documents’",
+          "quote": "Zhenxing Wang was among the U.S. facilitators who received and hosted victim company laptops at his residence. He and the others also enabled overseas IT workers to access the laptops remotely by, among other things, connecting the laptops to hardware devices designed to allow for remote access"
+        }
+      ],
+      "notes": [
+        "Later DOJ sentencing release states this as court-document-supported conduct; residential details are excluded."
+      ]
+    },
+    {
+      "id": "claim-zhenxing-shell-companies",
+      "type": "organization_affiliation",
+      "predicate": "created_shell_companies_with_codefendant",
+      "value": {
+        "organizations": [
+          "Hopana Tech LLC",
+          "Tony WKJ LLC",
+          "Independent Lab LLC"
+        ],
+        "co_creator": "Kejia Wang"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Kejia Wang and Zhenxing Wang created shell companies’",
+          "quote": "Kejia Wang and Zhenxing Wang created shell companies with corresponding financial accounts, including Hopana Tech LLC, Tony WKJ LLC, and Independent Lab LLC"
+        }
+      ],
+      "notes": [
+        "No financial-account selectors are retained."
+      ]
+    },
+    {
+      "id": "claim-zhenxing-shell-companies-operational-status",
+      "type": "organization_affiliation",
+      "predicate": "doj_described_shell_companies_as_having_no_employees_or_operations",
+      "value": {
+        "organizations": [
+          "Hopana Tech LLC",
+          "Tony WKJ LLC",
+          "Independent Lab LLC"
+        ],
+        "employees": "none, according to DOJ",
+        "operations": "none, according to DOJ",
+        "description_scope": "historical court-document-supported scheme finding"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Kejia Wang and Zhenxing Wang created shell companies’",
+          "quote": "In fact, these companies had no employees or operations and existed only to further the scheme and enable the defendants and their co-conspirators to receive proceeds from the scheme."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "This is DOJ's court-document-supported characterization of the three named companies in the charged scheme. It is not a live corporate-registry finding or a claim about similarly named companies.",
+        "Financial accounts, proceeds, payment flows, and other selectors were excluded."
+      ]
+    },
+    {
+      "id": "claim-zhenxing-guilty-plea",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "offenses": [
+          "conspiracy to commit wire fraud",
+          "conspiracy to commit money laundering"
+        ],
+        "plea_month": "2026-01"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "opening disposition paragraph",
+          "quote": "In January 2026, he pleaded guilty in the District of Massachusetts to conspiracy to commit wire fraud and conspiracy to commit money laundering."
+        }
+      ]
+    },
+    {
+      "id": "claim-zhenxing-sentence",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment",
+      "value": {
+        "imprisonment_months": 92
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "opening disposition paragraph",
+          "quote": "Zhenxing Wang, of New Brunswick, New Jersey, was sentenced to 92 months in prison."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Residential geography omitted from structured value as unnecessary personal detail."
+      ]
+    },
+    {
+      "id": "claim-zhenxing-supervised-release",
+      "type": "legal_event",
+      "predicate": "ordered_supervised_release",
+      "value": {
+        "term_years": 3
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "opening disposition paragraph",
+          "quote": "U.S. District Court Judge Nathaniel M. Gorton ordered the defendants to serve three years each of supervised release"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "The shared forfeiture order is represented separately with its joint scope and lack of individual allocation explicit."
+      ]
+    },
+    {
+      "id": "claim-zhenxing-joint-forfeiture-order",
+      "type": "legal_event",
+      "predicate": "included_in_joint_forfeiture_order",
+      "value": {
+        "joint_total_usd": 600000,
+        "joint_defendants": [
+          "Kejia Wang",
+          "Zhenxing Wang"
+        ],
+        "individual_allocation_available": false,
+        "received_by_united_states_at_publication_usd": 400000,
+        "publication_date": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "opening disposition paragraph",
+          "quote": "U.S. District Court Judge Nathaniel M. Gorton ordered the defendants to serve three years each of supervised release and to forfeit a total of $600,000 that was paid to them for facilitating the North Koreans. As of today, the United States has already received $400,000 of the ordered forfeiture amount."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "The $600,000 is the joint total for Kejia Wang and Zhenxing Wang. DOJ does not allocate an individual forfeiture amount to either defendant, so no portion is assigned to Zhenxing Wang.",
+        "The $400,000 figure is case-level receipt status as of publication, not an individual payment, balance, or asset selector."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Zhenxing ‘Danny’ Wang is the defendant in D. Mass. No. 1:25-cr-10273-NMG and the person whose later guilty plea and sentence DOJ reports. Kejia ‘Tony’ Wang is a separate co-defendant. Preserve indictment allegations separately from Zhenxing Wang's adjudicated plea and sentence; co-defendant or scheme-wide conduct is not assigned to him."
+}

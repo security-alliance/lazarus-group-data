@@ -1,0 +1,55 @@
+{
+  "id": "darf-ttp-public-private-virtual-asset-interdiction",
+  "type": "ttp",
+  "name": "Public-private virtual-asset interdiction for DPRK IT-worker funds",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official regional or global policy/defensive context; named incident, person attribution, seizure, and adjudication status remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DARF-S02-FATF-ASSET-RECOVERY-2025"
+    ]
+  },
+  "ttps": [
+    "cryptocurrency-salary",
+    "money-laundering",
+    "regime-remittance"
+  ],
+  "caveats": [
+    "Publish only as a high-level cross-sector defensive and asset-recovery model. Account and wallet selectors, participant-specific legal authority, and a specific recovery result belong to separate source material.",
+    "The source adds source-level context; named worker, facilitator, company, wallet, transaction, seizure, and recovery outcomes require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-policy-and-defensive-context",
+      "statements": [
+        "FATF describes a public-private Beacon Network involving more than twenty exchanges, stablecoin issuers and other cryptocurrency participants, together with law enforcement, security researchers and blockchain analytics firms.",
+        "DPRK IT-worker and hack-fund disruption is one of the network's stated high-impact focus areas.",
+        "The described model uses vetted flaggers, automated tracing and real-time notifications to participating services so flagged funds can be identified and acted on before withdrawal or further laundering.",
+        "The guidance provides no named DPRK worker, facilitator, company, wallet, amount, seizure or adjudicated case outcome."
+      ],
+      "limitations": [
+        "Publish only as a high-level cross-sector defensive and asset-recovery model. Do not reproduce account or wallet selectors, imply that every participant has identical legal authority, or claim a specific recovery result that the cited passage does not report.",
+        "FATF describes a public-private interdiction network that expressly includes DPRK IT-worker funds. The separate Complex Proliferation Financing report remains unverified at page level."
+      ],
+      "source_ids": [
+        "DARF-S02-FATF-ASSET-RECOVERY-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfp-ttp-payroll-beneficiary-screening-boundary",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DARF-S02-FATF-ASSET-RECOVERY-2025",
+      "support": "FATF describes a public-private Beacon Network involving more than twenty exchanges, stablecoin issuers and other cryptocurrency participants, together with law enforcement, security researchers and blockchain analytics firms. DPRK IT-worker and hack-fund disruption is one of the network's stated high-impact focus areas. The described model uses vetted flaggers, automated tracing and real-time notifications to participating services so flagged funds can be identified and acted on before withdrawal or further laundering. The guidance provides no named DPRK worker, facilitator, company, wallet, amount, seizure or adjudicated case outcome",
+      "locator": "PDF page 78 (printed page 76), Box 21 continued"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

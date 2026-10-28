@@ -1,0 +1,56 @@
+{
+  "id": "dnaof-ttp-post-employment-data-theft-extortion",
+  "type": "ttp",
+  "name": "Post-employment sensitive-data theft and extortion sequence",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Government threat reporting supplies the cited account; Swiss prosecution and named-person attribution fall outside the cited reporting.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DNAOF-S02-CH-BACS-2024-2"
+    ]
+  },
+  "ttps": [
+    "post-termination extortion",
+    "remote employment",
+    "sensitive-data-theft",
+    "threatened-data-disclosure-or-sale"
+  ],
+  "caveats": [
+    "Victim data and operational selectors stay unpublished.",
+    "This record is defensive behavior and geographic context only; named person, employer, facilitator, account, image, wallet, and adjudicated-outcome profiles require separate sources.",
+    "Use behavior-first wording; sequence coverage varies by case."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-behavioral-sequence",
+      "statements": [
+        "Swiss federal cyber reporting describes a progression from deceptive hiring to theft of sensitive company data and extortion through threatened publication or sale. The defensible sequence is: obtain employment-derived access, collect sensitive data, then use threatened disclosure or sale to demand payment."
+      ],
+      "limitations": [
+        "Government threat reporting, not a public Swiss prosecution or attribution to a named person.",
+        "The European government source describes post-hire data theft followed by extortion; this sequence does not identify an additional incident.",
+        "Use behavior-first wording; do not imply the sequence occurs in every case.",
+        "Do not publish victim data or operational selectors."
+      ],
+      "source_ids": [
+        "DNAOF-S02-CH-BACS-2024-2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-vendor-dv-f02",
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "DNAOF-S02-CH-BACS-2024-2",
+      "support": "Swiss federal cyber reporting describes a progression from deceptive hiring to theft of sensitive company data and extortion through threatened publication or sale. The defensible sequence is: obtain employment-derived access, collect sensitive data, then use threatened disclosure or sale to demand payment",
+      "locator": "Chapter 5.3, Extortion by North Korean IT workers"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

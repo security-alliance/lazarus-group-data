@@ -1,0 +1,33 @@
+{
+  "id": "eric-low",
+  "real_name": "Eric Low",
+  "aliases": [
+    "Arkned",
+    "wooark",
+    "wootark.soft"
+  ],
+  "gender": "male",
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://www.linkedin.com/in/eric-low-a5795033b/"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x954f20665bcccf58587b49ffee2e593c19c79267"
+      ]
+    }
+  ],
+  "images": [],
+  "curation": "analyst"
+}

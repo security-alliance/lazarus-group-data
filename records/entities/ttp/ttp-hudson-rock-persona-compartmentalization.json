@@ -1,0 +1,47 @@
+{
+  "id": "ttp-hudson-rock-persona-compartmentalization",
+  "type": "ttp",
+  "name": "Infostealer-reported persona compartmentalization and interview tooling",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher research assessment; legal charge, conviction, and verified legal-identity status remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "hudson-rock-2026-03-03-infostealer-personas"
+    ]
+  },
+  "ttps": [
+    "ai-altered-profile-photo",
+    "interview-assistance",
+    "multiple-personas"
+  ],
+  "caveats": [
+    "Canonical structured UTC publication date is March 3, 2026; March 2 is retained only as an index/local-date variant.",
+    "Defenders should treat virtual-camera use, inconsistent video/audio behavior and identity-verification anomalies as corroborating signals that require other evidence.",
+    "Retain the compartmentalization pattern and activity classes only; exclude account names, credentials, raw history, domains, ports, and wallet material.",
+    "The source calls the endpoint owner a suspected DPRK IT worker and infers a local Indonesian facilitator from shared-use patterns. The attribution and facilitator relationship are assessments rather than independently verified identities. Raw telemetry and all actionable artifacts were excluded."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The compromised environment contained virtual-camera, screen-recording, and video-editing software that Hudson Rock assessed as supporting pre-recorded or synthetic video during remote interviews and proof-of-work demonstrations.",
+        "Hudson Rock reported multiple separated browser profiles used for distinct personas and service roles alongside professional development, hosting-administration, and crypto-platform-cloning activity. The combination suggests one shared environment supporting identity management, development, and fraud infrastructure."
+      ],
+      "source_ids": [
+        "hudson-rock-2026-03-03-infostealer-personas"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "hudson-rock-2026-03-03-infostealer-personas",
+      "support": "The compromised environment contained virtual-camera, screen-recording, and video-editing software that Hudson Rock assessed as supporting pre-recorded or synthetic video during remote interviews and proof-of-work demonstrations. Hudson Rock reported multiple separated browser profiles used for distinct personas and service roles alongside professional development, hosting-administration, and crypto-platform-cloning activity. The combination suggests one shared environment supporting identity management, development, and fraud infrastructure",
+      "locator": "The Catalyst: Tracking Sanctioned Infrastructure; The Persona: An Indonesian Front with Chinese Roots; The Toolkit: Deepfakes and Front Door Bypasses; Operational Analytics: The 10 Primary Use Cases; The Shared Activity Smoking Gun; The Ultimate OPSEC Failure: Cheating in GTA V"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

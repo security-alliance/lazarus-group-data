@@ -1,0 +1,267 @@
+{
+  "id": "persona-alex-lu",
+  "type": "persona",
+  "name": "Alex Lu",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s8"
+    ]
+  },
+  "ttps": [
+    "appropriated resume content",
+    "inconsistent listed locations",
+    "minimal/templated professional profiles"
+  ],
+  "caveats": [
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "images": [
+    {
+      "source_id": "platform-s8",
+      "source_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-worker-scam.pdf",
+      "caption": "Nisos report reproduces public profile images; it warns the same photos appeared under different names.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s8",
+      "support": "Nisos enumerated Alex Lu among a network of probable DPRK online personas",
+      "locator": "Skills, location inconsistencies, and appropriated resume content, report pp. 4 and 8-9, Graphics 2 and 18-22"
+    },
+    {
+      "source_id": "src-083702bf2e77"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-alex-lu-source-name",
+      "type": "identity_name",
+      "predicate": "publisher_figure_displayed_persona_name",
+      "value": {
+        "displayed_name": "Alex Lu",
+        "identity_status": "source-reported persona label"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 4, Graphic 2 caption",
+          "quote": "Graphic 2: Alex Lu’s experience in blockchain development."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Common-name persona label only; no legal identity is established."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-probable-persona-assessment",
+      "type": "note",
+      "predicate": "publisher_assessed_probable_dprk_online_persona",
+      "value": {
+        "assessment": "one of the online personas Nisos assessed as probably used by DPRK IT workers",
+        "assessment_not_fact": true
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-083702bf2e77",
+          "locator": "Executive Summary, opening sentence",
+          "quote": "Nisos investigators identified a number of online personas probably used by the Democratic People’s Republic of Korea (DPRK, a.k.a. North Korea) information technology (IT) workers to fraudulently obtain remote employment from unwitting companies in the United States."
+        },
+        {
+          "source_id": "src-083702bf2e77",
+          "locator": "Skills and Interests, Graphic 2 caption",
+          "quote": "Graphic 2: Alex Lu’s experience in blockchain development."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Nisos's probabilistic analytic posture is preserved. This does not establish the apparent identity owner's nationality or knowledge."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-linkedin-profile",
+      "type": "account",
+      "predicate": "publisher_reported_historical_linkedin_profile",
+      "value": {
+        "platform": "LinkedIn",
+        "displayed_name": "Alex Lu",
+        "historical_observation": true,
+        "selector_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 18 visible profile text",
+          "quote": "alex lu"
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 18 caption",
+          "quote": "Graphic 18: Alex Lu’s LinkedIn profile lists his location as Auburn, Alabama."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Historical platform presentation only. The exact profile URL is not retained, and current ownership or control is not inferred."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-claimed-role",
+      "type": "employment",
+      "predicate": "source_reported_persona_role_claim",
+      "value": {
+        "claimed_role": "Full Stack Blockchain Engineer",
+        "claimed_employer": "Louverture Finance"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 18 visible profile text",
+          "quote": "Full Stack Blockchain Engineer at Louverture Finance"
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Source-reproduced persona profile claim; employment was not independently verified."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-claimed-auburn-location",
+      "type": "location",
+      "predicate": "source_reported_persona_location_claim",
+      "value": {
+        "claimed_location": "Auburn, Alabama, United States",
+        "platform_context": "LinkedIn"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 18 caption",
+          "quote": "Graphic 18: Alex Lu’s LinkedIn profile lists his location as Auburn, Alabama."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Profile presentation only; no past or present physical location is established."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-claimed-hong-kong-location",
+      "type": "location",
+      "predicate": "source_reported_persona_location_claim",
+      "value": {
+        "claimed_location": "Hong Kong",
+        "platform_context": "Language Exchange"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 19 caption",
+          "quote": "Graphic 19: Alex Lu’s Language Exchange profile lists his location as Hong Kong."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Profile presentation only; the apparent profile owner was not identified and present location is not inferred."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-location-inconsistency",
+      "type": "note",
+      "predicate": "publisher_reported_cross_platform_location_inconsistency",
+      "value": {
+        "presentations": [
+          "Auburn, Alabama",
+          "Hong Kong"
+        ],
+        "same_civil_person_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 18 caption",
+          "quote": "Graphic 18: Alex Lu’s LinkedIn profile lists his location as Auburn, Alabama."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Graphic 19 caption",
+          "quote": "Graphic 19: Alex Lu’s Language Exchange profile lists his location as Hong Kong."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "The inconsistency is between source-linked persona presentations. It is not proof that either location is true or that every Alex Lu account belongs to one natural person."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-blockchain-development-claim",
+      "type": "skill",
+      "predicate": "source_reported_persona_skill_claim",
+      "value": {
+        "skill_context": "blockchain development"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 4, Graphic 2 caption",
+          "quote": "Graphic 2: Alex Lu’s experience in blockchain development."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Source-reproduced profile presentation, not independently validated technical proficiency."
+      ]
+    },
+    {
+      "id": "claim-alex-lu-appropriated-resume-content",
+      "type": "incident",
+      "predicate": "publisher_assessed_appropriated_resume_content",
+      "value": {
+        "assessment": "a section of the Alex Lu resume matched other LinkedIn profiles",
+        "publisher_found_association_with_source_individuals": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 9, Graphic 20 caption",
+          "quote": "Graphic 20: Section of Alex Lu’s resume that matches other LinkedIn profiles."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 8, Appropriated Resume Content",
+          "quote": "Investigators found no associations between the personas and the individuals, and we assess that the personas’ accounts were populated with appropriated content."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Nisos assessment only. The unassociated profile owner's identity and imagery are not republished or linked into this persona."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Alex Lu is a source-reported probable employment-persona/account cluster with common-name status; legal or civil identity remains unverified. Nisos reports historical platform presentations, inconsistent locations, and likely appropriated resume content; apparent image owners and common-name accounts stay separate, and present account control, nationality, and location are outside source scope."
+}

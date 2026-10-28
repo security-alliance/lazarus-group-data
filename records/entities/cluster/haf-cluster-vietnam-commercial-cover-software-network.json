@@ -1,0 +1,60 @@
+{
+  "id": "haf-cluster-vietnam-commercial-cover-software-network",
+  "type": "cluster",
+  "name": "Vietnam commercial-cover and software-development historical network",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S2"
+    ]
+  },
+  "organizations": [
+    "Korea Ryu Gyong Restaurant",
+    "Koryo Restaurant",
+    "Mudo Vietnam Co., Ltd.",
+    "Mudo Vina Co., Ltd.",
+    "Phan Minh FMC-V.N. Trading Co., Ltd.",
+    "Truong Phu Group Joint Stock Company"
+  ],
+  "ttps": [
+    "company-formation",
+    "freelance-platform",
+    "shell-company"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "The baseline and deep historical packages contain only the listed relationship context; a Vietnam company, restaurant, or kjg197318 relationship is absent.",
+    "Publish the organization-level historical relationship. Omit registry signatures, addresses, personal contact details, and images.",
+    "The entity and account relationships are presented as C4ADS findings based on public registry documents, shared addresses, web records, and repeated portfolio artifacts."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-source-attributed-organization-network",
+      "statements": [
+        "C4ADS linked DPRK restaurants in Hanoi and Ho Chi Minh City to locally registered Vietnamese companies through shared addresses, public registry records, website registration, and public-facing identifiers.",
+        "The report then connected Truong Phu Group's listed representative name to a software-development account using the same kjg197318 identifier seen across multiple freelancing platforms.",
+        "This case illustrates a local-company and non-IT commercial-cover layer around an overseas software team rather than a simple stand-alone remote-worker account."
+      ],
+      "limitations": [
+        "Publish the organization-level historical relationship. Omit registry signatures, addresses, personal contact details, and images.",
+        "Named foreign partners or clients must not be described as knowing participants unless the cited source explicitly says so."
+      ],
+      "source_ids": [
+        "HAF-S2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "C4ADS linked DPRK restaurants in Hanoi and Ho Chi Minh City to locally registered Vietnamese companies through shared addresses, public registry records, website registration, and public-facing identifiers. The report then connected Truong Phu Group's listed representative name to a software-development account using the same kjg197318 identifier seen across multiple freelancing platforms. This case illustrates a local-company and non-IT commercial-cover layer around an overseas software team rather than a simple stand-alone remote-worker account",
+      "locator": "PDF pp. 44-48, Vietnam case study, especially 'Part II: Freelance Profiles and Social Media', 'Part III: Connection to Glocom', and Figure 7"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

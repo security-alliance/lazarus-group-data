@@ -1,0 +1,53 @@
+{
+  "id": "dlsr23-ttp-tech-sector-aggregate",
+  "type": "ttp",
+  "name": "FAMOUS CHOLLIMA technology-sector hands-on-keyboard aggregate",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed aggregate or sector-targeting telemetry; affected-organization finding, adjudication, successful employment, and compromise remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DLSR23-S03-CROWDSTRIKE-TECH-SECTOR-2026"
+    ]
+  },
+  "ttps": [
+    "cross-regional-technology-targeting",
+    "hands-on-keyboard-insider-operations",
+    "technology-sector-employment-seeking"
+  ],
+  "caveats": [
+    "The 47% metric applies only to CrowdStrike’s technology-sector, state-sponsored, hands-on-keyboard denominator.",
+    "The metric reports 47% within its stated scope; all-attacks, state-sponsored, technology-incident, and DPRK-activity totals require separate denominators."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-bounded-sector-telemetry",
+      "statements": [
+        "CrowdStrike reports that FAMOUS CHOLLIMA accounted for 47% of all state-sponsored hands-on-keyboard operations against the technology sector.",
+        "CrowdStrike reports employment-seeking activity against technology companies in North America, Europe, and Asia."
+      ],
+      "limitations": [
+        "The 47% metric applies only to CrowdStrike’s technology-sector, state-sponsored, hands-on-keyboard denominator.",
+        "The metric does not mean 47% of all attacks, all state-sponsored attacks, all technology incidents, or all DPRK activity."
+      ],
+      "source_ids": [
+        "DLSR23-S03-CROWDSTRIKE-TECH-SECTOR-2026"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DLSR23-S03-CROWDSTRIKE-TECH-SECTOR-2026",
+      "support": "CrowdStrike reports that FAMOUS CHOLLIMA represented 47% of all state-sponsored hands-on-keyboard operations against the technology sector, and that its employment-seeking activity targeted technology companies across North America, Europe, and Asia. Evidence boundary: Aggregate vendor telemetry with a narrow denominator. The 47% figure is not a percentage of all attacks, all technology-sector incidents, all nation-state activity, or all DPRK operations. The related CrowdStrike report landing page already appears in raw research; the blog supplies the direct claim text and is not independent corroboration of that report",
+      "locator": "Section “Nation-State Adversaries Set Sights on Technology”; FAMOUS CHOLLIMA paragraph"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

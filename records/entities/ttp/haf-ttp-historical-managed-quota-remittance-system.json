@@ -1,0 +1,56 @@
+{
+  "id": "haf-ttp-historical-managed-quota-remittance-system",
+  "type": "ttp",
+  "name": "Historical managed quota and remittance system for overseas IT work",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S2"
+    ]
+  },
+  "ttps": [
+    "manager-percentage-cut",
+    "regime-remittance",
+    "team-manager"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "The report synthesizes official and reputable reporting and explicitly distinguishes known labor-program patterns from gaps specific to programmers.",
+    "The UN-history package contains later, more specific quota and manager evidence. This finding documents an overlooked 2018 warning; the operational rule remains represented by the later evidence.",
+    "Use as historical context with the report's caveat; later official sources should remain primary for quantitative claims."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-source-attributed-behavior-or-context",
+      "statements": [
+        "C4ADS placed high-skilled programmers within the broader state-managed overseas labor system, describing state surveillance, wage confiscation, handlers, and assigned income quotas.",
+        "The report stated that programmers met quotas through products and services ranging from game-related work to sensitive facial-recognition software.",
+        "C4ADS cautioned that public reporting contained limited information on how high-skilled workers' conditions differed from other overseas laborers."
+      ],
+      "limitations": [
+        "Use as historical context with the report's caveat; later official sources should remain primary for quantitative claims.",
+        "The UN-history package contains later, more specific quota and manager evidence. This finding is retained to establish an overlooked 2018 warning and should not create a duplicate operational rule."
+      ],
+      "source_ids": [
+        "HAF-S2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+    "deep2-ttp-deep-ttp-06-un-freelance-front-company-revenue-model"
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "C4ADS placed high-skilled programmers within the broader state-managed overseas labor system, describing state surveillance, wage confiscation, handlers, and assigned income quotas. The report stated that programmers met quotas through products and services ranging from game-related work to sensitive facial-recognition software. C4ADS cautioned that public reporting contained limited information on how high-skilled workers' conditions differed from other overseas laborers",
+      "locator": "PDF pp. 4-8, Executive Summary and Introduction"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

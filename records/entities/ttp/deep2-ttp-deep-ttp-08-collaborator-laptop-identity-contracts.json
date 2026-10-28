@@ -1,0 +1,64 @@
+{
+  "id": "deep2-ttp-deep-ttp-08-collaborator-laptop-identity-contracts",
+  "type": "ttp",
+  "name": "Collaborator contracts can bundle laptop access, identity use, interview/fronting, and freelance-platform operation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources; the technique mapping supplies context rather than an identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+      "deep2-ttp-deep-ttp-s8-nisos-operation-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+      "deep2-ttp-deep-ttp-s9-nisos-laptop-2026-deep-ttp-08-collaborator-laptop-identity-contracts"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "foreign-based-facilitator",
+    "laptop-farm",
+    "proxy-interviewee"
+  ],
+  "caveats": [
+    "False-positive caution: IT support, labs, developers, and managed service providers legitimately use RMM/KVM. Maintain allowlists and role-based baselines.",
+    "False-positive caution: People move, use mailrooms, or need accessibility/household assistance. Address mismatch is a clarification signal; clarification comes before any rejection decision.",
+    "Kudelski's unseen .bat-file tests were assessed only at low confidence; attribution to a specific payload requires further evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Kudelski reports contracts offered to collaborators to operate laptop farms or provide laptop and identity access. Following one contract, actors used collaborator identity/machines for mentoring-platform sessions and freelance applications. The same article reports external collaborators acting as interviewers. This materially links identity lending, endpoint custody, and interview assistance in one facilitation agreement."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+        "deep2-ttp-deep-ttp-s8-nisos-operation-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+        "deep2-ttp-deep-ttp-s9-nisos-laptop-2026-deep-ttp-08-collaborator-laptop-identity-contracts"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-710tech-li",
+    "nisos-june-2025-laptop-farm"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s8-nisos-operation-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+      "support": "Nisos documents PiKVM and native-fronted interview workflow in a controlled investigation",
+      "locator": "PiKVM and native interview workflow"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+      "support": "Kudelski reports collaborator agreements covering laptop or identity access and interview fronting",
+      "locator": "Fake interview and collaborator sections"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s9-nisos-laptop-2026-deep-ttp-08-collaborator-laptop-identity-contracts",
+      "support": "Nisos documents an instrumented employer-laptop investigation and remote-access setup",
+      "locator": "Instrumented laptop investigation"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

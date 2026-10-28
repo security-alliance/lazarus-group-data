@@ -1,0 +1,37 @@
+{
+  "id": "front-company-alice-llc",
+  "type": "front_company",
+  "name": "Alice LLC",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Russian entity involved in DPRK IT-worker dispatch/activity",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-rok-mofa-2024-sanctions"
+    ]
+  },
+  "locations": [
+    "Russia"
+  ],
+  "aliases": [
+    {
+      "value": "Alias LLC",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-rok-mofa-2024-sanctions"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "ROK sanctions table uses Alice LLC and parenthetical Alias LLC; preserve both rather than silently resolving the discrepancy",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

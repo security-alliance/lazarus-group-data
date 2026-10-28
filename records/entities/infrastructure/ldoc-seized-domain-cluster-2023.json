@@ -1,0 +1,59 @@
+{
+  "id": "ldoc-seized-domain-cluster-2023",
+  "type": "infrastructure",
+  "name": "2023 seized DPRK IT-worker portfolio and front-company domains",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The warrant affidavit alleges probable cause that the domains supported Yanbian Silverstar-linked DPRK IT workers, fraudulent identities, freelancer recruitment, sanctions evasion, and/or laundering; seizure records a procedural step, while criminal guilt status remains unadjudicated.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-03"
+    ]
+  },
+  "caveats": [
+    "edenprogram.com and babyboxtech.com were omitted as already present in the repository.",
+    "The source attachment OCRs foxysun.com as foxvsun.com and jinyang as iinvang; the narrative and later indictment resolve the intended spellings.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "infrastructure": [
+    {
+      "type": "domain-set",
+      "identifier_type": "domain",
+      "count": 15,
+      "values": [
+        "silverstarchina.com",
+        "xinlusoft.com",
+        "foxysun.com",
+        "foxysunstudio.com",
+        "foxysunstudios.com",
+        "cloudbluefox.com",
+        "cloudfoxhub.com",
+        "mycloudfox.com",
+        "thefoxcloud.com",
+        "thefoxesgroup.com",
+        "cloudfox.cloud",
+        "danielliu.info",
+        "jinyang.asia",
+        "jinyang.services",
+        "ktsolution.tech"
+      ],
+      "relationship": "reported-link",
+      "source_ids": [
+        "ldoc-03"
+      ],
+      "status": "historical",
+      "note": "Historical domains named in a DOJ forfeiture or seizure proceeding; current ownership, control, and maliciousness are not inferred."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-03",
+      "support": "The warrant affidavit alleges probable cause that the domains supported Yanbian Silverstar-linked DPRK IT workers, fraudulent identities, freelancer recruitment, sanctions evasion, and/or laundering; seizure does not itself establish criminal guilt",
+      "locator": "Attachment A-1, p. 55, and Attachment A-2, p. 57; narrative ¶¶48-117"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

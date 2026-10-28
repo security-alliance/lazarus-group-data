@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/security-alliance/lazarus-group/blob/main/data/dprk/schema/entity.schema.json",
+  "title": "Entity",
+  "description": "One person, persona, facilitator, company, cluster, infrastructure item, TTP or lead. Every factual statement must point at a source in data/sources/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "type", "name", "status", "confidence", "attribution", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,120}$", "description": "File name without .json. Lowercase, stable, never reused." },
+    "type": { "enum": ["worker", "persona", "facilitator", "front_company", "organization", "cluster", "infrastructure", "ttp", "lead"] },
+    "name": { "type": "string", "minLength": 1, "description": "Display name. For a persona this is the name an employer or platform saw." },
+    "legal_or_reported_name": { "type": "string", "description": "Name as it appears in a government or court document. Only when a source gives it." },
+    "romanizations": { "type": "array", "items": { "type": "string" } },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value"],
+        "properties": {
+          "value": { "type": "string" },
+          "alias_type": { "type": "string" },
+          "relationship": { "type": "string" },
+          "source_ids": { "type": "array", "items": { "type": "string" } },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "accounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["platform", "identifier"],
+        "properties": {
+          "platform": { "type": "string" },
+          "identifier": { "type": "string" },
+          "url": { "type": ["string", "null"] },
+          "archived_url": { "type": ["string", "null"] },
+          "status": { "type": "string", "description": "historical, active-at-report, unknown" },
+          "relationship": { "type": "string", "description": "how the source ties the account to the entity: official, reported-link, uncertain" },
+          "source_ids": { "type": "array", "items": { "type": "string" } },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "organizations": { "type": "array", "items": { "type": "string" } },
+    "front_companies": { "type": "array", "items": { "type": "string" } },
+    "locations": { "type": "array", "items": { "type": "string" }, "description": "Historical context from a source. Never a present whereabouts claim." },
+    "ttps": { "type": "array", "items": { "type": "string" } },
+    "infrastructure": { "type": "array", "items": { "type": "object" } },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_id": { "type": "string" },
+          "source_url": { "type": "string" },
+          "direct_asset_url": { "type": ["string", "null"] },
+          "caption": { "type": "string" },
+          "publication_handling": { "type": "string", "description": "link-only, cached-government, do-not-publish" },
+          "sha256": { "type": "string" }
+        }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["convicted", "sanctioned-designation", "charged-allegation", "officially-attributed", "affected-organization-report", "research-attributed", "unverified-lead"] },
+        "legal_posture": { "type": "string", "description": "One sentence saying exactly what the sources establish and what they do not." },
+        "as_of": { "type": "string", "format": "date" },
+        "source_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "confidence": { "enum": ["confirmed", "high", "medium", "lead"] },
+    "status": { "enum": ["published", "needs_corroboration"], "description": "needs_corroboration: rests on a single source family or an unresolved identity question. Shown with a flag." },
+    "identity_boundary": { "type": "string", "description": "What this record is and is not. Read before merging anything into it." },
+    "caveats": { "type": "array", "items": { "type": "string" } },
+    "lazarus_group_routes": { "type": "array", "items": { "type": "string" }, "description": "Profile slugs on lazarus.group that a source links to this entity." },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "support": { "type": "string", "description": "What this source says about the entity, in one sentence." },
+          "locator": { "type": "string", "description": "Page, paragraph, row or timestamp." }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "type", "predicate", "confidence", "status", "sources"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,160}$" },
+          "type": { "enum": ["identity_name", "alias", "account", "employment", "organization_affiliation", "legal_event", "incident", "location", "relationship", "image", "infrastructure", "skill", "wallet", "contact", "note"] },
+          "predicate": { "type": "string" },
+          "value": {},
+          "confidence": { "enum": ["confirmed", "high", "medium", "lead"] },
+          "status": { "enum": ["published", "needs_corroboration"] },
+          "observed_at": { "type": "string" },
+          "notes": { "type": "array", "items": { "type": "string" } },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["source_id"],
+              "properties": {
+                "source_id": { "type": "string" },
+                "locator": { "type": "string" },
+                "quote": { "type": "string", "description": "Exact text from the source. Never paraphrased." }
+              }
+            }
+          }
+        }
+      }
+    },
+    "last_verified_at": { "type": "string", "format": "date" }
+  }
+}

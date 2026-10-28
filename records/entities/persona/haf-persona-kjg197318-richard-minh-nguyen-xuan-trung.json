@@ -1,0 +1,793 @@
+{
+  "id": "haf-persona-kjg197318-richard-minh-nguyen-xuan-trung",
+  "type": "persona",
+  "name": "kjg197318 / Richard Minh / Nguyen Xuan Trung historical persona cluster",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S1",
+      "HAF-S2"
+    ]
+  },
+  "ttps": [
+    "freelance-platform",
+    "multiple-personas",
+    "shared-portfolio"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "Suitable only as a clearly labeled historical persona/account cluster after editorial review. Profile faces, contact details, inferred birth date, and specific legal-person claims stay outside publication.",
+    "Two reputable investigations independently document the same handle, names, platforms, and reused work samples. Civil identity and nationality behind the accounts remain unverified."
+  ],
+  "aliases": [
+    {
+      "value": "Nguyen Xuan T.",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    },
+    {
+      "value": "Nguyen Xuan Trung",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    },
+    {
+      "value": "Richard Minh",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    },
+    {
+      "value": "kjg197318",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Elance",
+      "identifier": "kjg197318",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ],
+      "note": "Historical source-attributed cluster indicator; current ownership and the civil identity behind the account are unverified."
+    },
+    {
+      "platform": "Freelancer.com",
+      "identifier": "kjg197318",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ],
+      "note": "Historical source-attributed cluster indicator; current ownership and the civil identity behind the account are unverified."
+    },
+    {
+      "platform": "Guru.com",
+      "identifier": "kjg197318",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ],
+      "note": "Historical source-attributed cluster indicator; current ownership and the civil identity behind the account are unverified."
+    },
+    {
+      "platform": "Upwork",
+      "identifier": "kjg197318",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ],
+      "note": "Historical source-attributed cluster indicator; current ownership and the civil identity behind the account are unverified."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "CNS and C4ADS independently documented the handle kjg197318 and the names Richard Minh and Nguyen Xuan Trung on accounts offering computer-vision, facial-recognition, optical-character-recognition, mobile-development, and license-plate-recognition work. C4ADS found identical portfolio thumbnails and promotional material across several platform profiles and Future TechGroup's site. The sources describe these as aliases or possibly stolen identities; they do not establish that any displayed name is a DPRK worker's verified legal identity",
+      "locator": "PDF pp. 45-48, Vietnam case study Parts II-IV"
+    },
+    {
+      "source_id": "HAF-S1",
+      "support": "CNS and C4ADS independently documented the handle kjg197318 and the names Richard Minh and Nguyen Xuan Trung on accounts offering computer-vision, facial-recognition, optical-character-recognition, mobile-development, and license-plate-recognition work. C4ADS found identical portfolio thumbnails and promotional material across several platform profiles and Future TechGroup's site. The sources describe these as aliases or possibly stolen identities; they do not establish that any displayed name is a DPRK worker's verified legal identity",
+      "locator": "PDF pp. 11-13 (printed pp. 8-10), Future TechGroup and conclusion; annexes 6-8"
+    },
+    {
+      "source_id": "src-3a30c29ea976"
+    },
+    {
+      "source_id": "src-c3b2b205fe46"
+    },
+    {
+      "source_id": "src-cea4c3825e4a"
+    },
+    {
+      "source_id": "src-857202dc56b2"
+    },
+    {
+      "source_id": "src-a27f4cb75afb"
+    },
+    {
+      "source_id": "src-50cc82de4c25"
+    },
+    {
+      "source_id": "src-bbca67a1ff29"
+    },
+    {
+      "source_id": "src-0e89ed336db9"
+    },
+    {
+      "source_id": "src-59751bc4fa2e"
+    },
+    {
+      "source_id": "src-377df82de2ce"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kjg197318-handle",
+      "type": "alias",
+      "predicate": "historical_online_handle",
+      "value": {
+        "handle": "kjg197318"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 45, Part II",
+          "quote": "the name Nguyen Xuan Trung is used for an Upwork account with the username kjg197318"
+        },
+        {
+          "source_id": "HAF-S1",
+          "locator": "PDF p. 12 (printed p. 9), Future TechGroup",
+          "quote": "Richard Minh's Freelancer profile is under the username 'kjg197318,' suggesting that 'Richard Minh' could be an alias"
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "No meaning is inferred from the digits in the handle."
+      ]
+    },
+    {
+      "id": "claim-nguyen-xuan-trung-label",
+      "type": "alias",
+      "predicate": "historical_platform_name",
+      "value": {
+        "name": "Nguyen Xuan Trung",
+        "platforms": [
+          "Upwork",
+          "Elance"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF pp. 45-46, Part II",
+          "quote": "On Elance, a now-closed freelancing platform that rebranded as Upwork in 2015, the name Nguyen Xuan Trung appeared with a similar user picture and provided identical thumbnail pictures as work samples."
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "The displayed name may be a persona or stolen identity; it is not a verified legal name."
+      ]
+    },
+    {
+      "id": "claim-nguyen-xuan-t-label",
+      "type": "alias",
+      "predicate": "historical_upwork_profile_name",
+      "value": {
+        "name": "Nguyen Xuan T.",
+        "platform": "Upwork"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 45, footnote xiv",
+          "quote": "While the user on the profile lists the name “Nguyen Xuan T.,”"
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "The displayed name may be a persona or stolen identity; it is not a verified legal name."
+      ]
+    },
+    {
+      "id": "claim-richard-minh-label",
+      "type": "alias",
+      "predicate": "historical_platform_name",
+      "value": {
+        "name": "Richard Minh",
+        "platforms": [
+          "Freelancer.com",
+          "Guru.com"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF pp. 45-46, Part II",
+          "quote": "On Freelancer.com, the user for the now-closed account kjg197318 displayed a computer-generated image, indicated he was located in Vietnam, and signed messages with the name “Richard Minh.”"
+        },
+        {
+          "source_id": "HAF-S1",
+          "locator": "PDF p. 12 (printed p. 9), Future TechGroup",
+          "quote": "Richard Minh's Freelancer profile is under the username 'kjg197318,' suggesting that 'Richard Minh' could be an alias"
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "The label may be an alias or stolen identity; it is not a verified legal name."
+      ]
+    },
+    {
+      "id": "claim-multiplatform-cluster",
+      "type": "relationship",
+      "predicate": "shared_portfolio_artifacts_across_platforms",
+      "value": {
+        "platforms": [
+          "Upwork",
+          "Elance",
+          "Freelancer.com",
+          "Guru.com"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF pp. 45-46, Images 20-21 and surrounding text",
+          "quote": "posted several thumbnail work samples that are identical to those that Nguyen Xuan Trung used on Elance"
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "Artifact reuse supports a persona cluster; it does not prove that every displayed identity represents the same civil person."
+      ]
+    },
+    {
+      "id": "claim-future-techgroup-portfolio-link",
+      "type": "relationship",
+      "predicate": "shared_portfolio_artifacts_with_website",
+      "value": {
+        "organization_label": "Future Tech Group",
+        "domain": "future-techgroup.com"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 47, Part III",
+          "quote": "the same thumbnail work samples used on kjg197318-associated freelance accounts also appear on a website directly linked to Global Communications Co."
+        },
+        {
+          "source_id": "HAF-S1",
+          "locator": "PDF p. 12 (printed p. 9), Future TechGroup",
+          "quote": "Product images on those Freelancer pages are identical to the product videos and images on the previous Future TechGroup site"
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "Historical portfolio-artifact linkage only; present control of the domain is unverified."
+      ]
+    },
+    {
+      "id": "claim-upwork-computer-vision-services",
+      "type": "skill",
+      "predicate": "historical_profile_advertised_services",
+      "value": {
+        "platform": "Upwork",
+        "services": [
+          "computer vision",
+          "image processing",
+          "mobile application development",
+          "facial recognition",
+          "automatic license plate recognition",
+          "optical character recognition"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 45, Part II",
+          "quote": "The user offers products and services such as image processing, C and C++ programming, Android and iOS app development, facial recognition technology, automatic license plate recognition programs, and optical character recognition software."
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "Historical profile assertions, not independent validation of skill or authorship."
+      ]
+    },
+    {
+      "id": "claim-freelancer-global-projects",
+      "type": "employment",
+      "predicate": "reported_freelance_project_reach",
+      "value": {
+        "platform": "Freelancer.com",
+        "projects_completed_or_offered": 89,
+        "client_countries": 35,
+        "named_country_examples": [
+          "United States",
+          "United Kingdom",
+          "Australia",
+          "France",
+          "Germany"
+        ],
+        "project_types": [
+          "websites",
+          "mobile phone applications",
+          "license plate readers",
+          "optical character recognition software",
+          "object classification programs",
+          "facial recognition technology"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 48, Part IV",
+          "quote": "On Freelancer.com alone, kjg197318 either completed or was offered 89 freelance projects for clients in 35 countries"
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "The source combines completed and offered projects; the claim preserves that wording and does not treat all 89 as completed work."
+      ]
+    },
+    {
+      "id": "claim-possible-stolen-identities",
+      "type": "note",
+      "predicate": "source_assessed_possible_stolen_identities",
+      "value": {
+        "assessment": "two related Guru profiles may use stolen identities"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 46, Part II",
+          "quote": "Subsequent investigation suggests that both profiles may use stolen identities."
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "No attempt was made to identify or profile the possible victims."
+      ]
+    },
+    {
+      "id": "claim-guru-page-reachable",
+      "type": "account",
+      "predicate": "historical_guru_page_currently_reachable",
+      "value": {
+        "platform": "Guru.com",
+        "profile_label": "Richard Minh",
+        "status": "publicly reachable"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-3a30c29ea976",
+          "locator": "page title, profile header, and structured Person metadata",
+          "quote": "Richard Minh | Freelancer on Guru"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Reachability does not establish present ownership, activity, nationality, lawful identity, or the accuracy of displayed location."
+      ]
+    },
+    {
+      "id": "claim-guru-current-description",
+      "type": "skill",
+      "predicate": "surviving_guru_profile_claimed_specialization",
+      "value": {
+        "platform": "Guru.com",
+        "specializations": [
+          "face recognition",
+          "automatic number plate recognition",
+          "logo detection",
+          "vehicle counting",
+          "pedestrian counting",
+          "object tracking"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-3a30c29ea976",
+          "locator": "About section and structured Person description",
+          "quote": "I'm a computer vision experts team manager whose team has already built some excellent CV SDKs such as Face Recognition, ANPR, Logo Detection, Vehicle Counting, Pedestrian Counting, Object Tracking"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "These are profile claims, not independent validation of skill, authorship, or present activity."
+      ]
+    },
+    {
+      "id": "claim-freelancer-route-closed",
+      "type": "account",
+      "predicate": "historical_freelancer_profile_unavailable",
+      "value": {
+        "platform": "Freelancer.com",
+        "handle": "kjg197318",
+        "status": "profile route redirects to generic sign-up"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-c3b2b205fe46",
+          "locator": "final page title after redirect",
+          "quote": "Join 90.3M+ Professionals | Sign Up Free | Freelancer"
+        },
+        {
+          "source_id": "src-cea4c3825e4a",
+          "locator": "complete JSON response",
+          "quote": "[]"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The redirect and empty exact-path archive query do not establish why or when the historical account became unavailable, or whether captures exist under another URL form."
+      ]
+    },
+    {
+      "id": "claim-future-techgroup-domain-live",
+      "type": "infrastructure",
+      "predicate": "historically_related_domain_serves_website",
+      "value": {
+        "domain": "future-techgroup.com",
+        "displayed_name": "Future Technology Group",
+        "page_text_date": "2020-06",
+        "current_advertised_fields": [
+          "industrial design",
+          "product design",
+          "3D modelling and animation",
+          "media production"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-857202dc56b2",
+          "locator": "homepage header and About Us closing line",
+          "quote": "Future Technology Group"
+        },
+        {
+          "source_id": "src-857202dc56b2",
+          "locator": "About Us, final line",
+          "quote": "June 2020"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current registrant, operator, and continuity with the site reviewed in 2017 are unverified. The current subject matter differs from the historical computer-vision site, but that difference does not prove a control change. The contact form was not used."
+      ]
+    },
+    {
+      "id": "claim-truong-phu-representative-label",
+      "type": "employment",
+      "predicate": "source_reported_historical_corporate_role",
+      "value": {
+        "persona_label": "Nguyen Xuan Trung",
+        "organization": "Truong Phu Group Joint Stock Company",
+        "reported_role": "legal representative",
+        "evidence_context": "Vietnamese corporate registry documents reviewed by C4ADS"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 45, Part II",
+          "quote": "On Vietnamese corporate registry documents, Truong Phu Group lists Nguyen Xuan Trung as its legal representative."
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "This is a historical source-reported label-to-organization relationship, not proof that Nguyen Xuan Trung is a verified civil identity, that the account operator held the role, or that any relationship continues.",
+        "Registry signatures, addresses, personal identifiers, and birth data are excluded."
+      ]
+    },
+    {
+      "id": "claim-richard-minh-linkedin-mudo-role",
+      "type": "employment",
+      "predicate": "source_reported_historical_social_profile_role",
+      "value": {
+        "platform": "LinkedIn",
+        "profile_label": "Richard Minh",
+        "reported_role": "programmer",
+        "reported_organization": "Mudo Vietnam Company Limited"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 46 and footnote xvi",
+          "quote": "On LinkedIn, a user named Richard Minh is listed as a programmer for the company Mudo Vida Co., Ltd."
+        }
+      ],
+      "observed_at": "2018-08-02",
+      "notes": [
+        "C4ADS's body text uses Mudo Vida Co., Ltd.; its footnote states that the LinkedIn profile used Mudo Vietnam Company Limited and identifies that as an alternative name for the registry-listed company.",
+        "The historical LinkedIn route returned HTTP 999/authwall. No current reachability, control, employment, lawful identity, or profile-image identity is inferred; the direct route is not promoted as a current account."
+      ]
+    },
+    {
+      "id": "claim-platform-displayed-historical-location",
+      "type": "location",
+      "predicate": "historical_profiles_displayed_location",
+      "value": {
+        "platform_displays": [
+          {
+            "platform": "Freelancer.com",
+            "displayed_location": "Vietnam",
+            "context": "historical closed account reported by C4ADS"
+          },
+          {
+            "platform": "Guru.com",
+            "displayed_location": "Hanoi, Hanoi, Vietnam",
+            "context": "2016 archive and 2026 live page"
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF p. 45, Part II",
+          "quote": "the now-closed account kjg197318 displayed a computer-generated image, indicated he was located in Vietnam"
+        },
+        {
+          "source_id": "src-a27f4cb75afb",
+          "locator": "profile header, structured PostalAddress",
+          "quote": "Hanoi, Hanoi, Vietnam"
+        },
+        {
+          "source_id": "src-3a30c29ea976",
+          "locator": "profile header",
+          "quote": "Hanoi, Hanoi, Vietnam"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "These are platform-displayed fields only. They do not establish nationality, residence, physical presence, travel, present location, or the location of whoever controlled an account."
+      ]
+    },
+    {
+      "id": "claim-guru-account-chronology-metrics",
+      "type": "account",
+      "predicate": "surviving_guru_profile_public_metadata",
+      "value": {
+        "platform": "Guru.com",
+        "profile_label": "Richard Minh",
+        "page_displayed_member_since": "2015-05",
+        "earliest_verified_archive_capture": "2016-05-16T08:11:27Z",
+        "metrics_at_cutoff": {
+          "all_time_earnings_usd": 0,
+          "transactions_completed": 0,
+          "employers": 0,
+          "feedback_count": 0
+        }
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-50cc82de4c25",
+          "locator": "feedback zero state and structured review metadata",
+          "quote": "This Freelancer has not received any feedback."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Member Since is a platform-displayed field, not independently verified creation chronology; the archive timestamp is only the earliest capture found by the exact-path search.",
+        "Zero Guru metrics do not negate work on other platforms and do not establish present inactivity or current ownership."
+      ]
+    },
+    {
+      "id": "claim-guru-service-and-portfolio-metadata",
+      "type": "skill",
+      "predicate": "surviving_guru_profile_advertised_service_and_portfolio",
+      "value": {
+        "platform": "Guru.com",
+        "service_title": "Computer Vision - Face Recognition, ANPR",
+        "displayed_rate": "USD 50 per hour",
+        "displayed_starting_budget": "USD 2,000",
+        "portfolio_titles": [
+          "Face Recognition",
+          "Vehicle Counting System",
+          "Logo Detection"
+        ],
+        "top_skill_labels": [
+          "Computer Vision",
+          "Image Processing",
+          "OpenCV",
+          "Android Development",
+          "ASP.NET",
+          "C#",
+          "C++",
+          "Delphi",
+          "Dotnet",
+          "iOS Development",
+          "Machine Learning",
+          "Processing",
+          "Svm",
+          "Vb.net"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-3a30c29ea976",
+          "locator": "Skills and Services sections",
+          "quote": "Computer Vision - Face Recognition, ANPR"
+        },
+        {
+          "source_id": "src-bbca67a1ff29",
+          "locator": "complete three-entry portfolio list",
+          "quote": "Face Recognition"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The 2016 archive displays the same three portfolio titles and service listing, supporting historical continuity of the page content, not present ownership.",
+        "The labels, prices, and portfolio titles are profile assertions; they do not independently validate skill, authorship, delivery, or payment. Portfolio assets were not downloaded or republished."
+      ]
+    },
+    {
+      "id": "claim-freelancer-public-project-pages",
+      "type": "employment",
+      "predicate": "public_project_pages_explicitly_name_handle",
+      "value": {
+        "platform": "Freelancer.com",
+        "projects": [
+          {
+            "project_id": 6338286,
+            "title": "Private project for kjg197318",
+            "started_at": "2014-08-18T11:27:44Z",
+            "displayed_skills": [
+              "CUDA"
+            ],
+            "displayed_budget": "USD 250-750",
+            "page_status": "closed-awarded"
+          },
+          {
+            "project_id": 6706824,
+            "title": "Special project for kjg197318",
+            "started_at": "2014-11-09T10:52:48Z",
+            "displayed_skills": [
+              "C Programming",
+              "Delphi",
+              "OCR"
+            ],
+            "displayed_budget": "USD 750-1,500",
+            "page_status": "closed-awarded"
+          },
+          {
+            "project_id": 10104050,
+            "title": "Project for kjg197318",
+            "started_at": "2016-04-01T17:20:59Z",
+            "displayed_skills": [
+              "Android",
+              "C# Programming",
+              "C++ Programming",
+              "iPhone",
+              "Windows Desktop"
+            ],
+            "displayed_budget": "USD 200",
+            "page_status": "closed-expired"
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0e89ed336db9",
+          "locator": "page title, meta description, and embedded public project record",
+          "quote": "Private project for kjg197318"
+        },
+        {
+          "source_id": "src-59751bc4fa2e",
+          "locator": "page title, meta description, and embedded public project record",
+          "quote": "Special project for kjg197318"
+        },
+        {
+          "source_id": "src-377df82de2ce",
+          "locator": "page title, meta description, and embedded public project record",
+          "quote": "Project for kjg197318"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The exact project titles establish public project-for-handle artifacts. They do not establish which operator controlled the handle, who won or completed the work, payment, authorship, source-code delivery, or any present relationship.",
+        "The two closed-awarded pages expose empty selected-bids arrays, so their award status is not attributed to this persona. Client and bidder identities and account details are excluded."
+      ]
+    },
+    {
+      "id": "claim-c4ads-evidence-figures-link-only",
+      "type": "image",
+      "predicate": "source_page_contains_relevant_evidence_figures",
+      "value": {
+        "source_page_url": "https://c4ads.org/wp-content/uploads/2022/05/Dispatched-Report.pdf",
+        "relevant_pages": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "safe_figure_scope": [
+          "portfolio-artifact comparisons in Images 20 and 21",
+          "historical Future Tech Group site captures in Images 25 and 26",
+          "organization-and-account relationship diagram in Figure 7"
+        ],
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "HAF-S2",
+          "locator": "PDF pp. 45-48, Images 20-21, Images 25-26, and Figure 7",
+          "quote": "Figure 7. Relationships Between DPRK Restaurants, Vietnamese Companies, Freelance Profiles, Future Tech Group, and Glocom"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Retain the publisher report link only. Do not export, cache, crop, or republish direct figure or profile-image assets without rights and editorial review.",
+        "Do not use any face or profile image in the report for identity resolution, victim identification, current-appearance inference, or civil-identity confirmation."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Historical source-reported persona and portfolio-artifact cluster spanning the handle kjg197318 and the labels Richard Minh, Nguyen Xuan Trung and Nguyen Xuan T.; labels and images remain source-bounded, with birth date, stolen-identity victim and surviving-page control requiring separate evidence."
+}

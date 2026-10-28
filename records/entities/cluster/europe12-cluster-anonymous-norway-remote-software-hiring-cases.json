@@ -1,0 +1,71 @@
+{
+  "id": "europe12-cluster-anonymous-norway-remote-software-hiring-cases",
+  "type": "cluster",
+  "name": "Anonymous Norwegian remote-software hiring cases (several-case aggregate)",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "PST threat/intelligence assessment based on cases known to the service; it supplies a service assessment, while charging document, court judgment, sanctions designation and public person or company identification require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "EUROPE12-NOR-PST-2026-02-04"
+    ]
+  },
+  "locations": [
+    "Norway"
+  ],
+  "ttps": [
+    "false-or-stolen-identity-use",
+    "least-privilege-and-identity-continuity-review",
+    "outside-expected-hours-access",
+    "payment-destination-inconsistency-review",
+    "professional-looking-identity-document-use",
+    "professional-network-recruitment",
+    "recruitment-intermediary-use",
+    "remote-software-development-employment",
+    "role-inconsistent-service-access-attempts",
+    "vpn-or-proxy-and-voip-use-in-context"
+  ],
+  "caveats": [
+    "Accent, language ability, claimed nationality, claimed geography, camera behavior, remote-work status, VPN/proxy use, VoIP use, payment routing, and unusual hours each require corroboration before supporting an identity, nationality, sanctions, or wrongdoing finding.",
+    "PST's report stays at aggregate case context: 'several cases'; affected-company names, worker names, aliases, addresses, accounts, and raw technical selectors require separate evidence, and the dataset keeps them out of inference and collection.",
+    "Retain as an aggregate Norway incident and defensive-control source. Preserve PST's 'probably' wording, the several-case aggregate, and non-adjudicative posture.",
+    "Satisfactory work product addresses delivery quality; identity-continuity, access, sanctions, and revenue-diversion risk require separate review.",
+    "This is an anonymous cluster and sector-level assessment; the record type covers assessment context rather than person, employer, recruiter, account, prosecution, judgment, or sanctions record.",
+    "Use only corroborated, lawful, proportionate review with trained human assessment, documented reasons, bounded retention, accommodations, and a meaningful correction or appeal path."
+  ],
+  "infrastructure": [
+    {
+      "type": "anonymous-official-several-case-sector-assessment",
+      "sector": "Multiple unspecified sectors; PST states there was no common affected sector",
+      "statements": [
+        "During the preceding year, PST learned of several cases in which unnamed Norwegian organizations were deceived into hiring probable North Korean IT workers for remote roles.",
+        "The aggregate cases involved remote software-development work and false identity material linked both to fictitious personas and to real people whose identities had been stolen.",
+        "PST states that there was no common affected sector and names no organization, worker, recruiter, account, or exact case count."
+      ],
+      "limitations": [
+        "Preserve PST's probability wording and the several-case aggregate; do not convert the assessment into adjudicated fact or individual records.",
+        "Do not infer affected organizations from sector, geography, recruitment-channel activity, intermediary use, or other circumstantial matching.",
+        "AI-assisted document creation and voice alteration are wider-campaign context cited by PST, not features established for every Norwegian case."
+      ],
+      "source_ids": [
+        "EUROPE12-NOR-PST-2026-02-04"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk",
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "EUROPE12-NOR-PST-2026-02-04",
+      "support": "PST says it learned during the preceding year of several cases in which Norwegian organizations were deceived into hiring what PST assesses were probably North Korean IT workers for remote roles. PST reports false or stolen identity documents, mainly professional-network recruitment and one foreign recruitment intermediary, remote software-development work, and no common affected sector. Original Norwegian support: Disse virksomhetene har blitt lurt til å ansette det som sannsynlig er nordkoreanske IT-arbeidere i stillinger på hjemmekontor",
+      "locator": "PDF page 2, Introduction and Fremgangsmåte i Norge; PDF page 3, observed anomalies and Vurdering"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

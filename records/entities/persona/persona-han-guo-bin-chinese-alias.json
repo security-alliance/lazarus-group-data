@@ -1,0 +1,49 @@
+{
+  "id": "persona-han-guo-bin-chinese-alias",
+  "type": "persona",
+  "name": "韩国彬",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "Source-bounded persona record for 韩国彬; keep separate from any person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports 韩国彬 in the described scheme.",
+      "locator": "PDF p. 7 ¶22"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-han-guo-bin-chinese-alias",
+      "type": "alias",
+      "predicate": "source_reported_alias",
+      "value": {
+        "persona": "韩国彬",
+        "source_reported_for": "HAN GUO BIN, aka 韩国彬"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 7 ¶22",
+          "quote": "HAN GUO BIN, aka 韩国彬, resided in China."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

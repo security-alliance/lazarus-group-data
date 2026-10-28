@@ -1,0 +1,42 @@
+{
+  "id": "ttp-github-credibility-farm-correlation",
+  "type": "ttp",
+  "name": "Provenance-aware GitHub credibility-farm correlation",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed public security research; legal adjudication, civil-identity finding, and same-operator scope remain unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPC-S01"
+    ]
+  },
+  "ttps": [
+    "provenance-aware developer-platform graph analysis"
+  ],
+  "caveats": [
+    "Any individual signal can occur in legitimate open-source activity; require several independent, source-provenance-aware edges before escalation.",
+    "An attribution covers only the named subject; followers, stargazers, contributors, and upstream projects require separate source support."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Organization-level analysis should correlate repository provenance, commit timing, renamed-account history, reciprocal social edges, synchronized stars/forks, repeated portfolio claims, and recruiter-facing replies rather than treating an isolated thin profile as dispositive."
+      ],
+      "source_ids": [
+        "DPC-S01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPC-S01",
+      "support": "Organization-level analysis should correlate repository provenance, commit timing, renamed-account history, reciprocal social edges, synchronized stars/forks, repeated portfolio claims, and recruiter-facing replies rather than treating an isolated thin profile as dispositive",
+      "locator": "Sections “Why does the DPRK run its own organization?” and “Meet HyperbuildX - A DPRK Scam Organization,” especially the organization-purpose list and account-boosting/copying discussion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,403 @@
+{
+  "id": "facilitator-ri-jin-hyok",
+  "type": "facilitator",
+  "name": "Ri Jin Hyok",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Designated under E.O. 13722; Foreign Trade Bank representative; Treasury reported that he facilitated transactions worth over $350,000 in U.S. dollars, Chinese yuan, and euros on behalf of an unnamed Foreign Trade Bank front company; administrative sanctions designation, with the record carrying no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-2815ca074b83",
+      "gov-38e5789f9f87",
+      "gov-59746ada8798",
+      "gov-b2897867e002",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Ri Jin Hyok",
+  "organizations": [
+    "Foreign Trade Bank"
+  ],
+  "locations": [
+    "Zhuhai, China"
+  ],
+  "caveats": [
+    "The record covers an administrative designation and Treasury-reported conduct; it carries no criminal charge or adjudicated finding. Foreign Trade Bank is a source-explicit representative and OFAC linked-to relationship. The primary source leaves the Foreign Trade Bank front company associated with the over-$350,000 aggregate unidentified. Zhuhai, China supplies designation-era exact-entry context; residence, continued presence, and present location require separate evidence. The record excludes company identity, account, payment, counterparty, transaction, wallet, passport, birth, nationality, gender, contact, precise address, and other sensitive selectors.",
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "RI, Chin-hyo'k — official romanization.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "RI, Chin-hyo'k"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "RI, Jin Hyok"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-ri-jin-hyok"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-38e5789f9f87",
+      "support": "CyberScoop independently publishes Ri's name among five people working for DPRK financial institutions. Its collective China-or-Russia and illicit-transaction summary relies on Treasury and is not used to infer Ri's individual location, bank, account, or conduct beyond the primary evidence",
+      "locator": "Article body; paragraph naming the five financial-institution representatives"
+    },
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "Treasury identifies Ri as a Foreign Trade Bank representative, reports that he facilitated transactions worth over $350,000 in U.S. dollars, Chinese yuan, and euros on behalf of an unnamed Foreign Trade Bank front company, and records his E.O. 13722 designation. These are administrative-source allegations, not adjudicated findings; no company identity, account, payment, counterparty, or transaction selector is inferred or retained",
+      "locator": "Sanctions evasion networks section; Ri-specific sentence and designation paragraph"
+    },
+    {
+      "source_id": "gov-b2897867e002",
+      "support": "The original OFAC action lists primary form RI, Jin Hyok, alias RI, Chin-hyo'k, Zhuhai, China designation-era context, program DPRK3, and the linked-to relationship with the Foreign Trade Bank of the Democratic People's Republic of Korea. Sensitive identifiers and person attributes are excluded",
+      "locator": "Specially Designated Nationals List Update; Ri Jin Hyok entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row confirms Zhuhai, China for OFAC entity number 56041. Precise address components are excluded; the living row does not establish residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 56041"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 56041: RI, Chin-hyo'k. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 56041"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 56041 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV",
+      "locator": "SDN.CSV primary/current-list row for OFAC ent_num 56041"
+    },
+    {
+      "source_id": "gov-2815ca074b83",
+      "support": "Recorded Future News independently publishes Ri's name and summarizes Treasury's over-$350,000 transaction allegation, describing conversion into Chinese currency on behalf of a sanctioned bank. It relies on Treasury, omits the primary source's U.S.-dollar and euro wording, and does not independently prove the conduct or identify any front company, account, payment, counterparty, or transaction",
+      "locator": "Article body; named-individuals paragraph and Ri-specific summary"
+    },
+    {
+      "source_id": "gov-59746ada8798",
+      "support": "The official notice lists RI, Jin Hyok, alias RI, Chin-hyo'k, Zhuhai, China, program DPRK3, and the Foreign Trade Bank link; the following paragraph records the E.O. 13722 designation basis. PDF page 2 was rendered at 2x scale and visually inspected. Sensitive identifiers, person attributes, compliance text, and financial selectors are excluded",
+      "locator": "90 FR 51442, item 5 and following designation paragraph (PDF p. 2)"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "RI, Jin Hyok",
+        "display": "Ri Jin Hyok"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 56041",
+          "quote": "56041,\"RI, Jin Hyok\",\"individual\",\"DPRK3\""
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ri Jin Hyok entry",
+          "quote": "RI, Jin Hyok (a.k.a. RI, Chin-hyo'k), Zhuhai, China"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 5 (PDF p. 2)",
+          "quote": "5. RI, Jin Hyok (a.k.a. RI, Chin-hyo’k), Zhuhai, China"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The OFAC entity number and exact official entries bind this primary form to the subject; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "RI, Chin-hyo'k",
+        "ofac_entity_number": "56041"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV row joined by OFAC entity number 56041",
+          "quote": "56041,87045,\"aka\",\"RI, Chin-hyo'k\",-0-"
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ri Jin Hyok entry",
+          "quote": "RI, Jin Hyok (a.k.a. RI, Chin-hyo'k), Zhuhai, China"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 5 (PDF p. 2)",
+          "quote": "5. RI, Jin Hyok (a.k.a. RI, Chin-hyo’k), Zhuhai, China"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK3",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 56041",
+          "quote": "56041,\"RI, Jin Hyok\",\"individual\",\"DPRK3\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction. The living export does not supply the original listing date."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-bank",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Foreign Trade Bank of the Democratic People's Republic of Korea",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 56041",
+          "quote": "Linked To: FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA."
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 5 (PDF p. 2)",
+          "quote": "Linked To: FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, control, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13722",
+        "basis_entity": "Foreign Trade Bank of the Democratic People's Republic of Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions evasion networks section, designation sentence",
+          "quote": "Jong and Ri pursuant to E.O. 13722 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, FTB"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, paragraph following item 5 (PDF p. 2)",
+          "quote": "Designated pursuant to section 2(a)(viii) of E.O. 13722 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation, not a criminal charge, conviction, or sentence."
+      ]
+    },
+    {
+      "id": "claim-ftb-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_bank_representative_role",
+      "value": {
+        "organization": "Foreign Trade Bank of the Democratic People's Republic of Korea",
+        "role": "representative",
+        "as_of": "2025-11-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions evasion networks section, Ri-specific sentence",
+          "quote": "Ri is a representative of the FTB and has facilitated transactions on behalf of a FTB front company worth over $350,000 in USD, CNY, and euros."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported designation-time role. It is distinct from the current OFAC dataset's source-semantic 'Linked To' field and is not treated as proof of a present role."
+      ]
+    },
+    {
+      "id": "claim-ftb-front-company-transaction-facilitation",
+      "type": "incident",
+      "predicate": "treasury_reported_transaction_facilitation",
+      "value": {
+        "organization_context": "Foreign Trade Bank of the Democratic People's Republic of Korea",
+        "counterparty_description": "unnamed Foreign Trade Bank front company",
+        "reported_aggregate": "over $350,000",
+        "currencies": [
+          "U.S. dollars",
+          "Chinese yuan",
+          "euros"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions evasion networks section, Ri-specific sentence",
+          "quote": "Ri is a representative of the FTB and has facilitated transactions on behalf of a FTB front company worth over $350,000 in USD, CNY, and euros."
+        },
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; Ri-specific summary",
+          "quote": "Ri Jin Hyok laundered more than $350,000 into Chinese currency on behalf of a sanctioned bank."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury administrative-source allegation, not an adjudicated finding. Treasury does not name the front company; no company identity, account, transaction, payment, counterparty, wallet, beneficiary, or other financial selector is inferred or retained. Recorded Future News relies on Treasury and compresses the primary source's three-currency wording into Chinese currency."
+      ]
+    },
+    {
+      "id": "claim-exact-entry-coarse-geography",
+      "type": "location",
+      "predicate": "official_entry_lists_coarse_geography",
+      "value": {
+        "location": "Zhuhai, China",
+        "context": "designation-era exact-entry context",
+        "present_location_inference": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Ri Jin Hyok entry",
+          "quote": "RI, Jin Hyok (a.k.a. RI, Chin-hyo'k), Zhuhai, China"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 5 (PDF p. 2)",
+          "quote": "5. RI, Jin Hyok (a.k.a. RI, Chin-hyo’k), Zhuhai, China"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV row joined to OFAC entity number 56041",
+          "quote": "56041,85829,-0- ,\"Zhuhai\",\"China\",-0-"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Designation-era exact-entry context only; it is not a claim of residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-separate-publisher-coverage",
+      "type": "note",
+      "predicate": "named_in_reputable_separate_publisher_coverage",
+      "value": {
+        "publishers": [
+          "Recorded Future News / The Record",
+          "CyberScoop"
+        ],
+        "underlying_claim_source": "U.S. Department of the Treasury"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; named-individuals paragraph and Ri-specific summary",
+          "quote": "Ri Jin Hyok laundered more than $350,000 into Chinese currency on behalf of a sanctioned bank."
+        },
+        {
+          "source_id": "gov-38e5789f9f87",
+          "locator": "Article body; paragraph naming the five financial-institution representatives",
+          "quote": "It also designated five people who work for North Korean financial institutions: Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "These are separate publishers but derivative coverage of the Treasury action, not independent proof of the reported role or alleged conduct. CyberScoop's collective China-or-Russia wording is not used to infer Ri's individual location."
+      ]
+    },
+    {
+      "id": "claim-ri-un-annex76-ftb-zhuhai-report",
+      "type": "organization_affiliation",
+      "predicate": "un_member_state_reported_ftb_representative_role",
+      "value": {
+        "organizations": [
+          "Foreign Trade Bank"
+        ],
+        "reported_role": "representative",
+        "historical_location_context": "Zhuhai, China",
+        "source_scope": "reported by Member States in Annex 76",
+        "present_location_inferred": false,
+        "individual_sanctions_violation_established": false,
+        "member_state_response": "China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Annex 76, PDF file p. 447, visually reviewed subject row and footnote 244",
+          "quote": "Ri Jin Hyok\nForeign Trade Bank\n(KPe.047)\nRepresentative\nZhuhai, China"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Annex 76 is a list of individuals reported by Member States; footnote 244 records that two Panel members considered the evidence insufficient to substantiate the affiliation and sanctions-violation allegations.",
+        "The row is retained as source-reported historical role and coarse location context, not a finding of current employment, present location, criminal conduct, or an individualized sanctions violation.",
+        "The relevant Member State response is preserved: China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Ri Jin Hyok, listed by OFAC as RI, Jin Hyok with the alternate romanization RI, Chin-hyo'k, is the Foreign Trade Bank representative described in Treasury's November 2025 sanctions action. Preserve the administrative-designation posture; criminal case, precise current location, and ownership of any same-named public account remain open."
+}

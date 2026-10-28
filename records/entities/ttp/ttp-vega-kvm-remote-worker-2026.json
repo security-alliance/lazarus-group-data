@@ -1,0 +1,61 @@
+{
+  "id": "ttp-vega-kvm-remote-worker-2026",
+  "type": "ttp",
+  "name": "KVM over IP and spoofed video input on a company endpoint",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This record preserves the cited publication’s defensive research or advisory description; legal identity requires separate evidence.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "vega-2026-09-06-kvm-investigation"
+    ]
+  },
+  "caveats": [
+    "The technique description is source-bounded; attribution or employment decisions require a separate rule and evidence.",
+    "This public dataset retains no victim details, contact selectors, addresses, credentials, wallets, or private data.",
+    "The Vertex infrastructure-hunting reference lacks matching reviewed article text; its reference remains separate from the KVM hardware observation and actor attribution."
+  ],
+  "identity_boundary": "A source-bounded technique record for KVM over IP and spoofed video input on a company endpoint; an explicit source link is required to connect it to a person, persona or campaign.",
+  "ttps": [
+    "KVM over IP and spoofed video input on a company endpoint"
+  ],
+  "sources": [
+    {
+      "source_id": "vega-2026-09-06-kvm-investigation",
+      "support": "Vega summarizes Huntress forensic observations of a suspected North Korean remote worker endpoint.",
+      "locator": "Investigation summary"
+    },
+    {
+      "source_id": "vertex-2026-10-12-infrastructure-hunting",
+      "support": "Unverified related infrastructure-hunting reference: the recorded URL returned an unrelated anniversary page, so it supplies no supporting evidence for the KVM observation.",
+      "locator": "Matching article text unavailable; see source note"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ttp-vega-kvm-hardware",
+      "type": "note",
+      "predicate": "source_reported_hardware_tradecraft",
+      "value": {
+        "hardware": [
+          "USB-to-UART serial console adapter",
+          "IP-based keyboard, video and mouse appliance",
+          "USB video capture device"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "vega-2026-09-06-kvm-investigation",
+          "locator": "Investigation summary",
+          "quote": "Forensic review subsequently identified a USB-to-UART serial console adapter, an IP-based keyboard, video, and mouse appliance, and a USB video capture device connected to the host."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

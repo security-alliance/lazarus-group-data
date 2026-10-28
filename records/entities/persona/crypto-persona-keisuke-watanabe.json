@@ -1,0 +1,2126 @@
+{
+  "id": "crypto-persona-keisuke-watanabe",
+  "type": "persona",
+  "name": "Keisuke Watanabe",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-vientiane",
+      "crypto-jupiter-stabble-team",
+      "crypto-stabble-x-admission",
+      "crypto-stabble-x-confirmed",
+      "crypto-stabble-x-emergency",
+      "crypto-stabble-x-no-exploit",
+      "crypto-theblock-stabble",
+      "crypto-zach-elemental-2026",
+      "lazarus-group-team"
+    ]
+  },
+  "caveats": [
+    "The presented identity/persona is source-reported; its legal identity remains unverified.",
+    "Stabble publicly acknowledged apparent prior employment; Elemental duration and DPRK linkage remain source-qualified.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "aliases": [
+    {
+      "value": "hirayama1534",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "kAsky53",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "kAsky53",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "kdevdivvy",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "dev4all.sol",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "dev4alldotsol",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "keisukew53",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "0xWoo",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "hirayama1534",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Keisuke Watanabe",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "hirayama1534",
+      "url": "https://github.com/hirayama1534",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Chollima Group source-reported historical handle."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "kAsky53",
+      "url": "https://github.com/kAsky53",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Chollima Group source-reported historical handle."
+    },
+    {
+      "platform": "X",
+      "identifier": "kAsky53",
+      "url": "hxxps://x[.]com/kAsky53",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Chollima Group source-reported historical handle."
+    },
+    {
+      "platform": "email",
+      "identifier": "keisukew53[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "X/Twitter",
+      "identifier": "[at]kAsky53",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "onering.finance",
+      "url": "onering.finance",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "keisukew53",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "0xWoo",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "dev4alldotsol",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "92731202+0xWoo[at]users[dot]noreply[dot]github[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "92731202+kAsky53[at]users[dot]noreply[dot]github[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "92731202+keisukew53[at]users[dot]noreply[dot]github[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "isaac[dot]wolinsky[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "1914451016",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "kAsky53",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "hxxps://www.linkedin.com/in/keisuke-watanabe-357298224/",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "lazarus_group_routes": [
+    "keisuke-watanabe"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "support": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534; Naoki Murano AKA supermutecx",
+      "locator": "Sections “Timeline” and “Tools, Services, and Other Findings”"
+    },
+    {
+      "source_id": "crypto-jupiter-stabble-team",
+      "support": "Keisuke, the CTO of stabble, boasts an impressive background in software development",
+      "locator": "Forum topic “LFG Introduction: stabble”; founder-authored team-profile post identifying the CTO"
+    },
+    {
+      "source_id": "crypto-theblock-stabble",
+      "support": "Stabble said it appeared to have employed the worker one year earlier",
+      "locator": "Article body beneath headline; Stabble statement paragraphs"
+    },
+    {
+      "source_id": "crypto-stabble-x-emergency",
+      "support": "EMERGENCY! Guys, please temporarily withdraw your liquidity instantly!",
+      "locator": "X status 2041509913080352916"
+    },
+    {
+      "source_id": "crypto-stabble-x-admission",
+      "support": "It seems we had one year ago. We have a new team at Stabble",
+      "locator": "X status 2041518983912866186"
+    },
+    {
+      "source_id": "crypto-stabble-x-no-exploit",
+      "support": "There has been no exploit. We received a message and are acting on it",
+      "locator": "X status 2041545304525210062"
+    },
+    {
+      "source_id": "crypto-stabble-x-confirmed",
+      "support": "Until one year ago we had a North Korean developer on our team",
+      "locator": "X status 2041970106931278115"
+    },
+    {
+      "source_id": "crypto-zach-elemental-2026",
+      "support": "Elemental had a DPRK IT worker on payroll for years",
+      "locator": "X status 2041408263921819822"
+    },
+    {
+      "source_id": "src-052b8b8fab0b"
+    },
+    {
+      "source_id": "src-2bdcb163bd14"
+    },
+    {
+      "source_id": "src-27c43e0215c7"
+    },
+    {
+      "source_id": "src-3ff05f465047"
+    },
+    {
+      "source_id": "src-4d679834b4fe"
+    },
+    {
+      "source_id": "src-a2537586c70e"
+    },
+    {
+      "source_id": "src-1c56ea825a50"
+    },
+    {
+      "source_id": "src-d54e79434a3d"
+    },
+    {
+      "source_id": "src-90f5f6556e4b"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Keisuke Watanabe in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/keisuke-watanabe"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-keisuke-persona",
+      "type": "identity_name",
+      "predicate": "research_attributed_persona_name",
+      "value": {
+        "name": "Keisuke Watanabe",
+        "identity_status": "employment persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, updated identification",
+          "quote": "we have identified him as another North Korean IT Worker who uses the persona Keisuke Watanabe"
+        }
+      ],
+      "observed_at": "2025-02-18",
+      "notes": [
+        "Research attribution, not government identification or legal name."
+      ]
+    },
+    {
+      "id": "claim-kasky53-alias",
+      "type": "alias",
+      "predicate": "reported_online_handle",
+      "value": {
+        "handle": "kAsky53"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, persona list",
+          "quote": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534"
+        }
+      ],
+      "observed_at": "2025-02-18"
+    },
+    {
+      "id": "claim-hirayama1534-alias",
+      "type": "alias",
+      "predicate": "reported_online_handle",
+      "value": {
+        "handle": "hirayama1534"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, persona list",
+          "quote": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534"
+        }
+      ],
+      "observed_at": "2025-02-18"
+    },
+    {
+      "id": "claim-chollima-ctos",
+      "type": "employment",
+      "predicate": "research_reported_crypto_cto_roles",
+      "value": {
+        "role": "CTO",
+        "scope": "various cryptocurrency projects"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, updated identification",
+          "quote": "Similar to Kazune, they have also held a CTO role at various cryptocurrency projects."
+        }
+      ],
+      "observed_at": "2025-02-18",
+      "notes": [
+        "The report does not enumerate every project in this sentence."
+      ]
+    },
+    {
+      "id": "claim-vientiane-observation",
+      "type": "location",
+      "predicate": "research_reported_present_in_photos",
+      "value": {
+        "location": "Vientiane, Laos",
+        "date_range": "2022-06-12/2022-07-10"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, Victory Fields",
+          "quote": "The first photos in the album were taken on three separate occasions between June 12th and July 10th of 2022 at Victory Football Stadium in Vientiane, Laos."
+        },
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, Victory Fields",
+          "quote": "The photos from Victory Football Stadium mainly focus on Jenson Collins, although Keisuke Watanabe and another IT Worker who used the persona \"Peter Wang\" are also present."
+        }
+      ],
+      "observed_at": "2022-07-10",
+      "notes": [
+        "Chollima Group notes uncertainty in photo timestamp data. No image matching was performed."
+      ]
+    },
+    {
+      "id": "claim-stabble-cto",
+      "type": "employment",
+      "predicate": "team_profile_claimed_role",
+      "value": {
+        "organization": "stabble",
+        "role": "CTO"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-jupiter-stabble-team",
+          "locator": "post 124, 2024-06-05 10:58 UTC, team description",
+          "quote": "Keisuke, CTO: Keisuke, the CTO of stabble"
+        }
+      ],
+      "observed_at": "2024-06-05",
+      "notes": [
+        "Team-authored persona history; not proof of legal identity."
+      ]
+    },
+    {
+      "id": "claim-stabble-claimed-marinade-role",
+      "type": "employment",
+      "predicate": "team_profile_claimed_prior_role",
+      "value": {
+        "organization": "Marinade Finance",
+        "role": "Engineer"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-jupiter-stabble-team",
+          "locator": "post 124, team description",
+          "quote": "the former Engineer at Marinade Finance"
+        }
+      ],
+      "observed_at": "2024-06-05",
+      "notes": [
+        "Persona claims from the stabble team profile; not independently corroborated in the cited evidence."
+      ]
+    },
+    {
+      "id": "claim-stabble-claimed-one-ring-role",
+      "type": "employment",
+      "predicate": "team_profile_claimed_prior_role",
+      "value": {
+        "organization": "One Ring Finance",
+        "role": "CTO"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-jupiter-stabble-team",
+          "locator": "post 124, team description",
+          "quote": "the former CTO of One Ring Finance"
+        }
+      ],
+      "observed_at": "2024-06-05",
+      "notes": [
+        "Persona claim from the stabble team profile; not independently corroborated in the cited evidence."
+      ]
+    },
+    {
+      "id": "claim-stabble-github-account",
+      "type": "account",
+      "predicate": "team_profile_linked_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kAsky53"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-jupiter-stabble-team",
+          "locator": "post 124, team description",
+          "quote": "Github: kAsky53"
+        }
+      ],
+      "observed_at": "2024-06-05",
+      "notes": [
+        "Historical account linkage. Current reachability does not establish current ownership."
+      ]
+    },
+    {
+      "id": "claim-stabble-discord-account",
+      "type": "account",
+      "predicate": "team_profile_linked_account",
+      "value": {
+        "platform": "Discord",
+        "handle": "kasky53"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-jupiter-stabble-team",
+          "locator": "post 124, team description",
+          "quote": "Discord: kasky53"
+        }
+      ],
+      "observed_at": "2024-06-05",
+      "notes": [
+        "Historical account linkage only. No contact occurred."
+      ]
+    },
+    {
+      "id": "claim-stabble-emergency-withdrawal",
+      "type": "incident",
+      "predicate": "affected_organization_requested_liquidity_withdrawal",
+      "value": {
+        "organization": "stabble",
+        "action": "temporarily withdraw liquidity"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-stabble-x-emergency",
+          "locator": "X status 2041509913080352916",
+          "quote": "please temporally withdraw your liquidity instantly"
+        }
+      ],
+      "observed_at": "2026-04-07",
+      "notes": [
+        "This first alert did not name any worker; it is retained as affected-organization context and not attributed to the persona."
+      ]
+    },
+    {
+      "id": "claim-stabble-former-nk-developer",
+      "type": "incident",
+      "predicate": "affected_organization_reported_unnamed_former_north_korean_developer",
+      "value": {
+        "organization": "stabble",
+        "relationship_ended_approximately": "2025-04",
+        "person_named": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-stabble-x-confirmed",
+          "locator": "X status 2041970106931278115",
+          "quote": "We can confirm now until one year ago we had a NK developer in the team."
+        }
+      ],
+      "observed_at": "2026-04-08",
+      "notes": [
+        "The Stabble post does not name Keisuke. This is affected-organization context only, not evidence that the unnamed developer was this persona."
+      ]
+    },
+    {
+      "id": "claim-stabble-no-exploit",
+      "type": "incident",
+      "predicate": "affected_organization_reported_no_exploit",
+      "value": {
+        "organization": "stabble",
+        "exploit_status": "no exploit reported"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-stabble-x-no-exploit",
+          "locator": "X status 2041545304525210062",
+          "quote": "There has been no exploit."
+        }
+      ],
+      "observed_at": "2026-04-07",
+      "notes": [
+        "Point-in-time affected-organization context, not a general assurance about all systems or periods and not attributed to the persona."
+      ]
+    },
+    {
+      "id": "claim-zachxbt-elemental",
+      "type": "employment",
+      "predicate": "researcher_reported_elemental_payroll",
+      "value": {
+        "organization": "Elemental",
+        "reported_duration": "years"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-zach-elemental-2026",
+          "locator": "X status 2041408263921819822",
+          "quote": "you had a DPRK IT worker on payroll at Elemental for years. Name: Keisuke Watanabe"
+        }
+      ],
+      "observed_at": "2026-04-07",
+      "notes": [
+        "Third-party researcher allegation; duration and employment structure were not independently corroborated."
+      ]
+    },
+    {
+      "id": "claim-zachxbt-github-aliases",
+      "type": "account",
+      "predicate": "researcher_reported_github_aliases",
+      "value": {
+        "platform": "GitHub",
+        "handles": [
+          "keisukew53",
+          "kdevdivvy",
+          "kasky53",
+          "0xWoo"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-zach-elemental-2026",
+          "locator": "X status 2041408263921819822",
+          "quote": "GitHub alias: keisukew53, kdevdivvy, kasky53, 0xWoo"
+        }
+      ],
+      "observed_at": "2026-04-07",
+      "notes": [
+        "The post uses lowercase kasky53; the separately captured live GitHub account returns canonical login kAsky53. The post also contained sensitive selectors, which were excluded."
+      ]
+    },
+    {
+      "id": "claim-github-kasky53-current",
+      "type": "account",
+      "predicate": "public_github_account_observed",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kAsky53",
+        "display_name": "dev4all.sol",
+        "self_description": "I mainly build stuff on the Solana blockchain",
+        "profile_metadata_updated_at": "2025-09-22T18:00:52Z"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON fields login and name",
+          "quote": "\"login\":\"kAsky53\""
+        },
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON field name",
+          "quote": "\"name\":\"dev4all.sol\""
+        },
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON field bio",
+          "quote": "\"bio\":\"I mainly build stuff on the Solana blockchain\""
+        },
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON field updated_at",
+          "quote": "\"updated_at\":\"2025-09-22T18:00:52Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The bio is an account-authored self-description, not an independently verified skill, employer, identity, or current-control fact. Reachability and update metadata do not establish present control or identity."
+      ]
+    },
+    {
+      "id": "claim-github-kasky53-created-at",
+      "type": "account",
+      "predicate": "github_account_created_at",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kAsky53",
+        "created_at": "2021-10-18T12:41:44Z"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON field created_at",
+          "quote": "\"created_at\":\"2021-10-18T12:41:44Z\""
+        }
+      ],
+      "observed_at": "2021-10-18",
+      "notes": [
+        "Account creation metadata does not establish who created or controlled the account."
+      ]
+    },
+    {
+      "id": "claim-github-kasky53-repository-count",
+      "type": "account",
+      "predicate": "github_public_repository_count_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kAsky53",
+        "public_repositories": 71
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON field public_repos",
+          "quote": "\"public_repos\":71"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Point-in-time public metadata only; it does not establish authorship or present account control."
+      ]
+    },
+    {
+      "id": "claim-github-kasky53-post-report-activity",
+      "type": "account",
+      "predicate": "public_repository_created_after_attribution_report",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kAsky53",
+        "repository": "solana-huffman-encoding-challenge",
+        "created_at": "2025-06-30",
+        "fork": true
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-2bdcb163bd14",
+          "locator": "repository object kAsky53/solana-huffman-encoding-challenge",
+          "quote": "\"full_name\":\"kAsky53/solana-huffman-encoding-challenge\""
+        },
+        {
+          "source_id": "src-2bdcb163bd14",
+          "locator": "repository object kAsky53/solana-huffman-encoding-challenge, fork and created_at fields",
+          "quote": "\"fork\":true"
+        },
+        {
+          "source_id": "src-2bdcb163bd14",
+          "locator": "repository object kAsky53/solana-huffman-encoding-challenge, created_at field",
+          "quote": "\"created_at\":\"2025-06-30T05:02:52Z\""
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Account-level observation after Chollima Group's 2025-02-18 publication. It does not prove who controlled the account on that date or authored upstream code."
+      ]
+    },
+    {
+      "id": "claim-github-kdevdivvy-current-status",
+      "type": "account",
+      "predicate": "reported_github_alias_status_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kdevdivvy",
+        "status": "reachable",
+        "public_repositories": 0
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-27c43e0215c7",
+          "locator": "public user JSON field login",
+          "quote": "\"login\":\"kdevdivvy\""
+        },
+        {
+          "source_id": "src-27c43e0215c7",
+          "locator": "public user JSON field public_repos",
+          "quote": "\"public_repos\":0"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "ZachXBT supplies the historical link in a separate claim. Reachability does not establish shared operation or present control."
+      ]
+    },
+    {
+      "id": "claim-github-0xwoo-current-status",
+      "type": "account",
+      "predicate": "reported_github_alias_status_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "reported_handle": "0xWoo",
+        "canonical_login": "0xwoo",
+        "status": "reachable",
+        "public_repositories": 0
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-3ff05f465047",
+          "locator": "public user JSON field login",
+          "quote": "\"login\":\"0xwoo\""
+        },
+        {
+          "source_id": "src-3ff05f465047",
+          "locator": "public user JSON field public_repos",
+          "quote": "\"public_repos\":0"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "ZachXBT supplies the historical link in a separate claim. Reachability does not establish shared operation or present control."
+      ]
+    },
+    {
+      "id": "claim-github-keisukew53-current-status",
+      "type": "account",
+      "predicate": "reported_github_alias_status_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "keisukew53",
+        "status": "not found"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-4d679834b4fe",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "ZachXBT supplies the historical link in a separate claim. Not Found does not establish the cause."
+      ]
+    },
+    {
+      "id": "claim-github-hirayama1534-current-status",
+      "type": "account",
+      "predicate": "exact_handle_github_path_status_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "hirayama1534",
+        "status": "not found"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-a2537586c70e",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Chollima Group reports hirayama1534 as an alias but does not identify its platform in the reviewed text. This is only an exact-handle GitHub-path check; it does not establish that a GitHub account historically existed or why the path is unavailable."
+      ]
+    },
+    {
+      "id": "claim-keisuke-vientiane-celebration-co-presence",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_co_presence",
+      "value": {
+        "context": "private celebration photographed around New Year 2023",
+        "coarse_location": "Vientiane, Laos",
+        "source_reported_people": [
+          "Jenson Collins",
+          "Kazune Takeda",
+          "Naoki Murano"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, participant list",
+          "quote": "Jenson Collins AKA nfbigjc AKA jcollinsx\nKeisuke Watanabe AKA kAsky53 AKA hirayama1534\nKazune Takeda AKA Greg Takeo AKA Joe Hisaishi AKA mtfuji25\nNaoki Murano AKA supermutecx"
+        }
+      ],
+      "notes": [
+        "Source-attributed historical co-presence only. It does not establish a shared employer, command structure, criminal agreement, continuing relationship, or present location. No facial comparison was performed."
+      ]
+    },
+    {
+      "id": "claim-keisuke-victory-fields-co-presence",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_co_presence",
+      "value": {
+        "context": "photographs on three occasions between 2022-06-12 and 2022-07-10",
+        "coarse_location": "Victory Football Stadium, Vientiane, Laos",
+        "source_reported_people": [
+          "Jenson Collins",
+          "Peter Wang"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, Victory Fields",
+          "quote": "The photos from Victory Football Stadium mainly focus on Jenson Collins, although Keisuke Watanabe and another IT Worker who used the persona \"Peter Wang\" are also present."
+        }
+      ],
+      "observed_at": "2022-07-10",
+      "notes": [
+        "Source-attributed historical photo narrative only. The relationship labels and date range come from the publisher; no image matching, present-location inference, or unreported-person identification was attempted."
+      ]
+    },
+    {
+      "id": "claim-keisuke-link-only-vientiane-media",
+      "type": "image",
+      "predicate": "publisher_contextualized_link_only_persona_image",
+      "value": {
+        "source_page": "https://chollima-group.io/posts/tracking-a-north-korean-it-worker-cell",
+        "media_url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/6.png",
+        "context": "publisher-annotated Vientiane celebration lineup",
+        "caption_label": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-vientiane",
+          "locator": "The Photos, A Celebration in Vientiane, image 6 and adjacent participant list",
+          "quote": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534"
+        }
+      ],
+      "observed_at": "2025-02-18",
+      "notes": [
+        "Link-only source reference. The asset was not separately downloaded, cropped, cached for publication, reverse-searched, compared, or used for facial recognition, appearance inference, or civil-identity resolution."
+      ]
+    },
+    {
+      "id": "claim-keisuke-stabble-former-cto-publisher-bridge",
+      "type": "employment",
+      "predicate": "multiple_publishers_reported_named_former_cto_bridge",
+      "value": {
+        "persona": "Keisuke Watanabe",
+        "organization": "stabble",
+        "reported_role": "former CTO",
+        "reported_worker_attribution": "alleged North Korean IT worker",
+        "affected_company_named_person_in_reviewed_posts": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1c56ea825a50",
+          "locator": "article body, alert chronology",
+          "quote": "The alert hit social media around 9:34 a.m. ET on Tuesday, about seven hours after pseudonymous on-chain sleuth ZachXBT had identified an alleged North Korean hacker, Keisuke Watanabe, who reportedly worked as the CTO at Stabble last year."
+        },
+        {
+          "source_id": "src-d54e79434a3d",
+          "locator": "article body, Stabble response sequence",
+          "quote": "It then admitted that it employed Watanabe a year ago."
+        },
+        {
+          "source_id": "src-90f5f6556e4b",
+          "locator": "article body, Stabble precautionary warning",
+          "quote": "The new team that recently acquired the protocol said it had discovered that a former CTO appeared to be the same person ZachXBT had publicly flagged as a North Korean IT worker."
+        }
+      ],
+      "observed_at": "2026-04-07",
+      "notes": [
+        "This is a source-triangulated media bridge, not independent government attribution or civil-identity verification. Decrypt, Protos, and CryptoSlate all rely materially on ZachXBT and Stabble's public sequence; the reviewed Stabble posts confirm an unnamed former DPRK developer but do not themselves name Keisuke."
+      ]
+    },
+    {
+      "id": "claim-keisuke-stabble-withdrawal-tvl-impact",
+      "type": "incident",
+      "predicate": "publisher_reported_protocol_tvl_change_after_precautionary_alert",
+      "value": {
+        "organization": "stabble",
+        "reported_decline_percent": 62,
+        "reported_start_tvl_usd_approximate": 1750000,
+        "reported_post_alert_tvl_usd_less_than": 663000,
+        "reported_data_source": "DeFiLlama"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1c56ea825a50",
+          "locator": "article body, first two paragraphs",
+          "quote": "The protocol, which was recently taken over by a new team, began the day with around $1.75 million in TVL, according to data from DeFiLlama. After publicly sounding the alarm to a potential emergency, that value is down to less than $663,000."
+        }
+      ],
+      "observed_at": "2026-04-07",
+      "notes": [
+        "Protocol-level point-in-time reporting only. It does not establish an exploit, asset loss, manipulation, personal causation, or responsibility by the persona; Stabble separately said no exploit had occurred."
+      ]
+    },
+    {
+      "id": "claim-github-kasky53-repository-metadata-composition",
+      "type": "account",
+      "predicate": "github_public_repository_metadata_composition_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kAsky53",
+        "public_repositories": 71,
+        "forks": 56,
+        "non_forks": 15,
+        "archived": 6,
+        "github_primary_language_counts": {
+          "Rust": 26,
+          "TypeScript": 16,
+          "Python": 1,
+          "Go": 1,
+          "Move": 1,
+          "JavaScript": 1,
+          "unclassified": 25
+        },
+        "repository_creation_range": {
+          "earliest": "2021-10-21",
+          "latest": "2025-06-30"
+        }
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-052b8b8fab0b",
+          "locator": "public user JSON field public_repos",
+          "quote": "\"public_repos\":71"
+        },
+        {
+          "source_id": "src-2bdcb163bd14",
+          "locator": "aggregate review of all 71 repository objects, fork, archived, language, and created_at fields",
+          "quote": "\"fork\":true"
+        },
+        {
+          "source_id": "src-2bdcb163bd14",
+          "locator": "repository primary-language metadata represented across the returned listing",
+          "quote": "\"language\":\"Rust\""
+        },
+        {
+          "source_id": "src-2bdcb163bd14",
+          "locator": "repository primary-language metadata represented across the returned listing",
+          "quote": "\"language\":\"TypeScript\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Counts were derived from the complete public repository metadata response. GitHub's primary-language label and fork flag are repository metadata, not a code audit or proof of authorship, expertise, originality, or current account control; no repository code was downloaded or executed."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0030",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0031",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "kAsky53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "kAsky53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0032",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "kdevdivvy"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "kdevdivvy"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0033",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "dev4all.sol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "dev4all.sol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0034",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "dev4alldotsol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "dev4alldotsol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0035",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "keisukew53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "keisukew53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0036",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "0xWoo"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "0xWoo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0037",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "hirayama1534"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Aliases",
+          "quote": "hirayama1534"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0038",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Keisuke Watanabe"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Basic Information, Fake Names",
+          "quote": "Keisuke Watanabe"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0039",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "keisukew53[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Contact Information, Emails",
+          "quote": "keisukew53[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0040",
+      "type": "account",
+      "predicate": "contact-information-twitter",
+      "value": {
+        "platform": "X/Twitter",
+        "identifier": "[at]kAsky53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Contact Information, Twitter",
+          "quote": "[at]kAsky53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0041",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "onering.finance"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Contact Information, Websites",
+          "quote": "onering.finance"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0042",
+      "type": "note",
+      "predicate": "real-location-info-real-citizenships",
+      "value": {
+        "citizenship": "North Korea",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Real Location Info, Real Citizenships",
+          "quote": "North Korea"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0043",
+      "type": "note",
+      "predicate": "fake-location-info-fake-citizenships",
+      "value": {
+        "citizenship": "Japan",
+        "reported_as": "site-labelled citizenship"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Fake Location Info, Fake Citizenships",
+          "quote": "Japan"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0044",
+      "type": "location",
+      "predicate": "fake-location-info-fake-locations",
+      "value": {
+        "location": "Tokyo, Japan",
+        "reported_as": "site-labelled fake location"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Fake Location Info, Fake Locations",
+          "quote": "Tokyo, Japan"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "This is a site-labelled cover location, not a present-whereabouts claim."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0045",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "kAsky53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, GitHub ID",
+          "quote": "kAsky53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0046",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Oct 18, 2021"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Creation Date",
+          "quote": "Oct 18, 2021"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0047",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "hirayama1534"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Usernames",
+          "quote": "hirayama1534"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0048",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "keisukew53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Usernames",
+          "quote": "keisukew53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0049",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "0xWoo"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Usernames",
+          "quote": "0xWoo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0050",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "dev4alldotsol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Usernames",
+          "quote": "dev4alldotsol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0051",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "kAsky53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Usernames",
+          "quote": "kAsky53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0052",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "dev4all.sol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Names",
+          "quote": "dev4all.sol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0053",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "Keisuke Wantanabe"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Names",
+          "quote": "Keisuke Wantanabe"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0054",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "0xWoo"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Names",
+          "quote": "0xWoo"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0055",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "kAsky53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Names",
+          "quote": "kAsky53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0056",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "keisukew53[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Emails",
+          "quote": "keisukew53[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0057",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "92731202+0xWoo[at]users[dot]noreply[dot]github[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Emails",
+          "quote": "92731202+0xWoo[at]users[dot]noreply[dot]github[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0058",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "92731202+kAsky53[at]users[dot]noreply[dot]github[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Emails",
+          "quote": "92731202+kAsky53[at]users[dot]noreply[dot]github[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0059",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "92731202+keisukew53[at]users[dot]noreply[dot]github[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Emails",
+          "quote": "92731202+keisukew53[at]users[dot]noreply[dot]github[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0060",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "isaac[dot]wolinsky[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, GitHub, Emails",
+          "quote": "isaac[dot]wolinsky[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0061",
+      "type": "account",
+      "predicate": "telegram-telegram-id",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "1914451016"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Telegram, Telegram ID",
+          "quote": "1914451016"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0062",
+      "type": "account",
+      "predicate": "telegram-usernames",
+      "value": {
+        "platform": "Telegram",
+        "identifier": "kAsky53"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Telegram, Usernames",
+          "quote": "kAsky53"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0063",
+      "type": "note",
+      "predicate": "telegram-names",
+      "value": {
+        "field": "Names",
+        "value": "dev4all.sol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Telegram, Names",
+          "quote": "dev4all.sol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0064",
+      "type": "account",
+      "predicate": "linkedin-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "hxxps://www.linkedin.com/in/keisuke-watanabe-357298224/"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, LinkedIn, Emails",
+          "quote": "hxxps://www.linkedin.com/in/keisuke-watanabe-357298224/"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0065",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "SOL"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Currency",
+          "quote": "SOL"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0066",
+      "type": "note",
+      "predicate": "salary-details-notes",
+      "value": {
+        "field": "Notes",
+        "value": "dev4all.sol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Notes",
+          "quote": "dev4all.sol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0067",
+      "type": "note",
+      "predicate": "salary-details-notes",
+      "value": {
+        "field": "Notes",
+        "value": "Payroll receiver"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Notes",
+          "quote": "Payroll receiver"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0068",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0069",
+      "type": "note",
+      "predicate": "salary-details-notes",
+      "value": {
+        "field": "Notes",
+        "value": "Bridged from dev4all.sol"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Notes",
+          "quote": "Bridged from dev4all.sol"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0070",
+      "type": "note",
+      "predicate": "salary-details-notes",
+      "value": {
+        "field": "Notes",
+        "value": "Bridged from dev4all.sol, possible Binance Hot Wallet"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Notes",
+          "quote": "Bridged from dev4all.sol, possible Binance Hot Wallet"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0071",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "JBxidGWnhtPTGg8xw7sFT9tF4cfGtHnjYNp5GDJvGveh"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Addresses",
+          "quote": "JBxidGWnhtPTGg8xw7sFT9tF4cfGtHnjYNp5GDJvGveh"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0072",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "8mdfRML7z3s8gqDYd72bywcEgQtcvkoJCw2bukv8X71R"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Addresses",
+          "quote": "8mdfRML7z3s8gqDYd72bywcEgQtcvkoJCw2bukv8X71R"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0073",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x1b89aecc0f8c128150db67d7d0c4b1daeb43eda4"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Addresses",
+          "quote": "0x1b89aecc0f8c128150db67d7d0c4b1daeb43eda4"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-keisuke-watanabe-0074",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x3Af73294445e5f49E19a7a224d2E157a15128735"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/keisuke-watanabe, Salary Details, Addresses",
+          "quote": "0x3Af73294445e5f49E19a7a224d2E157a15128735"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Research-attributed employment persona Keisuke Watanabe and source-linked handles; the name remains a source label. Preserve Chollima Group, ZachXBT, and affected-company statements as separately attributed claims; photographs remain contextual, and current reachability leaves ownership and control unresolved.",
+  "locations": [
+    "Tokyo, Japan"
+  ]
+}

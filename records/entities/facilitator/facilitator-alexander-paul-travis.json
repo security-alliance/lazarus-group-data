@@ -1,0 +1,416 @@
+{
+  "id": "facilitator-alexander-paul-travis",
+  "type": "facilitator",
+  "name": "Alexander Paul Travis",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced on March 18, 2026 in S.D. Ga. No. 1:25-cr-00059-JRH-BKE to 12 months and one day of imprisonment and three years of supervised release, with $193,265 forfeiture.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dln26-s05",
+      "flr6-s01",
+      "flr6-s02",
+      "flr6-s03",
+      "flr6-s04"
+    ]
+  },
+  "legal_or_reported_name": "Alexander Paul Travis",
+  "ttps": [
+    "assistance passing employer vetting",
+    "proxy appearance for drug testing"
+  ],
+  "caveats": [
+    "Charging-instrument allegations are distinct from the later guilty plea, sentence, and final judgment.",
+    "Only defendant-specific plea, sentence and role facts in the cited DOJ release are assigned to this person; aggregate enforcement totals remain separate."
+  ],
+  "infrastructure": [
+    {
+      "type": "criminal-case-docket",
+      "value": "S.D. Ga. No. 1:25-cr-00059-JRH-BKE",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s01",
+        "flr6-s02",
+        "flr6-s03",
+        "flr6-s04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "flr6-s02",
+      "support": "The filed information identifies United States v. Alexander Paul Travis, S.D. Ga. No. 1:25-cr-00059-JRH-BKE",
+      "locator": "S.D. Ga. No. 1:25-cr-00059-JRH-BKE, Doc. 1, caption and Count One"
+    },
+    {
+      "source_id": "flr6-s04",
+      "support": "The final forfeiture order independently confirms Travis's $193,265 money judgment and identifies the criminal docket",
+      "locator": "S.D. Ga. No. 1:25-cr-00059-JRH-BKE, Doc. 24, pages 1-2"
+    },
+    {
+      "source_id": "flr6-s03",
+      "support": "The final judgment identifies the Travis criminal docket and adjudicated disposition",
+      "locator": "S.D. Ga. No. 1:25-cr-00059-JRH-BKE, Doc. 36"
+    },
+    {
+      "source_id": "dln26-s05",
+      "support": "Alexander Paul Travis pleaded guilty on November 13, 2025, to conspiracy to commit wire fraud; DOJ says he helped overseas workers pass employer vetting and appeared for drug testing on their behalf",
+      "locator": "Three Guilty Pleas — Southern District of Georgia; Oleksandr Didenko Guilty Plea; Erick Ntekereze Prince Guilty Plea"
+    },
+    {
+      "source_id": "flr6-s01",
+      "support": "DOJ reports that Alexander Paul Travis pleaded guilty, was sentenced, assisted overseas workers in passing employer vetting, appeared for drug testing on their behalf, and received at least $51,397. The release does not state the exact sentencing date, and its approximately $1.28 million salary total is aggregate rather than Travis-specific.",
+      "locator": "Opening; common plea-conduct paragraphs; defendant-specific paragraph for Alexander Paul Travis"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name-and-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "name": "Alexander Paul Travis",
+        "court": "U.S. District Court for the Southern District of Georgia",
+        "docket": "1:25-cr-00059-JRH-BKE"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 1, caption",
+          "quote": "Alexander Paul Travis"
+        },
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 1, filing header",
+          "quote": "Case 1:25-cr-00059-JRH-BKE     Document 36     Filed 03/23/26"
+        }
+      ],
+      "observed_at": "2026-03-23"
+    },
+    {
+      "id": "claim-alleged-identity-and-vetting-enablement",
+      "type": "incident",
+      "predicate": "information_alleged_identity_and_vetting_enablement",
+      "value": {
+        "alleged_period_start": "2019-09-09",
+        "alleged_period_end": "2022-11-08",
+        "methods": [
+          "false resumes using defendant identity",
+          "employment applications",
+          "drug testing and fingerprinting",
+          "financial-services accounts"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s02",
+          "locator": "PDF p. 3, Count One, paragraph 5",
+          "quote": "From on or about September 9, 2019, until November 8, 2022"
+        },
+        {
+          "source_id": "flr6-s02",
+          "locator": "PDF p. 3, Count One, paragraph 6",
+          "quote": "The Defendant knowingly allowed his identity to be used by overseas IT workers and others known and unknown to: (1) create resumes in the Defendant’s name with false information about his experience; (2) use those false representations and the Defendant’s identity to obtain employment with U.S. companies; (3) pass employer vetting procedures such as drug testing and fingerprinting; and (4) open financial services accounts in the Defendant’s name to receive payments from U.S. companies for work the Defendant was not performing."
+        }
+      ],
+      "observed_at": "2025-09-04",
+      "notes": [
+        "Charging-instrument allegations, not independently adjudicated factual findings in this bundle.",
+        "No financial provider or account selector is retained."
+      ]
+    },
+    {
+      "id": "claim-alleged-laptop-hosting-and-remote-access",
+      "type": "infrastructure",
+      "predicate": "information_alleged_laptop_hosting",
+      "value": {
+        "device_class": "company-provided laptops",
+        "access_method": "unauthorized remote access software"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s02",
+          "locator": "PDF p. 4, Count One, paragraph 7",
+          "quote": "The Defendant also installed unauthorized remote access software on company-provided laptops and allowed overseas IT workers using his identity to access the laptops remotely"
+        }
+      ],
+      "observed_at": "2025-09-04",
+      "notes": [
+        "Charging-instrument allegation; residential address and victim-company identities are excluded."
+      ]
+    },
+    {
+      "id": "claim-alleged-company-and-payment-impact",
+      "type": "incident",
+      "predicate": "information_alleged_company_and_payment_impact",
+      "value": {
+        "companies": 8,
+        "salary_paid_usd_minimum": 193000,
+        "defendant_receipts_usd_minimum": 51397
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "flr6-s02",
+          "locator": "PDF p. 4, Count One, paragraph 8",
+          "quote": "The Defendant’s actions caused eight U.S. companies to hire one or more overseas IT workers and pay those individuals a combined total of over $193,000 in salary. For his participation in this scheme, the Defendant received at least $51,397."
+        }
+      ],
+      "observed_at": "2025-09-04",
+      "notes": [
+        "Newly converted into a profile-grade atomic claim; amounts remain allegations from the information."
+      ]
+    },
+    {
+      "id": "claim-active-duty-army-during-alleged-period",
+      "type": "employment",
+      "predicate": "reported_active_duty_status",
+      "value": {
+        "organization": "United States Army",
+        "status": "active-duty during participation reported by DOJ",
+        "station": "Fort Gordon"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s02",
+          "locator": "PDF p. 4, Count One, paragraph 8",
+          "quote": "Throughout his participation in the scheme, the Defendant was an active-duty member of the United States Army"
+        },
+        {
+          "source_id": "flr6-s01",
+          "locator": "Defendant-specific conduct paragraph beginning ‘Travis’",
+          "quote": "Travis, who was an active-duty member of the United States Army stationed at Fort Gordon at the time, received at least $51,397 for his participation in the scheme."
+        }
+      ],
+      "observed_at": "2025-09-04",
+      "notes": [
+        "DOJ reporting confirms the Army status and names the installation at a coarse public level; residential details are deliberately omitted."
+      ]
+    },
+    {
+      "id": "claim-doj-reported-plea-admissions",
+      "type": "incident",
+      "predicate": "doj_reported_plea_admissions",
+      "value": {
+        "methods": [
+          "allowed overseas workers to create false resumes in his name",
+          "allowed his identity to be used to obtain remote employment",
+          "enabled employer vetting including video interviews, drug testing, and fingerprinting",
+          "allowed bank accounts in his name to receive employer payments",
+          "received company laptops and installed unauthorized software for overseas remote access"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s01",
+          "locator": "Paragraphs beginning ‘Each defendants’ guilty pleas’ and ‘In each case’",
+          "quote": "Each defendants’ guilty pleas describe how they were contacted by overseas IT workers, and each defendant allowed those workers to create resumes in the defendants’ names with false information about their experience; to use those false representations and identities to obtain remote employment with U.S. companies; to pass employer vetting procedures, including video interviews, drug testing, and fingerprinting; and, to open bank accounts in the defendants’ names to receive payment from the U.S. companies."
+        },
+        {
+          "source_id": "flr6-s01",
+          "locator": "Paragraph beginning ‘In each case’",
+          "quote": "In each case, the defendant would receive a laptop computer from the company that hired the fictitious worker, and then would install unauthorized software to enable the overseas IT worker to access the computers remotely while appearing to work from the defendant’s address in the United States."
+        }
+      ],
+      "observed_at": "2026-03-20",
+      "notes": [
+        "This claim preserves DOJ’s reporting of what the guilty pleas describe; it is stronger than the information’s allegations but is not presented as a direct quotation from a reviewed signed plea factual basis.",
+        "Victim identities, addresses, financial selectors, and remote-access product details are excluded."
+      ]
+    },
+    {
+      "id": "claim-doj-reported-defendant-receipts",
+      "type": "incident",
+      "predicate": "doj_reported_scheme_receipts",
+      "value": {
+        "minimum_usd": 51397
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s01",
+          "locator": "Defendant-specific conduct paragraph beginning ‘Travis’",
+          "quote": "Travis, who was an active-duty member of the United States Army stationed at Fort Gordon at the time, received at least $51,397 for his participation in the scheme."
+        }
+      ],
+      "observed_at": "2026-03-20",
+      "notes": [
+        "The amount is defendant-specific; the release-wide approximately $1.28 million salary total is not assigned solely to Travis."
+      ]
+    },
+    {
+      "id": "claim-guilty-plea-and-drug-testing",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty",
+      "value": {
+        "offense": "wire fraud conspiracy",
+        "plea_date": "2025-11-13",
+        "reported_vetting_action": "appeared for drug testing on behalf of overseas IT workers"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "Three Guilty Pleas - Southern District of Georgia",
+          "quote": "Yesterday, in the U.S. District Court for the Southern District of Georgia, U.S. nationals Audricus Phagnasay, 24, Jason Salazar, 30, and Alexander Paul Travis, 34, each pleaded guilty to one count of wire fraud conspiracy."
+        },
+        {
+          "source_id": "dln26-s05",
+          "locator": "Three Guilty Pleas - Southern District of Georgia, final conduct sentence",
+          "quote": "Travis and Salazar, in particular, appeared for drug testing on behalf of the overseas IT workers."
+        }
+      ],
+      "observed_at": "2025-11-13",
+      "notes": [
+        "The plea reporting confirms conviction posture; the co-defendant is not merged into this profile."
+      ]
+    },
+    {
+      "id": "claim-imprisonment-and-supervised-release",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment_and_supervised_release",
+      "value": {
+        "sentence_date": "2026-03-18",
+        "imprisonment": "12 months and 1 day",
+        "supervised_release_years": 3
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 1, Date of Imposition of Judgment",
+          "quote": "March 18, 2026"
+        },
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 2, Imprisonment",
+          "quote": "The defendant is hereby committed to the custody of the Federal Bureau of Prisons to be imprisoned for a total term of: 12 months and 1 day."
+        },
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 3, Supervised Release",
+          "quote": "Upon release from imprisonment, you will be on supervised release for a term of: 3 years."
+        }
+      ],
+      "observed_at": "2026-03-18",
+      "notes": [
+        "The signed judgment controls the exact 12-month-and-one-day term and March 18 imposition date; DOJ’s March 20 release rounded the term to 12 months and did not state the sentencing date."
+      ]
+    },
+    {
+      "id": "claim-scheduled-surrender-for-sentence",
+      "type": "legal_event",
+      "predicate": "ordered_to_surrender_for_sentence",
+      "value": {
+        "date": "2026-05-18",
+        "deadline_local": "before 2 p.m."
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 2, Imprisonment, surrender provision",
+          "quote": "The defendant shall surrender for service of sentence at the institution designated by the Bureau of Prisons: before 2 p.m. on Monday, May 18, 2026."
+        }
+      ],
+      "observed_at": "2026-03-18",
+      "notes": [
+        "The judgment schedules surrender but does not establish from the reviewed source whether surrender occurred as ordered."
+      ]
+    },
+    {
+      "id": "claim-fine-assessment-and-no-restitution",
+      "type": "legal_event",
+      "predicate": "ordered_criminal_monetary_penalties",
+      "value": {
+        "fine_usd": 2000,
+        "special_assessment_usd": 100,
+        "restitution": "not applicable"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 6, Criminal Monetary Penalties totals",
+          "quote": "Assessment $100     Restitution N/A     Fine $2,000"
+        }
+      ],
+      "observed_at": "2026-03-18",
+      "notes": [
+        "Public adjudicated monetary penalties, not private financial selectors."
+      ]
+    },
+    {
+      "id": "claim-forfeiture-money-judgment",
+      "type": "legal_event",
+      "predicate": "ordered_forfeiture",
+      "value": {
+        "money_judgment_usd": 193265,
+        "final_order_entered": "2026-01-22"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s04",
+          "locator": "PDF p. 1, second whereas clause; PDF p. 2, dispositive paragraph",
+          "quote": "finding that the Money Judgment in the amount of $193,265.00 (hereinafter, the ‘Subject Property’) was property forfeitable to the United States"
+        },
+        {
+          "source_id": "flr6-s03",
+          "locator": "PDF p. 7, Schedule of Payments, forfeiture paragraph",
+          "quote": "The defendant shall forfeit the defendant’s interest in the following property to the United States: a money judgment in the amount of $193,265"
+        }
+      ],
+      "observed_at": "2026-03-18",
+      "notes": [
+        "The final forfeiture order was entered January 22, 2026; the March judgment later incorporated the forfeiture by reference."
+      ]
+    },
+    {
+      "id": "claim-alexander-travis-coarse-historical-location",
+      "type": "location",
+      "predicate": "official_source_reported_coarse_historical_location",
+      "value": {
+        "location": "Fort Gordon, Georgia, United States",
+        "context": "DOJ-reported active-duty station during the admitted scheme period",
+        "present_location_inferred": false,
+        "precise_location_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s01",
+          "locator": "Defendant-specific sentencing paragraph",
+          "quote": "Travis, who was an active-duty member of the United States Army stationed at Fort Gordon at the time, received at least $51,397 for his participation in the scheme."
+        }
+      ],
+      "observed_at": "2026-03-20",
+      "notes": [
+        "Coarse source-time geography only; it does not establish present residence, custody, travel, precise location, or continued presence.",
+        "Street addresses, residential details, facility details, and other precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Alexander Paul Travis, the defendant in S.D. Ga. No. 1:25-cr-00059-JRH-BKE; information allegations, defendant-specific DOJ plea reporting, the final adjudicated judgment and aggregate campaign facts remain distinct."
+}

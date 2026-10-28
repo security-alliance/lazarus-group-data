@@ -1,0 +1,41 @@
+{
+  "id": "lead-nisos-accountproviderforyou",
+  "type": "lead",
+  "name": "[@]accountproviderforyou",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "identity/account broker used by the cell",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "late-2026-nisos-operation-pdf"
+    ]
+  },
+  "caveats": [
+    "The broker is a facilitator lead; the source assigns a facilitator role only.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence."
+  ],
+  "accounts": [
+    {
+      "platform": "Telegram",
+      "identifier": "accountproviderforyou",
+      "url": "hxxps://t[.]me/accountproviderforyou",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-nisos-operation-pdf",
+      "support": "Offered identity packages, payment accounts, and aged Discord accounts Source says a likely team lead considered the broker broadly useful",
+      "locator": "Graphic 1: Discord channel structure; Graphics 2-3: Vercel calendar and leaderboard; Graphics 7-8: persona and license-verification instructions; Graphic 9: 710TECH LI backstop site; Graphic 10: live AI interview-assistance view | Landing page publication date; PDF metadata shows creation on June 11, 2026"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

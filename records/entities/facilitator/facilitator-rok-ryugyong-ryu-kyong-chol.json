@@ -1,0 +1,213 @@
+{
+  "id": "facilitator-rok-ryugyong-ryu-kyong-chol",
+  "type": "facilitator",
+  "name": "류경철",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Named in a Republic of Korea unilateral sanctions designation or its official living sanctions list. The status is administrative; criminal charge and conviction status remain absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ROK-MOFA-374048",
+      "ROK-MOFA-SANCTIONS-LIST"
+    ]
+  },
+  "legal_or_reported_name": "류경철",
+  "organizations": [
+    "류경프로그램개발회사 / RYUGYONG PROGRAM DEVELOPMENT COMPANY"
+  ],
+  "caveats": [
+    "The dated designation announcement and the living sanctions list are two Republic of Korea Ministry of Foreign Affairs publications in one official source family; retain both for complementary claim-level support and treat them as one source family. The living-list citation establishes list presence and naming as accessed; current activity, location, role, and operational control require newer evidence.",
+    "Included regional primary sources print only Korean-script forms; the Latin-script field remains blank.",
+    "This record preserves the official source's stated role in an overseas IT delegation or related entity. Personal software-development work requires a separate source finding."
+  ],
+  "sources": [
+    {
+      "source_id": "ROK-MOFA-374048",
+      "support": "The September 1, 2023 designation announcement names 류경철 as a 사장 (president) of 류경프로그램개발회사 / RYUGYONG PROGRAM DEVELOPMENT COMPANY in the context of the company’s alleged involvement in dispatching DPRK IT personnel",
+      "locator": "Body under “독자제재 추가 지정 대상”; asterisked 류경프로그램개발회사 official line naming 류경철 and the role “사장 (president)”. | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=374048 | Official document/download: https://www.mofa.go.kr/www/brd/m_4080/down.do?brd_id=235&seq=374048&data_tp=A&file_seq=2"
+    },
+    {
+      "source_id": "ROK-MOFA-SANCTIONS-LIST",
+      "support": "As accessed on 2026-08-12, the living ROK unilateral-sanctions list includes 류경철 in its 개인 designation rows with designation date 2023-09-01. This supports list presence, the designation date, and the displayed canonical name form only",
+      "locator": "개인 designation row for “류경철”, dated 23.9.1. | Availability note (2026-08-12): Living sanctions list. A passive check followed an HTTP 307 redirect and then timed out; this does not establish removal. Keep publication_date null and use accessed_date for every extraction"
+    },
+    {
+      "source_id": "src-cc9221ab9d3a"
+    },
+    {
+      "source_id": "src-b50b20b5b012"
+    },
+    {
+      "source_id": "src-227478bc87f5"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ryu-kyong-chol-reported-korean-name",
+      "type": "identity_name",
+      "predicate": "rok_official_source_named_subject",
+      "value": {
+        "name": "류경철",
+        "script": "Hangul"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, individual designation list and official-role line",
+          "quote": "류경철"
+        },
+        {
+          "source_id": "src-cc9221ab9d3a",
+          "locator": "Original publication, individual designation list",
+          "quote": "류경철"
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, individual designation table and company-official footnote",
+          "quote": "류경철"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "이 회사 사장인 류경철"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "The reviewed accessible sources print 류경철; no Latin-script form is inferred."
+      ]
+    },
+    {
+      "id": "claim-ryu-kyong-chol-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea government",
+        "designation_date": "2023-09-01",
+        "posture": "unilateral administrative sanctions designation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, opening designation sentence and individual list",
+          "quote": "우리 정부는 한반도 및 국제사회의 평화와 안전을 위협하는 북한의 소위 ‘위성’ 명목의 탄도미사일 발사에 대응하는 차원에서 9.1.(금) 북한의 핵ㆍ미사일 개발 및 자금 조달에 관여한 개인 5명과 기관 1개를 대북 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, opening paragraph and individual designation table",
+          "quote": "9.1.(금) 북한의 핵ㆍ미사일 개발 및 자금 조달에 관여한 개인 5명과 기관 1개를 대북 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, first and third paragraphs",
+          "quote": "개인 5명과 기관 1개를 대북 독자 제재 대상으로 지정했다"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "Administrative sanctions designation only; no criminal charge, conviction, or guilt finding established."
+      ]
+    },
+    {
+      "id": "claim-ryu-kyong-chol-ryugyong-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_company_official_affiliation",
+      "value": {
+        "organization": "류경프로그램개발회사",
+        "relationship": "source-reported company official"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, company and officials paragraph",
+          "quote": "정보 기술(IT) 인력 송출에 관여한 류경프로그램개발회사와 동 회사 관계자 5명"
+        },
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, asterisked company-official role line",
+          "quote": "류경철(사장)"
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, company context and company-official footnote",
+          "quote": "류경철(사장)"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "류경프로그램개발회사이고 이 회사 사장인 류경철, 중국 선양 주재 대표 김학철, 진저우 주재 대표 장원철, 단둥 주재 대표 리철민, 부대표 김주원"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "The company is source-reported as involved in IT-personnel dispatch; that company-level allegation is not individualized as personal conduct."
+      ]
+    },
+    {
+      "id": "claim-ryu-kyong-chol-historical-company-role",
+      "type": "employment",
+      "predicate": "rok_reported_historical_company_role",
+      "value": {
+        "organization": "류경프로그램개발회사",
+        "role": "president"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Linked-data abstract, asterisked company-official role line",
+          "quote": "류경철(사장)"
+        },
+        {
+          "source_id": "src-b50b20b5b012",
+          "locator": "PDF page 1, company-official footnote",
+          "quote": "류경철(사장)"
+        },
+        {
+          "source_id": "src-227478bc87f5",
+          "locator": "Article body, third paragraph",
+          "quote": "이 회사 사장인 류경철"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "Historical source-described role and any posting context only; it does not establish present location, current employment, present control, or personal software-development activity."
+      ]
+    },
+    {
+      "id": "claim-ryu-kyong-chol-ryugyong-worker-dispatch-context",
+      "type": "incident",
+      "predicate": "rok_reported_company_it_worker_dispatch_context",
+      "value": {
+        "organization": "류경프로그램개발회사",
+        "reported_activity": "involvement in dispatching information-technology personnel",
+        "scope": "organization-level designation context",
+        "individual_conduct_attributed": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-374048",
+          "locator": "Designation explanation for Ryugyong Program Development Company and five officials",
+          "quote": "정보 기술(IT) 인력 송출에 관여한 류경프로그램개발회사와 동 회사 관계자 5명"
+        }
+      ],
+      "observed_at": "2023-09-01",
+      "notes": [
+        "Republic of Korea organization-level designation context only; it does not establish a personal dispatch act, specific worker, employer, customer, payment, or current role for this individual."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "류경철 is the Korean-script person named in Republic of Korea administrative sanctions materials as a source-reported Ryugyong Program Development Company official. The designation is administrative; criminal charge, conviction, and guilt status remain unadjudicated. The reviewed accessible MOFA sources and derivative VOA report print 류경철; the Latin-script form remains absent. This subject remains separate from unbridged same-name references in South Korean calligraphy or industrial-safety coverage and from public accounts. The source-described president role leaves present location, current employment, present control, and personal involvement in every company-level allegation unestablished."
+}

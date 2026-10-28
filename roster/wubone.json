@@ -1,0 +1,25 @@
+{
+  "id": "wubone",
+  "real_name": "Wubone",
+  "aliases": [],
+  "gender": "male",
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x0db9e27060b7f8258448aa31c36e7c0937fd5fd7"
+      ]
+    }
+  ],
+  "images": [],
+  "curation": "analyst"
+}

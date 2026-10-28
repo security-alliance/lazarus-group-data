@@ -1,0 +1,293 @@
+{
+  "id": "worker-kim-kwang-myong",
+  "type": "worker",
+  "name": "Kim Kwang Myong",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Kim Kwang Myong",
+  "organizations": [
+    "Kyonghung Information Technology Exchange Company"
+  ],
+  "locations": [
+    "China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details."
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Official profile photo in Table 1.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 9 identifies the director and developers; says Chong developed gambling sites and Chon developed gambling sites and sold personal-information databases",
+      "locator": "Annex 9 Table 1, PDF p. 122 / printed p. 120 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "src-5ea7c71ad364"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-kwang-myong-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_and_source_form",
+      "value": {
+        "name": "Kim Kwang Myong",
+        "source_scoped_non_latin_form": "김광명"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "Name: Kim Kwang Myong (김광명)"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The source form is scoped to the MSMT report; birth data and imagery were excluded."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-kyonghung-director",
+      "type": "employment",
+      "predicate": "reported_director_of",
+      "value": {
+        "organization": "Kyonghung Information Technology Exchange Company",
+        "short_name": "Kyonghung IT",
+        "role": "director"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "As director of Kyonghung IT"
+        },
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "Yonhap article body, paragraph identifying the organization's leader",
+          "quote": "The organization was led by Kim Kwang-myong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source-reported leadership role; no current employment or location inference."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-reported-responsibilities",
+      "type": "employment",
+      "predicate": "source_reported_responsibilities",
+      "value": {
+        "organization": "Kyonghung IT",
+        "responsibilities": [
+          "securing job contracts",
+          "managing developers"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "Kim is in charge of securing job contracts and managing developers."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Bounded to the responsibilities stated in Annex 9; it does not attribute other workers' development or database-sale conduct to Kim."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-rgb-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "source_reported_rgb_affiliation",
+      "value": {
+        "organization": "Reconnaissance General Bureau",
+        "source_description": "affiliated with the UN-sanctioned RGB",
+        "designation_reference": "KPe.031"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "its director Kim Kwang Myong (김광명) who is affiliated with the UN-sanctioned Reconnaissance General Bureau (KPe.031)"
+        },
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "Yonhap article body, paragraph identifying the leader's background",
+          "quote": "who is originally an official of the North's Reconnaissance General Bureau"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported organizational background, not a personal sanctions designation, criminal charge, or adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-yonhap-name-form",
+      "type": "alias",
+      "predicate": "independently_reported_romanized_name_form",
+      "value": {
+        "name": "Kim Kwang-myong",
+        "form_type": "Yonhap romanization"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "Yonhap article body, paragraph identifying the organization's leader",
+          "quote": "Kim Kwang-myong"
+        }
+      ],
+      "observed_at": "2024-02-14",
+      "notes": [
+        "The organization and RGB context provide an explicit bridge to the same source-reported person; this is not a name-only merge."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-employer-hierarchy",
+      "type": "organization_affiliation",
+      "predicate": "source_reported_employer_hierarchy",
+      "value": {
+        "employer": "Kyonghung Information Technology Exchange Company",
+        "parent": "Kyonghung Trading Bureau / Kyonghung Trading Company",
+        "reported_parent_affiliation": "Office 39 of the Workers' Party of Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57), contiguous fragment 1 of 2",
+          "quote": "Kyonghung Information Technology Exchange Company"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57), contiguous fragment 2 of 2",
+          "quote": "is a subsidiary of Kyonghung Trading Bureau (also known as Kyonghung Trading Company), which is affiliated with Office 39 of the Korean Workers’ Party."
+        },
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "Yonhap article body, organization-attribution paragraph",
+          "quote": "The entity was believed to be under the so-called Bureau 39 of the North Korean party"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Employer-hierarchy context, not a claim that Kim personally held an Office 39 role or an individual sanctions designation. Yonhap's Bureau 39 wording is an attributed NIS assessment."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-report-era-dandong-context",
+      "type": "location",
+      "predicate": "source_reported_coarse_location_context",
+      "value": {
+        "location": "Fengcheng, Dandong, China",
+        "timeframe": "report-era context published 2025-10-22",
+        "precision": "coarse city-level only",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "Kyonghung IT is headquartered in Dandong, China, and consists of 15 individuals, including its director Kim Kwang Myong (김광명)"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "These North Korean nationals live together in the dormitory of a clothing factory located in Fengcheng, Dandong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical report wording only. The factory name, address, precise site, travel, and present location are excluded; the claim does not establish that Kim remains in Dandong."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-link-only-report-photo",
+      "type": "image",
+      "predicate": "source_explicit_link_only_profile_photo",
+      "value": {
+        "media_type": "profile photo",
+        "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+        "pdf_file_page": 122,
+        "handling": "link_only"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120), source-labeled portrait row",
+          "quote": "Name: Kim Kwang Myong (김광명)"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Link-only source reference. No crop, cache, redistribution, facial recognition, or comparison is authorized; birth data elsewhere in the row is excluded."
+      ]
+    },
+    {
+      "id": "claim-kim-kwang-myong-organization-gambling-site-context",
+      "type": "incident",
+      "predicate": "source_reported_organization_gambling_site_activity_context",
+      "value": {
+        "organization": "Gyonghung Information Technology Co.",
+        "reported_activity": "made and sold illegal online gambling websites",
+        "subject_relationship": "Yonhap reported Kim Kwang-myong as the organization's leader",
+        "personal_conduct_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "opening paragraph",
+          "quote": "A North Korean entity under its Workers' Party has made thousands of illegal online gambling websites and sold them to a South Korean cyber crime ring for hefty profits, the spy agency here said Wednesday."
+        },
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "paragraph identifying the organization",
+          "quote": "Gyonghung Information Technology Co., a 15-member group based in Dandong"
+        },
+        {
+          "source_id": "src-5ea7c71ad364",
+          "locator": "paragraph identifying the reported leader",
+          "quote": "The organization was led by Kim Kwang-myong"
+        }
+      ],
+      "observed_at": "2024-02-14",
+      "notes": [
+        "Organization-level reporting only. It does not assign website development, sales, malware, payments, victimization, or any other operational conduct to Kim personally."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Kim Kwang Myong is the director named in the MSMT Kyonghung IT case study and Annex 9. Yonhap’s Kim Kwang-myong form is linked by the same organization and RGB-leader context. The alleged conduct of Kyonghung IT, Chong Ryu Song, or Chon Kwon Uk remains attributed at organization or named-person level only; images and personal-information material are excluded."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ttp-late-2026-09-public-ip-concealment-differs-by-cluster-one-masks-c2-c",
+  "type": "ttp",
+  "name": "Public-IP concealment differs by cluster: one masks C2 carefully while another reuses a long-attributed DPRK address with little protection.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: medium-high",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-kudelski-infrastructure"
+    ]
+  },
+  "ttps": [
+    "Public-IP concealment differs by cluster: one masks C2 carefully while another reuses a long-attributed DPRK address with little protection."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "support": "Public-IP concealment differs by cluster: one masks C2 carefully while another reuses a long-attributed DPRK address with little protection",
+      "locator": "Figure 2: Russian exit-node mapping; Figure 4: public-facing infrastructure; Figure 5: Team 313 network; Figure 6: RB administrative network; Figures 7-8: KUT website/network; Figure 9: offensive infrastructure"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

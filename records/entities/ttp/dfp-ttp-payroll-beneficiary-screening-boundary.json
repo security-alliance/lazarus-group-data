@@ -1,0 +1,102 @@
+{
+  "id": "dfp-ttp-payroll-beneficiary-screening-boundary",
+  "type": "ttp",
+  "name": "Payroll KYC and beneficiary screening do not prove worker identity continuity",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Financial anomalies are review signals; identity, facilitation, and DPRK attribution require other evidence. First-party platform control or threat-research guidance is normalized as defensive context; control-effectiveness status requires separate validation; Sophos-published payroll and finance guidance.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DC2-S01",
+      "DC2-S02",
+      "DC2-S09",
+      "DFP-S15",
+      "DFP-S16"
+    ]
+  },
+  "ttps": [
+    "bank-account-mule",
+    "fiat-salary",
+    "money-laundering",
+    "payment-platform",
+    "payroll-fraud"
+  ],
+  "caveats": [
+    "Apply controls consistently with privacy, employment, labor, accessibility, retention, notice, correction, and access-governance requirements.",
+    "Lawful financial products require risk-based policy, legal review, and documented exceptions rather than prohibition by brand or worker location.",
+    "Financial data is sensitive. Minimize access and avoid exposing raw bank, tax, or payment identifiers in threat-intelligence outputs.",
+    "Joint accounts, payroll providers, relocation, name changes, bank mergers, failed payments, and contractor intermediaries can be legitimate.",
+    "KYC, sanctions screening, and beneficiary checks establish screening results; work performance and continuous account control require additional evidence.",
+    "These controls address submitted identity, account, and beneficiary checks; identifying the true worker who controls the submitted identity, account, or beneficiary requires separate evidence. Deel publishes a general control description, and no DPRK-specific detection count is published here.",
+    "Use the pattern to prioritize documented human-led review; DPRK affiliation, fraud, and malicious intent require a combined evidence record."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Build a governed employee-beneficiary graph and alert on newly shared or rapidly changing beneficiary attributes across otherwise unrelated workers or contractors.",
+        "Correlate payroll changes with HR identity events, endpoint/device changes, location claims, manager confirmation, and approved exceptions.",
+        "Require secondary-channel verification and dual authorization for sensitive beneficiary changes, preserving an auditable override trail."
+      ],
+      "limitations": [
+        "Joint accounts, payroll providers, relocation, name changes, bank mergers, failed payments, and contractor intermediaries can be legitimate.",
+        "Do not prohibit lawful financial products solely by brand or worker location; use risk-based policy, legal review, and documented exceptions.",
+        "Financial data is sensitive. Minimize access and avoid exposing raw bank, tax, or payment identifiers in threat-intelligence outputs."
+      ],
+      "source_ids": [
+        "DC2-S01",
+        "DC2-S02",
+        "DC2-S09"
+      ]
+    },
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Deel states that it performs KYC on platform customers, screens transactions and beneficiaries against sanctions and anti-fraud lists, applies enhanced due diligence to businesses, refreshes checks, and contractually prohibits platform access from North Korea and transactions involving restricted parties."
+      ],
+      "limitations": [
+        "These controls do not prove the true worker controls the submitted identity, account, or beneficiary, and Deel publishes no DPRK-specific detection count here."
+      ],
+      "source_ids": [
+        "DFP-S15",
+        "DFP-S16"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-11-cloud-saas-posthire-correlation",
+    "dfp-ttp-payroll-beneficiary-screening-boundary",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DC2-S09",
+      "support": "The publisher-hosted PDF mirror describes the same cross-functional Sophos control program and is retained as a static fallback, not independent corroboration",
+      "locator": "pp. 1-2, especially Matrix overview and Detection and prevention"
+    },
+    {
+      "source_id": "DC2-S02",
+      "support": "The Sophos matrix recommends reviewing shared beneficiary attributes, worker-to-beneficiary name mismatches, repeated or late beneficiary changes, returned payments, and repeated requests for exceptional payment channels",
+      "locator": "Worksheets: Project Tracker Sheet, Banking payroll and finance, Security and monitoring, Threat hunting"
+    },
+    {
+      "source_id": "DFP-S15",
+      "support": "Deel describes customer KYC, transaction and beneficiary screening, enhanced due diligence, refreshed checks, and contractual restrictions involving North Korea and restricted parties",
+      "locator": "Customer checks; KYC, transaction/beneficiary screening, EDD, periodic refresh"
+    },
+    {
+      "source_id": "DFP-S16",
+      "support": "Deel describes customer KYC, transaction and beneficiary screening, enhanced due diligence, refreshed checks, and contractual restrictions involving North Korea and restricted parties",
+      "locator": "Part I sections 5.3-5.4, prohibited regions and restricted parties"
+    },
+    {
+      "source_id": "DC2-S01",
+      "support": "Sophos recommends recurring review of sensitive employee master-data changes and separation of payroll entry, approval, reconciliation, and payment duties",
+      "locator": "Page heading and sections: Matrix overview; Detection and prevention; linked PDF and control-matrix downloads"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

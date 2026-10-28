@@ -1,0 +1,74 @@
+{
+  "id": "dimf-ttp-adaptive-technical-interview-verification",
+  "type": "ttp",
+  "name": "Adaptive technical interview verification",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S03",
+      "DIMF-S05"
+    ]
+  },
+  "ttps": [
+    "adaptive-interviewing",
+    "identity-continuity",
+    "skills-verification"
+  ],
+  "caveats": [
+    "Apply the same documented verification process to all candidates and preserve an appeal or human-review path.",
+    "Accent, ethnicity, nationality, facial appearance, background noise, and low camera quality are contextual observations; classification requires corroborating evidence.",
+    "WIRED directly observed a controlled interview; Guardian's named analysts provide broader operational experience."
+  ],
+  "infrastructure": [
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S03",
+        "DIMF-S05"
+      ]
+    },
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "Interviewers can change assumptions, ask candidates to reason through a novel scenario, request explanation of tradeoffs, and compare continuity across rounds. Incoherent answers that track a misread prompt can justify additional identity and skills verification."
+      ],
+      "limitations": [
+        "WIRED directly observed a controlled interview; Guardian's named analysts provide broader operational experience.",
+        "Never use accent, ethnicity, nationality, facial appearance, background noise, or low camera quality as standalone evidence.",
+        "Apply the same documented verification process to all candidates and preserve an appeal or human-review path."
+      ],
+      "source_ids": [
+        "DIMF-S03",
+        "DIMF-S05"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "existing dynamic-question and interview-continuity controls"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S05",
+      "support": "Interviewers can change assumptions, ask candidates to reason through a novel scenario, request explanation of tradeoffs, and compare continuity across rounds. Incoherent answers that track a misread prompt can justify additional identity and skills verification",
+      "locator": "Named-source passages on UK targeting, facilitator physical presence, BYOD, video avoidance, address changes, and wage-routing changes"
+    },
+    {
+      "source_id": "DIMF-S03",
+      "support": "Interviewers can change assumptions, ask candidates to reason through a novel scenario, request explanation of tradeoffs, and compare continuity across rounds. Incoherent answers that track a misread prompt can justify additional identity and skills verification",
+      "locator": "Controlled interview sequence involving the source-protection label Nic; changing technical questions; BGP answer breakdown; broader hiring-workflow discussion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

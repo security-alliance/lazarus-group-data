@@ -1,0 +1,68 @@
+{
+  "id": "dsor3-ttp-interactive-and-early-employment-identity-continuity",
+  "type": "ttp",
+  "name": "Interactive applicant checks and early-employment identity continuity",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is official national-CERT prevention guidance based on a reported near miss; it is neither an independently investigated Thai incident nor a person attribution, legal finding, or adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSOR3-S01-THA-THAICERT-2026-64"
+    ]
+  },
+  "ttps": [
+    "ai-assisted-interview",
+    "deepfake-video",
+    "false-professional-profile",
+    "identity-continuity-check",
+    "post-hire-verification",
+    "synthetic-resume"
+  ],
+  "caveats": [
+    "The Register-derived account is a reported account; its Thai case status remains unadjudicated and independently unverified.",
+    "The anecdotal applicant stays an unnamed example rather than a named person or persona.",
+    "Facial appearance, accent, camera artifacts, nationality, AI use and remote work are contextual features; DPRK attribution requires source-backed corroboration.",
+    "A live video check supports liveness review; facial recognition and biometric matching are separate capabilities.",
+    "This record retains no person, company, account, address, identifier, image, payment selector, victim, or private data.",
+    "This is prevention or policy context; newly observed IT-worker incident and enforcement-result status are unreported."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-defensive-guidance-not-an-observed-thai-incident",
+      "statements": [
+        "ThaiCERT's February 2026 item adds a newer Thai-language source for defending against fraudulent technical applicants. Its narrow delta is not the visual anomalies in the anecdote, but the control sequence: disable virtual backgrounds when appropriate, ask the applicant to perform a simple live interaction with a physical object, and use a lawful early-employment in-person or equivalent identity-continuity check for higher-risk roles.",
+        "AI-generated résumés and false professional profiles can be combined with deepfake video and real-time AI-assisted answers.",
+        "A live interaction challenge can supplement, but not replace, document, employment, device, network and behavioral verification.",
+        "Identity assurance should continue into early employment rather than ending at interview completion."
+      ],
+      "limitations": [
+        "Official national-CERT prevention guidance based on a reported near miss; not an independently investigated Thai incident, person attribution, legal finding, or adjudication.",
+        "The February 2026 ThaiCERT guidance describes physical-object, virtual-background, and first-week checks; its repetition of threat patterns and Amazon totals is not independent corroboration.",
+        "Do not publish the anecdotal applicant as a named person or persona.",
+        "Do not treat facial appearance, accent, camera artifacts, nationality, AI use or remote work alone as DPRK indicators.",
+        "Do not turn a live video check into facial recognition or biometric matching.",
+        "Do not present the Register-derived account as an adjudicated or independently verified Thai case.",
+        "The physical-object and virtual-background checks are supplemental controls, not biometric matching, facial recognition, or standalone attribution signals."
+      ],
+      "source_ids": [
+        "DSOR3-S01-THA-THAICERT-2026-64"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-ai-generated-resumes",
+    "ttp-ttp-deepfake-video",
+    "ttp-ttp-fake-identities"
+  ],
+  "sources": [
+    {
+      "source_id": "DSOR3-S01-THA-THAICERT-2026-64",
+      "support": "ThaiCERT's February 2026 item adds a newer Thai-language source for defending against fraudulent technical applicants. Its narrow delta is not the visual anomalies in the anecdote, but the control sequence: disable virtual backgrounds when appropriate, ask the applicant to perform a simple live interaction with a physical object, and use a lawful early-employment in-person or equivalent identity-continuity check for higher-risk roles. Original-language-source support (th): ThaiCERT describes an applicant believed to be part of a North Korean IT-worker scheme using a false LinkedIn profile, an AI-generated résumé, deepfake video and answers resembling material the interviewer had posted online. It recommends disabling virtual backgrounds, asking an applicant to interact with a physical object, and in some circumstances verifying a new hire in person during the first week. English translation note: Researcher translation from Thai. 'คาดว่าเป็นกลุ่มไอทีชาวเกาหลีเหนือ' is rendered as 'believed to be part of a North Korean IT-worker group,' not as a confirmed legal attribution",
+      "locator": "ThaiCERT item 64/69 (IT), threat narrative and final mitigation paragraph"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "anderson-lee",
+  "real_name": "Anderson Lee",
+  "aliases": [
+    "aleson092325",
+    "good725",
+    "andersonlee111",
+    "smartdev0725"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "cetbdb23@gmail.com",
+    "firly.larly0430@gmail.com",
+    "aleson092325@gmail.com"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/anderson-lee-9550381a5",
+        "https://linkedin.com/in/anderson-lee-0130801a3"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "good725",
+      "usernames": [
+        "good725"
+      ]
+    },
+    {
+      "gh_id": "andersonlee111",
+      "usernames": [
+        "andersonlee111"
+      ]
+    },
+    {
+      "gh_id": "smartdev0725",
+      "usernames": [
+        "smartdev0725"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x541fb82d870D6287A9553920A72EDeB0e9877d57"
+      ]
+    }
+  ],
+  "notes": "Part of the Scott Brown Cluster.\nWallet Addresses:\n0x541fb82d870D6287A9553920A72EDeB0e9877d57",
+  "images": [
+    {
+      "path": "/team-images/anderson-lee/anderson-lee-1.png",
+      "short_description": "Anderson Lee 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/anderson-lee/anderson-lee-2.png",
+      "short_description": "Anderson Lee 2.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/anderson-lee/anderson-lee-av.png",
+      "short_description": "Anderson Lee avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

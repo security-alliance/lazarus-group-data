@@ -1,0 +1,51 @@
+{
+  "id": "hpg-ttp-facilitator-account-sim-voice-workflow",
+  "type": "ttp",
+  "name": "Facilitator expansion into financial, professional, phone, and interview resources",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Microsoft threat-intelligence reporting at ecosystem level describes threat patterns; single-account, phone-service, or voice-tool attribution requires a case-specific source.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "hpg-s03"
+    ]
+  },
+  "ttps": [
+    "ai-altered-profile-photo",
+    "bank-account-mule",
+    "extortion",
+    "foreign-based-facilitator",
+    "freelance-account",
+    "interview-assistance",
+    "social-account"
+  ],
+  "caveats": [
+    "Keep repository-derived identity documents, images, raw accounts, infrastructure, wallets and payments out of the record.",
+    "Exclude the article's fake-recruiter malware workflow from this employment-fraud record.",
+    "Voice-changing software and outsourced account setup have legitimate uses; correlate multiple signals."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Microsoft described facilitator relationships expanding from freelance-platform account creation to bank-account rental or creation, LinkedIn-account creation, mobile-number or SIM acquisition, and additional freelance accounts.",
+        "Microsoft observed hundreds of fake GitHub portfolios and LinkedIn profiles and experimentation with voice-changing software in addition to AI-assisted images.",
+        "Microsoft framed the workforce as a triple risk: sanctioned revenue generation, possible access to sensitive intellectual property, and data theft followed in some cases by extortion."
+      ],
+      "source_ids": [
+        "hpg-s03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "hpg-s03",
+      "support": "Microsoft described facilitator relationships expanding from freelance-platform account creation to bank-account rental or creation, LinkedIn-account creation, mobile-number or SIM acquisition, and additional freelance accounts. Microsoft observed hundreds of fake GitHub portfolios and LinkedIn profiles and experimentation with voice-changing software in addition to AI-assisted images. Microsoft framed the workforce as a triple risk: sanctioned revenue generation, possible access to sensitive intellectual property, and data theft followed in some cases by extortion",
+      "locator": "North Korean IT workers: The triple threat; Facilitators complicate tracking; Fake profiles and portfolios with the aid of AI"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

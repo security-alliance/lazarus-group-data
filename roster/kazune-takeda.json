@@ -1,0 +1,260 @@
+{
+  "id": "kazune-takeda",
+  "aliases": [
+    "Joe Hisaishi",
+    "Greg Takeo"
+  ],
+  "fake_names": [
+    "Kazune Takeda",
+    "Greg Takeo",
+    "Rey Santana Socorro"
+  ],
+  "gender": "male",
+  "fake_citizenships": [
+    "Japan"
+  ],
+  "real_citizenships": [
+    "North Korea"
+  ],
+  "fake_locations": [
+    "Tokyo"
+  ],
+  "real_locations": [
+    "Laos, Vientiane",
+    "Russia, Vladivostok"
+  ],
+  "fake_addresses": [
+    "3 Chome Kojiyahoncho, Adachi City, Tokyo, Japan"
+  ],
+  "personal_emails": [
+    "kazune.takeda@yahoo.com",
+    "greg.takeo@gmail.com"
+  ],
+  "phone_numbers": [
+    "N/A"
+  ],
+  "twitter_usernames": [
+    "@kazunetakeda25"
+  ],
+  "websites": [
+    "https://kazunetakeda25.dev/"
+  ],
+  "referred_by": [
+    "Cold email"
+  ],
+  "employment": [
+    {
+      "company": "Undisclosed Company 1",
+      "role": "Senior Software Engineer",
+      "date_hired": {
+        "$date": "2024-12-01"
+      },
+      "date_identified": {
+        "$date": "2023-04-10"
+      },
+      "date_unhired": {
+        "$date": "2024-04-17"
+      },
+      "managed_laptop": false,
+      "background_check": false,
+      "kyc_collected": true
+    },
+    {
+      "company": "Undisclosed Company 2",
+      "role": "Solidity Engineer",
+      "date_hired": {
+        "$date": "2024-01-01"
+      },
+      "date_identified": {
+        "$date": "2025-05-23"
+      },
+      "date_unhired": {
+        "$date": "2025-05-30"
+      },
+      "managed_laptop": false,
+      "background_check": false,
+      "kyc_collected": true
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/kazunetakeda25"
+      ],
+      "ips": [
+        "50.7.159[.]34"
+      ],
+      "creation_date": [
+        "2019-03-15"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "5407827675",
+      "usernames": [
+        "ETHFuji",
+        "kazunetakeda25"
+      ],
+      "names": [
+        "Kazune Takeda"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "kazunetakeda25",
+      "creation_date": {
+        "$date": "2019-12-09"
+      },
+      "names": [
+        "Kazune Takeda"
+      ],
+      "emails": [
+        "kazune.takeda@yahoo.com",
+        "zhmolly@proton.me"
+      ],
+      "usernames": [
+        "chubbywink",
+        "mtfuji25",
+        "kazunetakeda25",
+        "borrdd34"
+      ]
+    },
+    {
+      "gh_id": "zhmolly",
+      "creation_date": {
+        "$date": "2021-03-23"
+      },
+      "names": [
+        "David Adachi"
+      ],
+      "emails": [
+        "zhmolly@proton.me",
+        "jwtradera@outlook.com"
+      ],
+      "usernames": [
+        "0xmolly",
+        "zhmolly",
+        "zhmoly"
+      ]
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "jwtradera",
+      "creation_date": {
+        "$date": "2021-08-13"
+      },
+      "names": [
+        "David Adachi",
+        "Pham Trung"
+      ],
+      "emails": [
+        "zhmolly@proton.me",
+        "jwtradera@outlook.com"
+      ],
+      "usernames": [
+        "0xmolly",
+        "zhmolly",
+        "zhmoly",
+        "zzmoly",
+        "pham0315"
+      ]
+    },
+    {
+      "gh_id": "davidadachi",
+      "creation_date": {
+        "$date": "2020-02-17"
+      },
+      "names": [
+        "David Adachi"
+      ],
+      "emails": [
+        "davidlucas0402@outlook.com",
+        "davidadachi56@gmail.com",
+        "johnpatch0502@outlook.com"
+      ],
+      "usernames": [
+        "davidadachi",
+        "zhmolly"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "value_usd": 5000,
+      "currency": "USD",
+      "frequency": "monthly",
+      "notes": "Flat rate"
+    },
+    {
+      "value_usd_on_specified_date": 15000,
+      "specified_date": {
+        "$date": "2025-01-01"
+      },
+      "amount_in_currency": 0,
+      "currency": "ETH",
+      "frequency": "one-time",
+      "notes": "No bonuses, paid at flat rate based on tasks and performance"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/kazune-takeda/kazune_takeda_1.jpg",
+      "short_description": "Kazune on call with company X",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kazune-takeda/kazune_takeda_2.jpg",
+      "short_description": "Kazune on call with company Y",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kazune-takeda/kazune_takeda_3.jpg",
+      "short_description": "Kazune celebrating New Year's Eve",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kazune-takeda/kazune_takeda_4.jpg",
+      "short_description": "Video-call screenshot",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/kazune-takeda/kazune_takeda_passport.jpg",
+      "short_description": "ID document scan",
+      "tags": [
+        "document"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "Kazune's Resume 1",
+      "short_description": "Old resume (2022)",
+      "path": "/team-images/kazune-takeda/Resume_1.pdf",
+      "tags": [
+        "resume",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "Kazune's Resume 2",
+      "short_description": "Updated resume (2025)",
+      "path": "/team-images/kazune-takeda/Resume_2.pdf",
+      "tags": [
+        "resume",
+        "portfolio"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

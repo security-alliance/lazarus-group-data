@@ -1,0 +1,58 @@
+{
+  "id": "dpcr11-ttp-private-witness-hearing-context",
+  "type": "ttp",
+  "name": "Private-sector DPRK IT-worker testimony in a congressional hearing",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Official congressional hearing transcript recording private-sector witness testimony; it is non-binding testimony, while congressional finding, executive-agency determination, procurement rule and government or defense-contractor incident confirmation require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPCR11-S01-HOUSE-CYBER-HEARING"
+    ]
+  },
+  "ttps": [
+    "preserve-private-witness-attribution-in-official-hearing-records",
+    "treat-hr-as-one-layer-in-remote-workforce-risk-management"
+  ],
+  "caveats": [
+    "The cited figure counts incidents. Unique workers, employers, public-sector cases, and confirmed DPRK identities are separate questions.",
+    "Existing official and first-party controls provide stronger operational guidance; this record adds provenance and policy context rather than a new standalone screening control.",
+    "The record is limited to aggregate findings; person, entity, employer, victim, account, persona, image, identifier, and private-selector profiles require separate source records.",
+    "The official source establishes that the testimony occurred; DPRK-specific counts, characterizations, and recommendations remain claims by private-sector witnesses.",
+    "Testimony leaves any affected government agency, defense contractor, supplier, or other public-sector organization unspecified.",
+    "This is congressional-hearing context; Federal Acquisition Regulation provision, solicitation clause, contractor mandate, defense-industrial-base bulletin, and government-policy adoption status are unrecorded."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-hearing-record-of-private-sector-testimony",
+      "statements": [
+        "At a January 22, 2025 House Homeland Security hearing, CrowdStrike's Adam Meyers testified that its managed threat-hunting service responded to 304 incidents in 2024 involving FAMOUS CHOLLIMA and characterized nearly 40 percent as insider-threat operations.",
+        "SentinelOne's Brandon Wales testified that DPRK IT-worker fraud remained active and framed enterprise HR teams as the first line of defense against false remote workers, with mules and laptop farms complicating detection before hiring."
+      ],
+      "limitations": [
+        "The hearing date, witness identities, and text of their testimony are confirmed by the official transcript.",
+        "The transcript does not independently validate every underlying private-company incident or establish that any incident involved a public agency, government contractor, supplier, or defense-industrial-base organization.",
+        "The testimony may support future general hiring-security or insider-risk policy discussions, but it is not itself a rule, mandate, procurement requirement, or evidence that such a change is planned.",
+        "The hearing transcript contains no DPRK-specific Federal Acquisition Regulation change, solicitation clause, contracting-officer instruction, supplier-assurance mandate, defense-industrial-base bulletin, or identified government or defense-contractor victim."
+      ],
+      "source_ids": [
+        "DPCR11-S01-HOUSE-CYBER-HEARING"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dcsr9-ttp-contingent-workforce-supplier-governance",
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "DPCR11-S01-HOUSE-CYBER-HEARING",
+      "support": "CrowdStrike witness Adam Meyers described North Korea's placement of malicious insiders in remote work positions and reported 304 2024 incidents involving FAMOUS CHOLLIMA, nearly 40 percent characterized as insider-threat operations. SentinelOne witness Brandon Wales separately stated that DPRK IT-worker fraud remained active, described HR as an enterprise front line, and discussed mules and laptop farms as pre-hire detection challenges",
+      "locator": "hearing pp. 8-11 and 23-24; PDF pp. 12-15 and 27-28"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

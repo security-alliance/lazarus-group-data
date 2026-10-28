@@ -1,0 +1,65 @@
+{
+  "id": "infrastructure-sentinel-disrupted-active-front-pivot",
+  "type": "infrastructure",
+  "name": "SentinelLabs disrupted-to-active China front-company pivot",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported infrastructure or relationship cluster",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s1-sentinelone-2024-fronts"
+    ]
+  },
+  "organizations": [
+    "Beijing Xiwang / former Hou Pa Na",
+    "Haikou Yilu Changtong Technology Trading Company",
+    "Hopana Tech",
+    "Independent Lab",
+    "Shenyang Huguo Technology Ltd.",
+    "Shenyang Tonywang Technology",
+    "Tony WKJ LLC"
+  ],
+  "ttps": [
+    "grouped infrastructure correlation",
+    "shared portfolio, recruitment, hosting, or corporate-linkage analysis"
+  ],
+  "caveats": [
+    "Indicators are grouped to avoid noisy standalone profiles and must be treated as historical.",
+    "Node confidence differs: Shenyang Huguo is explicitly assessed, while registry-derived linked companies require review.",
+    "source report: 2024-11-21; as of 2026 08 12: historical relationship map",
+    "Use differentiated node labels; linked companies remain distinct until sources confirm front-company status."
+  ],
+  "infrastructure": [
+    {
+      "kind": "grouped-indicator-set",
+      "members": [
+        "Independent Lab",
+        "Shenyang Tonywang Technology",
+        "Tony WKJ LLC",
+        "Hopana Tech",
+        "Shenyang Huguo Technology Ltd.",
+        "Beijing Xiwang / former Hou Pa Na",
+        "Haikou Yilu Changtong Technology Trading Company"
+      ],
+      "relationship_summary": "SentinelLabs pivoted from four U.S.-government-disrupted sites to Shenyang Huguo and corporate-record connections. Only Shenyang Huguo is treated here as an explicit high-confidence front-company assessment; the two registry-derived companies remain review-only links.",
+      "temporal_status": {
+        "source_report": "2024-11-21",
+        "as_of_2026_08_12": "historical relationship map"
+      },
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s1-sentinelone-2024-fronts",
+      "support": "The cited source reports SentinelLabs disrupted-to-active China front-company pivot and describes this relationship: SentinelLabs pivoted from four U.S.-government-disrupted sites to Shenyang Huguo and corporate-record connections. Only Shenyang Huguo is treated here as an explicit high-confidence front-company assessment; the two registry-derived companies remain review-only links",
+      "locator": "Expanded Analysis through Conclusion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

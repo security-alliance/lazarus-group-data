@@ -1,0 +1,68 @@
+{
+  "id": "anzo6-ttp-new-zealand-sanctions-and-work-authorization-context",
+  "type": "ttp",
+  "name": "New Zealand DPRK IT-worker sanctions and work-authorisation policy context",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official joint attribution plus general New Zealand sanctions guidance; local application, refusal, detention, deportation, prosecution, and completed enforcement status are unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ANZO6-NZ-MFAT-DPRK-SANCTIONS-LIVING",
+      "ANZO6-NZ-MFAT-MSMT-2025-10-22"
+    ]
+  },
+  "ttps": [
+    "income-earner-sanctions-controls",
+    "multilateral-monitoring-coordination",
+    "sanctions-evasion-awareness",
+    "work-authorization-controls"
+  ],
+  "caveats": [
+    "An immigration or prosecution outcome belongs in the record only with an official case record.",
+    "Nationality is a demographic descriptor; suspicion requires more than nationality alone. Overseas DPRK labor covers activity beyond fraudulent IT work.",
+    "Migration and identity identifiers remain unpublished.",
+    "Guidance, sanctions, procurement, and coordination material supplies context rather than evidence of a named incident or adjudicated violation.",
+    "Legal-status precision: official attribution and a general regulations summary; individual designation, finding, and completed enforcement action are outside this source.",
+    "The New Zealand policy and legal context covers work authorisation, local income, investigation, refusal, detention, deportation, and prosecution questions; the cited material leaves each worker-level status source-unreported.",
+    "The dataset retains source-bounded context while excluding people, personas, accounts, entities, images, identifiers, victim or private data, payment data, wallets, and raw indicators.",
+    "Fraud or DPRK attribution requires corroboration beyond any single nationality, language, accent, location, camera behavior, remote-work preference, technical tool or other weak signal."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-it-worker-attribution-and-general-sanctions-policy-context",
+      "statements": [
+        "New Zealand joined the October 22, 2025 MSMT statement describing fraudulent IT work as part of DPRK cyber and sanctions-evasion activity linked to UN-designated entities and urging awareness and accountability. Separately, MFAT's living sanctions guidance says North Korean nationals are not entitled to work authorisation in New Zealand and that a North Korean national earning income in New Zealand for regime benefit may fall within deportation controls."
+      ],
+      "limitations": [
+        "The New Zealand policy and legal context does not show that an IT worker applied for or received work authorisation, earned local income, or was investigated, refused, detained, deported, or prosecuted.",
+        "Legal-status precision: Official attribution and general regulations summary, not an individual designation, finding or completed enforcement action.",
+        "Do not present nationality alone as suspicion or imply that all overseas DPRK labor is fraudulent IT work.",
+        "Do not claim an immigration or prosecution outcome without an official case record.",
+        "Do not publish migration or identity identifiers.",
+        "Guidance, sanctions, procurement, and coordination material is context—not evidence of a named incident or adjudicated violation.",
+        "No single nationality, language, accent, location, camera behavior, remote-work preference, technical tool, or other weak signal establishes fraud or DPRK attribution.",
+        "No people, personas, accounts, entities, images, identifiers, victim or private data, payment data, wallets, or raw indicators are retained."
+      ],
+      "source_ids": [
+        "ANZO6-NZ-MFAT-DPRK-SANCTIONS-LIVING",
+        "ANZO6-NZ-MFAT-MSMT-2025-10-22"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ANZO6-NZ-MFAT-MSMT-2025-10-22",
+      "support": "New Zealand joined the October 22, 2025 MSMT statement describing fraudulent IT work as part of DPRK cyber and sanctions-evasion activity linked to UN-designated entities and urging awareness and accountability. Separately, MFAT's living sanctions guidance says North Korean nationals are not entitled to work authorisation in New Zealand and that a North Korean national earning income in New Zealand for regime benefit may fall within deportation controls. Legal-status boundary: Official joint attribution and sanctions-monitoring statement; not a New Zealand criminal or administrative case",
+      "locator": "Opening attribution and paragraphs 1-4"
+    },
+    {
+      "source_id": "ANZO6-NZ-MFAT-DPRK-SANCTIONS-LIVING",
+      "support": "New Zealand joined the October 22, 2025 MSMT statement describing fraudulent IT work as part of DPRK cyber and sanctions-evasion activity linked to UN-designated entities and urging awareness and accountability. Separately, MFAT's living sanctions guidance says North Korean nationals are not entitled to work authorisation in New Zealand and that a North Korean national earning income in New Zealand for regime benefit may fall within deportation controls. Date precision: Living sanctions guidance; no single publication date assigned. Legal-status boundary: Summary of the United Nations Sanctions (Democratic People's Republic of Korea) Regulations 2017; not evidence that a particular person was refused, detained, deported or prosecuted",
+      "locator": "Introductory legal warning; Detention and deportation; Financial services; Work authorisations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

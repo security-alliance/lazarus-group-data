@@ -1,0 +1,76 @@
+{
+  "id": "danny-jin",
+  "fake_names": [
+    "Danny Jin"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "dannyjin117@gmail.com"
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://www.linkedin.com/in/danny-9458141b0"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "codecarrier1",
+      "creation_date": {
+        "$date": "2019-03-25"
+      },
+      "names": [
+        "codecarrier1",
+        "webguru"
+      ],
+      "emails": [
+        "dannyjin117@gmail.com",
+        "as5179000@gmail.com",
+        "webninja16@gmail.com",
+        "danny.jin@biztree.com"
+      ],
+      "usernames": [
+        "dansofter",
+        "codecarrier1",
+        "webninja1997",
+        "webninja1992",
+        "topdev17"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xacb8ba726c04408aecacd6794b4c9dc59652203d"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "bbshark99",
+      "emails": [
+        "andy.solution99@gmail.com",
+        "blue.shark99@outlook.com"
+      ],
+      "names": [
+        "Andy Bell"
+      ],
+      "usernames": [
+        "SharkDev99",
+        "andy-solution"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/danny-jin/danny-jin.jpg",
+      "short_description": "Danny Jin on call",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "deep2-foreign-foreign-official-uk-ofsi-cryptoassets-threat-assessment-2025",
+  "type": "ttp",
+  "name": "UK crypto-sector salary conversion and laundering exposure",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official foreign-government, police, CERT, sanctions, or security-service guidance/assessment",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-foreign-foreign-official-uk-ofsi-cryptoassets-threat-assessment-2025"
+    ]
+  },
+  "locations": [
+    "United Kingdom"
+  ],
+  "ttps": [
+    "cryptocurrency-salary",
+    "money-laundering",
+    "regime-remittance"
+  ],
+  "caveats": [
+    "Salary-to-cryptoasset movement is a review signal; customer or worker intent requires independent evidence.",
+    "The UK sanctions-supervisor assessment describes DPRK IT-worker cryptocurrency and fiat-to-crypto conversion risks; additional incident status requires separate evidence.",
+    "Use this for risk controls, transaction review and sanctions escalation rather than public accusation."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "OFSI's official 2025 sector assessment describes DPRK IT workers as a revenue stream and identifies indirect fiat-to-crypto conversion and virtual-asset laundering exposure, providing a financial-control perspective not captured by the UK hiring alert alone."
+      ],
+      "source_ids": [
+        "deep2-foreign-foreign-official-uk-ofsi-cryptoassets-threat-assessment-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-foreign-foreign-official-uk-ofsi-cryptoassets-threat-assessment-2025",
+      "support": "OFSI's official 2025 sector assessment describes DPRK IT workers as a revenue stream and identifies indirect fiat-to-crypto conversion and virtual-asset laundering exposure, providing a financial-control perspective not captured by the UK hiring alert alone",
+      "locator": "DPRK threat discussion describing fraudulent IT employment revenue, indirect fiat-to-crypto conversion, intermediaries, and cryptoasset-sector sanctions exposure"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

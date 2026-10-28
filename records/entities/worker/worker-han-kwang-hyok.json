@@ -1,0 +1,252 @@
+{
+  "id": "worker-han-kwang-hyok",
+  "type": "worker",
+  "name": "Han Kwang Hyok",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Han Kwang Hyok",
+  "organizations": [
+    "SANS FAB IT / Sangsin delegation"
+  ],
+  "locations": [
+    "Laos; many relocated to China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annexes 12 and 14. 'Uh In Song' appears as 'U In Song' in Annex 14; treated as a spelling variant within the same source, not an independently inferred identity",
+      "locator": "Annex 12 delegation-member list, PDF p. 131 / printed p. 129; Annex 14 relocation list, PDF p. 133 / printed p. 131 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-han-kwang-hyok-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Han Kwang Hyok"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 delegation-member list, PDF file p. 131 (printed p. 129)",
+          "quote": "Han Kwang Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State list name; no additional civil-identity fields were supplied."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-sangsin-association",
+      "type": "organization_affiliation",
+      "predicate": "source_reported_sangsin_delegation_association",
+      "value": {
+        "organization": "SANS FAB IT / Sangsin delegation",
+        "timeframe": "as of mid-2024",
+        "location_context": "Laos-based delegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66)",
+          "quote": "Annex 12 provides a list of individuals who were associated with the Laos-based SANS FAB/Sangsin IT delegation as of mid-2024 (See Annex 12)."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 delegation-member list, PDF file p. 131 (printed p. 129)",
+          "quote": "Han Kwang Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported association only; no delegation rank, leadership role, continuous presence, or current employment is inferred."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-2023-laos-location",
+      "type": "location",
+      "predicate": "source_reported_historical_location",
+      "value": {
+        "location": "Laos",
+        "timeframe": "2023",
+        "qualification": "described as Laos-based"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66), Han Kwang Hyok paragraph",
+          "quote": "In 2023, Han Kwang Hyok, a Laos-based DPRK IT worker linked to Sangsin"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source description; it does not establish continuous presence or present location."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-2023-employment-collaboration-approaches",
+      "type": "incident",
+      "predicate": "source_reported_employment_collaboration_approaches",
+      "value": {
+        "timeframe": "2023",
+        "targets": "multiple U.S. individuals",
+        "purpose": "collaboration to secure employment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66), Han Kwang Hyok paragraph",
+          "quote": "approached multiple U.S. individuals for collaboration in order to secure employment."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The individuals are not identified and no victim or contact data is retained."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-may-2023-freelance-account-proposal",
+      "type": "relationship",
+      "predicate": "source_reported_facilitator_account_proposal",
+      "value": {
+        "timeframe": "2023-05",
+        "arrangement": "access facilitator freelance-employment account and apply for jobs",
+        "consideration": "portion of earnings from use of the account"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66), Han Kwang Hyok paragraph",
+          "quote": "Han should be able to access the facilitator's freelance employment platform account and apply for jobs in return for a portion of Han's earnings from using the facilitator's account."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The platform, facilitator identity, account selector, payment amount, and clients are excluded."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-facilitator-client-communications",
+      "type": "relationship",
+      "predicate": "source_reported_facilitator_client_communications",
+      "value": {
+        "timeframe": "2023-05",
+        "arrangement": "facilitator expected to communicate with clients on Han's behalf"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66), Han Kwang Hyok paragraph",
+          "quote": "Han expected the facilitator to communicate with clients on Han's behalf."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "No client, facilitator, or contact selectors are retained."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-ukrainian-remote-computer-use",
+      "type": "infrastructure",
+      "predicate": "source_reported_remote_computer_use",
+      "value": {
+        "provider": "Ukrainian facilitator",
+        "infrastructure": "Ukraine-located computer",
+        "access_mode": "remote"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66), Han Kwang Hyok paragraph",
+          "quote": "Han also used the services of a Ukrainian facilitator who provided a Ukraine-located computer that Han could access remotely."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "No facilitator identity, device selector, address, credential, or network indicator is retained."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-borrowed-ukrainian-accounts",
+      "type": "account",
+      "predicate": "source_reported_borrowed_accounts",
+      "value": {
+        "provider": "Ukrainian facilitator",
+        "account_holders": "Ukrainian individuals",
+        "purpose": "gaining employment",
+        "selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66), Han Kwang Hyok paragraph",
+          "quote": "The facilitator also provided accounts of Ukrainian individuals for Han's use in gaining employment."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Account selectors and apparent account-holder identities are excluded; the claim does not establish present control."
+      ]
+    },
+    {
+      "id": "claim-han-kwang-hyok-late-2024-relocation",
+      "type": "location",
+      "predicate": "source_reported_late_2024_relocation",
+      "value": {
+        "from": "Laos",
+        "to": "China",
+        "timeframe": "late 2024",
+        "assessment": "almost certainly to return to North Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study continuation, PDF file p. 69 (printed p. 67)",
+          "quote": "Annex 14 is a list of individuals from the SANS FAB IT delegation who, in late 2024, relocated from Laos to China to almost certainly return to North Korea (See Annex 14)."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 relocation list, PDF file p. 133 (printed p. 131)",
+          "quote": "Han Kwang Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source report. The source's purpose assessment is preserved as an assessment and does not establish completed return or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Han Kwang Hyok is the person MSMT lists as associated with the Laos-based SANS FAB/Sangsin IT delegation as of mid-2024 and in Annex 14 as relocating from Laos to China in late 2024. The source covers the reported association and movement; present location, completed return to North Korea, delegation role, civil identity beyond the source name, and present account control fall outside that source scope. Similar records stay separate until a source explicitly links them by name, nationality, geography, technology, or image."
+}

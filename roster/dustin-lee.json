@@ -1,0 +1,67 @@
+{
+  "id": "dustin-lee",
+  "fake_names": [
+    "Dustin Lee",
+    "Timothy Morris",
+    "Jonathan Willis"
+  ],
+  "aliases": [
+    "0xguardstate",
+    "guardstates"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Houston, Texas, US"
+  ],
+  "personal_emails": [
+    "dustinleecog@gmail.com",
+    "0xguardstate@proton.me",
+    "ijonathanwillis@gmail.com",
+    "timmorrisdefi@outlook.com"
+  ],
+  "phone_numbers": [
+    "+1 (803) 339-0164"
+  ],
+  "websites": [
+    "https://web3.career/@guardstate"
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://www.linkedin.com/in/dustinleecog/"
+      ],
+      "ips": [
+        "161[.]77[.]173[.]188"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xguardstate",
+      "usernames": [
+        "0xguardstate"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "8739359381",
+      "usernames": [
+        "guardstates"
+      ],
+      "names": [
+        "Dustin Lee"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/dustin-lee/dustin-lee.png",
+      "short_description": "Dustin Lee on a video call.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

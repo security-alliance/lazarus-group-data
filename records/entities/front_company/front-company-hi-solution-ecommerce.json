@@ -1,0 +1,77 @@
+{
+  "id": "front-company-hi-solution-ecommerce",
+  "type": "front_company",
+  "name": "Hi-solution E-commerce LTD",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported front company or recruitment front; legal adjudication requires a separate official record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "front_companies": [
+    "Hi-solution E-commerce LTD"
+  ],
+  "locations": [
+    "Shenyang, Liaoning, China"
+  ],
+  "ttps": [
+    "copied or templated company website",
+    "front-company or linked-company presentation",
+    "shared hosting and registration patterns"
+  ],
+  "caveats": [
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "source window: website registered between 2022-04 and 2024-09; exact company-domain date remains unspecified in narrative; as of 2026 08 12: historical indicator; current operation status untested.",
+    "The report prints the same Chinese company name for Hi-solution and Hi-Devs; preserve as reported and flag for editorial review rather than merging.",
+    "The source prints the same Chinese company name for Hi-solution and Hi-Devs; retain both records pending editorial review."
+  ],
+  "aliases": [
+    {
+      "value": "沈阳海萨露深电子商务有限公司",
+      "alias_type": "alternate-spelling",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "cluster",
+      "value": "TAG-121",
+      "status": "Insikt Group designation",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "hosting",
+      "value": "180.235.135[.]184",
+      "status": "source-observed",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "website",
+      "value": "hisolution[.]io",
+      "status": "source-observed",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports Hi-solution E-commerce LTD in the stated front-company or corporate-linkage context: hisolution[.]io; 180.235.135[.]184; TAG-121",
+      "locator": "PDF pp. 9-10 and Appendix D p. 18"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

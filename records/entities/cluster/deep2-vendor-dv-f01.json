@@ -1,0 +1,41 @@
+{
+  "id": "deep2-vendor-dv-f01",
+  "type": "cluster",
+  "name": "Google GTIG European-expansion worker and facilitator cluster",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s01-dv-f01"
+    ]
+  },
+  "caveats": [
+    "Google publishes cluster-level material; civil identities, account identifiers, domains, and victim names remain outside the publication.",
+    "GTIG attributes the 12 personas to one worker; this file records that source attribution only and keeps them separate from any named catalog profile."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "In late 2024, one DPRK IT worker operated at least 12 personas across Europe and the United States and sought roles particularly in European defense-industrial-base and government organizations.",
+        "The worker used fabricated references and additional controlled personas to vouch for credibility; separate investigations found personas seeking work in Germany and Portugal plus credentials for European job sites and human-capital-management platforms.",
+        "The same research described U.S. and U.K. facilitators, a corporate laptop intended for New York operating in London, resumes claiming Belgrade University degrees and Slovak residences, false-passport-broker contact information, and instructions to use a Serbian time zone."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s01-dv-f01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s01-dv-f01",
+      "support": "In late 2024, one DPRK IT worker operated at least 12 personas across Europe and the United States and sought roles particularly in European defense-industrial-base and government organizations. The worker used fabricated references and additional controlled personas to vouch for credibility; separate investigations found personas seeking work in Germany and Portugal plus credentials for European job sites and human-capital-management platforms. The same research described U.S. and U.K. facilitators, a corporate laptop intended for New York operating in London, resumes claiming Belgrade University degrees and Slovak residences, false-passport-broker contact information, and instructions to use a Serbian time zone",
+      "locator": "On The March: IT Workers Expand Globally with a Focus on Europe; IT Worker Activity in Europe; Increased Extortion Attempts"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

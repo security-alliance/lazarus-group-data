@@ -1,0 +1,73 @@
+{
+  "id": "amo4-ttp-advisory-ai-identity-deception-rmm-persistence",
+  "type": "ttp",
+  "name": "Advisory-reported AI identity deception and legitimate RMM persistence",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is a cyber advisory. It makes no allegation against an identified person, finding of an Israeli compromise, or criminal or sanctions action.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "AMO4-IL-NCD-1814",
+      "AMO4-IL-NCD-1814-LANDING"
+    ]
+  },
+  "ttps": [
+    "fabricated-professional-history",
+    "false-freelance-identity",
+    "legitimate-remote-monitoring-and-management",
+    "post-hire-remote-access",
+    "real-time-audio-or-video-manipulation",
+    "synthetic-or-manipulated-interview-media"
+  ],
+  "caveats": [
+    "Describe the techniques as advisory-reported risks; evidence for whether each technique appeared in one case must come from case-specific sources.",
+    "Appearance, accent, nationality, location and AI-detector output require corroboration before adverse action.",
+    "Keep fraudulent employment distinct from fake-interview malware unless a source establishes overlap.",
+    "The record retains aggregate context; people, entities, accounts, locations, images, identifiers, victim data, and payment selectors stay outside it.",
+    "This is defensive advisory context rather than a named incident, legal outcome, or designation."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-advisory-behavioral-context",
+      "statements": [
+        "The Israel National Cyber Directorate describes DPRK workers using false freelance identities, AI-generated or manipulated interview media, fabricated portfolio or employment evidence, and real-time video or audio manipulation. After hiring, the advisory describes use of legitimate RMM products, including AnyDesk, RustDesk and Chrome Remote Desktop, to sustain remote access under the appearance of ordinary work.",
+        "The national official advisory corroborates technique categories, not the identity of an actor or an additional incident."
+      ],
+      "limitations": [
+        "Cyber advisory, not an allegation against an identified person, a finding of an Israeli compromise, or a criminal or sanctions action.",
+        "Describe the techniques as advisory-reported risks, not as proof that every technique was observed in one case.",
+        "Do not treat appearance, accent, nationality, location or AI-detector output as a standalone adverse signal.",
+        "Keep fraudulent employment distinct from fake-interview malware unless a source establishes overlap.",
+        "The advisory is guidance and threat context, not proof of a named Israeli incident or a finding against an identified person or organization.",
+        "Deepfake or AI-detector output must not be used as a standalone adverse signal; appearance, accent, nationality, or claimed location are not reliable proxies for attribution.",
+        "The named RMM products are legitimate administration tools. Their presence alone does not establish malicious use, compromise, or DPRK affiliation.",
+        "Fraudulent employment remains analytically distinct from fake-interview malware unless a source establishes overlap."
+      ],
+      "source_ids": [
+        "AMO4-IL-NCD-1814"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "FAMOUS CHOLLIMA 2024 endpoint-plus-identity hunting workflow",
+    "Interactive applicant checks and early-employment identity continuity",
+    "Japan alert: AI-generated imagery, deepfake interviews, and changing location claims",
+    "Unit 42 low-cost synthetic identity pipeline and IDV bypass demonstration"
+  ],
+  "sources": [
+    {
+      "source_id": "AMO4-IL-NCD-1814",
+      "support": "The Israel National Cyber Directorate describes DPRK workers using false freelance identities, AI-generated or manipulated interview media, fabricated portfolio or employment evidence, and real-time video or audio manipulation. After hiring, the advisory describes use of legitimate RMM products, including AnyDesk, RustDesk and Chrome Remote Desktop, to sustain remote access under the appearance of ordinary work. Official gov.il advisory and publisher-hosted English PDF. The gov.il edge returned access controls during direct passive retrieval, but the official PDF was text-indexed and available through public search. No precise publication date was established from the accessible official text, so the date is deliberately null rather than inferred from crawl metadata or the alert number. The retained official document is English-language; no translated wording is supplied or inferred",
+      "locator": "PDF pp. 3-10, especially 'AI and Deepfake Technologies,' 'Persistency,' and 'Detecting and Preventing North Korean IT Worker Infiltration.'"
+    },
+    {
+      "source_id": "AMO4-IL-NCD-1814-LANDING",
+      "support": "Official gov.il landing page for the advisory. It preserves publisher and publication-family provenance but does not independently corroborate the claim-bearing PDF",
+      "locator": "Official advisory landing page and publisher-hosted PDF link"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

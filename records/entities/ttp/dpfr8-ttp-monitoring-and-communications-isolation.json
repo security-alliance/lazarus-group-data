@@ -1,0 +1,61 @@
+{
+  "id": "dpfr8-ttp-monitoring-and-communications-isolation",
+  "type": "ttp",
+  "name": "Worker monitoring combined with communications isolation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed qualitative interview evidence; legal finding, workforce-wide prevalence, identity, nationality, and misconduct status require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPFR8-S01-PSCORE-2025"
+    ]
+  },
+  "ttps": [
+    "communications-isolation",
+    "continuous-screen-monitoring",
+    "labor-governance-context",
+    "supervisor-enforced-control",
+    "worker-autonomy-restriction"
+  ],
+  "caveats": [
+    "Monitoring, communications behavior, quota pressure, subcontracting, trading activity, geography, language, and any single signal require corroboration before supporting identity, nationality, sanctions, or misconduct attribution.",
+    "Evidence and method class: source-attributed qualitative interviews with a small number of former IT workers or IT experts.",
+    "Fraudulent employment, general DPRK overseas labor, sanctions evasion, and malicious cyber activity remain analytically distinct unless a cited source expressly connects them.",
+    "Publish only as review-level, source-attributed labor-control context. Monitoring software, communications patterns, and isolation are contextual; applicant-screening and nationality indicators require job-relevant corroboration.",
+    "Some participant names are pseudonyms; actor attribution requires corroboration.",
+    "The report contains 15 interviews overall, with a small subset described as former IT workers or IT experts; it supplies a non-representative IT-worker sample.",
+    "The report leaves prevalence of the described monitoring software across organizations, countries, and time periods unreported.",
+    "This record is policy, labor-governance, economic, or sanctions-evasion context; person, organization, victim, account, transaction, and incident profiles require separate records."
+  ],
+  "infrastructure": [
+    {
+      "type": "qualitative-it-worker-labor-control-context",
+      "evidence_method_class": "source-attributed qualitative interviews with a small number of former IT workers or IT experts",
+      "statement": "PSCORE interviewees described supervisors using screen-monitoring software, reprimanding workers who disabled it, and restricting both in-person and online communications. This adds a labor-governance dimension to monitoring already represented as a production-control TTP: the same controls can enforce isolation and constrain worker autonomy, not merely measure output.",
+      "sampling_limitations": [
+        "The report contains 15 interviews overall, but only a small subset is described as former IT workers or IT experts; it does not provide a representative IT-worker sample.",
+        "The report does not establish the prevalence of the described monitoring software across organizations, countries, or time periods.",
+        "Some participant names are pseudonyms and are not suitable for actor attribution."
+      ],
+      "source_ids": [
+        "DPFR8-S01-PSCORE-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+    "DPA-F02",
+    "haf-ttp-historical-managed-quota-remittance-system"
+  ],
+  "sources": [
+    {
+      "source_id": "DPFR8-S01-PSCORE-2025",
+      "support": "PSCORE interviewees described supervisors using screen-monitoring software, reprimanding workers who disabled it, and restricting both in-person and online communications. This adds a labor-governance dimension to monitoring already represented as a production-control TTP: the same controls can enforce isolation and constrain worker autonomy, not merely measure output",
+      "locator": "report pp. 76-77 / PDF pp. 77-78"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

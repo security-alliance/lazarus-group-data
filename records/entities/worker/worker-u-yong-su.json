@@ -1,0 +1,247 @@
+{
+  "id": "worker-u-yong-su",
+  "type": "worker",
+  "name": "U Yong Su",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. MSMT names U Yong Su and OFAC designated him on 2025-11-04; charging status is outside the designation. OFAC links U Yong Su to Korea Mangyongdae Computer Technology Corporation, independently corroborating the existing organization linkage. The designation is an administrative action; criminal charge and conviction are outside it. U Yong Su is President of Korea Mangyongdae Computer Technology Company.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doaa-s09",
+      "doar9-ofac-sdn-current",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89",
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "U Yong Su",
+  "organizations": [
+    "Korea Mangyongdae Computer Technology Corporation",
+    "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+  ],
+  "locations": [
+    "China (Shenyang/Dandong)",
+    "Dandong, China (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details.",
+    "Sanctions designation is an administrative action; the record carries no criminal conviction.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The city is historical-location context; current presence remains unreported, and the broader MSMT historical-location account remains controlling."
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Government-supplied passport/identity image; cite in place, do not perform facial recognition.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Korea Mangyongdae Computer Technology Corporation",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-u-yong-su"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "OFAC designated eight individuals and two entities, including Korea Mangyongdae Computer Technology Company, for laundering cybercrime and IT-worker funds",
+      "locator": "Bankers and KMCTC sections"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 7 provides employment aliases/accounts and states the delegation used Chinese nationals as banking proxies. Annex 7 also reproduces identity/passport photos for 14 members; sensitive document numbers are intentionally omitted here",
+      "locator": "Annex 7 identity table, PDF p. 112 / printed p. 110 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "doaa-s09",
+      "support": "Procedural posture: OFAC-designated on 2025-11-04 and linked in the SDN entry to Korea Mangyongdae Computer Technology Corporation. The exact organization linkage independently corroborates the existing MSMT record",
+      "locator": "U, Yong Su entry linked to Korea Mangyongdae Computer Technology Corporation"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 56045 support only the retained coarse sanctions-list location values. The city does not establish current presence and does not replace the broader MSMT historical-location account. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 56045"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 56045 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add Dandong listing context and retain the explicit Korea Mangyongdae link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 56045"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-u-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "name": "U Yong Su",
+        "ofac_primary_name": "U, Yong Su"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Korea Mangyongdae Computer Technology Company section",
+          "quote": "U Yong Su"
+        },
+        {
+          "source_id": "doaa-s09",
+          "locator": "SDN additions, U entry",
+          "quote": "U, Yong Su"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 56045",
+          "quote": "U, Yong Su"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Official name formatting variants, not separate identities."
+      ]
+    },
+    {
+      "id": "claim-u-dprk-official",
+      "type": "employment",
+      "predicate": "reported_dprk_official",
+      "value": {
+        "role": "DPRK official"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "PDF file page 22 (printed p. 20), Ministry of Atomic Energy and Industry section",
+          "quote": "The current president of the KMCTC is DPRK official U Yong Su, according to an MSMT Participating State."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT participating-state report; no criminal adjudication is implied."
+      ]
+    },
+    {
+      "id": "claim-u-kmctc-president",
+      "type": "organization_affiliation",
+      "predicate": "reported_president_of",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Company",
+        "abbreviation": "KMCTC",
+        "role": "president"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Korea Mangyongdae Computer Technology Company section",
+          "quote": "U Yong Su is the current president of KMCTC."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "PDF file page 58 (printed p. 56), KMCTC case study",
+          "quote": "The president of KMCTC is U Yong Su."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury and MSMT independently report the same role. Company/Corporation is an English rendering difference in the source titles."
+      ]
+    },
+    {
+      "id": "claim-u-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13810",
+        "date": "2025-11-04",
+        "basis": "reported ownership, control, or action for or on behalf of KMCTC"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Korea Mangyongdae Computer Technology Company section",
+          "quote": "designated U Yong Su pursuant to E.O. 13810 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, KMCTC"
+        },
+        {
+          "source_id": "doaa-s09",
+          "locator": "SDN additions, U entry",
+          "quote": "U, Yong Su"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-u-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "checked_at": "2026-08-14"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 56045",
+          "quote": "U, Yong Su"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current-list observation as of the access date; sensitive row fields were excluded."
+      ]
+    },
+    {
+      "id": "claim-u-yong-su-kmctc-banking-proxy-context",
+      "type": "incident",
+      "predicate": "msmt_reported_kmctc_delegation_banking_proxy_context",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation",
+        "reported_activity": "use of Chinese nationals as banking proxies for IT-worker revenue generated in China",
+        "scope": "organization/delegation-level",
+        "individual_conduct_attributed": false,
+        "financial_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Organization/delegation-level MSMT context only; it does not attribute personal banking-proxy use, money laundering, account control, or a transaction to this individual.",
+        "No account, proxy identity, payment, transaction, wallet, client, victim, or precise-location selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "U Yong Su, rendered U, Yong Su in OFAC list data, is the DPRK official reported by MSMT and Treasury as president of Korea Mangyongdae Computer Technology Company/Corporation (KMCTC). Preserve the administrative-sanctions posture; the MSMT identity-document annex, imagery, and personal selectors are excluded from identity resolution."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "front-company-upworksell-com",
+  "type": "front_company",
+  "name": "Upworksell.com",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Identity/account marketplace described in a federal affidavit and later tied to its convicted operator",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-cb0ee78e68a2",
+      "gov-f1281892c993"
+    ]
+  },
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "The 2024 source is a probable-cause affidavit; allegations about the service are distinct from Didenko’s later guilty plea and sentence."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-cb0ee78e68a2",
+      "support": "The affidavit describes UpWorkSell as a service for buying or renting false-identity freelance-platform, payment, credit-card, and SIM accounts and alleges that Didenko operated it",
+      "locator": "D.D.C. No. 1:24-mj-00152-MAU, Doc. 1-1, ¶¶16–18"
+    },
+    {
+      "source_id": "gov-f1281892c993",
+      "support": "Oleksandr Didenko, also known as Alexander Didenko, was sentenced to 60 months; DOJ said Upworksell.com managed as many as 871 proxy identities and supported at least three laptop farms",
+      "locator": "Press release — opening and sentence paragraph; paragraph describing Upworksell.com, proxy identities, and laptop farms"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

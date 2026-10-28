@@ -1,0 +1,27 @@
+{
+  "id": "ttp-late-2026-12-high-value-remitters-likely-aggregate-multiple-workers",
+  "type": "ttp",
+  "name": "High-value remitters likely aggregate multiple workers’ funds; payment totals should not be treated as individual salaries.",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: medium",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-dtex-money-trail"
+    ]
+  },
+  "ttps": [
+    "High-value remitters likely aggregate multiple workers’ funds; payment totals should not be treated as individual salaries."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-dtex-money-trail",
+      "support": "High-value remitters likely aggregate multiple workers’ funds; payment totals should not be treated as individual salaries",
+      "locator": "Payment workflow screenshots; RB-wallet assessment screenshot; https://www.dtex.ai/payment_breakdown.html; https://www.dtex.ai/org_hierarchy.html; https://www.dtex.ai/geography_map.html"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "dder3-ttp-risk-based-developer-account-verification",
+  "type": "ttp",
+  "name": "Risk-based developer-account verification",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is analyst-applied defensive context derived from generic first-party product documentation; it describes controls. Incident attribution, actor finding, legal allegation, adjudication, and measured effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DDER3-S07"
+    ]
+  },
+  "ttps": [
+    "account-creation-friction",
+    "account-integrity",
+    "human-review",
+    "identity-continuity",
+    "risk-based-verification"
+  ],
+  "caveats": [
+    "Account, handle, repository, portfolio, commit, and image similarity identify evidence types; legal identity requires source-explicit linkage or authoritative corroboration.",
+    "Verification artifacts stay out of the dataset. Identity lending and facilitators can defeat verification; employment legitimacy requires broader evidence.",
+    "Keep fake-interview malware separate from fraudulent employment unless a source explicitly connects the same account or operator to both activities.",
+    "Platform features, account state, geographic field, signing credential, and verification result are contextual signals; legal identity, nationality, physical location, employment legitimacy, and sole operator control require separate evidence.",
+    "Preserve provider caveats and label first-party product descriptions as provider claims rather than independently measured efficacy.",
+    "This is generic first-party product documentation applied as a layered defensive control for DPRK IT-worker insider risk; it describes a control approach and its intended risk, with incident and detection evidence requiring separate sources.",
+    "This record's aggregate scope excludes people, personas, accounts, companies, repositories, packages, images, private data, and raw selectors.",
+    "Use multiple behavior-based signals, independent human review, proportional access controls, and an appeal or correction path."
+  ],
+  "infrastructure": [
+    {
+      "type": "generic-developer-platform-account-integrity-control",
+      "statements": [
+        "GitLab describes email verification for all users and additional phone or credit-card verification for higher-risk account creation."
+      ],
+      "limitations": [
+        "Do not collect or publish verification artifacts. Verification may be defeated through identity lending or facilitators and must not be represented as proof of employment legitimacy.",
+        "This is generic first-party product documentation applied as a layered defensive control for DPRK IT-worker insider risk; it is not a report of an observed incident or evidence that the control detects DPRK operators.",
+        "No platform feature, account state, geographic field, signing credential, or verification result establishes legal identity, nationality, physical location, employment legitimacy, or sole operator control.",
+        "Use multiple behavior-based signals, independent human review, proportional access controls, and an appeal or correction path.",
+        "Account, handle, repository, portfolio, commit, and image similarity are not legal identity. Merge only with source-explicit linkage or authoritative corroboration.",
+        "Keep fake-interview malware separate from fraudulent employment unless a source explicitly connects the same account or operator to both activities.",
+        "Preserve provider caveats and label first-party product descriptions as provider claims rather than independently measured efficacy.",
+        "This record contains no people, personas, accounts, companies, repositories, packages, images, private data, or raw selectors."
+      ],
+      "source_ids": [
+        "DDER3-S07"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-identity-continuity"
+  ],
+  "sources": [
+    {
+      "source_id": "DDER3-S07",
+      "support": "GitLab describes email verification for all users and additional phone or credit-card verification for higher-risk account creation",
+      "locator": "Account verification stages; risk-score-dependent email, phone, and credit-card verification; phone-number verification limitations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

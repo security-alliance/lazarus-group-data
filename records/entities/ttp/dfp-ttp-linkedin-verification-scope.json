@@ -1,0 +1,47 @@
+{
+  "id": "dfp-ttp-linkedin-verification-scope",
+  "type": "ttp",
+  "name": "Professional-profile verification types validate only the represented check",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is first-party platform-control or threat-research guidance normalized as defensive context; identity attribution and control effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFP-S09"
+    ]
+  },
+  "ttps": [
+    "fabricated-education-history",
+    "fabricated-employment-history",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Availability varies and verification is optional. A badge confirms the represented check; profile claims, later work by the account user, and current physical location require separate evidence.",
+    "The documented feature or policy is optional or scope-limited; identity, location, employment history, and account control require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "LinkedIn offers distinct optional verification types for identity, workplace, and education using verification partners, work email, Entra Verified ID, or eligible licenses; the verified type is visible separately."
+      ],
+      "limitations": [
+        "Availability varies and verification is optional. A badge confirms only the represented check and cannot validate every profile claim, who performs later work, or the user's current physical location."
+      ],
+      "source_ids": [
+        "DFP-S09"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFP-S09",
+      "support": "LinkedIn documents separate optional identity, workplace, and education verification types and displays the type completed; each badge is limited to the represented check",
+      "locator": "Identity verification; workplace verification; verification details"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

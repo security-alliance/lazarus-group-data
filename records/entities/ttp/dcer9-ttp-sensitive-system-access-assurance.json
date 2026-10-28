@@ -1,0 +1,62 @@
+{
+  "id": "dcer9-ttp-sensitive-system-access-assurance",
+  "type": "ttp",
+  "name": "High-assurance identity and access gates for sensitive crypto systems",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "A named Coinbase executive described attempted DPRK-linked applicants and the company's defensive adaptations in a public interview. The account covers applicant attempts and defensive response; it records no incident report, successful-hire finding, legal requirement, adjudication, case count, loss report, or sensitive-access finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCER9-S01-COINBASE-CHEEKY-PINT",
+      "DCER9-S02-COINBASE-YOUTUBE"
+    ]
+  },
+  "ttps": [
+    "access-compartmentalization",
+    "continuous-control-testing",
+    "high-assurance-identity-proofing",
+    "human-review",
+    "pre-access-eligibility-gate",
+    "role-based-access-control"
+  ],
+  "caveats": [
+    "The source describes attempted applicants and adaptations; successful Coinbase hiring of a DPRK worker and case count require separate case evidence.",
+    "Citizenship, family-location, and fingerprint requirements depend on jurisdiction and context; they provide no standalone proof of trustworthiness.",
+    "Nationality, citizenship, family location, ethnicity, appearance, accent, language, geography, compensation level, and one vendor or automated result require corroboration before any adverse or attribution decision.",
+    "The record retains bounded source context; wallet addresses, transaction identifiers, accounts, payment credentials, raw screening matches, people, personas, entities, victims, images, biometric material, identity documents, private data, and sensitive selectors stay outside it.",
+    "Publish the defensible abstraction: require lawful, high-assurance physical identity proofing and role-based access gates for unusually sensitive crypto systems.",
+    "Stablecoin use, multiple payment destinations, third-party payment requests, and low rates occur in legitimate global contracting; each requires lawful corroboration and documented human review before any inference.",
+    "The record is a source-qualified defensive control abstraction; person, entity, account, incident, and attribution profiles remain separate record types."
+  ],
+  "infrastructure": [
+    {
+      "type": "sensitive-system-access-assurance-control",
+      "evidence_class": "first-party executive statement about employer controls",
+      "description": "Coinbase's chief executive described a response to repeated DPRK-linked remote applicants that separates ordinary recruitment from sensitive-system eligibility: live-camera checks, physical U.S. orientation, fingerprinting and compartmentalized access before sensitive work.",
+      "source_ids": [
+        "DCER9-S01-COINBASE-CHEEKY-PINT",
+        "DCER9-S02-COINBASE-YOUTUBE"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "amo4-ttp-layered-hiring-access-and-posthire-controls",
+    "dfef-ttp-lifecycle-identity-continuity"
+  ],
+  "sources": [
+    {
+      "source_id": "DCER9-S01-COINBASE-CHEEKY-PINT",
+      "support": "Coinbase's chief executive described a response to repeated DPRK-linked remote applicants that separates ordinary recruitment from sensitive-system eligibility: live-camera checks, physical U.S. orientation, fingerprinting and compartmentalized access before sensitive work",
+      "locator": "Transcript section beginning at timestamp 10:54, 'North Korean hackers', through the summary of physical presence, compartmentalization and deterrence"
+    },
+    {
+      "source_id": "DCER9-S02-COINBASE-YOUTUBE",
+      "support": "Coinbase's chief executive described a response to repeated DPRK-linked remote applicants that separates ordinary recruitment from sensitive-system eligibility: live-camera checks, physical U.S. orientation, fingerprinting and compartmentalized access before sensitive work",
+      "locator": "10:54-14:53, chapter 'North Korean hackers'"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

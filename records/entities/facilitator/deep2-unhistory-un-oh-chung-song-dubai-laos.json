@@ -1,0 +1,310 @@
+{
+  "id": "deep2-unhistory-un-oh-chung-song-dubai-laos",
+  "type": "facilitator",
+  "name": "Oh Chung Song: falsified nationality on a freelance platform and relocation from Dubai to Vientiane",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+      "deep2-unhistory-s-2023-171-un-oh-chung-song-dubai-laos",
+      "deep2-unhistory-s-2023-656-un-oh-chung-song-dubai-laos"
+    ]
+  },
+  "ttps": [
+    "false-nationality",
+    "freelance-platform"
+  ],
+  "caveats": [
+    "The Lao People’s Democratic Republic later confirmed his arrival under an educational-cultural exchange project and in 2023 reported departures/repatriation steps, but the Panel continued seeking complete immigration records.",
+    "The United Arab Emirates response was absent at the 2022 report date."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported that Oh Chung Song used a freelance platform with a falsified nationality to supply IT programs for foreign currency; after an employer discovered the falsification in December 2021, he and associated DPRK IT workers left Dubai for Vientiane."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+        "deep2-unhistory-s-2023-171-un-oh-chung-song-dubai-laos",
+        "deep2-unhistory-s-2023-656-un-oh-chung-song-dubai-laos"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+      "support": "Supports falsified nationality, freelance work, employer discovery and Dubai-to-Vientiane relocation",
+      "locator": "PDF p. 75, para. 142"
+    },
+    {
+      "source_id": "deep2-unhistory-s-2023-171-un-oh-chung-song-dubai-laos",
+      "support": "Supports Laos confirmation and the ongoing country-response caveat",
+      "locator": "PDF pp. 72-73, paras. 152-153"
+    },
+    {
+      "source_id": "deep2-unhistory-s-2023-656-un-oh-chung-song-dubai-laos",
+      "support": "Supports later departure/repatriation reporting and the Panel request for records",
+      "locator": "PDF p. 50, para. 122"
+    },
+    {
+      "source_id": "src-1316e9ec3c0f"
+    },
+    {
+      "source_id": "src-31e11d0c6cd1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "un_panel_reported_name_forms",
+      "value": {
+        "romanized": "Oh Chung Song",
+        "korean": "오충성"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 75, paragraph 142, opening sentence",
+          "quote": "Oh Chung Song (오충성,"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "The Korean form is newly modeled from the official source. Birth information following the quoted fragment was not retained."
+      ]
+    },
+    {
+      "id": "claim-rusi-suggested-alternate-romanization",
+      "type": "identity_name",
+      "predicate": "research_database_suggested_alternate_romanization",
+      "value": {
+        "name": "O Chung Song",
+        "alias_type": "alternate romanization",
+        "source_posture": "editorial suggestion in RUSI DPRK Reports"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1316e9ec3c0f",
+          "locator": "entity d948a6805db80ef3d06b99795e6d0f392bc926c1, notes property",
+          "quote": "A romanization of this individual's name more aligned with North Korean romanization conventions might be \"O Chung Song\"."
+        }
+      ],
+      "observed_at": "2023-08-08",
+      "notes": [
+        "RUSI uses qualified language. This is a source-explicit transliteration aid, not a separate civil identity or evidence of an account using that spelling."
+      ]
+    },
+    {
+      "id": "claim-dprk-nationality",
+      "type": "note",
+      "predicate": "un_panel_reported_nationality",
+      "value": {
+        "nationality": "Democratic People's Republic of Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 75, paragraph 142, opening sentence",
+          "quote": "a Democratic People’s Republic of Korea individual, Oh Chung Song"
+        },
+        {
+          "source_id": "src-1316e9ec3c0f",
+          "locator": "entity d948a6805db80ef3d06b99795e6d0f392bc926c1, nationality property",
+          "quote": "kp"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "The UN report is the primary source. The RUSI field is derivative and its proof record resolves to that same UN source."
+      ]
+    },
+    {
+      "id": "claim-freelance-platform-nationality-allegation",
+      "type": "account",
+      "predicate": "member_state_reported_falsified_nationality_on_freelance_platform",
+      "value": {
+        "platform": "Upwork",
+        "reported_action": "created an account and falsified nationality",
+        "source_posture": "Member State information reported by the UN Panel"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 75, paragraph 142, first sentence",
+          "quote": "then resident in Dubai, created an account on the “Upwork” platform, falsifying his nationality in the process."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State allegation relayed by the UN Panel; no account handle, profile, identity document, nationality value, or current control was established."
+      ]
+    },
+    {
+      "id": "claim-it-program-work-allegation",
+      "type": "employment",
+      "predicate": "member_state_reported_freelance_it_program_work",
+      "value": {
+        "reported_work": "developed and supplied IT-related programs to multiple companies",
+        "reported_purpose": "acquire foreign currency",
+        "platform_context": "Upwork"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 75, paragraph 142, second sentence",
+          "quote": "Using the platform, Oh reportedly developed and supplied IT-related programmes to a number of different companies in order to acquire foreign currency."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State allegation relayed by the UN Panel; employers, projects, earnings, and current work were not established."
+      ]
+    },
+    {
+      "id": "claim-dubai-laos-relocation-report",
+      "type": "location",
+      "predicate": "member_state_reported_departure_after_nationality_discovery",
+      "value": {
+        "from": "Dubai, United Arab Emirates",
+        "to": "Lao People's Democratic Republic",
+        "reported_time": "December 2021",
+        "trigger": "employer discovery of the alleged nationality falsification"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2022-668-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 75, paragraph 142, third sentence",
+          "quote": "In December 2021, an employer discovered Oh’s falsification of his nationality and as a result he and other Democratic People’s Republic of Korea IT workers working with him left immediately for the Lao People’s Democratic Republic"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State report and historical movement only. The source's stated concern about investigation is not treated as an independently verified motive or legal action."
+      ]
+    },
+    {
+      "id": "claim-laos-confirmed-arrival",
+      "type": "location",
+      "predicate": "host_country_confirmed_arrival",
+      "value": {
+        "location": "Vientiane, Lao People's Democratic Republic",
+        "arrival_date": "2021-12-14"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-171-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 72, paragraph 153",
+          "quote": "The Lao People’s Democratic Republic confirmed that Oh had arrived in Vientiane on 14 December 2021"
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "Historical host-country response; no present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-laos-exchange-project-entry",
+      "type": "organization_affiliation",
+      "predicate": "host_country_reported_exchange_project_entry",
+      "value": {
+        "reported_role": "expert",
+        "project": "Lao DPRK educational-cultural exchange project",
+        "visit_characterization": "temporary visit as part of planned project activities"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-171-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 72, paragraph 153, host-country explanation",
+          "quote": "Oh arrived as an expert under a Lao People’s Democratic Republic-Democratic People’s Republic of Korea educational-cultural exchange project, “a temporary visit as part of the project activities planned”."
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "Host-country explanation relayed by the UN Panel; it does not establish a named employer, current affiliation, or the substance of the project."
+      ]
+    },
+    {
+      "id": "claim-vientiane-departure-report",
+      "type": "location",
+      "predicate": "host_country_reported_departure",
+      "value": {
+        "departed_from": "Vientiane, Lao People's Democratic Republic",
+        "reported_time": "February 2023"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-oh-chung-song-dubai-laos",
+          "locator": "PDF p. 50, paragraph 122, host-country response sentence naming Mr. Oh",
+          "quote": "departed Vientiane in February 2023"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "The locator binds the quoted departure clause to the sentence naming Mr. Oh; its parenthetical list of other individuals was omitted. No destination or present location was established."
+      ]
+    },
+    {
+      "id": "claim-rusi-opensanctions-cross-reference",
+      "type": "note",
+      "predicate": "public_database_entity_cross_reference",
+      "value": {
+        "rusi_entity_id": "d948a6805db80ef3d06b99795e6d0f392bc926c1",
+        "opensanctions_entity_id": "kprusi-d948a6805db80ef3d06b99795e6d0f392bc926c1",
+        "source_dataset": "DPRK Reports",
+        "source_organization": "Korea Risk Group at RUSI",
+        "source_status": "non-official",
+        "proof_documents": [
+          "S/2022/668",
+          "S/2023/171",
+          "S/2023/656"
+        ],
+        "independent_source_status": "none; all proof records resolve to the three seeded UN reports"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1316e9ec3c0f",
+          "locator": "exact entity and proof properties",
+          "quote": "Oh Chung Song"
+        },
+        {
+          "source_id": "src-31e11d0c6cd1",
+          "locator": "public entity page, data-source section",
+          "quote": "DPRK Reports"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This claim records database coverage and provenance, not a second independent attribution.",
+        "OpenSanctions' automatically inferred sanction-linked graph topic was excluded. The entity page expressly says the person has not been found on international sanctions lists, and no designation is inferred from either database."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "UN Panel-reported DPRK IT worker; Member State allegations, host-country responses, and later status reporting are recorded separately. Same-named people and present location require separate source support."
+}

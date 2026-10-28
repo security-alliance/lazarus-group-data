@@ -1,0 +1,51 @@
+{
+  "id": "front-company-kumsong-academy",
+  "type": "front_company",
+  "name": "Kumsong Academy",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "ROK-designated DPRK IT and cyber training institution; this is an administrative sanctions designation, with criminal charge or conviction outside it.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023"
+    ]
+  },
+  "romanizations": [
+    "금성학원"
+  ],
+  "locations": [
+    "DPRK"
+  ],
+  "caveats": [
+    "Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "The source describes a training institution and alumni population; it supplies no finding that every student or graduate became an IT worker or hacker."
+  ],
+  "aliases": [
+    {
+      "value": "KUMSONG ACADEMY",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-rok-fsc-2023",
+        "int-rok-mofa-2023"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "The ROK joint release designates Kumsong Academy and describes it as an institution for gifted education in IT and cyber fields from which many DPRK IT personnel and hackers reportedly graduated",
+      "locator": "body; designation table and institution footnote | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "The FSC mirror reproduces the same ROK joint-government designation and training-institution description; it is not independent corroboration",
+      "locator": "joint release pp. 1-2; designation label on attachment p. 5 | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. The attachment SHA-256 was 4f8871cda387b9f163b01c4590198c30df6f43d777649653659001e4c56f1e8a. Sensitive identification, payment, and person-image fields on page 5 are deliberately excluded"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

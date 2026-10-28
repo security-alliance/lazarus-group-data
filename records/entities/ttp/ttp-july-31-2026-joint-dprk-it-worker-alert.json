@@ -1,0 +1,175 @@
+{
+  "id": "ttp-july-31-2026-joint-dprk-it-worker-alert",
+  "type": "ttp",
+  "name": "July 31, 2026 Joint DPRK IT Worker Alert",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Joint detection and mitigation guidance covers unnamed workers, actors, employers, accounts, and front companies.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "ML-DEU-AA-2026-ALERT",
+      "gov-1282406aa822",
+      "nknews-2026-08-03-11-nation-alert",
+      "nknews-2026-08-04-rejection"
+    ]
+  },
+  "ttps": [
+    "ai-altered-profile-photo",
+    "bring-your-own-device abuse",
+    "cryptocurrency payments",
+    "cryptocurrency-salary",
+    "deepfake and real-time face swapping",
+    "false-location",
+    "foreign freelance subcontracting",
+    "interview-assistance",
+    "KVM hardware and remote desktop access",
+    "laptop-farm",
+    "LLM-assisted applications and interviews",
+    "proxy-interviewee",
+    "remote-desktop",
+    "shared-account",
+    "virtual desktop infrastructure",
+    "vpn"
+  ],
+  "caveats": [
+    "Applicant identity documents, personal contact details, and private interview recordings stay out of the public dataset.",
+    "Every listed behavior is a signal requiring corroboration before supporting DPRK affiliation.",
+    "The alert states that indicators should be evaluated in combination; behavior-level signals gain meaning through corroboration.",
+    "This is a local-language official mirror of the multinational alert; it remains a single campaign source family."
+  ],
+  "infrastructure": [
+    {
+      "type": "other",
+      "value": "IP/geolocation and log review",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "biometric identity checks",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "company-device telemetry",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "employment/education verification",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "location verification",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "payment destination review",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "sanctions screening",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-1282406aa822"
+      ]
+    },
+    {
+      "type": "regional-source-context",
+      "statements": [
+        "The German Foreign Office provides a complete German-language official version of the July 2026 multinational alert. Its practical value is localized compliance and hiring guidance: strong document checks, in-person interviews where appropriate, anomaly detection across account data, checking payee/name mismatches, shared identity documents or IPs, suspiciously long sessions or work hours, fake self-reviews, manipulated video, team-operated accounts, cryptocurrency payment requests, and operations concealed from Southeast Asian or African locations."
+      ],
+      "source_ids": [
+        "ML-DEU-AA-2026-ALERT"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-july-31-2026-joint-dprk-it-worker-alert"
+  ],
+  "sources": [
+    {
+      "source_id": "ML-DEU-AA-2026-ALERT",
+      "support": "The German Foreign Office publishes the official German-language version of the July 31, 2026 multinational alert, localizing combined-signal checks for identity and payee mismatches, shared identity or network artifacts, manipulated video or interview proxies, team-operated accounts, cryptocurrency requests, and location concealment",
+      "locator": "Full German-language warning; sections describing operating methods and account/application warning signs"
+    },
+    {
+      "source_id": "gov-1282406aa822",
+      "support": "The alert says no specific behavior proves DPRK affiliation and recommends verification of identity, biometrics, location, employment/education, payments, devices, IP telemetry, logs, and sanctions screening",
+      "locator": "PDF pp. 2–6, especially Guideline #1 and Appendix"
+    },
+    {
+      "source_id": "nknews-2026-08-03-11-nation-alert",
+      "support": "NK News reports the 11-country joint alert about DPRK IT-worker revenue generation.",
+      "locator": "News report opening"
+    },
+    {
+      "source_id": "nknews-2026-08-04-rejection",
+      "support": "NK News reports North Korea’s rejection of the 11-country IT-worker alert.",
+      "locator": "News report opening"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-nknews-2026-08-03-11-nation-alert-joint-alert",
+      "type": "incident",
+      "predicate": "joint_alert",
+      "value": {
+        "publication": "nknews-2026-08-03-11-nation-alert",
+        "statement": "NK News reports the 11-country joint alert about DPRK IT-worker revenue generation."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "nknews-2026-08-03-11-nation-alert",
+          "locator": "News report opening",
+          "quote": "The 11 member states of a multilateral initiative monitoring DPRK sanctions evasion issued a joint alert for the first time on Friday about North Korean information technology (IT) workers’ illicit revenue generation activities."
+        }
+      ]
+    },
+    {
+      "id": "claim-nknews-2026-08-04-rejection-dprk-rejection",
+      "type": "note",
+      "predicate": "dprk_rejection",
+      "value": {
+        "publication": "nknews-2026-08-04-rejection",
+        "statement": "NK News reports North Korea’s rejection of the 11-country IT-worker alert."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "nknews-2026-08-04-rejection",
+          "locator": "News report opening",
+          "quote": "North Korea on Tuesday condemned a recent alert issued by 11 countries about Pyongyang’s information technology (IT) worker operations, dismissing the allegations as a politically motivated attempt by the U.S. and its allies to “tarnish” the country’s image."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

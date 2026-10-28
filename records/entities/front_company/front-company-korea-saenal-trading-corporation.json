@@ -1,0 +1,110 @@
+{
+  "id": "front-company-korea-saenal-trading-corporation",
+  "type": "front_company",
+  "name": "Korea Saenal Trading Corporation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds the bounded structured context stated here: DPRK worker-export counterparty; Administrative sanctions designation. The record states no criminal charge or conviction.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dln26-s01",
+      "doar9-ofac-sdn-current",
+      "gov-94e741ada3b4",
+      "gov-e31464a55e89"
+    ]
+  },
+  "locations": [
+    "Pyongyang, North Korea (OFAC listing context)"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Addresses and registration data from the SDN entry remain unpublished.",
+    "Duplicate address-table rows and precise location details are excluded; the city is historical context rather than evidence of current operations.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Chosun Saenal Trading Company"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Chosun Saenal Trading Corporation"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Chosun Saenal Trading"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Korea Saenal Technology Trading Corporation"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Korea Saenal Trading"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Saenal Trading Corporation"
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-korea-saenal-trading-corporation"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-94e741ada3b4",
+      "support": "OFAC designated Song Kum Hyok and a Russia-based network that contracted to receive DPRK IT workers",
+      "locator": "Key Facilitator and Asatryan IT Worker Network sections"
+    },
+    {
+      "source_id": "dln26-s01",
+      "support": "OFAC lists the following aliases for Korea Saenal Trading Corporation: Chosun Saenal Trading; Chosun Saenal Trading Company; Chosun Saenal Trading Corporation; Korea Saenal Technology Trading Corporation; Korea Saenal Trading; Saenal Trading Corporation",
+      "locator": "Specially Designated Nationals List Update — ASATRYAN, Gayk; SONG, Kum Hyok; and four entity entries"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 53817 support only the retained coarse sanctions-list location values. Duplicate address-table rows and precise location details are excluded; the city does not establish current operations. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 53817"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 53817 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add coarse Pyongyang listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 53817"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

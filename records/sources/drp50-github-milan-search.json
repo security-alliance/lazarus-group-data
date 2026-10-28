@@ -1,0 +1,12 @@
+{
+  "id": "drp50-github-milan-search",
+  "publisher": "GitHub",
+  "title": "GitHub public commit search: author-name Milan Zubic",
+  "url": "https://api.github.com/search/commits?per_page=100&q=author-name%3A%22Milan+Zubic%22",
+  "accessed_at": "2026-08-16",
+  "sha256": "9771983c0176ed36e00d9c059e288d34b8d7c44cab5cf2927a77cd98b112c5cb",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

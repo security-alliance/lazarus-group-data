@@ -1,0 +1,229 @@
+{
+  "id": "worker-kim-song-il",
+  "type": "worker",
+  "name": "Kim Song Il",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Republic of Korea; Administrative sanctions designation. The record states no criminal charge or conviction.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023"
+    ]
+  },
+  "legal_or_reported_name": "Kim Song Il",
+  "romanizations": [
+    "김성일"
+  ],
+  "organizations": [
+    "Jinyong Information Technology Development Cooperation Company (representative in China)"
+  ],
+  "locations": [
+    "China"
+  ],
+  "caveats": [
+    "Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "The forced-labor sentence applies across the action and collectively to the five footnoted IT-branch managers; person-specific adjudication requires a separate finding."
+  ],
+  "sources": [
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "The ROK joint release designates Kim Song Il and names him as Jinyong's representative in China; it collectively alleges labor-control practices by five footnoted IT-branch managers without separately proving every practice by each manager",
+      "locator": "body; named-person table, representative role, manager footnote and labor-control paragraph | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "The FSC mirror reproduces the same designation, China role, and collective five-manager labor-control allegation; it is not independent corroboration",
+      "locator": "joint release pp. 1-2; designation label on attachment p. 5 | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. The attachment SHA-256 was 4f8871cda387b9f163b01c4590198c30df6f43d777649653659001e4c56f1e8a. Sensitive identification, payment, and person-image fields on page 5 are deliberately excluded"
+    },
+    {
+      "source_id": "un-s-2023-656"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Song Il",
+        "korean": "김성일"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "bibo:abstract, individual-designations table",
+          "quote": "김성일 진영정보기술개발협조회사 주중국 대표"
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 3",
+          "quote": "KIM, Song Il (김성일), China"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Romanization and Hangul are explicitly paired in the official attachment."
+      ]
+    },
+    {
+      "id": "claim-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "bibo:abstract, '[ 북한 IT 인력 독자제재 대상 지정 ]'",
+          "quote": "우리 정부는 북한 기관 3개와 개인 7명을 제재대상으로 지정하였다."
+        },
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50",
+          "quote": "one of the two Member States also designated Democratic People’s Republic of Korea individuals Kim Ki Hyok, Jon Yon Gun and Kim Song Il in May"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-jinyong-representative",
+      "type": "organization_affiliation",
+      "predicate": "officially_reported_representative_of",
+      "value": {
+        "organization": "Jinyong IT Cooperation Company",
+        "role": "representative in China"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 3",
+          "quote": "Representative of Jinyong IT Cooperation Company in China"
+        },
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50",
+          "quote": "Kim Song Il, representatives of Chinyong IT in the Russian Federation, the Lao People’s Democratic Republic and China, respectively"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The organization is also officially listed as CHINYONG IT COMPANY; the organization-level alias is not a personal alias."
+      ]
+    },
+    {
+      "id": "claim-china-role-location",
+      "type": "location",
+      "predicate": "officially_reported_role_location",
+      "value": {
+        "country": "China",
+        "context": "Jinyong representative"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 3, contiguous fragment 1 of 2",
+          "quote": "KIM, Song Il (김성일), China"
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 3, contiguous fragment 2 of 2",
+          "quote": "Representative of Jinyong IT Cooperation Company in China"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Country-level role location only; no city, address, or present residence is inferred."
+      ]
+    },
+    {
+      "id": "claim-north-korean-nationality",
+      "type": "location",
+      "predicate": "officially_reported_nationality",
+      "value": {
+        "country": "North Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 3",
+          "quote": "nationality Korea, North"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "New atomic extraction from full attachment review; the field was not structured in the seeded profile."
+      ]
+    },
+    {
+      "id": "claim-collective-labor-control",
+      "type": "incident",
+      "predicate": "included_in_collective_labor_control_allegation",
+      "value": {
+        "scope": "five footnoted overseas IT branch managers",
+        "alleged_practices": [
+          "surveillance and control",
+          "abusive treatment",
+          "non-payment of wages",
+          "forced labor"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 2 and footnote 1",
+          "quote": "특히, 이들 IT 지부 책임자들은 IT 인력에 대한 감시ㆍ통제ㆍ갑질, 임금 미지급 등 강제노동을 강요하여 이들의 인권을 유린해 왔다. 1) 김상만, 김기혁, 김성일, 전연근, 김효동"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "This is an action-wide allegation collectively scoped to five named managers; it does not separately prove that Kim Song Il personally committed every listed practice."
+      ]
+    },
+    {
+      "id": "claim-kim-song-il-un-revenue-generation-allegation",
+      "type": "incident",
+      "predicate": "un_reported_collective_foreign_revenue_generation_allegation",
+      "value": {
+        "scope": "Kim Ki Hyok, Jon Yon Gun, and Kim Song Il collectively",
+        "reported_conduct": "alleged illicit generation of foreign revenue for the DPRK",
+        "source_posture": "said to have engaged"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50",
+          "quote": "Democratic People’s Republic of Korea nationals Kim Ki Hyok, Jon Yon Gun and Kim Song Il, representatives of Chinyong IT in the Russian Federation, the Lao People’s Democratic Republic and China, respectively, are said to have engaged in the illicit generation of foreign revenue for the Democratic People’s Republic of Korea."
+        }
+      ],
+      "observed_at": "2023-09-07",
+      "notes": [
+        "Collective, source-attributed allegation, not an adjudicated individual finding. China replied that it did not find illegal cyber-financial activities by the relevant individuals, and the report states investigations continued. Organization-level transaction totals, bank accounts, and money-transfer details were not assigned to Kim individually."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kim Song Il (김성일) is the Jinyong/Chinyong representative in China identified by the May 2023 Republic of Korea joint designation release and independently named in UN S/2023/656. Same-name people or accounts remain separate pending a source-explicit bridge; collective labor-control or foreign-revenue allegations remain at the reported claim stage."
+}

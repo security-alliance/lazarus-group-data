@@ -1,0 +1,475 @@
+{
+  "id": "facilitator-yu-pu-ung",
+  "type": "facilitator",
+  "name": "Yu Pu-ung (유부웅)",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Republic of Korea; Tanchon Commercial Bank representative and financial facilitator sanctioned by the United States and Republic of Korea; administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-28e42dec45a8",
+      "gov-2d8dc05b8be6",
+      "gov-32a750c6b801",
+      "gov-81fd96ced830",
+      "gov-e31464a55e89",
+      "int-rok-mofa-2024-sanctions"
+    ]
+  },
+  "legal_or_reported_name": "Yu Pu-ung (유부웅)",
+  "organizations": [
+    "Amnokgang Development Bank",
+    "Tanchon Commercial Bank"
+  ],
+  "locations": [
+    "Shenyang, China"
+  ],
+  "caveats": [
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "ROK sanctions-authority reporting; criminal status remains unadjudicated. Payment, procurement, account, transaction, and sensitive-goods selectors are excluded.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family.",
+    "The official primary form YU, Pu Ung and alternate romanization YU, Bu Ung are source-specific renderings tied to one OFAC entity. The source-literal generic alias string Mr. O appears only in the cited evidence and is excluded from aggregate identity labels because it is non-discriminating. The record retains only designation-era Shenyang city-and-country context; street address, residence, and present location require separate source evidence. The U.S. Tanchon relationship remains distinct from the ROK-reported Amnokgang Development Bank role.",
+    "YU, Bu Ung — official romanization."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "YU, Bu Ung"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "YU, Pu Ung"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-yu-pu-ung"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "Treasury identifies Yu Pu Ung as a China-based representative of Tanchon Bank, reports that he used funds from DPRK IT groups to supply WMD-related materials to DPRK munitions organizations and provided funds to a China-based representative of the Second Academy of Natural Sciences, and records his E.O. 13382 designation. These are administrative-source assessments, not adjudicated findings; no material, supplier, account, payment, recipient, counterparty, or transaction selector is retained",
+      "locator": "Yu Pu Ung paragraph"
+    },
+    {
+      "source_id": "gov-32a750c6b801",
+      "support": "The administrative action lists YU, Pu Ung, the Korean form 유부웅, the alternate romanization YU, Bu Ung, Shenyang, China, the NPWMD program, and the linked-to relationship with Tanchon Commercial Bank. A precise street string, birth, nationality, gender, passport, compliance, and other sensitive fields are excluded; the generic source alias string Mr. O is not used as an aggregate identity label",
+      "locator": "SDN additions, Yu entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Shenyang, China for OFAC entity number 47701. The precise street string is excluded. The row is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 47701"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 47701: YU, Bu Ung. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 47701"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 47701 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV",
+      "locator": "SDN.CSV primary/current-list row for OFAC ent_num 47701"
+    },
+    {
+      "source_id": "gov-81fd96ced830",
+      "support": "The official notice lists Yu Pu Ung at Shenyang, China, records the Korean name, alternate romanization, source-literal generic alias string, Tanchon Commercial Bank link, and E.O. 13382 designation basis. Only coarse city-and-country context is retained; the precise street string, birth, passport, and other sensitive selectors are excluded, and Mr. O is not used as an aggregate identity label",
+      "locator": "Federal Register p. 22774, individual entry 2 and designation paragraph"
+    },
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "The ROK sanctions table identifies Yu Pu-ung (유부웅) as the Shenyang representative of Amnokgang Development Bank and separately reports large-scale laundering of DPRK IT-worker income and procurement of sensitive goods for DPRK nuclear and missile development. Shenyang is person-specific; Vladivostok belongs to other separately listed representatives and is not attributed to Yu. The ROK bank-role claim remains distinct from the U.S. Tanchon Commercial Bank relationship",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    },
+    {
+      "source_id": "gov-2d8dc05b8be6",
+      "support": "The Reuters report published by Voice of America independently names Yu Pu Ung among six people sanctioned in the coordinated U.S.-ROK action. It relies on Treasury for the underlying event and adds no independent proof of the alleged conduct, bank role, account control, or present location",
+      "locator": "Article body, named-individuals paragraph"
+    },
+    {
+      "source_id": "doaa-s05"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "ofac_primary": "YU, Pu Ung",
+        "korean": "유부웅",
+        "display": "Yu Pu-ung"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 47701",
+          "quote": "47701,\"YU, Pu Ung\",\"individual\",\"NPWMD\""
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Yu row",
+          "quote": "유부웅 주선양 압록강개발은행 대표"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Yu entry",
+          "quote": "YU, Pu Ung (Korean: 유부웅)"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "The OFAC entity-number join and Korean sanctions row bind these source-specific name forms; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "YU, Bu Ung",
+        "ofac_entity_number": "47701"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV row joined by OFAC entity number 47701",
+          "quote": "47701,73934,\"aka\",\"YU, Bu Ung\",-0-"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Yu entry",
+          "quote": "a.k.a. YU, Bu Ung"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22774, individual entry 2",
+          "quote": "YU, Pu Ung (Korean: 유부웅) (a.k.a. YU, Bu Ung"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "NPWMD",
+        "as_of": "2026-08-15",
+        "linked_organization": "Tanchon Commercial Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 47701",
+          "quote": "47701,\"YU, Pu Ung\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction. The living export does not supply the original listing date."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-bank",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Tanchon Commercial Bank",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 47701",
+          "quote": "Linked To: TANCHON COMMERCIAL BANK."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, control, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2024-03-28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "first body paragraph",
+          "quote": "우리 정부는 3.28(목) 북한 IT 인력의 해외 외화벌이 활동에 관여하거나 불법 자금을 조달한 기관 2개와 개인 4명을 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Yu row",
+          "quote": "유부웅 주선양 압록강개발은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-amnokgang-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_bank_representative_role",
+      "value": {
+        "organization": "Amnokgang Development Bank",
+        "role": "representative",
+        "location": "Shenyang, China",
+        "as_of": "2024-03-28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Yu row",
+          "quote": "유부웅 주선양 압록강개발은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Historical designation-time role and posting; no present employment or location is inferred. The ROK role and OFAC Tanchon link are retained as separate source claims."
+      ]
+    },
+    {
+      "id": "claim-rok-reported-financial-conduct",
+      "type": "incident",
+      "predicate": "rok_reported_it_revenue_laundering_and_sensitive_goods_procurement",
+      "value": {
+        "reported_activities": [
+          "large-scale laundering of DPRK IT-worker income",
+          "procurement of sensitive goods used in DPRK nuclear and missile development"
+        ],
+        "reported_beneficiaries": [
+          "Munitions Industry Department",
+          "Rocket Industry Department"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "third body paragraph, Yu-specific sentence",
+          "quote": "특히 ‘유부웅’은 한미가 공동 추적해온 북한의 자금관리책으로, 북한 IT 인력의 수입을 대량으로 자금세탁하는 한편, 북한 핵․미사일 개발에 사용되는 민감물자를 조달하는 등 군수공업부, 로케트공업부 등에 조력했다."
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "ROK sanctions-authority report, not an adjudicated criminal finding; no payment, account, procurement, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-yu-generic-ofac-alias-string",
+      "type": "alias",
+      "predicate": "ofac_source_literal_generic_alias_string",
+      "value": {
+        "alias": "Mr. O",
+        "usability": "non-discriminating; not suitable as an aggregate identity label or entity-resolution key"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Yu entry",
+          "quote": "a.k.a. \"Mr. O\""
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22774, individual entry 2",
+          "quote": "a.k.a. \"Mr. O\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 47701",
+          "quote": "a.k.a. 'Mr. O'"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Source-literal and exact-ID, but too generic for public identity matching. It remains review-tier profile evidence and is excluded from catalog/public aggregate aliases."
+      ]
+    },
+    {
+      "id": "claim-yu-tanchon-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_bank_representative_role",
+      "value": {
+        "organization": "Tanchon Commercial Bank",
+        "role": "representative",
+        "reported_base": "China",
+        "as_of": "2024-03"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Yu Pu Ung paragraph, representative sentence",
+          "quote": "Yu Pu Ung and Ri Tong Hyok are both China-based representatives of Tanchon Bank."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Historical designation-time U.S. role claim. It remains separate from the ROK-reported Amnokgang Development Bank representative role; the two bank names are not collapsed or treated as aliases."
+      ]
+    },
+    {
+      "id": "claim-yu-treasury-it-funds-and-sans-activity",
+      "type": "incident",
+      "predicate": "treasury_reported_use_of_it_funds_for_wmd_materials_and_sans_funding",
+      "value": {
+        "reported_activities": [
+          "used funds from DPRK IT groups to supply WMD-related materials to DPRK munitions organizations",
+          "provided funds to a China-based representative of the Second Academy of Natural Sciences"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Yu Pu Ung paragraph, IT-funds and SANS sentences",
+          "quote": "Yu Pu Ung uses funds from DPRK IT groups to supply WMD-related materials to DPRK munitions organizations. Additionally, Yu Pu Ung has provided funds to a China-based representative of the UN- and U.S.-designated Second Academy of Natural Sciences (SANS)."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Treasury administrative assessment, not an adjudicated finding. No material, supplier, account, payment, recipient, counterparty, procurement, or transaction selector is identified or inferred."
+      ]
+    },
+    {
+      "id": "claim-yu-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13382",
+        "date": "2024-03-27",
+        "reported_basis": "acting or purporting to act for or on behalf of Tanchon Commercial Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Yu Pu Ung paragraph, designation sentence",
+          "quote": "Yu Pu Ung and Ri Tong Hyok are being designated pursuant to E.O. 13382 for acting or purporting to act for or on behalf of, directly or indirectly, Tanchon Bank."
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22774, designation paragraph following individual entry 2",
+          "quote": "Designated pursuant to section 1(a)(iv) of E.O. 13382"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-yu-ofac-listed-location",
+      "type": "location",
+      "predicate": "officially_reported_and_ofac_listed_coarse_location",
+      "value": {
+        "location": "Shenyang, China",
+        "precision": "coarse city-and-country only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Yu Pu Ung paragraph",
+          "quote": "China-based representatives of Tanchon Bank"
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Yu row",
+          "quote": "유부웅 주선양 압록강개발은행 대표"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22774, individual entry 2",
+          "quote": "Shenyang, China"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 47701",
+          "quote": "\"Shenyang\",\"China\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Person-specific official designation context only. The precise street string is excluded, and the retained coarse location does not establish residence, continued presence, or present location. Vladivostok, Russia was removed from Yu's aggregate record because the ROK and OFAC tables assign Yu specifically to Shenyang."
+      ]
+    },
+    {
+      "id": "claim-yu-voa-reuters-designation-corroboration",
+      "type": "legal_event",
+      "predicate": "secondary_publisher_reported_ofac_designation",
+      "value": {
+        "publisher": "Voice of America / Reuters",
+        "reported_date": "2024-03-28",
+        "reported_context": "one of six individuals named in the coordinated U.S.-ROK sanctions action"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2d8dc05b8be6",
+          "locator": "Article body, named-individuals paragraph",
+          "quote": "It named the six individuals as Yu Pu Ung, Ri Tong Hyok, Han Chol Man, O In Chun, Jong Song Ho and Jon Yon Gun."
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Independent publication-level corroboration that Yu was named in the sanctions action. The Reuters report cites Treasury, so it does not independently prove the underlying conduct or alter the administrative legal posture."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Reported facilitator or legal subject; preserve allegation, designation, conviction, and identity posture separately for every claim."
+}

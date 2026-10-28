@@ -1,0 +1,151 @@
+{
+  "id": "crypto-persona-jun-kai",
+  "type": "persona",
+  "name": "Jun Kai",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CoinDesk investigative reporting supports a historical employment-persona and incident relationship. It supplies no verified civil or legal identity, nationality, criminal charge, conviction, sanctions designation, present location, current activity, or control of any payment address.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-coindesk-2024-10-02"
+    ]
+  },
+  "organizations": [
+    "Iqlusion"
+  ],
+  "ttps": [
+    "CoinDesk-reported routing of employment earnings"
+  ],
+  "caveats": [
+    "CoinDesk independently reports Jun Kai as an Iqlusion developer and states that blockchain review found nearly $8 million sent to addresses tied to OFAC-designated Kim Sang Man. The evidence supports a research-attributed persona and payment-linkage finding; legal identity requires a separate source.",
+    "One investigative publisher family supports this persona. Payment linkage or incident co-occurrence provides contextual association; verified natural person or present controller status requires a source bridge.",
+    "Only the CoinDesk-supported persona and relationship claims are admitted; upstream-only account, image, residence, contact, identity-document, and payment-address material is excluded."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-affected-organization-relationship",
+      "organization": "Fantom Foundation",
+      "scope": "CoinDesk reports historical payments to the Jun Kai persona",
+      "employment_or_codebase_access_inferred": false,
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ]
+    },
+    {
+      "type": "source-reported-payment-linkage",
+      "persona_label": "Jun Kai",
+      "historical_payment_context": "Iqlusion payments",
+      "reported_amount_scope": "nearly USD 8 million",
+      "reported_destination_association": "addresses tied by CoinDesk to Kim Sang Man",
+      "payment_address_retained": false,
+      "recipient_control_or_persona_identity_established": false,
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-coindesk-2024-10-02",
+      "support": "Named worker persona, employer relationship, and payment-linkage allegation",
+      "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing transfers to Kim Sang Man-linked addresses"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-crypto-persona-jun-kai-source-reported-persona-label-round57",
+      "type": "identity_name",
+      "predicate": "coindesk_reported_historical_persona_label",
+      "value": {
+        "label": "Jun Kai",
+        "verified_civil_or_legal_identity": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing transfers to Kim Sang Man-linked addresses.",
+          "quote": "Manian never met the freelancers, “Jun Kai” and “Sarawut Sanit,” in person."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "Source-reported freelancer label only; no legal identity is established."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-jun-kai-iqlusion-contractor-relationship-round57",
+      "type": "relationship",
+      "predicate": "coindesk_reported_historical_iqlusion_payment_relationship",
+      "value": {
+        "organization": "Iqlusion",
+        "formal_employment_or_present_relationship_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing transfers to Kim Sang Man-linked addresses.",
+          "quote": "The transfers in question turned out to be Iqlusion's payments to Kai and Sanit."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "Historical source-reported payment context only."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-jun-kai-kim-sang-man-linked-payment-report-round57",
+      "type": "relationship",
+      "predicate": "coindesk_reported_payment_routing_to_linked_addresses",
+      "value": {
+        "related_label": "Kim Sang Man",
+        "reported_amount_scope": "nearly USD 8 million",
+        "payment_address_retained": false,
+        "recipient_control_or_persona_identity_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing transfers to Kim Sang Man-linked addresses.",
+          "quote": "Kai, meanwhile, funneled nearly $8 million directly to Kim."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "No address is retained. CoinDesk's blockchain-linkage finding does not by itself prove address control or civil identity."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-jun-kai-fantom-payment-relationship-round57",
+      "type": "relationship",
+      "predicate": "coindesk_reported_historical_fantom_payment_relationship",
+      "value": {
+        "organization": "Fantom Foundation",
+        "relationship_scope": "historical payments reported by CoinDesk",
+        "employee_status_or_codebase_access_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing transfers to Kim Sang Man-linked addresses.",
+          "quote": "For example, CoinDesk discovered payments from the Fantom Foundation, which develops the widely-used Fantom blockchain, to \"Jun Kai\" and another DPRK-linked developer."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "The source-reported payment relationship is not expanded into formal employment or access claims."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "CoinDesk-reported historical employment persona. The displayed name, pseudonym, project relationship, and payment linkage leave civil identity, nationality, present controller, and current activity unresolved."
+}

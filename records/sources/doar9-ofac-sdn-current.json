@@ -1,0 +1,12 @@
+{
+  "id": "doar9-ofac-sdn-current",
+  "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+  "title": "Sanctions List Service — SDN.CSV current publication export",
+  "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
+  "accessed_at": "2026-10-18",
+  "sha256": "57fda58a136267aef282e27c7eeec23f76e4a1a166839a1330ac66ee36a45981",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

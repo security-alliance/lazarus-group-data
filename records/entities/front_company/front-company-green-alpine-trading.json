@@ -1,0 +1,84 @@
+{
+  "id": "front-company-green-alpine-trading",
+  "type": "front_company",
+  "name": "Green Alpine Trading, LLC",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "OFAC-designated UAE entity linked by Treasury and the current SDN entry to Sim Hyon Sop and described as part of a DPRK digital-asset laundering network handling IT-worker and cybercrime proceeds; this is an administrative sanctions designation, with no criminal charge or conviction asserted.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "front-infra-s5-treasury-2024-green-alpine",
+      "gov-e31464a55e89"
+    ]
+  },
+  "front_companies": [
+    "Green Alpine Trading, LLC"
+  ],
+  "locations": [
+    "United Arab Emirates"
+  ],
+  "ttps": [
+    "front-company support to a DPRK digital-asset laundering network"
+  ],
+  "caveats": [
+    "Administrative sanctions are an administrative finding; the record carries no criminal charge or conviction.",
+    "Business registration, industry-classification, precise address, payment, and digital-asset selectors are excluded.",
+    "designation date: 2024-12-17; as of 2026 08 12: official historical designation; release remains public, live sanctions-list status was unqueried.",
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "SDN.CSV and ADD.CSV are component tables of one current OFAC dataset; together they form one corroboration source."
+  ],
+  "infrastructure": [
+    {
+      "kind": "activity",
+      "value": "provided support or services to Sim Hyon Sop; network laundered proceeds from DPRK IT-worker and cybercrime activity",
+      "status": "Treasury-reported",
+      "source_ids": [
+        "front-infra-s5-treasury-2024-green-alpine"
+      ]
+    },
+    {
+      "kind": "network_role",
+      "value": "key component of a DPRK digital-asset money-laundering network led by sanctioned Sim Hyon Sop",
+      "status": "Treasury-reported",
+      "source_ids": [
+        "front-infra-s5-treasury-2024-green-alpine"
+      ]
+    },
+    {
+      "type": "ofac-linked-to",
+      "value": "Sim Hyon Sop",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    },
+    {
+      "type": "organization-establishment-date",
+      "value": "2021-11-08",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s5-treasury-2024-green-alpine",
+      "support": "The cited source reports Green Alpine Trading, LLC in the stated front-company or corporate-linkage context: key component of a DPRK digital-asset money-laundering network led by sanctioned Sim Hyon Sop; provided support or services to Sim Hyon Sop; network laundered proceeds from DPRK IT-worker and cybercrime activity | Treasury describes Green Alpine Trading, LLC as a key component of a DPRK digital-asset laundering network led by sanctioned Sim Hyon Sop and reports support or services to Sim involving IT-worker and cybercrime proceeds",
+      "locator": "Green Alpine Trading, LLC section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row supplies United Arab Emirates country context for OFAC entity number 52175. Row identifiers and placeholders are excluded",
+      "locator": "ADD.CSV current row joined to OFAC entity number 52175"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current SDN row retains Green Alpine Trading, LLC under OFAC entity number 52175, records a November 8, 2021 establishment date, and links the entry to Sim Hyon Sop. Sensitive fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 52175"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

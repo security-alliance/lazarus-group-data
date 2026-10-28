@@ -1,0 +1,242 @@
+{
+  "id": "crypto-cluster-chinyong-bureau61-laos-vladivostok",
+  "type": "cluster",
+  "name": "Crypto-focused IT-worker cluster photographed in Laos (2021–2023) and near Vladivostok (2024–2025), assessed by Chollima Group and contextualized by MSMT.",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Chollima Group supplies the research assessment; MSMT supplies general cryptocurrency-theft context. Cluster, aliases, handles, and co-location remain attributed to the Chollima assessment alone.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-reframing",
+      "crypto-chollima-vientiane",
+      "crypto-msmt-2025-2"
+    ]
+  },
+  "ttps": [
+    "Co-located teams",
+    "Freelancer-market targeting",
+    "Japanese personas for blockchain/Web3 work",
+    "Reuse of GitHub identities and shared physical infrastructure",
+    "Role inflation up to CTO/advisor",
+    "VPN and remote administration tools"
+  ],
+  "caveats": [
+    "Source-reported identity cluster; shared images, handles, or travel provide contextual links, while one-person identity requires a source bridge.",
+    "The dataset excludes the explicitly identified Chinese collaborator Xiao He from DPRK-worker records."
+  ],
+  "aliases": [
+    {
+      "value": "Bryan Cho",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Joshua Charles Palmer",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Joshua Palmer",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Pemba Sherpa",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Greg Takeo",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "Jenson Collins",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "Joe Hisaishi",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "Kazune Takeda",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "Keisuke Watanabe",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "Naoki Murano",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    },
+    {
+      "value": "Seo Sigoto",
+      "alias_type": "employment-persona",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Public account handle",
+      "identifier": "JCollinsX",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Jenson Collins; not an independent identity proof."
+    },
+    {
+      "platform": "Public account handle",
+      "identifier": "hirayama1534",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Keisuke Watanabe; not an independent identity proof."
+    },
+    {
+      "platform": "Public account handle",
+      "identifier": "jcollinsx",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Jenson Collins; not an independent identity proof."
+    },
+    {
+      "platform": "Public account handle",
+      "identifier": "kAsky53",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Keisuke Watanabe; not an independent identity proof."
+    },
+    {
+      "platform": "Public account handle",
+      "identifier": "mtfuji25",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Kazune Takeda; not an independent identity proof."
+    },
+    {
+      "platform": "Public account handle",
+      "identifier": "nfbigjc",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Jenson Collins; not an independent identity proof."
+    },
+    {
+      "platform": "Public account handle",
+      "identifier": "supermutecx",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Source associates this handle with the reported persona label Naoki Murano; not an independent identity proof."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "source_url": "https://chollima-group.io/posts/tracking-a-north-korean-it-worker-cell",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/17.png",
+      "caption": "Source-published investigative composite or event image; reported cluster context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "source_url": "https://chollima-group.io/posts/tracking-a-north-korean-it-worker-cell",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/18.webp",
+      "caption": "Source-published investigative composite or event image; reported cluster context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "source_url": "https://chollima-group.io/posts/tracking-a-north-korean-it-worker-cell",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/6.png",
+      "caption": "Source-published investigative composite or event image; reported cluster context only.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "bryan-cho",
+    "jenson-collins",
+    "joshua-palmer",
+    "kazune-takeda",
+    "keisuke-watanabe",
+    "naoki-murano",
+    "pemba-sherpa"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-reframing",
+      "support": "Pemba Sherpa is mapped to Kim Kwang Jin, and Bryan Cho to Jong Pong Ju",
+      "locator": "Section “Bureau 61 (From Vientiane to Vladivostok)” and “Righting Wrongs”"
+    },
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "support": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534; Naoki Murano AKA supermutecx",
+      "locator": "Sections “Timeline” and “Tools, Services, and Other Findings”"
+    },
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "DPRK IT workers are also engaging in cryptocurrency thefts",
+      "locator": "PDF pp. 34–35, “DPRK IT Workers” (Munchables case study); p. 37 (Favrr case study)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

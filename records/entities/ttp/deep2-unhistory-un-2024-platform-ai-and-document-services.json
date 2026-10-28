@@ -1,0 +1,51 @@
+{
+  "id": "deep2-unhistory-un-2024-platform-ai-and-document-services",
+  "type": "ttp",
+  "name": "2024 Panel platform/document/AI concealment methods",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2024-215-un-2024-platform-ai-and-document-services"
+    ]
+  },
+  "ttps": [
+    "ai-altered-profile-photo",
+    "fabricated-resume",
+    "forged-identity-document",
+    "freelance-platform",
+    "shared-account"
+  ],
+  "caveats": [
+    "A platform assessment that most skilled freelance crypto profiles were fake was an opinion and is rejected as too broad for publication.",
+    "AI use, remote work, crypto work, VPN use and one inconsistent profile are contextual signals; attribution requires a broader source-backed pattern."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The Panel compiled reports of falsified resumes, inconsistent cross-platform identities, purchased or borrowed high-reputation accounts, photo-realistic identity-document and supporting-document generators, account-resale services, and proxy email/SMS services.",
+        "DPRK IT workers reportedly used generative AI for profile images, profile text and coding/interview answers; workers increasingly approached cryptocurrency companies and community chats directly when major platforms tightened controls.",
+        "Reports also described seeking web3, blockchain, smart-contract and cryptocurrency work and potentially exploiting or inserting vulnerabilities."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2024-215-un-2024-platform-ai-and-document-services"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2024-215-un-2024-platform-ai-and-document-services",
+      "support": "Supports the platform migration, document/account services, proxy communications, generative-AI and crypto-project methods",
+      "locator": "PDF pp. 50-51, paras. 151-153; PDF pp. 354-360, annex 64"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

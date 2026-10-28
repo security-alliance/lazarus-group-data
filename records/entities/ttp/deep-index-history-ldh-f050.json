@@ -1,0 +1,44 @@
+{
+  "id": "deep-index-history-ldh-f050",
+  "type": "ttp",
+  "name": "The DPRK Remote Worker Threat: Unmasking North Korea's Digital Deception",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher-attributed public research finding; legal adjudication and civil identity require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-history-ldh-050"
+    ]
+  },
+  "ttps": [
+    "enterprise detection and worker-team monitoring"
+  ],
+  "caveats": [
+    "Keep raw IPs, exposed services, and victim infrastructure out of publication.",
+    "Tool presence is one contextual signal. Correlate identity, interview, endpoint, shipping and access signals."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Flashpoint describes parallel personas, virtual-camera software, remote-management tools and IP-KVM devices as a combined means of passing interviews and controlling employer systems.",
+        "The report says supervisors may use workforce-monitoring software such as Classroom Spy Pro and simple LAN messaging to supervise teams, supporting an internal-control/digital-work-farm TTP.",
+        "Recommended detections include newly created cookie-cutter GitHub profiles, sparse LinkedIn networks with suspicious mutual connections, public-VPN or impossible-location logins, unauthorized remote tools and repeated equipment shipping destinations."
+      ],
+      "source_ids": [
+        "deep-index-history-ldh-050"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-history-ldh-050",
+      "support": "Flashpoint describes parallel personas, virtual-camera software, remote-management tools and IP-KVM devices as a combined means of passing interviews and controlling employer systems. The report says supervisors may use workforce-monitoring software such as Classroom Spy Pro and simple LAN messaging to supervise teams, supporting an internal-control/digital-work-farm TTP. Recommended detections include newly created cookie-cutter GitHub profiles, sparse LinkedIn networks with suspicious mutual connections, public-VPN or impossible-location logins, unauthorized remote tools and repeated equipment shipping destinations",
+      "locator": "Sections “Technologies Enabling DPRK Remote Fraud” and “Preventing DPRK Illicit Access”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

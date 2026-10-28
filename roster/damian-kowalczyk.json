@@ -1,0 +1,132 @@
+{
+  "id": "damian-kowalczyk",
+  "fake_names": [
+    "Damian Kowalczyk"
+  ],
+  "notes": "Security-research-reported persona or historical account; no legal identity attribution",
+  "github": [
+    {
+      "gh_id": "SoftwarePassioner"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-saja-damian-kowalczyk",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Security-research-reported persona or historical account; no legal identity attribution",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Nisos-reported employment persona associated with the SoftwarePassioner GitHub account and portfolio. This is not a verified civil identity; profile location, biography, image, and current account reachability do not identify an operator or establish present control.",
+      "Nisos assessed the same actor likely operated this and three other personas; state the assessment, not a biometric conclusion.",
+      "No identity conclusion may be drawn from profile imagery or visual similarity.",
+      "source-observed through 2025-05-01; current account ownership not assumed",
+      "This is a source-reported persona or account label, not a verified legal identity.",
+      "Website account 'softwarepassioner.github[.]io'.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Damian Kowalczyk' is a common Polish name; unrelated real people share it, including a professional footballer and several software developers. This record refers only to the SoftwarePassioner GitHub account and softwarepassioner.github.io presentation identified by Nisos. The portfolio page itself shows no personal name; attribution runs through the GitHub Pages hosting.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-a2cf3f705a9c",
+      "title": "Backed by Evidence: Unmasking the People Behind North Korea’s IT Worker Schemes",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/saja-dprk-employment-scam-network.pdf",
+      "date": "2025-05-01"
+    },
+    {
+      "id": "doc-softwarepassioner-site",
+      "title": "SOFTWARE ENGINEER",
+      "publisher": "SoftwarePassioner GitHub Pages",
+      "url": "https://softwarepassioner.github.io/"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-damian-account-presentation",
+      "label": "Researcher reported github persona",
+      "category": "account",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "Nisos identified a GitHub account, softwarepassioner, which included a photo of the threat actor with the name Damian Kowalczyk."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-damian-aff-project",
+      "label": "Portfolio claimed aff leadership",
+      "category": "skill",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-softwarepassioner-site",
+          "locator": "About section",
+          "quote": "team leader in the creation of the ✔ AFF(Assistant For Freelancer) service, collaborating with 6 international colleagues."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-damian-experience-presentation",
+      "label": "Account claimed development experience",
+      "category": "skill",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "The GitHub account stated that Damian Kowalczyk has 10+ years of experience and listed a number of completed projects."
+        },
+        {
+          "source_id": "doc-softwarepassioner-site",
+          "locator": "About section",
+          "quote": "10+ years of progressive experience"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-damian-location-presentation",
+      "label": "Account claimed location",
+      "category": "location",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "The GitHub account stated that Damian Kowalczyk is located in Poland and links to an inactive professional networking platform account."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-damian-portfolio-chronology",
+      "label": "Researcher observed portfolio repository creation",
+      "category": "account",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 11, Damian Kowalczyk",
+          "quote": "The GitHub account created a repository for a portfolio website in late June 2024, however, the website is not active."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-damian-portfolio-current",
+      "label": "Public portfolio reachable at cutoff",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-softwarepassioner-site",
+          "locator": "Page heading and About section",
+          "quote": "Seasoned Software Engineer"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

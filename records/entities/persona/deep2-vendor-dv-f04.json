@@ -1,0 +1,342 @@
+{
+  "id": "deep2-vendor-dv-f04",
+  "type": "persona",
+  "name": "Okta persona JJ",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; no legal identity or adjudication is recorded.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s03-dv-f04",
+      "dppr11-okta-payroll-2026"
+    ]
+  },
+  "caveats": [
+    "The redacted LinkedIn name, employer, location, and URL remain unrecoverable from this record.",
+    "JJ is an Okta pseudonym; civil identity status remains unverified.",
+    "Link-only provenance: preserve publisher captions; source images require rights review before republication, while facial recognition, redaction reversal, and legal-identity inference fall outside permitted use.",
+    "Email address, profile URL, image, and raw resume are excluded from reproduction.",
+    "This project used source review; facial recognition, reverse-image search, biometric comparison, and identity resolution were unperformed.",
+    "Image provenance supplies image context; an additional persona, alias, account, organization, location, or legal identity requires a source link.",
+    "The displayed LinkedIn profile may belong to a genuine person whose history was co-opted; the image leaves applicant account control unresolved.",
+    "The historical source image provides historical context; present ownership or control status for any account, profile, portfolio, or employer page is unreported."
+  ],
+  "images": [
+    {
+      "source_id": "dppr11-okta-payroll-2026",
+      "source_url": "https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/",
+      "direct_asset_url": "https://www.okta.com/content/okta-www/us/en-us/blog/threat-intelligence/the-north-korean-on-your-payroll/_jcr_content/root/container_wrapper/container_main/container_right/container/image_150093859.coreimg.png/1780684098926/ll-profile-jj-redacted-wm.png",
+      "caption": "Figure 1. JJ’s claimed LinkedIn profile Publisher-hosted image/png asset, 813x1131; retained as link-only historical provenance.",
+      "publication_handling": "link-only",
+      "sha256": "db8f68f1d960cda148c9e485c095c22e4dc9b7f5ea73946ec0bf77abd4728bc7"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Okta tracked pseudonymous actor JJ interviewing across multiple verticals for two years, disproportionately for AI and healthcare roles.",
+        "The persona's email-linked footprint consisted almost exclusively of job-application services, with no ordinary personal footprint; in September 2025 JJ began presenting a robust legitimate LinkedIn profile whose name matched the fraudulent persona but whose email did not.",
+        "Okta assessed that the actor changed the fraudulent persona name to match a real person's professional profile, allowing superficial employer-reference checks to pass."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s03-dv-f04"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-vendor-dv-f04"
+  ],
+  "sources": [
+    {
+      "source_id": "dppr11-okta-payroll-2026",
+      "support": "Source originally published February 11, 2026 and modified June 24, 2026. The publisher embeds the reviewed figure(s) associated with Okta persona JJ. The assets add link-only provenance only; redacted details are not reconstructed, and the images do not establish current account control or a legal identity",
+      "locator": "Meet “JJ”; “EM” gets hired; Figures 1 and 3-12"
+    },
+    {
+      "source_id": "deep2-vendor-dv-s03-dv-f04",
+      "support": "Okta tracked pseudonymous actor JJ interviewing across multiple verticals for two years, disproportionately for AI and healthcare roles. The persona's email-linked footprint consisted almost exclusively of job-application services, with no ordinary personal footprint; in September 2025 JJ began presenting a robust legitimate LinkedIn profile whose name matched the fraudulent persona but whose email did not. Okta assessed that the actor changed the fraudulent persona name to match a real person's professional profile, allowing superficial employer-reference checks to pass",
+      "locator": "Meet JJ; The DPRK EM; Finding an artificial persona"
+    },
+    {
+      "source_id": "deep2-vendor-dv-s01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-okta-jj-pseudonym",
+      "type": "alias",
+      "predicate": "publisher_assigned_pseudonym",
+      "value": {
+        "pseudonym": "JJ",
+        "publisher": "Okta Threat Intelligence"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#1 - Meet “JJ”, opening sentence",
+          "quote": "The first of the two actors we will detail we’ll refer to as “JJ”."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Publisher pseudonym only; not a legal name, account handle, or verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-interview-pattern",
+      "type": "employment",
+      "predicate": "publisher_observed_interview_activity",
+      "value": {
+        "duration": "two years",
+        "scope": "multiple verticals",
+        "overrepresented_role_sectors": [
+          "AI",
+          "healthcare"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#1 - Meet “JJ”, opening paragraph",
+          "quote": "This actor has prolifically interviewed for roles in multiple verticals over two years, with an overrepresentation of roles in AI and healthcare."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Vendor-observed applicant activity; the source does not identify affected organizations in the retained claim."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-job-application-footprint",
+      "type": "infrastructure",
+      "predicate": "publisher_observed_application_only_account_footprint",
+      "value": {
+        "pattern": "online-service accounts used exclusively for job applications and associated tasks",
+        "personal_footprint": "no evidence of personal use reported",
+        "observed_service_categories": [
+          "job board and hiring platforms",
+          "recruiter scheduling platforms",
+          "document-organization workspaces with AI assistance",
+          "dynamic DNS services",
+          "online coding platforms"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#1 - Meet “JJ”, OSINT account paragraph",
+          "quote": "All of these accounts are used exclusively for job applications and associated tasks"
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#1 - Meet “JJ”, artificial persona paragraph",
+          "quote": "These personas appear \"out of thin air\", inheriting the online presence required for a professional applying for roles, but without any evidence of personal use of any internet services."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "No email, account identifier, service-specific handle, or current-control inference is retained."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-email-construction-pattern",
+      "type": "infrastructure",
+      "predicate": "publisher_observed_nonselector_email_construction_pattern",
+      "value": {
+        "service_type": "free webmail",
+        "account_name_pattern": "software-development reference combined with randomized alphanumeric characters",
+        "selector_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#1 - Meet “JJ”, email-account paragraph",
+          "quote": "it utilizes a free webmail service and the account name incorporates references to software development and other randomized alphanumeric characters"
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Pattern-level vendor observation only. The actual email address, local-part, provider, domain, and linked account selectors were excluded."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-multiple-personas",
+      "type": "incident",
+      "predicate": "publisher_observed_persona_rotation",
+      "value": {
+        "activity": "created and subsequently abandoned several personas",
+        "observation_period": "two years"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, opening sentence",
+          "quote": "During the two years of observed activity, our threat actor JJ created and subsequently abandoned several personas."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "The source does not publish the abandoned names in the retained text."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-linkedin-presentation-timeline",
+      "type": "account",
+      "predicate": "publisher_observed_claimed_professional_profile_timeline",
+      "value": {
+        "earlier_recruiter_statement": "JJ said no LinkedIn profile existed",
+        "first_active_profile_observed": "2025-09",
+        "profile_name_relationship": "matched the inauthentic application name in use at the time",
+        "profile_picture_status": "none",
+        "current_control_status": "not established"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, first two paragraphs",
+          "quote": "Until recently, JJ told recruiters that he did not have a LinkedIn profile."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, September 2025 paragraph",
+          "quote": "In September 2025, JJ was observed providing recruiters an active LinkedIn profile for the first time."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Historical claimed-profile presentation only. The genuine profile URL, name, employer, contacts, and linked accounts were excluded, and actor control of the profile is not established."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-coopted-profile-realism-signals",
+      "type": "account",
+      "predicate": "publisher_observed_claimed_profile_realism_signals",
+      "value": {
+        "approximate_connections": "almost 200",
+        "linked_code_account_characterization": "realistic content",
+        "skills": "multiple listed",
+        "endorsements": "multiple third-party endorsements from accounts that appeared authentic",
+        "interpretation": "signals belonged to a genuine profile and do not prove JJ created or controlled them"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, profile-characteristics list",
+          "quote": "Almost 200 connections"
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, profile-characteristics list",
+          "quote": "Links to a GitHub account with realistic content"
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, profile-characteristics list",
+          "quote": "Multiple “skills” listed, many of which were endorsed by multiple third-parties. The endorsing LinkedIn accounts appeared to be authentic."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "These are publisher-observed presentation signals on a co-opted genuine profile, not actor-owned reputation, connections, skills, code, or endorsements.",
+        "The LinkedIn and GitHub paths, names, contributors, endorsers, and employer were not retained or pursued."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-coopted-professional-profile",
+      "type": "relationship",
+      "predicate": "publisher_assessed_misrepresentation_of_genuine_profile",
+      "value": {
+        "activity": "misrepresented a genuine professional profile as the actor's own",
+        "method": "altered the fraudulent persona name to match a real person",
+        "first_observed": "2025-09",
+        "genuine_profile_subject_status": "until recently a genuine employee of the listed organization",
+        "email_separation_evidence": "the actor email differed from the email used for the legitimate profile"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Becoming JJ, September 2025 paragraph",
+          "quote": "In September 2025, JJ was observed providing recruiters an active LinkedIn profile for the first time."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "A happy false-positive, assessment paragraph",
+          "quote": "Our assessment is that the actor has simply misrepresented a genuine Linkedin profile as their own, altering the name of their fraudulent persona to fit that of a real human to align with the employment criteria."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "A happy false-positive, opening and assessment paragraphs",
+          "quote": "Our investigation determined that the person represented in the LinkedIn profile was, until recently, a genuine employee of the listed organization."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "A happy false-positive, email-separation sentence",
+          "quote": "the DRPK actor's email address was not the email address used for the legitimate LinkedIn profile"
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Okta assessment only. The genuine person, profile, employer, linked accounts, and contact values are deliberately omitted; the evidence does not establish actor control of the genuine profile."
+      ]
+    },
+    {
+      "id": "claim-okta-jj-source-cohort-context",
+      "type": "note",
+      "predicate": "publisher_research_cohort_context_and_count_resolution",
+      "value": {
+        "tracked_identities": "more than 130",
+        "initial_job_interviews": "more than 6,500",
+        "distinct_companies": "more than 5,000",
+        "cutoff": "mid-2025",
+        "attribution_method": "combination of technical indicators, behavioral patterns, and first-hand employer reporting",
+        "jj_article_company_restatement": "500 companies",
+        "count_resolution": "use the original September 2025 study's more-than-5,000 figure; the later 500 wording is inconsistent"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-vendor-dv-s01",
+          "locator": "Inside the investigation: 130+ identities and thousands of targeted companies",
+          "quote": "We linked these actors to over 6,500 initial job interviews across more than 5,000 distinct companies up until mid-2025."
+        },
+        {
+          "source_id": "deep2-vendor-dv-s01",
+          "locator": "cohort-attribution methodology paragraph",
+          "quote": "Okta assesses any given identity as DPRK-aligned based on a combination of technical indicators, behavioural patterns and first-hand employer reporting."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "article introduction, prior-research restatement",
+          "quote": "That research collated data from over 130 actors, conducting over 6500 interviews with 500 companies."
+        }
+      ],
+      "observed_at": "2025-09-30",
+      "notes": [
+        "Cohort context only; the aggregate does not mean JJ personally conducted all interviews or targeted all companies.",
+        "The original referenced study is the more authoritative count source and says more than 5,000 distinct companies. The later 500-company wording is retained only as a documented source inconsistency, not normalized as fact."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "JJ is an Okta-assigned pseudonym for a tracked applicant actor, with a profile name rather than a civil identity or public account handle. Okta assessed that the actor changed a fraudulent persona name to match a genuine person's professional profile; the genuine person, linked accounts, redacted names, images, employers, locations, URLs, and contact values remain unidentified and unretained."
+}

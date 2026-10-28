@@ -1,0 +1,369 @@
+{
+  "id": "facilitator-nguyen-quang-viet",
+  "type": "facilitator",
+  "name": "Nguyen Quang Viet",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Vietnamese currency-conversion facilitator; this is an administrative sanctions designation, with no criminal charge or conviction on record.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-1bfbb0e72fae",
+      "gov-54cada63e515",
+      "gov-8c7a44254161",
+      "gov-ded09ec68479",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Nguyen Quang Viet",
+  "organizations": [
+    "Quangvietdnbg International Services Company Limited"
+  ],
+  "locations": [
+    "Vietnam (OFAC-listed country; not a present-location inference)"
+  ],
+  "caveats": [
+    "Treasury identifies Nguyen as Quangvietdnbg's CEO. The Korea Times / Hankook Ilbo separately reported company license and public-channel context; social-account control and criminal adjudication require separate evidence."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "Treasury identifies Nguyen Quang Viet as Quangvietdnbg's CEO, reports that he provided currency-conversion services and converted approximately $2.5 million into cryptocurrency for North Koreans between mid-2023 and mid-2025, and records the E.O. 13810 designation for support to Amnokgang. These are administrative-source assessments, not adjudicated findings, and no account, wallet, exchange, transaction, or customer selector is retained",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen and Quangvietdnbg paragraphs"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Vietnam for OFAC entity number 57058 without a city or street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 57058"
+    },
+    {
+      "source_id": "gov-ded09ec68479",
+      "support": "Recorded Future News independently names Nguyen Quang Viet as Quangvietdnbg's CEO and reports that the company converted about $2.5 million for Amnokgang between 2023 and 2025. The article relies on U.S. officials for the underlying assessment and identifies no account, wallet, exchange, or transaction",
+      "locator": "Paragraphs describing Quangvietdnbg and naming its CEO"
+    },
+    {
+      "source_id": "gov-1bfbb0e72fae",
+      "support": "The official notice lists Nguyen Quang Viet at country-level Vietnam, links the entry to Amnokgang Technology Development Company, and records the E.O. 13810 administrative designation basis. The country is retained only as coarse listing context; birth, national ID, company address and tax data, financial, and other sensitive selectors are excluded",
+      "locator": "Federal Register pp. 12904-12905, Nguyen entry and designation paragraph"
+    },
+    {
+      "source_id": "gov-8c7a44254161",
+      "support": "The Korea Times / Hankook Ilbo names Nguyen as Quangvietdnbg's CEO and reports that Vietnamese authorities revoked the company's business license shortly after the U.S. sanctions while company Facebook and Telegram channels remained accessible. This is company-level context and does not establish Nguyen's present control of a social account",
+      "locator": "Opening section naming Nguyen and reporting Quangvietdnbg's post-designation status"
+    },
+    {
+      "source_id": "dln26-s09"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-nguyen-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Nguyen Quang Viet",
+        "ofac_primary_name": "NGUYEN, Quang Viet"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen paragraph",
+          "quote": "Nguyen Quang Viet"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Nguyen entry",
+          "quote": "NGUYEN, Quang Viet"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57058",
+          "quote": "NGUYEN, Quang Viet"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register pp. 12904-12905, Nguyen entry",
+          "quote": "NGUYEN, Quang Viet"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Official name formatting variants, not separate identities."
+      ]
+    },
+    {
+      "id": "claim-nguyen-quangvietdnbg-ceo",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_chief_executive_role",
+      "value": {
+        "organization": "Quangvietdnbg International Services Company Limited",
+        "role": "Chief Executive Officer",
+        "reported_country": "Vietnam"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen paragraph, first sentence",
+          "quote": "Nguyen Quang Viet (Nguyen) is the Chief Executive Officer (CEO) of Quangvietdnbg International Services Company Limited (Quangvietdnbg), a company based in Vietnam."
+        },
+        {
+          "source_id": "gov-ded09ec68479",
+          "locator": "Paragraph naming Quangvietdnbg's CEO",
+          "quote": "The CEO of Quangvietdnbg, Nguyen Quang Viet, was sanctioned"
+        },
+        {
+          "source_id": "gov-8c7a44254161",
+          "locator": "Opening section naming Quangvietdnbg and its CEO",
+          "quote": "Quangvietdnbg and its CEO, Nguyen Quang Viet"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding; no current corporate-registration status or present role beyond the dated source is inferred."
+      ]
+    },
+    {
+      "id": "claim-nguyen-currency-conversion-services",
+      "type": "incident",
+      "predicate": "treasury_reported_currency_conversion_services",
+      "value": {
+        "reported_conduct": "facilitated currency-conversion services for North Koreans through Quangvietdnbg"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen paragraph, second sentence",
+          "quote": "Nguyen facilitates currency conversion services for North Koreans through his company."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding, not an adjudicated criminal fact. No customer, account, exchange, wallet, payment, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-nguyen-2023-2025-crypto-conversion",
+      "type": "incident",
+      "predicate": "treasury_reported_cryptocurrency_conversion",
+      "value": {
+        "period": "mid-2023 to mid-2025",
+        "approximate_total": "USD 2.5 million",
+        "reported_conduct": "converted funds into cryptocurrency for North Koreans",
+        "included_source": "reported illicit earnings from IT workers associated with Amnokgang Technology Development Company"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen paragraph, dated conversion sentence",
+          "quote": "Between mid-2023 and mid-2025, Nguyen converted approximately $2.5 million into cryptocurrency for North Koreans, which included converting illicit earnings from IT workers associated with Amnokgang."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding. The source's approximately qualifier is preserved; no customer, worker identity, account, exchange, wallet, asset, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-nguyen-amnokgang-support",
+      "type": "relationship",
+      "predicate": "treasury_and_ofac_reported_support_for",
+      "value": {
+        "organization": "Amnokgang Technology Development Company",
+        "relationship": "reported material or services support and current OFAC linked-to relationship"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen designation sentence",
+          "quote": "OFAC is designating Nguyen for having materially assisted, sponsored, or provided financial, material, or technological support for, goods or services to or in support of Amnokgang."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Nguyen entry",
+          "quote": "Linked To: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative-source relationship. It does not establish employment by, ownership of, or present operational control over Amnokgang."
+      ]
+    },
+    {
+      "id": "claim-nguyen-quangvietdnbg-control-relationship",
+      "type": "relationship",
+      "predicate": "treasury_reported_company_control_or_behalf_relationship",
+      "value": {
+        "organization": "Quangvietdnbg International Services Company Limited",
+        "source_assessment": "owned or controlled by, or acted or purported to act for or on behalf of Nguyen"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Quangvietdnbg designation sentence",
+          "quote": "Quangvietdnbg is being designated pursuant to E.O. 13810 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, Nguyen."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Quangvietdnbg entry",
+          "quote": "Linked To: NGUYEN, Quang Viet"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "The source's disjunctive owned-or-controlled-or-behalf wording is preserved and is not narrowed into a stronger ownership conclusion."
+      ]
+    },
+    {
+      "id": "claim-nguyen-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13810",
+        "date": "2026-03-12",
+        "reported_basis": "support for Amnokgang Technology Development Company"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Nguyen designation sentence",
+          "quote": "OFAC is designating Nguyen for having materially assisted, sponsored, or provided financial, material, or technological support for, goods or services to or in support of Amnokgang."
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "SDN additions, Nguyen entry",
+          "quote": "NGUYEN, Quang Viet"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-nguyen-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "DPRK4",
+        "checked_at": "2026-08-15",
+        "linked_organization": "Amnokgang Technology Development Company"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57058",
+          "quote": "57058,\"NGUYEN, Quang Viet\",\"individual\",\"DPRK4\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 57058",
+          "quote": "Linked To: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Dated administrative-list observation; it does not establish criminal guilt, present company control, account or wallet control, or present location."
+      ]
+    },
+    {
+      "id": "claim-nguyen-ofac-listed-location",
+      "type": "location",
+      "predicate": "ofac_listed_coarse_location",
+      "value": {
+        "location": "Vietnam",
+        "precision": "coarse country-level only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register pp. 12904-12905, Nguyen entry",
+          "quote": "NGUYEN, Quang Viet, Vietnam"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 57058",
+          "quote": "\"Vietnam\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Exact-ID official listing context only. The retained country does not establish a city, street address, residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-nguyen-independent-media-coverage",
+      "type": "note",
+      "predicate": "independently_published_designation_coverage",
+      "value": {
+        "publisher": "Recorded Future News",
+        "published_at": "2026-03-12",
+        "coverage": "Named Nguyen Quang Viet as Quangvietdnbg's CEO and summarized the approximately $2.5 million company-level conversion assessment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ded09ec68479",
+          "locator": "Paragraphs describing Quangvietdnbg and naming its CEO",
+          "quote": "The CEO of Quangvietdnbg, Nguyen Quang Viet, was sanctioned"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "This establishes a reputable second publisher for the public profile, not independent proof of the underlying conduct. The article relies on U.S. officials and identifies no account, wallet, exchange, or transaction."
+      ]
+    },
+    {
+      "id": "claim-nguyen-company-license-context",
+      "type": "organization_affiliation",
+      "predicate": "affiliated_company_post_designation_status_reported",
+      "value": {
+        "organization": "Quangvietdnbg International Services Company Limited",
+        "publisher": "The Korea Times / Hankook Ilbo",
+        "reported_event": "Vietnamese authorities revoked the company's business license shortly after the U.S. sanctions",
+        "reported_public_footprint": "company Facebook page and Telegram channel remained accessible at the time of the article"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-8c7a44254161",
+          "locator": "Opening section after the Treasury summary",
+          "quote": "Vietnamese authorities revoked Quangvietdnbg’s business license shortly after the U.S. sanctions were imposed. Its Facebook page and Telegram channel, however, remained accessible."
+        }
+      ],
+      "observed_at": "2026-04-16",
+      "notes": [
+        "Company-level context only. The report does not establish a personal criminal charge, identify the revoking authority or docket, or prove Nguyen's present control of either social account. No handle or account selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Nguyen Quang Viet, listed by OFAC as NGUYEN, Quang Viet, is the Quangvietdnbg chief executive described by Treasury as providing currency-conversion services and support to Amnokgang Technology Development Company. The record preserves Treasury's administrative findings and designation posture; criminal guilt, present account or wallet control, present location, and same-named public-profile identity status are unreported."
+}

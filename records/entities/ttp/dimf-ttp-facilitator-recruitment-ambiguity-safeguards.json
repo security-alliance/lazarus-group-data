@@ -1,0 +1,66 @@
+{
+  "id": "dimf-ttp-facilitator-recruitment-ambiguity-safeguards",
+  "type": "ttp",
+  "name": "Facilitator-recruitment ambiguity and disengagement safeguards",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S10"
+    ]
+  },
+  "ttps": [
+    "facilitator-recruitment",
+    "laptop-hosting",
+    "safe-reporting"
+  ],
+  "caveats": [
+    "Hosting a device or receiving a solicitation supplies context; criminal intent and DPRK knowledge require separate evidence.",
+    "Fortune's legal-record synthesis describes recruitment and motivations of U.S.-based facilitators; individual knowledge and intent still require case-specific official evidence.",
+    "Keep pseudonymous participants out of person and persona indexes."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "Recruiters may frame device-hosting or administrative tasks as easy remote income while withholding or obscuring the ultimate worker and purpose, so prevention should emphasize clear warnings, safe reporting, and rapid disengagement rather than assuming every helper began with full knowledge."
+      ],
+      "limitations": [
+        "Fortune's legal-record synthesis describes recruitment and motivations of U.S.-based facilitators; individual knowledge and intent still require case-specific official evidence.",
+        "Do not infer criminal intent or DPRK knowledge from hosting a device or receiving a solicitation.",
+        "Keep pseudonymous participants out of person and persona indexes."
+      ],
+      "source_ids": [
+        "DIMF-S10"
+      ]
+    },
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S10"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "existing facilitator recruitment and laptop-hosting records"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S10",
+      "support": "Recruiters may frame device-hosting or administrative tasks as easy remote income while withholding or obscuring the ultimate worker and purpose, so prevention should emphasize clear warnings, safe reporting, and rapid disengagement rather than assuming every helper began with full knowledge",
+      "locator": "Facilitator workflow, recruitment context, laptop hosting, identity validation, money movement, and sentencing updates"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

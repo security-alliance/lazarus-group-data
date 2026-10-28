@@ -1,0 +1,64 @@
+{
+  "id": "lead-haikou-yilu-changtong-technology",
+  "type": "lead",
+  "name": "Haikou Yilu Changtong Technology Trading Company",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Corporate-record or relationship-analysis lead only; registry linkage supplies a corporate relationship lead, while knowing participation, illicit conduct and DPRK control require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s1-sentinelone-2024-fronts"
+    ]
+  },
+  "locations": [
+    "Haikou, Hainan, China"
+  ],
+  "ttps": [
+    "front-company or linked-company presentation"
+  ],
+  "caveats": [
+    "Corporate-linkage lead only. Registration data supplies a linkage signal; guilt is outside this record, and the telephone number remains outside the dataset.",
+    "Registry or affiliate links provide context; guilt, control, and knowing assistance require corroborating evidence.",
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Source observation: 2024-11-21; as of 2026 08 12: historical corporate-linkage indicator; current operation requires a fresh test."
+  ],
+  "aliases": [
+    {
+      "value": "海口宜路畅佟科技贸易有限公司",
+      "alias_type": "alternate-spelling",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "contact_overlap",
+      "value": "shared a corporate-registration telephone number with Beijing Xiwang Technology",
+      "status": "source-reported; number intentionally omitted",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    },
+    {
+      "kind": "registrant_overlap",
+      "value": "registered by Tong Yuze, according to SentinelLabs' corporate-record review",
+      "status": "source-reported",
+      "source_ids": [
+        "front-infra-s1-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s1-sentinelone-2024-fronts",
+      "support": "The cited source reports Haikou Yilu Changtong Technology Trading Company in the stated front-company or corporate-linkage context: registered by Tong Yuze, according to SentinelLabs' corporate-record review; shared a corporate-registration telephone number with Beijing Xiwang Technology",
+      "locator": "The Tong Yuze Identity"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

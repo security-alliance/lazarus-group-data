@@ -1,0 +1,130 @@
+{
+  "id": "worker-pak-kwang-hyok-russia-manager",
+  "type": "worker",
+  "name": "Pak Kwang Hyok",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel reporting relays Member State information and a host-state response; it reports an operational role, with criminal judgment and sanctions designation status absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-un-s-2020-840"
+    ]
+  },
+  "legal_or_reported_name": "Pak Kwang Hyok",
+  "locations": [
+    "Russia"
+  ],
+  "ttps": [
+    "it-worker-team-management"
+  ],
+  "caveats": [
+    "Preserve the Russian Federation's departure and pandemic-delay response adjacent to the allegation.",
+    "S/2020/840 separately names Pak Kwang Hyok and Ri Kyong Sik as co-managers; they are distinct source-reported people and separate records.",
+    "Sensitive biographical and document identifiers reproduced in the source are intentionally omitted.",
+    "The displayed name is a source-reported name; independent legal-identity verification is absent.",
+    "The reported management role is a source report; conviction, sanctions designation and personal involvement in hacking require separate findings.",
+    "These are reported operational roles; convictions, sanctions designations, and personal hacking involvement require separate findings."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-it-worker-management-role",
+      "statements": [
+        "The Panel reported that Pak Kwang Hyok and Ri Kyong Sik managed an approximately 50-person group, with Ri in charge of six software-development teams.",
+        "The Russian Federation replied that most relevant DPRK migrant workers—including Pak Kwang Hyok and Ri Yong Min—had left by the end of 2019; it attributed delayed remaining departures after employment termination to pandemic transport suspension."
+      ],
+      "role": "reported co-manager of an approximately 50-person DPRK IT-worker group in Russia",
+      "evidence_class": "official UN Panel report relaying Member State information with host-state response",
+      "source_ids": [
+        "duir6-un-s-2020-840"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-un-s-2020-840",
+      "support": "Evidence class: official UN Panel report relaying Member State information with host-state response. Source-qualified support: The Panel described an approximately 50-person Vladivostok IT-worker group managed by Ri Kyong Sik and Pak Kwang Hyok, with Ri in charge of six software-development teams. It described a separate Munitions Industry Department-subordinate group led by Jang Ho Yong and a third approximately 15-person group managed by Ri Yong Min. The Russian Federation replied that the majority of the relevant DPRK migrant workers, including Ri Kyong Sik, Pak Kwang Hyok, and Ri Yong Min, had left by the end of 2019; remaining departures were reportedly delayed after employment termination because transport was suspended during the COVID-19 pandemic",
+      "locator": "S/2020/840, PDF pp. 34-35, para. 113; Annex 47, PDF pp. 173-174"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-pak-officially-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Pak Kwang Hyok"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file pages 34-35, paragraph 113",
+          "quote": "and Pak Kwang Hyok were the managers"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Name as reported by the UN Panel while relaying Member State information; no additional civil-identity fields were established."
+      ]
+    },
+    {
+      "id": "claim-pak-vladivostok-group-manager",
+      "type": "employment",
+      "predicate": "reported_it_worker_group_manager",
+      "value": {
+        "role": "co-manager of a Democratic People's Republic of Korea information technology worker group",
+        "co_manager": "Ri Kyong Sik",
+        "approximate_group_size": 50,
+        "reported_area": "Vladivostok",
+        "reported_period": "March 2020"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 34, paragraph 113",
+          "quote": "a group of approximately 50 workers in Vladivostok earned about $230,000 in March 2020."
+        },
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file pages 34-35, paragraph 113; quotation begins after the excluded passport field",
+          "quote": "and Pak Kwang Hyok were the managers, with Ri in charge"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Operational reporting attributed by the Panel to a Member State. The source says Ri, not Pak, was in charge of six developer teams; that detail is deliberately not assigned to Pak.",
+        "The group-level revenue is retained only inside the literal source quote, not as a person-level earning or financial selector."
+      ]
+    },
+    {
+      "id": "claim-pak-russia-departure-response",
+      "type": "location",
+      "predicate": "host_state_reported_departure_by",
+      "value": {
+        "host_state": "Russian Federation",
+        "reported_status": "included among the majority said to have left the Russian Federation",
+        "reported_by": "end of 2019"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 114",
+          "quote": "the majority of persons in that category, including Ri Kyong Sik, Pak Kwang Hyok and Ri Yong Min, had left the Russian Federation by the end of 2019"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Host-state response, not an independently adjudicated location finding. It conflicts in timing with the preceding Member State reporting of group activity in March 2020 and does not establish Pak's present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Pak Kwang Hyok is the manager named in paragraph 113 of UN report S/2020/840. Pak and co-manager Ri Kyong Sik remain separate people; Ri's alias, passport, team-control detail, accounts, images, legal posture, and other attributes stay with Ri."
+}

@@ -1,0 +1,90 @@
+{
+  "id": "crypto-incident-consensys-metamask-2026",
+  "type": "cluster",
+  "name": "Consensys / MetaMask — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Project or organization statement; preserve its wording and any dispute over employment or attribution",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-consensys-x-response",
+      "crypto-dropsite-consensys",
+      "crypto-nknews-consensys"
+    ]
+  },
+  "organizations": [
+    "Consensys / MetaMask"
+  ],
+  "ttps": [
+    "Access terminated after internal detection",
+    "Product releases paused during investigation",
+    "Public GitHub contributions to MetaMask core/mobile code",
+    "Third-party staffing/supply-chain path"
+  ],
+  "caveats": [
+    "The company reports intact assets and data, with zero malicious-code deployment.",
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person."
+  ],
+  "aliases": [
+    {
+      "value": "Mauro Liu",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-consensys-x-response",
+        "crypto-dropsite-consensys",
+        "crypto-nknews-consensys"
+      ]
+    },
+    {
+      "value": "Tyler Knapp",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-consensys-x-response",
+        "crypto-dropsite-consensys",
+        "crypto-nknews-consensys"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Github",
+      "identifier": "imyugioh",
+      "url": "https://github.com/imyugioh",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-consensys-x-response",
+        "crypto-dropsite-consensys",
+        "crypto-nknews-consensys"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "lazarus_group_routes": [
+    "mauro-liu"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-dropsite-consensys",
+      "support": "The consultant used the alias Tyler Knapp and GitHub handle imyugioh",
+      "locator": "Article body beneath headline; paragraphs naming the “Tyler Knapp” alias and imyugioh account"
+    },
+    {
+      "source_id": "crypto-nknews-consensys",
+      "support": "Consensys said it engaged the individual through a third party but never employed them",
+      "locator": "Article body beneath headline; Consensys response paragraphs"
+    },
+    {
+      "source_id": "crypto-consensys-x-response",
+      "support": "The individual was never a Consensys employee; access was terminated after the threat was identified",
+      "locator": "X status 2078898919782948942"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

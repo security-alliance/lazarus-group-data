@@ -1,0 +1,13 @@
+{
+  "id": "lazarus-group-team",
+  "publisher": "Security Alliance (Lazarus Group site)",
+  "title": "Lazarus Group team registry and profile pages",
+  "url": "https://www.lazarus.group/team",
+  "accessed_at": "2026-10-18",
+  "sha256": "ec73ace99521601352d9d0625b99eb7ade5044d115835a1c6b2594afc8792a2e",
+  "content_type": "text/html",
+  "languages": [
+    "en"
+  ],
+  "note": "Living registry pages captured with a headless browser. Profile-page locators identify the rendered sub-pages; no images are added to the dataset."
+}

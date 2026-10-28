@@ -1,0 +1,123 @@
+{
+  "id": "ttp-msmt-2026-russia-it-worker-cell",
+  "type": "ttp",
+  "name": "MSMT-reported Russia-based DPRK IT-worker cell",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT reports a Russia-based DPRK IT-worker cell, its hierarchy, Slack groups and worktime enforcement from participating-state information; the report supplies a group-level account, with worker identities and individual criminal liability requiring separate evidence.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "locations": [
+    "Vladivostok, Russia (historical report context)"
+  ],
+  "ttps": [
+    "hierarchical worker groups",
+    "Slack operational groups",
+    "worktime tracking",
+    "identity-fraud cooperation"
+  ],
+  "caveats": [
+    "The report says the account and cell were believed or assessed in the source context. Leaked passport data and account identifiers are deliberately excluded.",
+    "Vladivostok is historical report context; present-location status is unreported."
+  ],
+  "identity_boundary": "An unnamed cell described by MSMT is kept separate from named workers, facilitators, accounts, and IP addresses unless another source links them.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT describes an uncovered Russia-based IT-worker cell, its organization, worktime enforcement, and identity-fraud cooperation.",
+      "locator": "PDF p. 51, Spotlight: Uncovered Russia-based North Korean IT Worker Cell"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-msmt-russia-cell-hierarchy",
+      "type": "relationship",
+      "predicate": "msmt_reported_hierarchical_russia_cell",
+      "value": {
+        "base": "Vladivostok, Russia",
+        "worker_group_count_lower_bound": 5,
+        "operational_groups": 4,
+        "workers_per_group_approx": 10,
+        "supervisor_group": true,
+        "foreign_currency_activity_since": "2024-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 51, Spotlight: Uncovered Russia-based North Korean IT Worker Cell",
+          "quote": "The IT workers are hierarchically organized under a clear chain of command"
+        },
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 51, Spotlight: Uncovered Russia-based North Korean IT Worker Cell",
+          "quote": "The data also identified more than five chat groups on Slack, a workplace messaging platform, associated with the account."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Only the organization and activity described by MSMT are retained; no account or IP selector is published."
+      ]
+    },
+    {
+      "id": "claim-msmt-supervisor-worktime",
+      "type": "skill",
+      "predicate": "msmt_reported_worktime_enforcement",
+      "value": {
+        "minimum_hours_message": "You should work at least 14 hours or more",
+        "tracking": "worktime tracking software installed"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 51, Spotlight: Uncovered Russia-based North Korean IT Worker Cell",
+          "quote": "Worktime tracking software was installed on the devices used by the IT workers, suggesting that minimum working hours were strictly enforced."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The source describes an individual believed to be the supervisor; no identity is inferred."
+      ]
+    },
+    {
+      "id": "claim-msmt-identity-fraud-and-outsourcing",
+      "type": "skill",
+      "predicate": "msmt_reported_it_worker_identity_fraud_and_outsourcing",
+      "value": {
+        "methods": [
+          "genuine but stolen identity documents",
+          "generative-AI-manufactured fake identities",
+          "facilitator-provided identities",
+          "outsourcing work to lower-cost labour markets"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF pp. 68-69, Annex C: Notes on Sectoral Trends",
+          "quote": "North Korean IT workers’ recruitment activities rely on highly sophisticated identity fraud"
+        },
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 69, Annex C: Notes on Sectoral Trends",
+          "quote": "More recently, after securing employment with Western companies, some North Korean IT workers have outsourced their tasks to developers in lower-cost labour markets to maximize profit margins."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The report’s general technique description does not justify attributing a method to a named worker."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "front-company-sinhung-information-technology-trading-corporation",
+  "type": "front_company",
+  "name": "Sinhung Information Technology Trading Corporation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT identifies the company, based on Participating State information, as an IT-worker company maintained by the Munitions Industry Department's 313 General Bureau",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFCE-S01"
+    ]
+  },
+  "legal_or_reported_name": "Sinhung Information Technology Trading Corporation",
+  "organizations": [
+    "313 General Bureau, Munitions Industry Department"
+  ],
+  "caveats": [
+    "Attribute the identification to MSMT Participating State information.",
+    "The record covers source-reported context; current website, corporate registration, officers, and geography require current sources.",
+    "This record reflects the cited MSMT source posture; separate corporate-registry or criminal-adjudication status requires separate sources."
+  ],
+  "aliases": [
+    {
+      "value": "신흥정보기술무역회사",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFCE-S01",
+      "support": "MSMT names Sinhung Information Technology Trading Corporation as a previously non-public IT-worker company maintained by the 313 General Bureau",
+      "locator": "Report p. 21 / PDF p. 23, item 1 and footnote 46"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

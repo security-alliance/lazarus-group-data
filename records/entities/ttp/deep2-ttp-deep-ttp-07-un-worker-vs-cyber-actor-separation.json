@@ -1,0 +1,129 @@
+{
+  "id": "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+  "type": "ttp",
+  "name": "Revenue-generating IT workers and malicious cyber actors are functionally distinct by default, with documented exceptions",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is a defensive synthesis of cited public sources: Official UN human-rights reporting about a State-managed labour system and coordinated diplomatic report-launch statements. The reporting covers system-level conditions; sanctions designation, criminal allegation, adjudication, national incident, and independent re-investigation of MSMT's granular evidence require separate sources. Individual IT worker cyber-operation status and identity attribution require separate evidence, and technique mapping supplies context.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ANZO6-NZ-MFAT-MSMT-2025-10-22",
+      "DROR26-S01-OHCHR-AHRC-61-55",
+      "DROR26-S02-OHCHR-AHRC-61-55-LANDING",
+      "DROR26-S03-JP-MOFA-MSMT-MEDIA-NOTE",
+      "deep2-ttp-deep-ttp-s10-unit42-2024-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+      "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+      "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+      "dpa-s01-a-80-149"
+    ]
+  },
+  "ttps": [
+    "regime-remittance",
+    "report-launch statement versus underlying report",
+    "sector-specific labor evidence boundary",
+    "source-role separation",
+    "team-manager"
+  ],
+  "caveats": [
+    "A/HRC/61/55 adds UN provenance and an evidence boundary; its scope adds only that provenance and boundary.",
+    "A/HRC/61/55's general overseas-worker labor language needs an express sector bridge before applying to DPRK IT workers.",
+    "False-positive caution: A single cluster or person can participate in more than one track. Separation is the default analytic discipline; overlap remains an open question.",
+    "False-positive caution: Bugs, vulnerable dependencies, and copied snippets are common. Intent requires stronger evidence.",
+    "Japan MOFA file 100922716.pdf is a two-page media note; MSMT/2025/2 is a separate document.",
+    "Later reporting documents some overlap; “distinct by default” remains a working rule rather than an absolute claim.",
+    "National mirrors and official translations support provenance and accessibility; corroboration counts remain at the source-family level.",
+    "Shared State management describes organizational structure; case-specific evidence is required before attributing intrusion, espionage, theft or other malicious activity to every revenue worker.",
+    "The approximately ten-percent salary figure is a report-level estimate rather than a universal rule or transaction-level finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-role-and-labor-evidence-boundary",
+      "statements": [
+        "A report-launch statement is not the full report it announces; cite MSMT/2025/2 itself for granular report claims.",
+        "National hosts and official translations of one coordinated statement are one evidentiary publication family.",
+        "General overseas-worker and forced-labor monitoring language does not establish an IT-worker-specific condition without an express sector bridge."
+      ],
+      "source_ids": [
+        "ANZO6-NZ-MFAT-MSMT-2025-10-22",
+        "DROR26-S01-OHCHR-AHRC-61-55",
+        "DROR26-S02-OHCHR-AHRC-61-55-LANDING",
+        "DROR26-S03-JP-MOFA-MSMT-MEDIA-NOTE"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "UN Annex 29 states that IT workers and malicious cyber actors had separate bureaucratic organization, education, and skill sets; workers focused on revenue and were reportedly forbidden from malicious activity, although some accepted client hacking requests despite warnings. This requires analysts to distinguish employment fraud, insider abuse, and recruiter malware rather than collapsing them into one DPRK cyber label."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s10-unit42-2024-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+        "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+        "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-07-un-worker-vs-cyber-actor-separation"
+      ]
+    },
+    {
+      "type": "source-backed-structural-context",
+      "statements": [
+        "A/80/149 refers separately to information-technology workers and cyberthreat operators while describing both as strategically educated, trained, dispatched, managed and controlled within a State labour system.",
+        "The report describes self-funding pressure, assigned revenue quotas and communal work conditions, and reports that workers receive approximately ten percent of generated revenue as salary.",
+        "Shared education and management do not erase the functional distinction: revenue-generating employment and malicious cyber operations should remain separate by default unless a source documents overlap in a specific case."
+      ],
+      "source_ids": [
+        "dpa-s01-a-80-149"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-cl-sta-0237",
+    "cluster-wagemole",
+    "deep2-ttp-deep-ttp-04-shared-residential-work-farm",
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+    "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation"
+  ],
+  "sources": [
+    {
+      "source_id": "dpa-s01-a-80-149",
+      "support": "Supports the distinction between IT workers and cyberthreat operators within a shared State-directed education, dispatch and management system, together with reported quotas, communal work and approximate compensation share",
+      "locator": "A/80/149 paras. 42-43 and 48-49 (PDF pp. 13-16)"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+      "support": "UN Annex 29 reports separate organization and training for revenue-generating IT workers and malicious cyber actors, while noting exceptions",
+      "locator": "Annex 29"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s3-kudelski-contagious-2026-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+      "support": "Kudelski documents a separate recruiter-to-job-seeker malware chain",
+      "locator": "Campaign summary and fake-recruiter repository chain"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s10-unit42-2024-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+      "support": "Unit 42 explicitly links one fake-worker cluster to BeaverTail video-conference phishing",
+      "locator": "Executive Summary and attribution"
+    },
+    {
+      "source_id": "ANZO6-NZ-MFAT-MSMT-2025-10-22",
+      "support": "New Zealand hosts the same coordinated October 22, 2025 MSMT report-launch statement. It supplies national-host provenance, not an independent New Zealand investigation or separate corroboration of granular report claims",
+      "locator": "Opening attribution and body paragraphs 1-4"
+    },
+    {
+      "source_id": "DROR26-S03-JP-MOFA-MSMT-MEDIA-NOTE",
+      "support": "Japan MOFA file 100922716.pdf is a two-page October 22, 2025 joint media note announcing and linking to MSMT/2025/2. It is not the full report and must not support granular identities, entities, geography, TTPs, estimates, or incidents in place of the report itself",
+      "locator": "PDF pp. 1-2; heading 'For Immediate Release / Media Note / October 22, 2025'; first two body paragraphs"
+    },
+    {
+      "source_id": "DROR26-S02-OHCHR-AHRC-61-55-LANDING",
+      "support": "Official OHCHR publication and provenance companion for A/HRC/61/55; it is not independent corroboration of the report's underlying statements",
+      "locator": "Opening paragraphs and link labeled 'report'"
+    },
+    {
+      "source_id": "DROR26-S01-OHCHR-AHRC-61-55",
+      "support": "A/HRC/61/55 paragraph 2 states that MSMT issued a 2025 report on DPRK cybersecurity threats. Footnote 8 points to Japan MOFA file 100922716.pdf. The same UN report's paragraphs 47-54 discuss right-to-work and forced-labor monitoring generally; the phrase 'including of overseas workers' is multi-sector context and does not establish an IT-worker-specific labor condition without an express sector bridge",
+      "locator": "PDF/report p. 2, para. 2 and footnote 8; PDF/report pp. 14-15, paras. 47-54"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

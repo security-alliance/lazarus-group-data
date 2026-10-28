@@ -1,0 +1,70 @@
+{
+  "id": "dfef-cluster-tofu-borrowed-identity-applicant",
+  "type": "cluster",
+  "name": "Tofu customer suspected borrowed-identity applicant",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure with defensive guidance; legal attribution remains at source and service level.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFEF-S01"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "direct-application",
+    "multiple-personas"
+  ],
+  "caveats": [
+    "Searches of deep-first-party-platforms, deep-platform-clusters, deep-sector-cases, affected-organizations, and deep-detection-controls-2 returned zero matching first-party incidents.",
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims.",
+    "The DPRK characterization is Tofu's assessment rather than an official attribution. The source discusses an assessed characterization at aggregate level; person, customer, and identity-theft victim names remain unreported."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Compare application contact details with independently established identity history",
+        "Verify high-risk candidates through a trusted channel not supplied or controlled solely by the applicant",
+        "Treat profile age and apparently valid contact data as insufficient on their own"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S01"
+      ]
+    },
+    {
+      "type": "source-reported-unnamed-incident",
+      "statements": [
+        "Tofu reports that an unnamed customer was one interview round from offering a job to a candidate it assessed as a likely state-sponsored actor, likely North Korea. The application relied on a legitimate, decade-old professional profile and plausible contact data, but cross-channel verification reached the real profile owner, who denied applying.",
+        "Use a real, aged professional profile rather than a newly created account",
+        "Submit contact information that differs from the legitimate profile owner's established contact history",
+        "Advance through nearly the full interview process under a borrowed identity"
+      ],
+      "limitations": [
+        "The DPRK characterization is Tofu's assessment, not an official attribution. No person, customer, or identity-theft victim should be named or inferred.",
+        "No matching first-party incident was found in deep-first-party-platforms, deep-platform-clusters, deep-sector-cases, affected-organizations, or deep-detection-controls-2."
+      ],
+      "source_ids": [
+        "DFEF-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "drh-ttp-continuous-recruitment-integrity-governance"
+  ],
+  "sources": [
+    {
+      "source_id": "DFEF-S01",
+      "support": "Tofu reports that an unnamed customer was one interview round from offering a job to a candidate it assessed as a likely state-sponsored actor, likely North Korea. The application relied on a legitimate, decade-old professional profile and plausible contact data, but cross-channel verification reached the real profile owner, who denied applying. Compare application contact details with independently established identity history Verify high-risk candidates through a trusted channel not supplied or controlled solely by the applicant Treat profile age and apparently valid contact data as insufficient on their own",
+      "locator": "How Tofu Stopped a North Korean Actor (Before the Offer); The Impersonation Era; Identity Fraud is Just the Tip of the Iceberg"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

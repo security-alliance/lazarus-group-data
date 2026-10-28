@@ -1,0 +1,52 @@
+{
+  "id": "ttp-silent-push-tec-guru-2026",
+  "type": "ttp",
+  "name": "Silent Push Tec Guru persona and facilitator-recruitment indicators",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This record preserves the cited publication’s defensive research or advisory description; legal identity requires separate evidence.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "silent-push-2026-09-14-tec-guru"
+    ]
+  },
+  "caveats": [
+    "The technique description is source-bounded; attribution or employment decisions require a separate rule and evidence.",
+    "This public dataset retains no victim details, contact selectors, addresses, credentials, wallets, or private data."
+  ],
+  "identity_boundary": "A source-bounded technique record for Silent Push Tec Guru persona and facilitator-recruitment indicators; an explicit source link is required before connecting it to a person, persona or campaign.",
+  "ttps": [
+    "Silent Push Tec Guru persona and facilitator-recruitment indicators"
+  ],
+  "sources": [
+    {
+      "source_id": "silent-push-2026-09-14-tec-guru",
+      "support": "Silent Push reports a controlled engagement with the suspect persona Tec Guru and an identity/proxy-theft tactic.",
+      "locator": "Analysis section"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ttp-tec-guru-vpn-advice",
+      "type": "note",
+      "predicate": "source_reported_persona_assessment",
+      "value": {
+        "persona": "Tec Guru",
+        "assessment": "Silent Push says technical indicators and speech patterns led it to believe the persona was North Korean"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "silent-push-2026-09-14-tec-guru",
+          "locator": "Analysis section",
+          "quote": "After connecting via Telegram, we asked the suspect NK persona “Tec Guru” about virtual private networks (VPNs); they advised us to use Astrill VPN, a VPN often used by North Korean IT workers"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

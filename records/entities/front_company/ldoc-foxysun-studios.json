@@ -1,0 +1,48 @@
+{
+  "id": "ldoc-foxysun-studios",
+  "type": "front_company",
+  "name": "FoxySun Studios LLC",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The affidavit alleges probable cause that the FoxySun network was used by Yanbian Silverstar actors and that the LLC/domain presentation supported the IT-worker scheme",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-03"
+    ]
+  },
+  "organizations": [
+    "FoxySun Studios LLC"
+  ],
+  "front_companies": [
+    "FoxySun Studios LLC"
+  ],
+  "caveats": [
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "infrastructure": [
+    {
+      "type": "associated-domain-set",
+      "identifier_type": "domain",
+      "count": 1,
+      "values": [
+        "foxysun.com"
+      ],
+      "relationship": "reported-link",
+      "source_ids": [
+        "ldoc-03"
+      ],
+      "note": "Domains are retained as historical indicators associated with the legal-document allegation; domain ownership or current control is not inferred."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-03",
+      "support": "The affidavit alleges probable cause that the FoxySun network was used by Yanbian Silverstar actors and that the LLC/domain presentation supported the IT-worker scheme",
+      "locator": "Affidavit pp. 40-45, ¶¶91-100"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

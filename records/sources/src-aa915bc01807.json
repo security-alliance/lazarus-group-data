@@ -1,0 +1,12 @@
+{
+  "id": "src-aa915bc01807",
+  "publisher": "GitHub",
+  "title": "GitHub public repositories: VeteranSoftDev",
+  "url": "https://api.github.com/users/VeteranSoftDev/repos?per_page=100&sort=updated",
+  "accessed_at": "2026-08-13",
+  "sha256": "398197b01d2484a51c011d9a3a71ac8582754a1b34e7dd1e0e44dc8870d74a58",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

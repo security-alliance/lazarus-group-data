@@ -1,0 +1,306 @@
+{
+  "id": "facilitator-erick-ntekereze-prince",
+  "type": "facilitator",
+  "name": "Erick Ntekereze Prince",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced to 18 months' imprisonment in S.D. Fla. No. 1:25-cr-20021-DPG; this subject-specific adjudicated disposition was verified through 2026-08-12.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dln26-s05",
+      "dln26-s06",
+      "flr6-s15",
+      "gov-1e5d7a8258fa",
+      "gov-b89e91664279"
+    ]
+  },
+  "legal_or_reported_name": "Erick Ntekereze Prince",
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "The indictment's allegations are distinct from this subject's later guilty plea and final judgment.",
+    "Only defendant-specific plea, sentence and role facts in the cited DOJ release are assigned to this person; aggregate enforcement totals remain separate."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-1e5d7a8258fa"
+      ],
+      "value": "Eric Prince"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "criminal-case-docket",
+      "value": "S.D. Fla. No. 1:25-cr-20021-DPG",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "dln26-s06",
+        "flr6-s15",
+        "gov-1e5d7a8258fa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "flr6-s15",
+      "support": "The final judgment identifies Prince's adjudicated disposition in the shared Florida docket",
+      "locator": "S.D. Fla. No. 1:25-cr-20021-DPG, Doc. 92"
+    },
+    {
+      "source_id": "gov-1e5d7a8258fa",
+      "support": "The indictment caption identifies the shared Florida prosecution, S.D. Fla. No. 1:25-cr-20021-DPG | The indictment charges Erick Ntekereze Prince, identifies Eric Prince as an alias, and alleges his Taggcar Inc. staffing role, laptop hosting, unauthorized remote-access installation, and receipt of scheme proceeds",
+      "locator": "S.D. Fla. No. 1:25-cr-20021-DPG, caption; ¶13; ¶¶4–11, PDF pp. 2, 6, 9–12 | S.D. Fla. No. 1:25-cr-20021-DPG, Doc. 3, caption"
+    },
+    {
+      "source_id": "dln26-s05",
+      "support": "Erick Ntekereze Prince pleaded guilty on November 6, 2025, to conspiracy to commit wire fraud and was later sentenced to 18 months in prison, three years of supervised release, and $89,000 in forfeiture",
+      "locator": "Three Guilty Pleas — Southern District of Georgia; Oleksandr Didenko Guilty Plea; Erick Ntekereze Prince Guilty Plea"
+    },
+    {
+      "source_id": "gov-b89e91664279",
+      "support": "The release names Erick Ntekereze Prince as a charged U.S. facilitator and says he received employer laptops and installed remote-access software without authorization to facilitate overseas IT-worker access",
+      "locator": "Press release — allegations, named subjects, organizations, and scheme summary"
+    },
+    {
+      "source_id": "dln26-s06",
+      "support": "The May 6, 2026 DOJ release states that Erick Ntekereze Prince pleaded guilty to conspiracy to commit wire fraud and was sentenced to 18 months in prison, three years of supervised release, and $89,000 in forfeiture.",
+      "locator": "Section “U.S. v. Erick Ntekereze Prince”"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-prince-name-variants",
+      "type": "identity_name",
+      "predicate": "official_name_and_variants",
+      "value": {
+        "name": "Erick Ntekereze Prince",
+        "variants": [
+          "Eric Prince",
+          "Erick Ntekereze"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF pp. 2, 7, caption and ¶13",
+          "quote": "ERICK NTEKEREZE PRINCE, a/k/a ‘Eric Prince’"
+        },
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 7, ¶13",
+          "quote": "Defendant ERICK NTEKEREZE PRINCE, a/k/a Erick Ntekereze"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Charging-document variants do not justify merging unrelated same-name persons."
+      ]
+    },
+    {
+      "id": "claim-prince-taggcar-owner",
+      "type": "organization_affiliation",
+      "predicate": "owned_taggcar",
+      "value": {
+        "organization": "Taggcar Inc.",
+        "role": "owner"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 7, ¶13",
+          "quote": "the owner of Taggcar Inc."
+        }
+      ],
+      "notes": [
+        "The charging document supports the identity relationship; later DOJ disposition reporting supports the scheme role."
+      ]
+    },
+    {
+      "id": "claim-prince-taggcar-scheme-role",
+      "type": "incident",
+      "predicate": "used_taggcar_to_supply_it_workers",
+      "value": {
+        "organization": "Taggcar Inc.",
+        "conduct": "supplied purportedly certified IT workers while knowing they were overseas and using false or stolen identities",
+        "period": "approximately June 2020 to August 2024"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s06",
+          "locator": "U.S. v. Erick Ntekereze Prince, second paragraph",
+          "quote": "Prince used his company Taggcar Inc. to fraudulently supply ‘certified’ IT workers to victim U.S. companies, knowing that the IT workers were located outside the United States and using false and stolen identities to gain employment."
+        }
+      ],
+      "notes": [
+        "Post-conviction DOJ account citing court documents; victims and locations are excluded."
+      ]
+    },
+    {
+      "id": "claim-prince-laptop-remote-access-role",
+      "type": "infrastructure",
+      "predicate": "hosted_laptops_and_installed_remote_access",
+      "value": {
+        "devices": "employer-provided laptops",
+        "software": "remote access software",
+        "purpose": "enable overseas DPRK IT workers to appear U.S.-based"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s06",
+          "locator": "U.S. v. Erick Ntekereze Prince, second paragraph",
+          "quote": "Prince hosted victim U.S. company-provided laptops at New York residences and installed remote access software on those laptops without authorization"
+        }
+      ],
+      "notes": [
+        "Residential details omitted; this is later court-document-supported reporting."
+      ]
+    },
+    {
+      "id": "claim-prince-at-least-three-workers",
+      "type": "incident",
+      "predicate": "enabled_dprk_it_workers_to_obtain_remote_employment",
+      "value": {
+        "worker_count_lower_bound": 3,
+        "period": "approximately June 2020 through August 2024"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s06",
+          "locator": "U.S. v. Erick Ntekereze Prince, second paragraph",
+          "quote": "According to court documents, Prince enabled at least three DPRK IT workers to obtain remote employment at U.S. companies from approximately June 2020 through August 2024."
+        }
+      ],
+      "observed_at": "2026-05-06",
+      "notes": [
+        "This is DOJ's post-conviction account of court documents. It is a lower bound, not a claim that the total was exactly three.",
+        "Worker identities, victim companies, salary totals, and payment destinations are excluded."
+      ]
+    },
+    {
+      "id": "claim-prince-historical-new-york-context",
+      "type": "location",
+      "predicate": "reported_historical_residential_context",
+      "value": {
+        "country": "United States",
+        "region": "New York",
+        "granularity": "state",
+        "context": "residences used to host employer-provided laptops during the adjudicated scheme",
+        "period": "approximately June 2020 through August 2024"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s06",
+          "locator": "U.S. v. Erick Ntekereze Prince, second paragraph",
+          "quote": "Prince hosted victim U.S. company-provided laptops at New York residences"
+        }
+      ],
+      "notes": [
+        "Coarse historical context only. No city, street address, residence identity, ownership inference, or present location is retained.",
+        "The period reflects the surrounding DOJ scheme account and does not prove continuous residence throughout every date."
+      ]
+    },
+    {
+      "id": "claim-prince-guilty-plea",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty",
+      "value": {
+        "offense": "conspiracy to commit wire fraud and mail fraud",
+        "count": 2
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s15",
+          "locator": "PDF p. 1, judgment",
+          "quote": "pleaded guilty to count 2 of the Indictment"
+        },
+        {
+          "source_id": "flr6-s15",
+          "locator": "PDF p. 1, offense table",
+          "quote": "18 U.S.C. § 1349 / Conspiracy to commit wire fraud and mail fraud"
+        }
+      ],
+      "observed_at": "2026-05-06"
+    },
+    {
+      "id": "claim-prince-imprisonment",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment",
+      "value": {
+        "imprisonment_months": 18
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s15",
+          "locator": "PDF p. 2, Imprisonment",
+          "quote": "a total term of 18 months as to count 2"
+        }
+      ],
+      "observed_at": "2026-05-06"
+    },
+    {
+      "id": "claim-prince-supervised-release",
+      "type": "legal_event",
+      "predicate": "ordered_supervised_release",
+      "value": {
+        "term_years": 3
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s15",
+          "locator": "PDF p. 3, Supervised Release",
+          "quote": "Upon release from imprisonment, the defendant shall be on Supervised Release for a term of three (3) years."
+        }
+      ],
+      "observed_at": "2026-05-06"
+    },
+    {
+      "id": "claim-prince-forfeiture",
+      "type": "legal_event",
+      "predicate": "ordered_forfeiture",
+      "value": {
+        "amount_usd": 89000,
+        "basis": "amount DOJ reports DPRK IT workers paid for assistance"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dln26-s06",
+          "locator": "U.S. v. Erick Ntekereze Prince, opening paragraph",
+          "quote": "Prince was also ordered to forfeit $89,000, which is the amount the DPRK IT workers paid him for his assistance with the scheme."
+        }
+      ],
+      "observed_at": "2026-05-06",
+      "notes": [
+        "Public-review tier due to monetary detail; no account or payment selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Erick Ntekereze Prince is defendant 3 in S.D. Fla. No. 1:25-cr-20021-DPG and the person whose guilty plea and sentence are recorded in the final judgment. ‘Eric Prince’ and ‘Erick Ntekereze’ are charging-document variants; keep the subject separate from unrelated same-name persons. Indictment allegations remain distinct from adjudicated plea, judgment, and sentence facts."
+}

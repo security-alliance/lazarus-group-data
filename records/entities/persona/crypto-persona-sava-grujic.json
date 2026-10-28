@@ -1,0 +1,154 @@
+{
+  "id": "crypto-persona-sava-grujic",
+  "type": "persona",
+  "name": "Sava Grujic / AristoK3",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CoinDesk investigative reporting supports a historical employment-persona and incident relationship. It supplies no verified civil or legal identity, nationality, criminal charge, conviction, sanctions designation, present location, current activity, or control of any payment address.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-coindesk-2024-10-02"
+    ]
+  },
+  "organizations": [
+    "Sushi / MISO"
+  ],
+  "ttps": [
+    "CoinDesk-reported malicious-code insertion in a historical MISO incident"
+  ],
+  "caveats": [
+    "CoinDesk independently reports Sava Grujic and the online pseudonym AristoK3 as a developer referred to MISO and describes the person/organization as suspected DPRK-linked in the context of the 2021 MISO theft. This supports a research-attributed persona/incident relationship; legal identity and definitive DPRK nationality remain unestablished.",
+    "One investigative publisher family supports this persona. Payment linkage or incident co-occurrence provides contextual association; verified natural person or present controller status requires a source bridge.",
+    "Only the CoinDesk-supported persona and relationship claims are admitted; upstream-only account, image, residence, contact, identity-document, and payment-address material is excluded."
+  ],
+  "aliases": [
+    {
+      "value": "AristoK3",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-miso-incident-relationship",
+      "persona_label": "Sava Grujic",
+      "online_pseudonym": "AristoK3",
+      "reported_role": "freelance developer referred to MISO",
+      "reported_behavior": "CoinDesk reports a malicious-code commit that redirected funds",
+      "criminal_or_legal_finding": false,
+      "payment_address_retained": false,
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-coindesk-2024-10-02",
+      "support": "Named persona, project relationship, and suspected DPRK-worker context",
+      "locator": "Section heading ‘A $3M hack’; paragraphs beginning ‘In September 2021…’ and ‘Joseph Delong…’; paragraphs describing Sava Grujic, AristoK3, the referral to MISO, and similarities observed by former Sushi personnel"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-crypto-persona-sava-grujic-source-reported-persona-label-round57",
+      "type": "identity_name",
+      "predicate": "coindesk_reported_historical_persona_label",
+      "value": {
+        "label": "Sava Grujic",
+        "verified_civil_or_legal_identity": false,
+        "natural_person_or_organization_resolved": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘A $3M hack’; paragraphs beginning ‘In September 2021…’ and ‘Joseph Delong…’; paragraphs describing Sava Grujic, AristoK3, the referral to MISO, and similarities observed by former Sushi personnel.",
+          "quote": "Joseph Delong, Sushi's chief technology officer at the time, traced the MISO heist to two freelance developers who helped to build it: individuals using the names Anthony Keller and Sava Grujic."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "The source-printed label is an employment persona, not a verified civil or legal identity."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-sava-grujic-aristok3-pseudonym-round57",
+      "type": "alias",
+      "predicate": "coindesk_reported_online_pseudonym",
+      "value": {
+        "persona_label": "Sava Grujic",
+        "pseudonym": "AristoK3",
+        "present_account_or_controller_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘A $3M hack’; paragraphs beginning ‘In September 2021…’ and ‘Joseph Delong…’; paragraphs describing Sava Grujic, AristoK3, the referral to MISO, and similarities observed by former Sushi personnel.",
+          "quote": "Like Keller, Grujic supplied a resume with his supposed real name rather than his online pseudonym, “AristoK3.”"
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "CoinDesk explicitly connects the pseudonym to the historical persona presentation; no current account is attributed."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-sava-grujic-miso-referral-round57",
+      "type": "employment",
+      "predicate": "publisher_reported_historical_miso_referral",
+      "value": {
+        "organization": "Sushi / MISO",
+        "referring_persona": "Anthony Keller",
+        "same_natural_person_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘A $3M hack’; paragraphs beginning ‘In September 2021…’ and ‘Joseph Delong…’; paragraphs describing Sava Grujic, AristoK3, the referral to MISO, and similarities observed by former Sushi personnel.",
+          "quote": "Keller referred Grujic to MISO and the two presented themselves as “friends,” according to Delong."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "The referral relationship does not merge Sava Grujic with Anthony Keller or establish either as a civil identity."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-sava-grujic-miso-incident-report-round57",
+      "type": "incident",
+      "predicate": "coindesk_reported_malicious_code_commit",
+      "value": {
+        "project": "MISO",
+        "reported_behavior": "malicious-code commit redirecting funds",
+        "payment_address_retained": false,
+        "criminal_or_legal_finding": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘A $3M hack’; paragraphs beginning ‘In September 2021…’ and ‘Joseph Delong…’; paragraphs describing Sava Grujic, AristoK3, the referral to MISO, and similarities observed by former Sushi personnel.",
+          "quote": "On Sept. 2, Grujic committed malicious code to the MISO platform under his \"Aristok3\" screen name, redirecting $3 million to a new cryptocurrency wallet, based on a screenshot provided to CoinDesk."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "Investigative reporting, not a charge, conviction, adjudication, or verified natural-person finding."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "CoinDesk-reported historical employment persona. The displayed name, pseudonym, project relationship, and payment linkage leave civil identity, nationality, present controller, and current activity unresolved."
+}

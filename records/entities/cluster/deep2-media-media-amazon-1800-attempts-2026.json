@@ -1,0 +1,54 @@
+{
+  "id": "deep2-media-media-amazon-1800-attempts-2026",
+  "type": "cluster",
+  "name": "Amazon 1,800 suspected infiltration attempts",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party Amazon employer statement about suspected applicant detections; it is an employer report rather than an identity adjudication, confirmed-hire count, or criminal finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-media-amazon-schmidt-linkedin-2025"
+    ]
+  },
+  "organizations": [
+    "Amazon"
+  ],
+  "locations": [
+    "Global/U.S. hiring pipeline"
+  ],
+  "ttps": [
+    "direct-application",
+    "fabricated-education-history",
+    "fabricated-resume",
+    "remote-desktop"
+  ],
+  "caveats": [
+    "Suspected attempts remain suspected attempts; confirm DPRK identities or hires only with supporting evidence.",
+    "Latency is one correlated signal; nationality assessment requires corroboration.",
+    "The evidence supports aggregate treatment rather than an individual record."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Amazon CSO Stephen Schmidt stated that Amazon stopped more than 1,800 suspected DPRK operatives from joining between April 2024 and December 18, 2025.",
+        "Schmidt reported 27 percent quarter-over-quarter growth in applications Amazon labeled DPRK-affiliated and described AI screening paired with human verification, background and credential checks, structured interviews, application anomalies, geographic inconsistencies, and links to nearly 200 high-risk institutions.",
+        "Amazon's labels are internal risk assessments: more than 1,800 suspected attempts are not 1,800 confirmed DPRK identities, employees, successful hires, or criminal findings."
+      ],
+      "source_ids": [
+        "deep2-media-amazon-schmidt-linkedin-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-media-amazon-schmidt-linkedin-2025",
+      "support": "Amazon CSO Stephen Schmidt stated that Amazon stopped more than 1,800 suspected DPRK operatives from joining between April 2024 and December 18, 2025. Schmidt reported 27 percent quarter-over-quarter growth in applications Amazon labeled DPRK-affiliated and described AI screening paired with human verification, background and credential checks, structured interviews, application anomalies, geographic inconsistencies, and links to nearly 200 high-risk institutions. Amazon's labels are internal risk assessments: more than 1,800 suspected attempts are not 1,800 confirmed DPRK identities, employees, successful hires, or criminal findings",
+      "locator": "SocialMediaPosting JSON-LD articleBody; paragraphs beginning ‘At Amazon’ and ‘Our detections’"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

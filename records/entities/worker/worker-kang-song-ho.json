@@ -1,0 +1,332 @@
+{
+  "id": "worker-kang-song-ho",
+  "type": "worker",
+  "name": "Kang Song Ho",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT Annex 7 official multilateral reporting; named by an issuing government or multilateral sanctions-monitoring source; it is an official source summary. Criminal charge, conviction, sanctions designation, and adjudication require separate records; an independent source family requires a separate source. The source supplies no charging determination.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Kang Song Ho",
+  "organizations": [
+    "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+  ],
+  "locations": [
+    "China (Shenyang/Dandong)"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "KMCTC-wide methods or practices remain distinct from Kang Song Ho personally.",
+    "This is same-source depth from the already-admitted MSMT/2025/2 report; corroboration remains within the MSMT/2025/2 source family.",
+    "The already-represented employment alias, presented-country field, email/contact and account selectors, client/victim identities, passport/identity details, and precise locations are excluded.",
+    "The three person-specific Annex 7 rows support historical contract-target geography and listed/aggregate rate and workload metadata; duration and current or continuous employment require employment records."
+  ],
+  "aliases": [
+    {
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ],
+      "value": "roberto629"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-reported-historical-contract-target-engagement-summary",
+      "historical_context": "MSMT Annex 7 listed employment engagements as of the report's publication",
+      "listed_engagement_count": 3,
+      "contract_target_geography": [
+        {
+          "country": "Canada",
+          "listed_engagement_count": 1
+        },
+        {
+          "country": "United States",
+          "listed_engagement_count": 2
+        }
+      ],
+      "listed_engagements": [
+        {
+          "contract_target_country": "Canada",
+          "hourly_rate_usd": 34,
+          "weekly_hours": 30
+        },
+        {
+          "contract_target_country": "United States",
+          "hourly_rate_usd": 30,
+          "weekly_hours": 30
+        },
+        {
+          "contract_target_country": "United States",
+          "hourly_rate_usd": 30,
+          "weekly_hours": 25
+        }
+      ],
+      "hourly_rate_usd_range": {
+        "minimum": 30,
+        "maximum": 34
+      },
+      "weekly_hours_range": {
+        "minimum": 25,
+        "maximum": 30
+      },
+      "duration_reported": false,
+      "client_or_victim_names_retained": false,
+      "employment_alias_repeated_or_added": false,
+      "email_contact_or_account_selectors_retained": false,
+      "passport_or_identity_details_retained": false,
+      "present_employment_or_location_inferred": false,
+      "group_level_methods_projected_to_subject": false,
+      "independent_corroboration": false,
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 7 lists three Kang Song Ho engagements: Canada at $34/hour for 30 hours/week, and two United States rows at $30/hour for 30 and 25 hours/week | Annex 7 provides employment aliases/accounts and states the delegation used Chinese nationals as banking proxies. Annex 7 also reproduces identity/passport photos for 14 members; sensitive document numbers are intentionally omitted here",
+      "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108) | Annex 7 employment table, PDF p. 110 / printed p. 108 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kang-song-ho-reported-name",
+      "type": "identity_name",
+      "predicate": "msmt_reported_worker_name",
+      "value": {
+        "name": "Kang Song Ho"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, printed p. 108 / PDF p. 110",
+          "quote": "Kang Song Ho"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State employment-table name; no independent civil-identity bridge retained."
+      ]
+    },
+    {
+      "id": "claim-kang-song-ho-kmctc-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_kmctc_worker_affiliation",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation (KMCTC)",
+        "role": "IT worker"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Case Study: Korea Mangyongdae Computer Technology Corporation, PDF p. 58 / printed p. 56, opening paragraph",
+          "quote": "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 introduction, printed p. 107 / PDF p. 109",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, printed p. 108 / PDF p. 110",
+          "quote": "Kang Song Ho"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The source describes the table as employment information for KMCTC IT workers; no client, rate, account, or precise site data is included."
+      ]
+    },
+    {
+      "id": "claim-kang-song-ho-roberto-handle",
+      "type": "account",
+      "predicate": "historical_source_reported_employment_handle",
+      "value": {
+        "handle": "roberto629",
+        "status": "historical",
+        "platform": "unspecified"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, Kang Song Ho row, printed p. 108 / PDF p. 110",
+          "quote": "roberto629"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source label only; the source-published contact selector is excluded and present control was not tested.",
+        "Platform remains unspecified. A same-login GitHub endpoint was reviewed and rejected as a non-merge because MSMT does not identify GitHub or bridge that endpoint to Kang Song Ho."
+      ]
+    },
+    {
+      "id": "claim-kang-song-ho-roberto-canada-engagement",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "employment_label": "roberto629",
+        "presented_country": "Argentina",
+        "client_country": "Canada",
+        "duration": "not stated"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, first Kang Song Ho / roberto629 row, printed p. 108 / PDF p. 110; selector and rate omitted",
+          "quote": "roberto629 \nArgentina \nCanada \n$34/hour, 30 \nhours/week \n-"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source-table row. The contact selector and rate are excluded; presented country is persona context, not civil nationality or physical location."
+      ]
+    },
+    {
+      "id": "claim-kang-song-ho-roberto-us-engagement-one",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "employment_label": "roberto629",
+        "presented_country": "Argentina",
+        "client_country": "United States",
+        "duration": "not stated",
+        "reported_weekly_hours": 30,
+        "separate_table_row": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, second Kang Song Ho / roberto629 row, printed p. 108 / PDF p. 110; selector and rate omitted",
+          "quote": "roberto629 \nArgentina \nUnited \nStates \n$30/hour, 30 \nhours/week \n-"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Separate historical source-table row. The contact selector and rate are excluded; the table does not identify the client or establish continuous engagement."
+      ]
+    },
+    {
+      "id": "claim-kang-song-ho-roberto-us-engagement-two",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "employment_label": "roberto629",
+        "presented_country": "Argentina",
+        "client_country": "United States",
+        "duration": "not stated",
+        "reported_weekly_hours": 25,
+        "separate_table_row": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, third Kang Song Ho / roberto629 row, printed p. 108 / PDF p. 110; selector and rate omitted",
+          "quote": "roberto629 \nArgentina \nUnited \nStates \n$30/hour, 25 \nhours/week \n-"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Separate historical source-table row. The contact selector and rate are excluded; the table does not identify the client or establish continuous engagement."
+      ]
+    },
+    {
+      "id": "claim-kang-song-ho-msmt-contract-target-summary-round67",
+      "type": "employment",
+      "predicate": "msmt_reported_historical_contract_target_engagement_summary",
+      "value": {
+        "listed_engagement_count": 3,
+        "contract_target_geography": [
+          {
+            "country": "Canada",
+            "listed_engagement_count": 1
+          },
+          {
+            "country": "United States",
+            "listed_engagement_count": 2
+          }
+        ],
+        "listed_engagements": [
+          {
+            "contract_target_country": "Canada",
+            "hourly_rate_usd": 34,
+            "weekly_hours": 30
+          },
+          {
+            "contract_target_country": "United States",
+            "hourly_rate_usd": 30,
+            "weekly_hours": 30
+          },
+          {
+            "contract_target_country": "United States",
+            "hourly_rate_usd": 30,
+            "weekly_hours": 25
+          }
+        ],
+        "hourly_rate_usd_range": {
+          "minimum": 30,
+          "maximum": 34
+        },
+        "weekly_hours_range": {
+          "minimum": 25,
+          "maximum": 30
+        },
+        "duration_reported": false,
+        "client_or_victim_names_retained": false,
+        "employment_alias_repeated_or_added": false,
+        "email_contact_or_account_selectors_retained": false,
+        "passport_or_identity_details_retained": false,
+        "present_employment_or_location_inferred": false,
+        "group_level_methods_projected_to_subject": false,
+        "independent_corroboration": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108); alias and contact selector omitted",
+          "quote": "Canada \n$34/hour, 30 \nhours/week"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108); alias and contact selector omitted",
+          "quote": "United \nStates \n$30/hour, 30 \nhours/week"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, Kang Song Ho rows, PDF file p. 110 (printed p. 108); alias and contact selector omitted",
+          "quote": "United \nStates \n$30/hour, 25 \nhours/week"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Person-specific Annex 7 rows support only historical contract-target countries and listed/aggregate rate and workload metadata; duration and current or continuous employment are not established.",
+        "The already-represented employment alias is not repeated. Email/contact and account selectors, client/victim identities, passport/identity details, presented-country context, and precise locations are excluded.",
+        "Same admitted MSMT document only: no independent corroboration, new source family, or projection of KMCTC-wide methods to Kang Song Ho."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "MSMT-reported worker identity only. The historical handle roberto629 is source-scoped and leaves present account control and civil identity unresolved; keep records separate by name or image similarity."
+}

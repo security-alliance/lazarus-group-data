@@ -1,0 +1,76 @@
+{
+  "id": "dimf-ttp-source-qualified-team-supervision-remittance-pressure",
+  "type": "ttp",
+  "name": "Source-qualified team supervision and remittance pressure",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S01",
+      "DIMF-S08"
+    ]
+  },
+  "ttps": [
+    "controlled-residence",
+    "regime-remittance",
+    "team-structure"
+  ],
+  "caveats": [
+    "Attribute all numerical or organizational claims to the specific interview source and period.",
+    "Protect sources, and describe coerced workers as subjects of reporting rather than uniformly willing intelligence operatives.",
+    "Two reputable interviews with former DPRK-linked sources provide first-person context; organization chart and current program-wide rates remain unestablished."
+  ],
+  "infrastructure": [
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S01",
+        "DIMF-S08"
+      ]
+    },
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "Workers may operate in supervised teams under strong earnings and remittance pressure, with performance expectations and controlled living arrangements shaping how identities, applications, and jobs are distributed."
+      ],
+      "limitations": [
+        "Two reputable interviews with former DPRK-linked sources provide first-person context, but they do not establish a universal organization chart or current program-wide rates.",
+        "Attribute all numerical or organizational claims to the specific interview source and period.",
+        "Do not identify protected sources or portray coerced workers as uniformly willing intelligence operatives."
+      ],
+      "source_ids": [
+        "DIMF-S01",
+        "DIMF-S08"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "DRH-F01",
+    "DRH-F03",
+    "existing BBC tiered-management TTP"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S08",
+      "support": "Workers may operate in supervised teams under strong earnings and remittance pressure, with performance expectations and controlled living arrangements shaping how identities, applications, and jobs are distributed",
+      "locator": "Sections describing worker selection, overseas deployment, supervisory pressure, remittance, multiple jobs, and the relationship between IT work and cyber objectives"
+    },
+    {
+      "source_id": "DIMF-S01",
+      "support": "Workers may operate in supervised teams under strong earnings and remittance pressure, with performance expectations and controlled living arrangements shaping how identities, applications, and jobs are distributed",
+      "locator": "Opening; sections on recruitment, team organization, wages and remittance, identity lending, and escape"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

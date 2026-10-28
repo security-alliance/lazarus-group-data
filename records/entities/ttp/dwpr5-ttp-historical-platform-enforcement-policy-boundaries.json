@@ -1,0 +1,127 @@
+{
+  "id": "dwpr5-ttp-historical-platform-enforcement-policy-boundaries",
+  "type": "ttp",
+  "name": "Historical North Korea platform enforcement and provider policy boundaries",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party historical company representation and current provider policy context. Fiverr's 2019 disclosure covers historical sellers located in North Korea; attribution to DPRK IT workers, fraudulent applicants, state actors, or a particular service requires separate evidence. Provider restrictions state policy boundaries, while legal findings, observed incidents, and enforcement efficacy require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DWPR5-S01",
+      "DWPR5-S05",
+      "DWPR5-S06",
+      "DWPR5-S11",
+      "DWPR5-S18",
+      "DWPR5-S20"
+    ]
+  },
+  "ttps": [
+    "false-location",
+    "freelance-platform",
+    "payment-platform"
+  ],
+  "caveats": [
+    "Provider restrictions and policy statements are prospective guidance rather than observed DPRK IT-worker incidents.",
+    "The sellers' role is reported; DPRK IT-worker and state-agent classifications require separate evidence.",
+    "Third-country contractor involvement is contracting context; sanctions assessment uses case-specific evidence.",
+    "Geoblocking records a service restriction; real-world identity and third-country operation require separate evidence.",
+    "IP and current location provide network context; they supply no nationality finding.",
+    "The source leaves the type of services sold unspecified.",
+    "Identity documents, selfies, liveness recordings, addresses, phone numbers, emails, tax records, payment details, credentials, device identifiers, IP addresses, and raw screening reports stay unreproduced.",
+    "A policy describes intended controls; enforcement efficacy requires evidence.",
+    "Platform-wide fraud metrics describe platform-wide activity; DPRK estimates require separate measurement.",
+    "Keep fake-interview malware separate from fraudulent employment unless a first-party source establishes the overlap.",
+    "Keep historical North Korea platform access distinct from a DPRK IT-worker attribution.",
+    "Face, accent, language, nationality, travel, time zone, VPN use, location mismatch, and payment-method change require corroboration before an adverse conclusion.",
+    "Omit revenue figures as unnecessary to the defensive finding.",
+    "Payment-beneficiary review remains private and compliance-led; sensitive financial selectors are excluded from the public dataset.",
+    "A persona is a reported platform identity, while legal identity and platform verification remain separate questions.",
+    "Platform controls, restrictions, and verification outcomes are review inputs; DPRK affiliation, legal identity, nationality, work location, and sole-operator control require corroborating evidence.",
+    "Publish provider-level controls and limitations; private account-level evidence remains outside the record.",
+    "Retain only minimal control decisions and provenance; people, personas, accounts, entities, private profiles, payment identifiers, addresses, credentials, images, and raw screening artifacts stay outside the record.",
+    "Sanctions, employment, criminal, and identity checks have jurisdictional and methodological limits; document exactly what was checked and when.",
+    "Use legal and compliance review for actual sanctions decisions.",
+    "Use multiple explainable signals, proportional human review, correction, and appeal; face, accent, language, nationality, travel, time zone, VPN use, location mismatch, or payment change alone are insufficient for adverse decisions.",
+    "Use multiple independently explainable signals, human review, proportionality, correction, and appeal."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-platform-and-current-provider-policy-context",
+      "statements": [
+        "Fiverr publicly represented in 2019 that it had historically hosted a small number of sellers in North Korea, had taken steps to terminate their accounts, implemented automated geoblocking, and relied in part on payment-processor sanctions controls.",
+        "Upwork, Freelancer.com, HireGlobal, Remote, and Oyster explicitly restrict North Korea in platform access, work location, payment destination, or service availability. HireGlobal uniquely ties the worker's represented work location and payment destination to sanctions status."
+      ],
+      "limitations": [
+        "Do not classify the sellers as DPRK IT workers or state agents.",
+        "Do not infer the type of services sold.",
+        "Do not imply geoblocking establishes real-world identity or prevents third-country operation.",
+        "Omit revenue figures as unnecessary to the defensive finding.",
+        "Do not treat a policy as proof of enforcement efficacy.",
+        "Do not infer nationality from IP or current location.",
+        "Do not equate a third-country contractor with a sanctions violation.",
+        "Use legal and compliance review for actual sanctions decisions.",
+        "The provider restrictions and policy statements are not observed DPRK IT-worker incidents.",
+        "Platform controls, restrictions, and verification outcomes are review inputs; none independently proves or excludes DPRK affiliation, legal identity, nationality, work location, or sole operator control.",
+        "Use multiple explainable signals, proportional human review, correction, and appeal; do not make adverse decisions from face, accent, language, nationality, travel, time zone, VPN use, location mismatch, or payment change alone.",
+        "Retain only minimal control decisions and provenance. No people, personas, accounts, entities, private profiles, payment identifiers, addresses, credentials, images, or raw screening artifacts are included.",
+        "Persona is not legal identity, and platform verification is not legal attribution.",
+        "No adverse conclusion may rest on face, accent, language, nationality, travel, time zone, VPN use, location mismatch, or payment-method change alone.",
+        "Use multiple independently explainable signals, human review, proportionality, correction, and appeal.",
+        "Publish provider-level controls and limitations, not private account-level evidence.",
+        "Do not reproduce identity documents, selfies, liveness recordings, addresses, phone numbers, emails, tax records, payment details, credentials, device identifiers, IP addresses, or raw screening reports.",
+        "Do not turn platform-wide fraud metrics into DPRK estimates.",
+        "Keep historical North Korea platform access distinct from a DPRK IT-worker attribution.",
+        "Keep fake-interview malware separate from fraudulent employment unless a first-party source establishes the overlap.",
+        "Sanctions, employment, criminal, and identity checks have jurisdictional and methodological limits; document exactly what was checked and when.",
+        "Payment-beneficiary review should remain private and compliance-led; no sensitive financial selector belongs in the public dataset."
+      ],
+      "source_ids": [
+        "DWPR5-S01",
+        "DWPR5-S05",
+        "DWPR5-S06",
+        "DWPR5-S11",
+        "DWPR5-S18",
+        "DWPR5-S20"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfp-ttp-upwork-verification-boundary"
+  ],
+  "sources": [
+    {
+      "source_id": "DWPR5-S01",
+      "support": "Fiverr stated that it historically had a small number of sellers in North Korea, had taken steps to terminate existing North Korea accounts, implemented automated geoblockers in the first quarter of 2019, and noted that third-party payment processors used controls intended to prevent dealings with comprehensively sanctioned jurisdictions and designated persons. Do not label the sellers as DPRK IT workers or government actors. Omit revenue figures and any unsupported inference about services, identities, or later evasion. Fiverr publicly represented in 2019 that it had historically hosted a small number of sellers in North Korea, had taken steps to terminate their accounts, implemented automated geoblocking, and relied in part on payment-processor sanctions controls",
+      "locator": "Dated March 15, 2019; General, response to comment 15; HTML lines 243-258 in the rendered filing"
+    },
+    {
+      "source_id": "DWPR5-S20",
+      "support": "Oyster says it cannot support hiring in the Democratic People's Republic of Korea among other listed sanctioned locations. Do not infer observed DPRK workers or enforcement efficacy from availability policy. Upwork, Freelancer.com, HireGlobal, Remote, and Oyster explicitly restrict North Korea in platform access, work location, payment destination, or service availability. HireGlobal uniquely ties the worker's represented work location and payment destination to sanctions status",
+      "locator": "Sanctioned countries list; Korea (the Democratic People's Republic of) entry"
+    },
+    {
+      "source_id": "DWPR5-S18",
+      "support": "Remote lists North Korea among locations where its Contractor of Record service is unavailable. Availability policy is not an observed enforcement case. Upwork, Freelancer.com, HireGlobal, Remote, and Oyster explicitly restrict North Korea in platform access, work location, payment destination, or service availability. HireGlobal uniquely ties the worker's represented work location and payment destination to sanctions status",
+      "locator": "Geographic Restrictions; Asia; North Korea entry"
+    },
+    {
+      "source_id": "DWPR5-S05",
+      "support": "Upwork states that businesses or individuals in North Korea may not register for or use the platform and that previously suspended users may not create replacement accounts. Policy language is not evidence that evasion cannot occur or that a user outside North Korea is lawful. Upwork, Freelancer.com, HireGlobal, Remote, and Oyster explicitly restrict North Korea in platform access, work location, payment destination, or service availability. HireGlobal uniquely ties the worker's represented work location and payment destination to sanctions status",
+      "locator": "What are the restrictions on eligibility to use Upwork?; Location restrictions"
+    },
+    {
+      "source_id": "DWPR5-S06",
+      "support": "Freelancer.com says users or businesses based in North Korea are not permitted to use the site and that accounts closed or suspended under this restriction will not be reinstated. Do not infer a DPRK IT-worker incident or effective detection from the policy alone. Upwork, Freelancer.com, HireGlobal, Remote, and Oyster explicitly restrict North Korea in platform access, work location, payment destination, or service availability. HireGlobal uniquely ties the worker's represented work location and payment destination to sanctions status",
+      "locator": "Restricted Countries and Regions; North Korea entry; Account closure and reinstatement statement"
+    },
+    {
+      "source_id": "DWPR5-S11",
+      "support": "HireGlobal requires workforce members not to reside or work from North Korea, not to route funds to financial institutions in prohibited regions, and not to appear on specified sanctions or export-control lists; changes in status must be disclosed. Contractual representations and list screening are controls, not proof of actual location or beneficial recipient. Do not publish worker or payment records. Upwork, Freelancer.com, HireGlobal, Remote, and Oyster explicitly restrict North Korea in platform access, work location, payment destination, or service availability. HireGlobal uniquely ties the worker's represented work location and payment destination to sanctions status",
+      "locator": "Section 5 representations and warranties; Definitions of Prohibited Regions and Prohibited List; Termination and payment consequences"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

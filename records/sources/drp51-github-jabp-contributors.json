@@ -1,0 +1,12 @@
+{
+  "id": "drp51-github-jabp-contributors",
+  "publisher": "GitHub",
+  "title": "Complete public contributor response for kanbei65/jab-p",
+  "url": "https://api.github.com/repos/kanbei65/jab-p/contributors?per_page=100&anon=1",
+  "accessed_at": "2026-08-16",
+  "sha256": "7fd599fbc60677f02e92d246ae9dd8338f0fe38e2774f9cfea5f95377c9bd40f",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

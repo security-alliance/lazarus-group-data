@@ -1,0 +1,161 @@
+{
+  "id": "un-2020-kwon-kwang-ho",
+  "type": "worker",
+  "name": "Kwon Kwang Ho",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting reproduces Member State information. It records no criminal charge, conviction, UN Committee designation, or finding of present activity.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dumw48-un-s-2020-840"
+    ]
+  },
+  "legal_or_reported_name": "Kwon Kwang Ho",
+  "organizations": [
+    "Munitions Industry Department"
+  ],
+  "locations": [
+    "Yanji, Jilin Province, China"
+  ],
+  "caveats": [
+    "China's response records DPRK employment contracts expiring by 22 December 2019; Kwon's individual departure and present location remain unresolved.",
+    "Exact-full-name GitHub discovery returned zero users at the cutoff.",
+    "Historical China context describes the source period; residence, present location, current role, and current activity remain unresolved.",
+    "OpenSanctions/RUSI reproduces the same UN-derived name, team-leader role, Yanji location, and period; it is a derivative crosswalk rather than independent corroboration.",
+    "Seven later complete UN report extractions produced zero exact audited Latin-name hits; this bounded search covers those extractions and spelling variants, with lifetime absence outside its scope.",
+    "The Latin-script name is retained exactly as printed in S/2020/840; the source leaves Korean-script form and civil identity unreported.",
+    "The person-specific statements are Member State information reproduced by the UN Panel; they are source-qualified statements rather than a criminal charge, conviction, UN Committee designation, or adjudicated finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "public-database-derivative-crosswalk",
+      "provider": "OpenSanctions DPRK Reports / RUSI",
+      "entity_id": "kprusi-1184abace805500d5be3c99929ba8d70c0c3984a",
+      "url": "https://www.opensanctions.org/entities/kprusi-1184abace805500d5be3c99929ba8d70c0c3984a/",
+      "independent_source_family": false,
+      "handling": "discovery crosswalk only"
+    },
+    {
+      "type": "un-panel-member-state-reported-team-leader",
+      "reported_name": "Kwon Kwang Ho",
+      "reported_role": "leader of a seven-person DPRK information-technology-worker team",
+      "reported_team_size": 7,
+      "reported_parent_organization": "Munitions Industry Department",
+      "historical_location_context": "Yanji, Jilin Province, China",
+      "historical_period": "August 2019 to early 2020",
+      "present_location_inferred": false,
+      "source_ids": [
+        "dumw48-un-s-2020-840"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dumw48-un-s-2020-840",
+      "support": "Names Kwon Kwang Ho and supports the source-scoped role, relationship, and historical-location claims retained in this record, with Member State attribution",
+      "locator": "PDF file p. 33, paragraphs 107-109, visually reviewed"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-un-2020-kwon-kwang-ho-source-printed-name",
+      "type": "identity_name",
+      "predicate": "un_report_source_printed_name",
+      "value": {
+        "name": "Kwon Kwang Ho",
+        "script": "Latin"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 33, paragraphs 107-109, visually reviewed",
+          "quote": "Kwon Kwang Ho"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Exact source-printed form only; Korean-script and civil-identity forms are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kwon-kwang-ho-reported-team-leader-role",
+      "type": "employment",
+      "predicate": "member_state_reported_it_worker_team_leader",
+      "value": {
+        "reported_role": "leader of a seven-person DPRK information-technology-worker team",
+        "reported_team_size": 7,
+        "current_role_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 33, paragraphs 107-109, visually reviewed",
+          "quote": "The fourth team, of seven information technology workers, led by Kwon Kwang Ho, arrived in Yanji in August 2019 and remained there as of early 2020."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kwon-kwang-ho-reported-mid-subordination",
+      "type": "organization_affiliation",
+      "predicate": "member_state_reported_team_subordination",
+      "value": {
+        "organization": "Munitions Industry Department",
+        "scope": "collective statement covering four Yanji groups",
+        "individual_title_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 33, paragraphs 107-109, visually reviewed",
+          "quote": "According to the information, all of the groups are subordinate to the Munitions Industry Department"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "The subordination statement is collective and does not establish an individual employment title."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kwon-kwang-ho-historical-location-context",
+      "type": "location",
+      "predicate": "un_reported_historical_location_context",
+      "value": {
+        "location": "Yanji, Jilin Province, China",
+        "historical_period": "August 2019 to early 2020",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 33, paragraphs 107-109, visually reviewed",
+          "quote": "The fourth team, of seven information technology workers, led by Kwon Kwang Ho, arrived in Yanji in August 2019 and remained there as of early 2020."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "The historical report context does not establish residence, departure, travel, or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Kwon Kwang Ho is the Latin-script name printed in S/2020/840 for the reported leader of a seven-person DPRK IT-worker team in Yanji. Korean-script form, public account, civil identity, legal event, and present location status are unreported."
+}

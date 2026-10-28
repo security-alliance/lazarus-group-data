@@ -1,0 +1,39 @@
+{
+  "id": "deep2-unhistory-un-himal-chilbo-nepal",
+  "type": "cluster",
+  "name": "Himal Chilbo IT three-worker affiliation and repatriation context",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-himal-chilbo-nepal"
+    ]
+  },
+  "caveats": [
+    "The source supports the stated account; corporate ownership, current activity, and Munitions Industry Department subordination require additional source detail.",
+    "The reference is brief and appears in footnote 158 rather than a developed company investigation."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A footnote records that Nepal informed the Panel about three IT workers affiliated with Himal Chilbo IT; annex 34 places this within Nepal-reported repatriations."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-himal-chilbo-nepal"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-himal-chilbo-nepal",
+      "support": "Explicitly verifies the Himal Chilbo IT reference and three-worker affiliation reported by Nepal",
+      "locator": "PDF p. 54, footnote 158; annex 34"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

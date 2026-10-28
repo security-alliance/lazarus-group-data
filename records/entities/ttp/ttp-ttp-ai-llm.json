@@ -1,0 +1,29 @@
+{
+  "id": "ttp-ttp-ai-llm",
+  "type": "ttp",
+  "name": "TTP-AI-LLM",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-rok-mofa-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Use translation services or large language models to produce convincing second-language profiles and communications; use manipulated or artificially generated video feeds and AI-assisted identity obfuscation."
+  ],
+  "caveats": [
+    "Explicitly elevated in the July 2026 joint alert."
+  ],
+  "sources": [
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "Use translation services or large language models to produce convincing second-language profiles and communications; use manipulated or artificially generated video feeds and AI-assisted identity obfuscation",
+      "locator": "pp. 1-4 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

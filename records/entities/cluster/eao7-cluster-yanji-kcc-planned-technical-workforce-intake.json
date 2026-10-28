@@ -1,0 +1,75 @@
+{
+  "id": "eao7-cluster-yanji-kcc-planned-technical-workforce-intake",
+  "type": "cluster",
+  "name": "Yanji–KCC planned technical-workforce intake (2014 historical context)",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The 2014 source describes the reported activity at a general level; illegality, deception, sanctions-evasion, and enforcement status require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "eao7-cn-most-yanji-2014"
+    ]
+  },
+  "organizations": [
+    "KCC (as written in the 2014 Yanji report)"
+  ],
+  "locations": [
+    "Yanji, Jilin, China"
+  ],
+  "ttps": [
+    "historical-overseas-technical-workforce-planning",
+    "host-jurisdiction-employment-support",
+    "organization-linked-workforce-intake"
+  ],
+  "caveats": [
+    "Treat 1,600 and 2,000 as separate plans or targets; they represent planned figures rather than completed headcounts or a combined total.",
+    "KCC remains an exact organization reference to existing historical coverage; create no new person or front-company profile. Planned intake completion and fraudulent employment by every worker require separate evidence.",
+    "An unspecified KCC transliteration or organizational component remains distinct from later KCC-linked entities unless an exact source link connects them.",
+    "Personnel labels remain source-specific; fraudulent remote-worker classification requires case-level evidence.",
+    "This is an aggregate record; named person, facilitator, persona, account, prosecution, front-company, sensitive-identifier, address, payment-selector, identity-document, and image profiles require separate source records.",
+    "The acronym KCC is retained exactly as written. It remains separate from every Korea Computer Center alias, component, or later company record unless a source links them.",
+    "The source establishes a planned intake; completion of either target remains a separate outcome.",
+    "This is historical workforce and organizational context; fraudulent employment, deception, sanctions evasion, misconduct, and current-operation status remain unestablished."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-official-organizational-and-workforce-plan",
+      "statements": [
+        "Yanji High-Tech Zone reported that it had signed an agreement with a DPRK organization identified only as KCC and planned to introduce 1,600 technical personnel.",
+        "The same report's 2014 work plan separately targeted bringing 2,000 DPRK IT and technology personnel into the science and technology innovation park.",
+        "The two figures are separate plans or targets; the source does not establish completed intake and they must not be added together as a realized workforce count.",
+        "Original-language evidence: “目前已与朝鲜KCC签订协议，拟引进1600名技术人员，并提供稳定的居住、用工政策环境。” The same report's 2014 plan stated: “科技创新园项目完成投资2.2亿元……引进朝鲜IT科技人才2000名”。",
+        "Researcher-supplied English translation: The report said Yanji High-Tech Zone had signed an agreement with North Korea's KCC and planned to introduce 1,600 technical personnel while providing stable residence and employment-policy conditions. Its 2014 work plan separately targeted bringing 2,000 DPRK IT and technology personnel into the science and technology innovation park."
+      ],
+      "evidence_class": "historical official Chinese economic-development statement",
+      "translation_method": "Close researcher translation of the reviewed Simplified Chinese official text; KCC retained exactly as written.",
+      "limitations": [
+        "Describe 1,600 and 2,000 as separate plans or targets, not completed headcounts and not a combined total.",
+        "Do not retroactively label all personnel as fraudulent remote workers.",
+        "Do not infer that an unspecified KCC transliteration or organizational component is identical to every later KCC-linked entity without exact source linkage.",
+        "The acronym KCC is retained exactly as written. It is not expanded or merged into every Korea Computer Center alias, component, or later company record.",
+        "The source establishes a planned intake, not completion of either target.",
+        "This is historical workforce and organizational context, not proof of fraudulent employment, deception, sanctions evasion, misconduct, or a current operation.",
+        "No named person, facilitator, persona, account, prosecution, front company, sensitive identifier, address, payment selector, identity document, or image is retained."
+      ],
+      "source_ids": [
+        "eao7-cn-most-yanji-2014"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-unhistory-un-dandong-haotong-kcc",
+    "deep2-unhistory-yanji-dalian-it-worker-groups"
+  ],
+  "sources": [
+    {
+      "source_id": "eao7-cn-most-yanji-2014",
+      "support": "Evidence class: historical official Chinese economic-development statement. Original-language support (zh-Hans): “目前已与朝鲜KCC签订协议，拟引进1600名技术人员，并提供稳定的居住、用工政策环境。” The same report's 2014 plan stated: “科技创新园项目完成投资2.2亿元……引进朝鲜IT科技人才2000名”。 English translation: The report said Yanji High-Tech Zone had signed an agreement with North Korea's KCC and planned to introduce 1,600 technical personnel while providing stable residence and employment-policy conditions. Its 2014 work plan separately targeted bringing 2,000 DPRK IT and technology personnel into the science and technology innovation park. Translation method: Close researcher translation of the reviewed Simplified Chinese official text; KCC retained exactly as written",
+      "locator": "Section 四、多方合作，实施人才兴区战略为支撑点促转型, paragraph beginning 一是实施‘外引人才’战略; later 2014 work-plan paragraph beginning 科技创新园项目完成投资2.2亿元"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "front-company-limited-liability-company-alis",
+  "type": "front_company",
+  "name": "Limited Liability Company Alis",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "OFAC designated the Vladivostok-based company as subordinate to Chinyong; Treasury reported more than $2.5 million in payments to its parent company during 2021-2022. This is an administrative sanctions designation; criminal charge and conviction status remain absent.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-28e42dec45a8",
+      "gov-e31464a55e89"
+    ]
+  },
+  "organizations": [
+    "Chinyong Information Technology Cooperation Company"
+  ],
+  "locations": [
+    "Vladivostok, Primorsky Krai, Russia"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions are an administrative finding; the record carries no criminal charge or conviction.",
+    "SDN.CSV and ADD.CSV are component tables of one current OFAC dataset; together they form one corroboration source.",
+    "Tax, registration, street-address, and unrelated sanctions fields are excluded."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ],
+      "value": "ALIAS LLC"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ],
+      "value": "ALIS LLC"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "treasury-reported-parent-company-payments",
+      "value": "more than $2.5 million",
+      "period": "2021-2022",
+      "recipient": "Chinyong Information Technology Cooperation Company",
+      "source_ids": [
+        "gov-28e42dec45a8"
+      ]
+    },
+    {
+      "type": "organization-establishment-date",
+      "value": "2016-09-30",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "Treasury identifies Limited Liability Company Alis (Alis LLC) as a Vladivostok-based company subordinate to Chinyong and reports that it paid its parent company more than $2.5 million during 2021-2022. This is an administrative sanctions finding, not a criminal conviction.",
+      "locator": "DPRK IT Worker Delegations section; Limited Liability Company Alis paragraph"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row supplies coarse Vladivostok, Primorsky Krai, Russia context for OFAC entity number 48260. The street, row identifier, and other sensitive fields are excluded",
+      "locator": "ADD.CSV current row joined to OFAC entity number 48260"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current SDN row for OFAC entity number 48260 supplies the exact name, the source-listed aliases ALIAS LLC and ALIS LLC, a September 30, 2016 establishment date, and the link to Chinyong. Sensitive fields are omitted",
+      "locator": "SDN.CSV current row for OFAC entity number 48260"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

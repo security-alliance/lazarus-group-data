@@ -1,0 +1,53 @@
+{
+  "id": "deep2-media-media-us-nuclear-utility-near-miss-2026",
+  "type": "cluster",
+  "name": "Unnamed U.S. nuclear utility placement near-miss",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Deep reporting is based on Nisos investigation and placement-firm disclosure; affected-utility confirmation is absent from the reviewed material.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-media-m7-media-us-nuclear-utility-near-miss-2026"
+    ]
+  },
+  "locations": [
+    "United States"
+  ],
+  "ttps": [
+    "false-location",
+    "staffing-firm"
+  ],
+  "caveats": [
+    "Identify the utility only from a direct source; contextual clues alone are insufficient.",
+    "The source describes defensive context around ICS; live access, compromise, sabotage, and safety impact are outside the stated finding.",
+    "The nuclear-utility near miss describes the underlying Nisos cell; it contributes to that cell’s account.",
+    "This record holds aggregate or contextual material rather than a named worker or persona."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Rubrik's July 8 companion to episode 2 reported that a placement firm disclosed a tracked worker had been placed at a U.S. nuclear utility.",
+        "Discord screenshots appeared to show an industrial-control-system panel, but follow-up established it was a training screen and not evidence of live operational-system access.",
+        "The worker had already been fired before Nisos notified the company. The utility, worker identity, role, duration and access scope were withheld."
+      ],
+      "source_ids": [
+        "deep2-media-m7-media-us-nuclear-utility-near-miss-2026"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "nisos-june-2025-laptop-farm"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-media-m7-media-us-nuclear-utility-near-miss-2026",
+      "support": "Rubrik's July 8 companion to episode 2 reported that a placement firm disclosed a tracked worker had been placed at a U.S. nuclear utility. Discord screenshots appeared to show an industrial-control-system panel, but follow-up established it was a training screen and not evidence of live operational-system access. The worker had already been fired before Nisos notified the company. The utility, worker identity, role, duration and access scope were withheld",
+      "locator": "Nicole Perlroth/Rubrik podcast reporting; Nisos controlled investigation; placement-firm disclosure described in reporting"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

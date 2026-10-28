@@ -1,0 +1,82 @@
+{
+  "id": "pete-yama",
+  "real_name": "Pete Yama",
+  "aliases": [
+    "cryptopunk",
+    "cryptopunkclan",
+    "bestsilvertiger",
+    "brightdragon0719",
+    "btcwhiz",
+    "abcd_0621_",
+    "hunter0409",
+    "building_jk"
+  ],
+  "fake_names": [
+    "Bill Tovitt"
+  ],
+  "gender": "male",
+  "twitter_usernames": [
+    "cryptopunkclan",
+    "abcd_0621_"
+  ],
+  "employment": [
+    {
+      "company": "Pixelcraft",
+      "date_identified": {
+        "$date": "2022-01-01"
+      }
+    },
+    {
+      "company": "Munchables",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    },
+    {
+      "company": "Abracadabra",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "telegram": [
+    {
+      "id": "5031331438",
+      "usernames": [
+        "hunter0409"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "bestsilvertiger",
+      "usernames": [
+        "bestsilvertiger"
+      ]
+    },
+    {
+      "gh_id": "brightdragon0719",
+      "usernames": [
+        "brightdragon0719"
+      ]
+    },
+    {
+      "gh_id": "btcwhiz",
+      "usernames": [
+        "btcwhiz"
+      ]
+    }
+  ],
+  "notes": "Related to Munchables hack. Scammed with an 'artist'.",
+  "images": [
+    {
+      "path": "/team-images/pete-yama/bill-tovitt-pete-yama.png",
+      "short_description": "Bill Tovitt / Pete Yama profile picture.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "dhcer11-ttp-china-delegation-notification-policy-context",
+  "type": "ttp",
+  "name": "China delegation-notification response-status context",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The wording records China's non-indication of action to the MSMT participating states as described in the report; investigation, administrative measure, repatriation, and other non-public action status remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dhcer11-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "China"
+  ],
+  "ttps": [
+    "host-country-policy-context",
+    "international-sanctions-coordination"
+  ],
+  "caveats": [
+    "The published record reports the response field as unindicated; that absence leaves investigation, administrative measure, repatriation, and other non-public action outside the recorded facts.",
+    "The source records no indicated response from China; its wording leaves the scope of Chinese action open.",
+    "Use the four existing delegation profiles without duplicating them.",
+    "This aggregate statement covers the reported scope; criminality, nationality, knowing facilitation, and current operating status require separate evidence.",
+    "This finding describes the report’s period; operating status after the report’s publication date requires newer evidence.",
+    "The absence of an indicated response leaves China's action unreported.",
+    "The four delegations are documented elsewhere and are deliberately omitted as new entity records here.",
+    "The source establishes that China had not indicated an action to the participating states described by MSMT.",
+    "This country-level context supports awareness; person, company, delegation, account, or employer profiles require source-backed evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-multilateral-policy-response-status-context",
+      "statement": "MSMT/2025/2 says participating states provided China extensive information on DPRK IT workers and in 2024 informed China about four named IT-worker delegations. The report says China had not indicated that it took action in response to that information.",
+      "timeframe": "Notifications in 2024; report published 2025-10-22",
+      "evidence_class": "official multilateral policy and implementation observation",
+      "attribution_boundary": "The wording establishes only that China had not indicated an action to the MSMT participating states as described in the report. It does not prove no investigation, administrative measure, repatriation or other non-public action occurred.",
+      "source_ids": [
+        "dhcer11-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dhcer11-msmt-2025-2",
+      "support": "MSMT/2025/2 says participating states provided China extensive information on DPRK IT workers and in 2024 informed China about four named IT-worker delegations. The report says China had not indicated that it took action in response to that information",
+      "locator": "report pp. 55-56 / PDF pp. 57-58, 'IT Workers Abroad in Violation of UNSCR 2397' and 'Case Study: IT Workers in China'; report pp. 63-67 / PDF pp. 65-69 for Russia, Laos and relocation context"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

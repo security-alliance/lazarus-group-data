@@ -1,0 +1,58 @@
+{
+  "id": "organization-sans-fab",
+  "type": "organization",
+  "name": "Second Academy of Natural Sciences Foreign Affairs Bureau (SANS FAB)",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT identifies SANS FAB as involved in coordination and deployment of overseas labourers and describes Sangsin as subordinate to it; conviction status is unreported.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "Source-bounded organization record; merge similar names only with an explicit source link.",
+    "This record retains no street addresses, payment selectors, or private contact data."
+  ],
+  "identity_boundary": "The organization label Second Academy of Natural Sciences Foreign Affairs Bureau (SANS FAB) is reported by MSMT; keep it separate from another entity sharing a name or transliteration unless an explicit source links them.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Second Academy of Natural Sciences Foreign Affairs Bureau (SANS FAB).",
+      "locator": "PDF p. 49 and Annex D p. 70"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-organization-sans-fab",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_coordination_entity",
+      "value": {
+        "organization": "Second Academy of Natural Sciences Foreign Affairs Bureau (SANS FAB)"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 49 and Annex D p. 70",
+          "quote": "Second Academy of Natural Sciences Foreign Affairs Bureau (SANS FAB)"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "SANS FAB",
+      "alias_type": "source-reported alias",
+      "relationship": "explicitly reported by MSMT",
+      "source_ids": [
+        "msmt-2026-1"
+      ]
+    }
+  ]
+}

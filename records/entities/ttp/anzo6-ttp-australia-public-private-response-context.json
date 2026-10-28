@@ -1,0 +1,62 @@
+{
+  "id": "anzo6-ttp-australia-public-private-response-context",
+  "type": "ttp",
+  "name": "Australian public-private response to DPRK remote IT-worker risk",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official event report and threat assessment; prosecution, designation, victim finding, participant admission, and adjudicated violation status remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ANZO6-AUS-DFAT-SYMPOSIUM-2026-03-30"
+    ]
+  },
+  "ttps": [
+    "cross-sector-threat-awareness",
+    "fabricated-identity-awareness",
+    "fraudulent-credential-awareness",
+    "synthetic-persona-awareness",
+    "technology-staffing-finance-coordination"
+  ],
+  "caveats": [
+    "Participating organizations and attendees remain in event context; victim status is unassigned.",
+    "Vendor claims from symposium participants remain vendor claims until separate support establishes a government finding.",
+    "Guidance, sanctions, procurement, and coordination material supplies context rather than evidence of a named incident or adjudicated violation.",
+    "Keep possible post-hire harms in modal language.",
+    "Legal-status precision: official event report and threat assessment; local charge, designation, conviction, and victim finding require separate sources.",
+    "The Australian response and sector-targeting context describes a policy response; named incident, participant admission, and enforcement-action status are unreported.",
+    "The dataset retains source-bounded context while excluding people, personas, accounts, entities, images, identifiers, victim or private data, payment data, wallets, and raw indicators.",
+    "Fraud or DPRK attribution requires corroboration beyond any single nationality, language, accent, location, camera behavior, remote-work preference, technical tool or other weak signal."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-government-industry-coordination-and-awareness-context",
+      "statements": [
+        "DFAT reports that Australia and the United States, supported by Canada, convened more than 80 participants from technology, recruiting and staffing, financial services and government in Sydney on March 30, 2026 to examine DPRK IT-worker tactics, practices and public-private collaboration. The release describes fabricated identities, fraudulent credentials and AI-generated personas, and says hired workers may obtain sensitive access, steal intellectual property or extort employers."
+      ],
+      "limitations": [
+        "The Australian response and sector-targeting context is not a named incident, participant admission, or enforcement action.",
+        "Legal-status precision: Official event report and threat assessment; no local charge, designation, conviction or victim finding.",
+        "Do not identify or imply victim status for participating organizations or attendees.",
+        "Keep possible post-hire harms in modal language.",
+        "Do not import vendor claims from symposium participants as government findings without separate support.",
+        "Guidance, sanctions, procurement, and coordination material is context—not evidence of a named incident or adjudicated violation.",
+        "No single nationality, language, accent, location, camera behavior, remote-work preference, technical tool, or other weak signal establishes fraud or DPRK attribution.",
+        "No people, personas, accounts, entities, images, identifiers, victim or private data, payment data, wallets, or raw indicators are retained."
+      ],
+      "source_ids": [
+        "ANZO6-AUS-DFAT-SYMPOSIUM-2026-03-30"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ANZO6-AUS-DFAT-SYMPOSIUM-2026-03-30",
+      "support": "DFAT reports that Australia and the United States, supported by Canada, convened more than 80 participants from technology, recruiting and staffing, financial services and government in Sydney on March 30, 2026 to examine DPRK IT-worker tactics, practices and public-private collaboration. The release describes fabricated identities, fraudulent credentials and AI-generated personas, and says hired workers may obtain sensitive access, steal intellectual property or extort employers. Legal-status boundary: Government-industry awareness event and attributed threat assessment; not a prosecution, sanctions designation or finding against a participant",
+      "locator": "Paragraphs 1-4"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

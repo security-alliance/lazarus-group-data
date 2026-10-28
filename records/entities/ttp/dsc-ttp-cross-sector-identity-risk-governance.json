@@ -1,0 +1,55 @@
+{
+  "id": "dsc-ttp-cross-sector-identity-risk-governance",
+  "type": "ttp",
+  "name": "Cross-sector identity-risk governance beyond technology companies",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party aggregate threat research and defensive guidance; it describes sector patterns, while incident and attribution rules require case-specific sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S05"
+    ]
+  },
+  "ttps": [
+    "false-location",
+    "multiple-personas",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "This is first-party aggregate threat research and defensive guidance. It covers aggregate patterns; named incidents and sector-member attribution require separate sources.",
+    "First-party aggregate threat research; no named incident appears in the record."
+  ],
+  "infrastructure": [
+    {
+      "type": "aggregate-defensive-context",
+      "sector": "cross-sector healthcare/public administration/financial services",
+      "event_period": "observations reported 2025-09-25",
+      "statements": [
+        "Okta reports observed DPRK IT-worker targeting across financial services, healthcare, public administration, professional services, and other sectors. Its recommended response is cross-functional identity proofing and monitoring, not nationality, accent, demographic, or geography heuristics."
+      ],
+      "defensive_controls": [
+        "Build a shared HR/security/identity fraud-review process.",
+        "Continue proofing after hire by correlating device trust, account behavior and payroll identity.",
+        "Require human review; sector or geographic presence alone is not an indicator."
+      ],
+      "source_ids": [
+        "DSC-S05"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "drh-ttp-continuous-recruitment-integrity-governance"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S05",
+      "support": "Okta reports observed DPRK IT-worker targeting across financial services, healthcare, public administration, professional services, and other sectors. Its recommended response is cross-functional identity proofing and monitoring, not nationality, accent, demographic, or geography heuristics",
+      "locator": "Affected industries; defensive recommendations; post-employment extortion discussion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

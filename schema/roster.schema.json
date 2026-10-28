@@ -1,0 +1,897 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/security-alliance/lazarus-group-data/blob/main/schema/roster.schema.json",
+  "title": "Registry profile",
+  "description": "One ordered registry entry, preserving all original profile fields. Date objects explicitly retain their original literal text.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "curation",
+    "images"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,120}$"
+    },
+    "curation": {
+      "enum": [
+        "analyst",
+        "ai-assisted"
+      ]
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "real_name": {
+      "type": "string"
+    },
+    "named_in": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "research_id": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fake_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fake_citizenships": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "real_citizenships": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fake_locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "real_locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fake_addresses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "real_addresses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "personal_emails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phone_numbers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "twitter_usernames": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "websites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "referred_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "referrals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gender": {
+      "enum": [
+        "male",
+        "female",
+        "other"
+      ]
+    },
+    "record_type": {
+      "enum": [
+        "worker",
+        "facilitator",
+        "persona"
+      ]
+    },
+    "legal_status": {
+      "$ref": "#/$defs/legalStatus"
+    },
+    "employment": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/employment"
+      }
+    },
+    "linkedin": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/linkedin"
+      }
+    },
+    "telegram": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/telegram"
+      }
+    },
+    "github": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/github"
+      }
+    },
+    "associates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/associate"
+      }
+    },
+    "salary_details": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/salary"
+      }
+    },
+    "emergency_contacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/contact"
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/image"
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/file"
+      }
+    },
+    "onchain_activity": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/onchain"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "sourced_facts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "misused_identities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/misusedIdentity"
+      }
+    },
+    "projected_accounts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/projectedAccount"
+      }
+    }
+  },
+  "$defs": {
+    "date": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "$date"
+      ],
+      "properties": {
+        "$date": {
+          "type": "string",
+          "format": "legacy-date",
+          "description": "Exact original date literal. Whitespace is intentional and may affect interpretation; do not normalize."
+        }
+      }
+    },
+    "employment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "company": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "work_email": {
+          "type": "string"
+        },
+        "date_hired": {
+          "$ref": "#/$defs/date"
+        },
+        "date_identified": {
+          "$ref": "#/$defs/date"
+        },
+        "date_unhired": {
+          "$ref": "#/$defs/date"
+        },
+        "managed_laptop": {
+          "type": "boolean"
+        },
+        "background_check": {
+          "type": "boolean"
+        },
+        "kyc_collected": {
+          "type": "boolean"
+        }
+      }
+    },
+    "github": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gh_id"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "dataset"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gh_id": {
+          "type": "string"
+        },
+        "creation_date": {
+          "$ref": "#/$defs/date"
+        },
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emails": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "usernames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "associate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gh_id"
+      ],
+      "properties": {
+        "gh_id": {
+          "type": "string"
+        },
+        "creation_date": {
+          "$ref": "#/$defs/date"
+        },
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emails": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "usernames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "linkedin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "dataset"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "emails": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ips": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "creation_date": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "telegram": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "dataset"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "usernames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "salary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "value_usd": {
+          "type": "number"
+        },
+        "value_usd_on_specified_date": {
+          "type": "number"
+        },
+        "amount_in_currency": {
+          "type": "number"
+        },
+        "specified_date": {
+          "$ref": "#/$defs/date"
+        },
+        "addresses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "currency": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "frequency": {
+          "enum": [
+            "weekly",
+            "monthly",
+            "biweekly",
+            "one-time"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "relation": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "short_description"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^/(?:team-images|images)/[^\\u0000]+$"
+        },
+        "short_description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "face",
+              "document",
+              "screenshot",
+              "other"
+            ]
+          }
+        }
+      }
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "short_description"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "short_description": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "onchain": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "address": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "chain_id": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "legalStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "posture",
+        "summary",
+        "as_of"
+      ],
+      "properties": {
+        "posture": {
+          "enum": [
+            "convicted",
+            "charged-allegation",
+            "sanctioned-designation",
+            "officially-attributed",
+            "research-attributed",
+            "affected-organization-report",
+            "unverified-lead"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "case": {
+          "type": "string"
+        },
+        "court": {
+          "type": "string"
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date"
+        },
+        "caveats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "accessed_at": {
+          "type": "string"
+        },
+        "content_type": {
+          "type": "string"
+        },
+        "local_copy": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "archived_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reference_kind": {
+          "enum": [
+            "publisher",
+            "captured-selector"
+          ]
+        },
+        "is_self_reference": {
+          "type": "boolean"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "locator",
+        "quote"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "label",
+        "evidence"
+      ],
+      "properties": {
+        "claim_id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "observed": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "value": {},
+        "confidence": {
+          "enum": [
+            "confirmed",
+            "high",
+            "medium",
+            "lead"
+          ]
+        },
+        "status": {
+          "enum": [
+            "published",
+            "needs_corroboration"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "misusedIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archived_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "alias_type": {
+          "type": "string"
+        }
+      }
+    },
+    "projectedAccount": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "platform",
+        "identifier",
+        "origin",
+        "legacy_field",
+        "legacy_identifier"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archived_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "origin": {
+          "enum": [
+            "dataset"
+          ]
+        },
+        "legacy_field": {
+          "enum": [
+            "github",
+            "telegram",
+            "twitter_usernames",
+            "linkedin"
+          ]
+        },
+        "legacy_identifier": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

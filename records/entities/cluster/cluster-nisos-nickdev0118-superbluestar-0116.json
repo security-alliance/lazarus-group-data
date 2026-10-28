@@ -1,0 +1,65 @@
+{
+  "id": "cluster-nisos-nickdev0118-superbluestar-0116",
+  "type": "cluster",
+  "name": "nickdev0118 / superbluestar / 0116 network",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s1",
+      "platform-s2"
+    ]
+  },
+  "ttps": [
+    "recurring numeric identifier tokens",
+    "reused developer accounts",
+    "reused portfolio infrastructure"
+  ],
+  "caveats": [
+    "Member labels remain separate until an explicit first-party identity bridge links them.",
+    "Shared handles, hosting, repositories, and numeric tokens establish cluster linkage only.",
+    "This is a source-scoped infrastructure and persona-label cluster; person and legal-identity status remain unverified."
+  ],
+  "infrastructure": [
+    {
+      "kind": "source-reported-reused-account-cluster",
+      "members": [
+        "Huy Diep",
+        "Naoyuki Tanaka",
+        "Shaorun Zhang",
+        "Alvaro Morales",
+        "Karl Chong",
+        "Kamaal Sultan",
+        "Justine Carlo"
+      ],
+      "reused_infrastructure": [
+        "GitHub nickdev0118",
+        "GitHub/Telegram superbluestar",
+        "numeric tokens 0116/116",
+        "Vercel/Firebase portfolio hosting",
+        "imported GitHub portfolio repositories"
+      ],
+      "relationship_summary": "The publisher groups these presented personas and account labels through reused infrastructure. The grouping does not assert that every label belongs to one operator or natural person.",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "Nisos groups the listed presented personas through reused GitHub/Telegram handles, 0116/116 tokens, portfolio hosting, and imported portfolio repositories",
+      "locator": "Cross-persona network findings and contact table, report pp. 4-16"
+    },
+    {
+      "source_id": "platform-s1",
+      "support": "Nisos groups the listed presented personas through reused GitHub/Telegram handles, 0116/116 tokens, portfolio hosting, and imported portfolio repositories",
+      "locator": "Cross-persona network findings and contact table, report pp. 4-16"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "dphr5-context-no-verified-destructive-sabotage-boundary",
+  "type": "ttp",
+  "name": "No verified destructive sabotage or ransomware case in reviewed employment evidence",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Review of public sources through August 12, 2026 verified no destructive sabotage; undisclosed or later cases require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPHR5-S01-DOJ-EDMO-INDICTMENT",
+      "DPHR5-S07-EXABEAM-INSIDER-CASE",
+      "DPHR5-S11-MICROSOFT-JASPER-SLEET"
+    ]
+  },
+  "ttps": [
+    "analytic-boundary",
+    "destructive-impact-not-verified",
+    "evidence-classification",
+    "ransomware-not-verified"
+  ],
+  "caveats": [
+    "An official conference abstract mentioning ransomware or malware describes presentation scope; incident status requires a separate incident source.",
+    "The record describes reported conduct by specific fraudulent workers; theft, extortion, espionage, persistence, and sabotage remain case-specific.",
+    "Evidence class: negative finding and analytic boundary.",
+    "Exabeam's incident timeline includes endpoint containment and possible local cleanup after detection; the public deck leaves destructive business impact unestablished.",
+    "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+    "The record retains bounded source context; people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, and private repository content stay outside it.",
+    "The Missouri case includes public posting of proprietary material and later removal of that posted copy after payment; employer-system deletion status is unreported."
+  ],
+  "infrastructure": [
+    {
+      "type": "negative-evidence-boundary",
+      "statements": [
+        "Reviewed official cases and first-party reports support extortion, public disclosure, attempted exfiltration, direct financial theft, privileged access and defensive concern about persistence or modification. They do not publicly establish ransomware deployment, encryption for impact, deliberate production destruction or deletion of an employer's authoritative source repositories by a fraudulent worker.",
+        "Do not label public posting followed by removal of the posted copy, endpoint cleanup, or precautionary persistence review as ransomware, wiper activity, destructive sabotage, or deletion of an employer's authoritative source repository."
+      ],
+      "limitations": [
+        "Evidence class: negative finding and analytic boundary.",
+        "The Missouri case includes public posting of proprietary material and later removal of that posted copy after payment; that is not deletion from the employer's systems.",
+        "Exabeam's incident timeline includes endpoint containment and possible local cleanup after detection, but the public deck does not establish destructive business impact.",
+        "An official conference abstract mentioning ransomware or malware is presentation scope, not incident evidence.",
+        "No people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, or private repository content are retained.",
+        "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+        "Do not infer that every fraudulent worker performs theft, extortion, espionage, persistence, or sabotage."
+      ],
+      "source_ids": [
+        "DPHR5-S01-DOJ-EDMO-INDICTMENT",
+        "DPHR5-S07-EXABEAM-INSIDER-CASE",
+        "DPHR5-S11-MICROSOFT-JASPER-SLEET"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPHR5-S07-EXABEAM-INSIDER-CASE",
+      "support": "Exabeam describes a newly onboarded user it attributed to a North Korean threat-actor scenario who immediately installed remote-access or C2-related software and attempted to exfiltrate company data. The organization isolated and ultimately disabled the endpoint and shared indicators with the FBI. Reviewed official cases and first-party reports support extortion, public disclosure, attempted exfiltration, direct financial theft, privileged access and defensive concern about persistence or modification. They do not publicly establish ransomware deployment, encryption for impact, deliberate production destruction or deletion of an employer's authoritative source repositories by a fraudulent worker",
+      "locator": "Slides 5-12 and 24"
+    },
+    {
+      "source_id": "DPHR5-S01-DOJ-EDMO-INDICTMENT",
+      "support": "The indictment alleges that conspirators used employment access to obtain proprietary material, demanded additional payments after termination or discovery, threatened publication, and in three described episodes posted employer material on a public software-development website. One posting allegedly caused substantial loss and damage; in another episode, posted source code was removed after a payment. Reviewed official cases and first-party reports support extortion, public disclosure, attempted exfiltration, direct financial theft, privileged access and defensive concern about persistence or modification. They do not publicly establish ransomware deployment, encryption for impact, deliberate production destruction or deletion of an employer's authoritative source repositories by a fraudulent worker",
+      "locator": "Paragraphs 6, 23-25, 28-44 and 63-67; PDF pages 3, 8-12 and 16"
+    },
+    {
+      "source_id": "DPHR5-S11-MICROSOFT-JASPER-SLEET",
+      "support": "Microsoft states that technology roles can expose sensitive information and says workers have used access to steal intellectual property, source code or trade secrets and in some cases extort employers. Its response guidance recommends treating a confirmed placement as an insider-risk incident and examining all accessible systems for persistence or modification. Reviewed official cases and first-party reports support extortion, public disclosure, attempted exfiltration, direct financial theft, privileged access and defensive concern about persistence or modification. They do not publicly establish ransomware deployment, encryption for impact, deliberate production destruction or deletion of an employer's authoritative source repositories by a fraudulent worker",
+      "locator": "From North Korea to the world; Remediate; insider-risk detections"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

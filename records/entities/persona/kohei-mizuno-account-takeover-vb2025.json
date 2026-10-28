@@ -1,0 +1,383 @@
+{
+  "id": "kohei-mizuno-account-takeover-vb2025",
+  "type": "persona",
+  "name": "Kohei Mizuno",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Koike assesses that a real Japanese person operated the persona until July 2024 and that a North Korean IT worker took over by September/October 2024. This is a research assessment; Koike treats the original identity holder as a victim, with the assessment focused on the later operator.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S1",
+      "CM-S2"
+    ]
+  },
+  "organizations": [
+    "CrowdWorks",
+    "GitHub",
+    "NEC"
+  ],
+  "locations": [
+    "China (earlier account-name context reported by speaker)",
+    "Japan (appropriated persona)"
+  ],
+  "ttps": [
+    "Acquire or take over an established real-person account to inherit authenticity and reputation",
+    "Rename a GitHub account while retaining historical commit metadata",
+    "Retain platform quality badges and work history after an operator change",
+    "Shift the public persona from video-production activity to web-development work",
+    "Use a Japanese crowdsourcing profile, blog, X account, and GitHub account with conflicting timelines"
+  ],
+  "caveats": [
+    "The apparent identity-theft victim is outside contact and profiling.",
+    "The real Kohei Mizuno is treated as a possible identity-theft victim; source-backed knowing participation remains unestablished.",
+    "The apparent Kohei Mizuno identity may be an appropriated account or victim persona; profile and contact action are excluded for the possible victim.",
+    "The exact account-transfer mechanism is unknown; purchase or transfer was presented as an assessment.",
+    "This is a source-reported persona label from public conference material; legal and civil identity status is unverified."
+  ],
+  "aliases": [
+    {
+      "value": "Kohei Mizuno",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ]
+    },
+    {
+      "value": "Mellie Zheng",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "CM-S1"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "X / Twitter",
+      "identifier": "Kohei Mizuno persona account (handle not retained)",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "CM-S1"
+      ],
+      "note": "Speaker says the real person’s X activity stopped around the account transition; handle omitted to reduce risk to the identity-theft victim."
+    },
+    {
+      "platform": "Blog",
+      "identifier": "Kohei Mizuno persona blog (URL not retained)",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "CM-S1"
+      ],
+      "note": "Speaker contrasts normal Japanese blog history with conflicting GitHub history."
+    },
+    {
+      "platform": "CrowdWorks",
+      "identifier": "koheimizuno",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ],
+      "note": "Public profile label shown on slide 28."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "syggentleman",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ],
+      "note": "Handle visible in slide 32 commit history; the slide shows an earlier self-description as “Mellie Zheng.”"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "CM-S1",
+      "source_url": "https://www.youtube.com/watch?v=0SQ_T-uxHr8",
+      "caption": "Slide 28: public CrowdWorks profile and PRO Crowd Worker badge for the Kohei Mizuno persona.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "CM-S1",
+      "source_url": "https://www.youtube.com/watch?v=0SQ_T-uxHr8",
+      "caption": "Slide 32: GitHub commit history showing the account’s earlier “Mellie Zheng” self-description and later Kohei Mizuno text. No identity portrait should be extracted.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S2",
+      "support": "Official VB2025 abstract page identifying Yoshihiro Koike and framing the presentation as NEC threat-intelligence research into Japanese-language crowdsourcing activity",
+      "locator": "Abstract and speaker biography"
+    },
+    {
+      "source_id": "CM-S1",
+      "support": "Official Virus Bulletin recording of Yoshihiro Koike’s VB2025 presentation. It supplies slide-level cases, public persona labels, local-platform observations, and timestamps",
+      "locator": "00:00–21:34; especially slides 4, 7–13, 21–36 at 02:05–20:56"
+    },
+    {
+      "source_id": "src-b73fbb086916"
+    },
+    {
+      "source_id": "src-32cbb10d4e0f"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-top-tier-crowdworker-status",
+      "type": "account",
+      "predicate": "conference_reported_crowdsourcing_platform_status",
+      "value": {
+        "platform": "CrowdWorks",
+        "status": "PRO Crowd Worker badge"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "16:30-16:42, slide 28; badge text verified visually",
+          "quote": "PRO Crowd Worker"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "The slide's exact badge text is used instead of the automatic caption's garbled 'top tire engineer.' This is historical persona/account status, not evidence about the victim's conduct."
+      ]
+    },
+    {
+      "id": "claim-account-history-mismatch",
+      "type": "incident",
+      "predicate": "researcher_reported_account_history_mismatch",
+      "value": {
+        "comparison": "GitHub activity history versus blog history",
+        "result": "did not match"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "17:02-17:17, slide 29",
+          "quote": "the GitHub activity history and the blog history do not match"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Source-reported analytical finding, not an independently proven identity resolution."
+      ]
+    },
+    {
+      "id": "claim-github-activity-since-2016",
+      "type": "account",
+      "predicate": "conference_reported_github_activity_start",
+      "value": {
+        "platform": "GitHub",
+        "activity_since": "2016"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "17:44-18:03, slides 30-31",
+          "quote": "According to uh GitHub activate history uh they have been active since 2016"
+        }
+      ],
+      "observed_at": "2016-01-01",
+      "notes": [
+        "New atomic extraction from the full recording. It describes historical account metadata and not a person's activity or current account control."
+      ]
+    },
+    {
+      "id": "claim-renamed-github-history-retained",
+      "type": "account",
+      "predicate": "conference_reported_github_rename_with_retained_history",
+      "value": {
+        "platform": "GitHub",
+        "event": "account name changed while commit history remained"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "18:14-18:29, slide 32",
+          "quote": "changing GitHub account name uh but commit history remains"
+        }
+      ],
+      "observed_at": "2024-10-01",
+      "notes": [
+        "Historical source observation; not proof of the transfer mechanism."
+      ]
+    },
+    {
+      "id": "claim-october-2024-github-name-transition",
+      "type": "alias",
+      "predicate": "conference_reported_github_name_transition",
+      "value": {
+        "period": "2024-10",
+        "transition": "Chinese-name self-description to Japanese-name self-description"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "18:29-18:42, slide 32; names verified visually because automatic captions mistranscribe them",
+          "quote": "In October 2024, this account transformed from the Chinese name"
+        }
+      ],
+      "observed_at": "2024-10-01",
+      "notes": [
+        "New atomic timeline extraction. The profile deliberately omits the apparent victim's account selector and does not publish the earlier name here."
+      ]
+    },
+    {
+      "id": "claim-work-shift-video-to-web",
+      "type": "incident",
+      "predicate": "conference_reported_work_category_shift",
+      "value": {
+        "from": "video production",
+        "to": "web development"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "18:48-19:04, slides 32-33",
+          "quote": "his project have shifted from video production to web product uh web development"
+        }
+      ],
+      "observed_at": "2024-10-01",
+      "notes": [
+        "New atomic extraction from the full recording."
+      ]
+    },
+    {
+      "id": "claim-account-acquisition-method-uncertain",
+      "type": "incident",
+      "predicate": "researcher_reported_account_acquisition_method_uncertain",
+      "value": {
+        "method": "unknown",
+        "possibilities_reported": [
+          "purchase",
+          "another unclear method"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "19:35-19:48, slide 34",
+          "quote": "obtained accounts belonging to real individuals uh through some method uh purchase or shift"
+        }
+      ],
+      "observed_at": "2024-09-01",
+      "notes": [
+        "New atomic extraction. Automatic captions render the second possibility as 'shift,' which is too unclear to normalize as a transfer mechanism; the source's core point is that the method was not established."
+      ]
+    },
+    {
+      "id": "claim-purchase-was-speaker-belief",
+      "type": "incident",
+      "predicate": "speaker_stated_belief_about_account_purchase",
+      "value": {
+        "statement": "speaker believed the account was purchased"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "19:48-20:03, slide 34",
+          "quote": "I believe North Korean IT worker purchased the account"
+        }
+      ],
+      "observed_at": "2024-09-01",
+      "notes": [
+        "The verified fact is that the speaker explicitly stated this belief; the underlying purchase remains unconfirmed."
+      ]
+    },
+    {
+      "id": "claim-syggentleman-current-status",
+      "type": "account",
+      "predicate": "historical_github_handle_status_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "handle": "syggentleman",
+        "status": "not found"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "18:14-18:42, slide 32, historical GitHub handle",
+          "quote": "syggentleman"
+        },
+        {
+          "source_id": "src-b73fbb086916",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The conference slide supplies the historical linkage. The endpoint returned Not Found, but that does not establish deletion, renaming, transfer, suspension, cause, present control, or the identity of the apparent victim.",
+        "No archive, repository, follower, commit, organization, or same-name-person pivot was performed from this possibly victim-linked selector."
+      ]
+    },
+    {
+      "id": "claim-kohei-official-presentation-context",
+      "type": "note",
+      "predicate": "official_presentation_context_for_case_source",
+      "value": {
+        "conference": "VB2025 / CTA Threat Intelligence Practitioners' Summit",
+        "session_date": "2025-09-25",
+        "session_time": "14:30-15:00",
+        "room": "Small Talks room",
+        "presenters": [
+          "Yoshihiro Kori",
+          "Takahiro Kakumaru"
+        ],
+        "organization": "NEC",
+        "abstract_scope": "North Korean IT-worker activity in Japan's crowdsourcing market, machine-translation patterns, and GitHub-based capability review"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-32cbb10d4e0f",
+          "locator": "Session header",
+          "quote": "Thursday 25 September 14:30 - 15:00, Small Talks room"
+        },
+        {
+          "source_id": "src-32cbb10d4e0f",
+          "locator": "Session presenter line",
+          "quote": "Yoshihiro Kori & Takahiro Kakumaru (NEC)"
+        },
+        {
+          "source_id": "src-32cbb10d4e0f",
+          "locator": "Abstract, second and third paragraphs",
+          "quote": "North Korean IT workers are extending their activities into the Japanese crowdsourcing market and are skillfully integrated into platforms offered in Japanese."
+        }
+      ],
+      "observed_at": "2025-09-25",
+      "notes": [
+        "Source-provenance context for the recording, not a person-identity claim. The archived abstract page does not name Kohei Mizuno, Mellie Zheng, a handle, or a civil person; case linkage comes solely from the official presentation recording.",
+        "The current YouTube description lists Yoshihiro Kori alone, while the archived publisher page credits both presenters; the difference is preserved rather than silently reconciled."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "This is a source-reported account-takeover case centered on the label Kohei Mizuno. The apparent original Japanese account holder is treated as an identity-theft victim; protect that person from identification, profiling, contact, and selector publication. The CrowdWorks persona, GitHub history, X/blog history, and Mellie Zheng label remain distinct unless the conference source explicitly links them; the exact transfer mechanism remains an assessment."
+}

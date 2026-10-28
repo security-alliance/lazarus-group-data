@@ -1,0 +1,292 @@
+{
+  "id": "chong-ryu-song",
+  "real_name": "Chong Ryu Song",
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-chong-ryu-song",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Chong Ryu Song is the worker named in the MSMT Kyonghung IT case study and Annex 9. The source-explicit garezb35 GitHub/Skype handle is linked historically; current public metadata does not prove present control. Messaging and phone selectors are excluded.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "Source-reported alias labels with no platform stated: garezb35. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "The live GitHub account garezb35 shows the display name 'Chon' and location 'China'. MSMT (Annex 9, Table 4, row 1) attributes the account to Chong Ryu Song and also lists it among accounts used by Kyonghung IT workers collectively (row 11). The display name is not evidence for or against the attribution.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    },
+    {
+      "id": "doc-github-repos-garezb35",
+      "title": "GitHub public repository metadata: garezb35",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/garezb35/repos?per_page=100&type=owner&sort=updated"
+    },
+    {
+      "id": "doc-github-user-garezb35",
+      "title": "GitHub public user API snapshot: garezb35",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/garezb35"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-chong-github-repo-7poker",
+      "label": "Public repository observed",
+      "category": "account",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/7poker",
+          "quote": "\"full_name\":\"garezb35/7poker\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/7poker",
+          "quote": "\"pushed_at\":\"2021-07-05T05:07:29Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-github-repo-7poker-mobile",
+      "label": "Public repository observed",
+      "category": "account",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/7poker_mobile",
+          "quote": "\"full_name\":\"garezb35/7poker_mobile\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/7poker_mobile",
+          "quote": "\"pushed_at\":\"2021-07-02T17:05:20Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-github-repo-adm-ll",
+      "label": "Public repository observed",
+      "category": "account",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/adm_ll",
+          "quote": "\"full_name\":\"garezb35/adm_ll\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/adm_ll",
+          "quote": "\"pushed_at\":\"2023-06-26T22:28:04Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-github-repo-mine",
+      "label": "Public repository observed",
+      "category": "account",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/mine",
+          "quote": "\"full_name\":\"garezb35/mine\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/mine",
+          "quote": "\"pushed_at\":\"2022-02-17T10:12:51Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-github-repo-powerball",
+      "label": "Public repository observed",
+      "category": "account",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/powerball",
+          "quote": "\"full_name\":\"garezb35/powerball\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/powerball",
+          "quote": "\"pushed_at\":\"2021-10-18T11:49:35Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-gambling-websites",
+      "label": "Source reported development activity",
+      "category": "incident",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "develops gambling websites."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-garezb35",
+      "label": "Source reported public account",
+      "category": "account",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 4 row 1, PDF file p. 126 (printed p. 124)",
+          "quote": "garezb35"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 4 row 1, PDF file p. 126 (printed p. 124)",
+          "quote": "Skype and Github account \nused by Chong Ryu Song"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-github-endpoint-2026",
+      "label": "Public endpoint observed",
+      "category": "account",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-github-user-garezb35",
+          "locator": "Public user API response",
+          "quote": "\"login\":\"garezb35\""
+        },
+        {
+          "source_id": "doc-github-user-garezb35",
+          "locator": "Public user API response",
+          "quote": "\"public_repos\":8"
+        },
+        {
+          "source_id": "doc-github-user-garezb35",
+          "locator": "Public user API response",
+          "quote": "\"created_at\":\"2019-07-29T14:39:51Z\""
+        },
+        {
+          "source_id": "doc-github-user-garezb35",
+          "locator": "Public user API response",
+          "quote": "\"updated_at\":\"2023-10-17T08:46:16Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-github-language-metadata",
+      "label": "Source attributed account repository language metadata",
+      "category": "skill",
+      "observed": "2026-08-14",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 4 row 1, PDF file p. 126 (printed p. 124)",
+          "quote": "Skype and Github account \nused by Chong Ryu Song"
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/adm_ll",
+          "quote": "\"language\": \"JavaScript\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata object for garezb35/powerball",
+          "quote": "\"language\": \"PHP\""
+        },
+        {
+          "source_id": "doc-github-repos-garezb35",
+          "locator": "Repository metadata objects for garezb35/7poker and garezb35/7poker_mobile",
+          "quote": "\"language\": \"TypeScript\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-kyonghung-affiliation",
+      "label": "Reported worker of",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "North Korean IT workers such as Chong Ryu Song (정류성) and Chon Kwon Uk (전권욱)."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-link-only-report-photo",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120), source-labeled portrait row",
+          "quote": "Name: Chong Ryu Song (정류성)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-report-era-dandong-context",
+      "label": "Source reported coarse location context",
+      "category": "location",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "Kyonghung IT is headquartered in Dandong, China, and consists of 15 individuals, including its director Kim Kwang Myong (김광명) who is affiliated with the UN-sanctioned Reconnaissance General Bureau (KPe.031), and North Korean IT workers such as Chong Ryu Song (정류성) and Chon Kwon Uk (전권욱)."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Kyonghung IT case study, PDF file p. 59 (printed p. 57)",
+          "quote": "These North Korean nationals live together in the dormitory of a clothing factory located in Fengcheng, Dandong"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-reported-name",
+      "label": "Officially reported name and source form",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "Name: Chong Ryu Song (정류성)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-chong-ryu-song-team-leader",
+      "label": "Source reported role",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 9 Table 1, PDF file p. 122 (printed p. 120)",
+          "quote": "Chong is development team leader"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "src-205faa92813e",
+  "publisher": "Internet Archive",
+  "title": "Internet Archive capture index: FireTail applicant article",
+  "url": "https://web.archive.org/cdx/search/cdx?url=www.firetail.ai/blog/we-interviewed-north-korean-hacker-heres-what-learned&output=json&fl=timestamp,original,statuscode,digest&filter=statuscode:200&collapse=digest",
+  "accessed_at": "2026-08-15",
+  "archived_url": "https://web.archive.org/web/20250323203708/https://www.firetail.ai/blog/we-interviewed-north-korean-hacker-heres-what-learned",
+  "sha256": "ada27d3b8ef032101105fcde6df00e51b02534a2ece99dd0e12185f8b56491de",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

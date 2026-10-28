@@ -1,0 +1,122 @@
+{
+  "id": "crypto-incident-doj-company-2-2022",
+  "type": "cluster",
+  "name": "Company-2 (Serbia virtual-token developer; unnamed) — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Court filings and DOJ announcements describe allegations; conviction requires a separate court record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-reframing",
+      "crypto-doj-2025-06-30",
+      "crypto-doj-indictment-ndga-1-25-cr-291"
+    ]
+  },
+  "organizations": [
+    "Company-2 (Serbia virtual-token developer; unnamed)"
+  ],
+  "ttps": [
+    "Indictment allegation: Claimed private key was accidentally committed to .env.sample on GitHub",
+    "Indictment allegation: Co-located team using several Malaysian personas",
+    "Indictment allegation: Internal referral of another controlled identity",
+    "Indictment allegation: Tornado Cash laundering",
+    "Indictment allegation: Used granted access to transfer tokens",
+    "Indictment allegation: Video identity verification with fraudulent identity"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "The source says the defendants collectively stole more than $900,000 across Company-1 and Company-2."
+  ],
+  "aliases": [
+    {
+      "value": "Joshua Charles Palmer",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Joshua Palmer",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Bryan Cho",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-indictment-ndga-1-25-cr-291"
+      ]
+    },
+    {
+      "value": "Peter Xiao",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-indictment-ndga-1-25-cr-291"
+      ]
+    },
+    {
+      "value": "Bong Chee Shen",
+      "alias_type": "stolen-identity",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-indictment-ndga-1-25-cr-291"
+      ]
+    },
+    {
+      "value": "Wong Shao Onn",
+      "alias_type": "stolen-identity",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-doj-indictment-ndga-1-25-cr-291"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Telegram",
+      "identifier": "Bryan Cho Telegram account",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-reframing",
+        "crypto-doj-2025-06-30",
+        "crypto-doj-indictment-ndga-1-25-cr-291"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "lazarus_group_routes": [
+    "bong-chee-shen",
+    "bryan-cho",
+    "joshua-palmer",
+    "peter-xiao"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-reframing",
+      "support": "Pemba Sherpa is mapped to Kim Kwang Jin, and Bryan Cho to Jong Pong Ju",
+      "locator": "Section “Bureau 61 (From Vientiane to Vladivostok)” and “Righting Wrongs”"
+    },
+    {
+      "source_id": "crypto-doj-indictment-ndga-1-25-cr-291",
+      "support": "They worked on victim companies’ smart contracts and collectively stole and laundered more than $900,000",
+      "locator": "Indictment ¶¶ 19–45 (PDF pp. 6–16), Company-1 and Company-2 allegations"
+    },
+    {
+      "source_id": "crypto-doj-2025-06-30",
+      "support": "Workers allegedly sought jobs at virtual-currency businesses and stole more than $900,000 in assets",
+      "locator": "Body paragraphs under “IT Worker Actions” describing virtual-currency employers and more than $900,000 stolen"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

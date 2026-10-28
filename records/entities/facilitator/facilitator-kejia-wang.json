@@ -1,0 +1,482 @@
+{
+  "id": "facilitator-kejia-wang",
+  "type": "facilitator",
+  "name": "Kejia Wang",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced; the exact criminal docket is D. Mass. No. 1:25-cr-10274-NMG; U.S. laptop-farm and money-laundering facilitator.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "flr6-s10",
+      "flr6-s11",
+      "flr6-s19",
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Kejia Wang",
+  "organizations": [
+    "Hopana Tech LLC",
+    "Independent Lab LLC",
+    "Tony WKJ LLC"
+  ],
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "The information is a charging instrument; the later judgment and DOJ release establish the adjudicated posture."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "flr6-s19",
+        "gov-61a8cf3633ad"
+      ],
+      "value": "Tony Wang"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "criminal-case-docket",
+      "value": "D. Mass. No. 1:25-cr-10274-NMG",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s10",
+        "flr6-s11",
+        "flr6-s19"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "KVM devices",
+      "relationship": "reported-link",
+      "source_ids": [
+        "flr6-s19",
+        "gov-61a8cf3633ad"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "flr6-s10",
+      "support": "The filed information identifies United States v. Kejia Wang, D. Mass. No. 1:25-cr-10274-NMG",
+      "locator": "D. Mass. No. 1:25-cr-10274-NMG, Doc. 1, caption and paragraphs 7-8"
+    },
+    {
+      "source_id": "flr6-s11",
+      "support": "The final judgment identifies Kejia Wang's criminal docket and adjudicated disposition",
+      "locator": "D. Mass. No. 1:25-cr-10274-NMG, Doc. 37"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ names Kejia Wang in the coordinated nationwide action. The release-wide laptop-farm, account, website, and separate virtual-currency-case totals are aggregate context, not conduct attributed to him individually.",
+      "locator": "Named Kejia Wang paragraph and release-wide scheme summary"
+    },
+    {
+      "source_id": "flr6-s19",
+      "support": "DOJ reports Kejia Wang’s guilty plea and 108-month sentence; his U.S.-based management role; and the defendants’ joint creation of three shell companies and related financial accounts. The release attributes unauthorized access to ITAR-controlled data to an overseas co-conspirator, not personally to Kejia Wang.",
+      "locator": "Opening and Kejia Wang sentence paragraph; paragraphs beginning “According to court documents” and “Kejia Wang and Zhenxing Wang created shell companies”; ITAR paragraph"
+    },
+    {
+      "source_id": "src-e312b73f2edf"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name",
+      "type": "identity_name",
+      "predicate": "legal_name_in_judgment",
+      "value": {
+        "name": "Kejia Wang"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 1, caption",
+          "quote": "UNITED STATES OF AMERICA v. KEJIA WANG"
+        }
+      ],
+      "observed_at": "2026-04-15"
+    },
+    {
+      "id": "claim-tony-wang-alias",
+      "type": "alias",
+      "predicate": "charged_alias",
+      "value": {
+        "alias": "Tony Wang"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s10",
+          "locator": "PDF p. 1, caption",
+          "quote": "KEJIA WANG, a/k/a “Tony Wang,” Defendant."
+        }
+      ],
+      "observed_at": "2025-06-27",
+      "notes": [
+        "A captioned alias does not establish ownership of any current online account."
+      ]
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "docket": "1:25-cr-10274-NMG"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 1, case-number field",
+          "quote": "Case Number: 1:25-CR-10274-NMG"
+        }
+      ],
+      "observed_at": "2026-04-24"
+    },
+    {
+      "id": "claim-guilty-three-counts",
+      "type": "legal_event",
+      "predicate": "adjudicated_guilty_counts",
+      "value": {
+        "counts": [
+          "conspiracy to commit wire fraud and mail fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 1, plea checkbox",
+          "quote": "pleaded guilty to count(s) 1,2,3"
+        },
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 1, adjudicated-offenses table, Count 1",
+          "quote": "Conspiracy to Commit Wire Fraud and Mail Fraud"
+        },
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 1, adjudicated-offenses table, Count 2",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 1, adjudicated-offenses table, Count 3",
+          "quote": "Conspiracy to Commit Identity Theft"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Offense names are transcribed from the adjacent adjudicated-offenses table."
+      ]
+    },
+    {
+      "id": "claim-prison-sentence",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment",
+      "value": {
+        "months": 108
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 2, Imprisonment",
+          "quote": "total term of: 108 month(s)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "The judgment states the three concurrent count terms."
+      ]
+    },
+    {
+      "id": "claim-supervised-release",
+      "type": "legal_event",
+      "predicate": "sentenced_to_supervised_release",
+      "value": {
+        "years": 3
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 3, Supervised Release",
+          "quote": "Upon release from imprisonment, you will be on supervised release for a term of: 3 years."
+        }
+      ],
+      "observed_at": "2026-04-15"
+    },
+    {
+      "id": "claim-doj-us-national-description",
+      "type": "note",
+      "predicate": "doj_described_nationality",
+      "value": {
+        "description": "U.S. national",
+        "source": "U.S. Department of Justice"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "Opening paragraph",
+          "quote": "The Justice Department today announced the sentencings of two U.S. nationals, Kejia Wang, 42, and Zhenxing Wang, 39"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Retains DOJ's exact U.S. national terminology; it is not broadened to U.S. citizen, and age and co-defendant identity are not retained as claim values."
+      ]
+    },
+    {
+      "id": "claim-historical-new-jersey-context",
+      "type": "location",
+      "predicate": "doj_reported_state_context_at_sentencing",
+      "value": {
+        "state": "New Jersey",
+        "country": "United States",
+        "granularity": "state",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "Second paragraph",
+          "quote": "Kejia Wang, of Edison, New Jersey, was sentenced to 108 months in prison."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "State-level historical context at the sentencing announcement only; the municipality is not retained in the claim value, and no present residence, precise address, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-restitution",
+      "type": "legal_event",
+      "predicate": "ordered_to_pay_restitution",
+      "value": {
+        "amount_usd": "29236.03",
+        "joint_and_several": true
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF pp. 6-7, Criminal Monetary Penalties and Additional Terms",
+          "quote": "Restitution $ 29,236.03"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "Sentencing-result paragraph",
+          "quote": "The court also ordered Kejia Wang to pay a judgment of $29,236.03 in restitution."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "The exact filed judgment controls. The claim omits victim identity and payment-routing details."
+      ]
+    },
+    {
+      "id": "claim-forfeiture",
+      "type": "legal_event",
+      "predicate": "ordered_to_forfeit",
+      "value": {
+        "amount_usd": "400000.00",
+        "property_type": "United States currency"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 8, Schedule of Payments",
+          "quote": "The defendant shall forfeit the defendant's interest in the following property to the United States: $400,000.00 in United States currency"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "The Kejia-specific filed judgment controls. Reporting that the two defendants were ordered to forfeit a combined USD 600,000 is not used to infer any different individual allocation."
+      ]
+    },
+    {
+      "id": "claim-special-assessment",
+      "type": "legal_event",
+      "predicate": "ordered_to_pay_special_assessment",
+      "value": {
+        "amount_usd": "300.00"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s11",
+          "locator": "PDF p. 6, Criminal Monetary Penalties",
+          "quote": "Assessment $ 300.00"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Separate from restitution and forfeiture; no fine is shown in the filed judgment."
+      ]
+    },
+    {
+      "id": "claim-us-manager-role",
+      "type": "relationship",
+      "predicate": "served_as_us_based_manager",
+      "value": {
+        "role": "U.S.-based manager",
+        "supervised_facilitators_minimum": 5
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "Paragraph beginning “According to court documents”",
+          "quote": "Kejia Wang went on to serve as the U.S.-based manager for the scheme, supervising at least five facilitators in the United States who collectively hosted hundreds of computers of U.S. victim companies at their residences."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "DOJ's post-sentencing description; victim and residence details are not separately retained."
+      ]
+    },
+    {
+      "id": "claim-china-meetings",
+      "type": "location",
+      "predicate": "traveled_for_scheme_meetings",
+      "value": {
+        "locations": [
+          "Shenyang, China",
+          "Dandong, China"
+        ],
+        "year": 2023
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "Paragraph beginning “According to court documents”",
+          "quote": "Kejia Wang traveled to Shenyang and Dandong, China on two separate occasions in 2023, to meet with overseas actors about the scheme, including a former classmate that Kejia Wang knew was from North Korea."
+        }
+      ],
+      "observed_at": "2023-12-31",
+      "notes": [
+        "This records source-reported travel, not residence or current location."
+      ]
+    },
+    {
+      "id": "claim-hopana-founder",
+      "type": "organization_affiliation",
+      "predicate": "founded_company",
+      "value": {
+        "organization": "Hopana Tech LLC"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s10",
+          "locator": "PDF p. 13, ¶22(e)",
+          "quote": "On or about January 11, 2021, consistent with instructions he received from Individual C, KEJIA WANG registered Hopana Tech LLC"
+        }
+      ],
+      "observed_at": "2021-01-11",
+      "notes": [
+        "The source is an information; the organizational act is therefore retained with high rather than confirmed confidence."
+      ]
+    },
+    {
+      "id": "claim-tony-wkj-founder",
+      "type": "organization_affiliation",
+      "predicate": "founded_company",
+      "value": {
+        "organization": "Tony WKJ LLC"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s10",
+          "locator": "PDF p. 13, ¶22(f)",
+          "quote": "On or about February 18, 2022, KEJIA WANG registered Tony WKJ LLC"
+        }
+      ],
+      "observed_at": "2022-02-18",
+      "notes": [
+        "The source is an information; the organizational act is therefore retained with high rather than confirmed confidence."
+      ]
+    },
+    {
+      "id": "claim-shell-company-use",
+      "type": "incident",
+      "predicate": "created_shell_companies_for_scheme",
+      "value": {
+        "organizations": [
+          "Hopana Tech LLC",
+          "Tony WKJ LLC",
+          "Independent Lab LLC"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "Paragraph beginning “Kejia Wang and Zhenxing Wang created shell companies”",
+          "quote": "Kejia Wang and Zhenxing Wang created shell companies with corresponding financial accounts, including Hopana Tech LLC, Tony WKJ LLC, and Independent Lab LLC, to make it appear as though the overseas IT workers were affiliated with legitimate U.S. businesses."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "This is a joint act; Independent Lab LLC is not attributed to Kejia Wang alone."
+      ]
+    },
+    {
+      "id": "claim-historical-hopana-label",
+      "type": "account",
+      "predicate": "historically_listed_on_company_website",
+      "value": {
+        "website": "HopanaTech",
+        "displayed_name": "Wang Kejia",
+        "displayed_label": "Tonywkj"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-e312b73f2edf",
+          "locator": "Section “The Tony Wang Link,” first paragraph",
+          "quote": "HopanaTech’s website, hopanatech[.]com, listed three contacts before it was taken down by law enforcement. The first person, Wang Kejia, is listed with the email address “Tonywkj”."
+        }
+      ],
+      "observed_at": "2024-10-10",
+      "notes": [
+        "Historical third-party observation only. It does not establish current account ownership, control of the website, or a separate natural person; the email address itself is deliberately not retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kejia Wang, also named Tony Wang in the captioned federal case; keep adjudicated facts separate from allegations in the information and from historical website labels or company personas."
+}

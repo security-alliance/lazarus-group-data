@@ -1,0 +1,41 @@
+{
+  "id": "deep2-vendor-dv-f08",
+  "type": "cluster",
+  "name": "SentinelOne recruiting-pipeline targeting",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s06-dv-f08"
+    ]
+  },
+  "caveats": [
+    "SentinelOne describes intelligence-driven interaction with candidates; the project records the source description only, with engagement reproduction and extension outside scope.",
+    "The counts cover applications/personas directed at SentinelOne; the reported stage is recruitment rather than successful hiring."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "SentinelOne said it tracked roughly 360 fake personas and more than 1,000 applications linked to DPRK IT-worker operations targeting SentinelOne roles.",
+        "Applications included intelligence-engineering positions in SentinelLabs, and the company observed referral requests directed to strategic employees.",
+        "SentinelOne integrated recruiting signals into its intelligence workflow to identify anomalous applicant patterns."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s06-dv-f08"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s06-dv-f08",
+      "support": "SentinelOne said it tracked roughly 360 fake personas and more than 1,000 applications linked to DPRK IT-worker operations targeting SentinelOne roles. Applications included intelligence-engineering positions in SentinelLabs, and the company observed referral requests directed to strategic employees. SentinelOne integrated recruiting signals into its intelligence workflow to identify anomalous applicant patterns",
+      "locator": "DPRK IT Workers Seeking Inside Jobs"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dmt-ttp-arp-websocket-hid-covert-control",
+  "type": "ttp",
+  "name": "ARP, WebSocket, synthetic-input, and conferencing abuse monitoring",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified defensive abstraction only. The stated evidence class covers a defensive abstraction; legal identity, nationality, employer compromise, prevalence rate, and adjudicated fact require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMT-S03",
+      "DMT-S10",
+      "DMT-S12"
+    ]
+  },
+  "ttps": [
+    "arp-relay",
+    "conference-software-automation",
+    "python-execution",
+    "synthetic-hid-input",
+    "websocket-c2"
+  ],
+  "caveats": [
+    "Claim attribution: Avi Sambira / Sygnia, first-party writeup, SecTor deck, and recording description.",
+    "Deck pages 17–29 are explicitly demonstrations; they support feasibility, while incident counts require observed case evidence.",
+    "Evidence class: first-party forensic case summary with live-demo component.",
+    "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence.",
+    "The record excludes people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, and leaked material.",
+    "Accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, and technical anomaly are contextual signals; fraud or DPRK attribution requires independent evidence.",
+    "Sygnia observed Zoom security prompts intact and zero confirmed data exfiltration.",
+    "The affected client, worker, code, and raw selectors remain undisclosed.",
+    "The live demonstration establishes feasibility only; incident count remains unchanged.",
+    "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-incident-summary-with-demo",
+      "statements": [
+        "Sygnia says a U.S. federal raid on a suspected laptop farm recovered a corporate laptop that was returned to the employer and analyzed. The system used lightweight Python modules for user-presence beaconing, WebSocket C2, WebSocket-to-ARP rebroadcast, ARP listening, HID input simulation, and Zoom automation. Sygnia explicitly says no Zoom security feature or prompt was bypassed and no confirmed data exfiltration was observed.",
+        "Collect ARP-layer visibility and hunt unexpected broadcasts, relay behavior, MAC/IP pairings, and volume changes.",
+        "Restrict unfamiliar outbound WebSocket destinations and correlate long-lived sessions with developer endpoints and Python processes.",
+        "Audit Zoom launch and remote-control workflows, synthetic HID activity, and unauthorized Python or shell execution.",
+        "Where appropriate, use switch protections such as Dynamic ARP Inspection and phase controls to fit operational constraints."
+      ],
+      "limitations": [
+        "Evidence class: first-party forensic case summary with live-demo component.",
+        "Claim attribution: Avi Sambira / Sygnia, first-party writeup, SecTor deck, and recording description.",
+        "Deck pages 17–29 are explicitly demonstrations; they support feasibility but are not additional observed incidents.",
+        "Sygnia observed no bypass of Zoom security prompts and no confirmed data exfiltration.",
+        "The affected client, worker, code, and raw selectors remain undisclosed.",
+        "The live demonstration establishes feasibility only; it is not counted as another observed incident."
+      ],
+      "source_ids": [
+        "DMT-S03",
+        "DMT-S10",
+        "DMT-S12"
+      ]
+    },
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Retain the source's observation class and do not generalize a controlled test, speaker claim, vendor sample, or demonstration into measured prevalence."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, or technical anomaly establishes fraud or DPRK attribution.",
+        "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path.",
+        "No people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, or leaked material are included.",
+        "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence."
+      ],
+      "source_ids": [
+        "DMT-S03",
+        "DMT-S10",
+        "DMT-S12"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep-ttp-detection: post-hire remote access",
+    "talks-presentations: remote-control and laptop-farm tooling"
+  ],
+  "sources": [
+    {
+      "source_id": "DMT-S10",
+      "support": "Sygnia says a U.S. federal raid on a suspected laptop farm recovered a corporate laptop that was returned to the employer and analyzed. The system used lightweight Python modules for user-presence beaconing, WebSocket C2, WebSocket-to-ARP rebroadcast, ARP listening, HID input simulation, and Zoom automation. Sygnia explicitly says no Zoom security feature or prompt was bypassed and no confirmed data exfiltration was observed",
+      "locator": "Writeup Executive Summary through Technical Mitigations; deck pages 7–15 and 31–33"
+    },
+    {
+      "source_id": "DMT-S12",
+      "support": "Sygnia says a U.S. federal raid on a suspected laptop farm recovered a corporate laptop that was returned to the employer and analyzed. The system used lightweight Python modules for user-presence beaconing, WebSocket C2, WebSocket-to-ARP rebroadcast, ARP listening, HID input simulation, and Zoom automation. Sygnia explicitly says no Zoom security feature or prompt was bypassed and no confirmed data exfiltration was observed",
+      "locator": "Writeup Executive Summary through Technical Mitigations; deck pages 7–15 and 31–33"
+    },
+    {
+      "source_id": "DMT-S03",
+      "support": "Sygnia says a U.S. federal raid on a suspected laptop farm recovered a corporate laptop that was returned to the employer and analyzed. The system used lightweight Python modules for user-presence beaconing, WebSocket C2, WebSocket-to-ARP rebroadcast, ARP listening, HID input simulation, and Zoom automation. Sygnia explicitly says no Zoom security feature or prompt was bypassed and no confirmed data exfiltration was observed",
+      "locator": "Writeup Executive Summary through Technical Mitigations; deck pages 7–15 and 31–33"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

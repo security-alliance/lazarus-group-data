@@ -1,0 +1,59 @@
+{
+  "id": "dphr5-ttp-no-detected-loss-outcome-taxonomy",
+  "type": "ttp",
+  "name": "No-detected-loss outcome as an incident taxonomy guard",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Source-qualified suspected-worker case with a public summary showing no detected loss; unobserved activity is beyond the summary.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPHR5-S12-LEVELBLUE-NO-LOSS"
+    ]
+  },
+  "ttps": [
+    "exfiltration-review",
+    "outcome-classification",
+    "persistence-review",
+    "rapid-containment",
+    "residual-access-review"
+  ],
+  "caveats": [
+    "The identity or sanctions concern remains despite undetected data loss.",
+    "The record describes reported conduct by specific fraudulent workers; theft, extortion, espionage, persistence, and sabotage remain case-specific.",
+    "Evidence class: first-party negative forensic outcome.",
+    "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+    "Negative findings are bounded by each investigation's visibility and public summary.",
+    "The record retains bounded source context; people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, and private repository content stay outside it."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-negative-forensic-outcome-and-control-context",
+      "statements": [
+        "LevelBlue reports a suspected-worker case terminated rapidly after anomalous activity with no evidence of exfiltration, persistence or residual access. Existing Sygnia and KnowBe4 first-party cases in the corpus likewise report no confirmed exfiltration or data loss in their reviewed incidents.",
+        "Track access, attempted transfer, confirmed loss, persistence, residual access, and no detected loss as distinct outcomes; continue evidence preservation and proportionate review even when no loss is detected."
+      ],
+      "limitations": [
+        "Evidence class: first-party negative forensic outcome.",
+        "Negative findings are bounded by each investigation's visibility and public summary.",
+        "Do not downgrade the identity or sanctions concern merely because no data loss was detected.",
+        "No people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, or private repository content are retained.",
+        "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+        "Do not infer that every fraudulent worker performs theft, extortion, espionage, persistence, or sabotage."
+      ],
+      "source_ids": [
+        "DPHR5-S12-LEVELBLUE-NO-LOSS"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPHR5-S12-LEVELBLUE-NO-LOSS",
+      "support": "LevelBlue says a suspected worker passed checks and onboarding but was terminated within one business day after anomalous activity prompted investigation. The company reported no evidence of exfiltration, persistence or residual access. LevelBlue reports a suspected-worker case terminated rapidly after anomalous activity with no evidence of exfiltration, persistence or residual access. Existing Sygnia and KnowBe4 first-party cases in the corpus likewise report no confirmed exfiltration or data loss in their reviewed incidents",
+      "locator": "Event summary and investigation outcome"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

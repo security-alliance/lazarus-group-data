@@ -1,0 +1,37 @@
+{
+  "id": "infrastructure-13-acleen-sz1234-manling-glf-qjh1604-pn-lp-pn-2",
+  "type": "infrastructure",
+  "name": "payment account aliases: acleen; sz1234; manling; glf; qjh1604; Pn_lp; Pn_2318; Pn_br; Pn_ylq; Pn_gfm; Pn_qinxd; Pn_pan; Pn_macg; Payon_500; PN_br6065; PN_panxy; PN_macg3399",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "caveats": [
+    "Historical account/payment indicators may be reassigned or belong to identity/payment proxies; current ownership requires current evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "payment account aliases",
+      "value": "acleen; sz1234; manling; glf; qjh1604; Pn_lp; Pn_2318; Pn_br; Pn_ylq; Pn_gfm; Pn_qinxd; Pn_pan; Pn_macg; Payon_500; PN_br6065; PN_panxy; PN_macg3399",
+      "attribution": "SANS FAB IT",
+      "status": "historical",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "SANS FAB IT: acleen; sz1234; manling; glf; qjh1604; Pn_lp; Pn_2318; Pn_br; Pn_ylq; Pn_gfm; Pn_qinxd; Pn_pan; Pn_macg; Payon_500; PN_br6065; PN_panxy; PN_macg3399",
+      "locator": "Annex 13, PDF p. 132 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

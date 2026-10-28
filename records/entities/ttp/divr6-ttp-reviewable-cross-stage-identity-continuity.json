@@ -1,0 +1,68 @@
+{
+  "id": "divr6-ttp-reviewable-cross-stage-identity-continuity",
+  "type": "ttp",
+  "name": "Reviewable identity continuity across hiring and access stages",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party vendor guidance only; incident, allegation, adjudication, and independently measured effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIVR6-S01"
+    ]
+  },
+  "ttps": [
+    "human-review",
+    "identity-continuity",
+    "pre-provisioning-review",
+    "risk-based-reverification",
+    "stage-linked-decision-record"
+  ],
+  "caveats": [
+    "A verification vendor's pass or fail covers the represented check. Legal identity, nationality, and a comprehensive background check require separate evidence.",
+    "The cross-owner decision thread is a proposed identity-continuity control; detector and incident status are unvalidated.",
+    "Keep identity-document data, biometric material, applicant addresses, and raw access telemetry out of the public record.",
+    "Location supplies context; identity, nationality, sanctions status, physical control, employment legitimacy, and misconduct require corroboration.",
+    "Location, time zone, VPN use, accent, appearance, and language require other evidence before rejection or attribution.",
+    "The record scope excludes people, entities, accounts, images, identity documents, biometric material, templates, private data, and raw device, network, video, or screening signals.",
+    "Re-verification should be tied to defined sensitive actions and risk, with notice, correction, appeal, and accessible alternatives.",
+    "Use layered, explainable review with a lawful purpose, proportional retention, accessible alternatives, correction, and appeal; an anomaly or vendor decision is a review trigger rather than proof of fraud.",
+    "Vendor guidance is retained as a defensive abstraction; incident, measured effectiveness, and DPRK-identification claims require independent evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "cross-stage-identity-decision-control",
+      "statements": [
+        "Do not let each hiring or access stage create an unrelated identity result. Link the candidate's reviewed identity decision across application, interview, pre-Day-One provisioning, and later high-risk actions so that HR, IT, and security can determine whether the same authorized person remains in control. Require a human-reviewed gate before issuing credentials, and use risk-based re-verification for sensitive actions rather than indiscriminate continuous surveillance."
+      ],
+      "limitations": [
+        "Do not expose or retain identity-document data, biometric material, applicant addresses, or raw access telemetry.",
+        "A verification vendor's pass or fail is not a legal identity determination, nationality finding, or comprehensive background check.",
+        "Re-verification should be tied to defined sensitive actions and risk, with notice, correction, appeal, and accessible alternatives.",
+        "Location, time zone, VPN use, accent, appearance, or language cannot independently justify rejection or attribution.",
+        "Vendor guidance is retained as a defensive abstraction, not as a reported incident, a measured effectiveness claim, or evidence that a product identifies DPRK affiliation.",
+        "Use layered, explainable review with a lawful purpose, proportional retention, accessible alternatives, correction, and appeal; an anomaly or vendor decision is a review trigger rather than proof of fraud.",
+        "Location cannot independently establish identity, nationality, sanctions status, physical control, employment legitimacy, or misconduct.",
+        "No people, entities, accounts, images, identity documents, biometric material, templates, private data, or raw device, network, video, or screening signals are retained.",
+        "The cross-owner decision thread is a proposed identity-continuity control, not a validated detector or an incident finding."
+      ],
+      "source_ids": [
+        "DIVR6-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk",
+    "ttp-ttp-identity-continuity"
+  ],
+  "sources": [
+    {
+      "source_id": "DIVR6-S01",
+      "support": "Do not let each hiring or access stage create an unrelated identity result. Link the candidate's reviewed identity decision across application, interview, pre-Day-One provisioning, and later high-risk actions so that HR, IT, and security can determine whether the same authorized person remains in control. Require a human-reviewed gate before issuing credentials, and use risk-based re-verification for sensitive actions rather than indiscriminate continuous surveillance",
+      "locator": "Key takeaways; Why traditional defenses fail against this threat; Building a defensible hiring and access security program; Stage 1: Resume submission through Stage 4: Ongoing access; Continuous identity for a continuous threat"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

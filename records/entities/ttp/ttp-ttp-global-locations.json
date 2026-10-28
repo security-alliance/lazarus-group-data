@@ -1,0 +1,38 @@
+{
+  "id": "ttp-ttp-global-locations",
+  "type": "ttp",
+  "name": "TTP-GLOBAL-LOCATIONS",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-aus-dfat-2026",
+      "int-msmt-2025-2",
+      "int-rok-mofa-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Workers operate from DPRK, China, Russia, Southeast Asia and African countries while hiding location via proxies, VPNs, remote desktop software, and laptop farms."
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT documents IT-worker teams based in the DPRK and dispatched abroad, including delegations in Russia, Laos, China, and African countries, and describes overseas laptop-farm support",
+      "locator": "report pp. 22, 52-66; PDF pp. 24, 54-68 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "int-aus-dfat-2026",
+      "support": "DFAT warns that DPRK IT workers increasingly target Australian businesses while concealing their true identity and location",
+      "locator": "sections on threat activity and warning signs"
+    },
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "The joint alert says DPRK IT workers have expanded globally and use location-obfuscation techniques including VPNs, proxies, remote access, and laptop farms",
+      "locator": "p. 3 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

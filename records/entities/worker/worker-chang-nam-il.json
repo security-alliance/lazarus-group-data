@@ -1,0 +1,1036 @@
+{
+  "id": "worker-chang-nam-il",
+  "type": "worker",
+  "name": "Chang Nam Il",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker charged in employer virtual-currency thefts",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad",
+      "gov-ndga-2025-indictment",
+      "lazarus-group-team"
+    ]
+  },
+  "legal_or_reported_name": "Chang Nam Il",
+  "ttps": [
+    "alleged employment under alias",
+    "alleged fraudulent identity document",
+    "alleged mixer-laundering proceeds receipt",
+    "alleged virtual-currency exchange account under alias"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "aliases": [
+    {
+      "value": "Bong Chee Shen",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "value": "Peter Xiao",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "value": "Chang Nam II",
+      "alias_type": "site-listed-profile-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile name differs from the established dataset name; this is not a civil-identity determination."
+    },
+    {
+      "value": "Alex Shen",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "devneser",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Alex Shen",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Peter Xiao",
+      "alias_type": "site-listed-profile-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile name differs from the established dataset name; this is not a civil-identity determination."
+    },
+    {
+      "value": "assasinooz77",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Brian Cho",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "other",
+      "value": "Tornado Cash (alleged laundering method)",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "Virtual-currency exchange account under the Bong Chee Shen alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "bong-chee-shen",
+    "peter-xiao"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-ndga-2025-indictment",
+      "support": "The indictment names Chang Nam Il and explicitly identifies Bong Chee Shen and Peter Xiao as aliases",
+      "locator": "Indictment pp. 1-2, 8-9"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ names Chang Nam Il in the N.D. Georgia virtual-currency case. The release-wide laptop-farm, account, and website totals concern other coordinated actions and are not attributed to him individually; the charges remain allegations.",
+      "locator": "IT Worker Actions section; N.D. Georgia case summary naming Chang Nam Il"
+    },
+    {
+      "source_id": "src-2e0dbe82f3ff"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Chang Nam II in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/bong-chee-shen"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-chang-name-and-nationality",
+      "type": "identity_name",
+      "predicate": "officially_charged_name",
+      "value": {
+        "name": "Chang Nam Il",
+        "reported_nationality": "North Korean"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF pp. 3-4, Introduction ¶2",
+          "quote": "CHANG NAM IL a/k/a ‘Bong Chee Shen,’ a/k/a ‘Peter Xiao,’ were citizens of North Korea"
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, opening two sentences",
+          "quote": "Federal prosecutors have charged four North Korean nationals in a cryptocurrency embezzlement scheme that targeted companies in Georgia and Serbia, allegedly funneling more than $900,000 in stolen digital assets back to the North Korean regime to support weapons development and evade international sanctions. A five-count indictment unsealed Monday in the Northern District of Georgia names Kim Kwang Jin, Kang Tae Bok, Jong Pong Ju, and Chang Nam Il as defendants in the case, accusing them of wire fraud and money laundering."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "This verifies the indictment's reported identity and allegation posture, not guilt."
+      ]
+    },
+    {
+      "id": "claim-chang-alias-bong-chee-shen",
+      "type": "alias",
+      "predicate": "used_alias",
+      "value": {
+        "alias": "Bong Chee Shen",
+        "alias_type": "indictment_attributed"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 3, caption",
+          "quote": "CHANG NAM IL (창남일) A/K/A ‘BONG CHEE SHEN,’ A/K/A ‘PETER XIAO’"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Alias attribution comes from a charging instrument."
+      ]
+    },
+    {
+      "id": "claim-chang-alias-peter-xiao",
+      "type": "alias",
+      "predicate": "used_alias",
+      "value": {
+        "alias": "Peter Xiao",
+        "alias_type": "employment_persona"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF pp. 9-10, ¶27",
+          "quote": "In truth, ‘Peter Xiao’ was actually defendant CHANG NAM IL"
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, employment-persona paragraph",
+          "quote": "On Jong’s recommendation, the Serbian company later hired \"Peter Xiao,\" who was allegedly Chang Nam Il."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Do not treat this persona as a separately verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-chang-peter-xiao-employment",
+      "type": "employment",
+      "predicate": "allegedly_worked_under_alias",
+      "value": {
+        "persona": "Peter Xiao",
+        "role": "front-end development",
+        "period": "approximately October 2021 to January 2022"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 10, ¶27",
+          "quote": "Defendant CHANG NAM IL, using the alias ‘Peter Xiao,’ worked for Company-2 from in or about October 2021 until in or about January 2022."
+        }
+      ],
+      "notes": [
+        "Indictment allegation; employer remains anonymized as Company-2."
+      ]
+    },
+    {
+      "id": "claim-chang-exchange-account-allegation",
+      "type": "account",
+      "predicate": "allegedly_opened_exchange_account",
+      "value": {
+        "account_label": "Virtual Currency Exchange-1 account",
+        "held_name": "Bong Chee Shen",
+        "opened_on": "2021-08-05"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF pp. 14-15, ¶41",
+          "quote": "On or about August 5, 2021, defendant CHANG NAM IL, using the alias ‘Bong Chee Shen,’ opened an account at Virtual Currency Exchange-1."
+        }
+      ],
+      "observed_at": "2021-08-05",
+      "notes": [
+        "Historical allegation does not establish present account ownership or control; no account selector is retained."
+      ]
+    },
+    {
+      "id": "claim-chang-tornado-cash-receipt-allegation",
+      "type": "incident",
+      "predicate": "allegedly_received_mixed_proceeds",
+      "value": {
+        "asset": "Ether",
+        "approximate_amount": "19.8",
+        "period": "2022-02-25 to 2022-02-27",
+        "method": "Tornado Cash"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 15, ¶43",
+          "quote": "From on or about February 25 through on or about February 27, 2022, approximately 19.8 Ether was transferred from Tornado Cash to defendant CHANG NAM IL’s account at Virtual Currency Exchange-1, held in the name of ‘Bong Chee Shen.’"
+        }
+      ],
+      "notes": [
+        "Indictment allegation; no wallet or account selector is retained."
+      ]
+    },
+    {
+      "id": "claim-chang-charged-wanted-2025",
+      "type": "legal_event",
+      "predicate": "charged_and_reported_wanted",
+      "value": {
+        "case_summary": "five-count wire-fraud and money-laundering indictment",
+        "posture": "at large and wanted as reported by DOJ"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment – Northern District of Georgia, opening paragraph",
+          "quote": "charging four North Korean nationals, Kim Kwang Jin (김관진), Kang Tae Bok (강태복), Jong Pong Ju (정봉주) and Chang Nam Il (창남일)"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "same paragraph",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, opening indictment sentence",
+          "quote": "A five-count indictment unsealed Monday in the Northern District of Georgia names Kim Kwang Jin, Kang Tae Bok, Jong Pong Ju, and Chang Nam Il as defendants in the case, accusing them of wire fraud and money laundering."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Status is a dated DOJ report; charges are allegations and do not establish guilt or current wanted status after the cutoff."
+      ]
+    },
+    {
+      "id": "claim-chang-uae-2019-group-context",
+      "type": "location",
+      "predicate": "media_reported_historical_group_travel_and_colocation",
+      "value": {
+        "location": "United Arab Emirates",
+        "period": "2019",
+        "context": "source-reported collective travel and colocated work allegation",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ],
+      "notes": [
+        "Secondary-source report about the charged group, not an independently verified individual itinerary, residence, present location, or adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-chang-collective-fbi-reward-report",
+      "type": "legal_event",
+      "predicate": "media_reported_collective_fbi_reward",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "collective reward for information leading to the arrest of the four charged men",
+        "reported_at": "2025-06-30"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, North Korean Cryptocurrency Theft Case section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "The amount is reported collectively and must not be presented as an individual reward amount or as proof of guilt; current reward status was not independently reverified."
+      ]
+    },
+    {
+      "id": "claim-chang-official-korean-name",
+      "type": "identity_name",
+      "predicate": "officially_charged_korean_name",
+      "value": {
+        "name": "Chang Nam Il",
+        "korean": "창남일",
+        "source_scope": "federal charging instrument"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF p. 3, caption",
+          "quote": "CHANG NAM IL (창남일) A/K/A ‘BONG CHEE SHEN,’ A/K/A ‘PETER XIAO’"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "The Korean form is retained from the federal charging instrument as an official identity-name form; it does not change allegation posture or establish guilt.",
+        "창남일 is distinct from the Annex 70 spelling 장남일 for Jang Nam Il; no Annex 70 identity, occupation, group context, or selector is transferred."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0011",
+      "type": "identity_name",
+      "predicate": "profile-name",
+      "value": {
+        "field": "name",
+        "value": "Chang Nam II"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, profile, name",
+          "quote": "Chang Nam II"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0012",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Chang Nam II"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Basic Information, Real Name",
+          "quote": "Chang Nam II"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0013",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0014",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "Alex Shen"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Basic Information, Aliases",
+          "quote": "Alex Shen"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0015",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "devneser"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Basic Information, Aliases",
+          "quote": "devneser"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0016",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Alex Shen"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Basic Information, Fake Names",
+          "quote": "Alex Shen"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0017",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "alexzh[dot]dev[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Contact Information, Emails",
+          "quote": "alexzh[dot]dev[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0018",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "devneser"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, GitHub, GitHub ID",
+          "quote": "devneser"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0019",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0020",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "SOL"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Currency",
+          "quote": "SOL"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0021",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x164729e00e8d0f871189160f36dee4398cade1f2"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Addresses",
+          "quote": "0x164729e00e8d0f871189160f36dee4398cade1f2"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0022",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x2efe21f4fef7e737c0a3491c93be7d696038b6f5"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Addresses",
+          "quote": "0x2efe21f4fef7e737c0a3491c93be7d696038b6f5"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0023",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x65b4ba828f85ac429d6a02db1304065a819a53f4"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Addresses",
+          "quote": "0x65b4ba828f85ac429d6a02db1304065a819a53f4"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0024",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xd9054f484ed98a7dd632eb9c09644616db3dea8c"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Addresses",
+          "quote": "0xd9054f484ed98a7dd632eb9c09644616db3dea8c"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0025",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x06f90983cd2215379e440fc525e441d6a5fc3fba"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Addresses",
+          "quote": "0x06f90983cd2215379e440fc525e441d6a5fc3fba"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-bong-chee-shen-0026",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "GrXoxqM2a6QFKSBdZ9RLWJCBVTFvuuH8eCjjsLbjhpiR"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/bong-chee-shen, Salary Details, Addresses",
+          "quote": "GrXoxqM2a6QFKSBdZ9RLWJCBVTFvuuH8eCjjsLbjhpiR"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0027",
+      "type": "identity_name",
+      "predicate": "profile-name",
+      "value": {
+        "field": "name",
+        "value": "Peter Xiao"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, profile, name",
+          "quote": "Peter Xiao"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0028",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Peter Xiao"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Basic Information, Real Name",
+          "quote": "Peter Xiao"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0029",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0030",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "assasinooz77"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Basic Information, Aliases",
+          "quote": "assasinooz77"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0031",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Brian Cho"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Basic Information, Fake Names",
+          "quote": "Brian Cho"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0032",
+      "type": "account",
+      "predicate": "contact-information-websites",
+      "value": {
+        "platform": "website",
+        "url": "hxxps://x.com/zachxbt/status/1824047425822310580"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Contact Information, Websites",
+          "quote": "hxxps://x.com/zachxbt/status/1824047425822310580"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0033",
+      "type": "employment",
+      "predicate": "employment-history-identified",
+      "value": {
+        "field": "Identified",
+        "value": "Jan 1, 2024"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Employment History, Identified",
+          "quote": "Jan 1, 2024"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0034",
+      "type": "employment",
+      "predicate": "employment-history-company",
+      "value": {
+        "organization": "Unknown Company"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Employment History, company",
+          "quote": "Unknown Company"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0035",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "assasinooz77"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, GitHub, GitHub ID",
+          "quote": "assasinooz77"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0036",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "assasinooz77"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, GitHub, Usernames",
+          "quote": "assasinooz77"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-peter-xiao-0037",
+      "type": "wallet",
+      "predicate": "onchain-activity-addresses",
+      "value": {
+        "address": "0x5d8335834bfdf4c746e277e5100d7c778c807356"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/peter-xiao, Onchain Activity, Addresses",
+          "quote": "0x5d8335834bfdf4c746e277e5100d7c778c807356"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Chang Nam Il is the North Korean national charged under that name in N.D. Ga. No. 1:25-CR-291; Bong Chee Shen and Peter Xiao are indictment-attributed aliases. The charged posture remains in force, and names, images, nationalities, and historical account observations keep other persons and accounts separate pending a source link.",
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "alexzh[dot]dev[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "devneser",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "website",
+      "identifier": "hxxps://x.com/zachxbt/status/1824047425822310580",
+      "url": "hxxps://x.com/zachxbt/status/1824047425822310580",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "assasinooz77",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ],
+  "organizations": [
+    "Unknown Company"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "incident-unidentified-federal-agency-dprk-it-worker-2026",
+  "type": "cluster",
+  "name": "Unidentified DPRK remote IT worker at an unidentified U.S. federal agency",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Incident existence was disclosed in attributed remarks by a named FBI official. At the cutoff, the public record covered those remarks; official case release, worker identity, affected agency name, technical evidence, and impact details were unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "federal-news-network-2026-08-10-federal-agency-worker",
+      "techcrunch-2026-08-11-federal-agency-worker"
+    ]
+  },
+  "organizations": [
+    "Federal Bureau of Investigation",
+    "Unidentified U.S. federal agency"
+  ],
+  "locations": [
+    "United States"
+  ],
+  "caveats": [
+    "Keep this incident separate from the earlier FAA-related contractor case and other named cases unless official identifiers link them.",
+    "Incident/context record only; its subject is the incident context rather than a person or persona profile.",
+    "The publication includes no actor image; article art remains illustrative.",
+    "The affected agency, worker identity, access path, employment form, duration, role, accounts, and impact were withheld.",
+    "The FBI official's separate comments about campaign-wide AI use are general context; incident attribution remains separate."
+  ],
+  "sources": [
+    {
+      "source_id": "federal-news-network-2026-08-10-federal-agency-worker",
+      "support": "Reports direct remarks by an FBI Cyber Capabilities Branch official that the FBI had identified an otherwise unnamed DPRK remote IT worker working for an unnamed U.S. federal agency; the agency, duration, role, access path, and impact were not disclosed",
+      "locator": "Opening three paragraphs: scope and unidentified federal-agency incident.; Paragraph beginning with the July 28 conference: direct attribution and timing of the FBI identification.; Following paragraph: agency, duration, and data-loss details remained undisclosed.; Artificial-intelligence section: FBI official described general AI use across application and employment, not case-specific conduct"
+    },
+    {
+      "source_id": "techcrunch-2026-08-11-federal-agency-worker",
+      "support": "Corroborating secondary coverage of the same FBI disclosure; it adds no worker, agency, account, technical indicator, or independent attribution",
+      "locator": "Headline and opening paragraphs: same federal-agency event.; Attribution paragraph: identifies Federal News Network as the underlying report"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

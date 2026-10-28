@@ -1,0 +1,36 @@
+{
+  "id": "crypto-incident-cloudai-2024",
+  "type": "cluster",
+  "name": "CloudAI — public incident context",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT Table 2 attributes this incident to DPRK IT workers. This is an official source attribution covering the incident, rather than a legal adjudication or identification of a particular worker, employment role, or access path.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "CloudAI"
+  ],
+  "ttps": [
+    "Public mechanics and employment linkage not established in reviewed sources"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "Research queue: project statements and archived team pages.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence."
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "MSMT Table 2 lists the 2024-03-13 CloudAI incident under the actor category “IT Workers” with an estimated amount of $0.36 million (approximately $360,000). The table supplies no public named worker, employment history, access path, or incident mechanics",
+      "locator": "PDF pp. 27–28, Table 2 (exact date, victim, actor category, and amount row)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

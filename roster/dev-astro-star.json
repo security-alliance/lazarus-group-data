@@ -1,0 +1,167 @@
+{
+  "id": "dev-astro-star",
+  "aliases": [
+    "dev-astro-star"
+  ],
+  "notes": "GitHub account that, per Recorded Future Insikt Group (February 2025), committed to an 'agencyhill99' repository which added a link to BattleTank[.]exe. Recorded Future places AgencyHill99 in its PurpleBravo (Famous Chollima) reporting.",
+  "github": [
+    {
+      "gh_id": "dev-astro-star"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-agencyhill99-dev-astro-star",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "GitHub account that, per Recorded Future Insikt Group (February 2025), committed to an 'agencyhill99' repository which added a link to BattleTank[.]exe. Recorded Future places AgencyHill99 in its PurpleBravo (Famous Chollima) reporting.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Recorded Future-reported historical GitHub account associated with an AgencyHill99 repository in PurpleBravo reporting. Do not infer a verified civil identity, current controller, or guilt from historical commits or present account reachability.",
+      "commits observed 2024-10-09 through 2024-10-19",
+      "Historical account indicator; do not imply the current account holder is the same operator.",
+      "No identity conclusion may be drawn from profile imagery or visual similarity.",
+      "This is a source-reported persona or account label, not a verified legal identity.",
+      "Source-reported alias labels with no platform stated: dev-astro-star. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "The account has shown zero public repositories since at least 2026-08-15; the repository Recorded Future describes is not visible on the profile.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-c84c0687ad0a",
+      "title": "From IT Workers to Cyber Operations: Tracking North Korean Threat Actors Around the Globe",
+      "publisher": "Recorded Future Insikt Group",
+      "url": "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-nk-2025-0213.pdf",
+      "date": "2025-02-13"
+    },
+    {
+      "id": "doc-github-dev-astro-star-commit-search",
+      "title": "GitHub commit search: author dev-astro-star",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/search/commits?q=author%3Adev-astro-star&per_page=100"
+    },
+    {
+      "id": "doc-github-dev-astro-star-current",
+      "title": "GitHub user status: dev-astro-star",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/dev-astro-star"
+    },
+    {
+      "id": "doc-github-dev-astro-star-login-search",
+      "title": "GitHub login search: dev-astro-star",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/search/users?q=dev-astro-star+in%3Alogin&per_page=100"
+    },
+    {
+      "id": "doc-recordedfuture-inside-scam-html",
+      "title": "Inside the Scam: North Korea’s IT Worker Threat",
+      "publisher": "Recorded Future Insikt Group",
+      "url": "https://www.recordedfuture.com/research/inside-the-scam-north-koreas-it-worker-threat",
+      "date": "2025-02-13"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-dev-astro-star-current-github-metadata",
+      "label": "Current public account metadata",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-github-dev-astro-star-current",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"dev-astro-star\""
+        },
+        {
+          "source_id": "doc-github-dev-astro-star-current",
+          "locator": "JSON field id",
+          "quote": "\"id\": 184411592"
+        },
+        {
+          "source_id": "doc-github-dev-astro-star-current",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 0"
+        },
+        {
+          "source_id": "doc-github-dev-astro-star-current",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2024-10-09T15:26:00Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-dev-astro-star-current-index-boundary",
+      "label": "Current public artifact index status",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-github-dev-astro-star-login-search",
+          "locator": "JSON total_count and first result",
+          "quote": "\"login\": \"dev-astro-star\""
+        },
+        {
+          "source_id": "doc-github-dev-astro-star-commit-search",
+          "locator": "JSON total_count",
+          "quote": "\"total_count\": 0"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-dev-astro-star-recorded-future-link-only-source-page",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-02-13",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF file p. 7 (printed footer p. 6), visually reviewed GitHub Repository paragraph; contact and infrastructure selectors excluded",
+          "quote": "A GitHub user, dev-astro-star, made several commits to the repository between October 9 and 19, 2024."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-dev-astro-star-source-firebase-assessment",
+      "label": "Publisher assessed repository website backend",
+      "category": "note",
+      "observed": "2025-02-13",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 7, GitHub Repository paragraph, Firebase sentence",
+          "quote": "Based on the commits, it appears the website used Firebase, a Google backend service for web applications."
+        },
+        {
+          "source_id": "doc-recordedfuture-inside-scam-html",
+          "locator": "GitHub Repository section",
+          "quote": "Based on the commits, it appears the website used Firebase, a Google backend service for web applications."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-dev-astro-star-source-repository-commits",
+      "label": "Publisher reported agencyhill99 repository commits",
+      "category": "relationship",
+      "observed": "2025-02-13",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 7, GitHub Repository paragraph, opening sentences",
+          "quote": "Insikt Group discovered a GitHub repository named agencyhill99"
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 7, GitHub Repository paragraph, committer sentence",
+          "quote": "A GitHub user, dev-astro-star, made several commits to the repository between October 9 and 19, 2024."
+        },
+        {
+          "source_id": "doc-recordedfuture-inside-scam-html",
+          "locator": "GitHub Repository section",
+          "quote": "A GitHub user, dev-astro-star, made several commits to the repository between October 9 and 19, 2024."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

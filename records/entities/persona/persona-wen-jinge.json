@@ -1,0 +1,371 @@
+{
+  "id": "persona-wen-jinge",
+  "type": "persona",
+  "name": "Wen Jinge",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s8"
+    ]
+  },
+  "ttps": [
+    "cross-platform profile-photo/name reuse",
+    "remote blockchain developer persona"
+  ],
+  "caveats": [
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved.",
+    "This source-reported persona or account label has unverified legal or civil identity. Historical observation or page reachability covers historical context; present ownership, control, activity, affiliation, nationality, sanctions status, and lawful identity remain unverified, and account-holder contact or targeting is prohibited."
+  ],
+  "aliases": [
+    {
+      "value": "Yu Jinge",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s8"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Guru",
+      "identifier": "wen-jinge",
+      "url": "https://www.guru.com/freelancers/wen-jinge",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s8"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "wenjinge0424",
+      "url": "https://github.com/wenjinge0424",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s8"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s8",
+      "support": "Nisos cited github.com/wenjinge0424 as an example remote blockchain-developer persona",
+      "locator": "GitHub/persona example and cross-platform profile evidence, report pp. 5-8, Graphics 4 and 8-17"
+    },
+    {
+      "source_id": "src-e401701b6056"
+    },
+    {
+      "source_id": "src-b8f040f259a9"
+    },
+    {
+      "source_id": "drp49-un-s-2024-215"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-wenjinge-reported-profile-cluster",
+      "type": "identity_name",
+      "predicate": "researcher_reported_cross_platform_persona_cluster",
+      "value": {
+        "primary_label": "Wen Jinge",
+        "related_labels": [
+          "Yu JinGe",
+          "Bruno Dao"
+        ],
+        "identity_status": "persona cluster, not verified civil identity"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 5, Graphic 4",
+          "quote": "Bruno Dao refers to himself as an iOS and Blockchain Developer on his GitHub profile."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, Graphic 8",
+          "quote": "Same photo used for “wenjinge” in Dandong, China on freelancer site Guru."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, Graphic 9",
+          "quote": "Same photo found on a personal website for mobile app developer “Yu JinGe.”"
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "This reproduces the publisher's cross-profile assessment; no facial recognition or independent identity merge was performed."
+      ]
+    },
+    {
+      "id": "claim-wenjinge-account-footprint",
+      "type": "account",
+      "predicate": "researcher_reported_historical_account_footprint",
+      "value": {
+        "accounts": [
+          "GitHub wenjinge0424",
+          "Guru wen-jinge",
+          "HackerRank wenjinge0424",
+          "Replit wenjinge0424"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 5, footnote 4",
+          "quote": "https://www.github[.]com/wenjinge0424"
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, footnotes 8, 10, and 13",
+          "quote": "https://www.guru[.]com/freelancers/wen-jinge"
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, footnotes 8, 10, and 13",
+          "quote": "https://www.hackerrank[.]com/profile/wenjinge0424"
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, footnotes 8, 10, and 13",
+          "quote": "https://replit[.]com/"
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Historical publisher-linked account set; current ownership and continuity were not established for all services.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-wenjinge-solidity-repl",
+      "type": "skill",
+      "predicate": "researcher_reported_replit_artifact",
+      "value": {
+        "platform": "Replit",
+        "handle": "wenjinge0424",
+        "artifact": "Solidity repl"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 6, Graphic 12",
+          "quote": "on Replit, an online integrated development environment, that contains a repl on Solidity, an object-oriented language designed to target the Ethereum Virtual Machine."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Historical source observation; no code was downloaded or executed.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-wenjinge-location-inconsistency",
+      "type": "location",
+      "predicate": "researcher_reported_conflicting_profile_locations",
+      "value": {
+        "labels": [
+          "Wen Jinge",
+          "Yu Jinge"
+        ],
+        "claimed_locations": [
+          "Maywood, California",
+          "Dandong, China",
+          "Calgary, Alberta, Canada"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 7, Graphic 15",
+          "quote": "Yu Jinge’s ContactOut profile lists his location as Calgary, Alberta, Canada."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 8, Graphics 16-17",
+          "quote": "Wen Jinge’s RocketReach profile lists his location as Maywood, California."
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF p. 8, Graphics 16-17",
+          "quote": "Wen Jinge’s Guru profile lists his location as Dandong, China."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "These are publisher-reported profile claims; no present or actual location is inferred."
+      ]
+    },
+    {
+      "id": "claim-wenjinge-github-current",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "wenjinge0424",
+        "numeric_id": 39569401,
+        "profile_name": "Bruno Dao",
+        "profile_bio": "IOS and Bockchain Developer",
+        "public_repositories": 30
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"wenjinge0424\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field id",
+          "quote": "\"id\": 39569401"
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Bruno Dao\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field bio",
+          "quote": "\"bio\": \"IOS and Bockchain Developer\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 30"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The mutable self-presented name and bio spelling are preserved literally. Current metadata does not establish civil identity, expertise, employment, authorship, activity, ownership, or present control."
+      ]
+    },
+    {
+      "id": "claim-wenjinge-github-timeline",
+      "type": "account",
+      "predicate": "current_public_account_timestamps",
+      "value": {
+        "platform": "GitHub",
+        "handle": "wenjinge0424",
+        "created_at": "2018-05-23T19:29:05Z",
+        "updated_at": "2023-04-03T03:41:02Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2018-05-23T19:29:05Z\""
+        },
+        {
+          "source_id": "src-e401701b6056",
+          "locator": "JSON field updated_at",
+          "quote": "\"updated_at\": \"2023-04-03T03:41:02Z\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Platform timestamps describe the account object, not a controller's identity or continuity."
+      ]
+    },
+    {
+      "id": "claim-wenjinge-guru-current",
+      "type": "account",
+      "predicate": "current_public_freelancer_profile_metadata",
+      "value": {
+        "platform": "Guru",
+        "profile_name": "wen jinge",
+        "claimed_location": "Dandong, Liaoning, China",
+        "member_since": "2017-05",
+        "service_title": "Full Stack Mobile/Web Manager"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-b8f040f259a9",
+          "locator": "HTML profile heading",
+          "quote": "<strong>wen jinge</strong>"
+        },
+        {
+          "source_id": "src-b8f040f259a9",
+          "locator": "HTML profile location",
+          "quote": "<span>Dandong, Liaoning, China</span>"
+        },
+        {
+          "source_id": "src-b8f040f259a9",
+          "locator": "HTML profile statistics",
+          "quote": "<dd class=\"profile-attd__data\">May 2017</dd>"
+        },
+        {
+          "source_id": "src-b8f040f259a9",
+          "locator": "HTML service listing",
+          "quote": "<span v-pre>Full Stack Mobile/Web Manager</span>"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Self-presented public profile data; reachability does not establish ownership, identity, or actual location."
+      ]
+    },
+    {
+      "id": "claim-persona-wen-jinge-un-annex64-derivative-reproduction",
+      "type": "relationship",
+      "predicate": "un_report_reproduced_vendor_persona_example",
+      "value": {
+        "document_symbol": "S/2024/215",
+        "figure": "Annex 64, Figure 3",
+        "visible_labels": [
+          "wen jinge",
+          "YU JIN GE"
+        ],
+        "underlying_source_family": "Nisos 2023 persona research",
+        "independent_identity_source": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 caption",
+          "quote": "Figure 3: Example of DPRK IT workers’ multiple personas"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 359, Annex 64, Figure 3 visible profile label",
+          "quote": "wen jinge"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 359, Annex 64, Figure 3 visible profile label",
+          "quote": "YU JIN GE"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Official derivative reproduction of the already-reviewed Nisos cluster; no independent image comparison or present-location inference.",
+        "The UN figure is retained as official derivative documentation; it does not increase independent publisher count, resolve a civil identity, or authorize image-based identity inference."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Nisos-reported cross-platform employment persona cluster. Wen Jinge, Yu JinGe, Bruno Dao, related account labels, claimed locations, profile content and imagery remain source-linked labels rather than a verified civil identity or one-person finding."
+}

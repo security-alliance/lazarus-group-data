@@ -1,0 +1,44 @@
+{
+  "id": "defcon34-laptop-farm-observation",
+  "type": "cluster",
+  "name": "DEF CON 34 laptop-farm investigation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "The talk abstract attributes the observed cell to Famous Chollima/Lazarus; this record preserves the researchers' attribution as research posture, not a court finding.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-defcon34-laptop-farm"
+    ]
+  },
+  "organizations": [
+    "Bitso Quetzal Team",
+    "Famous Chollima",
+    "Lazarus Group",
+    "NorthScan"
+  ],
+  "locations": [
+    "Las Vegas, United States (presentation venue)"
+  ],
+  "ttps": [
+    "controlled laptop-farm/VDI observation of worker activity",
+    "facilitators lend or provision laptops for remote job access",
+    "fake companies, identities, and transnational facilitator networks",
+    "fraudulent H-1B visa scheme references",
+    "identity and company mapping through OSINT and targeted reconnaissance",
+    "VPN configuration and authentication setup"
+  ],
+  "caveats": [
+    "The official page is a talk abstract; individual worker names and slide-level indicators are unreported."
+  ],
+  "sources": [
+    {
+      "source_id": "talk-defcon34-laptop-farm",
+      "support": "Official talk abstract describes the recorded cell, laptop farm, fake identities and companies, facilitators, fraudulent H-1B visa schemes, authentication, VPN setup, and daily operations",
+      "locator": "DEF CON 34 speaker entry"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

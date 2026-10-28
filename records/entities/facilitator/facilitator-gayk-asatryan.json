@@ -1,0 +1,277 @@
+{
+  "id": "facilitator-gayk-asatryan",
+  "type": "facilitator",
+  "name": "Gayk Asatryan",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Russian facilitator who contracted for DPRK IT workers; administrative sanctions designation; no criminal charge or conviction is on record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dln26-s01",
+      "gov-94e741ada3b4"
+    ]
+  },
+  "legal_or_reported_name": "Gayk Asatryan",
+  "caveats": [
+    "Transliteration and patronymic variants describe one naming record; the person count remains one."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Gaik Asatryan"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s01"
+      ],
+      "value": "Gayk Vanushevich Asatryan"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-94e741ada3b4",
+      "support": "OFAC designated Song Kum Hyok and a Russia-based network that contracted to receive DPRK IT workers",
+      "locator": "Key Facilitator and Asatryan IT Worker Network sections"
+    },
+    {
+      "source_id": "dln26-s01",
+      "support": "OFAC lists the following aliases for Gayk Asatryan: Gaik Asatryan; Gayk Vanushevich Asatryan",
+      "locator": "Specially Designated Nationals List Update — ASATRYAN, Gayk; SONG, Kum Hyok; and four entity entries"
+    },
+    {
+      "source_id": "dcrf-s02"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-gayk-russian-nationality",
+      "type": "note",
+      "predicate": "treasury_reported_nationality",
+      "value": {
+        "country": "Russia"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-94e741ada3b4",
+          "locator": "Asatryan IT Worker Network, opening sentence",
+          "quote": "Gayk Asatryan (Asatryan), a Russian national"
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Official Treasury description and current sanctions-list nationality field; it does not establish present residence or location.",
+        "Birth, birthplace, citizenship-document, passport, tax, and address values were excluded."
+      ]
+    },
+    {
+      "id": "claim-gayk-gaik-alias",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "Gaik Asatryan",
+        "alias_type": "alternate spelling"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s01",
+          "locator": "Specially Designated Nationals List Update, ASATRYAN, Gayk entry",
+          "quote": "a.k.a. ASATRYAN, Gaik"
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Transliteration variant, not a separate person."
+      ]
+    },
+    {
+      "id": "claim-gayk-patronymic-alias",
+      "type": "alias",
+      "predicate": "ofac_listed_patronymic_name",
+      "value": {
+        "alias": "Gayk Vanushevich Asatryan",
+        "alias_type": "patronymic name variant"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s01",
+          "locator": "Specially Designated Nationals List Update, ASATRYAN, Gayk entry",
+          "quote": "a.k.a. ASATRYAN, Gayk Vanushevich"
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Name variant, not a separate person."
+      ]
+    },
+    {
+      "id": "claim-gayk-russian-script-name",
+      "type": "alias",
+      "predicate": "registry_mirror_russian_script_name",
+      "value": {
+        "alias": "Асатрян Гайк",
+        "alias_type": "Russian-script registry rendering"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dcrf-s02",
+          "locator": "Руководители and Учредители sections",
+          "quote": "Руководители Асатрян Гайк Должность Генеральный Директор Учредители Асатрян Гайк"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The bridge is the exact Asatryan LLC registration record already linked to Gayk Asatryan by Treasury and OFAC, not name similarity alone.",
+        "Russian-script rendering only; it is not a separate person or a new civil-identity assertion beyond the company filing."
+      ]
+    },
+    {
+      "id": "claim-gayk-asatryan-llc-registry-role",
+      "type": "organization_affiliation",
+      "predicate": "registry_mirror_lists_director_and_founder",
+      "value": {
+        "organization": "Общество с ограниченной ответственностью «Асатрян»",
+        "display_name": "Asatryan Limited Liability Company",
+        "roles": [
+          "general director",
+          "founder"
+        ],
+        "organization_formed_at": "2021-06-10",
+        "registered_principal_activity": "nonspecialized food, beverage, and tobacco retail"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dcrf-s02",
+          "locator": "Profile, Виды деятельности, Руководители, Учредители, and Описание sections, contiguous fragment 1 of 2",
+          "quote": "Дата регистрации 10 июня 2021"
+        },
+        {
+          "source_id": "dcrf-s02",
+          "locator": "Profile, Виды деятельности, Руководители, Учредители, and Описание sections, contiguous fragment 2 of 2",
+          "quote": "Руководители Асатрян Гайк Должность Генеральный Директор Учредители Асатрян Гайк"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The registry mirror corroborates corporate identity and filing facts only; it does not independently corroborate Treasury's DPRK attribution, the contracts, worker deployment, knowledge, intent, or sanctions conduct.",
+        "The registered business category neither proves nor disproves Treasury's reported IT-worker arrangement.",
+        "No street address, tax or registration selector, ownership percentage, employee count, financial figure, or current person location is retained."
+      ]
+    },
+    {
+      "id": "claim-gayk-russia-company-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_company_use_to_employ_dprk_workers",
+      "value": {
+        "country": "Russia",
+        "role": "used Russia-based companies to employ North Korean IT workers"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-94e741ada3b4",
+          "locator": "Asatryan IT Worker Network, opening sentence",
+          "quote": "Gayk Asatryan (Asatryan), a Russian national, has used his Russia-based companies to employ North Korean IT workers."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Treasury sanctions finding; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-gayk-songkwang-contract",
+      "type": "incident",
+      "predicate": "treasury_reported_worker_dispatch_contract",
+      "value": {
+        "counterparty": "Korea Songkwang Trading General Corporation",
+        "recipient_company": "Asatryan Limited Liability Company",
+        "signed": "mid-2024",
+        "term_years": 10,
+        "workers_up_to": 30,
+        "destination": "Russia"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-94e741ada3b4",
+          "locator": "Asatryan IT Worker Network, first contract sentence",
+          "quote": "In mid-2024, Asatryan signed a 10-year contract with a DPRK company, Korea Songkwang Trading General Corporation (Songkwang Trading), to dispatch up to 30 DPRK IT workers to work in Russia for his company, Asatryan Limited Liability Company (Asatryan LLC)."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Treasury-reported contract and planned worker deployment, retained as source-explicit incident context rather than a criminal adjudication or proof that deployment was completed.",
+        "The contract chronology, term, maximum worker count, counterparties, recipient company, and destination are public sanctions findings; no worker identities, client data, operational selectors, or present activity are inferred."
+      ]
+    },
+    {
+      "id": "claim-gayk-saenal-contract",
+      "type": "relationship",
+      "predicate": "treasury_reported_planned_worker_dispatch",
+      "value": {
+        "counterparty": "Korea Saenal Trading Corporation",
+        "recipient_company": "Fortuna Limited Liability Company",
+        "planned_workers": 50,
+        "destination": "Russia"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-94e741ada3b4",
+          "locator": "Asatryan IT Worker Network, second contract sentence",
+          "quote": "Asatryan also signed a contract with DPRK company Korea Saenal Trading Corporation (Saenal Trading), in which they planned to dispatch 50 DPRK IT workers to Russia for his company, Fortuna Limited Liability Company (Fortuna LLC)."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Treasury describes a plan; completion of the deployment was not independently established."
+      ]
+    },
+    {
+      "id": "claim-gayk-ofac-designation",
+      "type": "legal_event",
+      "predicate": "ofac_designated_for_worker_export_facilitation",
+      "value": {
+        "designation_date": "2025-07-08",
+        "authority": "Executive Order 13722",
+        "basis": "attempted to engage in, facilitate, or be responsible for exportation of workers from North Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-94e741ada3b4",
+          "locator": "Asatryan IT Worker Network, designation sentence",
+          "quote": "OFAC designated Asatryan pursuant to E.O. 13722 for having attempted to engage in, facilitate, or be responsible for the exportation of workers from North Korea, including exportation to generate revenue for the Government of North Korea or Workers’ Party of Korea."
+        }
+      ],
+      "observed_at": "2025-07-08",
+      "notes": [
+        "Administrative sanctions designation, not a criminal adjudication."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Gayk Asatryan, also listed by OFAC as Gaik Asatryan and Gayk Vanushevich Asatryan, is OFAC entity 53824 and the person Treasury links to Asatryan LLC and Fortuna LLC. The record carries an administrative designation and Treasury-reported conduct; criminal case status is outside this record. The RBC registry-mirror role is bridged through the exact Asatryan LLC registration record and corroborates only company identity and filing facts. Unrelated same-name people stay separate, and present residence is beyond the cited evidence."
+}

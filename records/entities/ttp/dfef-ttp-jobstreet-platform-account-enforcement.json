@@ -1,0 +1,71 @@
+{
+  "id": "dfef-ttp-jobstreet-platform-account-enforcement",
+  "type": "ttp",
+  "name": "Jobstreet suspicious-account blocking and application removal",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure with defensive guidance; legal attribution remains at source and service level.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFEF-S06"
+    ]
+  },
+  "ttps": [
+    "ai-altered-profile-photo",
+    "laptop-farm",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Jobstreet's page is limited to platform-level guidance; count, identifiers, labeling method, case details, and publication date are unreported. Platform enforcement should allow lawful review and remediation of false positives.",
+    "The excluded packages contain no Jobstreet or SEEK first-party DPRK enforcement disclosure.",
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-behavior-or-platform-pattern",
+      "statements": [
+        "Jobstreet states that it monitors the DPRK fraudulent-employment campaign, detects and blocks suspicious candidate accounts, and proactively removes applications from actors it identifies as North Korean so those applications are no longer visible to hirers.",
+        "Use stolen identities and deepfake assistance to create candidate accounts",
+        "Use local facilitators to receive employer laptops and enable remote access",
+        "Apply through employment platforms while concealing true location"
+      ],
+      "limitations": [
+        "Jobstreet publishes no count, account identifiers, labeling method, or case details, and the page exposes no reliable publication date. Platform enforcement should allow lawful review and remediation of false positives.",
+        "No Jobstreet or SEEK first-party DPRK enforcement disclosure was found in the excluded packages."
+      ],
+      "source_ids": [
+        "DFEF-S06"
+      ]
+    },
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Platform-side detection and blocking of suspicious accounts",
+        "Remove confirmed campaign applications from employer queues",
+        "Use verified credentials, live practical tasks, and at least one higher-assurance interaction for high-risk roles",
+        "Monitor overlapping or unusual login infrastructure without treating one IP or time-zone signal as proof"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S06"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "DFEF-S06",
+      "support": "Jobstreet states that it monitors the DPRK fraudulent-employment campaign, detects and blocks suspicious candidate accounts, and proactively removes applications from actors it identifies as North Korean so those applications are no longer visible to hirers. Platform-side detection and blocking of suspicious accounts Remove confirmed campaign applications from employer queues Use verified credentials, live practical tasks, and at least one higher-assurance interaction for high-risk roles Monitor overlapping or unusual login infrastructure without treating one IP or time-zone signal as proof",
+      "locator": "Summary; Measures taken to protect Jobstreet's customers; Tactics used; Top Recommendations"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "deep2-foreign-foreign-official-uk-ncsc-annual-review-2024",
+  "type": "ttp",
+  "name": "UK targeting by disguised third-country freelance IT workers",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official foreign-government, police, CERT, sanctions, or security-service guidance/assessment",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-foreign-foreign-official-uk-ncsc-annual-review-2024"
+    ]
+  },
+  "locations": [
+    "United Kingdom"
+  ],
+  "ttps": [
+    "false-location",
+    "false-nationality",
+    "freelance-platform"
+  ],
+  "caveats": [
+    "Targeted or affected firms remain unidentified unless the sources name them.",
+    "Exact URL/title absent from the registry, catalog and existing raw/normalized files. It is distinct from the already-captured UK company advisory.",
+    "The annual review gives strategic threat context; case-level evidence and compromised-organization lists fall outside it."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The NCSC annual review assesses that UK firms are almost certainly being targeted by DPRK IT workers disguised as freelance third-country IT staff. This is materially richer UK targeting context than a generic global warning."
+      ],
+      "source_ids": [
+        "deep2-foreign-foreign-official-uk-ncsc-annual-review-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-foreign-foreign-official-uk-ncsc-annual-review-2024",
+      "support": "The NCSC annual review assesses that UK firms are almost certainly being targeted by DPRK IT workers disguised as freelance third-country IT staff. This is materially richer UK targeting context than a generic global warning",
+      "locator": "Chapter 01, section “Democratic People’s Republic of Korea (DPRK),” paragraphs 1–2"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

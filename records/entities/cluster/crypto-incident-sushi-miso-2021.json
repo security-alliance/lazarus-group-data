@@ -1,0 +1,60 @@
+{
+  "id": "crypto-incident-sushi-miso-2021",
+  "type": "cluster",
+  "name": "Sushi / MISO — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Public security or investigative reporting; legal identity status belongs to a separate official finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-coindesk-2024-10-02"
+    ]
+  },
+  "organizations": [
+    "Sushi / MISO"
+  ],
+  "ttps": [
+    "Attempted to redirect 864.8 ETH; funds recovered before loss",
+    "Observed deployment workflow",
+    "Remote freelance hiring",
+    "Replaced legitimate deployment address with malicious contract"
+  ],
+  "caveats": [
+    "CoinDesk reports the project publicly described the worker as North Korean; exact attribution evidence remains partly private.",
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person."
+  ],
+  "aliases": [
+    {
+      "value": "Anthony",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Freelance",
+      "identifier": "Upwork profile (URL not recovered)",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-coindesk-2024-10-02",
+      "support": "More than a dozen crypto companies hired IT workers who secretly hailed from North Korea",
+      "locator": "Article section “A $3M hack”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

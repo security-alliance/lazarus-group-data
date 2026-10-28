@@ -1,0 +1,194 @@
+{
+  "id": "keisuke-watanabe",
+  "aliases": [
+    "kAsky53",
+    "kdevdivvy",
+    "dev4all.sol",
+    "dev4alldotsol",
+    "keisukew53",
+    "0xWoo",
+    "hirayama1534"
+  ],
+  "fake_names": [
+    "Keisuke Watanabe"
+  ],
+  "gender": "male",
+  "fake_citizenships": [
+    "Japan"
+  ],
+  "real_citizenships": [
+    "North Korea"
+  ],
+  "fake_locations": [
+    "Tokyo, Japan"
+  ],
+  "real_locations": [
+    "Vientiane, Laos",
+    "Vladivostok, Russia"
+  ],
+  "fake_addresses": [
+    "3-6-1 Kandasurugadai, Chiyoda-ku, Tokyo 101-0062, Japan"
+  ],
+  "personal_emails": [
+    "keisukew53@gmail.com"
+  ],
+  "twitter_usernames": [
+    "@kAsky53"
+  ],
+  "websites": [
+    "onering.finance"
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://www.linkedin.com/in/keisuke-watanabe-357298224/"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "1914451016",
+      "usernames": [
+        "kAsky53"
+      ],
+      "names": [
+        "dev4all.sol"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "kAsky53",
+      "creation_date": {
+        "$date": "2021-10-18T12:41:44Z"
+      },
+      "names": [
+        "dev4all.sol",
+        "Keisuke Wantanabe",
+        "0xWoo",
+        "kAsky53"
+      ],
+      "emails": [
+        "keisukew53@gmail.com",
+        "92731202+0xWoo@users.noreply.github.com",
+        "92731202+kAsky53@users.noreply.github.com",
+        "92731202+keisukew53@users.noreply.github.com",
+        "isaac.wolinsky@gmail.com"
+      ],
+      "usernames": [
+        "hirayama1534",
+        "keisukew53",
+        "0xWoo",
+        "dev4alldotsol",
+        "kAsky53"
+      ]
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "devbamboo15",
+      "names": [
+        "Mario Suparat",
+        "Chris Jin"
+      ],
+      "usernames": [
+        "devbamboo",
+        "super-vic114",
+        "chris-jin114"
+      ]
+    },
+    {
+      "gh_id": "vikigstar",
+      "names": [
+        "Igor Babe"
+      ],
+      "usernames": [
+        "codebear"
+      ]
+    },
+    {
+      "gh_id": "Kunkka0822",
+      "names": [
+        "Thành Hao Vo"
+      ]
+    },
+    {
+      "gh_id": "solandrust",
+      "names": [
+        "David Lee",
+        "David"
+      ]
+    },
+    {
+      "gh_id": "h0lme3",
+      "names": [
+        "Holmes Ming",
+        "HaoqingMing",
+        "Cynthia Rich",
+        "Ganesh oli"
+      ],
+      "usernames": [
+        "haodev007"
+      ],
+      "emails": [
+        "haodev007@gmail.com",
+        "albinorabbithunter@gmail.com",
+        "ganesh@thaiofficefurniture.com"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "JBxidGWnhtPTGg8xw7sFT9tF4cfGtHnjYNp5GDJvGveh"
+      ],
+      "currency": "SOL",
+      "notes": "dev4all.sol"
+    },
+    {
+      "addresses": [
+        "8mdfRML7z3s8gqDYd72bywcEgQtcvkoJCw2bukv8X71R"
+      ],
+      "currency": "SOL",
+      "notes": "Payroll receiver"
+    },
+    {
+      "addresses": [
+        "0x1b89aecc0f8c128150db67d7d0c4b1daeb43eda4"
+      ],
+      "currency": "ETH",
+      "notes": "Bridged from dev4all.sol"
+    },
+    {
+      "addresses": [
+        "0x3Af73294445e5f49E19a7a224d2E157a15128735"
+      ],
+      "currency": "ETH",
+      "notes": "Bridged from dev4all.sol, possible Binance Hot Wallet"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/keisuke-watanabe/keisuke_1.png",
+      "short_description": "Keisuke Watanabe headshot",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/keisuke-watanabe/keisuke_2.png",
+      "short_description": "Younger Keisuke Watanabe",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/keisuke-watanabe/keisuke-3.jpg",
+      "short_description": "Keisuke Watanabe with his friends (Kazune Takeda and Jenson Collins)",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

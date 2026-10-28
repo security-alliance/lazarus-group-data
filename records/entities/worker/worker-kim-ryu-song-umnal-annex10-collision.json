@@ -1,0 +1,274 @@
+{
+  "id": "worker-kim-ryu-song-umnal-annex10-collision",
+  "type": "worker",
+  "name": "Kim Ryu Song",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Kim Ryu Song",
+  "organizations": [
+    "Umnal delegation, subordinate to Chinyong Information Technology Cooperation Company"
+  ],
+  "locations": [
+    "Likely dispatched to Russia in 2025"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details.",
+    "Same-name collision: MSMT Annex 10 and the Kim Ryu Song charged in E.D. Mo. No. 4:24-cr-00648-MTS-JSD remain separate from the ROK 313 General Bureau designation row. Retain a separate review-only person."
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Government-supplied passport image; cite in place, no facial recognition.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 10 lists ten public-affairs passports and reproduces their images; document numbers and birth dates omitted here",
+      "locator": "Annex 10 item 1, PDF p. 127 / printed p. 125 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "crypto-chollima-reframing"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-ryu-song-umnal-annex10-collision-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Ryu Song"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 1, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "Name: Kim Ryu Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Name retained without passport number, birth data, or image."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-umnal-annex10-collision-delegation-peers",
+      "type": "relationship",
+      "predicate": "co_listed_in_umnal_delegation_annex",
+      "value": {
+        "organization": "Umnal",
+        "source_scope": "MSMT Annex 10",
+        "associated_people": [
+          {
+            "record_id": "worker-kim-kwang-hun",
+            "name": "Kim Kwang Hun"
+          },
+          {
+            "record_id": "worker-kim-un-bom",
+            "name": "Kim Un Bom"
+          },
+          {
+            "record_id": "worker-kim-ju-song",
+            "name": "Kim Ju Song"
+          },
+          {
+            "record_id": "worker-kim-min-song",
+            "name": "Kim Min Song"
+          },
+          {
+            "record_id": "worker-min-pyong-jin",
+            "name": "Min Pyong Jin"
+          },
+          {
+            "record_id": "worker-pang-il",
+            "name": "Pang Il"
+          },
+          {
+            "record_id": "worker-ri-se-uk",
+            "name": "Ri Se Uk"
+          },
+          {
+            "record_id": "worker-kim-o-song",
+            "name": "Kim O Song"
+          },
+          {
+            "record_id": "worker-ri-wang-rim",
+            "name": "Ri Wang Rim"
+          }
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 2, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "Name: Kim Kwang Hun"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 3, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "Name: Kim Un Bom"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 4, PDF file p. 128 (printed p. 126); text extraction only",
+          "quote": "Name: Kim Ju Song"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 5, PDF file p. 128 (printed p. 126); text extraction only",
+          "quote": "Name: Kim Min Song"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 6, PDF file p. 128 (printed p. 126); text extraction only",
+          "quote": "Name: Min Pyong Jin"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 7, PDF file p. 128 (printed p. 126); text extraction only",
+          "quote": "Name: Pang Il"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 8, PDF file p. 129 (printed p. 127); text extraction only",
+          "quote": "Name: Ri Se Uk"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 9, PDF file p. 129 (printed p. 127); text extraction only",
+          "quote": "Name: Kim O Song"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 10, PDF file p. 129 (printed p. 127); text extraction only",
+          "quote": "Name: Ri Wang Rim"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Co-listing in the same annex establishes only source-reported delegation membership. It does not establish present co-location, personal contact, shared accounts, coordinated conduct, or an identity bridge to any same-name record."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-umnal-annex10-collision-umnal-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "listed_as_umnal_delegation_member",
+      "value": {
+        "organization": "Umnal",
+        "parent_organization": "DPRK Chinyong Information Technology Company",
+        "source_scope": "Annex 10 delegation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "IT workers at Umnal—a delegation subordinate to DPRK Chinyong Information Technology Company"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 1, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "Name: Kim Ryu Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported delegation relationship; no present employment or command role is inferred."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-umnal-annex10-collision-bureau61-organization-context",
+      "type": "organization_affiliation",
+      "predicate": "listed_organization_reported_in_bureau61_chinyong_context",
+      "value": {
+        "subject_organization": "Umnal",
+        "parent_organization": "DPRK Chinyong Information Technology Company",
+        "publisher_assessment": "Umnal is a Chinyong-associated front company in a Bureau 61 context",
+        "personal_bureau61_affiliation_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "IT workers at Umnal—a delegation subordinate to DPRK Chinyong Information Technology Company"
+        },
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section",
+          "quote": "Bureau 61 started operating IT Worker delegations around 2021 via Chinyong Information Technology Cooperation Company and is associated with the front companies \"Alis LLC\" (Vladivostok), \"Pioneer Bencont Star Real Estate\", \"Shenyang GeumpungRi Network Technology Company Limited\", and Umnal."
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Organization-level specialist-publisher context only. Chollima Group does not name this Annex 10 Kim Ryu Song, so the claim does not convert the subject into a personally attributed Bureau 61 worker or bridge him to any other Kim Ryu Song record."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-umnal-annex10-collision-likely-russia-2025",
+      "type": "location",
+      "predicate": "source_reported_likely_dispatch",
+      "value": {
+        "location": "Russia",
+        "timeframe": "2025",
+        "qualification": "likely dispatched",
+        "context": "Umnal delegation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "who were likely dispatched to Russia in 2025"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Qualified historical source language; it does not establish travel, arrival, residence, or present location."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-umnal-annex10-collision-public-affairs-passport-category",
+      "type": "note",
+      "predicate": "source_reported_delegation_travel_document_category",
+      "value": {
+        "document_category": "Passports for Public Affairs",
+        "scope": "delegation members",
+        "status": "historical source report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "The delegation members all traveled on Passports for Public Affairs."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Document category only. No passport number, validity date, birth data, image, or present document status is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Kim Ryu Song is the person named in MSMT Annex 10 as a member of the Umnal delegation. The report's likely-Russia-2025 wording and delegation-level travel-document category are historical source reports; present location and current document status remain source-unreported. Name, image, nationality, geography, role, and reordered tokens supply no identity bridge. Keep it separate from the Kim Ryu Song charged in E.D. Mo. No. 4:24-cr-00648-MTS-JSD and from the ROK 313 General Bureau designation row; the available records remain separate."
+}

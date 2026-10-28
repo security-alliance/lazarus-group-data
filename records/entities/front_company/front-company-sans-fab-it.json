@@ -1,0 +1,41 @@
+{
+  "id": "front-company-sans-fab-it",
+  "type": "front_company",
+  "name": "SANS FAB IT",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "DPRK IT-worker delegation/company",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "China",
+    "Laos"
+  ],
+  "caveats": [
+    "Potentially generic entity label; retain the cited affiliation and geography to avoid collision with unrelated organizations."
+  ],
+  "aliases": [
+    {
+      "value": "Sangsin delegation",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annexes 12-14 list associated individuals and payment selectors",
+      "locator": "Annex 12 delegation-member list, PDF p. 131 / printed p. 129; Annex 14 relocation list, PDF p. 133 / printed p. 131 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

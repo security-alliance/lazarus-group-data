@@ -1,0 +1,187 @@
+{
+  "id": "naoki-murano",
+  "aliases": [
+    "Supermutecx"
+  ],
+  "fake_names": [
+    "Naoki Murano"
+  ],
+  "gender": "male",
+  "fake_citizenships": [
+    "Japan",
+    "Austria"
+  ],
+  "real_citizenships": [
+    "North Korea"
+  ],
+  "fake_locations": [
+    "Tokyo",
+    "Graz"
+  ],
+  "real_locations": [
+    "Laos, Vientiane",
+    "Russia, Vladivostok",
+    "Pyonyang, North Korea"
+  ],
+  "personal_emails": [
+    "naokimurano@outlook.com",
+    "murano@outlook.com",
+    "mutano1996@gmail.com"
+  ],
+  "twitter_usernames": [
+    "xCristian88"
+  ],
+  "employment": [
+    {
+      "company": "Undisclosed Company 1",
+      "role": "Smart Contract Engineer",
+      "date_hired": {
+        "$date": "2024-01-01"
+      },
+      "date_identified": {
+        "$date": "2024-08-01"
+      },
+      "managed_laptop": false,
+      "background_check": false,
+      "kyc_collected": false
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "Supermutecx",
+      "creation_date": {
+        "$date": "2021-08-04"
+      },
+      "names": [
+        "Naoki Murano"
+      ],
+      "emails": [
+        "kenji@dev-email.com"
+      ],
+      "usernames": [
+        "yokoyama1205",
+        "murano1205",
+        "murano1996",
+        "muranox",
+        "ccristian88",
+        "cristian951105"
+      ]
+    },
+    {
+      "gh_id": "ccristian88",
+      "creation_date": {
+        "$date": "2019-10-28"
+      },
+      "names": [
+        "Cristian"
+      ],
+      "emails": [
+        "ccristian88@outlook.com"
+      ],
+      "usernames": [
+        "ccristian88",
+        "cristian951105"
+      ]
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "JCollinsX",
+      "creation_date": {
+        "$date": "2019-05-14"
+      },
+      "names": [
+        "Jenson Collins"
+      ],
+      "emails": [
+        "Jenson.Collins@hotmail.com",
+        "nonfungiblejc@gmail.com"
+      ],
+      "usernames": [
+        "JCollinsX",
+        "JensonUZ",
+        "nonfungiblejc"
+      ]
+    },
+    {
+      "gh_id": "seosigoto",
+      "creation_date": {
+        "$date": "2020-11-11"
+      },
+      "names": [
+        "Seo Sigoto"
+      ],
+      "emails": [
+        "seo.sigoto@gmail.com",
+        "seo.shigoto.001@gmail.com"
+      ],
+      "usernames": [
+        "seosigoto"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xca3b78831a101a6d6d0a153653483e3c9a90948f",
+        "0x85e0504fcd7981baa68774431099c5e2dcf074dd",
+        "0x6188a9e76794e7cb337b8e5a2b91808ce34fc6d1",
+        "0x44A33a4a822194d3C8402629932dd88B0FF49b09",
+        "0xe6c2d1d7f6ee9e4ee9f8b865d9b5931c06c9c7d1"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_0.jpg",
+      "short_description": "Naoki waving the flag of North Korea",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_1.jpg",
+      "short_description": "Naoki dining with his friends",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_2.jpg",
+      "short_description": "Photo posted by the persona, with a vehicle",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_3.jpg",
+      "short_description": "Naoki with his friends",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_4.jpg",
+      "short_description": "Naoki KYC",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_5.jpg",
+      "short_description": "Photo posted by the persona",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/naoki-murano/naoki_murano_6.jpg",
+      "short_description": "Naoki with his friend Jenson Collins",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "files": [],
+  "curation": "analyst"
+}

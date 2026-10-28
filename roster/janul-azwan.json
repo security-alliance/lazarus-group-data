@@ -1,0 +1,79 @@
+{
+  "id": "janul-azwan",
+  "real_name": "Janul Azwan",
+  "aliases": [
+    "0xtomoon",
+    "ethprotector"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "melonman913@gmail.com"
+  ],
+  "websites": [
+    "https://immunefi.com/profile/ethprotector/"
+  ],
+  "employment": [
+    {
+      "company": "Lucidly"
+    },
+    {
+      "company": "Shoebill"
+    },
+    {
+      "company": "Moby"
+    },
+    {
+      "company": "Dodo"
+    },
+    {
+      "company": "LAToken"
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/janul-azwan-7b1612361/"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "7245484067",
+      "usernames": [
+        "janbuidl"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xtomoon",
+      "usernames": [
+        "0xtomoon"
+      ]
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "jannik-villostas"
+    }
+  ],
+  "notes": "Shares contact information with Jannik Villostas.",
+  "images": [
+    {
+      "path": "/team-images/janul-azwan/janul-azwan-1.jpg",
+      "short_description": "Janul Azwan 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/janul-azwan/janul-azwan-av.png",
+      "short_description": "Janul Azwan avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

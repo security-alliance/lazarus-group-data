@@ -1,0 +1,1069 @@
+{
+  "id": "worker-kang-tae-bok",
+  "type": "worker",
+  "name": "Kang Tae Bok",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker charged in employer virtual-currency thefts",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad",
+      "gov-ndga-2025-indictment",
+      "lazarus-group-team"
+    ]
+  },
+  "legal_or_reported_name": "Kang Tae Bok",
+  "ttps": [
+    "alleged fraudulent identity document",
+    "alleged mixer-laundering proceeds receipt",
+    "alleged virtual-currency exchange account under alias"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Lazarus Group profile is a research-attributed secondary source; legal identity and shared names, handles, photographs, and associates require separate source links before any merge."
+  ],
+  "aliases": [
+    {
+      "value": "Wong Shao Onn",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "value": "0xjsmart",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "call-by",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "jp-smart",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "wewecalibrate",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "joshupgig",
+      "alias_type": "site-listed-alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    },
+    {
+      "value": "Joshua Palmer",
+      "alias_type": "site-listed-fake-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Lazarus Group profile field; source-attributed and not a civil-identity determination."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "other",
+      "value": "Tornado Cash (alleged laundering method)",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "Virtual-currency exchange account under the Wong Shao Onn alias",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-61a8cf3633ad",
+        "gov-ndga-2025-indictment"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "joshua-palmer"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-ndga-2025-indictment",
+      "support": "The indictment names Kang Tae Bok and the alias Wong Shao Onn in the charged conspiracy",
+      "locator": "Indictment pp. 1-2, 12"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ names Kang Tae Bok in the N.D. Georgia virtual-currency case. The release-wide laptop-farm, account, and website totals concern other coordinated actions and are not attributed to him individually; the charges remain allegations.",
+      "locator": "IT Worker Actions section; N.D. Georgia case summary naming Kang Tae Bok"
+    },
+    {
+      "source_id": "src-2e0dbe82f3ff"
+    },
+    {
+      "source_id": "crypto-chollima-reframing"
+    },
+    {
+      "source_id": "lazarus-group-team",
+      "support": "Lazarus Group lists Kang Tae Bok in its DPRK ITW registry profile and presents the profile fields captured in the external inventory; the site is a research-attributed secondary source.",
+      "locator": "https://www.lazarus.group/team/joshua-palmer"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kang-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_charged_name_forms",
+      "value": {
+        "name": "Kang Tae Bok",
+        "korean": "강태복"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KANG TAE BOK (강태복)"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "Kang Tae Bok (강태복)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Officially reported identity in a pending criminal case; this is not an adjudication of guilt."
+      ]
+    },
+    {
+      "id": "claim-kang-wong-shao-onn-alias",
+      "type": "alias",
+      "predicate": "indictment_attributed_alias",
+      "value": {
+        "alias": "Wong Shao Onn",
+        "alias_type": "reported false identity"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "A/K/A “WONG SHAO ONN,”"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Indictment-attributed alias; it is not a separately verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-kang-north-korean-nationality-allegation",
+      "type": "identity_name",
+      "predicate": "alleged_nationality",
+      "value": {
+        "reported_nationality": "North Korean"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file pages 3-4 (printed pp. 1-2), paragraph 2",
+          "quote": "were citizens of North Korea"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Collective indictment allegation applying to the four named defendants; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-kang-co-located-team-allegation",
+      "type": "relationship",
+      "predicate": "allegedly_lived_and_worked_as_colocated_team",
+      "value": {
+        "conduct": "allegedly lived and worked with the co-defendants as a co-located team outside North Korea, including in the United Arab Emirates"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 7 (printed p. 5), paragraph 22(a)",
+          "quote": "locations outside of North Korea, including the United Arab Emirates"
+        },
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 7 (printed p. 5), paragraph 22(a)",
+          "quote": "lived and worked as a co-located team."
+        },
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Collective indictment allegation corroborated as a dated media report; no individual itinerary, residence, adjudicated fact, or present-location inference is made."
+      ]
+    },
+    {
+      "id": "claim-kang-wire-fraud-conspiracy-charge",
+      "type": "legal_event",
+      "predicate": "charged_with_wire_fraud_conspiracy",
+      "value": {
+        "case": "United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-CR-291",
+        "count": "Count One",
+        "offense": "wire fraud conspiracy",
+        "statute": "18 U.S.C. § 1349"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 6 (printed p. 4), Count One heading",
+          "quote": "Count One Wire Fraud Conspiracy (18 U.S.C. § 1349)"
+        },
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KANG TAE BOK (강태복)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending charge; Kang is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-kang-money-laundering-conspiracy-charge",
+      "type": "legal_event",
+      "predicate": "charged_with_money_laundering_conspiracy",
+      "value": {
+        "case": "United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-CR-291",
+        "count": "Count Five",
+        "offense": "money laundering conspiracy",
+        "statute": "18 U.S.C. § 1956(h)"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 13 (printed p. 11), Count Five heading",
+          "quote": "Count Five Money Laundering Conspiracy (18 U.S.C. § 1956(h))"
+        },
+        {
+          "source_id": "gov-ndga-2025-indictment",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KANG TAE BOK (강태복)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Pending charge; Kang is presumed innocent unless and until proven guilty. Financial-account and transaction selectors in the indictment were excluded."
+      ]
+    },
+    {
+      "id": "claim-kang-wanted-posture",
+      "type": "legal_event",
+      "predicate": "reported_at_large_and_wanted",
+      "value": {
+        "posture": "reported at large and wanted by the FBI",
+        "as_of": "2025-06-30"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Dated DOJ-reported posture; it is not a conviction or present-location finding."
+      ]
+    },
+    {
+      "id": "claim-kang-uae-2019-group-context",
+      "type": "location",
+      "predicate": "media_reported_historical_group_travel_and_colocation",
+      "value": {
+        "location": "United Arab Emirates",
+        "period": "2019",
+        "context": "source-reported collective travel and colocated work allegation",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ],
+      "notes": [
+        "Secondary-source report about the charged group, not an independently verified individual itinerary, residence, present location, or adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-kang-collective-fbi-reward-report",
+      "type": "legal_event",
+      "predicate": "media_reported_collective_fbi_reward",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "collective reward for information leading to the arrest of the four charged men",
+        "reported_at": "2025-06-30"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2e0dbe82f3ff",
+          "locator": "Structured article body, North Korean Cryptocurrency Theft Case section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "The amount is reported collectively and must not be presented as an individual reward amount or as proof of guilt; current reward status was not independently reverified."
+      ]
+    },
+    {
+      "id": "claim-kang-joshua-palmer-publisher-assessment",
+      "type": "alias",
+      "predicate": "publisher_assessed_persona",
+      "value": {
+        "alias": "Joshua Palmer",
+        "alias_type": "publisher-captioned employment persona",
+        "conflicting_article_label": "Charles Palmer"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kang Tae Bok (Joshua Palmer)"
+        },
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, surrounding prose",
+          "quote": "Charles Palmer (Kang Tae Bok)"
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Chollima Group's caption and prose conflict on Joshua versus Charles Palmer. Joshua Palmer is retained only as a qualified publisher assessment, Charles Palmer is recorded as the conflicting label rather than a second verified alias, and neither is an official identity determination."
+      ]
+    },
+    {
+      "id": "claim-kang-bureau61-umnal-publisher-assessment",
+      "type": "organization_affiliation",
+      "predicate": "publisher_assessed_affiliation",
+      "value": {
+        "organization": "Bureau 61",
+        "likely_front_company": "Umnal",
+        "assessment_source": "Chollima Group"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "we believe that Pemba Sherpa (Kim Kwang Jin), Charles Palmer (Kang Tae Bok), and Bryan Cho (Jong Pong Ju) are also Bureau 61 workers, most likely under the Umnal front company."
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Qualified specialist-publisher assessment, retained as source-attributed review-tier OSINT only. It is not an official affiliation determination."
+      ]
+    },
+    {
+      "id": "claim-kang-vladivostok-publisher-assessment",
+      "type": "location",
+      "predicate": "publisher_captioned_historical_group_location",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "timeframe": "historical; exact date unstated",
+        "context": "publisher-captioned group image",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kang Tae Bok (Joshua Palmer), unknown Umnal IT Worker, Kim Kwang Jin (Pemba Sherpa), Jong Pong Ju (Bryan Cho) in Vladivostok, Russia"
+        }
+      ],
+      "notes": [
+        "Source-attributed historical caption context only. The article does not state the image date, and no precise or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-kang-link-only-chollima-group-image",
+      "type": "image",
+      "predicate": "publisher_captioned_link_only_group_image",
+      "value": {
+        "media_type": "publisher-captioned group image",
+        "source_url": "https://chollima-group.io/posts/reframing-insights-our-research-msmt",
+        "handling": "link_only",
+        "caption_label": "Kang Tae Bok (Joshua Palmer)"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-chollima-reframing",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kang Tae Bok (Joshua Palmer)"
+        }
+      ],
+      "observed_at": "2025-11-19",
+      "notes": [
+        "Link-only source reference. No crop, cache, redistribution, facial recognition, appearance comparison, or independent image-based identity inference is authorized."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0014",
+      "type": "identity_name",
+      "predicate": "basic-information-real-name",
+      "value": {
+        "name": "Kang Tae Bok"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Real Name",
+          "quote": "Kang Tae Bok"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0015",
+      "type": "note",
+      "predicate": "basic-information-gender",
+      "value": {
+        "gender": "male"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Gender",
+          "quote": "male"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0016",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "0xjsmart"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Aliases",
+          "quote": "0xjsmart"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0017",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "call-by"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Aliases",
+          "quote": "call-by"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0018",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "jp-smart"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Aliases",
+          "quote": "jp-smart"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0019",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "wewecalibrate"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Aliases",
+          "quote": "wewecalibrate"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0020",
+      "type": "alias",
+      "predicate": "basic-information-aliases",
+      "value": {
+        "name": "joshupgig"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Aliases",
+          "quote": "joshupgig"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0021",
+      "type": "alias",
+      "predicate": "basic-information-fake-names",
+      "value": {
+        "name": "Joshua Palmer"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Basic Information, Fake Names",
+          "quote": "Joshua Palmer"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0022",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "joshupgig[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Contact Information, Emails",
+          "quote": "joshupgig[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0023",
+      "type": "account",
+      "predicate": "contact-information-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "smart[dot]solidity[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Contact Information, Emails",
+          "quote": "smart[dot]solidity[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0024",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "jp-smart"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, GitHub ID",
+          "quote": "jp-smart"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0025",
+      "type": "employment",
+      "predicate": "github-creation-date",
+      "value": {
+        "field": "Creation Date",
+        "value": "Feb 14, 2018"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, Creation Date",
+          "quote": "Feb 14, 2018"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0026",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "call-by"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, GitHub ID",
+          "quote": "call-by"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0027",
+      "type": "account",
+      "predicate": "github-github-id",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "wewecalibrate"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, GitHub ID",
+          "quote": "wewecalibrate"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0028",
+      "type": "account",
+      "predicate": "github-usernames",
+      "value": {
+        "platform": "GitHub",
+        "identifier": "jp-smart"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, Usernames",
+          "quote": "jp-smart"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0029",
+      "type": "note",
+      "predicate": "github-names",
+      "value": {
+        "field": "Names",
+        "value": "Joshua Palmer"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, Names",
+          "quote": "Joshua Palmer"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0030",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "joshupgig[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, Emails",
+          "quote": "joshupgig[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0031",
+      "type": "account",
+      "predicate": "github-emails",
+      "value": {
+        "platform": "email",
+        "identifier": "smart[dot]solidity[at]gmail[dot]com"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, GitHub, Emails",
+          "quote": "smart[dot]solidity[at]gmail[dot]com"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability.",
+        "Selector defanged for publication; the raw selector is kept in the private research capture."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0032",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "ETH"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Currency",
+          "quote": "ETH"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0033",
+      "type": "note",
+      "predicate": "salary-details-currency",
+      "value": {
+        "field": "Currency",
+        "value": "SOL"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Currency",
+          "quote": "SOL"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0034",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x06f90983cd2215379e440fc525e441d6a5fc3fba"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Addresses",
+          "quote": "0x06f90983cd2215379e440fc525e441d6a5fc3fba"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0035",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xa6afe0290fb6f2f7ced0a2753de57f9fa7c9c9dd"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Addresses",
+          "quote": "0xa6afe0290fb6f2f7ced0a2753de57f9fa7c9c9dd"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0036",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0xfa802d9b33ed74baff62b189875c2b2d192874eb"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Addresses",
+          "quote": "0xfa802d9b33ed74baff62b189875c2b2d192874eb"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0037",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "0x7654e18ff3495675606c008a39b6264da5d0e8a7"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Addresses",
+          "quote": "0x7654e18ff3495675606c008a39b6264da5d0e8a7"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    },
+    {
+      "id": "claim-joshua-palmer-0038",
+      "type": "wallet",
+      "predicate": "salary-details-addresses",
+      "value": {
+        "address": "5Jfb3n8eW4JyQrKJktMNBFXnC1zx2YHjRSkzRrTT5QHh"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "lazarus-group-team",
+          "locator": "lazarus.group /team/joshua-palmer, Salary Details, Addresses",
+          "quote": "5Jfb3n8eW4JyQrKJktMNBFXnC1zx2YHjRSkzRrTT5QHh"
+        }
+      ],
+      "notes": [
+        "Lazarus Group is a research-attributed secondary source; this claim does not establish civil identity or legal liability."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kang Tae Bok (강태복) is the North Korean defendant named in N.D. Ga. No. 1:25-CR-291; Wong Shao Onn is an indictment-attributed alias, and civil identity requires separate verification. The charged-allegation and wanted posture apply to this record, while accounts, identity-document subjects, victims, and images remain separate subjects.",
+  "accounts": [
+    {
+      "platform": "email",
+      "identifier": "joshupgig[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "email",
+      "identifier": "smart[dot]solidity[at]gmail[dot]com",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "jp-smart",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "call-by",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "wewecalibrate",
+      "url": null,
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "lazarus-group-team"
+      ],
+      "note": "Historical selector reported by Lazarus Group; defanged for publication and not proof of current control."
+    }
+  ]
+}

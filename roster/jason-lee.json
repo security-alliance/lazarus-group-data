@@ -1,0 +1,71 @@
+{
+  "id": "jason-lee",
+  "real_name": "Jason Lee",
+  "aliases": [
+    "punk1004",
+    "jasonlee9627",
+    "0xJason"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "jasonlee9627@gmail.com",
+    "0xm00neth@gmail.com"
+  ],
+  "twitter_usernames": [
+    "0xm00neth"
+  ],
+  "websites": [
+    "https://cryptototem.com/kira-network-kex/",
+    "https://medium.com/@partydogeinfo/who-is-jason-lee-did-he-steal-1m-from-various-nft-projects-975007241e09",
+    "https://medium.com/yam-finance/on-november-3rd-2021-we-were-alerted-via-discord-about-potential-malicious-actions-toward-other-3f5f74af044d"
+  ],
+  "employment": [
+    {
+      "company": "Kira Network"
+    },
+    {
+      "company": "Metadallion"
+    },
+    {
+      "company": "Party Doge"
+    },
+    {
+      "company": "Yam Finance"
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xm00neth"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/jason-lee/jason-lee-party-1.png",
+      "short_description": "Jason Lee related to Party Doge project.",
+      "tags": [
+        "screenshot",
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/jason-lee/jason-lee-party-2.png",
+      "short_description": "Jason Lee related to Party Doge project.",
+      "tags": [
+        "screenshot",
+        "face"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "/team-images/jason-lee/jason-lee-resume.jpg",
+      "short_description": "Resume of Jason Lee",
+      "name": "Jason-Lee-resume.jpg",
+      "tags": [
+        "resume",
+        "document"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

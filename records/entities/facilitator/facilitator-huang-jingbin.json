@@ -1,0 +1,389 @@
+{
+  "id": "facilitator-huang-jingbin",
+  "type": "facilitator",
+  "name": "Huang Jingbin",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. Through 2026-08-12, the verified record reaches charging in the District of Massachusetts Wang matter; later merits disposition remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Huang Jingbin",
+  "ttps": [
+    "laundering DPRK IT-worker proceeds",
+    "shell-company and payment infrastructure"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Keep the campaign context intact; the source presents the State Department in a contextual role only.",
+    "Facial recognition and linkage to another account, alias, or image are outside this record.",
+    "The image is retained as visual context only. Biometric matching and resolution of employment personas, aliases, accounts, and victim identities are outside the method.",
+    "Keep alleged-role and source context adjacent.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The official reward-page role remains an allegation unless separately adjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "caption": "Official Rewards for Justice subject card for Huang Jingbin; the cited role is an allegation and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-huang-jingbin"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "The official Rewards for Justice page publishes a separately named subject image for Huang Jingbin in the page's alleged DPRK IT-worker facilitation and money-laundering context. The image does not establish guilt or linkage to any other alias, account, company, or image",
+      "locator": "Individual subject card labeled Huang Jingbin"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ identifies the eight Wang-case facilitators as charged defendants in the District of Massachusetts matter; the charges are allegations and do not establish guilt",
+      "locator": "District of Massachusetts section beginning “In a third coordinated action”; paragraph listing the eight additional charged defendants"
+    },
+    {
+      "source_id": "flr6-s13"
+    },
+    {
+      "source_id": "flr6-s19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "display_order": "Huang Jingbin",
+        "indictment_order": "Jing Bin Huang",
+        "chinese": "黄靖斌"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Huang Jingbin’",
+          "quote": "Huang Jingbin 黄靖斌:"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts charging paragraph",
+          "quote": "Jing Bin Huang (靖斌 黄)"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "The paired Chinese characters support the order crosswalk; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "docket": "1:25-cr-10273-NMG"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 1, filing header",
+          "quote": "1:25-cr-10273-NMG"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 1, caption",
+          "quote": "JING BIN HUANG"
+        }
+      ],
+      "observed_at": "2025-06-26"
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "docket": "1:25-cr-10273-NMG",
+        "counts": [
+          "conspiracy to commit wire fraud and mail fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft",
+          "conspiracy to damage a protected computer",
+          "conspiracy to violate IEEPA"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 13, Count One title",
+          "quote": "Conspiracy to Commit Wire Fraud and Mail Fraud"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 13, Count One defendant list",
+          "quote": "JING BIN HUANG"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 40, Count Two title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 40, Count Two defendant list",
+          "quote": "JING BIN HUANG"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 42, Count Three title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 42, Count Three defendant list",
+          "quote": "JING BIN HUANG"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 43, Count Four title",
+          "quote": "Conspiracy to Damage a Protected Computer"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 43, Count Four defendant list",
+          "quote": "JING BIN HUANG"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 45, Count Five title",
+          "quote": "Conspiracy to Violate the IEEPA"
+        },
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 45, Count Five defendant list",
+          "quote": "JING BIN HUANG"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Charges are allegations; Huang is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-financial-intermediary-allegation",
+      "type": "incident",
+      "predicate": "allegedly_registered_accounts_to_transfer_scheme_proceeds",
+      "value": {
+        "account_classes": [
+          "money transfer service",
+          "foreign bank"
+        ],
+        "alleged_purpose": "receive and transfer proceeds generated through the conspiracy"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 9, paragraph 15",
+          "quote": "Among other things, HUANG registered accounts with money transfer services (“MTS”) and foreign banks that were used to receive and transfer proceeds generated through the conspiracy, including from Kejia WANG and Zhenxing WANG."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Indictment allegation; no account, bank, payment, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-shenyang-meetings-allegation",
+      "type": "incident",
+      "predicate": "allegedly_met_co_conspirators_in_person",
+      "value": {
+        "year": 2023,
+        "meeting_count": 2,
+        "location": "Shenyang, China",
+        "with": "Kejia Wang and other alleged co-conspirators"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 9, paragraph 15",
+          "quote": "In 2023, HUANG twice met in person with Kejia WANG and other co-conspirators in Shenyang, China."
+        }
+      ],
+      "observed_at": "2023-12-31",
+      "notes": [
+        "Indictment allegation; this is historical alleged meeting geography, not residence or present location."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-status",
+      "type": "legal_event",
+      "predicate": "doj_reported_at_large_and_wanted_by_fbi",
+      "value": {
+        "status": "at large and wanted by the FBI",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘The other eight defendants’",
+          "quote": "The other eight defendants indicted in June 2025 remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "following defendant list",
+          "quote": "Huang Jingbin (黄靖斌)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Wanted status and pending charges do not establish guilt. No later public merits disposition was located through the cutoff."
+      ]
+    },
+    {
+      "id": "claim-huang-tong-combined-receipt-allegation",
+      "type": "incident",
+      "predicate": "rfj_alleged_combined_receipt_with_tong_yuze",
+      "value": {
+        "combined_amount_usd_lower_bound": 200000,
+        "combined_with": "Tong Yuze",
+        "source_description": "received from a conspirator",
+        "period_start": "2022-02",
+        "period_end": "2023-07"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Huang Jingbin’",
+          "quote": "He and Tong Yuze received more than $200,000 from a conspirator between February 2022 and July 2023."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Rewards for Justice allegation and combined lower bound only. The source does not allocate the amount between Huang and Tong, so no individual amount is inferred.",
+        "No payer, recipient, account, bank, transaction, wallet, contact, or other selector is retained. This is not an adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-huang-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "reward heading and opening paragraph",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Concurrent with today’s announcement’",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Program-level reward language on pages that include Huang. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payment, a conviction, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-huang-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals",
+        "media_description": "official source-labeled portrait",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "source image grid containing the separately named Huang Jingbin asset and adjacent named-person list",
+          "quote": "Huang Jingbin 黄靖斌:"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official link-only editorial reference. Source metadata was checked only to confirm that the separately named asset exists; no face comparison or identity inference was performed.",
+        "Do not export the direct asset, cache, crop, republish, perform facial recognition, compare appearance, infer current appearance, or use it to merge an identity or account. Rights and allegation-context review remain required before any display."
+      ]
+    },
+    {
+      "id": "claim-huang-jingbin-rfj-native-name",
+      "type": "identity_name",
+      "predicate": "official_reward_page_native_script_name_form",
+      "value": {
+        "name": "黄靖斌",
+        "script": "source-published CJK form",
+        "latin_label": "Huang Jingbin"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Huang Jingbin’",
+          "quote": "Huang Jingbin 黄靖斌:"
+        }
+      ],
+      "notes": [
+        "Official source-published name form for this reward-page subject; it is not a separate person, an independent civil-identity verification, or proof of the alleged conduct."
+      ]
+    },
+    {
+      "id": "claim-huang-indictment-shenyang-meeting-context",
+      "type": "location",
+      "predicate": "indictment_alleged_coarse_historical_meeting_location",
+      "value": {
+        "location": "Shenyang, China",
+        "year": 2023,
+        "context": "two alleged in-person meetings",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s13",
+          "locator": "PDF p. 9, paragraph 15",
+          "quote": "In 2023, HUANG twice met in person with Kejia WANG and other co-conspirators in Shenyang, China."
+        }
+      ],
+      "observed_at": "2023-12-31",
+      "notes": [
+        "Filed allegation reproduced by Free Law Project/CourtListener RECAP; this is meeting geography, not residence, continued presence, or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Huang Jingbin (黄靖斌), charged as Jing Bin Huang in D. Mass. No. 1:25-cr-10273-NMG. The paired Chinese characters bridge the display and indictment name orders; the separate same-name person or account remains separate. Every conduct statement remains a charged or Rewards for Justice allegation, and the latest verified official posture is at large and FBI-wanted as of April 15, 2026, with the case remaining unadjudicated."
+}

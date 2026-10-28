@@ -1,0 +1,177 @@
+{
+  "id": "un-2022-laos-ko-in-jae",
+  "type": "worker",
+  "name": "Ko In Jae",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel reporting reproduces or follows up on Member State information; it is an official source summary at the Member State stage. Criminal charge, conviction, UN Committee designation, and present-activity finding require separate sources.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dunw47-un-s-2022-668"
+    ]
+  },
+  "legal_or_reported_name": "Ko In Jae",
+  "organizations": [
+    "Lao-Toshyo IT Service Company Ltd"
+  ],
+  "locations": [
+    "Laos"
+  ],
+  "caveats": [
+    "Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued.",
+    "The Laos field is historical Member State report context; present location and current work require newer evidence.",
+    "The name is retained exactly as printed in the English-language annex; additional script or alias forms require source evidence.",
+    "The OpenSanctions/RUSI match derives from UN Panel reporting; it belongs to the same UN Panel source family.",
+    "The record is source-scoped and review-only pending an independent identity bridge or second source family."
+  ],
+  "infrastructure": [
+    {
+      "type": "public-database-derivative-crosswalk",
+      "provider": "OpenSanctions DPRK Reports / RUSI",
+      "entity_id": "kprusi-f7ddfdabb7f0a53105f4cf6eff6e1436cd1ffd8c",
+      "url": "https://www.opensanctions.org/entities/kprusi-f7ddfdabb7f0a53105f4cf6eff6e1436cd1ffd8c/",
+      "independent_source_family": false,
+      "handling": "discovery crosswalk only"
+    },
+    {
+      "type": "un-panel-member-state-reported-worker-row",
+      "reported_name": "Ko In Jae",
+      "reported_occupation": "DPRK IT worker",
+      "historical_location_context": "Laos",
+      "source_scope": "Member State report reproduced in a UN Panel annex",
+      "host_state_response": "Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued.",
+      "present_location_inferred": false,
+      "source_ids": [
+        "dunw47-un-s-2022-668"
+      ],
+      "reported_organization_association": "Lao-Toshyo IT Service Company Ltd",
+      "organization_current_operation_established": false
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dunw47-un-s-2022-668",
+      "support": "Annex explicitly lists Ko In Jae among DPRK IT workers and supplies Laos as historical report context. Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued",
+      "locator": "PDF file p. 302, annex 60, visually reviewed; exact row: Ko In Jae"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-un-2022-laos-ko-in-jae-printed-name",
+      "type": "identity_name",
+      "predicate": "un_annex_printed_name",
+      "value": {
+        "name": "Ko In Jae",
+        "script": "Latin",
+        "source_scope": "Member State report reproduced in a UN Panel annex"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed; subject row",
+          "quote": "Ko In Jae"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Exact source-printed Latin name only; spelling variants and Korean forms are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2022-laos-ko-in-jae-reported-it-worker-role",
+      "type": "employment",
+      "predicate": "member_state_reported_dprk_it_worker",
+      "value": {
+        "reported_role": "DPRK IT worker",
+        "source_scope": "Member State report reproduced in a UN Panel annex",
+        "current_activity_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed; subject row",
+          "quote": "Ko In Jae"
+        },
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed",
+          "quote": "According to recent information provided by a Member State, a team of DPRK IT workers have continued to work in Laos. These workers are associated with Lao-Toshyo IT Service Company Ltd and the details of information are below."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State information relayed by the UN Panel; not a criminal charge, conviction, UN designation, or adjudicated finding.",
+        "Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued."
+      ]
+    },
+    {
+      "id": "claim-un-2022-laos-ko-in-jae-historical-location",
+      "type": "location",
+      "predicate": "member_state_reported_historical_location",
+      "value": {
+        "location": "Laos",
+        "context": "historical report row",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed; subject row",
+          "quote": "Ko In Jae"
+        },
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed",
+          "quote": "According to recent information provided by a Member State, a team of DPRK IT workers have continued to work in Laos. These workers are associated with Lao-Toshyo IT Service Company Ltd and the details of information are below."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State information relayed by the UN Panel; not a criminal charge, conviction, UN designation, or adjudicated finding.",
+        "Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued.",
+        "No present location, residence, or continuing activity is inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2022-laos-ko-in-jae-lao-toshyo-association",
+      "type": "organization_affiliation",
+      "predicate": "member_state_reported_lao_toshyo_association",
+      "value": {
+        "organization": "Lao-Toshyo IT Service Company Ltd",
+        "source_scope": "Member State report reproduced in a UN Panel annex",
+        "current_operation_established": false,
+        "host_state_response": "Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued."
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed; subject row",
+          "quote": "Ko In Jae"
+        },
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 302, annex 60, visually reviewed",
+          "quote": "According to recent information provided by a Member State, a team of DPRK IT workers have continued to work in Laos. These workers are associated with Lao-Toshyo IT Service Company Ltd and the details of information are below."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State information relayed by the UN Panel; not a criminal charge, conviction, UN designation, or adjudicated finding.",
+        "Laos replied in July 2020 that Lao-Toshyo's operation was cancelled in June 2020 and that no Lao company was hiring DPRK IT workers. Investigations continued.",
+        "The association is retained as a disputed Member State report, not a finding that the company continued operating."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Ko In Jae is the Latin-script name printed in a Member State-sourced UN Panel annex for a reported DPRK IT worker. The reviewed source prints no Korean-script form, public account, civil identity, or current location. Approximate romanizations and shared country context remain collision leads until a source explicitly bridges them."
+}

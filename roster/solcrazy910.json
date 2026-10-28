@@ -1,0 +1,78 @@
+{
+  "id": "solcrazy910",
+  "real_name": "Dan Mao",
+  "aliases": [
+    "solcrazy910",
+    "cryptospaceboy00",
+    "alexwork455",
+    "ananphoon823",
+    "andika.riyan",
+    "billyrowan1980",
+    "blockchainlover2019",
+    "maodan466",
+    "putnikdeveloperbg",
+    "spaceboy00",
+    "topstack2021a",
+    "0xquantech"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "cryptospaceboy00@gmail.com",
+    "alexwork455@gmail.com",
+    "ananphoon823@gmail.com",
+    "andika.riyan@gmail.com",
+    "billyrowan1980@gmail.com",
+    "blockchainlover2019@gmail.com",
+    "maodan466@gmail.com",
+    "putnikdeveloperbg@gmail.com",
+    "spaceboy00@gmail.com",
+    "topstack2021a@gmail.com"
+  ],
+  "employment": [
+    {
+      "company": "LND Hack",
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "telegram": [
+    {
+      "id": "5089966453",
+      "usernames": [
+        "MaoDan007"
+      ],
+      "names": []
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "alek806"
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x67AA2F9d362fda4395F53133929E9017b35BE0AE",
+        "0x5149A7696188F083297281D10293a20476252CDD",
+        "0x82be4fe84c2790023906c1648e0836ada67714d9",
+        "0x8148c4243f8cb49fe80d9e23df0bafc1c6732f3e",
+        "0x5a94a3a114cf01f6a703dd8b840cf0a97cdf1434",
+        "0x2446f9528fbf55ccf5b3e7a22fc058bda7a12131",
+        "0x4b82e3485d33544561cd9a48410a605aa8892fb1",
+        "0x140592a83052b3a432b6d70fb90764612ce41ab1"
+      ]
+    }
+  ],
+  "notes": "Wallet Addresses: 0x5149A7696188F083297281D10293a20476252CDD (Hack)0x82be4fe84c2790023906c1648e0836ada67714d9 (Hack)0x8148c4243f8cb49fe80d9e23df0bafc1c6732f3e (Hack) 0x5a94a3a114cf01f6a703dd8b840cf0a97cdf1434 (Hack)0x2446f9528fbf55ccf5b3e7a22fc058bda7a12131 (Hack) 0x4b82e3485d33544561cd9a48410a605aa8892fb1 (Hack)0x140592a83052b3a432b6d70fb90764612ce41ab1 (Hack)",
+  "images": [
+    {
+      "path": "/team-images/dan-mao/dan-mao-av.png",
+      "short_description": "Dan Mao avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

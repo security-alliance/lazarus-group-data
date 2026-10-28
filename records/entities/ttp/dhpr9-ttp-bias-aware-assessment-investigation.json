@@ -1,0 +1,70 @@
+{
+  "id": "dhpr9-ttp-bias-aware-assessment-investigation",
+  "type": "ttp",
+  "name": "Bias-aware technical-assessment anomaly investigation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party platform guidance only; named DPRK incident, allegation, adjudication, and independently measured effectiveness require separate source evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHPR9-S03",
+      "DHPR9-S04"
+    ]
+  },
+  "ttps": [
+    "anonymized-initial-review",
+    "candidate-explanation",
+    "content-leak-remediation",
+    "correction-and-appeal",
+    "documented-human-review",
+    "multi-signal-corroboration"
+  ],
+  "caveats": [
+    "Appearance, accent, nationality, ethnicity, language, geography, time zone, camera behavior, disability-related behavior, and location require corroboration before any adverse decision.",
+    "Automated or platform-generated output is a review prompt. Consequential decisions require documented human review, correction, and appeal, rather than treating the output as a dispositive identity or misconduct determination.",
+    "Technical-assessment review should use anonymized initial review where feasible, candidate explanation, multiple-reviewer validation, documented proportional action, and question-leak remediation.",
+    "Nervousness, disability, communication style, camera refusal, accent, appearance, language, typing rhythm, geography, and unfamiliar tooling require corroboration before any deception finding. Session recordings and telemetry are sensitive and should be minimized, access-controlled, time-limited, and governed by law and policy. Consequential decisions require candidate feedback, correction, and appeal.",
+    "Generic platform documentation is retained as defensive guidance; it supplies context rather than a DPRK incident, attribution, allegation, or measured effectiveness claim.",
+    "This record retains no people, personas, accounts, entities, incidents, images, biometric material, identity documents, private data or raw behavioral, camera, code, network, location or device signals."
+  ],
+  "infrastructure": [
+    {
+      "type": "technical-assessment-investigation-control",
+      "statements": [
+        "For suspected technical-assessment or interview manipulation, define prohibited conduct in advance; gather multiple relevant facts; use more than one qualified reviewer where practical; separate an anonymized initial evidence review from identity disclosure when feasible; invite the candidate to explain; record the decision and rationale; and remediate leaked or compromised assessment content. One behavioral, camera, code, network, or location anomaly is insufficient on its own."
+      ],
+      "limitations": [
+        "Do not infer deception from nervousness, disability, communication style, camera refusal, accent, appearance, language, typing rhythm, geography, or unfamiliar tooling. Session recordings and telemetry are sensitive and should be minimized, access-controlled, time-limited, and governed by law and policy. Candidate feedback, correction, and appeal are required for consequential decisions.",
+        "Generic platform documentation is retained only as defensive guidance, not as a DPRK incident, attribution, allegation, or measured effectiveness claim.",
+        "Automated or platform-generated output is a review prompt, not a dispositive identity or misconduct determination; consequential decisions require documented human review, correction, and appeal.",
+        "Appearance, accent, nationality, ethnicity, language, geography, time zone, camera behavior, disability-related behavior, and location are not standalone adverse signals.",
+        "No people, personas, accounts, entities, incidents, images, biometric material, identity documents, private data, or raw behavioral, camera, code, network, location, or device signals are retained.",
+        "Technical-assessment review should use anonymized initial review where feasible, candidate explanation, multiple-reviewer validation, documented proportional action, and question-leak remediation."
+      ],
+      "source_ids": [
+        "DHPR9-S03",
+        "DHPR9-S04"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-multi-signal-hiring-review"
+  ],
+  "sources": [
+    {
+      "source_id": "DHPR9-S04",
+      "support": "For suspected technical-assessment or interview manipulation, define prohibited conduct in advance; gather multiple relevant facts; use more than one qualified reviewer where practical; separate an anonymized initial evidence review from identity disclosure when feasible; invite the candidate to explain; record the decision and rationale; and remediate leaked or compromised assessment content. One behavioral, camera, code, network, or location anomaly is insufficient on its own",
+      "locator": "Step 1: Identify suspicious behavior; Step 2: Gather and validate evidence; Step 3: Initiate a constructive conversation; Step 5: Review evidence before making a decision; Step 6: Document and flag the incident; Step 8: Review content and manage leaks"
+    },
+    {
+      "source_id": "DHPR9-S03",
+      "support": "For suspected technical-assessment or interview manipulation, define prohibited conduct in advance; gather multiple relevant facts; use more than one qualified reviewer where practical; separate an anonymized initial evidence review from identity disclosure when feasible; invite the candidate to explain; record the decision and rationale; and remediate leaked or compromised assessment content. One behavioral, camera, code, network, or location anomaly is insufficient on its own",
+      "locator": "Use playback and post-interview verification; Enable and frame in-app AI usage transparently; Use collaborative and pair-programming techniques; End the interview session; Final note"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

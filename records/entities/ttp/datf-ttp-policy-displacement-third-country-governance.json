@@ -1,0 +1,69 @@
+{
+  "id": "datf-ttp-policy-displacement-third-country-governance",
+  "type": "ttp",
+  "name": "Policy analysis on displacement and third-country infrastructure governance",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is source-attributed think-tank policy analysis, not an adjudicated event or official prevalence estimate.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DATF-S03"
+    ]
+  },
+  "ttps": [
+    "infrastructure-governance",
+    "sanctions-displacement",
+    "third-country-cooperation"
+  ],
+  "caveats": [
+    "Country or regional presence supplies context; corroborated identity, payment, device, and access anomalies carry attribution weight.",
+    "The source's possible progression toward overt malicious activity is a bounded risk hypothesis; worker-level or population-level hacker claims require source evidence.",
+    "This is a policy assessment rather than an observed universal relocation pattern or an incident roster."
+  ],
+  "infrastructure": [
+    {
+      "type": "defensive-use-boundary",
+      "statements": [
+        "Use this source-qualified context for governance or corroborated behavior-based review, never as standalone identity or nationality attribution."
+      ],
+      "limitations": [
+        "No single nationality, geography, language, education history, technical skill, remote-work preference, interview anomaly, authentication event, or device signal establishes fraud or DPRK attribution."
+      ],
+      "source_ids": [
+        "DATF-S03"
+      ]
+    },
+    {
+      "type": "think-tank-policy-analysis",
+      "statements": [
+        "Think-tank policy analysis argues that direct sanctions and advisories may displace fraudulent IT-worker activity across third countries as operators change location or identity, and recommends issue-specific cooperation with host states to restrict enabling infrastructure or activity."
+      ],
+      "limitations": [
+        "This is a policy assessment, not an observed universal relocation pattern or an incident roster.",
+        "The source's possible progression toward overt malicious activity is a bounded risk hypothesis, not evidence that a particular worker or all workers become hackers.",
+        "Country or regional presence is not an attribution signal; controls should focus on corroborated identity, payment, device, and access anomalies."
+      ],
+      "method_and_source_boundary": "reputable policy analysis; the displacement claim is an author assessment citing a July 2024 INSS brief",
+      "source_ids": [
+        "DATF-S03"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+    "DPA-F02",
+    "DPA-F06",
+    "ttp-global-locations"
+  ],
+  "sources": [
+    {
+      "source_id": "DATF-S03",
+      "support": "Supports the stated displacement and third-country governance policy analysis. Normalized statement: Think-tank policy analysis argues that direct sanctions and advisories may displace fraudulent IT-worker activity across third countries as operators change location or identity, and recommends issue-specific cooperation with host states to restrict enabling infrastructure or activity",
+      "locator": "printed pp. 157-159; especially printed p. 158; printed p. 168, endnote 33"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

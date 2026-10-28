@@ -1,0 +1,190 @@
+{
+  "id": "worker-kwang-il-ri",
+  "type": "worker",
+  "name": "Kwang-Il Ri",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "GitLab-assessed North Korean national and working group one lead in the Beijing-based Kil-Nam Kang cell",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-gitlab-2026-tradecraft"
+    ]
+  },
+  "legal_or_reported_name": "Kwang-Il Ri",
+  "organizations": [
+    "Kil-Nam Kang Beijing IT-worker cell"
+  ],
+  "locations": [
+    "Beijing, China"
+  ],
+  "ttps": [
+    "organized remote-employment fraud cell"
+  ],
+  "caveats": [
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The 345 GitLab-published account indicators remain in a separate cluster because the source maps each value at cluster level rather than one-to-one to this individual.",
+    "The name and role are transcribed from GitLab’s assessed organization-chart figure; this dataset uses source transcription rather than facial recognition."
+  ],
+  "images": [
+    {
+      "source_id": "vendor-gitlab-2026-tradecraft",
+      "source_url": "https://about.gitlab.com/blog/gitlab-threat-intelligence-reveals-north-korean-tradecraft/",
+      "caption": "GitLab-assessed organization chart containing the printed label Kwang-Il Ri; no facial recognition was performed.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-gitlab-2026-tradecraft",
+      "support": "GitLab explicitly labels this North Korean national as working group one lead in Kil-Nam Kang’s Beijing-based IT-worker cell. The name is transcribed from GitLab’s public figure; no facial recognition was used",
+      "locator": "Case Study 1, assessed organization-chart figure"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kwang-il-ri-source-name-label",
+      "type": "identity_name",
+      "predicate": "gitlab_assessed_organization_chart_name_label",
+      "value": {
+        "name": "Kwang-Il Ri",
+        "attribution": "GitLab-assessed organization-chart label"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Working Group One, printed name beneath portrait",
+          "quote": "Kwang-Il Ri"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The spelling and hyphenation are preserved from the source figure. This is a research-attributed label, not an independently government-verified legal identity."
+      ]
+    },
+    {
+      "id": "claim-kwang-il-ri-cell-role",
+      "type": "organization_affiliation",
+      "predicate": "gitlab_assessed_kil_nam_kang_cell_role",
+      "value": {
+        "cell": "Kil-Nam Kang-managed North Korean IT-worker cell",
+        "working_group": "Working Group One",
+        "role": "Group Lead"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Working Group One, printed role beneath Kwang-Il Ri",
+          "quote": "Group Lead"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, opening paragraph",
+          "quote": "Kang’s cell currently includes seven other North Korean nationals and generates revenue through freelance software development under false identities."
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, opening paragraph, colocation assessment",
+          "quote": "We assess that the cell is highly likely colocated and operating from Beijing, China."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The Beijing statement is a cell-level GitLab assessment and does not establish the subject's present individual location.",
+        "No cell-wide financial, facilitator, credential, account, client, victim, performance, or ideological-control conduct is assigned individually."
+      ]
+    },
+    {
+      "id": "claim-kwang-il-ri-cell-location-context",
+      "type": "location",
+      "predicate": "publisher_assessed_cell_location_context",
+      "value": {
+        "assessed_cell_location": "Beijing, China",
+        "scope": "cell-level during investigated period",
+        "individual_present_location": null
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Working Group One, Kwang-Il Ri node",
+          "quote": "Kwang-Il Ri"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, opening paragraph, colocation assessment",
+          "quote": "We assess that the cell is highly likely colocated and operating from Beijing, China."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Historical cell-level vendor assessment only; it does not establish Kwang-Il Ri's present, residential, or individually verified location."
+      ]
+    },
+    {
+      "id": "claim-kwang-il-ri-gitlab-chart-media",
+      "type": "image",
+      "predicate": "publisher_chart_link_only_media_reference",
+      "value": {
+        "source_page": "https://about.gitlab.com/blog/gitlab-threat-intelligence-reveals-north-korean-tradecraft/",
+        "visual_context": "publisher organization chart containing a source-labeled portrait",
+        "handling": "link_only",
+        "direct_asset_retained": false,
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Working Group One, source-labeled Kwang-Il Ri node",
+          "quote": "Kwang-Il Ri"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Source-page citation only; no direct asset is retained for caching, cropping, republication, facial recognition, visual matching, identity resolution, or current-appearance inference.",
+        "The chart visual is publisher attribution context and does not independently verify a civil identity."
+      ]
+    },
+    {
+      "id": "claim-kwang-il-ri-cell-revenue-model-context",
+      "type": "incident",
+      "predicate": "publisher_reported_cell_revenue_model_context",
+      "value": {
+        "cell": "Kil-Nam Kang-managed North Korean IT-worker cell",
+        "working_group": "Working Group One",
+        "reported_activity": "freelance software development under false identities",
+        "scope": "cell-level during investigated period",
+        "individual_conduct_attributed": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Working Group One, source-labeled Kwang-Il Ri node",
+          "quote": "Kwang-Il Ri"
+        },
+        {
+          "source_id": "vendor-gitlab-2026-tradecraft",
+          "locator": "Case Study 1, opening paragraph",
+          "quote": "Kang’s cell currently includes seven other North Korean nationals and generates revenue through freelance software development under false identities."
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Cell-level publisher context only; it does not assign a specific job, employer, client, payment, credential, account, victim, or revenue amount to this individual.",
+        "The claim does not establish present activity or individual legal responsibility."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Kwang-Il Ri is preserved as a GitLab-assessed organization-chart name label and working-group lead in the Kil-Nam Kang-managed IT-worker cell. The printed label, role, working-group placement, and cell-level Beijing assessment leave civil identity, individual conduct, present location, and same-named-account ownership unverified."
+}

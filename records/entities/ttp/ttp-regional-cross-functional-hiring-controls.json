@@ -1,0 +1,48 @@
+{
+  "id": "ttp-regional-cross-functional-hiring-controls",
+  "type": "ttp",
+  "name": "Cross-functional hiring and device-delivery controls",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Localized national-CERT defensive guidance cites secondary reporting; actor attribution remains source-dependent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ML-THA-THAICERT-2025-253"
+    ]
+  },
+  "ttps": [
+    "fabricated-resume",
+    "false-location",
+    "interview-assistance",
+    "laptop-farm",
+    "laptop-forwarding",
+    "proxy-interviewee"
+  ],
+  "caveats": [
+    "Face-to-face checks must be lawful and remain distinct from facial recognition, nationality profiling and biometric matching.",
+    "Sparse professional connections, AI use, phone-region mismatch, and remote work are contextual signals; DPRK affiliation requires independent evidence.",
+    "ThaiCERT's item is localized secondary guidance; actor-specific claims should be traced to the underlying primary disclosures."
+  ],
+  "infrastructure": [
+    {
+      "type": "regional-source-context",
+      "statements": [
+        "ThaiCERT warns Thai readers about suspected DPRK-linked fraudulent remote engineering and software-development applicants. It summarizes resume/account inconsistencies, newly created email addresses, telephone-region mismatch, deepfake interviews and use of ChatGPT during interviews. Its mitigation section stresses cooperation among security, HR and legal teams; controlled device pickup; scrutiny of delivery addresses; face-to-face interviewing where appropriate; and integration of validated applicant-fraud indicators into screening systems."
+      ],
+      "source_ids": [
+        "ML-THA-THAICERT-2025-253"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ML-THA-THAICERT-2025-253",
+      "support": "ThaiCERT localizes defensive guidance for Thai organizations: coordinate HR, security, and legal review; investigate resume, account, phone-region, and interview inconsistencies in combination; control device handoff; scrutinize equipment-delivery addresses; and correlate validated fraud indicators with appropriate privacy controls",
+      "locator": "ThaiCERT item 253/68 (IT), three-paragraph threat and mitigation summary"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

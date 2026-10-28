@@ -1,0 +1,55 @@
+{
+  "id": "deep2-ttp-deep-ttp-03-bbc-persona-operational-security-rules",
+  "type": "ttp",
+  "name": "Persona-specific operational-security rules govern speech, login surfaces, and response time zones",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources; the technique mapping supplies context rather than an identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-03-bbc-persona-operational-security-rules",
+      "deep2-ttp-deep-ttp-s12-us-joint-alert-2026-deep-ttp-03-bbc-persona-operational-security-rules"
+    ]
+  },
+  "ttps": [
+    "inconsistent-language-or-timezone",
+    "multiple-personas",
+    "shared-account"
+  ],
+  "caveats": [
+    "False-positive caution: Candidates may use assistive technology, interpreters, AI tools permitted by policy, or experience anxiety. Publish tool-use rules in advance and evaluate consistency and authorship rather than mannerisms.",
+    "Remote teams, shift work, travel, caregiving, and VPNs create time-zone variation; language fluency and filler words are contextual signals, with nationality and intent requiring corroboration.",
+    "The specific rules are a snapshot from one corpus and serve as examples rather than immutable signatures."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "BBC’s internal-rule evidence directs workers to rewrite technical answers into simple conversational English with natural fillers, avoid Gmail login on a shared PC so multiple identities are not exposed together, and answer clients on the claimed Serbian time zone. These are source-reported anti-correlation procedures, not immutable signatures."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-03-bbc-persona-operational-security-rules",
+        "deep2-ttp-deep-ttp-s12-us-joint-alert-2026-deep-ttp-03-bbc-persona-operational-security-rules"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-july-31-2026-joint-dprk-it-worker-alert"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-03-bbc-persona-operational-security-rules",
+      "support": "BBC reports explicit rules for conversational English, avoiding multi-identity Gmail exposure on shared PCs, and responding in the claimed time zone",
+      "locator": "Secret-rules section"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s12-us-joint-alert-2026-deep-ttp-03-bbc-persona-operational-security-rules",
+      "support": "The joint alert warns that no single behavior is definitive and indicators should be evaluated in combination",
+      "locator": "PDF pp. 2-6; multi-indicator warning"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

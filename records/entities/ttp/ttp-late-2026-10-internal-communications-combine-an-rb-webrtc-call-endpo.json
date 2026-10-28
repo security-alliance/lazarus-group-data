@@ -1,0 +1,27 @@
+{
+  "id": "ttp-late-2026-10-internal-communications-combine-an-rb-webrtc-call-endpo",
+  "type": "ttp",
+  "name": "Internal communications combine an RB WebRTC call endpoint with CallPC; MikroTik routers generate high-volume DNS during C2 operations.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: medium-high",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-kudelski-infrastructure"
+    ]
+  },
+  "ttps": [
+    "Internal communications combine an RB WebRTC call endpoint with CallPC; MikroTik routers generate high-volume DNS during C2 operations."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "support": "Internal communications combine an RB WebRTC call endpoint with CallPC; MikroTik routers generate high-volume DNS during C2 operations",
+      "locator": "Figure 2: Russian exit-node mapping; Figure 4: public-facing infrastructure; Figure 5: Team 313 network; Figure 6: RB administrative network; Figures 7-8: KUT website/network; Figure 9: offensive infrastructure"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

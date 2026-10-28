@@ -1,0 +1,44 @@
+{
+  "id": "front-company-korea-kyongru-trading-corporation",
+  "type": "front_company",
+  "name": "Korea Kyongru Trading Corporation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT describes the company as a likely Ministry of National Defense/Bureau 53 front used to contract DPRK IT-worker dispatch; the qualifier 'likely' is retained",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFCE-S01"
+    ]
+  },
+  "legal_or_reported_name": "Korea Kyongru Trading Corporation",
+  "organizations": [
+    "Bureau 53 / Department 53, DPRK Ministry of National Defense"
+  ],
+  "caveats": [
+    "The contract alone leaves LLC Renova and its personnel outside complicity attribution.",
+    "The ordinary Russian contracting employer and its personnel stay outside actor-facing fields; source attribution remains at reported-worker level.",
+    "This record reflects the cited MSMT source posture; separate corporate-registry or criminal-adjudication status requires separate sources.",
+    "Use the source's qualifier 'likely front company.'"
+  ],
+  "aliases": [
+    {
+      "value": "KKTC",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFCE-S01",
+      "support": "MSMT describes Korea Kyongru Trading Corporation as a likely Bureau 53 front used to contract the dispatch of DPRK IT workers to Russia; the Russian contracting company is not classified as a front",
+      "locator": "Report p. 64 / PDF p. 66, first full paragraph and footnote 204 context"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

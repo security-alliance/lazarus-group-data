@@ -1,0 +1,458 @@
+{
+  "id": "worker-cho-chung-pom",
+  "type": "worker",
+  "name": "Cho Chung Pom",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; Mid-level manager; the individual FBI page listed the subject as wanted when reviewed on 2026-08-12. Charged and wanted status records the case posture; the case remains unadjudicated. A later HTTP 403 leaves removal and fresh status verification unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-06",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Cho Chung Pom",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "The primary and alternate images remain FBI-provenanced evidence; whether they depict different people is unresolved.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "Keep this charged defendant separate from the OFAC entry CHOE, Chun Pom / CH'OE, Ch'un-po'm; similar romanization supplies a collision lead, while reviewed official sources leave the records separate.",
+    "FBI pages may change; retain verification date.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain allegation context; biometric comparison is excluded.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-06",
+      "source_url": "https://www.fbi.gov/wanted/cyber/cho-chung-pom",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/cho-chung-pom/@@images/image/large",
+      "caption": "FBI wanted-page image published for Cho Chung Pom, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-cho-chung-pom"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-06",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Cho Chung Pom; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Cho Chung Pom as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Cho Chung Pom and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Cho Chung Pom as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Cho Chung Pom; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "src-2c35594063af"
+    },
+    {
+      "source_id": "src-171c775f0772"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "official_name",
+      "value": {
+        "name": "Cho Chung Pom",
+        "korean": "조충범"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "named-person list",
+          "quote": "Cho Chung Pom (조충범), mid-level manager"
+        },
+        {
+          "source_id": "src-2c35594063af",
+          "locator": "identified-individuals list",
+          "quote": "Cho Chung Pom (조충범)"
+        }
+      ],
+      "observed_at": "2024-12-12"
+    },
+    {
+      "id": "claim-dprk-national",
+      "type": "location",
+      "predicate": "indictment_alleged_nationality",
+      "value": {
+        "nationality": "DPRK"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, para. 20",
+          "quote": "CHO CHUNG POM, HYON CHOL SONG, SON UN CHOL, and SOK KWANG HYOK, all DPRK nationals"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Official charging allegation, consistent with RFJ's North Korean worker/manager list."
+      ]
+    },
+    {
+      "id": "claim-mid-level-manager",
+      "type": "employment",
+      "predicate": "officially_reported_role",
+      "value": {
+        "role": "mid-level manager"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "named-person list",
+          "quote": "Cho Chung Pom (조충범), mid-level manager"
+        }
+      ],
+      "observed_at": "2024-12-12"
+    },
+    {
+      "id": "claim-group-leader-role",
+      "type": "employment",
+      "predicate": "indictment_alleged_group_leader_role",
+      "value": {
+        "role": "Group Leader",
+        "organization": "Yanbian Silverstar",
+        "reports_to_role": "Delegation Leader"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, para. 20",
+          "quote": "acted as middle management also known as \"Group Leaders\" for Yanbian Silverstar and reported to Delegation Leader RIM UN CHOL."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation; does not establish current employment or reporting relationship."
+      ]
+    },
+    {
+      "id": "claim-supervised-workers",
+      "type": "employment",
+      "predicate": "indictment_alleged_supervisory_duties",
+      "value": {
+        "duties": "directly supervised IT workers and occasionally conducted IT work"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, para. 20, final sentence",
+          "quote": "The Group Leaders directly supervised IT workers and occasionally conducted IT work themselves."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Role-class allegation explicitly includes Cho in the preceding sentence."
+      ]
+    },
+    {
+      "id": "claim-associated-front-companies",
+      "type": "organization_affiliation",
+      "predicate": "officially_reported_association",
+      "value": {
+        "organizations": [
+          "Yanbian Silverstar Network Technology Co., Ltd.",
+          "Volasys Silverstar"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section, introduction to named-person list",
+          "quote": "associated with North Korean front companies Yanbian Silverstar Network Technology Co., Ltd., based in the People’s Republic of China (PRC), and Volasys Silverstar, based in Russia"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "RFJ group-level association; the indictment specifically places Cho as a Yanbian Group Leader. No present affiliation inference."
+      ]
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 1, caption and docket header",
+          "quote": "4:24CR648 MTS/JSD"
+        }
+      ],
+      "observed_at": "2024-12-11"
+    },
+    {
+      "id": "claim-four-conspiracy-counts",
+      "type": "legal_event",
+      "predicate": "charged_with_conspiracies",
+      "value": {
+        "offenses": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 heading",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 defendant list",
+          "quote": "CHO CHUNG POM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 heading",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 defendant list",
+          "quote": "CHO CHUNG POM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 heading",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 24, Count 3 defendant list",
+          "quote": "CHO CHUNG POM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 heading",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 defendant list",
+          "quote": "CHO CHUNG POM"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; count elements and defendant lists were checked across Counts 1-4."
+      ]
+    },
+    {
+      "id": "claim-aggravated-identity-theft-charge",
+      "type": "legal_event",
+      "predicate": "charged_with_aggravated_identity_theft",
+      "value": {
+        "statute": "18 U.S.C. § 1028A(a)"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5",
+          "quote": "CHO CHUNG POM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 heading",
+          "quote": "Aggravated Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 concluding line",
+          "quote": "All in violation of 18 U.S.C. § 1028A(a)."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charge is an allegation and does not establish guilt."
+      ]
+    },
+    {
+      "id": "claim-assigned-stolen-pii",
+      "type": "incident",
+      "predicate": "allegedly_ordered_to_use_stolen_identifying_information",
+      "value": {
+        "period": "2021-02 to 2021-03",
+        "victim_count_in_shared_list": 188
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, para. 26",
+          "quote": "CHO CHUNG POM, CHOE JONG YONG, SON UN CHOL, KIM YE WON, and SOK KWANG HYOK were ordered to use Personally Identifiable Information (\"PII\") stolen from 188 U.S. persons."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation. No victim name, date of birth, government identifier, or address is retained; 188 is the shared list size, not a defendant-specific usage count."
+      ]
+    },
+    {
+      "id": "claim-nonprofit-application",
+      "type": "incident",
+      "predicate": "allegedly_applied_using_stolen_identity",
+      "value": {
+        "date": "2021-05",
+        "position": "remote IT contractor",
+        "employer_type": "faith-based nonprofit"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 26, para. 95(e)",
+          "quote": "In or around May 2021, CHO CHUNG POM applied for a remote IT contractor position with U.S. Nonprofit Organization #1"
+        }
+      ],
+      "observed_at": "2021-05-01",
+      "notes": [
+        "Indictment allegation. Victim-person initials, organization identity, and precise locality are deliberately excluded."
+      ]
+    },
+    {
+      "id": "claim-fbi-api-entry-present",
+      "type": "note",
+      "predicate": "public_fbi_wanted_api_entry_present",
+      "value": {
+        "title": "CHO CHUNG POM",
+        "canonical_url": "https://www.fbi.gov/wanted/cyber/cho-chung-pom",
+        "modified_at": "2026-03-15T00:18:55+00:00",
+        "match_basis": "exact title and canonical URL"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-171c775f0772",
+          "locator": "exact-match item, title field",
+          "quote": "\"title\":\"CHO CHUNG POM\""
+        },
+        {
+          "source_id": "src-171c775f0772",
+          "locator": "exact-match item, url field",
+          "quote": "\"url\":\"https://www.fbi.gov/wanted/cyber/cho-chung-pom\""
+        },
+        {
+          "source_id": "src-171c775f0772",
+          "locator": "exact-match item, modified field",
+          "quote": "\"modified\":\"2026-03-15T00:18:55+00:00\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This claim is limited to presence of an exact entry in the public FBI dataset at the cutoff. It does not independently establish guilt, page accessibility, image availability, or any change in merits posture."
+      ]
+    },
+    {
+      "id": "claim-rfj-cho-chung-pom-image-reference",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/yanbian-silverstar-and-volasys-silverstar",
+        "media_url": "https://rewardsforjustice.net/wp-content/uploads/2026/01/Rewards-Cho-Chung-Pom-조충범-224x300-1.png",
+        "handling": "link-only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list and immediately corresponding rewards-image link",
+          "quote": "Cho Chung Pom (조충범), mid-level manager"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Linked image href",
+          "quote": "Rewards-Cho-Chung-Pom-조충범-224x300-1.png"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Official source-explicit media reference only. The image was not downloaded, cropped, compared, or used for facial recognition or identity inference; the charged posture remains unchanged."
+      ]
+    },
+    {
+      "id": "claim-rfj-cho-chung-pom-reward-context",
+      "type": "legal_event",
+      "predicate": "official_collective_reward_information_request",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of covered DPRK-supporting financial mechanisms",
+        "subject_context": "Cho Chung Pom is included in RFJ's named worker/manager list"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section, reward statement",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Cho Chung Pom (조충범), mid-level manager"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This is a collective program reward and information request, not an individual bounty amount, merits finding, or proof of guilt."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Cho Chung Pom (조충범) is the DPRK national and charged defendant explicitly named by Rewards for Justice and in E.D. Mo. No. 4:24-cr-00648-MTS-JSD. The record uses no romanization or imagery to merge identities, and every criminal-conduct claim remains allegation-only."
+}

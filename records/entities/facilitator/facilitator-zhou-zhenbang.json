@@ -1,0 +1,401 @@
+{
+  "id": "facilitator-zhou-zhenbang",
+  "type": "facilitator",
+  "name": "Zhou Zhenbang",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. Through 2026-08-12, the verified record reaches charging in the District of Massachusetts Wang matter; later merits disposition remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Zhou Zhenbang",
+  "ttps": [
+    "laundering DPRK IT-worker proceeds",
+    "shell-company and payment infrastructure"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Keep the campaign context intact; the source presents the State Department in a contextual role only.",
+    "Facial recognition and linkage to another account, alias, or image are outside this record.",
+    "The image is retained as visual context only. Biometric matching and resolution of employment personas, aliases, accounts, and victim identities are outside the method.",
+    "Keep alleged-role and source context adjacent.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The official reward-page role remains an allegation unless separately adjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "caption": "Official Rewards for Justice subject card for Zhou Zhenbang; the cited role is an allegation and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-zhou-zhenbang"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "The official Rewards for Justice page publishes a separately named subject image for Zhou Zhenbang in the page's alleged DPRK IT-worker facilitation and money-laundering context. The image does not establish guilt or linkage to any other alias, account, company, or image",
+      "locator": "Individual subject card labeled Zhou Zhenbang"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ identifies the eight Wang-case facilitators as charged defendants in the District of Massachusetts matter; the charges are allegations and do not establish guilt",
+      "locator": "District of Massachusetts section beginning “In a third coordinated action”; paragraph listing the eight additional charged defendants"
+    },
+    {
+      "source_id": "flr6-s19"
+    },
+    {
+      "source_id": "src-55b829310f0a"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "official_name_and_native_script",
+      "value": {
+        "name": "Zhou Zhenbang",
+        "native_script": "周震邦"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts defendant list",
+          "quote": "Zhenbang Zhou (周震邦)"
+        },
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "subject entry for Zhou Zhenbang",
+          "quote": "Zhou Zhenbang 周震邦:"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Zhou Zhenbang (周震邦)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Officially paired Latin and Chinese forms; this does not independently verify the underlying civil identity."
+      ]
+    },
+    {
+      "id": "claim-indictment-name-order",
+      "type": "alias",
+      "predicate": "indictment_name_order",
+      "value": {
+        "name": "Zhenbang Zhou"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 20",
+          "quote": "Defendant Zhenbang ZHOU was an individual residing outside the United States."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "This is source-supported name-order equivalence, not independent identity resolution."
+      ]
+    },
+    {
+      "id": "claim-three-count-indictment",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "case_number_as_printed": "25cr10273 NMG-MPK",
+        "counts": [
+          "conspiracy to commit wire fraud and mail fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts section and five-count indictment link",
+          "quote": "Ziyou Yuan (زيو) and Zhenbang Zhou (周震邦)"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 13, Count One defendant list",
+          "quote": "(7) ZHENBANG ZHOU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 13, Count One heading",
+          "quote": "Conspiracy to Commit Wire Fraud and Mail Fraud"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 40, Count Two defendant list",
+          "quote": "(7) ZHENBANG ZHOU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 40, Count Two heading",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 42, Count Three defendant list",
+          "quote": "(7) ZHENBANG ZHOU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 42, Count Three heading",
+          "quote": "Conspiracy to Commit Identity Theft"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Charges are allegations and do not establish guilt. Zhou is not listed as a defendant in Counts Four or Five. The DOJ release expressly preserves the presumption of innocence."
+      ]
+    },
+    {
+      "id": "claim-reported-outside-us-residence-context",
+      "type": "location",
+      "predicate": "indictment_reported_residence_outside_united_states",
+      "value": {
+        "reported_residence_context": "outside the United States",
+        "as_alleged_in": "2025 indictment",
+        "precision": "broad exclusion only",
+        "country_inferred": false,
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 20",
+          "quote": "Defendant Zhenbang ZHOU was an individual residing outside the United States."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Indictment allegation and broad historical exclusion only. It does not establish a country, city, address, nationality, birthplace, continued presence, travel, or present location."
+      ]
+    },
+    {
+      "id": "claim-financial-account-role",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_financial_accounts",
+      "value": {
+        "reported_classes": [
+          "money-transfer-service accounts",
+          "foreign bank accounts"
+        ],
+        "reported_use": "receive and transfer alleged scheme proceeds"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 20",
+          "quote": "ZHOU registered MTS and foreign bank accounts that were used to receive and transfer proceeds generated through the conspiracy"
+        },
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "subject entry for Zhou Zhenbang",
+          "quote": "Registered MTS and financial accounts used to send and receive funds for the conspiracy"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Official allegations from the indictment and RFJ page. RFJ appears to summarize the charged conduct and is not treated as independent factual corroboration. No account, institution, transaction, or login selector is retained."
+      ]
+    },
+    {
+      "id": "claim-baoyu-transfer-relationship",
+      "type": "relationship",
+      "predicate": "allegedly_received_scheme_proceeds_from",
+      "value": {
+        "related_person": "Zhou Baoyu"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 20",
+          "quote": "including from Baoyu ZHOU."
+        },
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "subject entry for Zhou Zhenbang",
+          "quote": "including from Zhou Baoyu."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Official allegations from the indictment and RFJ page. RFJ appears to summarize the charged conduct and is not treated as independent factual corroboration; no amount, account, or transaction is retained."
+      ]
+    },
+    {
+      "id": "claim-rfj-alleged-role-context",
+      "type": "incident",
+      "predicate": "rfj_seeks_information_for_reported_role",
+      "value": {
+        "reported_context": "exportation of DPRK IT workers and money laundering",
+        "posture": "information sought by Rewards for Justice"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "introduction to individual list",
+          "quote": "The Department is seeking information on the following individuals for their role in the exportation of IT workers from North Korea and money laundering on behalf of the DPRK regime:"
+        }
+      ],
+      "notes": [
+        "RFJ allegation and reward-program context only; not an adjudicated fact or an individualized finding about every campaign activity."
+      ]
+    },
+    {
+      "id": "claim-front-company-server",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_server_for_front_company_websites",
+      "value": {
+        "reported_infrastructure": "server",
+        "reported_organizations": [
+          "Tony WKJ",
+          "Tony Wang Tech",
+          "Independent Lab"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 20",
+          "quote": "ZHOU also registered and paid for multiple online accounts and other infrastructure that were used in furtherance of the conspiracy, including a server used to host the Tony WKJ, Tony Wang Tech, and Independent Lab web domains."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Indictment allegation only. Domain names, hosting provider, IP address, credentials, and current-control inferences are excluded."
+      ]
+    },
+    {
+      "id": "claim-wanted-status",
+      "type": "legal_event",
+      "predicate": "doj_reported_at_large_and_wanted_by_fbi",
+      "value": {
+        "status": "at large and wanted by the FBI",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘The other eight defendants’",
+          "quote": "The other eight defendants indicted in June 2025 remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Zhou Zhenbang (周震邦)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Dated official report. Wanted status and pending charges do not establish guilt."
+      ]
+    },
+    {
+      "id": "claim-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "reward heading and opening paragraph",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Concurrent with today’s announcement’",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Program-level reward language on pages that include Zhou. It must not be presented as a USD 5 million individual arrest reward, guaranteed payment, conviction, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals",
+        "media_description": "official source-labeled portrait",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "source image grid containing the separately named Zhou Zhenbang asset and adjacent named-person list",
+          "quote": "Zhou Zhenbang 周震邦:"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official link-only editorial reference. Visual review verified only that the source-labeled asset is person-bearing rather than a placeholder; no face comparison or identity inference was performed. Do not export the direct asset, cache, crop, republish, perform facial recognition, compare appearance, infer current appearance, or use it to merge an identity or account. Rights and allegation-context review remain required before any display."
+      ]
+    },
+    {
+      "id": "claim-zhou-zhenbang-rfj-native-name",
+      "type": "identity_name",
+      "predicate": "official_reward_page_native_script_name_form",
+      "value": {
+        "name": "周震邦",
+        "script": "source-published CJK form",
+        "latin_label": "Zhou Zhenbang"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Zhou Zhenbang’",
+          "quote": "Zhou Zhenbang 周震邦:"
+        }
+      ],
+      "notes": [
+        "Official source-published name form for this reward-page subject; it is not a separate person, an independent civil-identity verification, or proof of the alleged conduct."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Zhou Zhenbang, printed as Zhenbang Zhou in the federal indictment, is an overseas defendant in D. Mass. No. 25cr10273 NMG-MPK. The record preserves the charged, at-large, and wanted posture; guilt, merits disposition, present residence, and same-named public-account ownership remain separate evidentiary questions."
+}

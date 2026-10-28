@@ -1,0 +1,50 @@
+{
+  "id": "dhgr9-ttp-account-acquisition-credibility-reputation-lifecycle",
+  "type": "ttp",
+  "name": "Account acquisition, credibility building, and reputation manipulation lifecycle",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHGR9-S01-US-INTERAGENCY-2022"
+    ]
+  },
+  "ttps": [
+    "account-lending",
+    "freelance-platform",
+    "multiple-personas",
+    "reputation-manipulation",
+    "shared-portfolio"
+  ],
+  "caveats": [
+    "Geography, nationality, language, camera use, and preference for text communication require lawful, evidence-based review rather than discrimination.",
+    "Identity documents, financial details, IP addresses, account credentials, and raw selectors are excluded from publication and retention.",
+    "Foreign contractors, customers, local companies, schools, universities, jurisdictions, networks, and service providers require direct evidence before treatment as knowing participants.",
+    "Many individual elements appear elsewhere, but the 2022 source supplies an early, coherent account-lifecycle model linking account acquisition, credibility building, bidding, verification evasion, and post-placement expansion.",
+    "DPRK attribution requires multiple independently corroborated signals and human review.",
+    "These are risk indicators from 2022; current validity and deterministic use require separate evidence.",
+    "This is a historical, source-qualified program-level finding; current census and person, organization, jurisdiction, platform-user or technology-user status require current sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-platform-account-lifecycle",
+      "statement": "The advisory describes proxy accounts used to bid, work, and receive payment; account owners selling or lending account access; multiple identities shared within a team; one dedicated device per account in some cases; fabricated education, employment, portfolio, client, statement-of-work, invoice, and communication records; self-dealing between fraudulent client and developer accounts to build ratings; reused document templates; clusters of accounts receiving ratings from one client; extensive bidding with low acceptance; and recruitment of additional workers after one worker is hired.",
+      "evidence_class": "official intelligence, sanctions, law-enforcement, and compliance synthesis",
+      "historical_boundary": "These are risk indicators from 2022, not a deterministic signature and not necessarily current in unchanged form.",
+      "source_ids": [
+        "DHGR9-S01-US-INTERAGENCY-2022"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DHGR9-S01-US-INTERAGENCY-2022",
+      "support": "The advisory describes proxy accounts used to bid, work, and receive payment; account owners selling or lending account access; multiple identities shared within a team; one dedicated device per account in some cases; fabricated education, employment, portfolio, client, statement-of-work, invoice, and communication records; self-dealing between fraudulent client and developer accounts to build ratings; reused document templates; clusters of accounts receiving ratings from one client; extensive bidding with low acceptance; and recruitment of additional workers after one worker is hired",
+      "locator": "PDF pp. 5-8, Skills and Platforms, Hiding Their Identity, and red flags"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

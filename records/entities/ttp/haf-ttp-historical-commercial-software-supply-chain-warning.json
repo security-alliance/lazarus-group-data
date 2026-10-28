@@ -1,0 +1,61 @@
+{
+  "id": "haf-ttp-historical-commercial-software-supply-chain-warning",
+  "type": "ttp",
+  "name": "Historical commercial-software and supply-chain exposure warning",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S1",
+      "HAF-S2"
+    ]
+  },
+  "ttps": [
+    "shared-code",
+    "unauthorized-subcontractor"
+  ],
+  "caveats": [
+    "The sources provide historical commercial-software and front-company supply-chain warnings and report no planted-vulnerability evidence.",
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "Publish as historical risk context; product intent and named foreign clients' knowledge require source-specific evidence.",
+    "The warning and its limitations are explicit conclusions of both reports."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-source-attributed-behavior-or-context",
+      "statements": [
+        "Both investigations warned that DPRK-linked software and advanced technology could reach clients through front companies, local intermediaries, and freelancing platforms without clients recognizing the origin.",
+        "CNS highlighted software-supply-chain and customer-system access risk but stated that it had not identified a public case of a vulnerability deliberately planted in a DPRK-developed commercial product.",
+        "C4ADS documented potential diffusion of DPRK-linked computer-vision products into Western law-enforcement and defense-adjacent markets while explicitly finding no evidence that a named foreign partner knowingly engaged in illegal activity."
+      ],
+      "limitations": [
+        "Publish as historical risk context. Do not imply that every DPRK-developed product is malicious or that named foreign clients knowingly dealt with DPRK actors.",
+        "The sources provide historical commercial-software and front-company supply-chain warnings and report no evidence of planted vulnerabilities."
+      ],
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-10-explicit-overlap-requires-evidence"
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "Both investigations warned that DPRK-linked software and advanced technology could reach clients through front companies, local intermediaries, and freelancing platforms without clients recognizing the origin. CNS highlighted software-supply-chain and customer-system access risk but stated that it had not identified a public case of a vulnerability deliberately planted in a DPRK-developed commercial product. C4ADS documented potential diffusion of DPRK-linked computer-vision products into Western law-enforcement and defense-adjacent markets while explicitly finding no evidence that a named foreign partner knowingly engaged in illegal activity",
+      "locator": "PDF pp. 4 and 47-49, Executive Summary and Vietnam case-study conclusion"
+    },
+    {
+      "source_id": "HAF-S1",
+      "support": "Both investigations warned that DPRK-linked software and advanced technology could reach clients through front companies, local intermediaries, and freelancing platforms without clients recognizing the origin. CNS highlighted software-supply-chain and customer-system access risk but stated that it had not identified a public case of a vulnerability deliberately planted in a DPRK-developed commercial product. C4ADS documented potential diffusion of DPRK-linked computer-vision products into Western law-enforcement and defense-adjacent markets while explicitly finding no evidence that a named foreign partner knowingly engaged in illegal activity",
+      "locator": "PDF pp. 4-6 and 11-13 (printed pp. 1-3 and 8-10)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

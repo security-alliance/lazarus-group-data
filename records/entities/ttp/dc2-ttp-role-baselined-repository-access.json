@@ -1,0 +1,74 @@
+{
+  "id": "dc2-ttp-role-baselined-repository-access",
+  "type": "ttp",
+  "name": "Role-baselined repository access for recent hires",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is Sophos-published repository-monitoring guidance with no published sensitivity, specificity, or universal threshold.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DC2-S01",
+      "DC2-S02",
+      "DC2-S09"
+    ]
+  },
+  "ttps": [
+    "code-repository-reuse",
+    "shared-code",
+    "source-code-exfiltration",
+    "trade-secret-theft"
+  ],
+  "caveats": [
+    "A low commit count is normal for reviewers, managers, researchers, support engineers, and short-lived investigations.",
+    "Apply controls consistently with privacy, employment, labor, accessibility, retention, notice, correction, and access-governance requirements.",
+    "Onboarding, incident response, migrations, monorepos, build systems, code search, backup jobs, and role changes can generate high-volume legitimate access.",
+    "Use role-aware peer groups and project context; long hours and off-hours work are ordinary work patterns requiring corroboration before risk treatment.",
+    "Use the pattern to prioritize documented human-led review; DPRK affiliation, fraud, and malicious intent require a combined evidence record."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "For new hires and contractors, baseline repository scope, clone/download-to-contribution ratio, access time, network origin, and role entitlement over rolling windows.",
+        "Escalate only when several dimensions diverge from both the user's own history and peers with the same role, then validate against assigned projects and onboarding tasks.",
+        "Pair the hunt with least privilege and staged repository grants so onboarding does not expose unrelated code by default."
+      ],
+      "limitations": [
+        "Onboarding, incident response, migrations, monorepos, build systems, code search, backup jobs, and role changes can generate high-volume legitimate access.",
+        "A low commit count is normal for reviewers, managers, researchers, support engineers, and short-lived investigations.",
+        "Use role-aware peer groups and project context; do not treat long hours or off-hours work alone as suspicious."
+      ],
+      "source_ids": [
+        "DC2-S01",
+        "DC2-S02",
+        "DC2-S09"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-vendor-dv-f02",
+    "drh-ttp-endpoint-custody-posthire-control-bundle",
+    "ttp-package-maintainer-continuity-monitoring"
+  ],
+  "sources": [
+    {
+      "source_id": "DC2-S09",
+      "support": "The publisher-hosted PDF mirror confirms that the linked matrix spans security monitoring and threat hunting; it is not independent corroboration of the individual matrix controls",
+      "locator": "pp. 1-2, especially Matrix overview and Detection and prevention"
+    },
+    {
+      "source_id": "DC2-S02",
+      "support": "The matrix proposes reviewing combinations of previously unseen repositories, unusual clone or download volume relative to contribution, new access methods, and repository scope inconsistent with the assigned role",
+      "locator": "Worksheets: Project Tracker Sheet, Banking payroll and finance, Security and monitoring, Threat hunting"
+    },
+    {
+      "source_id": "DC2-S01",
+      "support": "Sophos recommends inventorying code repositories and comparing a worker's recent access with a longer personal history",
+      "locator": "Page heading and sections: Matrix overview; Detection and prevention; linked PDF and control-matrix downloads"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

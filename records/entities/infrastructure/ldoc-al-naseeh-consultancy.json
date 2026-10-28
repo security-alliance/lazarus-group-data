@@ -1,0 +1,45 @@
+{
+  "id": "ldoc-al-naseeh-consultancy",
+  "type": "infrastructure",
+  "name": "Al Naseeh Consultancy FZE payment vehicle",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The information alleges wages for an overseas worker using a stolen U.S. identity were paid to an MTS account registered to Yongzhe Xu on behalf of Al Naseeh Consultancy FZE",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-06"
+    ]
+  },
+  "caveats": [
+    "The stolen identity used for employment is intentionally omitted.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding.",
+    "Treat as a payment vehicle named in allegations; DPRK ownership of a front company remains unconfirmed."
+  ],
+  "infrastructure": [
+    {
+      "type": "reported-organization-or-payment-vehicle",
+      "identifier_type": "organization-name",
+      "count": 1,
+      "values": [
+        "Al Naseeh Consultancy FZE"
+      ],
+      "relationship": "reported-link",
+      "source_ids": [
+        "ldoc-06"
+      ],
+      "status": "historical",
+      "note": "Named in the cited allegation as a payment vehicle or organizational indicator; not treated as a conclusively DPRK-owned entity."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-06",
+      "support": "The information alleges wages for an overseas worker using a stolen U.S. identity were paid to an MTS account registered to Yongzhe Xu on behalf of Al Naseeh Consultancy FZE",
+      "locator": "Information ¶22(ee)-(ii), pp. 19-21"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

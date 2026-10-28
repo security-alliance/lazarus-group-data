@@ -1,0 +1,113 @@
+{
+  "id": "persona-agencyhill99-lucifer",
+  "type": "persona",
+  "name": "Lucifer",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "organizations": [
+    "AgencyHill99",
+    "PurpleBravo"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Generic alias with an apparently AI-generated image; person-identification status remains unresolved.",
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "source-observed in 2024 and reported 2025-02-13",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Lucifer",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "DoraHacks",
+      "identifier": "DoraHacks profile",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports Lucifer as a persona or account linked to AgencyHill99, PurpleBravo; historical indicators described by the source include DoraHacks profile",
+      "locator": "PDF pp. 4-5 and Figure 1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lucifer-source-dorahacks-persona",
+      "type": "account",
+      "predicate": "publisher_reported_dorahacks_persona_and_agency_affiliation",
+      "value": {
+        "platform": "DoraHacks",
+        "persona_label": "Lucifer",
+        "reported_organization": "AgencyHill99",
+        "status": "historical publisher report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF page index 5 (printed footer p. 4), PurpleBravo's Fraudulent Profiles, final paragraph, persona label",
+          "quote": "a profile with the name of Lucifer"
+        },
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF page index 5 (printed footer p. 4), PurpleBravo's Fraudulent Profiles, final paragraph, affiliation and platform clause",
+          "quote": "who works for AgencyHill99 was observed on the website DoraHacks"
+        }
+      ],
+      "observed_at": "2025-02-13",
+      "notes": [
+        "Historical publisher attribution only. The generic label and platform presentation do not identify a natural person or current controller."
+      ]
+    },
+    {
+      "id": "claim-lucifer-source-hiring-message",
+      "type": "note",
+      "predicate": "publisher_reported_dorahacks_profile_hiring_message",
+      "value": {
+        "organization": "AgencyHill99",
+        "message": "looking to hire a developer"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF page index 5 (printed footer p. 4), PurpleBravo's Fraudulent Profiles, final paragraph, DoraHacks profile statement",
+          "quote": "The profile on DoraHacks states that AgencyHill99 is looking to hire a developer."
+        }
+      ],
+      "observed_at": "2025-02-13",
+      "notes": [
+        "Publisher-reported historical profile content; no present vacancy or present organization control is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Recorded Future-reported historical DoraHacks persona associated with AgencyHill99. Lucifer is a generic online label; natural-person identity, present account control and identity from profile imagery require independent evidence."
+}

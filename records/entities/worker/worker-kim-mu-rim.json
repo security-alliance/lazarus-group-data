@@ -1,0 +1,373 @@
+{
+  "id": "worker-kim-mu-rim",
+  "type": "worker",
+  "name": "Kim Mu Rim",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; Senior manager. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; the record carries wanted and charged status, with the case unadjudicated. A later HTTP 403 supplies no fresh status verification.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-05",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Kim Mu Rim",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "FBI pages may change; retain verification date.",
+    "The record excludes facial recognition and cross-persona identity inference.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-05",
+      "source_url": "https://www.fbi.gov/wanted/cyber/kim-mu-rim",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/kim-mu-rim/@@images/image/large",
+      "caption": "FBI wanted-page image published for Kim Mu Rim, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-kim-mu-rim"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-05",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Kim Mu Rim; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Kim Mu Rim as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Kim Mu Rim and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment names Kim Mu Rim as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Kim Mu Rim; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "src-26b1c65e81c0"
+    },
+    {
+      "source_id": "src-732a2677da0c"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Mu Rim",
+        "korean": "김무림"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Kim Mu Rim (김무림), senior manager"
+        },
+        {
+          "source_id": "src-26b1c65e81c0",
+          "locator": "JSON field: title",
+          "quote": "KIM MU RIM"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "The Latin and Hangul forms are explicitly paired by RFJ; the FBI API title independently matches the charged identity. No same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-delegation-leader-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organization": "Yanbian Silverstar",
+        "role": "Delegation Leader",
+        "rfj_role_label": "senior manager"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 19",
+          "quote": "KIM MU RIM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 19",
+          "quote": "was a \"Delegation Leader\" for Yanbian Silverstar."
+        },
+        {
+          "source_id": "src-26b1c65e81c0",
+          "locator": "JSON field: occupations[0]",
+          "quote": "Delegation Leader"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Kim Mu Rim (김무림), senior manager"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The indictment and FBI use Delegation Leader, while RFJ uses senior manager. Both official source labels are preserved; neither establishes present employment or guilt."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 title",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 defendant list",
+          "quote": "KIM MU RIM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 title",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 defendant list",
+          "quote": "KIM MU RIM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 defendant list",
+          "quote": "KIM MU RIM"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 defendant list",
+          "quote": "KIM MU RIM"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "alleged_scheme_period": "approximately April 2017 to approximately March 2023"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-732a2677da0c",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Kim Mu Rim is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-732a2677da0c",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Kim Mu Rim in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        },
+        {
+          "source_id": "src-26b1c65e81c0",
+          "locator": "JSON field: caution",
+          "quote": "Kim Mu Rim is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-26b1c65e81c0",
+          "locator": "JSON field: caution",
+          "quote": "A federal arrest warrant was issued for Kim Mu Rim in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Wanted and warrant status do not establish guilt; status is reported as displayed on the retrieved official poster."
+      ]
+    },
+    {
+      "id": "claim-day-to-day-management-allegation",
+      "type": "incident",
+      "predicate": "allegedly_managed_day_to_day_operations",
+      "value": {
+        "organization": "Yanbian Silverstar",
+        "managed_workers": "at least 50 DPRK IT workers",
+        "location": "PRC",
+        "reported_to": "Kim Ryu Song"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 19",
+          "quote": "Along with other Delegation Leaders, KIM MU RIM managed the day-to-day operations of at least 50 DPRK IT workers in the PRC and reported to Yanbian Silverstar President KIM RYU SONG."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Defendant-specific indictment allegation; it does not establish current management or present location.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-payment-direction-allegation",
+      "type": "incident",
+      "predicate": "named_in_salary_and_extortion_payment_direction_allegation",
+      "value": {
+        "scope": "Yanbian and Volasys employees, group leaders, and other alleged conspirators"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 8-9, paragraph 25",
+          "quote": "At the direction of JONG SONG HWA, KIM RYU SONG, RI KYONG SIK, RIM UN CHOL, and KIM MU RIM, the Yanbian Employees, Group Leaders, and other conspirators sent the salary or extortion payments they received to accounts controlled by the DPRK, including accounts at banks based in the PRC."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The charged allegation expressly names Kim Mu Rim; no specific financial-account selector is retained.",
+        "Public only as a defendant-specific allegation in a filed indictment; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-kim-mu-rim-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "src-732a2677da0c",
+          "locator": "PDF p. 1, Reward",
+          "quote": "offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Program-level reward language on pages associated with Kim and the listed network. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-kim-mu-rim-fbi-china-ties",
+      "type": "location",
+      "predicate": "fbi_reported_country_ties_or_possible_travel",
+      "value": {
+        "country": "China",
+        "wording": "has ties to or may visit",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-26b1c65e81c0",
+          "locator": "JSON field: remarks",
+          "quote": "Kim Mu Rim has ties to or may visit China."
+        },
+        {
+          "source_id": "src-732a2677da0c",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Kim Mu Rim has ties to or may visit China."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Coarse FBI-reported country context only. It does not establish residence, an itinerary, a current visit, or present location."
+      ]
+    },
+    {
+      "id": "claim-kim-mu-rim-link-only-fbi-image",
+      "type": "image",
+      "predicate": "official_link_only_wanted_page_image",
+      "value": {
+        "media_type": "official wanted-page image",
+        "source_url": "https://www.fbi.gov/wanted/cyber/kim-mu-rim",
+        "handling": "link_only",
+        "reuse_status": "editorial_review_required"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-732a2677da0c",
+          "locator": "Official one-page wanted poster with source-labeled photographs",
+          "quote": "KIM MU RIM"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Link to the official context page only. No direct asset export, cache, crop, republication, face matching, appearance comparison, or identity inference is authorized; charged and wanted status does not establish guilt or current appearance."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kim Mu Rim (김무림) is the charged defendant explicitly named by Rewards for Justice, the FBI, and E.D. Mo. No. 4:24-cr-00648-MTS-JSD; name or image similarity leaves other records separate, and every criminal-conduct claim remains allegation-only."
+}

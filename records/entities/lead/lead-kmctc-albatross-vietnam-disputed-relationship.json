@@ -1,0 +1,44 @@
+{
+  "id": "lead-kmctc-albatross-vietnam-disputed-relationship",
+  "type": "lead",
+  "name": "Disputed KMCTC / Albatross Viet Nam relationship",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "The UN Panel reports a relationship to the canonical OFAC-designated KMCTC entity; Viet Nam disputed the Albatross relationship in the adjacent host-state response. This is review-only claim context for the relationship, not a separate entity profile.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae"
+    ]
+  },
+  "caveats": [
+    "The host-country response belongs alongside the Member State allegation; the relationship remains allegation-level.",
+    "Review-only relationship lead; keep it within review notes, separate from a KMCTC entity profile and the undisputed OFAC designation.",
+    "Viet Nam replied that its authorities reported zero DPRK workers or IT experts working in Albatross and gave contrary travel information about a related DPRK national."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Albatross reportedly sourced developers from Korea National Development Investment Company and Korea Mangyongdae Computer Technology Corporation, both described as related to the Munitions Industry Department.",
+        "Mangyongdae was assessed as collaborating on IT projects with other DPRK entities and with DPRK cyber actors reporting to the Munitions Industry Department."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-korea-mangyongdae-computer-technology-company"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae",
+      "support": "Verifies Albatross, Korea National Development Investment Company, Mangyongdae, the reported sourcing relationship and Viet Nam response",
+      "locator": "PDF pp. 53-54, paras. 126-127"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

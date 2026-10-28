@@ -1,0 +1,12 @@
+{
+  "id": "src-aa15da92956d",
+  "publisher": "GitHub",
+  "title": "GitHub public repositories: imyugioh",
+  "url": "https://api.github.com/users/imyugioh/repos?per_page=100&sort=updated",
+  "accessed_at": "2026-08-14",
+  "sha256": "8de96165ea002caa26bc19cf0a17d323ca38d29fe6eb23612a1aa99deaf2950a",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

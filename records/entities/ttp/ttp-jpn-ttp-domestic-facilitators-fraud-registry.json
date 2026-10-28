@@ -1,0 +1,30 @@
+{
+  "id": "ttp-jpn-ttp-domestic-facilitators-fraud-registry",
+  "type": "ttp",
+  "name": "Domestic facilitators linked to worker activity and false official-record registration",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Government-reported sanctions or law-enforcement finding; the record is limited to the cited event.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "JPN-NPA-FOCUS-295"
+    ]
+  },
+  "ttps": [
+    "Japanese police reported arresting a Japanese man and a South Korean national whose relationship with DPRK IT workers was established; they were initially arrested for fraud and rearrested for causing false information to be recorded in an electromagnetic official record and using it."
+  ],
+  "caveats": [
+    "Names, victim data, and identifying documents are excluded from collection."
+  ],
+  "sources": [
+    {
+      "source_id": "JPN-NPA-FOCUS-295",
+      "support": "Japanese police reported arresting a Japanese man and a South Korean national whose relationship with DPRK IT workers was established; they were initially arrested for fraud and rearrested for causing false information to be recorded in an electromagnetic official record and using it",
+      "locator": "PDF page 47 (printed 44). | Original official publication page: https://www.npa.go.jp/bureau/security/publications/"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

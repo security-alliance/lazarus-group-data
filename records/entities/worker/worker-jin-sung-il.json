@@ -1,0 +1,408 @@
+{
+  "id": "worker-jin-sung-il",
+  "type": "worker",
+  "name": "Jin Sung-Il",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; remote mobile-application developer. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; the later HTTP 403 leaves removal and fresh status verification unresolved, and the charge remains unadjudicated.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-15",
+      "gov-b89e91664279"
+    ]
+  },
+  "legal_or_reported_name": "Jin Sung-Il",
+  "organizations": [
+    "Taggcar Inc.",
+    "Vali Tech Inc."
+  ],
+  "ttps": [
+    "multiple employment personas",
+    "payment-platform laundering",
+    "remote desktop software",
+    "staffing-company invoicing",
+    "U.S.-hosted employer laptops"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "FBI pages may change; retain verification date.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "The official photograph is a legal-name wanted image; identity-theft victim portrait use is outside the record.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-b89e91664279"
+      ],
+      "value": "Jin Song-Il"
+    },
+    {
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-b89e91664279"
+      ],
+      "value": "Kelsey Bane"
+    },
+    {
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-b89e91664279"
+      ],
+      "value": "Pedro Alonso"
+    },
+    {
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-b89e91664279"
+      ],
+      "value": "Richard Stewart"
+    },
+    {
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-b89e91664279"
+      ],
+      "value": "Stewart Conn"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-15",
+      "source_url": "https://www.fbi.gov/wanted/cyber/jin-sung-il",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/jin-sung-il/@@images/image/preview",
+      "caption": "FBI wanted-page image published for Jin Sung-Il, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "other",
+      "value": "AnyDesk",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-b89e91664279"
+      ]
+    },
+    {
+      "type": "other",
+      "value": "TeamViewer",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-b89e91664279"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-jin-sung-il"
+  ],
+  "sources": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-15",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Jin Sung-Il; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-b89e91664279",
+      "support": "Jin Sung-Il and Pak Jin-Song allegedly used multiple aliases, U.S.-hosted laptops, AnyDesk/TeamViewer, staffing companies, and payment-platform accounts",
+      "locator": "Press release — allegations, named subjects, organizations, and scheme summary"
+    },
+    {
+      "source_id": "src-076de85fda53"
+    },
+    {
+      "source_id": "src-d261a70377a1"
+    },
+    {
+      "source_id": "gov-1e5d7a8258fa"
+    },
+    {
+      "source_id": "dln26-s06"
+    },
+    {
+      "source_id": "src-0be972023836"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jin-reported-identity",
+      "type": "identity_name",
+      "predicate": "officially_charged_name",
+      "value": {
+        "name": "Jin Sung-Il",
+        "reported_nationality": "North Korean"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "opening paragraph",
+          "quote": "The Justice Department today announced the indictment of North Korean nationals Jin Sung-Il (진성일) and Pak Jin-Song (박진성)"
+        },
+        {
+          "source_id": "src-076de85fda53",
+          "locator": "JSON fields: title and nationality",
+          "quote": "JIN SUNG-IL"
+        },
+        {
+          "source_id": "src-d261a70377a1",
+          "locator": "opening charged-person paragraph",
+          "quote": "The action targets Jin Sung-Il (진성일), Pak Jin-Song (박진성), Pedro Ernesto Alonso De Los Reyes, Erick Ntekereze Prince, and Emanuel Ashtor."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Officially reported identity in a charged case; not an adjudication of guilt."
+      ]
+    },
+    {
+      "id": "claim-jin-alternate-spelling",
+      "type": "alias",
+      "predicate": "reported_alternate_spelling",
+      "value": {
+        "alias": "Jin Song-Il",
+        "alias_type": "alternate_spelling"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 1, caption",
+          "quote": "JIN SUNG-IL, a/k/a ‘Jin Song-Il,’"
+        }
+      ],
+      "observed_at": "2025-01-21"
+    },
+    {
+      "id": "claim-jin-employment-personas",
+      "type": "alias",
+      "predicate": "used_employment_personas",
+      "value": {
+        "personas": [
+          "Pedro Alonso",
+          "Richard Stewart",
+          "Stewart Conn",
+          "Kelsey Bane"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF pp. 1-2, caption",
+          "quote": "a/k/a ‘Pedro Alonso,’ a/k/a ‘Richard Stewart,’ a/k/a ‘Stewart Conn,’ a/k/a ‘Kelsey Bane,’"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "These are indictment-attributed personas, not verified civil identities; a similarly named co-defendant is a separate person."
+      ]
+    },
+    {
+      "id": "claim-jin-mobile-developer-allegation",
+      "type": "employment",
+      "predicate": "allegedly_worked_as_mobile_developer",
+      "value": {
+        "role": "mobile application developer",
+        "persona_context": "another person's identity",
+        "period": "approximately June 2021 to March 2022"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF pp. 13-14, overt acts ¶¶1-3",
+          "quote": "used ALONSO’s identity to fraudulently obtain and maintain remote IT employment with Company A as a developer for cellphone applications"
+        }
+      ],
+      "notes": [
+        "Indictment allegation; the other person's identifying details are excluded."
+      ]
+    },
+    {
+      "id": "claim-jin-k-bane-employment-allegation",
+      "type": "employment",
+      "predicate": "allegedly_worked_under_k_bane_persona",
+      "value": {
+        "persona": "K. Bane",
+        "role": "remote IT developer",
+        "date": "2022-10-11"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 18, ¶¶23-24",
+          "quote": "On or about October 11, 2022, JIN SUNG-IL, using the ‘K. Bane’ persona, was hired by Company D."
+        }
+      ],
+      "observed_at": "2022-10-11",
+      "notes": [
+        "Indictment allegation; no victim identity is retained."
+      ]
+    },
+    {
+      "id": "claim-jin-charged-conspiracies",
+      "type": "legal_event",
+      "predicate": "charged_in_five_conspiracies",
+      "value": {
+        "charges": [
+          "conspiracy to cause damage to a protected computer",
+          "conspiracy to commit wire fraud and mail fraud",
+          "conspiracy to commit money laundering",
+          "conspiracy to transfer false identification documents",
+          "conspiracy to violate the International Emergency Economic Powers Act"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "charges paragraph",
+          "quote": "All five defendants are charged with conspiracy to cause damage to a protected computer, conspiracy to commit wire fraud and mail fraud, conspiracy to commit money laundering, and conspiracy to transfer false identification documents."
+        },
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "Jin- and Pak-specific charge sentence",
+          "quote": "Jin and Pak are charged with conspiracy to violate the International Emergency Economic Powers Act."
+        },
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 25, Count 5",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "src-d261a70377a1",
+          "locator": "charges paragraph",
+          "quote": "Jin and Pak have also been charged with conspiracy to violate the International Emergency Economic Powers Act."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Charges are allegations; Jin Sung-Il is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-jin-fugitive-report-2026",
+      "type": "legal_event",
+      "predicate": "reported_fugitive",
+      "value": {
+        "posture": "reported fugitive by DOJ"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s06",
+          "locator": "U.S. v. Erick Ntekereze Prince, final paragraph",
+          "quote": "Sung-il and Jin-Song are fugitives."
+        }
+      ],
+      "observed_at": "2026-05-06",
+      "notes": [
+        "Dated official report; it does not establish current status after the cutoff."
+      ]
+    },
+    {
+      "id": "claim-jin-fbi-wanted-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2025-01-21",
+        "court": "U.S. District Court for the Southern District of Florida"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0be972023836",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Jin Sung-Il is wanted for his alleged involvement in a fraudulent scheme to obtain remote information technology (IT) work with U.S. companies that generated revenue for the Democratic People's Republic of Korea (DPRK)."
+        },
+        {
+          "source_id": "src-0be972023836",
+          "locator": "PDF p. 1, Caution",
+          "quote": "On January 21, 2025, a federal arrest warrant was issued for Jin Sung-Il in the United States District Court for the Southern District of Florida, Miami, Florida"
+        },
+        {
+          "source_id": "src-076de85fda53",
+          "locator": "JSON fields: caution, subjects, and url",
+          "quote": "On January 21, 2025, a federal arrest warrant was issued for Jin Sung-Il in the United States District Court for the Southern District of Florida, Miami, Florida"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Wanted and warrant status are official dated posture, not proof of guilt. The retrieved poster and API object do not establish any later arrest or adjudicated disposition."
+      ]
+    },
+    {
+      "id": "claim-jin-fbi-image-review",
+      "type": "image",
+      "predicate": "official_link_only_wanted_page_image",
+      "value": {
+        "media_type": "official wanted-page image",
+        "source_url": "https://www.fbi.gov/wanted/cyber/jin-sung-il",
+        "handling": "link_only",
+        "reuse_status": "editorial_review_required"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-0be972023836",
+          "locator": "Official one-page wanted poster with source-labeled photograph",
+          "quote": "JIN SUNG-IL"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Link to the official context page only. Do not export the direct asset, cache, crop, republish, compare faces, or infer identity or current appearance; charged and wanted status does not establish guilt."
+      ]
+    },
+    {
+      "id": "claim-jin-indictment-liaoning-context",
+      "type": "location",
+      "predicate": "indictment_alleged_coarse_historical_residence",
+      "value": {
+        "location": "Liaoning Province, China",
+        "precision": "coarse province-and-country only",
+        "source_posture": "charging allegation",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 7, paragraph 11",
+          "quote": "Defendant JIN SUNG-IL, a/k/a Jin Song-II, was a North Korean IT worker residing in Liaoning Province, China."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Filed charging allegation and coarse historical context only; it does not establish adjudicated fact, continued residence, travel, or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jin Sung-Il is the North Korean national charged under that name in S.D. Fla. No. 1:25-cr-20021-DPG. Jin Song-Il is a reported alternate spelling; Pedro Alonso, Richard Stewart, Stewart Conn, and Kelsey Bane are indictment-attributed personas with civil identity unverified. The FBI separately publishes Pedro Alonso de los Reyes as an alias string, while the indictment names Pedro Ernesto Alonso de los Reyes as a separate co-defendant; the source conflict keeps those records separate. Identity-theft victims, accounts, and images remain separate from this subject."
+}

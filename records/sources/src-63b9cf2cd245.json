@@ -1,0 +1,12 @@
+{
+  "id": "src-63b9cf2cd245",
+  "publisher": "GitHub",
+  "title": "GitHub commit search: author dev-astro-star",
+  "url": "https://api.github.com/search/commits?q=author%3Adev-astro-star&per_page=100",
+  "accessed_at": "2026-08-15",
+  "sha256": "f3229374c5019345c393185680ba5f79076e4eb1fe0181d5ba3406c9657b34fe",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

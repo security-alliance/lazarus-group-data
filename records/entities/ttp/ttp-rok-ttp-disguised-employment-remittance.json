@@ -1,0 +1,30 @@
+{
+  "id": "ttp-rok-ttp-disguised-employment-remittance",
+  "type": "ttp",
+  "name": "Disguised employment at U.S. and Canadian companies followed by remittance to Pyongyang",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Government-reported sanctions or law-enforcement finding; the record is limited to the cited event.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ROK-MOFA-2024-IT15"
+    ]
+  },
+  "ttps": [
+    "ROK MOFA specifically attributes to 김철민 disguised employment at U.S. and Canadian companies and remittance of substantial foreign-currency earnings to Pyongyang."
+  ],
+  "caveats": [
+    "Victim-company names and financial details are absent from the source and remain un-inferred."
+  ],
+  "sources": [
+    {
+      "source_id": "ROK-MOFA-2024-IT15",
+      "support": "ROK MOFA specifically attributes to 김철민 disguised employment at U.S. and Canadian companies and remittance of substantial foreign-currency earnings to Pyongyang",
+      "locator": "Paragraph beginning “김철민은”. | Official document/download: https://www.korea.kr/common/download.do?fileId=197999152&tblKey=GMN"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

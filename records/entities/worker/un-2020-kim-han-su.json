@@ -1,0 +1,185 @@
+{
+  "id": "un-2020-kim-han-su",
+  "type": "worker",
+  "name": "Kim Han-su",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting reproduces Member State information. It records no criminal charge, conviction, UN Committee designation, or finding of present activity.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dumw48-un-s-2020-840"
+    ]
+  },
+  "legal_or_reported_name": "Kim Han-su",
+  "organizations": [
+    "Korea Corporation of Information Technology",
+    "Munitions Industry Department"
+  ],
+  "locations": [
+    "China"
+  ],
+  "caveats": [
+    "Four GitHub full-name searches returned separate results. The searches found no DPRK, Yanji/Dalian, Ma Tong Hyok, team-management, or source-explicit identity bridge, so the results remain separate records.",
+    "Historical China context describes the source period; residence, present location, current role, and current activity remain unresolved.",
+    "Seven later complete UN report extractions produced zero exact audited Latin-name hits; this bounded search covers those extractions and spelling variants, with lifetime absence outside its scope.",
+    "Dispatch-entity and Munitions Industry Department language concerns the reported worker cohort; individual employment history remains qualified.",
+    "The Latin-script name is retained exactly as printed in S/2020/840; the source leaves Korean-script form and civil identity unreported.",
+    "The OpenSanctions/RUSI Kim Han Su row derives from the same UN report; alias and source-family status are derivative.",
+    "The person-specific statements are Member State information reproduced by the UN Panel; they are source-qualified statements rather than a criminal charge, conviction, UN Committee designation, or adjudicated finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "un-panel-member-state-reported-worker-manager",
+      "reported_name": "Kim Han-su",
+      "reported_role": "China-based DPRK information-technology worker and manager of multiple teams",
+      "co_reported_person": "Ma Tong Hyok",
+      "reported_activity": "bringing additional DPRK IT workers to China in September 2019",
+      "reported_dispatch_entity": "Korea Corporation of Information Technology",
+      "parent_organization_posture": "workers were described as likely subordinate to the Munitions Industry Department",
+      "present_location_inferred": false,
+      "source_ids": [
+        "dumw48-un-s-2020-840"
+      ]
+    },
+    {
+      "type": "public-database-derivative-crosswalk",
+      "provider": "OpenSanctions DPRK Reports / RUSI",
+      "entity_id": "kprusi-ecfdb71b667956bb26e4ab4c68af215004768321",
+      "url": "https://www.opensanctions.org/entities/kprusi-ecfdb71b667956bb26e4ab4c68af215004768321/",
+      "independent_source_family": false,
+      "handling": "discovery crosswalk only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dumw48-un-s-2020-840",
+      "support": "Names Kim Han-su and supports the source-scoped role, relationship, and historical-location claims retained in this record, with Member State attribution",
+      "locator": "PDF file p. 34, paragraph 110 and footnote 73, visually reviewed"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-un-2020-kim-han-su-source-printed-name",
+      "type": "identity_name",
+      "predicate": "un_report_source_printed_name",
+      "value": {
+        "name": "Kim Han-su",
+        "script": "Latin"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 110 and footnote 73, visually reviewed",
+          "quote": "Kim Han-su"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Exact source-printed form only; Korean-script and civil-identity forms are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kim-han-su-reported-worker-manager-role",
+      "type": "employment",
+      "predicate": "member_state_reported_it_worker_manager",
+      "value": {
+        "reported_role": "China-based DPRK information-technology worker and manager of multiple teams",
+        "current_role_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 110 and footnote 73, visually reviewed",
+          "quote": "Kim Han-su, another China-based Democratic People’s Republic of Korea information technology worker and manager of multiple teams in China."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kim-han-su-ma-tong-hyok-co-manager-context",
+      "type": "relationship",
+      "predicate": "member_state_reported_joint_worker_movement",
+      "value": {
+        "related_person": "Ma Tong Hyok",
+        "reported_activity": "bringing additional DPRK IT workers to China in September 2019",
+        "relationship_beyond_reported_activity_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 110 and footnote 73, visually reviewed",
+          "quote": "directly involved in bringing additional information technology workers from the Democratic People’s Republic of Korea to China in September 2019 together with Kim Han-su"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kim-han-su-reported-dispatch-context",
+      "type": "organization_affiliation",
+      "predicate": "member_state_reported_dispatch_context",
+      "value": {
+        "dispatch_entity": "Korea Corporation of Information Technology",
+        "reported_parent_context": "workers likely subordinate to Munitions Industry Department",
+        "individual_employment_contract_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 110 and footnote 73, visually reviewed",
+          "quote": "“Korea Corporation of Information Technology” was the name of the entity used to dispatch those workers to China, and it was likely that those workers were subordinate to the Munitions Industry Department."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "The likely-subordination wording is preserved and not upgraded to a confirmed individual title."
+      ]
+    },
+    {
+      "id": "claim-un-2020-kim-han-su-historical-location-context",
+      "type": "location",
+      "predicate": "un_reported_historical_location_context",
+      "value": {
+        "location": "China",
+        "historical_period": "September 2019 to late January 2020 context",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 110 and footnote 73, visually reviewed",
+          "quote": "Kim Han-su, another China-based Democratic People’s Republic of Korea information technology worker and manager of multiple teams in China."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "The historical report context does not establish residence, departure, travel, or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Kim Han-su is the exact hyphenated Latin-script name printed in S/2020/840 for a reported China-based DPRK IT worker and team manager. OpenSanctions normalizes the same UN-derived name as Kim Han Su. The two forms remain unbridged to a Korean-script identity or public account."
+}

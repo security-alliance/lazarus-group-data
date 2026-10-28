@@ -1,0 +1,56 @@
+{
+  "id": "ttp-late57-correlated-worker-indicators",
+  "type": "ttp",
+  "name": "Correlate identity, endpoint, interview, cloud, and remote-access signals",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of Recorded Future and Huntress source-attributed indicators; person identity, nationality, legal status, sanctions status and incident attribution require separate evidence.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "dla57-huntress-article",
+      "dla57-recorded-future-pdf"
+    ]
+  },
+  "ttps": [
+    "cloud, browser, work-hour, VPN, proxy, and remote-access correlation",
+    "endpoint and USB device-event review",
+    "identity-document consistency review without victim deanonymization",
+    "interview and meeting-behavior correlation",
+    "multi-signal hiring and post-hire correlation"
+  ],
+  "caveats": [
+    "Attribution requires more than any individual indicator, product, location, work pattern, document anomaly or AI-tool use.",
+    "This is a defensive synthesis for review; person attribution requires source-specific evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-attributed-bounded-findings",
+      "statements": [
+        "Recorded Future supplies multi-signal observations across its cluster analysis, while Huntress explicitly warns that individual indicators are not conclusive and recommends correlation.",
+        "Useful correlation dimensions include persona compartmentalization, application volume, endpoint and USB events, remote-access hardware, VPN/proxy infrastructure, work timing, cloud activity, interview behavior, browser tooling, and document consistency.",
+        "Huntress warns that apparent identity materials may belong to identity-theft victims; this repository therefore treats document anomalies as defensive signals rather than grounds to profile the apparent subject."
+      ],
+      "anonymous_or_fabricated_persona_counts_create_people": false,
+      "source_ids": [
+        "dla57-huntress-article",
+        "dla57-recorded-future-pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dla57-recorded-future-pdf",
+      "support": "Recorded Future reports high-volume applications, compartmentalized browser, calendar, and spreadsheet use, generative-AI interview assistance, transcription and recording, remote access, and facilitator-maintained devices across multiple clusters. Evidence boundary: Specialist vendor attribution and analytic confidence statements, not an official finding, civil-identity determination, criminal allegation, sanctions designation, or adjudication",
+      "locator": "PDF file pp. 2-14 (printed pp. 1-13)"
+    },
+    {
+      "source_id": "dla57-huntress-article",
+      "support": "Huntress explicitly says individual indicators such as VPN use or a USB capture device are not conclusive alone and recommends correlating endpoint, identity, browser, cloud, authentication, geography, work-hour, and document evidence. Huntress warns that names, details, and photographs in apparent identity materials may belong to identity-theft victims. Evidence boundary: Affected-organization security-vendor assessment of anonymous incidents, not an official identity, nationality, legal, or sanctions determination",
+      "locator": "Opening; Australian healthcare investigation; financial-services case; sales/marketing proactive hunt; conclusions"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-30"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "dror21-ttp-japan-2026-bluebook-wording",
+  "type": "ttp",
+  "name": "Japan 2026 Bluebook wording and policy synthesis",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is an official annual diplomatic assessment and activity summary. Criminal allegation, sanctions designation, adjudication, new Japanese incident disclosure, and independent corroboration of the underlying 2025 material require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dror21-s02a-japan-bluebook-2026-notice",
+      "dror21-s02b-japan-bluebook-2026-pdf"
+    ]
+  },
+  "ttps": [
+    "official-policy-synthesis",
+    "qualified-information-theft-nexus"
+  ],
+  "caveats": [
+    "Claims summarized from earlier multilateral or Japanese publications remain attributed to those earlier sources; this annual report adds synthesis and wording control only.",
+    "Preserve the report's possibility language; each placement requires its own evidence before attributing malicious conduct.",
+    "The publication notice and full report are two documents in one ministry source family and supply one corroboration line."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-annual-synthesis-and-wording-control",
+      "statements": [
+        "The 2026 annual diplomatic report consolidates previously published 2025 multilateral findings and Japanese policy actions concerning DPRK IT-worker activity.",
+        "Its claim-specific editorial value is qualified wording: possible involvement in information theft or other malicious cyber activity must not be rewritten as confirmed or universal conduct."
+      ],
+      "chronology": [
+        {
+          "date": "2026-04-10",
+          "event": "Ministry publication announcement."
+        },
+        {
+          "date": "2026-07-07",
+          "event": "Bound edition and full PDF posted, as stated on the ministry publication surface."
+        }
+      ],
+      "evidence_boundary": "This is an official annual synthesis, not a new investigation or adjudication. Earlier multilateral and national materials remain the underlying source families for copied figures, events, and conduct claims.",
+      "source_ids": [
+        "dror21-s02a-japan-bluebook-2026-notice",
+        "dror21-s02b-japan-bluebook-2026-pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dror21-s02b-japan-bluebook-2026-pdf",
+      "support": "Supports the wording and synthesis claim: the annual report consolidates prior 2025 multilateral and Japanese policy material and preserves qualified language that IT workers may be involved in information theft or other malicious cyber activity. The report does not establish universal involvement, disclose a new Japanese incident, or independently corroborate figures and conduct claims attributed to earlier reporting",
+      "locator": "Full PDF pages 59-60 (printed pages 49-50), Chapter 2, section on the Korean Peninsula; paragraphs beginning '加えて、北朝鮮は' and 'また、日本は'"
+    },
+    {
+      "source_id": "dror21-s02a-japan-bluebook-2026-notice",
+      "support": "Supports the April 10, 2026 publication chronology for the 2026 Diplomatic Bluebook. This notice is part of the same ministry source family as the full report and is not independent corroboration of claims summarized in that report",
+      "locator": "Publication notice, title and opening announcement"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

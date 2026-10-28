@@ -1,0 +1,119 @@
+{
+  "id": "cluster-msmt-2026-overseas-labour-report",
+  "type": "cluster",
+  "name": "MSMT/2026/1 overseas-labour findings",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The MSMT's September 2026 report consolidates participating-government and open-source information on DPRK overseas labour and sanctions evasion; it is an official multilateral report with reporting posture distinct from criminal adjudication.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1",
+      "un-s-2026-745",
+      "msmt-2026-joint-statement",
+      "therecord-2026-09-18-msmt-actions"
+    ]
+  },
+  "caveats": [
+    "The report presents estimates and source-attributed findings; person-specific proof and exact current totals require sources beyond the stated observation period.",
+    "The Record’s quoted description of a “report from the United Nations” is secondary-source wording. MSMT is a participating-government mechanism; circulation of its report at the Security Council does not make it a UN Panel report."
+  ],
+  "identity_boundary": "A report-level cluster for MSMT/2026/1 findings; named organizations and workers remain separate records, while aggregate estimates describe the cluster.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT reports estimated overseas labour deployment, revenue, host countries, and response recommendations.",
+      "locator": "PDF pp. 3-11, 51, 68-69"
+    },
+    {
+      "source_id": "un-s-2026-745",
+      "support": "The Security Council letter circulates the third MSMT report and identifies its publication date and scope.",
+      "locator": "PDF p. 1"
+    },
+    {
+      "source_id": "msmt-2026-joint-statement",
+      "support": "The MSMT joint statement summarizes the report’s estimates and sanctions-evasion findings.",
+      "locator": "Opening and Quick Facts"
+    },
+    {
+      "source_id": "therecord-2026-09-18-msmt-actions",
+      "support": "The Record reports international legal action against North Koreans or local handlers following overseas IT-worker reporting.",
+      "locator": "News report opening"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-msmt-2026-labour-estimate",
+      "type": "note",
+      "predicate": "msmt_estimated_overseas_labour_and_revenue",
+      "value": {
+        "labourers_estimate": "35,600 to 101,280",
+        "countries_lower_bound": 17,
+        "revenue_2025_usd": "450 million to 800 million"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 3, Major Findings",
+          "quote": "The DPRK currently deploys 35,600 to 101,280 labourers overseas to raise funds for DPRK government priorities, including licit and illicit imports, as well as its unlawful WMD and ballistic missile programs."
+        },
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 3, Major Findings",
+          "quote": "Despite the strict 2019 repatriation deadline, the DPRK continues to operate an unlawful overseas labour program that generated between $450 million and $800 million in 2025 alone."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Report estimates for 2025 and the report’s stated observation period; not a current census."
+      ]
+    },
+    {
+      "id": "claim-msmt-report-circulated",
+      "type": "legal_event",
+      "predicate": "msmt_third_report_circulated_to_security_council",
+      "value": {
+        "report": "MSMT/2026/1",
+        "security_council_document": "S/2026/745",
+        "report_date": "2026-09-16",
+        "letter_date": "2026-09-21"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "un-s-2026-745",
+          "locator": "PDF p. 1, opening paragraphs",
+          "quote": "We are pleased to inform you that the Multilateral Sanctions Monitoring Team published its third report on 16 September 2026 entitled “The DPRK’s Use of Overseas Labour to Violate and Evade UN Sanctions”."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Circulation of a report is not an adjudication of any named person or company."
+      ]
+    },
+    {
+      "id": "claim-therecord-2026-09-18-msmt-actions-msmt-followup",
+      "type": "incident",
+      "predicate": "msmt_followup",
+      "value": {
+        "publication": "therecord-2026-09-18-msmt-actions",
+        "statement": "The Record reports international legal action against North Koreans or local handlers following overseas IT-worker reporting."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "therecord-2026-09-18-msmt-actions",
+          "locator": "News report opening",
+          "quote": "Multiple countries have taken legal action against North Koreans or local handlers following a report from the United Nations about Pyongyang’s illicit IT worker scheme."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

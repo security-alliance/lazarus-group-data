@@ -1,0 +1,72 @@
+{
+  "id": "dfpr12-ttp-workforce-identity-lifecycle-sensitive-events",
+  "type": "ttp",
+  "name": "Extend workforce identity continuity to payroll and sensitive lifecycle events",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party Socure product and guidance statements support a defensive lifecycle control. Incident disclosure, product endorsement, measured effectiveness, legal identity, nationality, and DPRK attribution fall outside the statements.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFPR12-S01-SOCURE-HIRING-ENEMY",
+      "DFPR12-S02-SOCURE-LAUNCH",
+      "DFPR12-S03-SOCURE-WORKFORCE-VERIFICATION"
+    ]
+  },
+  "ttps": [
+    "benefits-change-step-up-review",
+    "credential-reset-step-up-review",
+    "direct-deposit-change-step-up-review",
+    "payroll-setup-identity-gate",
+    "risk-based-human-reviewed-escalation",
+    "sensitive-access-change-step-up-review",
+    "workforce-identity-lifecycle-continuity"
+  ],
+  "caveats": [
+    "A payroll, direct-deposit, credential, benefits, or access change triggers review; fraud or DPRK affiliation requires corroborating evidence.",
+    "Apply lawful purpose, data minimization, bounded retention, security, accessibility, consistent treatment, trained human review, correction, and appeal.",
+    "DPRK affiliation requires more than nationality, accent, language, appearance, disability, geography, remote-work status, payment method, camera behavior, or any single inconsistency.",
+    "Email age, phone-name correlation, device/network context, location consistency, document review, liveness, professional-profile history, and payment-change events are review signals for closer review. DPRK affiliation and fraud findings require cited sources; apply controls lawfully, proportionately, consistently, with human review and appeal paths.",
+    "This record retains no person, persona, account, organization, image, identity document, biometric artifact, credential, financial selector, device or network selector or private applicant data.",
+    "Publish this as a defensive lifecycle control; it is not a product endorsement, and any payroll or account change receives case-specific review.",
+    "Suspected or vendor-assessed linkage is an unconfirmed attribution; legal identity, adjudication, and harm require separate evidence.",
+    "Use renewed verification only for defined identity-sensitive events and documented risk; avoid indiscriminate continuous surveillance."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-provider-described-lifecycle-control",
+      "statement": "Socure describes workforce identity review as a lifecycle control spanning application, interview, onboarding, and employment rather than a one-time background check. The material incremental control is risk-based renewed verification at payroll setup, direct-deposit changes, password resets, benefits changes, and sensitive-access changes, with lower-friction handling for lower-risk cases and trained human review for escalations.",
+      "evidence_class": "provider-described defensive control model; source provenance and described design are confirmed, but product efficacy is not independently validated",
+      "source_ids": [
+        "DFPR12-S01-SOCURE-HIRING-ENEMY",
+        "DFPR12-S02-SOCURE-LAUNCH",
+        "DFPR12-S03-SOCURE-WORKFORCE-VERIFICATION"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfef-ttp-lifecycle-identity-continuity",
+    "dwpr5-ttp-identity-location-contract-payout-continuity",
+    "ttp-ttp-access-and-data-risk"
+  ],
+  "sources": [
+    {
+      "source_id": "DFPR12-S01-SOCURE-HIRING-ENEMY",
+      "support": "Socure says its recruiters found several fabricated applicants. It describes one applicant that it assessed as likely tied to a North Korean employment-fraud scam; the applicant did not complete requested document and live-selfie verification or attend the follow-up interview. Provenance: The visible page and JSON-LD both provide the 2025-05-29 publication date; JSON-LD provides the 2025-10-16 modification date. The page is the claim-bearing first-party source. A Fortune article linked by Socure is corroborating reporting, not the basis for Socure's own observations",
+      "locator": "Opening through 'Socure vs. Fake Job Applicants'; applicant-pool measurements; applicant comparison; follow-up verification; 'What Employers Should Do'"
+    },
+    {
+      "source_id": "DFPR12-S03-SOCURE-WORKFORCE-VERIFICATION",
+      "support": "Socure defines workforce verification as continuous from application through employment. It identifies onboarding, payroll setup, direct-deposit changes, password resets, benefits enrollment, and sensitive-access changes as identity-sensitive moments and recommends risk-based step-up review rather than equal friction for every applicant. Provenance: The visible page and JSON-LD provide the 2026-06-05 publication date; JSON-LD provides the 2026-06-10 modification date. DPRK scale statistics on this page are attributed to third-party reporting and were not retained as first-party evidence",
+      "locator": "'What is workforce verification?'; lifecycle stages; 'At payroll and beyond'; risk-based verification; FAQ"
+    },
+    {
+      "source_id": "DFPR12-S02-SOCURE-LAUNCH",
+      "support": "Socure says its solution integrates with HR platforms, job boards, payroll systems, and applicant-tracking systems. It describes identity-risk review at application and ongoing assessment through recruiting, hiring, and onboarding, and it restates the probabilistic assessment of the same applicant encounter. Provenance: The release has a visible July 16, 2025 dateline and embeds the complete claim-bearing text in first-party page data",
+      "locator": "Dateline and opening; integration and risk-monitoring paragraphs; Rivka Gewirtz Little quotation; DPRK context paragraph"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

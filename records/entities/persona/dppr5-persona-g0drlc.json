@@ -1,0 +1,414 @@
+{
+  "id": "dppr5-persona-g0drlc",
+  "type": "persona",
+  "name": "g0drlc persona",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Research attribution only; public charge, adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dppr5-ketman-github-organizations-2025"
+    ]
+  },
+  "organizations": [
+    "HyperbuildX",
+    "m8s-lab"
+  ],
+  "ttps": [
+    "Source-attributed public employment-persona and developer-account use"
+  ],
+  "caveats": [
+    "Current ownership or control of any public account remains unresolved; account-holder contact, targeting, and investigation require a separate lawful basis.",
+    "Organization membership, cooperation and social amplification provide context; identity linkage requires a source bridge.",
+    "g0drlc and 0xMooncity remain separate; the source reports only a probable relationship.",
+    "Tommy Ericsson remains an unverified legal identity.",
+    "Ketman reports g0drlc as an m8s-lab member closely connected to HyperbuildX. The source separately assesses 0xMooncity as most likely another identity, but that assessment is insufficient for a same-operator finding.",
+    "Name similarity, appearance, avatars, code style, followers, stars, forks, organization membership, and social amplification provide context only; relationships require source links.",
+    "Persona labels and public handles are source-reported indicators; legal identity and criminal-guilt status require separate official findings."
+  ],
+  "aliases": [
+    {
+      "value": "Tommy Ericsson",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "G0drlc",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "temric",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "g0drlc",
+      "url": "https://github.com/g0drlc",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "X",
+      "identifier": "xg0drlc",
+      "url": "hxxps://x[.]com/xg0drlc",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "reported-account-relationship-no-merge",
+      "platform": "GitHub",
+      "identifier": "0xMooncity",
+      "url": "https://github.com/0xMooncity",
+      "relationship": "source-assessed probable alternate identity; no merge",
+      "note": "Context only: this account remains a separate record and is not asserted to share an operator.",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dppr5-ketman-github-organizations-2025",
+      "support": "Ketman reports g0drlc as an m8s-lab member closely connected to HyperbuildX. The source separately assesses 0xMooncity as most likely another identity, but that assessment is insufficient for a same-operator finding",
+      "locator": "The Core Team of HyperbuildX; Other DPRK IT Workers in the orbit of HyperbuildX; Indicators of Compromise"
+    },
+    {
+      "source_id": "src-e1a63a5e8df4"
+    },
+    {
+      "source_id": "src-ca5f6fad7820"
+    },
+    {
+      "source_id": "src-e95892f7dc8a"
+    },
+    {
+      "source_id": "src-ee2c41a6ad9c"
+    },
+    {
+      "source_id": "src-f467c7980e17"
+    },
+    {
+      "source_id": "src-db88b7d4d736"
+    },
+    {
+      "source_id": "src-6071f8e1fc91"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-g0drlc-source-persona-accounts",
+      "type": "account",
+      "predicate": "publisher_reported_persona_accounts_and_names",
+      "value": {
+        "github": "g0drlc",
+        "x": "xg0drlc",
+        "reported_names": [
+          "G0drlc",
+          "Tommy Ericsson",
+          "g0drlc",
+          "temric"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Other DPRK IT Workers in the orbit of HyperbuildX, g0drlc account block",
+          "quote": "Github URL:\nhttps://github.com/g0drlc"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "g0drlc account block, names",
+          "quote": "Other Names:\nG0drlc, Tommy Ericsson, g0drlc, temric"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "g0drlc account block, Twitter",
+          "quote": "Twitter:\nhxxps://x[.]com/xg0drlc"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Source-reported persona labels only; Tommy Ericsson is not treated as a verified legal identity."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-source-organization-context",
+      "type": "organization_affiliation",
+      "predicate": "publisher_reported_m8s_member_hyperbuildx_connection",
+      "value": {
+        "organization": "m8s-lab",
+        "related_organization": "HyperBuildX",
+        "status": "historical publisher report"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Other DPRK IT Workers in the orbit of HyperbuildX, g0drlc opening",
+          "quote": "g0drlc\nA member of m8s-lab can also be found heavily connected to HyperBuildX."
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Historical publisher attribution; the current public member list does not show g0drlc and does not resolve private or former membership."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-source-cornel-cooperation",
+      "type": "relationship",
+      "predicate": "publisher_reported_cooperation_with_cornel_cp",
+      "value": {
+        "other_record": "dppr5-persona-cornel-cp",
+        "account": "cornel-cp",
+        "context": "HyperBuildX orbit"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "g0drlc paragraph following persona block",
+          "quote": "g0drlc\nis also engaged in some co-operation with\ncornel-cp"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Publisher-attributed cooperation only; it does not prove common control, one identity, employment, current activity, or culpability by either account."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-source-mooncity-uncertain-relationship",
+      "type": "relationship",
+      "predicate": "publisher_assessed_probable_alternate_identity",
+      "value": {
+        "other_record": "dppr5-persona-0xmooncity",
+        "assessment": "most likely another g0drlc identity",
+        "merge_status": "not merged"
+      },
+      "confidence": "lead",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "0xMooncity section, opening assessment",
+          "quote": "0xMooncity\nis most likely the other\ng0drlc\nidentity."
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Publisher probability statement only; g0drlc and 0xMooncity remain separate accounts and records. No independent continuity evidence was established in the cited evidence."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-current-github-status",
+      "type": "account",
+      "predicate": "current_public_reported_label_endpoint_statuses",
+      "value": {
+        "platform": "GitHub",
+        "statuses": [
+          {
+            "historical_handle": "g0drlc",
+            "status": "HTTP 404 Not Found"
+          },
+          {
+            "reported_alias_label": "temric",
+            "status": "HTTP 404 Not Found"
+          }
+        ],
+        "exact_search_status": "zero exact user, repository, or issue-body results"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e1a63a5e8df4",
+          "locator": "JSON fields message and status",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-ca5f6fad7820",
+          "locator": "JSON fields message and status",
+          "quote": "\"status\": \"404\""
+        },
+        {
+          "source_id": "src-e95892f7dc8a",
+          "locator": "Search response total_count",
+          "quote": "\"total_count\": 0"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current unavailability and empty exact searches do not establish removal cause, timing, prior numeric IDs, ownership, identity, or permanent absence. Fuzzy temric collisions were not linked."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-current-x-presentation",
+      "type": "account",
+      "predicate": "current_public_x_presentation",
+      "value": {
+        "platform": "X",
+        "handle": "xg0drlc",
+        "platform_id": 309089622,
+        "display_name": "William",
+        "followers": 946,
+        "following": 861,
+        "joined_month": "2011-06",
+        "rendered_post_count": 5,
+        "rendered_post_date_range": [
+          "2025-08-26",
+          "2025-09-29"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-ee2c41a6ad9c",
+          "locator": "HTML page title",
+          "quote": "William"
+        },
+        {
+          "source_id": "src-ee2c41a6ad9c",
+          "locator": "Open Graph description",
+          "quote": "946 followers · 861 following. Joined Jun 2011."
+        },
+        {
+          "source_id": "src-ee2c41a6ad9c",
+          "locator": "Schema.org author identifier",
+          "quote": "309089622"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "High confidence applies only to current public platform metadata. William is a mutable display name rather than a verified civil identity; account age does not prove continuous control since 2011.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-current-x-technical-presentation",
+      "type": "skill",
+      "predicate": "current_public_x_portfolio_posts",
+      "value": {
+        "platform": "X",
+        "handle": "xg0drlc",
+        "safe_post_themes": [
+          "HyperBuildX Web3 casino demo",
+          "CRO crash-game presentation",
+          "slot-game presentation",
+          "EVM DEX, liquidity, and staking platform",
+          "multi-LLM and retrieval-augmented assistant"
+        ],
+        "dates": [
+          "2025-08-26",
+          "2025-09-29"
+        ],
+        "credential_values": "excluded and not tested"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-ee2c41a6ad9c",
+          "locator": "Public post 1960283354273923455",
+          "quote": "HyperbuildX is redefining Web3 gaming!"
+        },
+        {
+          "source_id": "src-ee2c41a6ad9c",
+          "locator": "Public post 1972742702136791351",
+          "quote": "Introducing EVM-Dex Swap-Liquidity-Staking Platform"
+        },
+        {
+          "source_id": "src-ee2c41a6ad9c",
+          "locator": "Public post 1972740905074663772",
+          "quote": "Multi-LLM-Agent-With_RAG"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The posts are mutable public self-presentation and do not prove skill, authorship, employment, project ownership, intent, or one continuous controller. A post exposed demo access values; those values were deliberately excluded and no access was attempted."
+      ]
+    },
+    {
+      "id": "claim-g0drlc-current-m8s-public-context",
+      "type": "organization_affiliation",
+      "predicate": "current_public_reported_organization_metadata",
+      "value": {
+        "organization": "m8s-lab",
+        "numeric_id": 143429220,
+        "self_description": "Talented Full Stack & Blockchain Devs",
+        "public_repositories": 11,
+        "repository_breakdown": {
+          "non_forks": 11,
+          "forks": 0,
+          "archived": 0
+        },
+        "safe_themes": [
+          "Bitcoin ordinal inscription service",
+          "Solana launch and smart-contract tooling",
+          "AMM, bundler, sniping, and volume-bot labels",
+          "Solana transaction relayer"
+        ],
+        "public_member_count": 2,
+        "g0drlc_in_public_member_list": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f467c7980e17",
+          "locator": "JSON fields id and description",
+          "quote": "\"id\": 143429220"
+        },
+        {
+          "source_id": "src-f467c7980e17",
+          "locator": "JSON field description",
+          "quote": "\"description\": \"Talented Full Stack & Blockchain Devs\""
+        },
+        {
+          "source_id": "src-db88b7d4d736",
+          "locator": "Complete eleven-object repository response",
+          "quote": "\"name\": \"ordinal-inscription-mint-service\""
+        },
+        {
+          "source_id": "src-6071f8e1fc91",
+          "locator": "Complete two-object public-member response",
+          "quote": "[\n  {\n    \"login\": \"kratos-te\",\n    \"id\": 30476118,\n    \"node_id\": \"MDQ6VXNlcjMwNDc2MTE4\",\n    \"avatar_url\": \"https://avatars.githubusercontent.com/u/30476118?v=4\",\n    \"gravatar_id\": \"\",\n    \"url\": \"https://api.github.com/users/kratos-te\",\n    \"html_url\": \"https://github.com/kratos-te\",\n    \"followers_url\": \"https://api.github.com/users/kratos-te/followers\",\n    \"following_url\": \"https://api.github.com/users/kratos-te/following{/other_user}\",\n    \"gists_url\": \"https://api.github.com/users/kratos-te/gists{/gist_id}\",\n    \"starred_url\": \"https://api.github.com/users/kratos-te/starred{/owner}{/repo}\",\n    \"subscriptions_url\": \"https://api.github.com/users/kratos-te/subscriptions\",\n    \"organizations_url\": \"https://api.github.com/users/kratos-te/orgs\",\n    \"repos_url\": \"https://api.github.com/users/kratos-te/repos\",\n    \"events_url\": \"https://api.github.com/users/kratos-te/events{/privacy}\",\n    \"received_events_url\": \"https://api.github.com/users/kratos-te/received_events\",\n    \"type\": \"User\",\n    \"user_view_type\": \"public\",\n    \"site_admin\": false\n  },\n  {\n    \"login\": \"microgift\",\n    \"id\": 127183857,\n    \"node_id\": \"U_kgDOB5Sr8Q\",\n    \"avatar_url\": \"https://avatars.githubusercontent.com/u/127183857?v=4\",\n    \"gravatar_id\": \"\",\n    \"url\": \"https://api.github.com/users/microgift\",\n    \"html_url\": \"https://github.com/microgift\",\n    \"followers_url\": \"https://api.github.com/users/microgift/followers\",\n    \"following_url\": \"https://api.github.com/users/microgift/following{/other_user}\",\n    \"gists_url\": \"https://api.github.com/users/microgift/gists{/gist_id}\",\n    \"starred_url\": \"https://api.github.com/users/microgift/starred{/owner}{/repo}\",\n    \"subscriptions_url\": \"https://api.github.com/users/microgift/subscriptions\",\n    \"organizations_url\": \"https://api.github.com/users/microgift/orgs\",\n    \"repos_url\": \"https://api.github.com/users/microgift/repos\",\n    \"events_url\": \"https://api.github.com/users/microgift/events{/privacy}\",\n    \"received_events_url\": \"https://api.github.com/users/microgift/received_events\",\n    \"type\": \"User\",\n    \"user_view_type\": \"public\",\n    \"site_admin\": false\n  }\n]\n"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current organization metadata provides context for Ketman's historical attribution but does not establish g0drlc's current or private membership, employment, authorship, controller, or culpability. Public member identities were not promoted and no repository code was executed."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ketman-reported persona and public account labels. Tommy Ericsson, William, and temric carry unverified legal-identity status. Keep g0drlc and 0xMooncity as separate records; the publisher's probable relationship remains a reported possibility, leaving same-operator status unconfirmed. Current X reachability and presentation describe the observed account state, while uninterrupted control and current DPRK tasking require newer evidence."
+}

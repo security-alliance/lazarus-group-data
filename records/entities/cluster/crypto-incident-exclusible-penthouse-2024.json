@@ -1,0 +1,36 @@
+{
+  "id": "crypto-incident-exclusible-penthouse-2024",
+  "type": "cluster",
+  "name": "Exclusible Penthouse — public incident context",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "MSMT publishes a private-sector partner's attribution to DPRK IT workers. The underlying evidence remains private, and the source leaves worker identity and employment or contributor path unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "Exclusible Penthouse"
+  ],
+  "ttps": [
+    "Privileged access or insider mechanism not publicly detailed"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence.",
+    "Underlying private partner evidence was developed privately for MSMT."
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "MSMT Table 2 labels the actor only “DPRK (unidentified),” while the report’s p. 34 narrative includes Exclusible Penthouse among thefts attributed to DPRK IT workers according to one private-sector partner. No public contributor identity or employment/access path is established",
+      "locator": "PDF pp. 27–28, Table 2, and p. 34 with footnote 104"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,204 @@
+{
+  "id": "kim-chung-hyok",
+  "real_name": "Kim Chung Hyok",
+  "fake_names": [
+    "Jin Tian"
+  ],
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-kim-chung-hyok",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Kim Chung Hyok is the person named in the MSMT Annex 7 KMCTC employment table. Federico, Austin, Jin Tian, and Maxwell are preserved only as source-reported employment labels; they are not established civil identities, separate people, or evidence of present account control. Jin Tian is non-unique within the same table and must not be used to merge Kim with another worker.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "The source-reported employment label Jin Tian also appears under a separate named worker in the same MSMT table; the label is non-unique and is not evidence that the two workers are one person.",
+      "The source also lists single-name alias labels for this individual: Austin, Federico, Maxwell. They are kept out of the searchable name fields because a bare first name identifies nobody; see the sourced facts for their context.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Jin Tian' is also printed under Ju Kwang Song (/team/ju-kwang-song) in the same MSMT Annex 7 table. It is a common Chinese personal name, not a unique identifier; no real person of that name is implicated.",
+      "No connection is asserted to other DPRK nationals romanised 'Kim Chung Hyok', including a judoka and an ice-hockey player of that name.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-kim-chung-hyok-austin-rated-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), first Kim Chung Hyok / Austin row; selector and rate omitted",
+          "quote": "Austin  United States  United States  $50/hour, 20 hours/week  3 weeks"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-austin-unrated-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), second Kim Chung Hyok / Austin row; selector omitted",
+          "quote": "Austin  United States  United States  -  3 weeks"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-federico-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok / Federico row; selector omitted",
+          "quote": "Federico  Argentina  United States  -  1 week"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-jin-tian-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok / Jin Tian row; rate omitted",
+          "quote": "-  Jin Tian  -  United States  $30/hour, 10 hours/week  3 weeks"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-kmctc-table",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 heading, PDF file p. 109 (printed p. 107)",
+          "quote": "KMCTC IT Workers"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), DPRK IT Worker column",
+          "quote": "Kim Chung \nHyok"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-label-austin",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok rows, Alias column",
+          "quote": "Austin"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-label-federico",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok row, Alias column",
+          "quote": "Federico"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-label-jin-tian",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok row, Alias column",
+          "quote": "Jin Tian"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-label-maxwell",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok row, Alias column",
+          "quote": "Maxwell"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-maxwell-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), Kim Chung Hyok / Maxwell row; selector and rate omitted",
+          "quote": "Maxwell  United States  United States  $70/hour, 40 hours/week  -"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kim-chung-hyok-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 110 (printed p. 108), DPRK IT Worker column",
+          "quote": "Kim Chung \nHyok"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

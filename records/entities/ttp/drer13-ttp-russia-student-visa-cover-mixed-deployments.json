@@ -1,0 +1,51 @@
+{
+  "id": "drer13-ttp-russia-student-visa-cover-mixed-deployments",
+  "type": "ttp",
+  "name": "Student-visa cover for mixed DPRK worker deployments including IT workers",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is an MSMT-reported visa-sponsorship and deployment assessment; Russian immigration status and sponsored-person number, conduct, and present status require public adjudication or current official records.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "Russia"
+  ],
+  "ttps": [
+    "immigration-status-concealment",
+    "mixed-worker-deployment",
+    "student-visa-cover"
+  ],
+  "caveats": [
+    "This source-bounded report covers its cited context; Russian enforcement, host-company knowledge, completed implementation, current operating status, nationality, and criminal liability fall outside its findings.",
+    "General construction, industrial, educational, or other overseas labor is excluded unless the source explicitly states an IT-worker nexus.",
+    "The mixed-worker total spans multiple roles; an IT-worker total requires role-specific counting.",
+    "The visa-sponsorship claim is a reported immigration assertion; it is not a public Russian immigration adjudication, and the sponsored IT-worker count requires separate evidence.",
+    "This is aggregate or contract-level context; profiles for listed entity types require person- or case-specific sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-immigration-cover-context",
+      "statement": "MSMT reports plans for DPRK workers to enter Russia on student visas under educational cover and says a sponsoring institution supported student visas for hundreds of DPRK workers in 2024 across multiple fields, explicitly including IT workers. The public passage does not quantify the IT-worker subset.",
+      "timeframe": "2024 reporting and 2025 planning context",
+      "evidence_class": "official multilateral report based on participating-state information",
+      "attribution_boundary": "This is an MSMT-reported visa-sponsorship and deployment assessment, not a public Russian immigration adjudication or proof of the number, conduct, or present status of any sponsored person.",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT reports plans for DPRK workers to enter Russia on student visas under educational cover and says a sponsoring institution supported student visas for hundreds of DPRK workers in 2024 across multiple fields, explicitly including IT workers. The public passage does not quantify the IT-worker subset",
+      "locator": "Report pp. 63-64 / PDF pp. 65-66, Case Study: IT Workers in Russia"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

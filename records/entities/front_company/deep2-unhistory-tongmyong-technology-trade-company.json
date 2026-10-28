@@ -1,0 +1,42 @@
+{
+  "id": "deep2-unhistory-tongmyong-technology-trade-company",
+  "type": "front_company",
+  "name": "Tongmyong Technology Trade Company",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel-reported Member State allegation; publication records Laos response as pending.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support"
+    ]
+  },
+  "ttps": [
+    "regime-remittance"
+  ],
+  "caveats": [
+    "The claims were Member State information, and the Lao People’s Democratic Republic had not replied at publication.",
+    "The individuals and company were designated by two Member States; the report attributes the designations to Member State action rather than the UN Committee."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported Tongmyong Technology Trade Company as a Laos-based Munitions Industry Department affiliate that dispatched IT workers; its reported representative was Kim Hyo Dong, while Yu Song Hyok and Yun Song Il reportedly arranged office space/accommodation and mediated with foreign brokers to cash out embezzled virtual assets."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+      "support": "Supports Tongmyong Tech, the three reported support roles, office/accommodation assistance, virtual-asset cash-out mediation and no-reply status",
+      "locator": "PDF p. 51, para. 123 and footnotes 132-134"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

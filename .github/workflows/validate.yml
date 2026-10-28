@@ -1,0 +1,25 @@
+name: Validate data
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate every record and reference
+        run: node tools/validate.cjs
+      - name: Check validator failure cases
+        run: node --test tools/validate.test.cjs

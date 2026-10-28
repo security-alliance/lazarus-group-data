@@ -1,0 +1,77 @@
+{
+  "id": "amo4-ttp-layered-hiring-access-and-posthire-controls",
+  "type": "ttp",
+  "name": "Layered hiring verification, least privilege, and post-hire monitoring",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Non-binding cyber guidance. Local privacy, employment, recording and anti-discrimination law governs implementation",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "AMO4-IL-NCD-1814",
+      "AMO4-IL-NCD-1814-LANDING"
+    ]
+  },
+  "ttps": [
+    "employment-payment-consistency-review",
+    "lawful-background-verification",
+    "least-privilege",
+    "live-applicant-verification",
+    "periodic-access-review",
+    "professional-history-corroboration",
+    "remote-management-activity-monitoring",
+    "role-based-access-control",
+    "system-log-review"
+  ],
+  "caveats": [
+    "Any physical-meeting invitation should offer a genuine, lawful verification option and avoid deceptive or discriminatory pretexts.",
+    "Republish identity documents or record interviews only with a lawful basis, notice, retention controls and access restrictions.",
+    "Financial-account checks should verify employment-payment consistency while keeping account numbers and unrelated financial data private.",
+    "The record retains aggregate context; people, entities, accounts, locations, images, identifiers, victim data, and payment selectors stay outside it.",
+    "This is defensive advisory context rather than a named incident, legal outcome, or designation.",
+    "Use platform-history discrepancies as prompts for human review; DPRK affiliation requires additional evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-advisory-defensive-control-context",
+      "statements": [
+        "The advisory recommends layered live interview verification, comparison of claimed professional history across relevant platforms, reputable background-check support, bank-account/KYC reliability checks, and—where lawful and proportionate—local or in-person verification. For hired remote workers it recommends role-based access, least privilege, periodic access review, network-traffic review for unusual connections or remote-management activity, and system-log analysis for anomalous behavior.",
+        "The national CERT connects applicant verification to post-hire access review; its guidance does not establish facts about a person."
+      ],
+      "limitations": [
+        "Non-binding cyber guidance. Local privacy, employment, recording and anti-discrimination law governs implementation.",
+        "Do not republish identity documents or record interviews without a lawful basis, notice, retention controls and access restrictions.",
+        "Use platform-history discrepancies as prompts for human review, not proof of DPRK affiliation.",
+        "Financial-account checks should verify employment-payment consistency without exposing account numbers or unrelated financial data.",
+        "Any invitation to a physical meeting must be a genuine, lawful verification option; do not use deceptive or discriminatory pretexts.",
+        "The advisory is guidance and threat context, not proof of a named Israeli incident or a finding against an identified person or organization.",
+        "Apply verification, recording, financial-consistency, and in-person checks only where lawful, necessary, proportionate, disclosed, and subject to retention and access controls.",
+        "Discrepancies should prompt human review rather than automatic attribution or employment action."
+      ],
+      "source_ids": [
+        "AMO4-IL-NCD-1814"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "Continuous recruitment-integrity and cross-sector identity-risk governance",
+    "Financial-sector end-to-end workforce identity and access controls",
+    "Identity continuity across application, interview, shipment, onboarding, and work",
+    "Post-hire detection should correlate cloud/SaaS identity behavior with HR and payroll changes"
+  ],
+  "sources": [
+    {
+      "source_id": "AMO4-IL-NCD-1814",
+      "support": "The advisory recommends layered live interview verification, comparison of claimed professional history across relevant platforms, reputable background-check support, bank-account/KYC reliability checks, and—where lawful and proportionate—local or in-person verification. For hired remote workers it recommends role-based access, least privilege, periodic access review, network-traffic review for unusual connections or remote-management activity, and system-log analysis for anomalous behavior. Official gov.il advisory and publisher-hosted English PDF. The gov.il edge returned access controls during direct passive retrieval, but the official PDF was text-indexed and available through public search. No precise publication date was established from the accessible official text, so the date is deliberately null rather than inferred from crawl metadata or the alert number. The retained official document is English-language; no translated wording is supplied or inferred",
+      "locator": "PDF pp. 3-10, especially 'AI and Deepfake Technologies,' 'Persistency,' and 'Detecting and Preventing North Korean IT Worker Infiltration.'"
+    },
+    {
+      "source_id": "AMO4-IL-NCD-1814-LANDING",
+      "support": "Official gov.il landing page for the advisory. It preserves publisher and publication-family provenance but does not independently corroborate the claim-bearing PDF",
+      "locator": "Official advisory landing page and publisher-hosted PDF link"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "john-wilhelmsson",
+  "fake_names": [
+    "Sadao Eiichi Murano",
+    "John Wilhelmsson"
+  ],
+  "aliases": [
+    "zhmolly",
+    "zhmoly",
+    "dainmoly",
+    "9omo6"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "zhmolly@proton.me",
+    "jwtradera@outlook.com",
+    "dainsm@proton.me"
+  ],
+  "github": [
+    {
+      "gh_id": "zhmolly",
+      "usernames": [
+        "zhmolly"
+      ]
+    },
+    {
+      "gh_id": "dainmoly",
+      "usernames": [
+        "dainmoly"
+      ]
+    },
+    {
+      "gh_id": "zhmoly",
+      "usernames": [
+        "zhmoly"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "AVXF5qTa937CZ9nuL2M9J2MieYRL5bw8DEXr5QnvwN9L",
+        "GUrBkpnjmxz6ZLBjkd8jMkkrShsYXKropKSes8UCWdqw",
+        "LAcNUB7p2VYNA8gEkmPSTdsrDBSwBjzymw5Dbt7UMvB",
+        "BrbAo3gtStKPxUbdomd14WUUAFv5QSBnFqp6NRD6TBGC",
+        "2c5gD79Um49VmLCx54a89vVL84kFCiWmj82Zyg8QVVWi"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/john-wilhelmsson/john-wilhelmsson-1.jpg",
+      "short_description": "Sadao Eiichi Murano.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

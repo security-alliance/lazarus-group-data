@@ -1,0 +1,48 @@
+{
+  "id": "deep2-vendor-dv-f02",
+  "type": "ttp",
+  "name": "Google-observed post-termination extortion and larger-enterprise targeting",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s01-dv-f02"
+    ]
+  },
+  "ttps": [
+    "data-publication-threat",
+    "extortion",
+    "source-code-exfiltration"
+  ],
+  "caveats": [
+    "GTIG suggests that law-enforcement pressure contributed to the tactical shift; the source leaves that causal link unproven."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "GTIG assessed that since late October 2024 IT workers increased extortion attempts and targeted larger organizations.",
+        "Recently terminated workers threatened to release sensitive data or give it to competitors, including proprietary data and internal-project source code."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s01-dv-f02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-nickel-tapestry",
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s01-dv-f02",
+      "support": "GTIG assessed that since late October 2024 IT workers increased extortion attempts and targeted larger organizations. Recently terminated workers threatened to release sensitive data or give it to competitors, including proprietary data and internal-project source code",
+      "locator": "On The March: IT Workers Expand Globally with a Focus on Europe; IT Worker Activity in Europe; Increased Extortion Attempts"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

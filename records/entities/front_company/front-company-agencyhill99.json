@@ -1,0 +1,84 @@
+{
+  "id": "front-company-agencyhill99",
+  "type": "front_company",
+  "name": "AgencyHill99",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported front company or recruitment front; legal adjudication requires a separate official record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "front_companies": [
+    "AgencyHill99"
+  ],
+  "locations": [
+    "Online-only presentation; no location independently validated"
+  ],
+  "ttps": [
+    "fraudulent recruitment advertisements",
+    "front-company or linked-company presentation",
+    "multi-platform recruiter presence"
+  ],
+  "caveats": [
+    "first source observation: 2024-09-13 domain registration; last source observation: 2025-02-early domain non-resolution; as of 2026 08 12: historical indicator; current operation remains untested.",
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Publish as an Insikt Group-attributed PurpleBravo recruitment front; account names are reported personas with identity verification requiring separate sources."
+  ],
+  "aliases": [
+    {
+      "value": "Agencyhill99",
+      "alias_type": "organization-name",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "cluster",
+      "value": "PurpleBravo",
+      "status": "Insikt Group attribution",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "github_repository",
+      "value": "github repository named agencyhill99",
+      "status": "source-observed, with commits 2024-10-09 through 2024-10-19",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "job_pages",
+      "value": "levels.fyi, Upwork, DoraHacks, Intch, Telegram advertisements",
+      "status": "source-observed in 2024",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "website",
+      "value": "agencyhill99[.]com",
+      "status": "registered 2024-09-13; no longer resolved by early February 2025",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports AgencyHill99 in the stated front-company or corporate-linkage context: agencyhill99[.]com; github repository named agencyhill99; levels.fyi, Upwork, DoraHacks, Intch, Telegram advertisements; PurpleBravo",
+      "locator": "PDF pp. 4-7, PurpleBravo's Fraudulent Profiles and GitHub Repository"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

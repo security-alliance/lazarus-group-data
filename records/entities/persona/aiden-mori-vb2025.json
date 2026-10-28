@@ -1,0 +1,143 @@
+{
+  "id": "aiden-mori-vb2025",
+  "type": "persona",
+  "name": "Aiden Mori",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Koike says the Aiden Mori account matched information exposed after a North Korean IT worker was infected with an infostealer. This is public research attribution",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S1",
+      "CM-S2"
+    ]
+  },
+  "organizations": [
+    "CrowdWorks",
+    "NEC"
+  ],
+  "locations": [
+    "Japan (claimed persona/work market)"
+  ],
+  "ttps": [
+    "Continue accepting work through a Japanese crowdsourcing account after public exposure",
+    "Operate within a platform whose screening process did not remove the source-labeled account",
+    "Use an anime-style avatar on the public worker profile"
+  ],
+  "caveats": [
+    "The employment name is a source label; its legal identity requires separate evidence.",
+    "The face shown in the presentation derives from leaked/infostealer material; publication is prohibited.",
+    "This is a source-reported persona label from public conference material; legal and civil identity status is unverified."
+  ],
+  "aliases": [
+    {
+      "value": "Aiden Mori",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "CrowdWorks",
+      "identifier": "aiden77",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S1"
+      ],
+      "note": "Public account label visible in slide 36; speaker says it matched data exposed after an infostealer infection."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "CM-S1",
+      "source_url": "https://www.youtube.com/watch?v=0SQ_T-uxHr8",
+      "caption": "Slide 36: public Japanese crowdsourcing profile labeled Aiden Mori / aiden77 alongside a source-cited leaked image. The face is citation-only and must not be republished.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S2",
+      "support": "Official VB2025 abstract page identifying Yoshihiro Koike and framing the presentation as NEC threat-intelligence research into Japanese-language crowdsourcing activity",
+      "locator": "Abstract and speaker biography"
+    },
+    {
+      "source_id": "CM-S1",
+      "support": "Official Virus Bulletin recording of Yoshihiro Koike’s VB2025 presentation. It supplies slide-level cases, public persona labels, local-platform observations, and timestamps",
+      "locator": "00:00–21:34; especially slides 4, 7–13, 21–36 at 02:05–20:56"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-aiden-source-match",
+      "type": "identity_name",
+      "predicate": "researcher_matched_account_to_infostealer_exposure",
+      "value": {
+        "name": "Aiden Mori",
+        "identity_status": "employment persona; civil identity unverified"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "Video 20:13-20:29; slide 36, “The worker identified as North Korean IT personnel is openly operating”",
+          "quote": "The account name “Aiden Mori” matches information leaked after a North Korean IT worker was infected with an infostealer."
+        }
+      ],
+      "observed_at": "2025-09-26"
+    },
+    {
+      "id": "claim-aiden-recent-orders",
+      "type": "account",
+      "predicate": "researcher_reported_continued_job_orders",
+      "value": {
+        "platform": "Japanese crowdsourcing service",
+        "account_label": "Aiden Mori",
+        "recent_orders": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "Video 20:30-20:42; slide 36",
+          "quote": "Aiden Mori has recently continued to receive job orders, which shows that the screening process for Japanese crowdsourcing services is not working."
+        }
+      ],
+      "observed_at": "2025-09-26"
+    },
+    {
+      "id": "claim-aiden77-crowdworks-historical",
+      "type": "account",
+      "predicate": "conference_displayed_historical_crowdworks_profile_label",
+      "value": {
+        "platform": "CrowdWorks",
+        "profile_name": "Aiden Mori",
+        "account_label": "aiden77",
+        "status": "historical source attribution",
+        "current_reachability": "not resolved"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "CM-S1",
+          "locator": "Video 20:13-20:42; slide 36, public Japanese crowdsourcing profile pane visually verified",
+          "quote": "Aiden Mori / aiden77"
+        }
+      ],
+      "observed_at": "2025-09-26",
+      "notes": [
+        "Historical source-explicit platform label only. The numeric CrowdWorks profile path was not transcribed, and current public search did not defensibly resolve the account. Do not infer a legal identity, continued control, deletion cause, or link to same-name accounts on other platforms."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Source-reported employment or online persona using the historical CrowdWorks label aiden77; the name, account, and image remain source-scoped. The source’s comparison image came from an infostealer exposure and stays outside publication and identity inference."
+}

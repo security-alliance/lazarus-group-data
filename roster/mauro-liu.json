@@ -1,0 +1,178 @@
+{
+  "id": "mauro-liu",
+  "real_name": "Mauro Liu",
+  "aliases": [
+    "0xchamel",
+    "0xllaCh",
+    "blueChamel",
+    "chamel92",
+    "daiki-iu",
+    "Gornutz",
+    "lmauro77",
+    "mauroh.perk",
+    "mauroliu77",
+    "zhChamel",
+    "zhChameleon",
+    "bitbaby888",
+    "imyugioh",
+    "zhExcal",
+    "0xlocker",
+    "ethlocker",
+    "raptor1001"
+  ],
+  "fake_names": [
+    "Xu Liu"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "mauro@blueberry.garden",
+    "pwongexcal@gmail.com",
+    "zhaoa4317@gmail.com",
+    "blueraptor1001@gmail.com",
+    "choi.link227@gmail.com",
+    "bitbaby888@gmail.com"
+  ],
+  "telegram": [
+    {
+      "usernames": [
+        "@chamel92"
+      ],
+      "id": "6635242888"
+    }
+  ],
+  "twitter_usernames": [
+    "0xchamel",
+    "zhExcal"
+  ],
+  "websites": [
+    "https://blogtienao.com/depo-coin/",
+    "https://x.com/MagicCraftGame/status/1532587886234652673",
+    "https://x.com/MagicCraftGame/status/1527876841868087302",
+    "https://cryptototem.com/glory-games-worlds-glory/",
+    "https://medium.com/@CryptoSavingExpert/in-depth-review-of-five-new-play-to-earn-games-part-9-magic-craft-professionalism-df7bc9c4b2de",
+    "https://gamerse.gitbook.io/gamerse/team",
+    "https://shinchanieoalerts.medium.com/gamerse-ama-summary-recap-with-shin-chan-community-8171e08ac22f",
+    "https://x.com/zhExcal/status/1691805547614621801",
+    "https://x.com/NapierFinance/status/1691754768383750308",
+    "https://github.com/harmony-one/chrome-extension-wallet/graphs/contributors"
+  ],
+  "employment": [
+    {
+      "company": "MagicCraft",
+      "date_identified": {
+        "$date": "2022-01-01"
+      }
+    },
+    {
+      "company": "Ankr"
+    },
+    {
+      "company": "Gamerse"
+    },
+    {
+      "company": "Clover Network"
+    },
+    {
+      "company": "DEPO"
+    },
+    {
+      "company": "Sifu Vision"
+    },
+    {
+      "company": "Oxytocin"
+    },
+    {
+      "company": "Tomodachi"
+    },
+    {
+      "company": "Napier Finance",
+      "date_identified": {
+        "$date": "2023-01-01"
+      }
+    },
+    {
+      "company": "Blueberry"
+    },
+    {
+      "company": "Pickle Finance"
+    },
+    {
+      "company": "Harmony"
+    }
+  ],
+  "linkedin": [
+    {
+      "id": [
+        "lmauro77"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xchamel"
+    },
+    {
+      "gh_id": "zhChameleon"
+    },
+    {
+      "gh_id": "0xllaCh"
+    },
+    {
+      "gh_id": "blueChamel"
+    },
+    {
+      "gh_id": "imyugioh"
+    },
+    {
+      "gh_id": "0xlocker",
+      "names": [
+        "0xlocker"
+      ]
+    },
+    {
+      "gh_id": "ethlocker",
+      "names": [
+        "Hack the Moon!"
+      ]
+    },
+    {
+      "gh_id": "raptor1001",
+      "names": [
+        "raptor1001"
+      ]
+    }
+  ],
+  "notes": "Telegram ID: 6635242888\nOverlaps with 0xm00neth, zhChameleon, Daiki Saito, Malkevych Bohdan (bomalkevych@gmail.com), Jamshed Latipov (jamshedlatipov@gmail.com). Associated with Ryan Choi (choi.link227@gmail.com), Burndai, Derek Lee, Raptor.\nWallet Addresses:\n0xc9b46489567684aafbe85e8a783bb9bfb822807f (T)\n0x6d8886e5e418571da0a6a1133555c663963b1ac5 (Oxytocin, Tomodachi)\n0x4BA8BDC825B03A83dF46cff59f18b41dEE84968E (Tweeted)\n0x147ed0f4d0cc9f0cf4eff223aa79b2f837532d62 (Napier)\n0x4d4da4ad60b35d1baa44951db99f3900ea008a73 (Napier Theft)",
+  "images": [
+    {
+      "path": "/team-images/mauro-liu/mauro-liu-depo.png",
+      "short_description": "Mauro Liu from the DEPO project.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/mauro-liu/mauroliu-magiccraft-01.png",
+      "short_description": "Mauro Liu from MagicCraft team.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/mauro-liu/mauroliu-magiccraft-02.png",
+      "short_description": "Mauro Liu from MagicCraft team.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/mauro-liu/magiccraft.png",
+      "short_description": "MagicCraft team picture including Mauro Liu.",
+      "tags": [
+        "face",
+        "screenshot"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

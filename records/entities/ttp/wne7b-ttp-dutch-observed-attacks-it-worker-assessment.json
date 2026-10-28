@@ -1,0 +1,82 @@
+{
+  "id": "wne7b-ttp-dutch-observed-attacks-it-worker-assessment",
+  "type": "ttp",
+  "name": "Dutch assessment linking some observed attacks to DPRK IT workers",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official aggregate national intelligence assessment; the record carries no criminal charge, sanctions designation, conviction, named incident finding, or determination that every attack was employment-based.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DORR17-S02-AIVD-2025",
+      "WNE7B-NL-MIVD-OJV-2025"
+    ]
+  },
+  "locations": [
+    "Netherlands"
+  ],
+  "ttps": [
+    "cryptocurrency-theft",
+    "employment-enabled-access",
+    "opportunistic-sensitive-data-acquisition",
+    "possible-company-information-theft"
+  ],
+  "caveats": [
+    "The aggregate attacks were carried out by or with assistance from DPRK IT workers; the sources leave the employment basis of some attacks and the initial-access vector of some attacks unspecified.",
+    "Official intelligence assessment; it supplies an intelligence posture, while prosecution, sanctions designation, conviction and an all-workers theft or intrusion finding require separate sources.",
+    "Source finding boundary: this corroborates and updates chronology for an existing Dutch aggregate finding already sourced to MIVD and a joint state-actor assessment. It covers aggregate chronology; fraudulent hiring as the initial access vector for every attack, and any victim, worker, employer, case, account, or malware, require separate source findings.",
+    "The public report provides aggregate intelligence context; incident, victim, prosecution, and adjudicated-finding fields remain unpopulated.",
+    "The public report provides no named victim, worker, employer, case, account, malware, or incident count.",
+    "The report distinguishes ordinary revenue-generating contractual work from the subset of activity assessed as theft or intrusion.",
+    "This exact-ID record adds AIVD first-party source and chronology support to an existing review-level Dutch aggregate assessment; it belongs to that existing assessment."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-national-intelligence-assessment",
+      "statements": [
+        "MIVD reports that MIVD and AIVD observed several cyberattacks against Dutch companies and persons and assesses that some were very likely carried out by or with the assistance of North Korean IT workers. It says the attacks mainly sought cryptocurrency and possibly company information. This is an aggregate intelligence assessment; the source names no victim, worker, employer, or case count and does not characterize every DPRK IT worker as an intruder. Original Dutch: De MIVD en AIVD hebben verschillende cyberaanvallen tegen Nederlandse bedrijven en personen waargenomen. Een aantal van deze cyberaanvallen is zeer waarschijnlijk uitgevoerd door of met behulp van Noord-Koreaanse IT’ers. Deze aanvallen waren voornamelijk gericht op het ontvreemden van cryptocurrency en mogelijk ontvreemden van bedrijfsinformatie. Researcher translation: The MIVD and AIVD observed several cyberattacks against Dutch companies and persons. Some of these attacks were very likely carried out by or with the assistance of North Korean IT workers. The attacks were mainly aimed at stealing cryptocurrency and possibly company information."
+      ],
+      "limitations": [
+        "Preserve the source's ‘very likely’ probability language and limit the statement to some observed attacks.",
+        "Do not infer or identify Dutch victims, employers, workers, facilitators, technical infrastructure, or incident count.",
+        "Do not generalize the assessment to every DPRK IT worker or every deceptive-employment placement."
+      ],
+      "source_ids": [
+        "WNE7B-NL-MIVD-OJV-2025"
+      ]
+    },
+    {
+      "type": "official-national-intelligence-assessment",
+      "statements": [
+        "AIVD and MIVD report that several attacks observed in 2025 against Dutch companies and individuals were carried out by or with assistance from North Korean IT workers.",
+        "The report describes cryptocurrency theft as the primary objective and acquisition of sensitive data as opportunistic when available."
+      ],
+      "limitations": [
+        "The source is aggregate and names no victim, worker, employer, facilitator, campaign, account, malware, prosecution, sanctions violation, or immigration outcome.",
+        "It does not establish that fraudulent hiring or employment-enabled access was the initial vector for every reported attack.",
+        "It does not generalize malicious conduct to every DPRK IT worker."
+      ],
+      "source_ids": [
+        "DORR17-S02-AIVD-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dnaof-ttp-opportunistic-employment-access-repurposing"
+  ],
+  "sources": [
+    {
+      "source_id": "DORR17-S02-AIVD-2025",
+      "support": "AIVD and MIVD report observing several 2025 cyberattacks against Dutch companies and individuals carried out by or with assistance from North Korean IT workers. The report describes cryptocurrency theft as the main objective and opportunistic acquisition of sensitive data. This is an aggregate intelligence assessment and does not say that every attack began through fraudulent employment",
+      "locator": "PDF p. 38, section “Cyberdreiging vanuit Noord-Korea”"
+    },
+    {
+      "source_id": "WNE7B-NL-MIVD-OJV-2025",
+      "support": "MIVD reports that MIVD and AIVD observed several cyberattacks against Dutch companies and persons and assesses that some were very likely carried out by or with the assistance of North Korean IT workers. It says the attacks mainly sought cryptocurrency and possibly company information. This is an aggregate intelligence assessment; the source names no victim, worker, employer, or case count and does not characterize every DPRK IT worker as an intruder. Original Dutch: De MIVD en AIVD hebben verschillende cyberaanvallen tegen Nederlandse bedrijven en personen waargenomen. Een aantal van deze cyberaanvallen is zeer waarschijnlijk uitgevoerd door of met behulp van Noord-Koreaanse IT’ers. Deze aanvallen waren voornamelijk gericht op het ontvreemden van cryptocurrency en mogelijk ontvreemden van bedrijfsinformatie. Researcher translation: The MIVD and AIVD observed several cyberattacks against Dutch companies and persons. Some of these attacks were very likely carried out by or with the assistance of North Korean IT workers. The attacks were mainly aimed at stealing cryptocurrency and possibly company information",
+      "locator": "PDF pages 26-27; printed pages 24-25; sections ‘Noord-Korea’ and ‘Digitale oplichting’"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "facilitator-michael-james-bostelle",
+  "type": "facilitator",
+  "name": "Michael James Bostelle",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Named as a U.S. national defendant in the October 2026 Northern District of Ohio indictment announced by DOJ; the charges remain allegations, with conviction status pending.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-remote-it-actions",
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "locations": [
+    "Pennsylvania, United States (historical DOJ arrest context)"
+  ],
+  "caveats": [
+    "The DOJ release describes U.S.-based facilitators collectively; defendant-specific allocation of each laptop-farm act is unreported.",
+    "Address, account, identity document, victim, and present-location claims are excluded from the record."
+  ],
+  "identity_boundary": "The named defendant in the Ohio indictment; other people sharing the name stay separate, and collective scheme allegations remain collective.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+      "support": "DOJ names this U.S. national as an arrested defendant in the Ohio indictment.",
+      "locator": "Sun Sheng Ming, et al. Indictment and Arrests section"
+    },
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The linked indictment is the charging document referenced by DOJ.",
+      "locator": "Indictment PDF"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-michael-james-bostelle-indicted",
+      "type": "legal_event",
+      "predicate": "named_in_four_count_ohio_indictment",
+      "value": {
+        "defendant": "Michael James Bostelle",
+        "offenses": [
+          "wire fraud",
+          "money laundering",
+          "identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Sun Sheng Ming, et al. Indictment and Arrests section",
+          "quote": "Today, the U.S. Attorney’s Office for the Northern District of Ohio announced the arrests of U.S. nationals Michael James Bostelle of Pennsylvania and Juan Cecilio Pena Carrillo of Texas pursuant to a four-count wire fraud, money laundering, and identity theft indictment."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The quote names both defendants; it does not establish guilt or assign every collective scheme act to this person."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

@@ -1,0 +1,255 @@
+{
+  "id": "aelin-ashriver-yohan-yun",
+  "type": "persona",
+  "name": "Aelin Ashriver",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "ANY.RUN's controlled-investigation narrative says Aelin Ashriver was played by Yohan Yun, a South Korean Cointelegraph correspondent and research collaborator; the account describes that experiment and its DPRK-worker attribution remains outside the narrative.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-anyrun-2026-08-10"
+    ]
+  },
+  "organizations": [
+    "Cointelegraph",
+    "Definitive Communications"
+  ],
+  "front_companies": [
+    "Definitive Communications"
+  ],
+  "ttps": [
+    "investor/venture-capital pretext to gain trust",
+    "offering media exposure and invoking proximity to Cointelegraph",
+    "positioning near a startup's privileged crypto assets"
+  ],
+  "caveats": [
+    "Aelin Ashriver is a researcher-controlled cover persona, separate from a suspected DPRK worker; the publicly named collaborator has a distinct source-reported role.",
+    "This is a research-reported persona label from a public investigation; legal or civil identity verification remains open.",
+    "This is a researcher-controlled cover persona and collaborator disclosure, separate from a suspected worker profile and DPRK operator records."
+  ],
+  "sources": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "support": "Chapter VII says Aelin Ashriver was a Definitive Communications investor persona and identifies the researcher-controlled role as Yohan Yun of Cointelegraph",
+      "locator": "Chapter VII: The Investor"
+    },
+    {
+      "source_id": "src-1948a59a3373"
+    },
+    {
+      "source_id": "src-f7e227fa8607"
+    },
+    {
+      "source_id": "src-e633cf522ee4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-aelin-controlled-investor-name",
+      "type": "identity_name",
+      "predicate": "publisher_reported_controlled_investor_persona_name",
+      "value": {
+        "persona_name": "Aelin Ashriver",
+        "role_context": "researcher-controlled investor cover persona"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VII: The Investor, opening paragraph",
+          "quote": "Mr. Aelin Ashriver worked for Definitive Communications"
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Opening first-person passage",
+          "quote": "I found myself joining a Zoom call as “Aelin Ashriver,” an investor from the fictitious Definitive Communications"
+        },
+        {
+          "source_id": "src-f7e227fa8607",
+          "locator": "Third body paragraph",
+          "quote": "a Cointelegraph reporter joined a Zoom call while impersonating Aelin Ashriver"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "The controlled-investigation context is essential. This is not a verified civil identity or a suspected-worker name."
+      ]
+    },
+    {
+      "id": "claim-aelin-definitive-communications-role",
+      "type": "organization_affiliation",
+      "predicate": "publisher_reported_cover_persona_organization",
+      "value": {
+        "organization": "Definitive Communications",
+        "relationship": "cover persona presented as working for organization",
+        "controlled_narrative_entity": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VII: The Investor, opening paragraph",
+          "quote": "Mr. Aelin Ashriver worked for Definitive Communications (abbreviated as Def-Comm, which sounds remarkably similar to DEF CON, the conference where we presented this work)"
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Opening first-person passage",
+          "quote": "an investor from the fictitious Definitive Communications"
+        },
+        {
+          "source_id": "src-f7e227fa8607",
+          "locator": "Third body paragraph",
+          "quote": "an investor working for the fictional Definitive Communications"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Do not publish Definitive Communications as an adversary front company; ANY.RUN presents it as part of the researchers' setup."
+      ]
+    },
+    {
+      "id": "claim-aelin-investor-pretext",
+      "type": "incident",
+      "predicate": "publisher_reported_investor_pretext",
+      "value": {
+        "pretext": "interest in funding the controlled startup",
+        "target_entity": "Ballena Azul LTD"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VII: The Investor, opening paragraph",
+          "quote": "was interested in funding our dream"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Controlled-investigation role behavior, not evidence of a real investment or a real venture-capital identity."
+      ]
+    },
+    {
+      "id": "claim-aelin-media-pretext",
+      "type": "incident",
+      "predicate": "publisher_reported_media_access_pretext",
+      "value": {
+        "offer": "media attention",
+        "claimed_connection": "close to Cointelegraph"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VII: The Investor, second paragraph",
+          "quote": "Mr. Ashriver asked whether we’d be interested in getting some media attention, mentioning that he could help with that and even claiming to be quite close to Cointelegraph."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Opening first-person passage, final paragraph",
+          "quote": "I played up the ruse by suggesting I might even be able to land Ballena Azul some coverage in Cointelegraph."
+        },
+        {
+          "source_id": "src-f7e227fa8607",
+          "locator": "Third body paragraph",
+          "quote": "The reporter acted as though Ballena Azul was seeking investment and even suggested the company might receive media coverage."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "The Cointelegraph connection was part of the disclosed cover performance and should not be presented as worker tradecraft independently developed by a suspected subject."
+      ]
+    },
+    {
+      "id": "claim-aelin-role-performer-yohan-yun",
+      "type": "relationship",
+      "predicate": "publisher_disclosed_cover_persona_role_performer",
+      "value": {
+        "persona_name": "Aelin Ashriver",
+        "role_performer": "Yohan Yun",
+        "same_operator_identity": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VII: The Investor, disclosure paragraph",
+          "quote": "Mr. Ashriver was, in reality, Yohan Yun"
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Article byline",
+          "quote": "Written by Yohan Yun"
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Opening first-person passage",
+          "quote": "I found myself joining a Zoom call as “Aelin Ashriver”"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Role-performance relationship only. Yohan Yun is not an alias or suspected DPRK operator in this source."
+      ]
+    },
+    {
+      "id": "claim-aelin-performer-cointelegraph-correspondent",
+      "type": "employment",
+      "predicate": "publisher_described_cover_performer_professional_role",
+      "value": {
+        "name": "Yohan Yun",
+        "publisher": "Cointelegraph",
+        "role": "South Korean correspondent"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VII: The Investor, disclosure paragraph",
+          "quote": "Yohan Yun, a South Korean correspondent for Cointelegraph"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Public professional description of the research collaborator, not attribution to the investigated activity."
+      ]
+    },
+    {
+      "id": "claim-aelin-performer-cointelegraph-author-profile",
+      "type": "employment",
+      "predicate": "publisher_profile_role_of_cover_persona_performer",
+      "value": {
+        "name": "Yohan Yun",
+        "publisher": "Cointelegraph",
+        "role": "staff writer and editor"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-e633cf522ee4",
+          "locator": "Publisher author-page description",
+          "quote": "Yohan (Hyoseop) Yun is a staff writer and editor at Cointelegraph."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Article byline",
+          "quote": "Yohan Yun, staff editor"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Independent publisher-profile corroboration of the disclosed collaborator's professional role only. The page does not mention Aelin Ashriver or DPRK activity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Aelin Ashriver is a researcher-controlled investor cover persona in ANY.RUN's controlled investigation. Yohan Yun is the publicly disclosed role performer and research collaborator, and Definitive Communications is part of that controlled narrative. These roles describe the research setup; person-specific DPRK-worker, actor-alias, same-operator, or front-company attribution requires separate evidence."
+}

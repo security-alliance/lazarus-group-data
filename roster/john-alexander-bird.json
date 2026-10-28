@@ -1,0 +1,183 @@
+{
+  "id": "john-alexander-bird",
+  "fake_names": [
+    "John Alexander Bird"
+  ],
+  "notes": "Nisos-reported persona presentation only; not a verified civil identity, employer, residence, nationality, legal finding, or current-status determination",
+  "github": [
+    {
+      "gh_id": "imcode65"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-john-alexander-bird",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Nisos-reported persona presentation only; not a verified civil identity, employer, residence, nationality, legal finding, or current-status determination",
+    "as_of": "2026-08-30",
+    "caveats": [
+      "Identity boundary: John Alexander Bird is an employment persona reported by Nisos in connection with the GitHub account imcode65. The historical imcode65/jab-p repository now redirects to a different GitHub account (a platform observation made on 2026-08-13, not a Nisos finding); that account is not asserted to be part of this record.",
+      "No precise address, contact selector, image, current location, civil identity, or present controller is retained or inferred.",
+      "Role and location are source-reported persona claims, not verified employment or residence.",
+      "This record describes a reported employment persona/account cluster, not proof that the apparent identity owner is a DPRK national.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'John Alexander Bird' is a plausible real name; no real person of this name is identified or implicated.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-bafe293061db",
+      "title": "Assessment of DPRK IT Worker Tradecraft Between 2022 and 2025",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/Assessment-of-DPRK-IT-Worker-Tradecraft.pdf",
+      "date": "2025-04-29"
+    },
+    {
+      "id": "doc-github-imcode65-jab-p-redirect-current",
+      "title": "GitHub repository redirect: historical endpoint imcode65/jab-p",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/repos/imcode65/jab-p"
+    },
+    {
+      "id": "doc-github-jab-p-current",
+      "title": "GitHub repository status: repository ID 725469101",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/repositories/725469101"
+    },
+    {
+      "id": "doc-github-jab-p-template-commit-current",
+      "title": "GitHub commit status: jab-p 99ef148",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/repos/kanbei65/jab-p/commits/99ef14829b03685f67862a53164393eaaaef23f3",
+      "date": "2023-11-30"
+    },
+    {
+      "id": "doc-nisos-mitigation-round63",
+      "title": "How To Proactively Mitigate The DPRK IT Worker Employment Scam",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-worker-scam-mitigation.pdf",
+      "date": "2025-03-27"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-john-bird-inactive-persona-assessment-round63",
+      "label": "Nisos assessed no active personal website at publication",
+      "category": "relationship",
+      "observed": "2025-03-27",
+      "evidence": [
+        {
+          "source_id": "doc-nisos-mitigation-round63",
+          "locator": "PDF file p. 3, Executive Summary, final two sentences",
+          "quote": "This persona does not have an active personal website, suggesting that it is likely not actively seeking employment as part of the employment scheme yet."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-john-bird-jab-p-current-redirect",
+      "label": "Current public historical repository endpoint redirect",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-imcode65-jab-p-redirect-current",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Moved Permanently\""
+        },
+        {
+          "source_id": "doc-github-imcode65-jab-p-redirect-current",
+          "locator": "JSON field url",
+          "quote": "\"url\": \"https://api.github.com/repositories/725469101\""
+        },
+        {
+          "source_id": "doc-github-jab-p-current",
+          "locator": "JSON field id",
+          "quote": "\"id\": 725469101"
+        },
+        {
+          "source_id": "doc-github-jab-p-current",
+          "locator": "JSON field full_name",
+          "quote": "\"full_name\": \"kanbei65/jab-p\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-john-bird-jab-p-template-current",
+      "label": "Current public commit preserves bootstrapmade template metadata",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-jab-p-template-commit-current",
+          "locator": "JSON field sha",
+          "quote": "\"sha\": \"99ef14829b03685f67862a53164393eaaaef23f3\""
+        },
+        {
+          "source_id": "doc-github-jab-p-template-commit-current",
+          "locator": "assets/css/style.css patch header",
+          "quote": "Template Name: Personal - v4.7.0"
+        },
+        {
+          "source_id": "doc-github-jab-p-template-commit-current",
+          "locator": "assets/css/style.css patch header",
+          "quote": "Author: BootstrapMade.com"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-john-bird-nisos-link-only-source-page",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-04-29",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF file p. 6 (printed p. 6), visually reviewed Graphic 8 caption and adjacent Bootstrapmade paragraph",
+          "quote": "Graphic 8: Photo of likely DPRK persona John Alexander Bird."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-john-bird-persona-claimed-location-round63",
+      "label": "Nisos reported persona claimed coarse location",
+      "category": "location",
+      "observed": "2025-03-27",
+      "evidence": [
+        {
+          "source_id": "doc-nisos-mitigation-round63",
+          "locator": "PDF file p. 11, John Alexander Bird, first sentence",
+          "quote": "John Alexander Bird claims to be a senior front-end engineer and full-stack developer based in Maryland."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-john-bird-persona-claimed-role-round63",
+      "label": "Nisos reported persona claimed developer roles",
+      "category": "employment",
+      "observed": "2025-03-27",
+      "evidence": [
+        {
+          "source_id": "doc-nisos-mitigation-round63",
+          "locator": "PDF file p. 11, John Alexander Bird, first sentence",
+          "quote": "John Alexander Bird claims to be a senior front-end engineer and full-stack developer based in Maryland."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-john-bird-reported-portfolio-template",
+      "label": "Publisher reported portfolio template creation",
+      "category": "account",
+      "observed": "2025-04-29",
+      "evidence": [
+        {
+          "source_id": "doc-bafe293061db",
+          "locator": "PDF p. 6, Bootstrapmade paragraph",
+          "quote": "Nisos observed that likely DPRK-afﬁliated GitHub account imcode65 created a portfolio website for a persona named John Alexander Bird importing a template from website bootstrapmade[.]com on 30 November 2023."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

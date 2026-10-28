@@ -1,0 +1,53 @@
+{
+  "id": "dfp-ttp-upwork-verification-boundary",
+  "type": "ttp",
+  "name": "Freelance-platform identity verification is not an employment background check",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is first-party platform-control or threat-research guidance normalized as defensive context; identity attribution and control effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFP-S04",
+      "DFP-S05"
+    ]
+  },
+  "ttps": [
+    "freelance-platform",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "A platform badge confirms the represented check. Work history, sole account control, physical work location, and freedom from identity lending require separate evidence.",
+    "The documented feature or policy is optional or scope-limited; identity, location, employment history, and account control require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Upwork prohibits use from North Korea and uses ongoing identity verification, but explicitly distinguishes its verification badge from a traditional employment background check."
+      ],
+      "limitations": [
+        "A platform badge should not be treated as proof of work history, sole account control, physical work location, or freedom from identity lending."
+      ],
+      "source_ids": [
+        "DFP-S04",
+        "DFP-S05"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFP-S04",
+      "support": "Upwork prohibits platform use from North Korea and describes ongoing identity verification, while expressly distinguishing its verification badge from a traditional employment background check",
+      "locator": "Location restrictions; restricted countries and regions"
+    },
+    {
+      "source_id": "DFP-S05",
+      "support": "Upwork prohibits platform use from North Korea and describes ongoing identity verification, while expressly distinguishing its verification badge from a traditional employment background check",
+      "locator": "Identity verification vs. background checks; pp./web lines describing ongoing verification and badges"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

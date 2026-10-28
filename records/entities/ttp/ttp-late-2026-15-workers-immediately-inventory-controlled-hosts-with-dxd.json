@@ -1,0 +1,27 @@
+{
+  "id": "ttp-late-2026-15-workers-immediately-inventory-controlled-hosts-with-dxd",
+  "type": "ttp",
+  "name": "Workers immediately inventory controlled hosts with dxdiag, systeminfo, and wmic, verify egress at ip8.com, then install Google Remote Desktop and sync Chrome.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: high observed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-anyrun-part2"
+    ]
+  },
+  "ttps": [
+    "Workers immediately inventory controlled hosts with dxdiag, systeminfo, and wmic, verify egress at ip8.com, then install Google Remote Desktop and sync Chrome."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "support": "Chapter VI describes the observed sequence: dxdiag, systeminfo, and wmic inventory; IP8 egress checking; Google Remote Desktop installation; and Chrome/Google account synchronization",
+      "locator": "Chapter VI: “The North Korean Job,” first-day controlled-host activity; tool summary in “Famous Chollima New Toolset & Infrastructure.”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "darf-ttp-proliferation-finance-program-context",
+  "type": "ttp",
+  "name": "DPRK deceptive IT employment as a proliferation-finance risk control",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official regional or global policy/defensive context; named incident, person attribution, seizure, and adjudication status remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DARF-S01-APG-TYPOLOGIES-2025"
+    ]
+  },
+  "ttps": [
+    "money-laundering",
+    "regime-remittance"
+  ],
+  "caveats": [
+    "Use this as an official regional-policy citation supporting the inclusion of DPRK deceptive IT employment in proliferation-finance risk programs; its scope is the already cataloged March 2024 alert.",
+    "The source adds source-level context; named worker, facilitator, company, wallet, transaction, seizure, and recovery outcomes require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-policy-and-defensive-context",
+      "statements": [
+        "APG's 2025 typologies report places Japan's March 2024 alert to companies and organizations regarding North Korean IT workers inside a section summarizing Japan's proliferation-financing risks and mitigating measures.",
+        "The same passage groups the alert with asset-freezing readiness for crypto-asset exchanges and financial institutions, expansion of the crypto travel rule, and export-control updates.",
+        "The report does not supply a new worker, employer, facilitator, front company, payment flow or enforcement event."
+      ],
+      "limitations": [
+        "Suitable as an official regional-policy citation supporting the proposition that DPRK deceptive IT employment belongs in proliferation-finance risk programs. Do not present it as a new incident or new Japanese measure beyond the already cataloged March 2024 alert.",
+        "APG places the Japanese alert within a proliferation-financing mitigation framework. This policy context is not an observed incident."
+      ],
+      "source_ids": [
+        "DARF-S01-APG-TYPOLOGIES-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-july-31-2026-joint-dprk-it-worker-alert",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DARF-S01-APG-TYPOLOGIES-2025",
+      "support": "APG's 2025 typologies report places Japan's March 2024 alert to companies and organizations regarding North Korean IT workers inside a section summarizing Japan's proliferation-financing risks and mitigating measures. The same passage groups the alert with asset-freezing readiness for crypto-asset exchanges and financial institutions, expansion of the crypto travel rule, and export-control updates. The report does not supply a new worker, employer, facilitator, front company, payment flow or enforcement event",
+      "locator": "PDF pages 60-61 (printed pages 59-60), section 3.1.3 Japan"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

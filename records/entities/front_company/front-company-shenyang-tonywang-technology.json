@@ -1,0 +1,44 @@
+{
+  "id": "front-company-shenyang-tonywang-technology",
+  "type": "front_company",
+  "name": "Shenyang Tonywang Technology",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor-reported IT-worker front company",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-sentinelone-2024-fronts"
+    ]
+  },
+  "front_companies": [
+    "Shenyang Tonywang Technology"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "remote IT-worker placement or support"
+  ],
+  "caveats": [
+    "This is a security-vendor attribution; consult the cited source for the underlying infrastructure and content-reuse analysis."
+  ],
+  "aliases": [
+    {
+      "value": "Shenyang Tonywang Technology",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "vendor-sentinelone-2024-fronts"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-sentinelone-2024-fronts",
+      "support": "SentinelOne SentinelLabs explicitly identifies Shenyang Tonywang Technology as part of the reported DPRK IT-worker front-company ecosystem",
+      "locator": "Executive Summary; Front Companies; figures showing company sites and employee profiles"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

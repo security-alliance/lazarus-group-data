@@ -1,0 +1,88 @@
+{
+  "id": "ldoc-payment-account-cluster-1134350",
+  "type": "infrastructure",
+  "name": "44 redacted-provider payment cardholder IDs seized in 2022",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The affidavit alleges probable cause that funds in these redacted-provider accounts were derived from DPRK IT-worker employment and involved in sanctions-evasion/money-laundering activity",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-01"
+    ]
+  },
+  "caveats": [
+    "Registration of an identity supplies a registration fact; knowing participation requires case-specific evidence.",
+    "The service provider and account-holder emails are redacted; the numeric IDs are useful only as historical legal-document indicators.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "infrastructure": [
+    {
+      "type": "payment-cardholder-id-set",
+      "identifier_type": "historical-provider-cardholder-id",
+      "count": 44,
+      "values": [
+        "32787138",
+        "32823195",
+        "26364278",
+        "27361057",
+        "27738625",
+        "41482927",
+        "33072116",
+        "27851354",
+        "43552963",
+        "41509922",
+        "43476624",
+        "33012110",
+        "32820879",
+        "28661935",
+        "32775158",
+        "32006723",
+        "40923961",
+        "33056635",
+        "32016016",
+        "33145450",
+        "33352633",
+        "45177501",
+        "28739311",
+        "42779276",
+        "33141223",
+        "32784117",
+        "28235264",
+        "33534410",
+        "38304950",
+        "39675342",
+        "46616965",
+        "47599874",
+        "33024884",
+        "33022701",
+        "35907047",
+        "37861277",
+        "39420481",
+        "35779452",
+        "48158330",
+        "46165387",
+        "48112708",
+        "29427034",
+        "48129187",
+        "48391426"
+      ],
+      "relationship": "reported-link",
+      "source_ids": [
+        "ldoc-01"
+      ],
+      "status": "historical",
+      "note": "Values are reproduced only as a grouped, review-only legal-document indicator set. They are not current account identifiers and are not attributed to individual account holders."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-01",
+      "support": "The affidavit alleges probable cause that funds in these redacted-provider accounts were derived from DPRK IT-worker employment and involved in sanctions-evasion/money-laundering activity",
+      "locator": "Attachment A, pp. 50-51 (PDF pp. 50-51); IDs and registration dates/amounts"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

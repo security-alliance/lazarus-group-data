@@ -1,0 +1,55 @@
+{
+  "id": "dhcer11-ttp-china-2024-group-repatriation-context",
+  "type": "ttp",
+  "name": "China 2024 group-repatriation context involving some DPRK IT workers",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Repatriation reported by an official multilateral mechanism. The public passage reports the event; legal instrument, named individuals, group-level IT-worker counts, and criminal or administrative findings remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dhcer11-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "China"
+  ],
+  "ttps": [
+    "host-country-repatriation",
+    "sanctions-implementation-context"
+  ],
+  "caveats": [
+    "Attribute the action to MSMT reporting based on participating-state information; Chinese government announcement status is a separate source question.",
+    "Attribute the statement to MSMT; the source attribution is MSMT rather than a public Chinese government announcement.",
+    "This aggregate statement supports aggregate context only; individual, company, delegation, and facilitator profiles require separate sources.",
+    "Criminality or knowing facilitation by an employer or host entity requires separate evidence.",
+    "This aggregate statement covers the reported scope; criminality, nationality, knowing facilitation, and current operating status require separate evidence.",
+    "MSMT estimated 1,000 to 1,500 DPRK IT workers remained in China as of early 2025.",
+    "The source leaves each repatriated person's IT-worker status unresolved and reports 'up to a few hundred' as an estimate rather than a total.",
+    "The phrase 'including IT workers' gives no group count, and 'up to a few hundred' is not a cumulative total.",
+    "The source leaves the legal instrument and person/company finding unspecified.",
+    "This country-level context supports awareness; person, company, delegation, account, or employer profiles require source-backed evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-host-country-enforcement-context",
+      "statement": "MSMT/2025/2 reports that China routinely repatriated numerous groups of up to a few hundred North Korean workers, including IT workers, in an effort to reduce the North Korean workforce in China.",
+      "timeframe": "Throughout 2024",
+      "evidence_class": "official multilateral report based on participating-state information",
+      "attribution_boundary": "Repatriation reported by an official multilateral mechanism. The public passage does not state the legal instrument used, identify individuals, provide the number of IT workers within each group, or establish a criminal or administrative finding against any person or company.",
+      "source_ids": [
+        "dhcer11-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dhcer11-msmt-2025-2",
+      "support": "MSMT/2025/2 reports that China routinely repatriated numerous groups of up to a few hundred North Korean workers, including IT workers, in an effort to reduce the North Korean workforce in China",
+      "locator": "report pp. 55-56 / PDF pp. 57-58, 'IT Workers Abroad in Violation of UNSCR 2397' and 'Case Study: IT Workers in China'; report pp. 63-67 / PDF pp. 65-69 for Russia, Laos and relocation context"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

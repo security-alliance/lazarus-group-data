@@ -1,0 +1,314 @@
+{
+  "id": "joshua-palmer",
+  "named_in": "Indictment, United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-cr-00291 (unsealed 2025-06-30)",
+  "real_name": "Kang Tae Bok",
+  "fake_names": [
+    "Joshua Palmer",
+    "Wong Shao Onn"
+  ],
+  "aliases": [
+    "0xjsmart",
+    "call-by",
+    "jp-smart",
+    "wewecalibrate",
+    "joshupgig"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "joshupgig@gmail.com",
+    "smart.solidity@gmail.com"
+  ],
+  "github": [
+    {
+      "gh_id": "jp-smart",
+      "creation_date": {
+        "$date": "2018-02-14"
+      },
+      "names": [
+        "Joshua Palmer"
+      ],
+      "emails": [
+        "joshupgig@gmail.com",
+        "smart.solidity@gmail.com"
+      ],
+      "usernames": [
+        "jp-smart"
+      ]
+    },
+    {
+      "gh_id": "call-by"
+    },
+    {
+      "gh_id": "wewecalibrate"
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x06f90983cd2215379e440fc525e441d6a5fc3fba",
+        "0xa6afe0290fb6f2f7ced0a2753de57f9fa7c9c9dd",
+        "0xfa802d9b33ed74baff62b189875c2b2d192874eb",
+        "0x7654e18ff3495675606c008a39b6264da5d0e8a7"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "5Jfb3n8eW4JyQrKJktMNBFXnC1zx2YHjRSkzRrTT5QHh"
+      ],
+      "currency": "SOL"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/joshua-palmer/joshua-palmer-wanted.png",
+      "short_description": "FBI wanted poster, issued in the legal name",
+      "tags": [
+        "face",
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/joshua-palmer/joshua-palmer-wong-shao-onn.png",
+      "short_description": "Joshua Palmer with Wong Shao Onn.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/images/no-photo.svg",
+      "short_description": "Naoki with Joshua Palmer.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/joshua-palmer/joshua-palmer-id.png",
+      "short_description": "ID of Joshua Palmer.",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/joshua-palmer/joshua-palmer-primorye.png",
+      "short_description": "Joshua Palmer in Primorye.",
+      "tags": [
+        "other"
+      ]
+    }
+  ],
+  "research_id": "worker-kang-tae-bok",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "charged-allegation",
+    "summary": "DPRK national charged in the U.S. District Court for the Northern District of Georgia, No. 1:25-cr-00291, with wire fraud conspiracy and money laundering conspiracy in connection with alleged thefts of virtual currency from employers. A charge is an allegation.",
+    "case": "1:25-CR-291",
+    "court": "U.S. District Court for the Northern District of Georgia",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Kang Tae Bok (강태복), the North Korean defendant named in N.D. Ga. No. 1:25-CR-291; Wong Shao Onn is an indictment-attributed alias, not a separately verified civil identity. Preserve the charged-allegation and wanted posture and do not merge accounts, identity-document subjects, victims, or images with Kang.",
+      "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+      "Do not attach 'devmad119' (unresolved-public-account): non-merge-note-only-do-not-attach."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-8fe1311bd7cb",
+      "title": "Indictment, United States v. Kim Kwang Jin et al.",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/media/1406396/dl",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "doc-chollima-reframing-kang-tae-bok",
+      "title": "Reframing Insights: Our Research through the lens of the 2025 MSMT Report",
+      "publisher": "Chollima Group",
+      "url": "https://chollima-group.io/posts/reframing-insights-our-research-msmt",
+      "date": "2025-11-19"
+    },
+    {
+      "id": "doc-eb442144975a",
+      "title": "Justice Department Announces Coordinated Nationwide Actions to Combat North Korean Remote Information Technology Worker Schemes",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "doc-fox5atlanta-kang-tae-bok-2025",
+      "title": "North Korean nationals wanted in cryptocurrency embezzlement scheme; $5M reward",
+      "publisher": "FOX 5 Atlanta",
+      "url": "https://www.fox5atlanta.com/news/north-korean-nationals-wanted-cryptocurrency-embezzlement-scheme-5m-reward",
+      "date": "2025-06-30"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-kang-bureau61-umnal-publisher-assessment",
+      "label": "Publisher assessed affiliation",
+      "category": "organization_affiliation",
+      "observed": "2025-11-19",
+      "evidence": [
+        {
+          "source_id": "doc-chollima-reframing-kang-tae-bok",
+          "locator": "Bureau 61 (From Vientiane to Vladivostok) section",
+          "quote": "we believe that Pemba Sherpa (Kim Kwang Jin), Charles Palmer (Kang Tae Bok), and Bryan Cho (Jong Pong Ju) are also Bureau 61 workers, most likely under the Umnal front company."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-co-located-team-allegation",
+      "label": "Allegedly lived and worked as colocated team",
+      "category": "relationship",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 7 (printed p. 5), paragraph 22(a)",
+          "quote": "locations outside of North Korea, including the United Arab Emirates"
+        },
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 7 (printed p. 5), paragraph 22(a)",
+          "quote": "lived and worked as a co-located team."
+        },
+        {
+          "source_id": "doc-fox5atlanta-kang-tae-bok-2025",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-collective-fbi-reward-report",
+      "label": "Media-reported collective reward of up to $5M (State Department Rewards for Justice, as reported)",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-fox5atlanta-kang-tae-bok-2025",
+          "locator": "Structured article body, North Korean Cryptocurrency Theft Case section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-link-only-chollima-group-image",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2025-11-19",
+      "evidence": [
+        {
+          "source_id": "doc-chollima-reframing-kang-tae-bok",
+          "locator": "Bureau 61 section, group-image caption",
+          "quote": "Kang Tae Bok (Joshua Palmer)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-money-laundering-conspiracy-charge",
+      "label": "Charged with money laundering conspiracy",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 13 (printed p. 11), Count Five heading",
+          "quote": "Count Five Money Laundering Conspiracy (18 U.S.C. § 1956(h))"
+        },
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KANG TAE BOK (강태복)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-north-korean-nationality-allegation",
+      "label": "Alleged nationality",
+      "category": "identity_name",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file pages 3-4 (printed pp. 1-2), paragraph 2",
+          "quote": "were citizens of North Korea"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-official-name-forms",
+      "label": "Officially charged name forms",
+      "category": "identity_name",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KANG TAE BOK (강태복)"
+        },
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "Kang Tae Bok (강태복)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-uae-2019-group-context",
+      "label": "Media reported historical group travel and colocation",
+      "category": "location",
+      "evidence": [
+        {
+          "source_id": "doc-fox5atlanta-kang-tae-bok-2025",
+          "locator": "Structured article body, historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-wanted-posture",
+      "label": "Reported at large and wanted",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment section",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-wire-fraud-conspiracy-charge",
+      "label": "Charged with wire fraud conspiracy",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 6 (printed p. 4), Count One heading",
+          "quote": "Count One Wire Fraud Conspiracy (18 U.S.C. § 1349)"
+        },
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "KANG TAE BOK (강태복)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-kang-wong-shao-onn-alias",
+      "label": "Indictment attributed alias",
+      "category": "alias",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF file page 2, unsealed caption",
+          "quote": "A/K/A “WONG SHAO ONN,”"
+        }
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

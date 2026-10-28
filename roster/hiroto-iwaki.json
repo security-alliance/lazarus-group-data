@@ -1,0 +1,59 @@
+{
+  "id": "hiroto-iwaki",
+  "real_name": "Hiroto Iwaki",
+  "aliases": [
+    "mymiracle0118",
+    "iwakihiroto",
+    "noahsflood908",
+    "Taku Yamamoto"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "noahsflood908@gmail.com"
+  ],
+  "websites": [
+    "https://iwakihiroto-portfolio.vercel.app",
+    "https://x.com/blackbigswan/status/1913290058670416183"
+  ],
+  "linkedin": [
+    {
+      "id": [
+        "hiroto-iwaki-54b207306"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "7074147770",
+      "usernames": [
+        "iwakihiroto"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "mymiracle0118",
+      "usernames": [
+        "mymiracle0118"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/hiroto-iwaki/1913290058670416183-01.jpeg",
+      "short_description": "Profile picture of Hiroto Iwaki.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/hiroto-iwaki/1913290058670416183-02.png",
+      "short_description": "Profile picture of Hiroto Iwaki.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

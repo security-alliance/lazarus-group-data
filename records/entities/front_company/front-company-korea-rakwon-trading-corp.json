@@ -1,0 +1,58 @@
+{
+  "id": "front-company-korea-rakwon-trading-corp",
+  "type": "front_company",
+  "name": "Korea Rakwon Trading Corp.",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT prints Korea Rakwon Trading Corp. as an alias form of Korea Ragwon Trading Corp.; this record preserves the printed variant and keeps unrelated entities separate.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "Source-bounded organization record; merge similar names only with an explicit source link.",
+    "This record retains no street addresses, payment selectors, or private contact data."
+  ],
+  "identity_boundary": "The organization label Korea Rakwon Trading Corp. is reported by MSMT; another entity sharing a name or transliteration needs an explicit source link before association.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Korea Rakwon Trading Corp..",
+      "locator": "PDF p. 50, Bulgunbyol and Korea Ragwon subsection"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-front-company-korea-rakwon-trading-corp",
+      "type": "organization_affiliation",
+      "predicate": "msmt_reported_company",
+      "value": {
+        "organization": "Korea Rakwon Trading Corp."
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 50, Bulgunbyol and Korea Ragwon subsection",
+          "quote": "Korea Rakwon Trading Corp."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "Korea Ragwon Trading Corp.",
+      "alias_type": "source-reported alias",
+      "relationship": "explicitly reported by MSMT",
+      "source_ids": [
+        "msmt-2026-1"
+      ]
+    }
+  ]
+}

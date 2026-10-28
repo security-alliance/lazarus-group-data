@@ -1,0 +1,374 @@
+{
+  "id": "facilitator-jong-sung-hyok",
+  "type": "facilitator",
+  "name": "Jong Sung Hyok",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Designated under E.O. 13722; Treasury-reported chief representative of the Foreign Trade Bank in Vladivostok, Russia; Administrative sanctions designation. The record states no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-2815ca074b83",
+      "gov-38e5789f9f87",
+      "gov-59746ada8798",
+      "gov-b2897867e002",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Jong Sung Hyok",
+  "organizations": [
+    "Foreign Trade Bank"
+  ],
+  "locations": [
+    "Vladivostok, Russia"
+  ],
+  "caveats": [
+    "Administrative designation with a Treasury-reported designation-time role; no criminal charge or adjudicated finding is recorded. Foreign Trade Bank is linked explicitly as chief-representative and through OFAC's linked-to relationship. Vladivostok, Russia is designation-era exact-entry and role context for the source; the record retains no account, payment, counterparty, transaction, wallet, passport, birth, nationality, gender, contact, precise address, or other sensitive selector.",
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "CHONG, Sung-hyok — official romanization.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "CHONG, Sung-hyok"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "JONG, Sung Hyok"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-jong-sung-hyok"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-38e5789f9f87",
+      "support": "CyberScoop independently publishes Jong's name among five people working for DPRK financial institutions. Its collective China-or-Russia and illicit-transaction summary relies on Treasury and is not used to infer Jong's individual role, location, bank, account, or conduct beyond the primary evidence",
+      "locator": "Article body; paragraph naming the five financial-institution representatives"
+    },
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "Treasury identifies Jong as the chief representative of the Foreign Trade Bank in Vladivostok, Russia and records his E.O. 13722 designation based on that bank relationship. This is a designation-time administrative-source account, not an adjudicated finding or present-location claim",
+      "locator": "Sanctions evasion networks section; Jong-specific role sentence and designation paragraph"
+    },
+    {
+      "source_id": "gov-b2897867e002",
+      "support": "The original OFAC action lists primary form JONG, Sung Hyok, alias CHONG, Sung-hyok, Vladivostok, Russia designation-era context, program DPRK3, and the linked-to relationship with the Foreign Trade Bank of the Democratic People's Republic of Korea. Sensitive identifiers and person attributes are excluded",
+      "locator": "Specially Designated Nationals List Update; Jong Sung Hyok entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row confirms Vladivostok, Russia for OFAC entity number 56042. Precise address components are excluded; the living row does not establish residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 56042"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 56042: CHONG, Sung-hyok. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 56042"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 56042 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV",
+      "locator": "SDN.CSV primary/current-list row for OFAC ent_num 56042"
+    },
+    {
+      "source_id": "gov-2815ca074b83",
+      "support": "Recorded Future News independently publishes Jong's name and summarizes Treasury's account that he served as a North Korean financial representative in Vladivostok, Russia. The article relies on Treasury and does not independently establish the role, organization, residence, continued presence, or present location",
+      "locator": "Article body; named-individuals paragraph and Jong-specific summary"
+    },
+    {
+      "source_id": "gov-59746ada8798",
+      "support": "The official notice lists JONG, Sung Hyok, alias CHONG, Sung-hyok, Vladivostok, Russia, program DPRK3, and the Foreign Trade Bank link; the following paragraph records the E.O. 13722 designation basis. PDF page 2 was rendered at 2x scale and visually inspected. Sensitive identifiers, person attributes, compliance text, and financial selectors are excluded",
+      "locator": "90 FR 51442, item 8 and following designation paragraph (PDF p. 2)"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "JONG, Sung Hyok",
+        "display": "Jong Sung Hyok"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 56042",
+          "quote": "56042,\"JONG, Sung Hyok\",\"individual\",\"DPRK3\""
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jong Sung Hyok entry",
+          "quote": "JONG, Sung Hyok (a.k.a. CHONG, Sung-hyok), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 8 (PDF p. 2)",
+          "quote": "8. JONG, Sung Hyok (a.k.a. CHONG, Sung-hyok), Vladivostok, Russia"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official sanctions-list name form; not a criminal adjudication."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "CHONG, Sung-hyok",
+        "ofac_entity_number": "56042"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row joined to OFAC entity number 56042",
+          "quote": "56042,87047,\"aka\",\"CHONG, Sung-hyok\",-0-"
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jong Sung Hyok entry",
+          "quote": "JONG, Sung Hyok (a.k.a. CHONG, Sung-hyok), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 8 (PDF p. 2)",
+          "quote": "8. JONG, Sung Hyok (a.k.a. CHONG, Sung-hyok), Vladivostok, Russia"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Source-explicit OFAC alias tied by entity number; do not transfer it to a same-name person."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK3",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 56042",
+          "quote": "56042,\"JONG, Sung Hyok\",\"individual\",\"DPRK3\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current administrative-list observation; not a conviction, account-control finding, or present-location claim."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-ftb",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Foreign Trade Bank of the Democratic People's Republic of Korea",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks field for OFAC entity number 56042",
+          "quote": "Linked To: FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA."
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jong Sung Hyok entry",
+          "quote": "[DPRK3] (Linked To: FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA)."
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 8 (PDF p. 2)",
+          "quote": "[DPRK3] (Linked To: FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA)."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current OFAC dataset relationship field; it is part of the same source family as the primary row and alias table."
+      ]
+    },
+    {
+      "id": "claim-treasury-financial-representative",
+      "type": "employment",
+      "predicate": "treasury_reported_financial_representative_role",
+      "value": {
+        "role": "North Korean representative of a DPRK financial institution",
+        "reported_group": [
+          "Ho Yong Chol",
+          "Han Hong Gil",
+          "Jong Sung Hyok",
+          "Choe Chun Pom",
+          "Ri Jin Hyok"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, representative group sentence",
+          "quote": "Ho Yong Chol, Han Hong Gil (Han), Jong Sung Hyok (Jong), Choe Chun Pom (Choe) and Ri Jin Hyok (Ri) are China or Russia-based North Korean representatives of DPRK financial institutions."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury group description. It does not resolve a present location or assign another representative's conduct to Jong."
+      ]
+    },
+    {
+      "id": "claim-ftb-chief-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_bank_representative_role",
+      "value": {
+        "organization": "Foreign Trade Bank",
+        "role": "chief representative",
+        "as_of": "2025-11-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Jong sentence",
+          "quote": "Jong is the chief representative of the U.S.-designated DPRK Foreign Trade Bank (FTB) in Vladivostok, Russia."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported designation-time role. The source-published city is not treated as a present-location finding."
+      ]
+    },
+    {
+      "id": "claim-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13722",
+        "basis_entity": "Foreign Trade Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, designation paragraph",
+          "quote": "Jong and Ri pursuant to E.O. 13722 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, FTB, a person whose property and interests in property are blocked pursuant to E.O. 13722"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, paragraph following item 8 (PDF p. 2)",
+          "quote": "Designated pursuant to section 2(a)(viii) of E.O. 13722 for being owned or controlled by, or having acted or purported to act for or on behalf of, directly or indirectly, FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-exact-entry-coarse-geography",
+      "type": "location",
+      "predicate": "official_entry_lists_coarse_geography",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "context": "designation-era exact-entry and role context",
+        "present_location_inference": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions Evasion Networks, Jong sentence",
+          "quote": "Jong is the chief representative of the U.S.-designated DPRK Foreign Trade Bank (FTB) in Vladivostok, Russia."
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jong Sung Hyok entry",
+          "quote": "JONG, Sung Hyok (a.k.a. CHONG, Sung-hyok), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 8 (PDF p. 2)",
+          "quote": "8. JONG, Sung Hyok (a.k.a. CHONG, Sung-hyok), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV row joined to OFAC entity number 56042",
+          "quote": "56042,85831,-0- ,\"Vladivostok\",\"Russia\",-0-"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Designation-era exact-entry and Treasury role context only; it is not a claim of residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-separate-publisher-coverage",
+      "type": "note",
+      "predicate": "named_in_reputable_separate_publisher_coverage",
+      "value": {
+        "publishers": [
+          "Recorded Future News / The Record",
+          "CyberScoop"
+        ],
+        "underlying_claim_source": "U.S. Department of the Treasury"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; named-individuals paragraph and Jong-specific summary",
+          "quote": "Jong Sung Hyok serves as a North Korean financial representative in Vladivostok, Russia."
+        },
+        {
+          "source_id": "gov-38e5789f9f87",
+          "locator": "Article body; paragraph naming the five financial-institution representatives",
+          "quote": "It also designated five people who work for North Korean financial institutions: Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "These are separate publishers but derivative coverage of the Treasury action, not independent proof of the reported role or location. CyberScoop's collective China-or-Russia wording is not used to infer Jong's individual location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jong Sung Hyok, listed by OFAC as JONG, Sung Hyok with alternate romanization CHONG, Sung-hyok, is the Foreign Trade Bank representative described in Treasury's November 2025 sanctions action. Preserve the administrative designation and designation-time role description; criminal guilt, present location and same-named public-account ownership require separate evidence."
+}

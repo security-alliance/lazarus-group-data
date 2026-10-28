@@ -1,0 +1,38 @@
+{
+  "id": "crypto-incident-thorswap-2026-claim",
+  "type": "ttp",
+  "name": "THORSwap / SwapKit — public incident context",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "Unconfirmed researcher allegation; project-confirmation status remains open.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-mallory-thorswap"
+    ]
+  },
+  "organizations": [
+    "THORSwap / SwapKit"
+  ],
+  "ttps": [
+    "Merged pull requests into core SDK",
+    "Open-source contribution route"
+  ],
+  "caveats": [
+    "Primary evidence and project confirmation are required before publishing an established worker identity.",
+    "Publish as established fact only with primary thread evidence, exact GitHub identity, and THORSwap response.",
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "Mallory preserves a brief researcher allegation and archived-link reference. First-party THORSwap response, independently verified contribution identity, and primary evidentiary bridge to DPRK remain unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-mallory-thorswap",
+      "support": "A researcher alleged a suspected DPRK IT worker had been employed at THORSwap",
+      "locator": "THORSwap / SwapKit passage reporting the researcher allegation, employment claim, and three merged pull requests"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

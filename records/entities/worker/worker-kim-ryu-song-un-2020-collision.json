@@ -1,0 +1,263 @@
+{
+  "id": "worker-kim-ryu-song-un-2020-collision",
+  "type": "worker",
+  "name": "Kim Ryu Song — 2020 UN same-name record",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel-reported Member State allegation; retained as a separate same-name record pending an explicit identity bridge",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020"
+    ]
+  },
+  "ttps": [
+    "team-manager"
+  ],
+  "caveats": [
+    "China said relevant employment contracts had expired by 22 December 2019 and reported implementation of repatriation obligations.",
+    "The Panel stated it had yet to receive a reply regarding Dalian Xinlu; manager/company claims remain Member State information.",
+    "The UN report's Yanji team manager and the Kim Ryu Song charged record remain separate pending an explicit source bridge. The charged record is E.D. Mo. No. 4:24-cr-00648-MTS-JSD."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Kim Ryu Song reportedly led a seven-worker team and controlled another five-person team; Kwon Kwang Ho led a separate seven-worker team."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+      "support": "Supports the four groups, team sizes, revenue, managers, company links and China response",
+      "locator": "PDF pp. 33-34, paras. 106-110; annexes 46-47"
+    },
+    {
+      "source_id": "ROK-MOFA-2024-IT15"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Ryu Song",
+        "record_scope": "2020 UN Yanji team-manager record"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraphs 107-108",
+          "quote": "The third group was led by Kim Ryu Song"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "UN Panel report relaying Member State information; no birth data, alias, image, or independent civil-identity fields were supplied."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-reported-delegation-chief",
+      "type": "employment",
+      "predicate": "reported_it_worker_delegation_chief",
+      "value": {
+        "role": "chief of a delegation of information technology workers"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 108",
+          "quote": "Kim Ryu Song, the chief of a delegation of information technology workers"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the Panel; it does not establish a present role."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-reported-mid-subordination",
+      "type": "organization_affiliation",
+      "predicate": "reported_delegation_subordinate_to",
+      "value": {
+        "organization": "Munitions Industry Department",
+        "affiliation_scope": "delegation led by Kim Ryu Song"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 108",
+          "quote": "the chief of a delegation of information technology workers subordinate to the Munitions Industry Department"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Scoped to the reported delegation; no separate employment contract or present affiliation is inferred."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-reported-seven-worker-team",
+      "type": "relationship",
+      "predicate": "reported_led_seven_worker_team",
+      "value": {
+        "relationship": "team leader",
+        "team_size": 7
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 108",
+          "quote": "who maintained seven workers in his team"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Person-specific team-size allegation; no worker identities or group revenue are retained."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-reported-control-five-person-team",
+      "type": "relationship",
+      "predicate": "reported_controlled_second_five_person_team",
+      "value": {
+        "relationship": "control over another team",
+        "team_size": 5
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 108",
+          "quote": "and also had control over another five-person team"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Person-specific team-control allegation; no worker identities or group revenue are retained."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-historical-yanji-china-location",
+      "type": "location",
+      "predicate": "source_reported_historical_group_location",
+      "value": {
+        "location": "Yanji, Jilin Province, China",
+        "timeframe": "early 2020",
+        "qualification": "reported location of the four investigated groups, including Kim's third group"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 107",
+          "quote": "four different groups of information technology workers from the Democratic People’s Republic of Korea operating in Yanji, Jilin Province, China."
+        },
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 108",
+          "quote": "The third group was led by Kim Ryu Song"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Historical group location only. It does not establish continuous presence, residence, travel, departure, or present location."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-rok-2024-candidate-crosswalk",
+      "type": "relationship",
+      "predicate": "unresolved_candidate_same_person_crosswalk",
+      "value": {
+        "candidate_record_id": "worker-kim-ryu-song",
+        "candidate_status": "unresolved_not_merged",
+        "shared_context": [
+          "exact reported name Kim Ryu Song",
+          "Yanji posting or operating context",
+          "IT delegation leadership role",
+          "Munitions Industry Department organizational chain"
+        ],
+        "missing_bridge": [
+          "no shared alias",
+          "no shared public account or selector",
+          "no explicit source cross-reference",
+          "no documented continuity from 2020 to 2024"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraphs 107-108",
+          "quote": "The third group was led by Kim Ryu Song, the chief of a delegation of information technology workers subordinate to the Munitions Industry Department"
+        },
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 107",
+          "quote": "operating in Yanji, Jilin Province, China"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF p. 2, designation table row",
+          "quote": "김류성 313총국 옌지 주재 IT 대표단 단장"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "body, designation paragraph",
+          "quote": "조선노동당 군수공업부 산하기관인 313총국"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "body, Kim Ryu Song sentence",
+          "quote": "김류성은 수년간 미국 독자제재를 위반하여 12.11(수) 미 법원에 기소되었다."
+        }
+      ],
+      "observed_at": "2024-12-26",
+      "notes": [
+        "This is a verified evidence comparison, not a verified identity match. The overlap is substantial enough to retain for future resolution, but it does not authorize merging this 2020 UN bundle with the later charged/ROK-designated profile."
+      ]
+    },
+    {
+      "id": "claim-kim-ryu-song-un-2020-collision-mid-context",
+      "type": "note",
+      "predicate": "source_described_parent_department_context",
+      "value": {
+        "organization": "Munitions Industry Department",
+        "source_description": "policy and oversight organization for DPRK nuclear and missile programmes",
+        "reported_worker_dispatch_context": "dispatch abroad through subordinate trading corporations",
+        "personal_weapons_or_cyber_role_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "PDF file p. 33, paragraph 106",
+          "quote": "the designated Munitions Industry Department, a policy and oversight organization for nuclear and missile programmes of the Democratic People’s Republic of Korea, including the dispatch abroad of information technology and other workers through trading corporations subordinate to it"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Organization-level report context only. It does not establish that Kim personally worked on weapons, nuclear, missile, hacking, or cyber-attack activity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "This bundle covers only the Kim Ryu Song described in UN report S/2020/840 as leading a Yanji information-technology-worker team in early 2020. A 2024 Republic of Korea row naming a Kim Ryu Song as the 313 General Bureau's Yanji IT delegation leader remains a strong but unresolved candidate crosswalk awaiting an identity bridge. The UN report leaves the later charged, wanted, ROK-designated, and Umnal Annex 10 same-name records unlinked; a shared alias, selector, explicit cross-reference, or equivalent evidence is required before merging."
+}

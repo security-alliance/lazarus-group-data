@@ -1,0 +1,47 @@
+{
+  "id": "bram-chan",
+  "real_name": "Bram Chan",
+  "aliases": [
+    "Bram Chen",
+    "gejeduck"
+  ],
+  "gender": "male",
+  "websites": [
+    "https://www.justice.gov/usao-dc/media/1402691/dl",
+    "https://medium.com/plethori/plethori-quarterly-progress-update-2566d9e6c172"
+  ],
+  "employment": [
+    {
+      "company": "Plethori",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "gejeduck",
+      "usernames": [
+        "gejeduck"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x91689cf1c6cb61aa3d6663ffc74c9f689809af91"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/bram-chan/bram-chen.png",
+      "short_description": "Profile picture of Bram Chen.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

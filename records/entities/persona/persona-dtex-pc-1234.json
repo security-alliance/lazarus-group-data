@@ -1,0 +1,217 @@
+{
+  "id": "persona-dtex-pc-1234",
+  "type": "persona",
+  "name": "PC-1234",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "internal payment-server administrator account",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-dtex-money-trail"
+    ]
+  },
+  "caveats": [
+    "An internal handle identifies a label rather than a legal identity; DTEX also reports a prior impersonator using it to push malware.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence."
+  ],
+  "accounts": [
+    {
+      "platform": "luckyguys internal platform",
+      "identifier": "PC-1234",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-dtex-money-trail"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-dtex-money-trail",
+      "support": "DTEX says payments were processed and confirmed through this administrator account Repeatedly acknowledged RB-wallet payments and issued follow-on instructions",
+      "locator": "Payment workflow screenshots; RB-wallet assessment screenshot; https://www.dtex.ai/payment_breakdown.html; https://www.dtex.ai/org_hierarchy.html; https://www.dtex.ai/geography_map.html"
+    },
+    {
+      "source_id": "src-3dd57431e3c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-pc1234-administrator-label",
+      "type": "account",
+      "predicate": "publisher_reported_internal_server_role",
+      "value": {
+        "label": "PC-1234",
+        "role": "server administrator account",
+        "platform_context": "DTEX-reported internal payment server"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "Payment workflow",
+          "quote": "the server administrator account PC-1234"
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "Historical internal handle; no civil identity, present operator, or public account endpoint is inferred."
+      ]
+    },
+    {
+      "id": "claim-pc1234-payment-confirmation-role",
+      "type": "incident",
+      "predicate": "publisher_reported_payment_processing_role",
+      "value": {
+        "activity": "processed and confirmed payments",
+        "scope": "DTEX-described payment-server stream"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "Payment workflow",
+          "quote": "all payments were processed and confirmed through the server administrator account PC-1234"
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "Publisher-reported workflow, not an adjudicated legal finding or a claim about every DPRK IT-worker payment."
+      ]
+    },
+    {
+      "id": "claim-pc1234-rascal-direct-messages",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_direct_message_counterparty",
+      "value": {
+        "counterparty_label": "Rascal",
+        "topics": [
+          "payment transfers",
+          "use of fraudulent identities"
+        ],
+        "period": "2025-12 to 2026-04"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "Payment workflow",
+          "quote": "direct messages between the user Rascal and PC-1234 covered payment transfers and the use of fraudulent identities from December 2025 through April 2026"
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "Only the publisher's high-level description is retained; message contents, identity materials, and payment selectors were not collected."
+      ]
+    },
+    {
+      "id": "claim-pc1234-follow-on-instructions",
+      "type": "incident",
+      "predicate": "publisher_reported_payment_verification_and_instructions",
+      "value": {
+        "activity": "verified submitted payments and issued follow-on instructions",
+        "instruction_scope": [
+          "platform access",
+          "account usage"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "Payment workflow",
+          "quote": "Once submitted, those payments were verified by PC-1234, who responded with follow-on instructions tied to platform access and account usage"
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "No actionable access instructions, credentials, or account selectors were retained."
+      ]
+    },
+    {
+      "id": "claim-pc1234-rb-wallet-assessment",
+      "type": "relationship",
+      "predicate": "publisher_assessed_payment_stream_link",
+      "value": {
+        "assessment": "payment confirmations were repeatedly framed around PC-1234 and an RB wallet",
+        "publisher_assessed_reference": "likely Ryongbong General Corporation",
+        "selector_retained": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "RB wallet and assessed linkage",
+          "quote": "assess that references to the “RB wallet” are likely references to the OFAC sanctioned Ryongbong General Corporation"
+        },
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "RB wallet and assessed linkage",
+          "quote": "The same chat stream repeatedly frames payment confirmation around PC-1234 and the RB wallet"
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "DTEX's qualified assessment only. No wallet address, transaction, amount, or present controller is retained."
+      ]
+    },
+    {
+      "id": "claim-pc1234-separate-impersonator",
+      "type": "incident",
+      "predicate": "publisher_reported_label_impersonation",
+      "value": {
+        "impersonator": "unknown actor",
+        "activity": "impersonated PC-1234 and pushed malware-laced software",
+        "same_operator": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-dtex-money-trail",
+          "locator": "Unknown efforts and targeting",
+          "quote": "Separate information from internal holdings a year prior identified an actor impersonating PC-1234 and pushing malware-laced software to DPRK IT workers."
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "The impersonator is explicitly separated from the administrator label. No malware sample, link, or execution detail was retained."
+      ]
+    },
+    {
+      "id": "claim-pc1234-cyberscoop-activity-report",
+      "type": "account",
+      "predicate": "edited_press_relayed_dtex_tracking_and_activity_assessment",
+      "value": {
+        "label": "PC-1234",
+        "reported_role": "single administrator of the internal payment-server data",
+        "tracking_source": "DTEX",
+        "tracking_duration": "for a while",
+        "wallet_cluster_status": "reported active",
+        "selector_retained": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-3dd57431e3c3",
+          "locator": "Paragraph beginning Data from the internal North Korean payment server",
+          "quote": "Data from the internal North Korean payment server, which was first published by ZachXBT in April, is controlled by “PC-1234,” a single administrator that DTEX has been tracking for a while. The wallet and its cluster of activity remains active, Barnhart said."
+        }
+      ],
+      "observed_at": "2026-07-21",
+      "notes": [
+        "Edited press relay of a DTEX/Barnhart assessment; it is corroborative source diversity, not independent technical evidence. Single administrator does not resolve civil identity or natural-person count, and reported wallet activity does not establish present control at the review cutoff."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "PC-1234 is a DTEX-reported historical administrator label on an internal DPRK payment server; it remains a role label separate from any legal identity and from the unknown actor who reportedly impersonated it to distribute malware."
+}

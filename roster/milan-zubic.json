@@ -1,0 +1,47 @@
+{
+  "id": "milan-zubic",
+  "real_name": "Milan Zubic",
+  "aliases": [
+    "icetrust0212",
+    "icebera"
+  ],
+  "fake_names": [
+    "Patrick Kishi"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "zaza.liveedu@gmail.com"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "icebera",
+      "usernames": [
+        "icebera"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x35FcB352027cdDc632b7aE8a50A0410C5bf36248"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/milan-zubic/milan-zubic-av.png",
+      "short_description": "Milan Zubic avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "dhgr9-ttp-2018-information-economy-geography-heuristic",
+  "type": "ttp",
+  "name": "2018 information-economy geography telemetry heuristic",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHGR9-S02-RECORDED-FUTURE-2018"
+    ]
+  },
+  "ttps": [
+    "historical-geographic-context",
+    "network-telemetry-heuristic"
+  ],
+  "caveats": [
+    "A 2018 heuristic for historical pattern review; it concerns historical patterns rather than current presence or person/company attribution.",
+    "Keep raw IP ranges and network selectors from the article out of a public people database.",
+    "The named countries, cities, universities, networks, and providers remain contextual references rather than implicated entities.",
+    "Foreign contractors, customers, local companies, schools, universities, jurisdictions, networks, and service providers require direct evidence before treatment as knowing participants.",
+    "Geographic traffic patterns are contextual; identity, nationality, employer, sanctions status, and wrongdoing require source corroboration.",
+    "The telemetry method, period and information-economy/manual-labor distinction are historical context; country overlap supplies contextual similarity, while later-reporting linkage requires a source bridge.",
+    "This is a historical, source-qualified program-level finding; current census and person, organization, jurisdiction, platform-user or technology-user status require current sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-telemetry-methodology-context",
+      "statement": "Using third-party network data, IP geolocation, routing data, and open-source information for March-August 2018, Recorded Future assessed that China, India, Nepal, Bangladesh, Mozambique, Kenya, Thailand, and Indonesia were more likely than Russia to host North Koreans working in service or information-economy roles. The report observed regional activity in China and India and contrasted an internet-dependent, customer-facing model—such as building games, applications, bots, and other IT products—with predominantly manual overseas labor.",
+      "evidence_class": "network-telemetry and open-source heuristic covering March 16-August 30, 2018",
+      "historical_boundary": "A 2018 heuristic, not a current presence assessment and not person- or company-level attribution.",
+      "source_ids": [
+        "DHGR9-S02-RECORDED-FUTURE-2018"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DHGR9-S02-RECORDED-FUTURE-2018",
+      "support": "Using third-party network data, IP geolocation, routing data, and open-source information for March-August 2018, Recorded Future assessed that China, India, Nepal, Bangladesh, Mozambique, Kenya, Thailand, and Indonesia were more likely than Russia to host North Koreans working in service or information-economy roles. The report observed regional activity in China and India and contrasted an internet-dependent, customer-facing model—such as building games, applications, bots, and other IT products—with predominantly manual overseas labor",
+      "locator": "Scope Note and Key Judgments; Geographic Presence and Activity, paragraphs 135-175 in the public article text"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

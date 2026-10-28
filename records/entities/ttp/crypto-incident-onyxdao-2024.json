@@ -1,0 +1,36 @@
+{
+  "id": "crypto-incident-onyxdao-2024",
+  "type": "ttp",
+  "name": "OnyxDAO — public incident context",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "MSMT publishes a private-sector partner's attribution to DPRK IT workers. The underlying evidence remains private, and the source leaves worker identity and employment or contributor path unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "OnyxDAO"
+  ],
+  "ttps": [
+    "Protocol vulnerability exploitation publicly described; insider/employment path remains private"
+  ],
+  "caveats": [
+    "Vulnerability mechanics supply a technical lead; listed-contributor status requires source evidence.",
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence."
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-msmt-2025-2",
+      "support": "MSMT p. 34 includes OnyxDAO among thefts attributed to DPRK IT workers according to one private-sector partner. No public contributor identity or employment/access path is established",
+      "locator": "PDF p. 34 and footnote 104"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

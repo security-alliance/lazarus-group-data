@@ -1,0 +1,64 @@
+{
+  "id": "duir6-ttp-controlled-nondprk-subcontracting",
+  "type": "ttp",
+  "name": "Client-facing operators subcontracting technical work to non-DPRK developers",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel synthesis of expert interviews and source-qualified examples; criminal finding, sanctions designation, and universal pattern fall outside the synthesis.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-un-s-2023-656"
+    ]
+  },
+  "ttps": [
+    "alias-account-provisioning",
+    "client-identity-control",
+    "revenue-sharing",
+    "technical-subcontracting"
+  ],
+  "caveats": [
+    "Subcontracted developers’ knowledge of the ultimate DPRK nexus is unestablished.",
+    "Individual profiling requires evidence beyond region, nationality, work hours, or VPN use.",
+    "Evidence class: UN Panel synthesis of expert interviews.",
+    "The public record retains aggregate context; people, personas, accounts, companies, victims, payment identifiers, wallets, addresses, images, credentials, and raw technical selectors stay outside it.",
+    "The record preserves an official-source operating model or case description; attribution rules or proof about an applicant, worker, nationality, or organization require separate evidence.",
+    "The source leaves front-company designation for any unnamed hiring company outside the record.",
+    "Use only lawful, proportionate, multi-signal review. Location, work-hour, VPN, remote-access, bidding, payment and code-quality signals require combination and corroboration before supporting fraud or DPRK attribution."
+  ],
+  "infrastructure": [
+    {
+      "type": "expert-interview-subcontracting-model",
+      "statements": [
+        "A subset of workers reportedly hired non-DPRK developers in South Asia, Africa, or South America for short project periods while purporting to represent a developer-hiring company.",
+        "The workers reportedly created or supplied local-person alias accounts, directed high-volume job applications, and retained a large portion of the resulting earnings.",
+        "The hired developers used proxy or VPN services and applied during the working hours of the location represented by the persona."
+      ],
+      "limitations": [
+        "Evidence class: UN Panel synthesis of expert interviews.",
+        "Do not assume subcontracted developers knew the ultimate DPRK nexus.",
+        "Do not identify or profile individuals by region, nationality, work hours, or VPN use.",
+        "This is not a front-company designation for any unnamed hiring company.",
+        "The record preserves an official-source operating model or case description; it is not a standalone attribution rule or proof about an applicant, worker, nationality, or organization.",
+        "Use only lawful, proportionate, multi-signal review. No single location, work-hour, VPN, remote-access, bidding, payment, or code-quality signal establishes fraud or DPRK attribution.",
+        "No people, personas, accounts, companies, victims, payment identifiers, wallets, addresses, images, credentials, or raw technical selectors are retained."
+      ],
+      "source_ids": [
+        "duir6-un-s-2023-656"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dsc-cluster-animation-subcontracting-workflow"
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-un-s-2023-656",
+      "support": "Evidence class: UN Panel synthesis of expert interviews. Source-qualified support: A subset of workers reportedly hired non-DPRK developers in South Asia, Africa, or South America for short project periods while purporting to represent a developer-hiring company. The workers reportedly created or supplied local-person alias accounts, directed high-volume job applications, and retained a large portion of the resulting earnings. The hired developers used proxy or VPN services and applied during the working hours of the location represented by the persona",
+      "locator": "S/2023/656, Annex 68, PDF p. 324, section 4"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

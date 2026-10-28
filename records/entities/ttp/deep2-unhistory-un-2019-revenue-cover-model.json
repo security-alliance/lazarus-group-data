@@ -1,0 +1,47 @@
+{
+  "id": "deep2-unhistory-un-2019-revenue-cover-model",
+  "type": "ttp",
+  "name": "2019 Panel baseline: Munitions Industry Department overseas IT-worker revenue and local-front model",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2019-691-un-2019-revenue-cover-model"
+    ]
+  },
+  "ttps": [
+    "false-location",
+    "regime-remittance",
+    "shell-company"
+  ],
+  "caveats": [
+    "Monthly earnings and remittance language are historical estimates; a universal current pay rule requires newer evidence.",
+    "The underlying operational claims are attributed by the Panel to one Member State."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported that the designated Munitions Industry Department used subordinate trading corporations to station software programmers and developers abroad for foreign-currency earnings.",
+        "Hundreds were reported across Europe, Asia, Africa and the Middle East, earning on average $3,000-$5,000 monthly and remitting a significant portion to controlling DPRK entities.",
+        "The reported cover model used a local citizen as nominal company head while DPRK developers actually ran the company and paid for the cover; workers also used foreign websites for disguised freelance work.",
+        "The Panel also reported that some workers performed illicit asset theft, including cryptocurrency, in support of DPRK cyber actors."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2019-691-un-2019-revenue-cover-model"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2019-691-un-2019-revenue-cover-model",
+      "support": "Supports the MID subordination, geography, earnings range, nominal-local-head cover model, disguised freelance work and illicit-asset-theft linkage",
+      "locator": "PDF p. 22, paras. 41-42; annex 13"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "ryang-kwang-min",
+  "real_name": "Ryang Kwang Min",
+  "fake_names": [
+    "PedroGomez",
+    "SantiagoSilva"
+  ],
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-ryang-kwang-min",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Ryang Kwang Min is the person named in the MSMT Annex 7 KMCTC employment table. PedroGomez and SantiagoSilva are source-reported employment labels only; they are not established civil identities, separate people, or evidence of present account control.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'PedroGomez' and 'SantiagoSilva' are recorded by MSMT as persona labels only; no platform, URL, or account is named. Live GitHub, Telegram, or X accounts using these strings belong to unrelated people and are not attributed to this record.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-ryang-kwang-min-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ryang-kwang-min-kmctc-table",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 heading, PDF file p. 109 (printed p. 107)",
+          "quote": "KMCTC IT Workers"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), DPRK IT Worker column",
+          "quote": "Ryang Kwang \nMin"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ryang-kwang-min-label-pedrogomez",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ryang Kwang Min row, Alias column",
+          "quote": "PedroGomez"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ryang-kwang-min-label-santiagosilva",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ryang Kwang Min row, Alias column",
+          "quote": "SantiagoSilva"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ryang-kwang-min-pedrogomez-employment-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), two Ryang Kwang Min / PedroGomez rows, presented-country column; account selector and rates omitted",
+          "quote": "Argentina"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), two Ryang Kwang Min / PedroGomez rows, client-country column; account selector and rates omitted",
+          "quote": "United States"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ryang-kwang-min-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), DPRK IT Worker column",
+          "quote": "Ryang Kwang \nMin"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ryang-kwang-min-santiagosilva-employment-engagement",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ryang Kwang Min / SantiagoSilva row, presented-country column; account selector and rate omitted",
+          "quote": "Argentina"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ryang Kwang Min / SantiagoSilva row, client-country column; account selector and rate omitted",
+          "quote": "United States"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

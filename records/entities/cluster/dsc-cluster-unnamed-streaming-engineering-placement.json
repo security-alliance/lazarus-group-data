@@ -1,0 +1,57 @@
+{
+  "id": "dsc-cluster-unnamed-streaming-engineering-placement",
+  "type": "cluster",
+  "name": "Unnamed digital-streaming engineering placement",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Official federal indictment; employment and remote-support conduct remain allegations",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S01"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "camera-avoidance",
+    "interview-assistance",
+    "laptop-farm"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "Official federal indictment; employment and remote-support conduct remain allegations.",
+    "official indictment; allegation only"
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "media/streaming",
+      "event_period": "2022-11-16 to 2022-11-21",
+      "statements": [
+        "The indictment alleges a successful remote software-engineering placement supporting an unnamed major media company's digital-streaming service. The employer laptop went to the laptop-farm address, and cited messages describe a second device and a microphone explanation during remote IT support."
+      ],
+      "defensive_controls": [
+        "During remote device support, verify who is physically present and prohibit unexplained second-device participation.",
+        "Escalate repeated microphone/camera failures when combined with identity, shipping or geolocation inconsistencies.",
+        "Issue least-privilege access until identity continuity is established after onboarding."
+      ],
+      "source_ids": [
+        "DSC-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-hiring-composite-detection",
+    "facilitator-christina-marie-chapman"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S01",
+      "support": "The indictment alleges a successful remote software-engineering placement supporting an unnamed major media company's digital-streaming service. The employer laptop went to the laptop-farm address, and cited messages describe a second device and a microphone explanation during remote IT support",
+      "locator": "PDF pp. 4, 20, 27-37; especially ¶¶ 23, 30(w)-(ddd)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

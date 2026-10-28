@@ -1,0 +1,34 @@
+{
+  "id": "kaiming-hong",
+  "real_name": "Kaiming Hong",
+  "aliases": [
+    "Warren Sinclair",
+    "devkitty803",
+    "warrensinclair744"
+  ],
+  "gender": "male",
+  "employment": [
+    {
+      "company": "Munchables"
+    }
+  ],
+  "telegram": [
+    {
+      "id": "5102864895",
+      "usernames": [
+        "devkitty803"
+      ],
+      "names": []
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0xf69201AA19C540b74c170A545Fc6d8805e0EE9b1"
+      ]
+    }
+  ],
+  "notes": "Related to Munchables hack.\nWallet Addresses:\n0xf69201AA19C540b74c170A545Fc6d8805e0EE9b1",
+  "images": [],
+  "curation": "analyst"
+}

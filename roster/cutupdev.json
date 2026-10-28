@@ -1,0 +1,59 @@
+{
+  "id": "cutupdev",
+  "fake_names": [
+    "Cutupdev",
+    "Conrad Takasi"
+  ],
+  "aliases": [
+    "DevCutup",
+    "devcutup"
+  ],
+  "gender": "other",
+  "fake_locations": [
+    "Newcastle, United Kingdom"
+  ],
+  "personal_emails": [
+    "devcutup@gmail.com",
+    "takasi75926@gmail.com"
+  ],
+  "twitter_usernames": [
+    "@devcutup"
+  ],
+  "websites": [
+    "https://www.cutupdev.com/"
+  ],
+  "github": [
+    {
+      "gh_id": "cutupdev",
+      "usernames": [
+        "cutupdev"
+      ]
+    }
+  ],
+  "telegram": [
+    {
+      "id": "6860642001",
+      "usernames": [
+        "DevCutup"
+      ],
+      "names": []
+    },
+    {
+      "id": "7414253766",
+      "usernames": [
+        "cutupdev"
+      ],
+      "names": []
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/cutupdev/cutupdev-av.jpg",
+      "short_description": "Cutupdev avatar.",
+      "tags": [
+        "other"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

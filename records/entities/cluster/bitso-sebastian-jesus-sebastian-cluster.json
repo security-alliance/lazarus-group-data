@@ -1,0 +1,89 @@
+{
+  "id": "bitso-sebastian-jesus-sebastian-cluster",
+  "type": "cluster",
+  "name": "Bitso Chollima V–VI personas",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Controlled investigative labels; Sebastian and Jesús Sebastián remain separate, with legal identities unresolved.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-bitso-chollima-v",
+      "talk-bitso-chollima-vi"
+    ]
+  },
+  "romanizations": [
+    "Jesus Sebastian"
+  ],
+  "organizations": [
+    "Bitso Quetzal Team",
+    "Famous Chollima"
+  ],
+  "locations": [
+    "Claimed Pereira, Colombia; claimed Barranquilla, Colombia"
+  ],
+  "ttps": [
+    "Jesús Sebastián: apparent remote access through AnyDesk or another worker's system",
+    "Jesús Sebastián: newly created social account",
+    "Jesús Sebastián: unstable apparent geography",
+    "Sebastian: source-reported AstrillVPN use",
+    "Sebastian: Spanish ability appeared inconsistent with the claimed native proficiency"
+  ],
+  "caveats": [
+    "The source mentions a newly created Discord account but publishes no stable handle; no account indicator is retained.",
+    "The two labels are grouped for thematic TTP coverage; operator identity remains unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "Sebastian",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "talk-bitso-chollima-v"
+      ]
+    },
+    {
+      "value": "Jesús Sebastián",
+      "alias_type": "employment-persona",
+      "relationship": "uncertain",
+      "source_ids": [
+        "talk-bitso-chollima-vi"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "remote-access",
+      "value": "AnyDesk",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-bitso-chollima-vi"
+      ],
+      "persona_scope": "Jesús Sebastián"
+    },
+    {
+      "type": "vpn",
+      "value": "AstrillVPN",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-bitso-chollima-v"
+      ],
+      "persona_scope": "Sebastian"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-bitso-chollima-v",
+      "support": "Source labels Sebastian, reports the claimed Colombian background, Spanish ability inconsistent with claimed native proficiency, and AstrillVPN use",
+      "locator": "Who’s 'Sebastian'?"
+    },
+    {
+      "source_id": "talk-bitso-chollima-vi",
+      "support": "Source labels Jesús Sebastián, reports the newly created Discord account, unstable connection geography, and AnyDesk use",
+      "locator": "Main narrative"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "deep2-ttp-deep-ttp-01-bbc-tiered-workforce-management",
+  "type": "ttp",
+  "name": "Tiered managers and support staff separate discipline, work allocation, persona preparation, and execution",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources; the technique mapping supplies context rather than an identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-01-bbc-tiered-workforce-management"
+    ]
+  },
+  "ttps": [
+    "multiple-personas",
+    "shared-account",
+    "team-manager"
+  ],
+  "caveats": [
+    "False-positive caution: Lawful subcontracting and accessibility support also create role separation; review should focus on undisclosed or inconsistent control rather than teamwork itself.",
+    "False-positive caution: Staffing agencies, bootcamps, families, and legitimate consulting teams may share references, templates, addresses, or devices; require several corroborating signals and human review.",
+    "One BBC-observed organization is a single observed example; broader DPRK IT-worker unit coverage requires additional sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "BBC’s reviewed internal messenger material describes a four-level structure: senior security/discipline management, intermediate work allocators, practical support staff who prepare false resumes/accounts, and outward-facing IT workers. The records also showed role-based allocation of accounts and computers. This is richer than a generic “team manager” tag because it identifies functional separation across the employment-fraud lifecycle."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-01-bbc-tiered-workforce-management"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s1-bbc-korea-2026-internal-records-deep-ttp-01-bbc-tiered-workforce-management",
+      "support": "BBC’s reviewed internal messenger material describes a four-level structure: senior security/discipline management, intermediate work allocators, practical support staff who prepare false resumes/accounts, and outward-facing IT workers. The records also showed role-based allocation of accounts and computers. This is richer than a generic “team manager” tag because it identifies functional separation across the employment-fraud lifecycle",
+      "locator": "Metadata; sections “IT 노동자는 조직의 말단”, “거실로 출근”, and “북한 지우기 비밀 규칙”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

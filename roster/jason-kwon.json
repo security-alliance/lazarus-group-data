@@ -1,0 +1,78 @@
+{
+  "id": "jason-kwon",
+  "real_name": "Jason Kwon",
+  "aliases": [
+    "0xMoon",
+    "0xm00n",
+    "0xm00n.eth",
+    "0xm00neth",
+    "cryptonerd_",
+    "0xlock"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "0xm00neth@gmail.com"
+  ],
+  "twitter_usernames": [
+    "0xm00neth"
+  ],
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580",
+    "https://cryptototem.com/despace-des/"
+  ],
+  "employment": [
+    {
+      "company": "DeSpace"
+    },
+    {
+      "company": "Beanstalk"
+    },
+    {
+      "company": "Blueberry"
+    },
+    {
+      "company": "Spice Finance"
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xm00neth"
+    },
+    {
+      "gh_id": "0xlock"
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x1e5c29702b770d5519932367129973bd63740392",
+        "0x03e6adb71ec39af3d68733f1c3f5e54e6e55b7d2",
+        "0xa771609c5c56048f146d2c794c87db946bff27cf",
+        "0x1075e62bfacbb44e31d7a5719e55c7d16fe7d35d",
+        "0x4b94ba1528636a699dab486a217d39bb7ce21d75",
+        "0x72c70980acdde7a5c9437050e73e7d07fbf21d25",
+        "0x7969b188f7dc6bf80d68f224ac3454dafe6f6d5d",
+        "0x90cf352ddaf171d41a6ded1d54ceda4005047c93",
+        "0xcdee5da607ad96e966df82dbc3f004ce44859c6f"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/jason-kwon/jason-kwon.png",
+      "short_description": "Profile picture of Jason Kwon.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/jason-kwon/jason-kwon-despace.jpg",
+      "short_description": "Jason Kwon from the DeSpace team page.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

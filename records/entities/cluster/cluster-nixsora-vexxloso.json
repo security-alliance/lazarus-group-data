@@ -1,0 +1,52 @@
+{
+  "id": "cluster-nixsora-vexxloso",
+  "type": "cluster",
+  "name": "Nixsora and vexxloso public company/account cluster",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher research assessment; legal charge, conviction, and verified legal-identity status remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "nkinternet-2026-04-26-nixsora-vexxloso"
+    ]
+  },
+  "ttps": [
+    "code-hosting-account",
+    "front-company-domain",
+    "shared-portfolio"
+  ],
+  "caveats": [
+    "Preserve this negative finding to avoid equating suspicious persona or recruiting activity with malware.",
+    "Publish as a research-attributed suspected front-company relationship; legal status remains research attribution.",
+    "Relationships are the publisher's public OSINT assessment based on account follows, reused profile imagery, website content, repository review and cross-platform posting; legal identity and nationality remain unestablished for each persona.",
+    "Account-to-cluster relationships are retained only. Copied imagery is contextual material; pictured-person involvement or identity requires source support.",
+    "The record covers only public account relationships and recruiting behavior; legal identity remains unverified.",
+    "Treat James Jhon as a research-attributed persona; legal identity remains unverified."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "North Korean Internet assesses Nixsora as a newly created company/front-company presentation that appeared after much of the earlier Mentonex-linked cluster went offline. Its public job pages sought blockchain developers, while its community pages contained conversations pre-seeded in the site's public code.",
+        "The public GitHub account vexxloso was linked by the source to the earlier Mentonex persona cluster through followers trader389 and walletdiscover1010-a11y; trader389 reused the image of a Mentonex Slack persona, while walletdiscover1010-a11y remained associated with Mentonex.",
+        "A public persona presented as James Jhon used the same profile image as vexxloso and posted repeatedly on Dev.to about a sports-card project, while removed search-index results indicated additional community posting. The source interprets this as credibility building around the Nixsora recruitment cluster.",
+        "The source linked recruiter-test to Nixsora through follower/account pivots and noted blockchain-themed test repositories; lightart732059 was part of the same public cluster and advertised remote profit-sharing work.",
+        "The publisher explicitly reported finding no malicious code in the reviewed repositories, despite assessing the cluster as part of a broader recruitment campaign."
+      ],
+      "source_ids": [
+        "nkinternet-2026-04-26-nixsora-vexxloso"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "nkinternet-2026-04-26-nixsora-vexxloso",
+      "support": "North Korean Internet assesses Nixsora as a newly created company/front-company presentation that appeared after much of the earlier Mentonex-linked cluster went offline. Its public job pages sought blockchain developers, while its community pages contained conversations pre-seeded in the site's public code. The public GitHub account vexxloso was linked by the source to the earlier Mentonex persona cluster through followers trader389 and walletdiscover1010-a11y; trader389 reused the image of a Mentonex Slack persona, while walletdiscover1010-a11y remained associated with Mentonex. A public persona presented as James Jhon used the same profile image as vexxloso and posted repeatedly on Dev.to about a sports-card project, while removed search-index results indicated additional community posting. The source interprets this as credibility building around the Nixsora recruitment cluster. The source linked recruiter-test to Nixsora through follower/account pivots and noted blockchain-themed test repositories; lightart732059 was part of the same public cluster and advertised remote profit-sharing work. The publisher explicitly reported finding no malicious code in the reviewed repositories, despite assessing the cluster as part of a broader recruitment campaign",
+      "locator": "Pivoting Companies – A Wild Nixsora.com Is Discovered; Wrapping Up"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

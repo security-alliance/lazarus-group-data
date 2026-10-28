@@ -1,0 +1,375 @@
+{
+  "id": "deep2-unhistory-kim-hyo-dong",
+  "type": "facilitator",
+  "name": "Kim Hyo Dong",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Two Member States designated the subject; this report carries no UN Committee designation. It carries Republic of Korea and UN Panel-reported Member State allegation context. This is an administrative sanctions designation, with legal posture limited to the administrative action.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023"
+    ]
+  },
+  "legal_or_reported_name": "Kim Hyo Dong",
+  "romanizations": [
+    "김효동"
+  ],
+  "organizations": [
+    "Tongmyong Technology Trade Company"
+  ],
+  "locations": [
+    "Laos"
+  ],
+  "ttps": [
+    "foreign-based-facilitator",
+    "money-laundering"
+  ],
+  "caveats": [
+    "Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "The claims were Member State information, and the Lao People’s Democratic Republic had not replied at publication.",
+    "The exact-ID bridge uses the same name, Tongmyong organization, Laos geography, and representative role across the ROK release and S/2023/656; sensitive appendix identifiers are excluded.",
+    "The forced-labor sentence applies across the action and collectively to the five footnoted IT-branch managers; person-specific adjudication requires a separate finding.",
+    "The individuals and company were designated by two Member States; the report attributes the designations to Member State action rather than the UN Committee."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported Tongmyong Technology Trade Company as a Laos-based Munitions Industry Department affiliate that dispatched IT workers; its reported representative was Kim Hyo Dong, while Yu Song Hyok and Yun Song Il reportedly arranged office space/accommodation and mediated with foreign brokers to cash out embezzled virtual assets."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+      "support": "Supports Tongmyong Tech, the three reported support roles, office/accommodation assistance, virtual-asset cash-out mediation and no-reply status",
+      "locator": "PDF p. 51, para. 123 and footnotes 132-134"
+    },
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "The ROK joint release designates Kim Hyo Dong and names him as Tongmyong Technology Trade Company's representative and IT delegation leader in Laos; it collectively alleges labor-control practices by five footnoted IT-branch managers without separately proving every practice by each manager",
+      "locator": "body; named-person table, Tongmyong/Laos role, manager footnote and labor-control paragraph | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "The FSC mirror reproduces the same designation, Tongmyong and Laos role, and collective five-manager labor-control allegation; it is not independent corroboration",
+      "locator": "joint release pp. 1-2; designation label on attachment p. 5 | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. The attachment SHA-256 was 4f8871cda387b9f163b01c4590198c30df6f43d777649653659001e4c56f1e8a. Sensitive identification, payment, and person-image fields on page 5 are deliberately excluded"
+    },
+    {
+      "source_id": "src-4a2ab6784002"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "latin": "Kim Hyo Dong",
+        "korean": "김효동"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123",
+          "quote": "the Democratic People’s Republic of Korea national Kim Hyo Dong"
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "bibo:abstract, individual-designations table",
+          "quote": "김효동"
+        },
+        {
+          "source_id": "src-4a2ab6784002",
+          "locator": "public entity page, name and alias fields",
+          "quote": "Alias 김효동"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The exact organization, Laos geography, and representative role across the two sources support the name-form crosswalk; no same-name subject is merged."
+      ]
+    },
+    {
+      "id": "claim-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2023-05-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "bibo:abstract, designation paragraph",
+          "quote": "우리 정부는 북한 기관 3개와 개인 7명을 제재대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 2, continuation of individual-designations table, name cell",
+          "quote": "김효동"
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, individual-designations table",
+          "quote": "김효동 동명기술무역회사 대표단장"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction. The MOFA and FSC endpoints are mirrors of one joint-government release."
+      ]
+    },
+    {
+      "id": "claim-tongmyong-delegation-head",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_delegation_head_of",
+      "value": {
+        "organization": "Tongmyong Technology Trade Company",
+        "role": "delegation head",
+        "as_of": "2023-05-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "bibo:abstract, individual-designations table",
+          "quote": "동명기술무역회사 대표단장"
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 2, continuation of individual-designations table, role cell",
+          "quote": "동명기술무역회사 대표단장"
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, individual-designations table",
+          "quote": "동명기술무역회사 대표단장"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Historical designation-time role; no present employment is inferred."
+      ]
+    },
+    {
+      "id": "claim-un-member-state-laos-representative-report",
+      "type": "organization_affiliation",
+      "predicate": "un_panel_reported_member_state_identification_as_representative",
+      "value": {
+        "organization": "Tongmyong Technology Trade Company",
+        "role": "representative",
+        "location": "Laos",
+        "source_posture": "Member State information reported by the UN Panel"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123",
+          "quote": "According to the Member State, the Democratic People’s Republic of Korea national Kim Hyo Dong is the Lao People’s Democratic Republic-\nbased Tongmyong Tech representative."
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Member State allegation relayed by the UN Panel; Laos had not replied at publication. Historical role geography, not a current location. No company-wide conduct is assigned to Kim personally."
+      ]
+    },
+    {
+      "id": "claim-kim-hyo-dong-nationality",
+      "type": "note",
+      "predicate": "officially_reported_nationality",
+      "value": {
+        "nationality": "Democratic People's Republic of Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123",
+          "quote": "the Democratic People’s Republic of Korea national Kim Hyo Dong"
+        },
+        {
+          "source_id": "src-4a2ab6784002",
+          "locator": "public entity page, nationality field",
+          "quote": "Nationality North Korea"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "The UN Panel sentence relays Member State information; OpenSanctions derives its field from the non-official RUSI DPRK Reports dataset. No birth or document-identification data was retained."
+      ]
+    },
+    {
+      "id": "claim-kim-hyo-dong-historical-laos-base",
+      "type": "location",
+      "predicate": "un_panel_reported_historical_role_location",
+      "value": {
+        "location": "Lao People's Democratic Republic",
+        "context": "reported base for Tongmyong Tech representative role",
+        "time_posture": "reported by 2023-09-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123",
+          "quote": "Kim Hyo Dong is the Lao People’s Democratic Republic-\nbased Tongmyong Tech representative."
+        },
+        {
+          "source_id": "src-4a2ab6784002",
+          "locator": "public entity page, country and description fields",
+          "quote": "Representative of Tongmyong Technology Trade Company in Laos, which is involved in dispatching DPRK IT workers abroad."
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Historical role geography only. Laos had not replied to the UN Panel at publication, and neither source establishes a current or precise location."
+      ]
+    },
+    {
+      "id": "claim-tongmyong-mid-laos-context",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_affiliated_company_context",
+      "value": {
+        "organization": "Tongmyong Technology Trade Company",
+        "reported_parent_context": "Munitions Industry Department subordinate IT company",
+        "reported_activity_context": "dispatched IT workers to Laos"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, organization footnote 2",
+          "quote": "2) 동명기술무역회사는 군수공업부 산하 IT 회사로, 라오스에 IT 인력 파견"
+        },
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123",
+          "quote": "Tongmyong Technology Trade Company (hereafter “Tongmyong Tech”), reportedly a Lao People’s\nDemocratic Republic-based affiliate of the Munitions Industry Department\n(KPe.028), had dispatched Democratic People’s Republic of Korea information\ntechnology workers abroad."
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Organization context attached to Kim's source-reported role. The company-wide dispatch allegation is not converted into proof that Kim personally recruited, managed, paid, or directed every worker."
+      ]
+    },
+    {
+      "id": "claim-rok-grouped-branch-head-allegations",
+      "type": "note",
+      "predicate": "rok_grouped_it_branch_head_allegations",
+      "value": {
+        "source_class": "five named overseas IT branch heads including Kim Hyo Dong",
+        "allegations": [
+          "led illegal foreign-currency earning",
+          "forced IT workers through surveillance, control, abusive treatment, and unpaid wages"
+        ],
+        "attribution_posture": "grouped Republic of Korea government allegation, not individually particularized conduct"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, grouped individual-conduct paragraph",
+          "quote": "또한, 이번에 제재대상으로 지정된 개인 7명은 △북한 해외 IT 지부 책임자로서 불법 외화벌이를 주도하였거나1), △자금세탁 등 불법 금융활동을 통해 외화벌이를 도움으로써2) 대북제재 회피와 핵ㆍ미사일 개발 자금 조달에 관여하였다. 특히, 이들 IT 지부 책임자들은 IT 인력에 대한 감시ㆍ통제ㆍ갑질, 임금 미지급 등 강제노동을 강요하여 이들의 인권을 유린해 왔다."
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, footnote identifying the five branch heads",
+          "quote": "1) 김상만, 김기혁, 김성일, 전연근, 김효동"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The release places Kim in the footnoted five-person branch-head class but does not provide a separate incident, worker, date, payment, or act specific to him. Preserve the grouped posture and do not present each listed practice as independently proved person-specific conduct.",
+        "This is an administrative-government allegation, not a criminal charge, conviction, labor adjudication, or victim testimony."
+      ]
+    },
+    {
+      "id": "claim-rok-designation-legal-effect",
+      "type": "legal_event",
+      "predicate": "rok_autonomous_sanctions_legal_basis_and_transaction_effect",
+      "value": {
+        "authority": "Republic of Korea",
+        "legal_bases": [
+          "Foreign Exchange Transactions Act",
+          "Act on Prohibition against the Financing of Terrorism and Proliferation of Weapons of Mass Destruction"
+        ],
+        "effect": "foreign-exchange, financial, and virtual-asset transactions with a designated subject require prior authorization under the release's stated framework"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, legal basis and transaction-effects paragraph",
+          "quote": "이번 조치는 “외국환거래법”과 “공중 등 협박목적 및 대량살상무기확산을 위한 자금조달행위의 금지에 관한 법률”에 따른 것이다. 이번 금융제재대상자로 지정된 대상과 외환거래 또는 금융거래를 하기 위해서는 각각 한국은행 총재 또는 금융위원회의 사전 허가가 필요하며, 허가를 받지 않고 거래하는 경우 관련법에 따라 처벌받을 수 있다. 아울러, 금융위원회의 사전 허가 없이 제재 대상으로 지정된 자와 가상자산을 거래하는 것도 금지된다."
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "This records the general legal effect described by the designation release. It is not a claim that Kim attempted a prohibited transaction or was prosecuted for violating these provisions."
+      ]
+    },
+    {
+      "id": "claim-opensanctions-kim-hyo-dong-cross-reference",
+      "type": "note",
+      "predicate": "public_database_entity_cross_reference",
+      "value": {
+        "database": "OpenSanctions",
+        "entity_id": "kprusi-78e77b98349a00eb1c8e15d9abf388d00ba5a52f",
+        "source_dataset": "DPRK Reports",
+        "source_organization": "RUSI",
+        "source_status": "non-official",
+        "safe_profile_fields": {
+          "name": "Kim Hyo Dong",
+          "alias": "김효동",
+          "nationality": "North Korea",
+          "country": "Laos",
+          "description": "Representative of Tongmyong Technology Trade Company in Laos"
+        },
+        "database_risk_statement": "not linked to risk indications in OpenSanctions and not found on international sanctions lists in that database"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-4a2ab6784002",
+          "locator": "public entity page, risk statement",
+          "quote": "They are not linked to any risk indications in our database, and they have not been found on international sanctions lists."
+        },
+        {
+          "source_id": "src-4a2ab6784002",
+          "locator": "public entity page, description and data source",
+          "quote": "Representative of Tongmyong Technology Trade Company in Laos, which is involved in dispatching DPRK IT workers abroad."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "OpenSanctions is an aggregate cross-reference sourced here from the non-official RUSI DPRK Reports dataset, not a new official attribution.",
+        "Its risk-list statement reflects that database's coverage and does not negate the separately verified Republic of Korea autonomous designation. Birth and document-identification fields were excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Reported facilitator or legal subject; preserve allegation, designation, conviction, and identity posture separately for every claim."
+}

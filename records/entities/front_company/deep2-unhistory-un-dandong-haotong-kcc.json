@@ -1,0 +1,43 @@
+{
+  "id": "deep2-unhistory-un-dandong-haotong-kcc",
+  "type": "front_company",
+  "name": "Dandong Haotong Commercial Trade Co. Ltd.",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting includes Member State information; adjudication and independently verified corporate-control findings require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-dandong-haotong-kcc"
+    ]
+  },
+  "caveats": [
+    "China replied that the Panel had offered no concrete clues or evidence and that fragmented information prevented a targeted investigation; China also said it was still coordinating relevant authorities to investigate.",
+    "Japan's Korea Computer Center aliases and Dandong Haotong remain separate; Japan's designation concerns its named target.",
+    "The Chinese registry description establishes Dandong Haotong's registration and stated business lines; beneficial ownership and actual IT-worker activity require separate evidence.",
+    "The legacy record ID retains a historical -kcc suffix for reference stability; the record subject is Dandong Haotong only.",
+    "The reported KCC use of the Dandong Haotong front-company name remains a source-qualified UN Panel and Member State claim; alias, beneficial-ownership, and judicial-finding status remain qualified."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The Panel reported that Korea Computer Center, described by another Member State as belonging to the Munitions Industry Department 313 General Bureau, used Dandong Haotong Commercial Trade Co. Ltd. as a front-company name in Dandong, China.",
+        "Chinese registry information showed Dandong Haotong was registered in 2013 with broad wholesale, retail, import and export business lines that did not disclose the reported IT-worker role."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-dandong-haotong-kcc"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-dandong-haotong-kcc",
+      "support": "Verifies the exact Dandong Haotong name, KCC use as a front name, registration description and China response",
+      "locator": "PDF pp. 52-53, paras. 123-125; annexes 31-32"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

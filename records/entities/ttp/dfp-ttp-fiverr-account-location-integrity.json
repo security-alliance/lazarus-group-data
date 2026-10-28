@@ -1,0 +1,55 @@
+{
+  "id": "dfp-ttp-fiverr-account-location-integrity",
+  "type": "ttp",
+  "name": "Account-sharing, impersonation, and automated location concealment are platform-integrity signals",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is first-party platform-control or threat-research guidance normalized as defensive context; identity attribution and control effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFP-S06",
+      "DFP-S07"
+    ]
+  },
+  "ttps": [
+    "false-location",
+    "freelance-platform",
+    "multiple-personas",
+    "shared-account"
+  ],
+  "caveats": [
+    "Fiverr's sources contain ordinary travel and multi-location login examples; DPRK-specific enforcement scale and account lists require case-specific sources, and any violation requires case-specific evidence.",
+    "Travel, multi-location use, a VPN, or one location mismatch is nonspecific review context; automatic adverse decisions require corroborated evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Fiverr prohibits impersonation, credential sharing, multiple-account evasion, and automated location misrepresentation, and may restrict selling where it detects concealed identity/location, linked abusive accounts, or failed identity/business verification."
+      ],
+      "limitations": [
+        "Fiverr publishes no DPRK-specific enforcement scale or account list in these sources; ordinary travel or multi-location login is not by itself a violation."
+      ],
+      "source_ids": [
+        "DFP-S06",
+        "DFP-S07"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFP-S06",
+      "support": "Fiverr's published rules prohibit impersonation, credential sharing, multiple-account evasion, and automated location misrepresentation, and describe review or restriction when linked risk signals appear",
+      "locator": "Fake identity; multiple accounts; location misrepresentation; account credential sharing"
+    },
+    {
+      "source_id": "DFP-S07",
+      "support": "Fiverr's published rules prohibit impersonation, credential sharing, multiple-account evasion, and automated location misrepresentation, and describe review or restriction when linked risk signals appear",
+      "locator": "Account Flagged; Account Non Eligible to Sell; Identity Verification Not Completed"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

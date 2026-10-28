@@ -1,0 +1,84 @@
+{
+  "id": "cluster-ahegaoxxx-keeper-wallet-provider-keeper",
+  "type": "cluster",
+  "name": "AhegaoXXX / Keeper-Wallet / provider-keeper historical platform chain",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed public security research; legal adjudication, civil-identity finding, and same-operator scope remain unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPC-S02"
+    ]
+  },
+  "organizations": [
+    "Keeper-Wallet"
+  ],
+  "ttps": [
+    "developer-platform account takeover and software-supply-chain abuse"
+  ],
+  "caveats": [
+    "Keep this account-takeover and package-abuse chain distinct from ordinary fraudulent-employment personas and from fake-interview malware.",
+    "Ketman's DPRK linkage is a research attribution; the public platform-history relationship is stronger than the actor attribution.",
+    "The record retains package context while excluding payload, exploit procedure, raw infrastructure, and victim credential.",
+    "The unnamed legitimate npm maintainer was a takeover victim and is expressly excluded from accounts, aliases, organizations, and actor profiling."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "AhegaoXXX",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "DPC-S02"
+      ],
+      "note": "Historical GitHub user label linked by Ketman to this suspected cluster."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "Keeper-Wallet",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "DPC-S02"
+      ],
+      "note": "Historical GitHub organization label linked by Ketman to this suspected cluster."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "provider-keeper",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "DPC-S02"
+      ],
+      "note": "Historical GitHub repository label linked by Ketman to this suspected cluster."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Ketman linked the GitHub user AhegaoXXX to the Keeper-Wallet organization and provider-keeper repository. After a legitimate npm maintainer account was taken over, a malicious package release was published from infrastructure tied by the source to the same GitHub cluster.",
+        "public contributor and organization relationships",
+        "package-repository continuity",
+        "maintainer-change timing",
+        "post-takeover package publication",
+        "shared infrastructure reported by the source"
+      ],
+      "source_ids": [
+        "DPC-S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPC-S02",
+      "support": "Ketman linked the GitHub user AhegaoXXX to the Keeper-Wallet organization and provider-keeper repository. After a legitimate npm maintainer account was taken over, a malicious package release was published from infrastructure tied by the source to the same GitHub cluster",
+      "locator": "Sections “Account Takeover” and “Safety Measures,” especially the repository redirects, release timing, privileged-account activity, and contributor/package-monitoring guidance"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

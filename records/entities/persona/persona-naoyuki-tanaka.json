@@ -1,0 +1,426 @@
+{
+  "id": "persona-naoyuki-tanaka",
+  "type": "persona",
+  "name": "Naoyuki Tanaka",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Historical namespace observation attached for review to the existing Nisos-attributed persona record. This GitHub source is a historical namespace observation; independent bridge, civil identity, account ownership, present control, DPRK attribution, and legal status remain unresolved. NorthScan reports a historical public Torre recommendation from the Naoyuki Tanaka persona to Ryosuke Yamamoto / phantomdev0302; its DPRK characterization of Naoyuki derives from Nisos.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "dns59-northscan-full-report",
+      "platform-s1",
+      "platform-s2",
+      "sar55-s03-superbluestar-commit"
+    ]
+  },
+  "organizations": [
+    "New York-based Enver Studio (reported)"
+  ],
+  "ttps": [
+    "blockchain/web claims",
+    "resume/email mismatch",
+    "shared superbluestar with Shaorun Zhang"
+  ],
+  "caveats": [
+    "Naoyuki Tanaka remains an employment persona label rather than a civil or natural identity. The recommendation keeps Naoyuki Tanaka separate from Ryosuke Yamamoto and phantomdev0302; operator and current account control remain unresolved.",
+    "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens leave this label and other labels unlinked as natural-person identities.",
+    "NorthScan observed the public Torre recommendation. NorthScan's DPRK attribution for Naoyuki Tanaka derives from Nisos and is not independent attribution.",
+    "The commit establishes that the namespace appeared in repository history. Nisos remains the source of the bridge to the Naoyuki Tanaka persona; civil identity, authorship, account ownership, present control, and DPRK attribution require separate evidence.",
+    "This is a same-record claim fragment; accounts, infrastructure, organizations, locations, images, contacts, and other Beejern-report material remain outside the existing Naoyuki persona unless separately sourced.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "accounts": [
+    {
+      "platform": "Calendly",
+      "identifier": "alexander116gm",
+      "url": "https://calendly.com/alexander116gm",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ],
+      "note": "historical; not opened"
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "superbluestar",
+      "url": "https://github.com/superbluestar",
+      "status": "removed",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ],
+      "note": "404 on direct fetch"
+    },
+    {
+      "platform": "Wix",
+      "identifier": "superbluestar",
+      "url": "https://www.wix.com/",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ],
+      "note": "historical handle only"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "platform-s1",
+      "source_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-github-employment-fraud.pdf",
+      "caption": "Nisos report includes a profile image and describes DPRK-linked image manipulation patterns.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-observed-historical-public-recommendation",
+      "platform": "Torre",
+      "recommender_label": "Naoyuki Tanaka",
+      "recommended_persona": "Ryosuke Yamamoto",
+      "recommended_handle": "phantomdev0302",
+      "historical_source_observation": true,
+      "same_natural_person_established": false,
+      "same_operator_established": false,
+      "current_control_inferred": false,
+      "present_activity_inferred": false,
+      "source_ids": [
+        "dns59-northscan-full-report"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "alexander116@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "alexander116@hotmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    },
+    {
+      "type": "email",
+      "value": "alexander116gm@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    },
+    {
+      "type": "portfolio-or-domain",
+      "value": "https://portfolio-one-navy-24.vercel.app",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1",
+        "platform-s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "GitHub accounts are reused to backstop different personas",
+      "locator": "Profile imagery and reused portfolio examples, Graphics 1 and 12, report pp. 4 and 7"
+    },
+    {
+      "source_id": "platform-s1",
+      "support": "Nisos identified “Naoyuki Tanaka” while investigating the GitHub account “superbluestar.”",
+      "locator": "Fake Persona 2: Naoyuki Tanaka, report pp. 8-10; Contact Information and Usernames, p. 16"
+    },
+    {
+      "source_id": "sar55-s03-superbluestar-commit",
+      "support": "A platform-native 2022 commit preserves the historical SuperBluestar/chrome-extension namespace independently of the Nisos report",
+      "locator": "Commit message and committed date"
+    },
+    {
+      "source_id": "dns59-northscan-full-report",
+      "support": "NorthScan observed a historical public Torre recommendation from the profile labeled Naoyuki Tanaka to Ryosuke Yamamoto / phantomdev0302 and explicitly derived its DPRK characterization of Naoyuki from Nisos",
+      "locator": "Complete publisher-hosted HTML, sections 3.1-3.2 and 9.5; related landing page: https://northscan.co/articles/beejern-llc"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-naoyuki-persona",
+      "type": "identity_name",
+      "predicate": "research_attributed_persona_name",
+      "value": {
+        "name": "Naoyuki Tanaka",
+        "identity_status": "employment persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 8, Fake Persona 2: Naoyuki Tanaka",
+          "quote": "Nisos identified the persona Naoyuki Tanaka—used by a likely DPRK IT worker to obtain remote work in the United States"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Research attribution, not a verified civil name."
+      ]
+    },
+    {
+      "id": "claim-superbluestar-handle",
+      "type": "account",
+      "predicate": "research_reported_historical_account",
+      "value": {
+        "platform": "GitHub and Telegram",
+        "handle": "superbluestar",
+        "status": "historical"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 10, Fake Persona 3 opening",
+          "quote": "the GitHub account superbluestar and Telegram account superbluestar, which were listed on the resume for Naoyuki Tanaka"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Shared placement on resumes does not establish a single natural person or current control."
+      ]
+    },
+    {
+      "id": "claim-likely-dprk-worker-use",
+      "type": "relationship",
+      "predicate": "research_attributed_likely_dprk_worker_use",
+      "value": {
+        "attribution": "used by a likely DPRK IT worker"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 8, Fake Persona 2",
+          "quote": "used by a likely DPRK IT worker to obtain remote work in the United States"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Nisos research assessment; not a legal finding or verified nationality of an apparent identity owner."
+      ]
+    },
+    {
+      "id": "claim-enver-role",
+      "type": "employment",
+      "predicate": "research_reported_persona_employment",
+      "value": {
+        "organization": "Enver Studio",
+        "role": "full stack and blockchain engineer",
+        "since": "2021-11"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 8, Fake Persona 2",
+          "quote": "Naoyuki Tanaka appears to have been employed at New York-based video game developer Enver Studio since November 2021 as a full stack and blockchain engineer."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Persona employment reported by Nisos; not independent confirmation of a civil identity."
+      ]
+    },
+    {
+      "id": "claim-development-claims",
+      "type": "skill",
+      "predicate": "persona_website_claimed_experience",
+      "value": {
+        "areas": [
+          "web projects",
+          "blockchain projects",
+          "multiple programming languages"
+        ]
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 8, Fake Persona 2",
+          "quote": "Naoyuki Tanaka’s personal website lists experience in developing web and blockchain projects as well as multiple programming languages."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Self-presented persona claims as summarized by Nisos."
+      ]
+    },
+    {
+      "id": "claim-eight-years",
+      "type": "skill",
+      "predicate": "persona_claimed_software_experience",
+      "value": {
+        "duration": "over eight years",
+        "field": "software development"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 10, Significant Development Experience",
+          "quote": "Naoyuki Tanaka also claims to have over eight years of experience in software development."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Persona claim, not independently verified experience."
+      ]
+    },
+    {
+      "id": "claim-seven-freelance-sites",
+      "type": "account",
+      "predicate": "research_found_freelance_profile_network",
+      "value": {
+        "site_count": 7,
+        "shared_elements": [
+          "persona name",
+          "location",
+          "GitHub account superbluestar",
+          "work history"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 10, Freelancer Employment Websites Linked To Naoyuki Tanaka",
+          "quote": "Nisos identified seven freelance employment websites, which listed the persona name, location, GitHub account superbluestar, and work history of the persona."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Individual profile URLs are omitted to minimize unnecessary collection."
+      ]
+    },
+    {
+      "id": "claim-shaorun-account-reuse",
+      "type": "relationship",
+      "predicate": "research_reported_account_reuse_across_personas",
+      "value": {
+        "other_persona": "Shaorun Zhang",
+        "shared_handle": "superbluestar"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 10, Fake Persona 3 opening",
+          "quote": "Nisos identified the persona Shaorun Zhang—used by a likely DPRK IT worker to obtain remote work in the past—by investigating the GitHub account superbluestar and Telegram account superbluestar, which were listed on the resume for Naoyuki Tanaka."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Account reuse links persona records; it does not prove the labels are one natural person."
+      ]
+    },
+    {
+      "id": "claim-profile-image-research",
+      "type": "image",
+      "predicate": "research_labeled_profile_image",
+      "value": {
+        "handling": "link-only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 4, Graphic 1 caption",
+          "quote": "Profile Photo of likely DPRK persona Naoyuki Tanaka."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "No image was retained and no facial recognition or appearance-based identity inference was performed."
+      ]
+    },
+    {
+      "id": "claim-superbluestar-historical-repository-namespace",
+      "type": "account",
+      "predicate": "historical_repository_namespace_observed",
+      "value": {
+        "platform": "GitHub",
+        "namespace": "SuperBluestar/chrome-extension",
+        "evidence_scope": "namespace referenced in a separate repository's merge commit"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "sar55-s03-superbluestar-commit",
+          "locator": "Commit message and committed date",
+          "quote": "Merge branch 'main' of https://github.com/SuperBluestar/chrome-extension"
+        }
+      ],
+      "observed_at": "2022-11-25",
+      "notes": [
+        "The GitHub commit independently establishes only the historical namespace string.",
+        "Nisos remains the source of the bridge from superbluestar to the Naoyuki Tanaka persona.",
+        "Do not infer civil identity, authorship, ownership, present control, or DPRK attribution from this commit."
+      ]
+    },
+    {
+      "id": "claim-naoyuki-northscan-torre-recommendation",
+      "type": "relationship",
+      "predicate": "northscan_observed_historical_public_torre_recommendation",
+      "value": {
+        "platform": "Torre",
+        "recommender_label": "Naoyuki Tanaka",
+        "recommended_persona": "Ryosuke Yamamoto",
+        "recommended_handle": "phantomdev0302",
+        "observation_scope": "historical public recommendation reported by NorthScan",
+        "same_natural_person_established": false,
+        "same_operator_established": false,
+        "current_control_inferred": false,
+        "present_activity_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dns59-northscan-full-report",
+          "locator": "Sections 3.1-3.2, recommendation paragraph",
+          "quote": "This profile received a recommendation from an individual already identified by Nisos Research as a confirmed DPRK IT worker persona: Naoyuki Tanaka"
+        },
+        {
+          "source_id": "dns59-northscan-full-report",
+          "locator": "Section 9.5, Known DPRK Network Confirmation",
+          "quote": "Ryosuke Yamamoto / phantomdev0302 recommended by Nisos -confirmed DPRK persona Naoyuki Tanaka"
+        }
+      ],
+      "observed_at": "2026-05-15",
+      "notes": [
+        "The full report remains in the same NorthScan/Nisos dependency family because NorthScan's characterization derives from Nisos; it is not independent DPRK attribution.",
+        "The recommendation does not establish a civil identity, one natural person or operator, current account control, or present activity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "Nisos attributes the employment persona Naoyuki Tanaka and source-linked superbluestar account cluster. The persona remains separate from Huy Diep and Shaorun Zhang; reused resumes and handles supply a correlation lead, while profile imagery supplies no identity finding."
+}

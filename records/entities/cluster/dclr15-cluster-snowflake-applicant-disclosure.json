@@ -1,0 +1,61 @@
+{
+  "id": "dclr15-cluster-snowflake-applicant-disclosure",
+  "type": "cluster",
+  "name": "Snowflake applicant-stage disclosure",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Company-specific applicant observation attributed by The Register to Snowflake's CISO in an original interview, reported in The Register's canonical original interview article; company page, legal finding, hire, and compromise finding fall outside this source's scope.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCLR15-S03-REGISTER-2025"
+    ]
+  },
+  "organizations": [
+    "Snowflake"
+  ],
+  "ttps": [
+    "applicant-pipeline-review",
+    "pre-access-hiring-review",
+    "source-attributed-indicator-sharing"
+  ],
+  "caveats": [
+    "Appearance, accent, nationality, ethnicity, language, geography, remote-work preference, camera behavior, VPN use, and any single device, network, phone, or account-age signal require corroboration before attribution.",
+    "Applicant-stage reporting covers the application stage; a successful hire, system access, post-hire conduct, or harm requires an express statement from the cited source.",
+    "The source records an attempted process; successful hire, compromise, and definitive DPRK identity remain unresolved.",
+    "The source supplies an applicant-volume discussion without a numeric applicant count.",
+    "Candidate contact and address indicators stay unpublished.",
+    "This record covers aggregate context; applicant, worker, identity-theft victim, current account, private customer, and anonymized legal-entity identity require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "reported-company-applicant-stage-cluster",
+      "statements": [
+        "Snowflake's CISO said the company had seen applicants fitting the DPRK-linked fraudulent-worker category and shared related indicators with partners and peers.",
+        "Stage: application.",
+        "Reported outcome: Applicants observed; no hire or access reported."
+      ],
+      "limitations": [
+        "Do not infer how many applicants were involved.",
+        "Do not infer a successful hire, compromise, or definitive DPRK identity.",
+        "Do not publish candidate contact or address indicators.",
+        "Applicant-stage reporting does not establish a successful hire, system access, post-hire conduct, or harm unless the cited source expressly says so.",
+        "No applicant, worker, identity-theft victim, current account, private customer, or anonymized legal entity may be identified or inferred from this record.",
+        "Appearance, accent, nationality, ethnicity, language, geography, remote-work preference, camera behavior, VPN use, or any single device, network, phone, or account-age signal is not attribution evidence by itself."
+      ],
+      "source_ids": [
+        "DCLR15-S03-REGISTER-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DCLR15-S03-REGISTER-2025",
+      "support": "Canonical-source boundary: the cited URL is The Register's verified original article; the company statements remain reported executive observations, not first-party company pages or adjudicated findings. Snowflake CISO Brad Jones told the publication that Snowflake had seen applicants fitting the DPRK-linked category and had shared associated indicators with peers. Netskope CISO James Robinson said Netskope had received fraudulent-worker applications; he described resumes apparently built from stolen or fake identities, an FBI briefing involving security, HR and legal, recruiter detection of copied profiles, and applicants withdrawing when stronger onboarding checks were required. Normalized boundary: Snowflake's CISO said the company had seen applicants fitting the DPRK-linked fraudulent-worker category and shared related indicators with partners and peers. Attribution boundary: Named executives' original company-specific applicant observations as reported by a reputable technology publication. The article does not establish a successful hire or definitive legal identity for any applicant. Publication boundary: Create at most separate applicant-stage organization disclosures for Snowflake and Netskope. Do not retain the article's example candidate names, contact fields, or indicator values",
+      "locator": "Opening company disclosures; Netskope interview section"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

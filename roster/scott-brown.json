@@ -1,0 +1,83 @@
+{
+  "id": "scott-brown",
+  "real_name": "Scott Brown",
+  "aliases": [
+    "breavedev",
+    "braverdever",
+    "nevermindhim",
+    "verytinydever",
+    "scott.brown0629"
+  ],
+  "fake_names": [
+    "Kyle Larsen",
+    "Sean Day"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "scott.brown0629@gmail.com",
+    "what.a.fabulous1@gmail.com",
+    "sct.brown0629@gmail.com"
+  ],
+  "websites": [
+    "https://dev.to/scott_brown_b611d05a865cf",
+    "https://www.impaxrecruitment.com/wp-content/uploads/elementor/forms/6786f200b23aa.pdf"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/scott-brown-b947ba29a",
+        "https://linkedin.com/in/scott-brown-813445279"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "breavedev",
+      "usernames": [
+        "breavedev"
+      ]
+    },
+    {
+      "gh_id": "nevermindhim",
+      "usernames": [
+        "nevermindhim"
+      ]
+    },
+    {
+      "gh_id": "verytinydever",
+      "usernames": [
+        "verytinydever"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x3b8cc82f5d3ec89d88c58504ecfefe4597020840",
+        "0xa8cb25ddf0a7195bdc3232ac6e1d812c8a4713fe",
+        "0x368a337dcdec5cf9849a7563538f03b1516a3f7d",
+        "0xb25a0580ddf68d4aea11d83f1655016e9520f51a",
+        "0x38a35ab4235ce7c8b5c4733cee7de9e28e348acb",
+        "0xce0113e71ce0273d0504a7ef1cd4f0e6e4d196bc"
+      ]
+    }
+  ],
+  "notes": "Part of the Scott Brown Cluster.\nWallet Addresses:\n0x3b8cc82f5d3ec89d88c58504ecfefe4597020840\n0xa8cb25ddf0a7195bdc3232ac6e1d812c8a4713fe\n0x368a337dcdec5cf9849a7563538f03b1516a3f7d\n0xb25a0580ddf68d4aea11d83f1655016e9520f51a\n0x38a35ab4235ce7c8b5c4733cee7de9e28e348acb\n0xce0113e71ce0273d0504a7ef1cd4f0e6e4d196bc",
+  "images": [
+    {
+      "path": "/team-images/scott-brown/scott-brown-av.png",
+      "short_description": "Scott Brown avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "datf-ttp-thinktank-prospective-proxy-risk",
+  "type": "ttp",
+  "name": "Prospective strategic risk of overseas IT personnel as proxy resources",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Prospective think-tank strategic assessment; observed operation and current alliance tasking status require operational sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DATF-S13"
+    ]
+  },
+  "ttps": [
+    "cyber-it-worker-boundary",
+    "prospective-state-proxy-risk",
+    "third-country-infrastructure"
+  ],
+  "caveats": [
+    "Keep fraudulent employment, malicious cyber operations, and virtual-asset theft analytically separate unless a source establishes overlap in a specific case.",
+    "The original brief repeatedly uses prospective possibility language and identifies no operation in which overseas IT workers acted as wartime cyber proxies.",
+    "This scenario remains a scenario; observed TTP, current tasking and person-level attribution require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "defensive-use-boundary",
+      "statements": [
+        "Use this source-qualified context for governance or corroborated behavior-based review, never as standalone identity or nationality attribution."
+      ],
+      "limitations": [
+        "No single nationality, geography, language, education history, technical skill, remote-work preference, interview anomaly, authentication event, or device signal establishes fraud or DPRK attribution."
+      ],
+      "source_ids": [
+        "DATF-S13"
+      ]
+    },
+    {
+      "type": "think-tank-strategic-assessment",
+      "statements": [
+        "A Korean-language national-security brief assesses that overseas DPRK IT personnel could, in a future cyber conflict, be used as remote proxy resources or provide technical support through infrastructure in friendly states."
+      ],
+      "limitations": [
+        "The original brief repeatedly uses prospective possibility language and identifies no operation in which overseas IT workers acted as wartime cyber proxies.",
+        "Keep fraudulent employment, malicious cyber operations, and virtual-asset theft analytically separate unless a source establishes overlap in a specific case.",
+        "This scenario must not be converted into an observed TTP, current tasking claim, or person-level attribution."
+      ],
+      "method_and_source_boundary": "reputable national-security think-tank analysis; forward-looking assessment rather than observed incident evidence",
+      "source_ids": [
+        "DATF-S13"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "DATF-F03",
+    "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+    "DPA-F02"
+  ],
+  "sources": [
+    {
+      "source_id": "DATF-S13",
+      "support": "Supports the explicitly prospective strategic-risk assessment. Normalized statement: A Korean-language national-security brief assesses that overseas DPRK IT personnel could, in a future cyber conflict, be used as remote proxy resources or provide technical support through infrastructure in friendly states",
+      "locator": "Korean abstract, PDF p. 2; section on possible support in cyber conflict or use as mercenaries, PDF p. 8"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

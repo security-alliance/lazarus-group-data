@@ -1,0 +1,12 @@
+{
+  "id": "src-41fd88e664a2",
+  "publisher": "GitHub",
+  "title": "GitHub owner repository inventory: kamaalsultan",
+  "url": "https://api.github.com/users/kamaalsultan/repos?per_page=100&type=owner&sort=full_name",
+  "accessed_at": "2026-08-15",
+  "sha256": "b8b14042ddcbea0edb63b4c9a831cf86858eb87c86e06a339b6f96accd9532f8",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

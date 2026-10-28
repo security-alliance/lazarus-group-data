@@ -1,0 +1,466 @@
+{
+  "id": "facilitator-jang-kuk-chol",
+  "type": "facilitator",
+  "name": "Jang Kuk Chol",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Designated under E.O. 13694, as further amended, and E.O. 13810; North Korean banker; Treasury reported that he and Ho Jong Son helped manage funds, including a collective $5.3 million in cryptocurrency, on behalf of First Credit Bank; this is an administrative sanctions designation, with the record carrying no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-1676c34a002b",
+      "gov-2815ca074b83",
+      "gov-38e5789f9f87",
+      "gov-59746ada8798",
+      "gov-b2897867e002",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Jang Kuk Chol",
+  "organizations": [
+    "First Credit Bank"
+  ],
+  "locations": [
+    "Vladivostok, Russia"
+  ],
+  "caveats": [
+    "Administrative designation and Treasury-reported collective conduct; no criminal charge or adjudicated finding. The $5.3 million cryptocurrency aggregate and downstream ransomware/IT-worker-revenue linkage apply jointly to Jang Kuk Chol and Ho Jong Son; they are not allocated to Jang individually. First Credit Bank is a reported on-behalf-of relationship; employment, office and personal ownership of the bank's accounts or wallets are unestablished. Vladivostok, Russia is designation-era exact-entry context; residence, continued presence and present location are unestablished. The record retains no account, wallet, address, transaction, victim, counterparty, passport, birth, nationality, gender, contact, precise address or other sensitive selector.",
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "CHANG, Kuk Ch'o'l — official romanization.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "CHANG, Kuk Ch'o'l"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "JANG, Kuk Chol"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-jang-kuk-chol"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-38e5789f9f87",
+      "support": "CyberScoop independently publishes Jang's name as one of two North Korean bankers designated in the action and reports that the pair stood accused of managing cryptocurrency funds for First Credit Bank. It relies on Treasury and supplies no Jang-specific amount, wallet, account, transaction, victim, or present-location evidence",
+      "locator": "Article body; paragraphs naming Jang and describing the two bankers"
+    },
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "Treasury identifies Jang and Ho Jong Son as North Korean bankers who helped manage funds, including a collective $5.3 million in cryptocurrency, on behalf of First Credit Bank; it links a portion collectively to a DPRK ransomware actor and DPRK IT-worker revenue and records both E.O. 13694 and E.O. 13810 designation bases. The amount and linked portion are not allocated to Jang individually and remain administrative-source allegations",
+      "locator": "Key enablers section; Jang-and-Ho fund-management, funds-linkage, and designation paragraphs"
+    },
+    {
+      "source_id": "gov-b2897867e002",
+      "support": "The original OFAC action lists the primary form JANG, Kuk Chol, alias CHANG, Kuk Ch'o'l, Vladivostok, Russia designation-era context, and programs DPRK4 and CYBER4. Birth, nationality, gender, passport, compliance text, and bank-level financial selectors are excluded",
+      "locator": "Specially Designated Nationals List Update; Jang Kuk Chol entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row confirms Vladivostok, Russia for OFAC entity number 55183. The living row does not establish residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 55183"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 55183: CHANG, Kuk Ch'o'l. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 55183"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 55183 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV",
+      "locator": "SDN.CSV primary/current-list row for OFAC ent_num 55183"
+    },
+    {
+      "source_id": "gov-2815ca074b83",
+      "support": "Recorded Future News names Jang and reports that Treasury tied him and Ho Jong Son to First Credit Bank and collectively described about $5.3 million in managed cryptocurrency, a portion linked to ransomware and IT-worker revenue. The article relies on Treasury and does not independently prove the conduct or allocate any amount, account, wallet, transaction, or victim to Jang",
+      "locator": "Article body; named-individuals and Jang-and-Ho paragraphs"
+    },
+    {
+      "source_id": "gov-59746ada8798",
+      "support": "The official notice lists JANG, Kuk Chol, alias CHANG, Kuk Ch'o'l, Vladivostok, Russia, programs DPRK4 and CYBER4, and the E.O. 13694 and E.O. 13810 designation bases. PDF page 1 was rendered at 2x scale and visually inspected. Sensitive person attributes, identifiers, compliance text, and financial selectors are excluded",
+      "locator": "90 FR 51441, item 1 and following two designation paragraphs (PDF p. 1)"
+    },
+    {
+      "source_id": "gov-1676c34a002b",
+      "support": "TRM Labs names Jang and Ho Jong Son and summarizes Treasury's collective First Credit Bank cryptocurrency account. It separately notes that Treasury added 53 cryptocurrency addresses to the Cheil Credit Bank entity listing; those are bank-level selectors and are not attributed to Jang or retained on his person profile",
+      "locator": "Article body; newly designated individuals and Cheil Credit Bank paragraphs"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "JANG, Kuk Chol",
+        "display": "Jang Kuk Chol"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 55183",
+          "quote": "55183,\"JANG, Kuk Chol\",\"individual\",\"DPRK4] [CYBER4\""
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jang Kuk Chol entry",
+          "quote": "JANG, Kuk Chol (a.k.a. CHANG, Kuk Ch'o'l), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 1 (PDF p. 1)",
+          "quote": "1. JANG, Kuk Chol (a.k.a. CHANG, Kuk Ch’o’l), Vladivostok, Russia"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Official sanctions-list name form; not a criminal adjudication."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "CHANG, Kuk Ch'o'l",
+        "ofac_entity_number": "55183"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row joined to OFAC entity number 55183",
+          "quote": "55183,85921,\"aka\",\"CHANG, Kuk Ch'o'l\",-0-"
+        },
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jang Kuk Chol entry",
+          "quote": "JANG, Kuk Chol (a.k.a. CHANG, Kuk Ch'o'l), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 1 (PDF p. 1)",
+          "quote": "1. JANG, Kuk Chol (a.k.a. CHANG, Kuk Ch’o’l), Vladivostok, Russia"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Source-explicit OFAC alias tied by entity number; do not transfer it to a same-name person."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "programs": [
+          "DPRK4",
+          "CYBER4"
+        ],
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 55183",
+          "quote": "55183,\"JANG, Kuk Chol\",\"individual\",\"DPRK4] [CYBER4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current administrative-list observation; not a conviction, account-control finding, or present-location claim."
+      ]
+    },
+    {
+      "id": "claim-treasury-banker-role",
+      "type": "employment",
+      "predicate": "treasury_reported_banker_role",
+      "value": {
+        "role": "North Korean banker",
+        "reported_group": [
+          "Jang Kuk Chol",
+          "Ho Jong Son"
+        ],
+        "as_of": "2025-11-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Key Enablers of DPRK Cybercrime and IT Workers, Jang and Ho paragraph",
+          "quote": "Jang Kuk Chol (Jang) and Ho Jong Son are North Korean bankers"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury-reported role; no civil-identity or criminal adjudication is inferred."
+      ]
+    },
+    {
+      "id": "claim-first-credit-bank-fund-management",
+      "type": "incident",
+      "predicate": "treasury_collectively_reported_management_of_bank_funds",
+      "value": {
+        "organization": "First Credit Bank",
+        "reported_group": [
+          "Jang Kuk Chol",
+          "Ho Jong Son"
+        ],
+        "reported_aggregate": "$5.3 million in cryptocurrency"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Key Enablers of DPRK Cybercrime and IT Workers, Jang and Ho paragraph",
+          "quote": "Jang Kuk Chol (Jang) and Ho Jong Son are North Korean bankers who have helped manage funds, including $5.3 million in cryptocurrency, on behalf of OFAC-designated First Credit Bank."
+        },
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; Jang-and-Ho paragraph",
+          "quote": "According to the Treasury Department, Jang Kuk Chol and Ho Jong Son are bankers tied to the previously sanctioned First Credit Bank. The North Koreans helped manage about $5.3 million in cryptocurrency"
+        },
+        {
+          "source_id": "gov-38e5789f9f87",
+          "locator": "Article body; paragraph describing the two bankers",
+          "quote": "The two bankers stand accused of managing cryptocurrency funds on behalf of a previously designated entity, First Credit Bank."
+        },
+        {
+          "source_id": "gov-1676c34a002b",
+          "locator": "Article body; newly designated individuals paragraph",
+          "quote": "Jang Kuk Chol (Jang) and Ho Jong Son — North Korean bankers who, according to Treasury, helped manage funds, including approximately USD 5.3 million in cryptocurrency, on behalf of the OFAC-designated First Credit Bank (Cheil Credit Bank)."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Collective Treasury statement about Jang and Ho; the aggregate is not assigned to Jang alone and no account or wallet selector is retained."
+      ]
+    },
+    {
+      "id": "claim-reported-funds-linkage",
+      "type": "relationship",
+      "predicate": "treasury_reported_linkage_of_collectively_managed_funds",
+      "value": {
+        "scope": "a portion of the funds collectively attributed to Jang Kuk Chol and Ho Jong Son",
+        "reported_actor": "a DPRK ransomware actor that had targeted U.S. victims and handled revenue from DPRK IT workers"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Key Enablers of DPRK Cybercrime and IT Workers, sentence after the Jang and Ho fund-management statement",
+          "quote": "A portion of these funds can be linked to a DPRK ransomware actor that has previously targeted U.S. victims and handled revenue from DPRK IT workers."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury's collective funds-linkage statement; it does not identify a victim, transaction, wallet, or Jang-only amount."
+      ]
+    },
+    {
+      "id": "claim-cyber-authority-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_under_cyber_authority",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13694, as further amended",
+        "reported_basis": "material support for a specified cyber-enabled activity"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Key Enablers of DPRK Cybercrime and IT Workers, designation paragraph",
+          "quote": "OFAC designated Jang and Ho Jong Son pursuant to E.O. 13694, as amended by E.O. 13757, E.O. 14144, and E.O. 14306 (“E.O. 13694, as further amended”), for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, a cyber-enabled activity identified in section l(a)(ii)(D) of E.O. 13694, as further amended."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-dprk-authority-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_under_dprk_authority",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13810",
+        "reported_basis": "North Korean person engaged in commercial activity generating revenue for the DPRK government or Workers' Party of Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Key Enablers of DPRK Cybercrime and IT Workers, designation paragraph",
+          "quote": "OFAC also designated Jang and Ho Jong Son pursuant to E.O. 13810 for being North Korean persons, including North Korean persons that have engaged in commercial activity that generates revenue for the Government of North Korea or the Workers’ Party of Korea."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation only; not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-first-credit-bank-relationship",
+      "type": "relationship",
+      "predicate": "treasury_reported_on_behalf_of_bank_relationship",
+      "value": {
+        "organization": "First Credit Bank",
+        "organization_alias_in_action": "Cheil Credit Bank",
+        "relationship_scope": "Jang Kuk Chol and Ho Jong Son collectively helped manage funds on the bank's behalf"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Key Enablers of DPRK Cybercrime and IT Workers, Jang and Ho paragraph",
+          "quote": "Jang Kuk Chol (Jang) and Ho Jong Son are North Korean bankers who have helped manage funds, including $5.3 million in cryptocurrency, on behalf of OFAC-designated First Credit Bank."
+        },
+        {
+          "source_id": "gov-1676c34a002b",
+          "locator": "Article body; newly designated individuals paragraph",
+          "quote": "on behalf of the OFAC-designated First Credit Bank (Cheil Credit Bank)"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "This is an on-behalf-of relationship, not evidence that Jang was an employee, officer, owner, account holder, or wallet owner of First Credit Bank. The collective amount remains review-tier and is not repeated as a Jang-only fact."
+      ]
+    },
+    {
+      "id": "claim-exact-entry-coarse-geography",
+      "type": "location",
+      "predicate": "official_entry_lists_coarse_geography",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "context": "designation-era exact-entry context",
+        "present_location_inference": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update; Jang Kuk Chol entry",
+          "quote": "JANG, Kuk Chol (a.k.a. CHANG, Kuk Ch'o'l), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51441, item 1 (PDF p. 1)",
+          "quote": "1. JANG, Kuk Chol (a.k.a. CHANG, Kuk Ch’o’l), Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV row joined to OFAC entity number 55183",
+          "quote": "55183,84422,-0- ,\"Vladivostok\",\"Russia\",-0-"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Designation-era exact-entry context only; it is not a claim of residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-separate-publisher-coverage",
+      "type": "note",
+      "predicate": "named_in_reputable_separate_publisher_coverage",
+      "value": {
+        "publishers": [
+          "Recorded Future News / The Record",
+          "CyberScoop",
+          "TRM Labs"
+        ],
+        "underlying_claim_source": "U.S. Department of the Treasury"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; named-individuals and Jang-and-Ho paragraphs",
+          "quote": "Jang Kuk Chol, Ho Jong Son, Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok"
+        },
+        {
+          "source_id": "gov-38e5789f9f87",
+          "locator": "Article body; designated-subject paragraph",
+          "quote": "The department designated Jang Kuk Chol and Ho Jong Son, two North Korean bankers"
+        },
+        {
+          "source_id": "gov-1676c34a002b",
+          "locator": "Article body; newly designated individuals paragraph",
+          "quote": "Among the newly designated individuals are Jang Kuk Chol (Jang) and Ho Jong Son"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "These are separate publishers but derivative coverage of the Treasury action, not independent proof of the alleged conduct."
+      ]
+    },
+    {
+      "id": "claim-bank-level-wallet-boundary",
+      "type": "wallet",
+      "predicate": "bank_level_crypto_addresses_not_person_attributed",
+      "value": {
+        "organization": "Cheil Credit Bank / First Credit Bank",
+        "reported_address_count": 53,
+        "source_explicit_person_ownership": false,
+        "retained_on_person_profile": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Cheil Credit Bank SDN-list update following the person entries",
+          "quote": "The following changes have been made to OFAC's SDN List: CHEIL CREDIT BANK (a.k.a. FIRST CREDIT BANK"
+        },
+        {
+          "source_id": "gov-1676c34a002b",
+          "locator": "Article body; sentence following the Jang-and-Ho paragraph",
+          "quote": "Treasury also added 53 cryptocurrency addresses to the SDN listing for Cheil Credit Bank"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "The action attaches the addresses to the bank entity, not to Jang or Ho. This boundary is recorded so public bank-level on-chain material is not misrepresented as a personal wallet set. The addresses themselves are not copied into this person profile."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jang Kuk Chol, listed by OFAC as JANG, Kuk Chol with alternate romanization CHANG, Kuk Ch'o'l, is one of the two North Korean bankers described in Treasury's November 2025 sanctions action. Preserve the collective scope of funds reportedly managed with Ho Jong Son on behalf of First Credit Bank, administrative-designation posture and historical source context. Criminal guilt, present location and ownership of the bank's wallets or a same-named account require separate evidence."
+}

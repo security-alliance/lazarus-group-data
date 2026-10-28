@@ -1,0 +1,213 @@
+{
+  "id": "worker-ri-kwang-hun",
+  "type": "worker",
+  "name": "Ri Kwang Hun",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Ri Kwang Hun",
+  "organizations": [
+    "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+  ],
+  "locations": [
+    "China (Shenyang/Dandong)"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "MarkoZrin",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 7 provides employment aliases/accounts and states the delegation used Chinese nationals as banking proxies. Annex 7 also reproduces identity/passport photos for 14 members; sensitive document numbers are intentionally omitted here",
+      "locator": "Annex 7 employment table, PDF p. 111 / printed p. 109 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ri-kwang-hun-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Ri Kwang Hun"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ri Kwang Hun row, DPRK IT Worker column",
+          "quote": "Ri Kwang Hun"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported name; no identity-document fields were used."
+      ]
+    },
+    {
+      "id": "claim-ri-kwang-hun-kmctc-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "listed_in_kmctc_it_worker_employment_table",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation",
+        "abbreviation": "KMCTC",
+        "source_scope": "Annex 7 employment table"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ri Kwang Hun row",
+          "quote": "Ri Kwang Hun"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "A source-table affiliation, not a claim about delegation management, banking-proxy conduct, current employment, or current location."
+      ]
+    },
+    {
+      "id": "claim-ri-kwang-hun-label-markozrin",
+      "type": "alias",
+      "predicate": "source_reported_employment_label",
+      "value": {
+        "label": "MarkoZrin",
+        "label_type": "employment label"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), Ri Kwang Hun row, Alias column",
+          "quote": "MarkoZrin"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Employment-table label only; no present account control or civil identity is inferred."
+      ]
+    },
+    {
+      "id": "claim-ri-kwang-hun-markozrin-us-engagement",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "employment_label": "MarkoZrin",
+        "presented_country": "Serbia",
+        "client_country": "United States",
+        "duration": "2 months",
+        "separate_table_row": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Ri Kwang Hun / MarkoZrin row, presented-country column; selector and rate omitted",
+          "quote": "Serbia"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Ri Kwang Hun / MarkoZrin row, client-country column; selector and rate omitted",
+          "quote": "United States"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), first Ri Kwang Hun / MarkoZrin row, duration column; selector and rate omitted",
+          "quote": "2 months"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source-table row. The account selector and rate are excluded; presented country is persona context, not civil nationality, client identity, or physical location."
+      ]
+    },
+    {
+      "id": "claim-ri-kwang-hun-markozrin-ireland-engagement",
+      "type": "employment",
+      "predicate": "source_reported_employment_engagement",
+      "value": {
+        "employment_label": "MarkoZrin",
+        "presented_country": "Serbia",
+        "client_country": "Ireland",
+        "duration": "2 weeks",
+        "separate_table_row": true
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), second Ri Kwang Hun / MarkoZrin row, presented-country column; selector and rate omitted",
+          "quote": "Serbia"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), second Ri Kwang Hun / MarkoZrin row, client-country column; selector and rate omitted",
+          "quote": "Ireland"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 employment table, PDF file p. 111 (printed p. 109), second Ri Kwang Hun / MarkoZrin row, duration column; selector and rate omitted",
+          "quote": "2 weeks"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Separate historical source-table row using the same employment label. The account selector and rate are excluded; the report does not establish whether the rows describe separate engagements, a continuation, or duplicate reporting."
+      ]
+    },
+    {
+      "id": "claim-ri-kwang-hun-kmctc-banking-proxy-context",
+      "type": "incident",
+      "predicate": "msmt_reported_kmctc_delegation_banking_proxy_context",
+      "value": {
+        "organization": "Korea Mangyongdae Computer Technology Corporation",
+        "reported_activity": "use of Chinese nationals as banking proxies for IT-worker revenue generated in China",
+        "scope": "organization/delegation-level",
+        "individual_conduct_attributed": false,
+        "financial_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Organization/delegation-level MSMT context only; it does not attribute personal banking-proxy use, money laundering, account control, or a transaction to this individual.",
+        "No account, proxy identity, payment, transaction, wallet, client, victim, or precise-location selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ri Kwang Hun is the person named in the MSMT Annex 7 KMCTC employment table. MarkoZrin is retained as a source-reported employment label; civil identity and present account-control findings require separate evidence. Keep records separate by name, image, nationality, geography and technology."
+}

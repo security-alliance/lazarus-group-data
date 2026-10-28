@@ -1,0 +1,82 @@
+{
+  "id": "front-company-shenyang-geumpungri-network-technology-co-ltd",
+  "type": "front_company",
+  "name": "Shenyang Geumpungri Network Technology Co., Ltd.",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. The record describes an IT-worker front/company subordinate to Chinyong IT and a PRC front company in a DPRK IT-worker network under an administrative sanctions designation; criminal charge or conviction is outside this designation.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-f27a7bc525e4",
+      "int-msmt-2025-2"
+    ]
+  },
+  "organizations": [
+    "Chinyong Information Technology Cooperation Company"
+  ],
+  "locations": [
+    "Shenyang, Liaoning, China"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The classification and link are source context; current operations and control status remain unverified."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ],
+      "value": "Shenyang GeumpungRi Network Technology Co. Ltd."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Chinyong Information Technology Cooperation Company",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    },
+    {
+      "type": "ofac-organization-type",
+      "value": "Other information technology and computer service activities",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-shenyang-geumpungri-network-technology-co-ltd"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-f27a7bc525e4",
+      "support": "OFAC designated Vitaliy Sergeyevich Andreyev, Kim Ung Sun, Shenyang Geumpungri Network Technology Co., Ltd., and Korea Sinjin Trading Corporation",
+      "locator": "Overseas IT Worker Network section"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 8 gives a mapped location and PRC bank accounts; exact residential-style address and account numbers are retained only in the source reference",
+      "locator": "Annex 8 company description and account table, PDF pp. 120-121 / printed pp. 118-119 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 55062 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current row adds an IT/computer-services classification and an explicit Chinyong link. The already cataloged Shenyang location is not duplicated. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 55062"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

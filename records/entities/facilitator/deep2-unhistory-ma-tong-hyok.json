@@ -1,0 +1,333 @@
+{
+  "id": "deep2-unhistory-ma-tong-hyok",
+  "type": "facilitator",
+  "name": "Ma Tong Hyok",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel-reported Member State allegation; publication records the response status as pending.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang"
+    ]
+  },
+  "ttps": [
+    "team-manager"
+  ],
+  "caveats": [
+    "Money-laundering language is an allegation relayed by a Member State; the report's legal posture remains an allegation.",
+    "The Panel had not received a reply from Dalian Runguang at publication."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State alleged that Dalian-based manager Ma Tong Hyok brought Munitions Industry Department-subordinate IT workers to China and that Dalian Runguang knowingly worked with him and DPRK IT workers while laundering money for the DPRK."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+      "support": "Supports the manager, company, worker-dispatch and laundering allegation, plus no-reply status",
+      "locator": "PDF p. 48, para. 124"
+    },
+    {
+      "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020"
+    },
+    {
+      "source_id": "src-274b9be95cee"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ma-tong-hyok-un-reported-name",
+      "type": "identity_name",
+      "predicate": "un_panel_reported_name",
+      "value": {
+        "name": "Ma Tong Hyok",
+        "attribution": "person named in Member State information relayed by the UN Panel"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+          "locator": "PDF p. 48, paragraph 124, first sentence",
+          "quote": "Ma Tong Hyok"
+        }
+      ],
+      "observed_at": "2021-03-04",
+      "notes": [
+        "A UN Panel-reported name in an allegation context, not an independently adjudicated civil identity."
+      ]
+    },
+    {
+      "id": "claim-ma-tong-hyok-it-manager-worker-dispatch",
+      "type": "incident",
+      "predicate": "member_state_alleged_it_manager_and_worker_dispatch_role",
+      "value": {
+        "reported_role": "key DPRK information-technology manager based in Dalian",
+        "reported_conduct": "direct involvement in bringing DPRK IT workers subordinate to the Munitions Industry Department to China"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+          "locator": "PDF p. 48, paragraph 124, first sentence",
+          "quote": "Ma Tong Hyok, allegedly a key information technology manager from the country based in Dalian who was directly involved in bringing information technology workers from the Democratic People’s Republic of Korea who are subordinate to the designated Munitions Industry Department to China."
+        },
+        {
+          "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+          "locator": "PDF p. 48, footnote 103",
+          "quote": "According to the Member State, Mr. Ma and the teams of Democratic People’s Republic of Korea information technology workers under his oversight were in China as of late January 2020."
+        }
+      ],
+      "observed_at": "2021-03-04",
+      "notes": [
+        "Member State allegation relayed by the UN Panel; not an adjudicated finding. The late-January-2020 statement is historical and does not establish present location or current oversight."
+      ]
+    },
+    {
+      "id": "claim-ma-tong-hyok-dalian-runguang-relationship",
+      "type": "relationship",
+      "predicate": "member_state_alleged_company_working_relationship",
+      "value": {
+        "organization": "Dalian Runguang Science and Technology Co., Ltd.",
+        "organization_name_zh": "大连润光科技有限公司",
+        "source_allegation": "company was aware it was working with Ma and DPRK IT workers and laundering money on behalf of the DPRK"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+          "locator": "PDF p. 48, paragraph 124, second sentence",
+          "quote": "the Member State alleged was fully aware that it was working with Ma and information technology workers from the Democratic People’s Republic of Korea and laundering money on behalf of the country."
+        },
+        {
+          "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+          "locator": "PDF p. 48, footnote 105",
+          "quote": "In Chinese: 大连润光科技有限公司."
+        }
+      ],
+      "observed_at": "2021-03-04",
+      "notes": [
+        "The laundering language is a Member State allegation about the company relationship, not a criminal charge or adjudication against Ma. No company registration, account, payment, worker, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-ma-tong-hyok-nationality",
+      "type": "note",
+      "predicate": "un_panel_reported_nationality",
+      "value": {
+        "nationality": "Democratic People's Republic of Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, paragraph 110",
+          "quote": "the company is linked to a Democratic People’s Republic of Korea national, Ma Tong Hyok"
+        },
+        {
+          "source_id": "src-274b9be95cee",
+          "locator": "public entity page, nationality field",
+          "quote": "Nationality North Korea"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "The UN passage is based on Member State information; OpenSanctions derives its field from the non-official RUSI DPRK Reports dataset."
+      ]
+    },
+    {
+      "id": "claim-ma-tong-hyok-historical-dalian-china-base",
+      "type": "location",
+      "predicate": "member_state_reported_historical_manager_location",
+      "value": {
+        "city": "Dalian",
+        "country": "China",
+        "role_context": "key information-technology manager",
+        "last_bounded_presence": "late January 2020"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, paragraph 110",
+          "quote": "Ma Tong Hyok, allegedly a key information technology manager based in Dalian"
+        },
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, footnote 73",
+          "quote": "Mr. Ma and the teams of Democratic People’s Republic of Korea information technology\nworkers that he has overseen remained in China as of late January 2020"
+        }
+      ],
+      "observed_at": "2020-01-31",
+      "notes": [
+        "Historical Member State reporting only; observed_at uses a month-end placeholder for the source's late-January-2020 wording and does not establish present location."
+      ]
+    },
+    {
+      "id": "claim-ma-tong-hyok-dalian-xinlu-relationship",
+      "type": "relationship",
+      "predicate": "member_state_reported_dalian_xinlu_link",
+      "value": {
+        "organization": "Dalian Xinlu Science and Technology Co., Ltd.",
+        "organization_name_zh": "大连欣路科技有限公司",
+        "relationship": "Member State information reported a link between the company and Ma Tong Hyok"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, paragraph 110",
+          "quote": "The Panel investigated the company Dalian Xinlu Science and Technology Co. Ltd. on the basis of information from a Member State. According to the information, the company is linked to a Democratic People’s Republic of Korea national, Ma Tong Hyok"
+        },
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, footnote 72",
+          "quote": "In Chinese: 大连欣路科技有限公司."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Dalian Xinlu is separate from the Dalian Runguang company discussed in the 2021 follow-up report. The 2020 Panel had not received a reply; silence is source posture, not proof.",
+        "No company-registration number, address, account, employee, payment, or present operating status was imported."
+      ]
+    },
+    {
+      "id": "claim-ma-kim-han-su-september-2019-dispatch",
+      "type": "relationship",
+      "predicate": "member_state_reported_co_manager_worker_dispatch",
+      "value": {
+        "co_reported_person": "Kim Han-su",
+        "event": "bringing additional DPRK information-technology workers to China",
+        "time": "September 2019",
+        "co_reported_person_role": "China-based DPRK IT worker and manager of multiple teams"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, paragraph 110",
+          "quote": "directly involved in bringing additional information technology workers from the Democratic People’s Republic of Korea to China in September 2019 together with Kim Han-su, another China-based Democratic People’s Republic of Korea information technology worker and manager of multiple teams in China."
+        }
+      ],
+      "observed_at": "2019-09-01",
+      "notes": [
+        "Member State allegation relayed by the UN Panel. observed_at uses a month-resolution placeholder; no worker identities, travel documents, route, permit, or present relationship is inferred."
+      ]
+    },
+    {
+      "id": "claim-ma-reported-dispatch-entity",
+      "type": "organization_affiliation",
+      "predicate": "member_state_reported_worker_dispatch_entity",
+      "value": {
+        "organization": "Korea Corporation of Information Technology",
+        "reported_function": "entity name used to dispatch the September 2019 workers to China",
+        "worker_affiliation_qualifier": "likely subordinate to the Munitions Industry Department"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, paragraph 110",
+          "quote": "“Korea Corporation of Information Technology” was the name of the entity used to dispatch those workers to China, and it was likely that those workers were subordinate to the Munitions Industry Department."
+        }
+      ],
+      "observed_at": "2019-09-01",
+      "notes": [
+        "Preserve the report's entity-name and likely qualifiers. The passage does not establish the entity's legal registration, present existence, exact relationship to Ma, or a UN designation."
+      ]
+    },
+    {
+      "id": "claim-ma-visa-reset-and-work-acquisition-narrative",
+      "type": "incident",
+      "predicate": "member_state_reported_worker_rotation_and_work_acquisition",
+      "value": {
+        "reported_activity": [
+          "coordinating temporary returns to the DPRK and resending IT workers to China after visa resets or new work permits",
+          "working with China-based individuals and entities to obtain IT work"
+        ],
+        "attribution": "Member State information reported in UN Panel footnote"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, footnote 73",
+          "quote": "Mr. Ma has been coordinating with the Democratic People’s Republic of Korea and other information technology managers from the Democratic People’s Republic of Korea in China to send information technology workers temporarily back to the Democratic People’s Republic of Korea and resend them to China for work after resetting their visas and/or obtaining new work permits."
+        },
+        {
+          "source_id": "deep2-unhistory-s-2020-840-un-yanji-teams-managers-2020",
+          "locator": "report p. 34, footnote 73",
+          "quote": "Mr. Ma has been working with China-based individuals and entities to obtain information technology work."
+        }
+      ],
+      "observed_at": "2020-01-31",
+      "notes": [
+        "Member State allegation, not an immigration adjudication or criminal finding. No visa, permit, worker, recruiter, client, platform, account, company selector, or present operational detail was retained."
+      ]
+    },
+    {
+      "id": "claim-opensanctions-ma-tong-hyok-cross-reference",
+      "type": "note",
+      "predicate": "public_database_entity_cross_reference",
+      "value": {
+        "database": "OpenSanctions",
+        "entity_id": "kprusi-3f5f54552bc174fea46799501227fcb9909f8e56",
+        "source_dataset": "DPRK Reports",
+        "source_organization": "RUSI",
+        "source_status": "non-official",
+        "safe_profile_fields": {
+          "name": "Ma Tong Hyok",
+          "nationality": "North Korea",
+          "country": "China",
+          "city": "Dalian",
+          "employer_relationship": "Dalian Runguang Science and Technology Co. Ltd.",
+          "linked_entity": "Dalian Xinlu Science and Technology Co. Ltd."
+        },
+        "database_risk_statement": "not linked to risk indications in OpenSanctions and not found on international sanctions lists in that database"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-274b9be95cee",
+          "locator": "public entity page, risk statement",
+          "quote": "They are not linked to any risk indications in our database, and they have not been found on international sanctions lists."
+        },
+        {
+          "source_id": "src-274b9be95cee",
+          "locator": "public entity page, Dalian Runguang employer relationship",
+          "quote": "Dalian Runguang Science and Technology Co. Ltd."
+        },
+        {
+          "source_id": "src-274b9be95cee",
+          "locator": "public entity page, Dalian Xinlu linked entity",
+          "quote": "Dalian Xinlu Science and Technology Co. Ltd. (China)"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "OpenSanctions is an aggregate cross-reference sourced here from the non-official RUSI DPRK Reports dataset, not a new official attribution.",
+        "The page's self-referential description was treated as a data-quality defect and excluded. Its risk-list statement reflects database coverage and does not establish that no national or administrative action exists elsewhere."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ma Tong Hyok is preserved as the person named in a UN Panel report relaying a Member State allegation about an IT-management, worker-dispatch, and Dalian Runguang relationship. The report supplies a source-qualified allegation; UN designation, criminal charge, adjudication, current company role, present location, and same-named-public-account ownership remain unresolved."
+}

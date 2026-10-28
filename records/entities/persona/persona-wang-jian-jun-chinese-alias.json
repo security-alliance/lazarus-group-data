@@ -1,0 +1,49 @@
+{
+  "id": "persona-wang-jian-jun-chinese-alias",
+  "type": "persona",
+  "name": "王建钧",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded persona record for 王建钧, kept separate from people or accounts sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports 王建钧 in the described scheme.",
+      "locator": "PDF p. 8 ¶23"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-wang-jian-jun-chinese-alias",
+      "type": "alias",
+      "predicate": "source_reported_alias",
+      "value": {
+        "persona": "王建钧",
+        "source_reported_for": "WANG JIAN JUN, aka 王建钧"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 8 ¶23",
+          "quote": "WANG JIAN JUN, aka 王建钧, who also used the online monikers “JAMES WANG,” “MING WANG JIAN HOOK,” and “CARROT7277,” was a Chinese citizen residing in China."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "lead-doj-initial-only-facilitators",
+  "type": "lead",
+  "name": "K.F., P.B., V.J., and N.M.",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment refers to facilitators only by initials; facilitator identities remain unreported.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded lead record for K.F., P.B., V.J., and N.M.; keep it separate from another person or account sharing the name or identifier unless a source links them.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports K.F., P.B., V.J., and N.M. in the described scheme.",
+      "locator": "PDF p. 6 ¶17"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lead-doj-initial-only-facilitators",
+      "type": "alias",
+      "predicate": "initial_only_facilitators",
+      "value": {
+        "initials": [
+          "K.F.",
+          "P.B.",
+          "V.J.",
+          "N.M."
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 6 ¶17",
+          "quote": "including to persons using the actual names of K.F., P.B., V.J., N.M., and additional U.S. facilitators, known and unknown to the Grand Jury"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

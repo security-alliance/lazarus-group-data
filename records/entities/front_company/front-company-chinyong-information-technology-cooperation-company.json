@@ -1,0 +1,141 @@
+{
+  "id": "front-company-chinyong-information-technology-cooperation-company",
+  "type": "front_company",
+  "name": "Chinyong Information Technology Cooperation Company",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID data adds an administrative IT/computer-services classification. The subject is a DPRK IT company managing worker delegations in Russia and Laos and a DPRK IT-worker dispatch organization subordinate to the Ministry of National Defence. The record carries an administrative sanctions designation; current operations or control fall outside this classification, and no criminal charge or conviction is recorded.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-cf4404774939",
+      "int-msmt-2025-2",
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023",
+      "int-rok-mofa-2024-sanctions",
+      "int-un-poe-2024"
+    ]
+  },
+  "locations": [
+    "China",
+    "Laos",
+    "Russia"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "Birth, passport, identity, address, company-identifier, financial, contact, compliance, and sanctions-boilerplate fields are excluded.",
+    "Canonicalize to the Treasury Chinyong entity because Treasury explicitly identifies Jinyong IT Cooperation Company as an alias; spelling similarity alone supplies no canonicalization basis.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "JINYONG IT COOPERATION COMPANY — official sanctions-list organization-name alias.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family.",
+    "The current SDN export is administrative-list evidence; current operations, ownership, control, and location require independent sources."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "int-rok-fsc-2023"
+      ],
+      "value": "JINYONG IT COOPERATION COMPANY"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2",
+        "int-rok-fsc-2023",
+        "int-rok-mofa-2023",
+        "int-rok-mofa-2024-sanctions",
+        "int-un-poe-2024"
+      ],
+      "value": "Jinyong Information Technology Cooperation Company"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2",
+        "int-rok-fsc-2023",
+        "int-rok-mofa-2023",
+        "int-rok-mofa-2024-sanctions",
+        "int-un-poe-2024"
+      ],
+      "value": "진영정보기술개발협조회사"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-rok-fsc-2023"
+      ],
+      "value": "CHINYONG IT COMPANY"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-organization-type",
+      "value": "Other information technology and computer service activities",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-chinyong-information-technology-cooperation-company"
+  ],
+  "sources": [
+    {
+      "source_id": "int-un-poe-2024",
+      "support": "The UN Panel investigated bank accounts maintained by Chinyong and accounts used by Shenyang GoldenPack to launder revenue for Chinyong overseas IT-worker teams",
+      "locator": "paras. 167-168; Annexes 81-84 (PDF pp. 485-489) | Original official publication page: https://documents.un.org/doc/undoc/gen/n24/038/01/pdf/n2403801.pdf"
+    },
+    {
+      "source_id": "gov-cf4404774939",
+      "support": "OFAC designated Chinyong Information Technology Cooperation Company and its representative Kim Sang Man for DPRK IT-worker revenue generation",
+      "locator": "Illicit IT Worker Revenue Generation section"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT states that Department 61 controls Chinyong and describes Chinyong delegations in Vladivostok, Vientiane, and Shenyang",
+      "locator": "report p. 22 (PDF p. 24) | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "ROK designated Jinyong and described it as dispatching DPRK IT workers overseas to generate foreign currency under the Ministry of National Defence",
+      "locator": "body | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 43379: JINYONG IT COOPERATION COMPANY. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 43379"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 43379 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV | The current exact-ID SDN row for OFAC entity number 43379 classifies Chinyong Information Technology Cooperation Company under other information-technology and computer-service activities. Sensitive and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 43379 | SDN.CSV primary/current-list row for OFAC ent_num 43379"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "The FSC mirror of the joint release lists JINYONG IT COOPERATION COMPANY and the explicit alias CHINYONG IT COMPANY; it is the same publication family as ROK-MOFA-2023",
+      "locator": "joint release pp. 1-3; exact English organization labels on attachment p. 5 | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. The attachment SHA-256 was 4f8871cda387b9f163b01c4590198c30df6f43d777649653659001e4c56f1e8a. Sensitive identification, payment, and person-image fields on page 5 are deliberately excluded"
+    },
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "ROK sanctions material identifies Jinyong as an organization involved in overseas dispatch and activity of DPRK IT workers",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

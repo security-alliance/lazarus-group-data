@@ -1,0 +1,95 @@
+{
+  "id": "drh-ttp-endpoint-custody-posthire-control-bundle",
+  "type": "ttp",
+  "name": "Endpoint custody, post-hire re-verification, behavior, and payment correlation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Behavioral or remote-work observations are nonspecific and require corroboration; DTEX defensive practitioner guidance and first-party platform/threat-research guidance supply context, while identity attribution and measured control effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFP-S17",
+      "DFP-S22",
+      "DRH-S04"
+    ]
+  },
+  "ttps": [
+    "credential-sharing",
+    "laptop-forwarding",
+    "payment-platform",
+    "privilege-escalation",
+    "remote-desktop",
+    "remote-management-tool",
+    "unauthorized-subcontractor"
+  ],
+  "caveats": [
+    "Automated provisioning can accelerate harm when identity assurance, endpoint custody, and least-privilege scoping fail before activation.",
+    "Generic guidance for identity assurance and role scoping; automated provisioning can accelerate harm when checks fail before activation.",
+    "Hardware-key possession identifies an authentication factor; interview identity, later endpoint operation, and remote delegation remain separate questions.",
+    "Low engagement, missed meetings, or remote work are nonspecific review context; attribution requires corroborated signals.",
+    "Most incident denominators in the article come from DOJ or secondary reporting and should remain sourced to the underlying primary records.",
+    "This records hardware-token control context; DPRK incident or measured anti-DPRK outcome remains unestablished. Hardware-token possession alone leaves interview completion and later endpoint operation unresolved."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Deel recommends role- and time-bound access, SSO/MFA for all worker types, HRIS-triggered provisioning, immediate offboarding revocation, MDM/endpoint controls, and auditable access across employees, contractors, and EOR workers."
+      ],
+      "limitations": [
+        "Generic guidance, not DPRK-specific evidence. Automated provisioning can accelerate harm if identity assurance and role scoping fail before activation."
+      ],
+      "source_ids": [
+        "DFP-S17"
+      ]
+    },
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Okta describes new hires completing identity proofing on first login with a pre-enrolled YubiKey, HR and IT teams monitoring transactions, and a read-only API check of legal/preferred first names to reduce legitimate name-mismatch failures."
+      ],
+      "limitations": [
+        "This is not a DPRK incident or measured anti-DPRK outcome. Hardware-token possession does not independently establish who completed interviews or who operates a remote endpoint later."
+      ],
+      "source_ids": [
+        "DFP-S22"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "DTEX recommends mapping contractors, vendors, endpoints, and device chain-of-custody rather than relying on a background check as the terminal trust decision.",
+        "It recommends live interviews plus post-hire re-verification, contextual review of low engagement or unexplained disappearance, monitoring for suspicious remote access, and correlation of device and payment activity.",
+        "The recommendations emphasize that a quiet, timely, technically competent worker can still present insider risk; behavioral indicators require corroboration and should not be used alone."
+      ],
+      "source_ids": [
+        "DRH-S04"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-11-cloud-saas-posthire-correlation",
+    "drh-ttp-endpoint-custody-posthire-control-bundle",
+    "hpg-ttp-device-pickup-hid-address-controls"
+  ],
+  "sources": [
+    {
+      "source_id": "DFP-S17",
+      "support": "Deel recommends role- and time-bound contractor access, SSO and MFA, HR-triggered provisioning, immediate revocation, endpoint controls, and auditable access across worker types",
+      "locator": "Access gaps; least privilege; audit checklist; six principles; offboarding failure points"
+    },
+    {
+      "source_id": "DRH-S04",
+      "support": "DTEX recommends mapping contractors, vendors, endpoints, and device chain-of-custody rather than relying on a background check as the terminal trust decision. It recommends live interviews plus post-hire re-verification, contextual review of low engagement or unexplained disappearance, monitoring for suspicious remote access, and correlation of device and payment activity. The recommendations emphasize that a quiet, timely, technically competent worker can still present insider risk; behavioral indicators require corroboration and should not be used alone",
+      "locator": "Why it matters now; five practical steps, especially Insider threats are coordinated, Background checks can't catch ghosts, and Silence and compliance are not the same as trustworthiness"
+    },
+    {
+      "source_id": "DFP-S22",
+      "support": "Okta describes an internal onboarding implementation using first-login identity proofing with a pre-enrolled hardware key, HR/IT monitoring, and constrained name matching. It is not a DPRK incident or measured anti-DPRK outcome",
+      "locator": "Behind the scenes; implementation evolution; pre-enrolled YubiKey onboarding"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

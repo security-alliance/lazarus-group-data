@@ -1,0 +1,59 @@
+{
+  "id": "dcir5-ttp-zscaler-contagious-interview-wagemole-bounded-overlap",
+  "type": "ttp",
+  "name": "Zscaler-assessed stolen-data bridge from Contagious Interview to WageMole identity preparation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party vendor campaign assessment only; legal identity remains unassigned, and the cited Contagious Interview, WageMole, fake-interview-malware, and fraudulent-employment activities remain source-specific rather than one combined campaign.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCIR5-S29"
+    ]
+  },
+  "ttps": [
+    "campaign-separation",
+    "fake-identity-preparation",
+    "no-generalization",
+    "remote-employment-acquisition",
+    "source-specific-campaign-overlap",
+    "stolen-data-reuse"
+  ],
+  "caveats": [
+    "Zscaler’s reported data-to-identity bridge between Contagious Interview and WageMole is source-specific; campaign identity and indicator merging require additional source linkage.",
+    "This assessed relationship applies only to the cited case; Contagious Interview, WageMole, fake-recruiter, and fraudulent-worker events require separate evidence.",
+    "Keep the source's IOC rows, account URLs, raw file paths, payment details, victim information and malware implementation material out of the record.",
+    "Campaign identities, infrastructure, repositories, indicators, and victim details remain outside this boundary.",
+    "Face, accent, ethnicity, nationality, geography, camera behavior, product result, and single automated signals require corroboration before any adverse-employment or attribution decision.",
+    "This record retains no people, personas, accounts, companies, victims, incidents, images, identity documents, biometric material, raw selectors, indicators, file paths, payment details, or private data.",
+    "The record describes a defensive control or bounded analytical context; its subject is control/context rather than a person, victim, company, account, or incident profile.",
+    "The source also contains language and location observations; they remain outside demographic or accent-based screening rules.",
+    "The Zscaler-supported overlap is narrowly source-specific: data stolen through Contagious Interview was assessed as supporting fake-identity preparation and employment acquisition in WageMole.",
+    "The campaigns remain separate analytic tracks: fake-interview malware and fraudulent employment are distinct categories, and malware enablement requires case-specific evidence.",
+    "Zscaler's linkage is a vendor campaign assessment; legal identity determination requires separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-specific-campaign-boundary-context",
+      "evidence_class": "first-party provider campaign analysis establishing a bounded overlap",
+      "description": "Zscaler ThreatLabz states that it analyzed WageMole as an associated campaign perpetrated by the same threat group behind the Contagious Interview activity it monitored. Its campaign overview says personal data stolen through Contagious Interview can be used to prepare fake identities and secure remote work in WageMole. The employment workflow then includes fabricated or altered identity material, interview study guides, role-specific resumes, job-platform automation, colleague-assisted interviews, and post-hire collaboration.",
+      "source_ids": [
+        "DCIR5-S29"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-10-explicit-overlap-requires-evidence",
+    "dimf-ttp-employment-fraud-malware-analytic-separation"
+  ],
+  "sources": [
+    {
+      "source_id": "DCIR5-S29",
+      "support": "Zscaler ThreatLabz states that it analyzed WageMole as an associated campaign perpetrated by the same threat group behind the Contagious Interview activity it monitored. Its campaign overview says personal data stolen through Contagious Interview can be used to prepare fake identities and secure remote work in WageMole. The employment workflow then includes fabricated or altered identity material, interview study guides, role-specific resumes, job-platform automation, colleague-assisted interviews, and post-hire collaboration",
+      "locator": "Introduction — relationship between Contagious Interview and WageMole; Key Takeaways; Overview — Figure 1 high-level relationship; North Korean IT workers use WageMole to secure remote jobs in other countries — Preparation, Target hunting, Interview/working, and Transfer money; How to protect against WageMole"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

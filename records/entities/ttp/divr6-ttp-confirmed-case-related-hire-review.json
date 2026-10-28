@@ -1,0 +1,87 @@
+{
+  "id": "divr6-ttp-confirmed-case-related-hire-review",
+  "type": "ttp",
+  "name": "Scoped related-hire review after a confirmed fraudulent hire",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Commercial provider-described control design and availability only; first-party vendor guidance, with named customer incident, allegation, adjudication, nationality determination, and independently measured effectiveness outside this material.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIVR6-S03",
+      "devl19-s02-abnormal-infiltration",
+      "devl19-s03-abnormal-press"
+    ]
+  },
+  "ttps": [
+    "campaign-correlation",
+    "confirmed-case-trigger",
+    "documented-adjudication",
+    "independent-corroboration",
+    "related-hire-review",
+    "scoped-related-hire-review",
+    "workflow-link-analysis"
+  ],
+  "caveats": [
+    "A product flag prompts review; employment, access, criminal, sanctions and attribution decisions require separate evidence.",
+    "A shared reference, recruiter, interviewer, school, employer, technology or workflow records a common link; coordination requires independent evidence.",
+    "Cross-organization or cross-candidate correlations are provider-described review signals; a shared operator, nationality, or legal identity requires separate evidence.",
+    "Begin a proportionate related-hire audit only after a case is confirmed, and preserve independent adjudication for every follow-up.",
+    "Keep names, relationship graphs, private communications, applicant records and raw screening evidence out of the record.",
+    "Nationality, ethnicity, accent, appearance, and broad geography are contextual observations only; they are not graph edges or corroborating evidence.",
+    "Limit scope, access, and retention; document lawful purpose; provide correction and appeal where employment decisions are involved.",
+    "Location supplies context; identity, nationality, sanctions status, physical control, employment legitimacy, and misconduct require corroboration.",
+    "The public corpus retains no candidate-level or cross-customer graph data.",
+    "The record scope excludes people, entities, accounts, images, identity documents, biometric material, templates, private data, and raw device, network, video, or screening signals.",
+    "Related-hire review must be scoped, explainable, proportionate, time-bounded, and based on independently supportable evidence rather than broad demographic or geographic similarity.",
+    "Use layered, explainable review with a lawful purpose, proportional retention, accessible alternatives, correction, and appeal; an anomaly or vendor decision is a review trigger rather than proof of fraud.",
+    "Vendor guidance is retained as a defensive abstraction; incident, measured effectiveness, and DPRK-identification claims require independent evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "post-confirmation-hiring-integrity-review-control",
+      "statements": [
+        "When an organization confirms a fraudulent hire, review the hiring references, referrals, process interactions, and shared workflow touchpoints connected to that case. Use the confirmed case to identify where controls were learned or reused, but require independent corroboration before taking action on any related person. Preserve the original verification decision as investigation evidence and document why each follow-up was opened and resolved."
+      ],
+      "limitations": [
+        "A shared reference, recruiter, interviewer, school, employer, technology, or workflow is not proof of coordination.",
+        "Do not publish names, relationship graphs, private communications, applicant records, or raw screening evidence.",
+        "Limit scope, access, and retention; document lawful purpose; provide correction and appeal where employment decisions are involved.",
+        "Do not use nationality, ethnicity, accent, appearance, or broad geography as graph edges or corroborating evidence.",
+        "Vendor guidance is retained as a defensive abstraction, not as a reported incident, a measured effectiveness claim, or evidence that a product identifies DPRK affiliation.",
+        "Use layered, explainable review with a lawful purpose, proportional retention, accessible alternatives, correction, and appeal; an anomaly or vendor decision is a review trigger rather than proof of fraud.",
+        "Location cannot independently establish identity, nationality, sanctions status, physical control, employment legitimacy, or misconduct.",
+        "No people, entities, accounts, images, identity documents, biometric material, templates, private data, or raw device, network, video, or screening signals are retained.",
+        "Begin a proportionate related-hire audit only after a case is confirmed, and preserve independent adjudication for every follow-up."
+      ],
+      "source_ids": [
+        "DIVR6-S03"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "divr6-ttp-confirmed-case-related-hire-review",
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-reused-personas"
+  ],
+  "sources": [
+    {
+      "source_id": "devl19-s02-abnormal-infiltration",
+      "support": "The blog says the product analyzes new ATS identities, correlates behavioral, identity, and threat-intelligence signals, groups linked candidates into campaigns, creates evidence timelines, and supports review before provisioning. The press release states July 28 announcement and August 3 availability. Evidence boundary: Provider description of its own product and detection model. DPRK case scale and consequences are derivative of public official reporting; no named customer incident or independently measured efficacy is disclosed. Normalized use: review identities at the ATS/pre-provisioning boundary and retain a sourced evidence timeline for trained human review; do not treat a product flag as attribution or an employment decision",
+      "locator": "Opening DOJ-derived context; “Inside Infiltration Prevention”; “The Clues Behind the Candidate”; “Responding to an Infiltration Attempt.”"
+    },
+    {
+      "source_id": "devl19-s03-abnormal-press",
+      "support": "The blog says the product analyzes new ATS identities, correlates behavioral, identity, and threat-intelligence signals, groups linked candidates into campaigns, creates evidence timelines, and supports review before provisioning. The press release states July 28 announcement and August 3 availability. Evidence boundary: First-party availability and feature claim; corroborates product posture, not incident occurrence or effectiveness. Normalized use: review identities at the ATS/pre-provisioning boundary and retain a sourced evidence timeline for trained human review; do not treat a product flag as attribution or an employment decision",
+      "locator": "“Three New Products, One Behavioral Security Platform,” Infiltration Prevention paragraph; stated August 3, 2026 availability"
+    },
+    {
+      "source_id": "DIVR6-S03",
+      "support": "When an organization confirms a fraudulent hire, review the hiring references, referrals, process interactions, and shared workflow touchpoints connected to that case. Use the confirmed case to identify where controls were learned or reused, but require independent corroboration before taking action on any related person. Preserve the original verification decision as investigation evidence and document why each follow-up was opened and resolved",
+      "locator": "How the network effect works; Why point-of-hire verification is necessary but not sufficient; What a complete response looks like"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

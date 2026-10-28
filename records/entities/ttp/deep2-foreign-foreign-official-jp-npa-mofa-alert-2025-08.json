@@ -1,0 +1,55 @@
+{
+  "id": "deep2-foreign-foreign-official-jp-npa-mofa-alert-2025-08",
+  "type": "ttp",
+  "name": "Japan alert: false identities, payment routing, and location concealment",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official foreign-government, police, CERT, sanctions, or security-service guidance/assessment",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-foreign-foreign-official-jp-npa-mofa-alert-2025-08"
+    ]
+  },
+  "locations": [
+    "Japan"
+  ],
+  "ttps": [
+    "bank-account-mule",
+    "borrowed-identity",
+    "forged-identity-document",
+    "remote-desktop",
+    "shared-account",
+    "vpn"
+  ],
+  "caveats": [
+    "Avoid retaining or republishing applicant identity documents, network selectors, or contact details.",
+    "Facial recognition and visual person-matching are outside the review.",
+    "The August 2025 Japanese alert is a later official revision of guidance also published in March 2024; the dates distinguish the versions.",
+    "The indicators are contextual screening signals with benign explanations; nationality, identity, intent, and DPRK affiliation require corroboration."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The official NPA-hosted August 27, 2025 revision updates Japan's company warning after the March 2024 alert. It details false nationality or identity, forged and borrowed identity documents, third-party platform and payment accounts, VPN/remote-desktop concealment, compensation routing, and contextual platform indicators. It does not support the previously recorded AI-generated-face or deepfake-interview claims, which were removed."
+      ],
+      "source_ids": [
+        "deep2-foreign-foreign-official-jp-npa-mofa-alert-2025-08"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-foreign-foreign-official-jp-npa-mofa-alert-2025-08",
+      "support": "The official NPA-hosted August 27, 2025 revision updates Japan's company warning after the March 2024 alert. It details false nationality or identity, forged and borrowed identity documents, third-party platform and payment accounts, VPN/remote-desktop concealment, compensation routing, and contextual platform indicators. It does not support the previously recorded AI-generated-face or deepfake-interview claims, which were removed",
+      "locator": "PDF p. 1 introductory warning and platform identity-verification recommendations; p. 2 section “北朝鮮IT労働者の手口”; pp. 2–3 platform and customer indicator checklists"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

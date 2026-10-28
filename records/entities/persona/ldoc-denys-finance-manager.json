@@ -1,0 +1,169 @@
+{
+  "id": "ldoc-denys-finance-manager",
+  "type": "persona",
+  "name": "Denys — reported finance-manager moniker",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The affidavit alleges Didenko introduced Denys as his Finance Manager for rental-payment reminders and supplied messaging identifiers that are redacted and unavailable to text extraction in the public copy.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-04"
+    ]
+  },
+  "caveats": [
+    "Moniker only; keep it separate from a similarly named individual or account absent independent evidence.",
+    "Moniker only; similarly named people and accounts remain separate pending corroboration.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "aliases": [
+    {
+      "value": "Denys",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "ldoc-04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-04",
+      "support": "The affidavit alleges Didenko introduced Denys as his Finance Manager for rental-payment reminders and supplied messaging identifiers that are redacted/not text-extractable in the public copy",
+      "locator": "Affidavit ¶39, pp. 14-15"
+    },
+    {
+      "source_id": "src-77a52bc03300"
+    },
+    {
+      "source_id": "src-b2c91a01cd89"
+    },
+    {
+      "source_id": "src-150bb31635dc"
+    },
+    {
+      "source_id": "dln26-s05"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-denys-reported-manager-moniker",
+      "type": "identity_name",
+      "predicate": "affidavit_reported_manager_moniker_and_role",
+      "value": {
+        "moniker": "Denys",
+        "reported_role": "Finance Manager",
+        "identity_status": "unresolved moniker"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ldoc-04",
+          "locator": "p. 14, para. 39",
+          "quote": "DIDENKO sometimes refers customers to “Denys”, the Finance Manager."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause affidavit allegation only; the moniker is not resolved to a legal person or public account."
+      ]
+    },
+    {
+      "id": "claim-denys-reported-function",
+      "type": "employment",
+      "predicate": "affidavit_reported_manager_function",
+      "value": {
+        "moniker": "Denys",
+        "reported_role": "Finance Manager",
+        "reported_function": "rent payment reminders"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ldoc-04",
+          "locator": "p. 14, para. 39(a)",
+          "quote": "he will remind you about rent payments."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "The narrow source-reported function is retained without messaging, customer, payment, account, or contact selectors."
+      ]
+    },
+    {
+      "id": "claim-denys-reported-rent-payment-context",
+      "type": "incident",
+      "predicate": "affidavit_reported_rent_payment_context_and_schedule",
+      "value": {
+        "moniker": "Denys",
+        "reported_context": "rent for access to U.S. MST-2 accounts",
+        "reported_payment_schedule": "fixed on the 13th of each month",
+        "reported_function": "rent payment reminders",
+        "example_period": "December 2022"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "ldoc-04",
+          "locator": "p. 14, para. 39 and 39(a)",
+          "quote": "The payment date is fixed on the 13th of each month."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause affidavit allegation only. The schedule is a source-reported example involving Didenko and an unnamed customer, not proof of Denys's civil identity, account control, receipt of funds, current activity, or criminal liability.",
+        "No messaging identifier, customer identity, payment value, transaction, account selector, or financial-account detail is retained."
+      ]
+    },
+    {
+      "id": "claim-denys-later-proceeding-boundary",
+      "type": "legal_event",
+      "predicate": "later_didenko_proceedings_do_not_establish_denys_legal_posture",
+      "value": {
+        "named_defendant": "Oleksandr Didenko",
+        "didenko_plea_date": "2025-11-10",
+        "didenko_sentence_date": "2026-02-19",
+        "didenko_judgment_date": "2026-02-24",
+        "denys_named_in_reviewed_statement_of_offense": false,
+        "denys_named_in_reviewed_government_sentencing_memorandum": false,
+        "denys_named_in_reviewed_doj_plea_release": false,
+        "denys_legal_posture_established": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-77a52bc03300",
+          "locator": "November 10, 2025 plea minute entry",
+          "quote": "Plea entered by OLEKSANDR DIDENKO (1) Guilty to Counts 1 and 4."
+        },
+        {
+          "source_id": "src-b2c91a01cd89",
+          "locator": "p. 1, introductory stipulation",
+          "quote": "the defendant, OLEKSANDR DIDENKO"
+        },
+        {
+          "source_id": "src-150bb31635dc",
+          "locator": "p. 1, caption",
+          "quote": "OLEKSANDR DIDENKO"
+        },
+        {
+          "source_id": "dln26-s05",
+          "locator": "Oleksandr Didenko Guilty Plea section",
+          "quote": "Oleksandr Didenko pleaded guilty to one count of wire fraud conspiracy and one count of aggravated identity theft"
+        }
+      ],
+      "observed_at": "2026-02-24",
+      "notes": [
+        "Complete review and exact-text checks found no Denys or Finance Manager reference in the statement of offense, government sentencing memorandum, or DOJ plea release. The CourtListener docket disposition is expressly for Oleksandr Didenko.",
+        "This is a non-transfer boundary, not a claim that Denys was exonerated or that no other evidence exists. Didenko's guilty plea, sentence, judgment, admissions, and legal status do not apply to the unresolved Denys moniker."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "“Denys” is preserved only as a manager moniker reported in a probable-cause affidavit. It is not a verified civil identity, defendant name, public-account bridge, nationality, or proof that any same-named person is involved."
+}

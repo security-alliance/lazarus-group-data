@@ -1,0 +1,419 @@
+{
+  "id": "facilitator-derrik-goon",
+  "type": "facilitator",
+  "name": "Derrik Goon",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "WSJ investigative reporting publicly identifies Derrik Goon and reports a historical facilitator relationship with Eagle Vision. The participant describes initial lack of awareness that the team was North Korean. The reporting remains source-level on legal posture: charge, conviction, sanctions designation, official attribution, and adjudication are outside the report, and knowing participation across the full reported period remains unestablished.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "drp53-wsj-documentary"
+    ]
+  },
+  "organizations": [
+    "Eagle Vision (source-reported cell codename)"
+  ],
+  "locations": [
+    "Ohio, United States (coarse historical reporting only)"
+  ],
+  "ttps": [
+    "source-reported AI-assisted impersonation of the facilitator",
+    "source-reported facilitator recruitment request",
+    "source-reported interview and meeting participation",
+    "source-reported laptop facilitation",
+    "source-reported salary sharing"
+  ],
+  "caveats": [
+    "Derrik Lee is retained only as the historical interviewing label that WSJ describes as the participant's real first and middle name; the source supplies a partial name.",
+    "The record carries source context rather than a criminality, legal-status, nationality, present-location, current-participation, current-controller, or full-period knowing-participation finding.",
+    "The facilitator relationship, tasks, compensation example, recruitment request, and later impersonation are source-reported historical claims from one WSJ investigation; court finding or independent corroboration requires additional sources.",
+    "The participant's statement that he initially lacked knowledge that Eagle Vision was North Korean is preserved as his claim; timing, completeness, and legal significance remain open.",
+    "The YouTube page reports 2026-08-12T18:00:17-07:00, which converts to August 13 UTC. Date-only fields retain the publisher-local August 12 value.",
+    "WSJ publicly labels the documentary participant Derrik Goon and reports a historical Eagle Vision facilitator relationship. The source separately says he interviewed as Derrik Lee, described only as his real first and middle name. Derrik Goon and Derrik Lee remain source labels, with complete legal identity, public account, nationality, legal posture, present location, and controller status unresolved.",
+    "Current GitHub search and exact contextual news results are empty; historical absence and public-account identity remain unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "Derrik Lee",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "drp53-wsj-documentary"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "participant-described-compensation-example",
+      "annual_salary_example_usd": 75000,
+      "claimed_cut_percent": 50,
+      "general_compensation_or_tax_history_inferred": false,
+      "source_ids": [
+        "drp53-wsj-documentary"
+      ]
+    },
+    {
+      "type": "participant-described-recruitment-request",
+      "approximate_offer_usd": 500,
+      "recruited_person_established": false,
+      "source_ids": [
+        "drp53-wsj-documentary"
+      ]
+    },
+    {
+      "type": "same-investigation-article-metadata",
+      "article_guid": "WP-WSJ-0003810187",
+      "person_named_in_retained_metadata": false,
+      "independent_person_specific_corroboration": false,
+      "source_ids": [
+        "drp53-wsj-rss"
+      ]
+    },
+    {
+      "type": "historical-interviewing-label",
+      "value": "Derrik Lee",
+      "source_scope": "described by WSJ as his real first and middle name",
+      "complete_legal_name_established": false,
+      "source_ids": [
+        "drp53-wsj-documentary"
+      ]
+    },
+    {
+      "type": "bounded-current-search-results",
+      "github_exact_full_name_counts": {
+        "users": 0,
+        "author_commits": 0,
+        "repositories": 0
+      },
+      "google_news_exact_context_count": 0,
+      "historical_or_universal_absence_established": false,
+      "source_ids": [
+        "drp53-github-searches",
+        "drp53-google-news"
+      ]
+    },
+    {
+      "type": "source-reported-facilitator-relationship",
+      "subject_label": "Derrik Goon",
+      "related_codename": "Eagle Vision",
+      "reported_duration": "past several years as of documentary publication",
+      "reported_tasks": [
+        "run a laptop",
+        "appear for interviews",
+        "attend meetings",
+        "split salary with the team"
+      ],
+      "participant_claimed_initial_lack_of_knowledge": true,
+      "knowing_participation_throughout_period_established": false,
+      "source_ids": [
+        "drp53-wsj-documentary"
+      ]
+    },
+    {
+      "type": "source-reported-later-impersonation",
+      "reported_without_permission": true,
+      "method": "worker posed as Derrik using an AI tool to alter appearance",
+      "source_image_or_face_retained": false,
+      "source_ids": [
+        "drp53-wsj-documentary"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "drp53-github-searches",
+      "support": "Current exact-full-name GitHub user, author-commit, and repository searches each returned zero results; no historical absence or account identity is inferred",
+      "locator": "Three complete aggregate query counts"
+    },
+    {
+      "source_id": "drp53-google-news",
+      "support": "The exact contextual Google News query returned zero items; the bounded result does not establish universal media absence or supply independent corroboration",
+      "locator": "Complete zero-item RSS result"
+    },
+    {
+      "source_id": "drp53-wsj-rss",
+      "support": "The complete public RSS item verifies the same-investigation article GUID, title, authors, publication time, and description but does not name Derrik Goon in retained metadata",
+      "locator": "RSSWorldNews item GUID WP-WSJ-0003810187"
+    },
+    {
+      "source_id": "drp53-wsj-documentary",
+      "support": "The documentary visibly labels Derrik Goon; reports a historical Eagle Vision facilitator relationship, coarse Ohio context, laptop/interview/meeting and salary-split tasks; preserves his claimed initial lack of knowledge; scopes Derrik Lee to his first and middle name; and reports a recruitment request and later AI-assisted impersonation",
+      "locator": "06:56-07:48; 20:42-20:49; 26:30-27:13; 27:40-27:51; source-displayed label at approximately 06:57"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-derrik-goon-source-reported-name-round53",
+      "type": "identity_name",
+      "predicate": "publisher_displayed_and_reported_name",
+      "value": {
+        "name": "Derrik Goon",
+        "complete_legal_name_established": false,
+        "independent_identity_corroboration": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Source-displayed label at approximately 06:57 and captions 06:56.250-07:00.990",
+          "quote": "Derrik Goon has spent the past several years working as a facilitator for EagleVision."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Public source-reported participant label only; it is not independently verified as a complete legal name."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-derrik-lee-interviewing-label-round53",
+      "type": "alias",
+      "predicate": "historical_interviewing_label",
+      "value": {
+        "label": "Derrik Lee",
+        "source_scope": "real first and middle name",
+        "complete_legal_name_established": false,
+        "other_assigned_fake_names_reported_but_not_retained": true
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 26:30.003-26:40.050",
+          "quote": "In the past, Derrik interviewed for jobs as Derrik Lee, his real first and middle name."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Do not expand Derrik Lee into a surname-bearing legal identity or merge unrelated same-name people."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-eagle-vision-facilitator-relationship-round53",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_facilitator_relationship",
+      "value": {
+        "related_record_id": "persona-wsj-eagle-vision",
+        "related_label": "Eagle Vision",
+        "role": "facilitator",
+        "reported_duration": "past several years as of documentary publication",
+        "legal_or_criminal_status_established": false,
+        "current_relationship_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 06:56.250-07:00.990",
+          "quote": "Derrik Goon has spent the past several years working as a facilitator for EagleVision."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Historical investigative-reporting relationship only; no present relationship or legal conclusion is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-coarse-historical-ohio-context-round53",
+      "type": "location",
+      "predicate": "publisher_reported_coarse_historical_location",
+      "value": {
+        "region": "Ohio",
+        "country": "United States",
+        "scope": "rural historical context",
+        "precise_address_retained": false,
+        "present_location_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 07:02.460-07:09.873",
+          "quote": "he said he was paid to run a laptop out of his home in rural Ohio"
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "The source's coarse state-level historical context is retained; sub-state and present-location details are excluded."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-source-reported-programming-background-round53",
+      "type": "skill",
+      "predicate": "publisher_reported_programming_background",
+      "value": {
+        "skill_area": "programming",
+        "verified_credentials_or_employment": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 07:22.763-07:27.480",
+          "quote": "Because Derrik has a programming background"
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Source-reported background only; no credential, employer, or public code account is established."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-reported-laptop-interview-meeting-tasks-round53",
+      "type": "incident",
+      "predicate": "participant_described_historical_facilitation_tasks",
+      "value": {
+        "tasks": [
+          "run a laptop",
+          "appear for interviews",
+          "attend meetings",
+          "split salary with the team"
+        ],
+        "team_performed_work_behind_scenes": true,
+        "victim_or_employer_identity_retained": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 07:22.763-07:41.280",
+          "quote": "If he gets the job, Derrik says he runs the laptop and attends meetings while EagleVision's team does the work behind the scenes. Then, they split the salary."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Historical participant/source account; no victim, employer, precise device, credential, or access selector is retained."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-claimed-initial-lack-of-knowledge-round53",
+      "type": "note",
+      "predicate": "participant_claimed_initial_lack_of_dprk_knowledge",
+      "value": {
+        "claim": "initially did not know Eagle Vision was North Korean",
+        "speaker": "documentary participant",
+        "adjudicated_fact": false,
+        "knowledge_timeline_established": false,
+        "legal_significance_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 07:05.079-07:09.873",
+          "quote": "he told us he didn't know that EagleVision was North Korean."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "This exculpatory/knowledge-boundary statement must travel with the facilitator account and must not be omitted when describing the historical relationship."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-participant-described-compensation-example-round53",
+      "type": "employment",
+      "predicate": "participant_described_salary_split_example",
+      "value": {
+        "annual_salary_example_usd": 75000,
+        "claimed_cut_percent": 50,
+        "general_income_or_tax_history_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 20:42.900-20:49.557",
+          "quote": "This one's a 75K a year salary so my cut is 50%."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "One participant-described example only; it is not generalized into total income, tax liability, or a complete compensation history."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-participant-described-recruitment-offer-round53",
+      "type": "relationship",
+      "predicate": "participant_described_facilitator_recruitment_request",
+      "value": {
+        "requester_label": "Eagle Vision",
+        "requested_action": "find another facilitator",
+        "approximate_offer_usd": 500,
+        "recruited_person_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 26:40.050-26:52.140",
+          "quote": "I'll throw you like a, you know, 500 bucks or something if you find me somebody."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Participant-described request only; the source does not establish that another person was actually recruited."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-reported-later-ai-impersonation-round53",
+      "type": "incident",
+      "predicate": "publisher_reported_later_unauthorized_ai_impersonation",
+      "value": {
+        "reported_without_permission": true,
+        "reported_method": "worker posed as Derrik and used an AI tool to alter appearance",
+        "face_or_image_retained": false,
+        "present_controller_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-wsj-documentary",
+          "locator": "Captions 27:09.960-27:13.353 and 27:40.299-27:51.183",
+          "quote": "including one where a worker poses as him and uses an AI tool to change his appearance."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "This later reported impersonation is kept distinct from the participant's own historical interviewing activity and does not justify retaining a face image."
+      ]
+    },
+    {
+      "id": "claim-facilitator-derrik-goon-bounded-negative-searches-round53",
+      "type": "note",
+      "predicate": "current_exact_identity_searches_returned_no_results",
+      "value": {
+        "github_user_results": 0,
+        "github_author_commit_results": 0,
+        "github_repository_results": 0,
+        "google_news_exact_context_results": 0,
+        "historical_or_universal_absence_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp53-github-searches",
+          "locator": "Three complete aggregate query counts",
+          "quote": "\"total_count\": 0"
+        }
+      ],
+      "observed_at": "2026-08-16",
+      "notes": [
+        "No public account is attached; these dated zero results do not prove historical absence or rule out unindexed reporting."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "WSJ publicly labels the documentary participant Derrik Goon and reports a historical Eagle Vision facilitator relationship. The source separately says he interviewed as Derrik Lee, described only as his real first and middle name. Derrik Goon and Derrik Lee remain source labels, with complete legal identity, public account, nationality, legal posture, present location, and controller status unresolved."
+}

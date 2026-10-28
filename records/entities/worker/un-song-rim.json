@@ -1,0 +1,352 @@
+{
+  "id": "un-song-rim",
+  "type": "worker",
+  "name": "Song Rim",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "EU administrative restrictive-measures designation dated 31 May 2024. Its stated reasons rely on the UN Panel report for the underlying conduct; administrative sanctions designation, with criminal charge or conviction outside that action.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dunw47-eu-2024-1602",
+      "dunw47-un-s-2022-668",
+      "dunw47-un-s-2023-171"
+    ]
+  },
+  "legal_or_reported_name": "Song Rim",
+  "organizations": [
+    "Biryugang Overseas Technology Cooperation Company",
+    "Hapjanggang Trading Corporation",
+    "Munitions Industry Department"
+  ],
+  "locations": [
+    "China"
+  ],
+  "caveats": [
+    "China and July 2020 provide historical report context; present location and current activity require newer evidence.",
+    "China's response is preserved: China replied that it had found no evidence that Song Rim was involved in the selling of phishing software or in the operation of phishing call centers within Chinese borders.",
+    "Member State allegations and Panel reporting describe reported claims; criminal, conviction, and current-conduct status remain allegation-level.",
+    "The annex portrait and sensitive fields were excluded; the official PDF is link-only evidence.",
+    "The EU regulation supplies an exact Hangul and alias bridge and an administrative designation, but its stated factual reasons rely on the UN Panel report.",
+    "The Naya Liu label is retained only as the alias linked by the source annex; separate civil identity and current public-account status remain unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "송림",
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dunw47-eu-2024-1602"
+      ]
+    },
+    {
+      "value": "Naya Liu",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dunw47-eu-2024-1602",
+        "dunw47-un-s-2022-668"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "un-panel-reported-activity",
+      "reported_activity": "selling voice-phishing hacking applications and operating multiple overseas servers and IP addresses",
+      "historical_location_context": "China since July 2020, as reported in S/2023/171",
+      "present_location_inferred": false,
+      "china_response": "China replied that it had found no evidence that Song Rim was involved in the selling of phishing software or in the operation of phishing call centers within Chinese borders.",
+      "source_ids": [
+        "dunw47-un-s-2022-668",
+        "dunw47-un-s-2023-171"
+      ]
+    },
+    {
+      "type": "eu-administrative-designation",
+      "designated_at": "2024-05-31",
+      "identity_forms": [
+        "Song Rim",
+        "송림",
+        "Naya Liu"
+      ],
+      "legal_posture": "administrative restrictive-measures designation; not a criminal charge or conviction",
+      "underlying_factual_lineage": "reasons expressly cite the UN Panel report",
+      "source_ids": [
+        "dunw47-eu-2024-1602"
+      ]
+    },
+    {
+      "type": "source-image-reference-boundary",
+      "source_url": "https://documents.un.org/api/symbol/access?l=en&s=S%2F2022%2F668&t=pdf",
+      "locator": "PDF file p. 292, annex 52",
+      "publication_handling": "link-only; no copy, redistribution, or facial inference",
+      "source_ids": [
+        "dunw47-un-s-2022-668"
+      ]
+    },
+    {
+      "type": "un-panel-member-state-reported-role",
+      "reported_name": "Song Rim",
+      "reported_role": "Head of IT development department of Biryugang Overseas Technology Cooperation Company under the Dandong branch of Hapjanggang Trading Corporation",
+      "source_scope": "Member State information relayed by the Panel",
+      "source_ids": [
+        "dunw47-un-s-2022-668"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dunw47-un-s-2022-668",
+      "support": "Paragraphs 121-122 and annex 52 identify Song Rim as a DPRK IT worker, report an organizational role, reproduce the source-labeled Naya Liu profile alias, and relay Member State allegations concerning voice-phishing applications",
+      "locator": "PDF file pp. 70-71, paragraphs 121-122; p. 292, annex 52"
+    },
+    {
+      "source_id": "dunw47-un-s-2023-171",
+      "support": "Paragraphs 133-135 repeat the reported Song Rim activity and preserve China's response that it found no evidence of the alleged conduct within Chinese borders",
+      "locator": "PDF file p. 68, paragraphs 133-135"
+    },
+    {
+      "source_id": "dunw47-eu-2024-1602",
+      "support": "Annex entry 37 administratively designates SONG Rim, explicitly prints 송림 and Naya Liu, and repeats the Biryugang role. Its reasons expressly rely on the UN Panel report, so it is a separate legal act but not an independent investigation of the underlying conduct",
+      "locator": "Annex, entry 37, PDF file p. 3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-song-rim-un-printed-name",
+      "type": "identity_name",
+      "predicate": "un_annex_printed_name",
+      "value": {
+        "latin_name": "Song Rim",
+        "korean_name": "송림"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 292, annex 52 heading, visually reviewed",
+          "quote": "Information on DPRK IT Worker Song Rim"
+        },
+        {
+          "source_id": "dunw47-eu-2024-1602",
+          "locator": "Annex, entry 37, PDF file p. 3, visually reviewed",
+          "quote": "SONG Rim 송림"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "The EU regulation explicitly bridges the Latin and Korean forms."
+      ]
+    },
+    {
+      "id": "claim-song-rim-naya-liu-alias",
+      "type": "alias",
+      "predicate": "member_state_linked_profile_alias",
+      "value": {
+        "alias": "Naya Liu",
+        "context": "source-displayed professional-network profile"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "S/2022/668, PDF file p. 292, annex 52, [Alias Linked in Profile] screenshot",
+          "quote": "Naya Liu"
+        },
+        {
+          "source_id": "dunw47-eu-2024-1602",
+          "locator": "Annex, entry 37, Alias column, PDF file p. 3",
+          "quote": "Naya Liu"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Source-labeled profile alias only; not a separately verified civil identity or current account."
+      ]
+    },
+    {
+      "id": "claim-song-rim-reported-role",
+      "type": "employment",
+      "predicate": "member_state_reported_it_development_role",
+      "value": {
+        "reported_role": "Head of IT development department of Biryugang Overseas Technology Cooperation Company under the Dandong branch of Hapjanggang Trading Corporation",
+        "current_activity_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 292, annex 52 affiliation/position row, visually reviewed",
+          "quote": "Affiliation/Position: Head of IT development department of Biryugang Overseas Technology Cooperation Company under the Dandong branch of Hapjanggang Trading Corporation"
+        },
+        {
+          "source_id": "dunw47-eu-2024-1602",
+          "locator": "Annex, entry 37, Reasons column, PDF file p. 3",
+          "quote": "The UN Panel of Experts reports that Song Rim is a worker for the Biryugang Overseas Technology Cooperation Company (Head of IT Development Department), which is directly linked to the Hapjanggang Trading Corporation, which is subordinate to the Ministry of Rocket Industry of the Democratic People's Republic of Korea."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Member State information relayed by the Panel and repeated in the EU designation reasons; current employment is not inferred."
+      ]
+    },
+    {
+      "id": "claim-song-rim-reported-organizations",
+      "type": "organization_affiliation",
+      "predicate": "member_state_reported_organization_chain",
+      "value": {
+        "organizations": [
+          "Biryugang Overseas Technology Cooperation Company",
+          "Hapjanggang Trading Corporation",
+          "Munitions Industry Department"
+        ],
+        "source_scope": "Member State information relayed by the Panel",
+        "current_affiliation_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 292, annex 52 affiliation/position row, visually reviewed",
+          "quote": "Affiliation/Position: Head of IT development department of Biryugang Overseas Technology Cooperation Company under the Dandong branch of Hapjanggang Trading Corporation"
+        },
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file pp. 70-71, paragraph 122",
+          "quote": "An individual in the video was identified as Song Rim, a worker at the Biryugang Overseas Technology Cooperation Company, directly linked to the Hapjanggang Trading Corporation subordinate to the Ministry of Rocket Industry of the Democratic People's Republic of Korea."
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "Reported organizational chain, not an adjudicated finding or proof of current affiliation."
+      ]
+    },
+    {
+      "id": "claim-song-rim-voice-phishing-application-allegation",
+      "type": "incident",
+      "predicate": "un_reported_voice_phishing_application_activity",
+      "value": {
+        "reported_activity": "selling voice-phishing hacking applications and operating multiple overseas servers and Internet Protocol addresses",
+        "source_posture": "reported allegation followed by a host-State no-evidence response",
+        "china_response": "China replied that it had found no evidence that Song Rim was involved in the selling of phishing software or in the operation of phishing call centers within Chinese borders.",
+        "criminal_charge_or_conviction": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file pp. 70-71, paragraph 122",
+          "quote": "An individual in the video was identified as Song Rim, a worker at the Biryugang Overseas Technology Cooperation Company, directly linked to the Hapjanggang Trading Corporation subordinate to the Ministry of Rocket Industry of the Democratic People's Republic of Korea."
+        },
+        {
+          "source_id": "dunw47-un-s-2023-171",
+          "locator": "PDF file p. 68, paragraph 133, visually reviewed",
+          "quote": "The Panel previously reported on a Munitions Industry Department-linked Democratic People's Republic of Korea information technology worker, Song Rim, who has been illegally earning foreign currency by selling voice phishing hacking applications and operating multiple overseas servers and Internet Protocol addresses."
+        },
+        {
+          "source_id": "dunw47-un-s-2023-171",
+          "locator": "PDF file p. 68, paragraph 135, visually reviewed",
+          "quote": "China replied that it had found no evidence that Song Rim was involved in the selling of phishing software or in the operation of phishing call centers within Chinese borders."
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "The allegation is not a criminal charge or conviction.",
+        "China's response is retained in the same claim so it cannot be detached from the allegation."
+      ]
+    },
+    {
+      "id": "claim-song-rim-eu-administrative-designation",
+      "type": "legal_event",
+      "predicate": "eu_restrictive_measures_designation",
+      "value": {
+        "jurisdiction": "European Union",
+        "designation_date": "2024-05-31",
+        "instrument": "Council Implementing Regulation (EU) 2024/1602",
+        "posture": "administrative restrictive-measures designation",
+        "criminal_charge_or_conviction": false,
+        "underlying_factual_lineage": "reasons expressly rely on the UN Panel report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-eu-2024-1602",
+          "locator": "Annex, entry 37, PDF file p. 3, visually reviewed",
+          "quote": "SONG Rim 송림"
+        },
+        {
+          "source_id": "dunw47-eu-2024-1602",
+          "locator": "Annex, entry 37, Alias column, PDF file p. 3",
+          "quote": "Naya Liu"
+        },
+        {
+          "source_id": "dunw47-eu-2024-1602",
+          "locator": "Annex, entry 37, Reasons column, PDF file p. 3",
+          "quote": "The UN Panel of Experts reports that Song Rim is a worker for the Biryugang Overseas Technology Cooperation Company (Head of IT Development Department), which is directly linked to the Hapjanggang Trading Corporation, which is subordinate to the Ministry of Rocket Industry of the Democratic People's Republic of Korea."
+        }
+      ],
+      "observed_at": "2024-05-31",
+      "notes": [
+        "Administrative designation only; not a criminal charge, conviction, or UN Committee designation.",
+        "The exact identity bridge is independent legal evidence, while the reasons' underlying conduct narrative is explicitly UN-derived."
+      ]
+    },
+    {
+      "id": "claim-song-rim-china-historical-context",
+      "type": "location",
+      "predicate": "un_reported_historical_country_context",
+      "value": {
+        "location": "China",
+        "reported_since": "July 2020",
+        "context": "reported activity context",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2023-171",
+          "locator": "PDF file p. 68, paragraph 133",
+          "quote": "Song Rim has reportedly been selling these voice phishing hacking applications in China since July 2020."
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "Historical allegation context only; present residence, travel, or current activity is not inferred."
+      ]
+    },
+    {
+      "id": "claim-song-rim-link-only-un-image",
+      "type": "image",
+      "predicate": "official_report_image_reference",
+      "value": {
+        "media_type": "Member State-supplied portrait reproduced in UN annex",
+        "source_url": "https://documents.un.org/api/symbol/access?l=en&s=S%2F2022%2F668&t=pdf",
+        "locator": "PDF file p. 292, annex 52",
+        "handling": "link_only"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-668",
+          "locator": "PDF file p. 292, annex 52 heading, visually reviewed",
+          "quote": "Information on DPRK IT Worker Song Rim"
+        }
+      ],
+      "observed_at": "2022-09-07",
+      "notes": [
+        "No image copy, redistribution, facial recognition, appearance comparison, or image-based identity inference is authorized."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Song Rim is the name used in UN Panel reports for a Member State-identified DPRK IT worker. The EU regulation explicitly bridges SONG Rim to 송림 and Naya Liu; Naya Liu remains an attributed persona, and civil identity requires separate verification. Keep alleged conduct, China's response, the EU administrative designation, historical country context, and link-only image handling separate."
+}

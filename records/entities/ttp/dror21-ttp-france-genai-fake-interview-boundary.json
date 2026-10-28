@@ -1,0 +1,64 @@
+{
+  "id": "dror21-ttp-france-genai-fake-interview-boundary",
+  "type": "ttp",
+  "name": "France CERT generative-AI fake-interview boundary",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Official secondary threat synthesis with conditional attribution to cited vendor reporting; French incident, legal finding, sanction, adjudication, and independent technical corroboration remain outside the cited reporting.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dror21-s03a-fr-cert-genai-2026-page",
+      "dror21-s03b-fr-cert-genai-2026-pdf"
+    ]
+  },
+  "ttps": [
+    "fake-interview-social-engineering",
+    "generative-ai-assisted-synthetic-profiles",
+    "malware-delivery-context"
+  ],
+  "caveats": [
+    "Fake-interview malware activity must remain separate from fraudulent-employment records unless a source explicitly connects the same conduct and evidence.",
+    "The normalized record intentionally omits campaign, actor, company, employee, account, and victim names.",
+    "The publication page and PDF are one official source family; the official report and cited vendor reporting form a dependent claim chain, so corroboration remains source-dependent."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-secondary-source-and-campaign-boundary",
+      "statements": [
+        "A national CERT threat synthesis conditionally restates cited reporting that generative AI was used to create false company and employee profiles on social networks during 2024-2025.",
+        "Official-language context does not establish a new incident, actor, victim, employment case, or independent technical attribution."
+      ],
+      "chronology": [
+        {
+          "date_range": "2024-2025",
+          "event": "Period covered by the cited synthetic-profile claim."
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Official threat synthesis published."
+        }
+      ],
+      "evidence_boundary": "Fake-interview social engineering and malware delivery are analytically distinct from fraudulent employment. False company or employee profiles in a fake-interview campaign do not establish job placement, payroll entry, employment-enabled access, or a fraudulent-worker relationship without an explicit source bridge.",
+      "source_ids": [
+        "dror21-s03a-fr-cert-genai-2026-page",
+        "dror21-s03b-fr-cert-genai-2026-pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dror21-s03a-fr-cert-genai-2026-page",
+      "support": "Supports the February 4, 2026 publication chronology and official provenance of the threat synthesis. The page and downloadable report are one CERT source family and must not be counted as independent corroboration",
+      "locator": "Publication page title, date, summary, and downloadable-report link"
+    },
+    {
+      "source_id": "dror21-s03b-fr-cert-genai-2026-pdf",
+      "support": "Supports a narrow secondary-source claim that, according to cited vendor reporting and using conditional attribution, generative-AI services reportedly helped create false company and employee profiles on social networks during 2024-2025. The cited context is fake-interview malware delivery; the report does not describe a French victim, an authority-observed local incident, or use of those profiles for fraudulent employment",
+      "locator": "PDF page 4, section 1.1, first bullet under 'Conception de contenus à des fins d’ingénierie sociale et de reconnaissance'; footnote 6 and reference [6] on PDF page 9"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

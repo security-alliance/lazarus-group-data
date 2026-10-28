@@ -1,0 +1,12 @@
+{
+  "id": "src-ed9c6e972086",
+  "publisher": "GitHub",
+  "title": "GitHub public issues authored by adonistoday",
+  "url": "https://api.github.com/search/issues?q=author%3Aadonistoday%20is%3Apublic&per_page=100",
+  "accessed_at": "2026-08-14",
+  "sha256": "8cadc0ee944a4e6d1dcc9524e2dfa7ed01bf335ec042c04a8f69702565bcb140",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

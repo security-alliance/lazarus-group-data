@@ -1,0 +1,37 @@
+{
+  "id": "front-company-shenyang-goldenpack-technic-development-co-ltd",
+  "type": "front_company",
+  "name": "Shenyang GoldenPack Technic Development Co., Ltd.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "PRC company reported to have laundered for Chinyong IT teams",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-un-poe-2024"
+    ]
+  },
+  "locations": [
+    "Shenyang, China"
+  ],
+  "aliases": [
+    {
+      "value": "Shenyang GoldenPack",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-un-poe-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-un-poe-2024",
+      "support": "UN Panel para. 168 and Annexes 82-84 report over $28m in transactions during 2020-2022; Member State attribution, with replies documented in Annex 84",
+      "locator": "paras. 152-168; Annexes 64, 81-84 | Original official publication page: https://documents.un.org/doc/undoc/gen/n24/038/01/pdf/n2403801.pdf"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

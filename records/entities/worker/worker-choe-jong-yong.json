@@ -1,0 +1,574 @@
+{
+  "id": "worker-choe-jong-yong",
+  "type": "worker",
+  "name": "Choe Jong Yong",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; IT worker. The indictment alleges the bounded historical engagement details; it carries no guilt finding or current-activity basis. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; a later HTTP 403 leaves removal and fresh status verification unverified.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-10",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Choe Jong Yong",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "This image, the employment label B.T., and transcription variants remain separate records; visual similarity links them only when a source explicitly documents the connection.",
+    "FBI pages may change; retain verification date.",
+    "Historical PRC laptop access is an access signal only; present location, activity, employment, and control remain outside the source finding.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "The same charging document and existing source family support this item; together they form one source family rather than independent corroboration.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "Separate engagements and typed identity personas remain unmerged.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Victim details, identity initials, emails, accounts, payment routing, identity-document details, private data, and precise selectors are excluded.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-10",
+      "source_url": "https://www.fbi.gov/wanted/cyber/choe-jong-yong",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/choe-jong-yong/@@images/image/large",
+      "caption": "FBI wanted-page image published for Choe Jong Yong, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "doj-indictment-bounded-historical-engagement-depth",
+      "legal_basis": "the indictment alleges",
+      "separate_alleged_engagements": [
+        {
+          "engagement_key": "application-developer-2021-2022",
+          "alleged_role": "application developer",
+          "alleged_period": "October 2021 to April 2022",
+          "alleged_interview_proxy_payment_usd": 100,
+          "alleged_approximate_compensation_usd": 95000
+        },
+        {
+          "engagement_key": "nonprofit-2020-2022",
+          "alleged_role": "IT work using another person's identity",
+          "alleged_period": "January 2020 to July 2022",
+          "alleged_minimum_compensation_usd": 158000,
+          "alleged_termination_context": "after FBI notice"
+        }
+      ],
+      "identity_personas_kept_separate": true,
+      "unnamed_organization_only": true,
+      "sensitive_selectors_retained": false,
+      "independent_corroboration": false,
+      "present_activity_employment_or_control_inferred": false,
+      "source_family_dependencies": [
+        "DPHR5-S01-DOJ-EDMO-INDICTMENT",
+        "ldoc-05"
+      ],
+      "source_ids": [
+        "gov-107f8a96865d"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-choe-jong-yong"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-10",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Choe Jong Yong; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Choe Jong Yong as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Choe Jong Yong and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment alleges the bounded engagement details summarized in this record; exact excerpts remain in the raw review package | The indictment names Choe Jong Yong as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Choe Jong Yong; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24 | PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74"
+    },
+    {
+      "source_id": "src-76a99a630a82"
+    },
+    {
+      "source_id": "src-2c35594063af"
+    },
+    {
+      "source_id": "src-10296cf02e47"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Choe Jong Yong",
+        "korean": "최정용"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Choe Jong Yong (최정용), IT worker"
+        },
+        {
+          "source_id": "src-76a99a630a82",
+          "locator": "JSON field: title",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "src-2c35594063af",
+          "locator": "identified-individuals list",
+          "quote": "Choe Jong Yong (최정용)"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "The Latin and Hangul forms are explicitly paired by RFJ; the FBI API title independently matches the charged identity. No same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-yanbian-it-worker-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organization": "Yanbian Silverstar",
+        "role": "IT worker"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 21",
+          "quote": "worked as IT workers for Yanbian Silverstar and reported to the Group Leaders."
+        },
+        {
+          "source_id": "src-76a99a630a82",
+          "locator": "JSON field: occupations[0]",
+          "quote": "IT Worker"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The role-class allegation expressly includes the subject in the same paragraph; it does not establish current employment."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft",
+          "aggravated identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 title",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 21, Count 1 defendant list",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 title",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 defendant list",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 24, Count 3 defendant list",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 defendant list",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 title",
+          "quote": "Aggravated Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 defendant list",
+          "quote": "CHOE JONG YONG"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-10296cf02e47",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Choe Jong Yong is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-10296cf02e47",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Choe Jong Yong in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Wanted and warrant status do not establish guilt; status is reported as displayed on the retrieved official poster."
+      ]
+    },
+    {
+      "id": "claim-ssn-list-custody-allegation",
+      "type": "incident",
+      "predicate": "allegedly_held_stolen_pii_list",
+      "value": {
+        "artifact": "SSN LIST",
+        "conduct": "allegedly held a list containing stolen PII"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "Personally Identifiable Information (\"PII\") stolen from 188 U.S. persons."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "was held by CHOE JONG YONG (the \"SSN LIST\")."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The indictment allegation is preserved without any victim selector or underlying identity data."
+      ]
+    },
+    {
+      "id": "claim-stolen-pii-use-allegation",
+      "type": "incident",
+      "predicate": "named_in_stolen_pii_use_allegation",
+      "value": {
+        "conduct": "allegedly used stolen PII from the SSN LIST in furtherance of the charged conspiracy"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 9, paragraph 26",
+          "quote": "In several instances, CHO CHUNG POM, CHOE JONG YONG, SON UN CHOL, KIM YE WON, SOK KWANG HYOK, and conspirators known and unknown to the Grand Jury used the stolen PII in the SSN LIST in furtherance of their conspiracy."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Aggregate defendant-specific allegation; no victim identities, selectors, or PII fields are retained."
+      ]
+    },
+    {
+      "id": "claim-resume-and-job-application-allegation",
+      "type": "employment",
+      "predicate": "allegedly_created_resume_and_applied_for_jobs",
+      "value": {
+        "period": "July 2021",
+        "conduct": "allegedly created a resume and applied for jobs using wire communications"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 13, paragraph 49",
+          "quote": "In or around July 2021, CHOE JONG YONG created a resume"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 13, paragraph 49",
+          "quote": "to apply for jobs at various U.S. businesses using wire communications in interstate and foreign commerce."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The intervening private/victim selector was deliberately excluded; no stolen identity label is retained."
+      ]
+    },
+    {
+      "id": "claim-fake-work-history-allegation",
+      "type": "employment",
+      "predicate": "allegedly_claimed_fake_prior_employment",
+      "value": {
+        "organization": "LID Tech",
+        "conduct": "allegedly claimed prior employment at a fake company"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 17, paragraph 72",
+          "quote": "CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 17-18, paragraph 72",
+          "quote": "claimed to have previously worked for LID Tech, a fake company that claimed to be based in the United States, but had no website or state corporate registration."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The private identity label in the same sentence was deliberately excluded."
+      ]
+    },
+    {
+      "id": "claim-rfj-choe-jong-yong-image-reference",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/yanbian-silverstar-and-volasys-silverstar",
+        "media_url": "https://rewardsforjustice.net/wp-content/uploads/2026/01/Rewards-Choe-Jong-Yong-최정용-300x222.png",
+        "handling": "link-only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list and immediately corresponding rewards-image link",
+          "quote": "Choe Jong Yong (최정용), IT worker"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Linked image href",
+          "quote": "Rewards-Choe-Jong-Yong-최정용-300x222.png"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Official source-explicit media reference only. The image was not downloaded, cropped, compared, or used for facial recognition or identity inference; the charged posture remains unchanged."
+      ]
+    },
+    {
+      "id": "claim-rfj-choe-jong-yong-reward-context",
+      "type": "legal_event",
+      "predicate": "official_collective_reward_information_request",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of covered DPRK-supporting financial mechanisms",
+        "subject_context": "Choe Jong Yong is included in RFJ's named worker/manager list"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section, reward statement",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Choe Jong Yong (최정용), IT worker"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This is a collective program reward and information request, not an individual bounty amount, merits finding, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-choe-jong-yong-fbi-china-ties",
+      "type": "location",
+      "predicate": "fbi_reported_country_ties_or_possible_travel",
+      "value": {
+        "country": "China",
+        "wording": "has ties to or may visit",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-10296cf02e47",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Choe Jong Yong has ties to or may visit China."
+        }
+      ],
+      "observed_at": "2024-11-12",
+      "notes": [
+        "The FBI's qualified wording is retained exactly; it does not establish residence, a sighting, completed travel, or present location."
+      ]
+    },
+    {
+      "id": "claim-choe-indictment-application-developer-engagement-round65",
+      "type": "incident",
+      "predicate": "indictment_alleged_historical_application_developer_engagement",
+      "value": {
+        "legal_basis": "the indictment alleges",
+        "engagement_key": "application-developer-2021-2022",
+        "alleged_role": "application developer",
+        "alleged_period": "October 2021 to April 2022",
+        "alleged_interview_proxy_payment_usd": 100,
+        "alleged_approximate_compensation_usd": 95000,
+        "engagements_merged": false,
+        "sensitive_selectors_retained": false,
+        "current_activity_or_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "In or around September 2021, CHOE JONG YONG used wire communications in interstate and foreign commerce to apply for an application developer position"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "The same day, CHOE JONG YONG paid"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "$100 for participating in the interview."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "Between on or about October 18, 2021, and on or about April 15, 2022, U.S. Business #4 paid CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "approximately $95,000."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The indictment alleges these historical details; they are not adjudicated findings and do not establish guilt.",
+        "Same charging document and source family; not independent corroboration. Victim details, identity initials, accounts, payment routing, documents, private data, and precise selectors are excluded."
+      ]
+    },
+    {
+      "id": "claim-choe-indictment-nonprofit-engagement-round65",
+      "type": "incident",
+      "predicate": "indictment_alleged_separate_historical_nonprofit_engagement",
+      "value": {
+        "legal_basis": "the indictment alleges",
+        "engagement_key": "nonprofit-2020-2022",
+        "alleged_role": "IT work using another person's identity",
+        "alleged_period": "January 2020 to July 2022",
+        "alleged_minimum_compensation_usd": 158000,
+        "alleged_termination_context": "after FBI notice",
+        "engagements_merged": false,
+        "identity_personas_kept_separate": true,
+        "sensitive_selectors_retained": false,
+        "current_activity_or_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "On or about April 15, 2022, U.S. Business #4 terminated its relationship"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "On or about January 22, 2020, U.S. Nonprofit Organization #2"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "hired an individual"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "Between on or about January 22, 2020, and on or about July 15, 2022, U.S. Nonprofit Organization #2 paid CHOE JONG YONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "at least $158,000."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 14, paragraphs 50-55; PDF pp. 17-18, paragraphs 70-74",
+          "quote": "U.S. Nonprofit Organization #2 terminated its relationship"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The indictment alleges these historical details; they are not adjudicated findings and do not establish guilt.",
+        "Same charging document and source family; not independent corroboration. Victim details, identity initials, accounts, payment routing, documents, private data, and precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Choe Jong Yong (최정용), the charged defendant explicitly named by Rewards for Justice, the FBI, and E.D. Mo. No. 4:24-cr-00648-MTS-JSD; name or image similarity yields a separate record, and every criminal-conduct claim remains allegation-only."
+}

@@ -1,0 +1,178 @@
+{
+  "id": "worker-pak-chol-yong",
+  "type": "worker",
+  "name": "Pak Chol Yong",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Pak Chol Yong",
+  "organizations": [
+    "SANS FAB IT / Sangsin delegation"
+  ],
+  "locations": [
+    "Laos; many relocated to China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annexes 12 and 14. 'Uh In Song' appears as 'U In Song' in Annex 14; treated as a spelling variant within the same source, not an independently inferred identity",
+      "locator": "Annex 14 relocation list, PDF p. 133 / printed p. 131 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-pak-chol-yong-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Pak Chol Yong"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 relocation list, PDF file p. 133 (printed p. 131)",
+          "quote": "Pak Chol Yong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State list name; no additional civil-identity fields were supplied."
+      ]
+    },
+    {
+      "id": "claim-pak-chol-yong-hyphenated-source-name-form",
+      "type": "alias",
+      "predicate": "source_reported_name_form",
+      "value": {
+        "name": "Pak Chol-yong",
+        "form_type": "same-source hyphenated spelling"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66)",
+          "quote": "Pak Chol-yong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Same-source name form only; it is not an independently corroborated alias or identity bridge."
+      ]
+    },
+    {
+      "id": "claim-pak-chol-yong-assessed-continued-sangsin-association",
+      "type": "organization_affiliation",
+      "predicate": "source_assessed_continued_sangsin_association",
+      "value": {
+        "organization": "Sangsin/SANS FAB delegation",
+        "assessment": "continued to be associated"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66)",
+          "quote": "It is assessed that Pak Chol-yong continued to be associated with the Sangsin/SANS FAB delegation"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "The source's assessment language is preserved; no confirmed current affiliation is asserted."
+      ]
+    },
+    {
+      "id": "claim-pak-chol-yong-assessed-likely-delegation-lead",
+      "type": "employment",
+      "predicate": "source_assessed_likely_delegation_lead",
+      "value": {
+        "role": "delegation lead",
+        "qualification": "likely"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66)",
+          "quote": "likely as the delegation lead."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Qualified assessment, not a confirmed title, adjudicated fact, or present role."
+      ]
+    },
+    {
+      "id": "claim-pak-chol-yong-late-2024-relocation",
+      "type": "location",
+      "predicate": "source_reported_late_2024_relocation",
+      "value": {
+        "from": "Laos",
+        "to": "China",
+        "timeframe": "late 2024",
+        "assessment": "almost certainly to return to North Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study continuation, PDF file p. 69 (printed p. 67)",
+          "quote": "Annex 14 is a list of individuals from the SANS FAB IT delegation who, in late 2024, relocated from Laos to China to almost certainly return to North Korea (See Annex 14)."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 relocation list, PDF file p. 133 (printed p. 131)",
+          "quote": "Pak Chol Yong"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source report. The purpose assessment is preserved as an assessment and does not establish completed return or present location."
+      ]
+    },
+    {
+      "id": "claim-pak-chol-yong-sangsin-delegation-revenue-context",
+      "type": "incident",
+      "predicate": "msmt_reported_sangsin_delegation_revenue_context",
+      "value": {
+        "organization": "Sangsin/SANS FAB IT delegation",
+        "reported_aggregate": "over USD 2.5 million",
+        "reported_period": "mid-2019 to mid-2024",
+        "scope": "delegation-level",
+        "individual_amount_attributed": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "It is assessed that Pak Chol-yong continued to be associated with the Sangsin/SANS FAB delegation, likely as the delegation lead. The delegation earned over $2.5 million between mid-2019 and mid-2024"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT delegation-level context only; the aggregate is not attributed as Pak Chol Yong's personal earnings, receipt, control, or transaction activity.",
+        "No payment-service account, bank account, proxy identity, transaction, client, victim, or other selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Pak Chol Yong is the Annex 14-listed person written as Pak Chol-yong in the MSMT Sangsin case study. The source assesses continued delegation association and says he was likely the delegation lead; title, current role, completed return to North Korea, present location, and account control remain qualified. Matches remain separate unless a source links them beyond name, nationality, geography, technology, or image similarity."
+}

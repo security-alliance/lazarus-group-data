@@ -1,0 +1,65 @@
+{
+  "id": "duir6-ttp-revenue-waterfall-fees-and-quota",
+  "type": "ttp",
+  "name": "Revenue waterfall through proxy fees, intermediaries, managers, and quota remittance",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel synthesis of expert interviews and source-qualified examples; criminal finding, sanctions designation, and universal pattern fall outside the synthesis.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-un-s-2023-656"
+    ]
+  },
+  "ttps": [
+    "manager-revenue-share",
+    "payment-intermediary-fees",
+    "proxy-account-fees",
+    "quota-remittance",
+    "simultaneous-projects"
+  ],
+  "caveats": [
+    "This aggregate finding retains payment context while excluding payment accounts and account-holder identities.",
+    "Evidence class: UN Panel synthesis of expert interviews.",
+    "The public record retains aggregate context; people, personas, accounts, companies, victims, payment identifiers, wallets, addresses, images, credentials, and raw technical selectors stay outside it.",
+    "The figures are expert estimates and ranges; audited totals and universal rates require broader data.",
+    "The record preserves an official-source operating model or case description; attribution rules or proof about an applicant, worker, nationality, or organization require separate evidence.",
+    "Use only lawful, proportionate, multi-signal review. Location, work-hour, VPN, remote-access, bidding, payment and code-quality signals require combination and corroboration before supporting fraud or DPRK attribution."
+  ],
+  "infrastructure": [
+    {
+      "type": "expert-interview-revenue-model",
+      "statements": [
+        "Overseas workers were reported to handle several projects simultaneously; experts estimated typical monthly earnings of $3,000-$5,000 and substantially higher earnings for highly skilled workers.",
+        "Workers reportedly paid 5%-30% of income to proxy-account holders and usually 20%-30% to payment or laundering intermediaries, or a fixed monthly per-person fee.",
+        "After office, equipment, and living expenses, supervisors and managers received a share, the dispatching organization received a share, and funds were handed over to Pyongyang under a designated quota requirement."
+      ],
+      "limitations": [
+        "Evidence class: UN Panel synthesis of expert interviews.",
+        "The figures are expert estimates and ranges, not audited totals or universal rates.",
+        "Do not expose payment accounts or identify account holders from this aggregate finding.",
+        "The record preserves an official-source operating model or case description; it is not a standalone attribution rule or proof about an applicant, worker, nationality, or organization.",
+        "Use only lawful, proportionate, multi-signal review. No single location, work-hour, VPN, remote-access, bidding, payment, or code-quality signal establishes fraud or DPRK attribution.",
+        "No people, personas, accounts, companies, victims, payment identifiers, wallets, addresses, images, credentials, or raw technical selectors are retained."
+      ],
+      "source_ids": [
+        "duir6-un-s-2023-656"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+    "deep2-unhistory-un-2020-scale-quota-and-geography",
+    "haf-ttp-historical-managed-quota-remittance-system"
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-un-s-2023-656",
+      "support": "Evidence class: UN Panel synthesis of expert interviews. Source-qualified support: Overseas workers were reported to handle several projects simultaneously; experts estimated typical monthly earnings of $3,000-$5,000 and substantially higher earnings for highly skilled workers. Workers reportedly paid 5%-30% of income to proxy-account holders and usually 20%-30% to payment or laundering intermediaries, or a fixed monthly per-person fee. After office, equipment, and living expenses, supervisors and managers received a share, the dispatching organization received a share, and funds were handed over to Pyongyang under a designated quota requirement",
+      "locator": "S/2023/656, Annex 68, PDF pp. 325-326, section 7"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

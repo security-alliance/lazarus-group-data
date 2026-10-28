@@ -1,0 +1,76 @@
+{
+  "id": "dfpsr3-ttp-sector-identity-continuity-and-cross-requisition-correlation",
+  "type": "ttp",
+  "name": "Sector identity continuity and cross-requisition applicant correlation",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Anonymous sector-member reporting summarized by an industry body records reported belief and an anonymous control example; legal posture depends on a named authority or court.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFPSR3-S03-FSISAC-MARCH-2025",
+      "DFPSR3-S04-FSISAC-JULY-2025",
+      "DFPSR3-S05-FSISAC-YIR-2025"
+    ]
+  },
+  "ttps": [
+    "contractor-risk",
+    "cross-requisition-correlation",
+    "identity-continuity",
+    "repeat-applications",
+    "sector-information-sharing",
+    "synthetic-identity"
+  ],
+  "caveats": [
+    "The record contains aggregate financial-sector context; public member institutions, selectors, and applicant identities require separate source evidence.",
+    "The institution, applicant, reports, selectors, final outcome, and numeric detection threshold remain unpublished and un-inferred.",
+    "This record includes no people, personas, victim institutions, front companies, accounts, wallets, payment identifiers, addresses, or images.",
+    "Treat controls as risk-based and source-qualified; DPRK linkage requires multiple corroborated signals.",
+    "Use source-qualified wording such as reported or believed; confidential member suspicion remains separate from legal attribution."
+  ],
+  "infrastructure": [
+    {
+      "type": "financial-sector-member-reporting-and-defensive-control-context",
+      "statements": [
+        "FS-ISAC describes multiple member reports across both applicant and contractor stages and continuing sharing about impersonated and synthetic identities. This supports controls that preserve identity continuity from application through onboarding and active employment, including contractors and staffing vendors.",
+        "FS-ISAC says two intelligence reports helped one member identify an applicant who had applied to twelve developer and engineering roles. The safe defensive lesson is to correlate applicant identity and application history across requisitions rather than review each application in isolation."
+      ],
+      "limitations": [
+        "Use source-qualified wording such as reported or believed; do not convert confidential member suspicion into legal attribution.",
+        "No public member institutions or selectors are retained; financial-sector member reports do not identify an institution or applicant.",
+        "Do not publish or infer the institution, applicant, reports, selectors, final outcome, or a numeric detection threshold.",
+        "Treat controls as risk-based and source-qualified; no single location, language, accent, camera, payment, network, device, or behavioral signal establishes DPRK linkage.",
+        "This record includes no people, personas, victim institutions, front companies, accounts, wallets, payment identifiers, addresses, or images."
+      ],
+      "source_ids": [
+        "DFPSR3-S03-FSISAC-MARCH-2025",
+        "DFPSR3-S04-FSISAC-JULY-2025",
+        "DFPSR3-S05-FSISAC-YIR-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-identity-continuity",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DFPSR3-S03-FSISAC-MARCH-2025",
+      "support": "FS-ISAC reports that from November 2024 through February 2025 members received many suspicious job applications believed to be connected to the DPRK remote-worker scheme, and several members found suspicious contractors they believed were remote DPRK IT workers. FS-ISAC describes multiple member reports across both applicant and contractor stages and continuing sharing about impersonated and synthetic identities. This supports controls that preserve identity continuity from application through onboarding and active employment, including contractors and staffing vendors",
+      "locator": "Threat Intelligence Update, North Korean Remote IT Worker Scheme"
+    },
+    {
+      "source_id": "DFPSR3-S04-FSISAC-JULY-2025",
+      "support": "FS-ISAC says members had shared suspicious-application intelligence since March 2023; after its March 2025 spotlight, members continued providing information about impersonated and synthetic identities attributed to DPRK remote IT workers. FS-ISAC describes multiple member reports across both applicant and contractor stages and continuing sharing about impersonated and synthetic identities. This supports controls that preserve identity continuity from application through onboarding and active employment, including contractors and staffing vendors",
+      "locator": "North Korean Remote IT Worker Observables and Resources"
+    },
+    {
+      "source_id": "DFPSR3-S05-FSISAC-YIR-2025",
+      "support": "FS-ISAC reports that two intelligence reports on fraudulent DPRK IT workers enabled one member to identify a threat actor who had applied for twelve developer and engineering roles at the firm. FS-ISAC says two intelligence reports helped one member identify an applicant who had applied to twelve developer and engineering roles. The safe defensive lesson is to correlate applicant identity and application history across requisitions rather than review each application in isolation",
+      "locator": "PDF page 4, FS-ISAC in Action"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

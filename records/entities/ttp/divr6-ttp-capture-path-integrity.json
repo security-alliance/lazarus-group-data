@@ -1,0 +1,80 @@
+{
+  "id": "divr6-ttp-capture-path-integrity",
+  "type": "ttp",
+  "name": "Capture-path integrity evaluated separately from liveness",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "These are first-party provider observations and source-attributed investigations. The material is vendor guidance with generic controls, while incident, allegation, adjudication, court, identity, prevalence, and efficacy findings require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIVR6-S02",
+      "DPPLR19-S01-PINDROP-TELEMETRY"
+    ]
+  },
+  "ttps": [
+    "auditable-decision",
+    "capture-path-integrity",
+    "human-review",
+    "injection-resistance",
+    "liveness-control-boundary",
+    "verification-bypass-observation"
+  ],
+  "caveats": [
+    "A failed or anomalous capture-path check calls for review; DPRK or fraud attribution requires corroborating evidence.",
+    "Accessibility software, virtual-camera tools, remote-assistance workflows, older hardware, and browser restrictions can produce legitimate anomalies.",
+    "Capture-path assurance is distinct from generic deepfake detection; it addresses capture integrity, while candidate identity and affiliation require separate evidence.",
+    "Identity-document imagery, synthetic-image examples, biometric templates, candidate-level telemetry, and raw graph nodes stay out of publication and operational use.",
+    "Keep applicant video, selfies, face templates, identity documents, and raw behavioral/device signals out of the public dataset.",
+    "Location supplies context; identity, nationality, sanctions status, physical control, employment legitimacy, and misconduct require corroboration.",
+    "The record scope excludes people, entities, accounts, images, identity documents, biometric material, templates, private data, and raw device, network, video, or screening signals.",
+    "Identity or attribution requires more than a single face, image, document, VPN, location, device, network, profile, résumé, repository, contact, or behavior signal.",
+    "Successful or failed verification is one bounded observation; legal identity, nationality, DPRK affiliation, worker continuity, present account control and product-wide performance require separate evidence.",
+    "Use explainable multi-signal review, minimization, bounded retention, trained human adjudication, correction, appeal, accessibility accommodations, and applicable legal review.",
+    "Use layered, explainable review with a lawful purpose, proportional retention, accessible alternatives, correction, and appeal; an anomaly or vendor decision is a review trigger rather than proof of fraud.",
+    "Use proportional retention, consent, correction, appeal, and human review.",
+    "Vendor guidance is retained as a defensive abstraction; incident, measured effectiveness, and DPRK-identification claims require independent evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "applicant-authentication-capture-path-control",
+      "statements": [
+        "Challenge-response liveness can still fail if synthetic or prerecorded video is injected as the camera input. For applicant authentication, treat camera-feed provenance and injection resistance as separate assurance questions from whether a subject can complete a prompt. Preserve an auditable decision record and route unresolved cases to trained human review rather than automatically rejecting a candidate."
+      ],
+      "limitations": [
+        "Do not retain applicant video, selfies, face templates, identity documents, or raw behavioral/device signals in the public dataset.",
+        "A failed or anomalous capture-path check is a review trigger, not proof of DPRK affiliation or fraud.",
+        "Accessibility software, virtual-camera tools, remote-assistance workflows, older hardware, and browser restrictions can produce legitimate anomalies.",
+        "Use proportional retention, consent, correction, appeal, and human review.",
+        "Vendor guidance is retained as a defensive abstraction, not as a reported incident, a measured effectiveness claim, or evidence that a product identifies DPRK affiliation.",
+        "Use layered, explainable review with a lawful purpose, proportional retention, accessible alternatives, correction, and appeal; an anomaly or vendor decision is a review trigger rather than proof of fraud.",
+        "Location cannot independently establish identity, nationality, sanctions status, physical control, employment legitimacy, or misconduct.",
+        "No people, entities, accounts, images, identity documents, biometric material, templates, private data, or raw device, network, video, or screening signals are retained.",
+        "Capture-path assurance is distinct from generic deepfake detection and does not establish a candidate’s identity or affiliation."
+      ],
+      "source_ids": [
+        "DIVR6-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "divr6-ttp-capture-path-integrity",
+    "ttp-ttp-deepfake-interview",
+    "ttp-ttp-identity-continuity"
+  ],
+  "sources": [
+    {
+      "source_id": "DPPLR19-S01-PINDROP-TELEMETRY",
+      "support": "Pindrop reports at least two source-labeled suspected cases in which synthetic imagery passed document verification. Evidence boundary: Provider-reported observations from Pindrop's own pipeline. The article does not publish methodology sufficient to reproduce its labels, cohort sizes for every percentage, independent validation, named candidates, legal identities, or a labor-market prevalence estimate. Its 'confirmed fraud' and 'linked to North Korea' labels are source labels, not adjudications",
+      "locator": "Opening comparison with GitLab; Pindrop Research: Fraud runs rampant in job applicant pools; Device telemetry; Geography & network characteristics; Synthetic identity construction; From one suspicious node to a cluster; Beyond deepfakes: What hiring telemetry actually shows"
+    },
+    {
+      "source_id": "DIVR6-S02",
+      "support": "Challenge-response liveness can still fail if synthetic or prerecorded video is injected as the camera input. For applicant authentication, treat camera-feed provenance and injection resistance as separate assurance questions from whether a subject can complete a prompt. Preserve an auditable decision record and route unresolved cases to trained human review rather than automatically rejecting a candidate",
+      "locator": "Key takeaways; How biometric injection attacks work; Why hiring pipelines are increasingly targeted by injection attacks; How layered identity verification defends against biometric injection attacks"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

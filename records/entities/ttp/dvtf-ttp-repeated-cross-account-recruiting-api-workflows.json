@@ -1,0 +1,71 @@
+{
+  "id": "dvtf-ttp-repeated-cross-account-recruiting-api-workflows",
+  "type": "ttp",
+  "name": "Repeated cross-account recruiting-API workflow correlation",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed vendor observation and defensive abstraction; named-person attribution and adjudicated fact require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DVTF-S01"
+    ]
+  },
+  "ttps": [
+    "direct-application",
+    "multiple-personas",
+    "shared-account"
+  ],
+  "caveats": [
+    "Product-specific coverage depends on HR SaaS audit availability and correct connector configuration.",
+    "Product-specific raw queries, commands, device values, IPs, and other brittle selectors are intentionally omitted.",
+    "The public evidence is Microsoft’s observation; customer telemetry was outside this package's review.",
+    "The same APIs and operation families are used by legitimate applicants. Repetition across accounts is an anomaly for investigation and requires evidence before attributing shared control or nationality.",
+    "The source publishes qualitative detector guidance; measured efficacy requires testing against legitimate applicant, staffing, accessibility, support, lab, and outsourcing workflows."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Preserve applicant-facing HR SaaS audit events and correlate external account, coarse network provenance, operation family, role or requisition, and timing across the recruiting tenant.",
+        "Hunt for multiple otherwise unrelated external identities repeating an unusually similar sequence of recruiting operations against the same organization or requisition set, especially when combined with separately validated threat intelligence or applicant-graph anomalies.",
+        "Use the result as a triage lead for HR/security review, not as an automated rejection or DPRK attribution. Compare against normal behavior for staffing agencies, accessibility tools, applicant-assistance services, and legitimate automation before escalation.",
+        "Review exposed career-site OAuth clients and API logging so applicant activity is observable without adding invasive surveillance of candidates."
+      ],
+      "limitations": [
+        "Behavioral anomalies require corroboration and human review; no single applicant, API, KVM, RMM, device, or network event establishes shared control, fraud, nationality, or DPRK attribution."
+      ],
+      "source_ids": [
+        "DVTF-S01"
+      ]
+    },
+    {
+      "type": "source-reported-behavior-pattern",
+      "statements": [
+        "Fraudulent-worker operations can systematically map open roles and recruitment workflows through exposed applicant-facing HR APIs, reusing a stable request sequence across multiple externally controlled identities."
+      ],
+      "limitations": [
+        "The public evidence is Microsoft’s observation; this package did not independently inspect customer telemetry.",
+        "The same APIs and operation families are used by legitimate applicants. Repetition across accounts is an anomaly for investigation, not proof of shared control or nationality.",
+        "Product-specific coverage depends on HR SaaS audit availability and correct connector configuration."
+      ],
+      "source_ids": [
+        "DVTF-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-11-cloud-saas-posthire-correlation",
+    "drh-ttp-continuous-recruitment-integrity-governance"
+  ],
+  "sources": [
+    {
+      "source_id": "DVTF-S01",
+      "support": "Microsoft observed Jasper Sleet infrastructure and email accounts accessing Workday Recruiting Web Service endpoints exposed through external career sites before recruitment. The observed operations covered job postings, application packages, questionnaires, application validation, resume submission, and follow-up on submitted applications. Microsoft states that any one of these API operations may be legitimate; the differentiator was multiple external accounts repeatedly accessing the same operation set in a consistent sequence",
+      "locator": "Attack chain overview; Activities in pre-recruitment phase; Figure 2 and the paragraphs immediately following it; Microsoft Defender XDR detections table, Resource Development row; Hunting queries: Access to Workday Recruiting Web Service API by external users"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

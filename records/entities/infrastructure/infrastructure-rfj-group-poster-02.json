@@ -1,0 +1,60 @@
+{
+  "id": "infrastructure-rfj-group-poster-02",
+  "type": "infrastructure",
+  "name": "Rewards for Justice group poster 2",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-658a689dd76a"
+    ]
+  },
+  "caveats": [
+    "The asset contains multiple people and/or silhouettes; individual-profile attachment and visual identity remain unestablished."
+  ],
+  "images": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "source_url": "https://rewardsforjustice.net/rewards/yanbian-silverstar-and-volasys-silverstar/",
+      "direct_asset_url": "https://rewardsforjustice.net/wp-content/uploads/2024/12/YanbianSilverstar_EN-300x176.jpg",
+      "caption": "Group campaign poster covering multiple named subjects; this is not an individual portrait.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "group-poster",
+      "value": "https://rewardsforjustice.net/wp-content/uploads/2024/12/YanbianSilverstar_EN-300x176.jpg",
+      "subjects": [
+        "Cho Chung Pom",
+        "Choe Jong Yong",
+        "Hyon Chol Song",
+        "Jang Chol Myong",
+        "Jong Kyong Chol",
+        "Jong Song Hwa",
+        "Kim Mu Rim",
+        "Kim Ryu Song",
+        "Kim Ye Won",
+        "Ko Chung Sok",
+        "Ri Kyong Sik",
+        "Rim Un Chol",
+        "Sok Kwang Hyok",
+        "Son Un Chol"
+      ],
+      "source_ids": [
+        "gov-658a689dd76a"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

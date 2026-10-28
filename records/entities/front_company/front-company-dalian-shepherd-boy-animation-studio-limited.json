@@ -1,0 +1,46 @@
+{
+  "id": "front-company-dalian-shepherd-boy-animation-studio-limited",
+  "type": "front_company",
+  "name": "Dalian Shepherd Boy Animation Studio Limited",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT identifies the company as DPRK-affiliated in an animation subcontracting workflow involving DPRK IT workers; this is an official source attribution rather than a conventional remote-software-staffing classification.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFCE-S01"
+    ]
+  },
+  "legal_or_reported_name": "Dalian Shepherd Boy Animation Studio Limited",
+  "locations": [
+    "China"
+  ],
+  "caveats": [
+    "Upstream studios, producers, clients, and intermediaries receive a knowing-involvement characterization only from direct evidence.",
+    "No upstream animation studio, producer, client, or intermediary is named in this normalized record; direct evidence is required before any is characterized as knowing or complicit.",
+    "The MSMT text uses both 'Shepherd' and 'Shephard'; retain the latter only as a report spelling variant.",
+    "The report spelling 'Dalian Shephard Boy Animation Studio' is retained only as an exact spelling variant of the entity.",
+    "This is an adjacent animation/IT-work entity; its source context describes a different market position from conventional remote software staffing.",
+    "This record reflects the cited MSMT source posture; separate corporate-registry or criminal-adjudication status requires separate sources."
+  ],
+  "aliases": [
+    {
+      "value": "Dalian Shephard Boy Animation Studio",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DFCE-S01",
+      "support": "MSMT identifies Dalian Shepherd Boy Animation Studio Limited as DPRK-affiliated in a multilayer animation subcontracting workflow, while warning that upstream producers may be several layers removed",
+      "locator": "Report pp. 59-62 / PDF pp. 61-64, Case Study: Dalian Shephard Boy Animation Studio and figures 10-11"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

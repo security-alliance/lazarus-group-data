@@ -1,0 +1,54 @@
+{
+  "id": "deep2-foreign-foreign-official-pl-digital-ministry-knf-recruitment-guidance-2025",
+  "type": "ttp",
+  "name": "Layered recruitment and privileged-access verification controls",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official foreign-government, police, CERT, sanctions, or security-service guidance/assessment",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-foreign-foreign-official-pl-digital-ministry-knf-recruitment-guidance-2025"
+    ]
+  },
+  "locations": [
+    "Poland"
+  ],
+  "ttps": [
+    "camera-avoidance",
+    "credential-theft",
+    "direct-application",
+    "interview-assistance",
+    "privilege-escalation"
+  ],
+  "caveats": [
+    "Apply layered verification and proportional, authorized review rather than nationality-, accent-, or appearance-based screening.",
+    "Connection telemetry, identity checks, and activity review require lawful access, data minimization, human review, and an appeal or correction path.",
+    "Exact URL/title absent. The current attached recommendation is dated April 28, 2026 and addresses state-linked APT recruitment and business-relationship infiltration broadly; it supplies relevant defensive context rather than a DPRK-specific attribution bulletin.",
+    "The guidance presents a cross-state framework for multiple state-linked APT recruitment and business-relationship patterns, with DPRK-specific attribution outside its scope."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Poland's currently attached April 28, 2026 recommendation supplies detailed recruitment and early-employment controls: camera-on interviews, authorized connection telemetry, direct employment-history checks, risk-based live identity checks, device-possession checks, unusual-hours monitoring, gradual least privilege, incident containment, meeting-link verification, and isolated analysis. It addresses state-linked APT infiltration broadly and is not a DPRK-specific attribution bulletin."
+      ],
+      "source_ids": [
+        "deep2-foreign-foreign-official-pl-digital-ministry-knf-recruitment-guidance-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-foreign-foreign-official-pl-digital-ministry-knf-recruitment-guidance-2025",
+      "support": "Poland's currently attached April 28, 2026 recommendation supplies detailed recruitment and early-employment controls: camera-on interviews, authorized connection telemetry, direct employment-history checks, risk-based live identity checks, device-possession checks, unusual-hours monitoring, gradual least privilege, incident containment, meeting-link verification, and isolated analysis. It addresses state-linked APT infiltration broadly and is not a DPRK-specific attribution bulletin",
+      "locator": "Attached PDF p. 1 “Rekrutacja i wdrożenie do pracy” (“Weryfikacja kandydatów” and “Pierwsze tygodnie pracy”); pp. 2–3 “Po wykryciu podejrzenia lub incydentu,” “Spotkania wideo i linki,” and “Ochrona pracowników technicznych i badaczy”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

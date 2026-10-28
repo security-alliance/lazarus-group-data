@@ -1,0 +1,57 @@
+{
+  "id": "dsc-cluster-unnamed-aerospace-defense-badge-placement",
+  "type": "cluster",
+  "name": "Unnamed aerospace-and-defense placement with badge and PIV-card issuance",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Official federal indictment; successful placement and badge/PIV-card facts remain allegations against the overseas worker",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S01"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "laptop-farm",
+    "laptop-forwarding",
+    "staffing-firm"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "Official federal indictment; successful placement and badge/PIV-card facts remain allegations against the overseas worker.",
+    "official indictment; allegation only"
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "defense/aerospace",
+      "event_period": "2023-08-02 to 2023-10-12",
+      "statements": [
+        "The indictment alleges a successful remote placement at an unnamed Fortune 500 aerospace-and-defense manufacturer through a staffing company. An employer laptop and PIV card were sent to the domestic laptop-farm address, and messages allegedly concerned retrieval of a physical badge by someone other than the represented identity."
+      ],
+      "defensive_controls": [
+        "Require high-assurance identity continuity before issuing PIV/smart cards or physical badges to remote contractors.",
+        "Treat third-party retrieval of a badge, mail-forwarding address, or mismatch between badge holder and requestor as an escalation signal.",
+        "Bind staffing-company identity proofing to the end-client's own proofing rather than inheriting assurance by contract."
+      ],
+      "source_ids": [
+        "DSC-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-hiring-composite-detection",
+    "facilitator-christina-marie-chapman"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S01",
+      "support": "The indictment alleges a successful remote placement at an unnamed Fortune 500 aerospace-and-defense manufacturer through a staffing company. An employer laptop and PIV card were sent to the domestic laptop-farm address, and messages allegedly concerned retrieval of a physical badge by someone other than the represented identity",
+      "locator": "PDF pp. 4, 20, 27-37; especially ¶¶ 23, 30(w)-(ddd)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

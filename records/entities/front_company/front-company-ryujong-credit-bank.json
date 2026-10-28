@@ -1,0 +1,64 @@
+{
+  "id": "front-company-ryujong-credit-bank",
+  "type": "front_company",
+  "name": "Ryujong Credit Bank",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "OFAC-designated North Korea-based financial institution; Treasury reported sanctions-avoidance, foreign-currency remittance, money-laundering and overseas-worker transaction support. Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "locations": [
+    "Pyongyang, North Korea"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions are an administrative finding; the record carries no criminal charge or conviction.",
+    "Account, counterparty, transfer, customer, employee, street-address, and transaction selectors are excluded from this record.",
+    "SDN.CSV and ADD.CSV are component tables of one current OFAC dataset; together they form one corroboration source."
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-target-classification",
+      "value": "financial institution",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    },
+    {
+      "type": "treasury-reported-financial-activity",
+      "value": "sanctions avoidance, foreign-currency remittance, money laundering, and transactions for overseas North Korean workers",
+      "source_ids": [
+        "gov-c960ddb931ea"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "Treasury identifies Ryujong Credit Bank as a North Korea-based financial institution that provided financial assistance for sanctions avoidance between China and North Korea, including foreign-currency remittance, money laundering, and transactions for overseas North Korean workers. This is an administrative sanctions finding, not a criminal conviction.",
+      "locator": "Ryujong Credit Bank paragraphs"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row supplies coarse Pyongyang, North Korea context for OFAC entity number 56037. Row identifiers and placeholders are excluded",
+      "locator": "ADD.CSV current row joined to OFAC entity number 56037"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current SDN row retains Ryujong Credit Bank under OFAC entity number 56037 and classifies the target as a financial institution. Sensitive and unrelated sanctions fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 56037"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

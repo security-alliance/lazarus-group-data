@@ -1,0 +1,136 @@
+{
+  "id": "an-chol-hun",
+  "real_name": "An Chol Hun",
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-an-chol-hun",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: An Chol Hun is the person named in the MSMT Annex 7 KMCTC employment table. Andy, Berina, Maria, and newrhm are preserved only as source-reported employment labels; they are not established civil identities, separate people, or evidence of present account control.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "The source also lists single-name alias labels for this individual: Andy, Berina, Maria. They are kept out of the searchable name fields because a bare first name identifies nobody; see the sourced facts for their context.",
+      "Source-reported alias labels with no platform stated: newrhm. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "MSMT lists the aliases with alias countries: Andy and newrhm (United States), Berina (Bosnia and Herzegovina), Maria (Argentina). Press reporting (Detektor / BIRN, 15 June 2026) indicates the Bosnian identity was a real person's; no real 'Berina' is the worker, and the surname is deliberately not shown.",
+      "'newrhm' appears in MSMT's Account and Alias columns with no platform named. GitHub and Telegram accounts using that string belong to unrelated people and are not attributed by any source.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-an-chol-hun-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-an-chol-hun-kmctc-table",
+      "label": "Listed in kmctc it worker employment table",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 heading, PDF file p. 109 (printed p. 107)",
+          "quote": "KMCTC IT Workers"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment-table introduction, PDF file p. 109 (printed p. 107)",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), DPRK IT Worker column",
+          "quote": "An Chol Hun"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-an-chol-hun-label-andy",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), An Chol Hun row, Alias column",
+          "quote": "Andy"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-an-chol-hun-label-berina",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), An Chol Hun row, Alias column",
+          "quote": "Berina"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-an-chol-hun-label-maria",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), An Chol Hun row, Alias column",
+          "quote": "Maria"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-an-chol-hun-label-newrhm",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), An Chol Hun row, Alias column",
+          "quote": "newrhm"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-an-chol-hun-reported-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, PDF file p. 109 (printed p. 107), DPRK IT Worker column",
+          "quote": "An Chol Hun"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

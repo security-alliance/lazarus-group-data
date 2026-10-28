@@ -1,0 +1,58 @@
+{
+  "id": "dsc-cluster-sensitive-federal-contractor-attempts",
+  "type": "cluster",
+  "name": "Three attempted or rapidly terminated sensitive federal-contractor placements",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Official federal indictment; two attempts were stopped before completion and one placement was rapidly terminated. Agency compromise status lies outside the reported events.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S01"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "inconsistent-language-or-timezone",
+    "proxy-interviewee",
+    "staffing-firm"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "The official federal indictment records two attempts stopped before completion and one placement rapidly terminated; the source asserts no agency compromise.",
+    "official indictment; allegation only; the filing expressly says the attempts were discovered and thwarted or terminated"
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "government contractors",
+      "event_period": "2023-04-25 to 2023-10-24",
+      "statements": [
+        "The indictment describes three distinct sensitive federal-contractor attempts: one candidate did not complete required fingerprint verification, one withdrew after background-check and fingerprint instructions, and one briefly attended meetings before rapid termination. These are attempted or limited placements, not evidence that the affected agencies were compromised."
+      ],
+      "defensive_controls": [
+        "Retain mandatory fingerprints or equivalent in-person/high-assurance proofing for sensitive contractor access.",
+        "Treat withdrawal immediately after a biometric/background-check requirement as a risk signal, not proof of guilt.",
+        "Revalidate verbal and technical identity continuity during early meetings; rapidly suspend access when the onboarded person cannot consistently participate.",
+        "Document this as attempted/limited placement, not compromise of ICE, FPS or GSA."
+      ],
+      "source_ids": [
+        "DSC-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-hiring-composite-detection",
+    "facilitator-christina-marie-chapman"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S01",
+      "support": "The indictment describes three distinct sensitive federal-contractor attempts: one candidate did not complete required fingerprint verification, one withdrew after background-check and fingerprint instructions, and one briefly attended meetings before rapid termination. These are attempted or limited placements, not evidence that the affected agencies were compromised",
+      "locator": "PDF pp. 4, 20, 27-37; especially ¶¶ 23, 30(w)-(ddd)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

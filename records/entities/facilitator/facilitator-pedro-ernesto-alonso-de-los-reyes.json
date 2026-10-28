@@ -1,0 +1,341 @@
+{
+  "id": "facilitator-pedro-ernesto-alonso-de-los-reyes",
+  "type": "facilitator",
+  "name": "Pedro Ernesto Alonso de los Reyes",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. The Dutch Supreme Court's 2026-01-27 ruling concerns extradition permissibility; the record reports no completed extradition, U.S. custody, guilt, conviction, sentence, or other U.S. disposition through 2026-08-12. Charged in S.D. Fla. No. 1:25-cr-20021-DPG.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dldr12-s19",
+      "flr6-s20",
+      "gov-1e5d7a8258fa",
+      "gov-b89e91664279"
+    ]
+  },
+  "legal_or_reported_name": "Pedro Ernesto Alonso de los Reyes",
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "Charges are allegations, and the subject is presumed innocent unless and until proven guilty.",
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "A foreign extradition-permissibility ruling addresses permission to surrender; completed surrender, custody, conviction, and a U.S. merits outcome remain separate stages.",
+    "Foreign procedural reporting covers extradition procedure; completion remains unresolved.",
+    "The cited public sources contain no verified completed extradition or U.S. surrender through August 12, 2026."
+  ],
+  "infrastructure": [
+    {
+      "type": "foreign-extradition-procedure",
+      "value": "Supreme Court of the Netherlands case 25/03473, ECLI:NL:HR:2026:116",
+      "decision_date": "2026-01-27",
+      "status_as_of": "2026-08-12",
+      "status": "extradition-permissibility ruling; completed extradition not verified",
+      "source_ids": [
+        "dldr12-s19",
+        "gov-1e5d7a8258fa"
+      ]
+    },
+    {
+      "type": "criminal-case-docket",
+      "value": "S.D. Fla. No. 1:25-cr-20021-DPG",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s20",
+        "gov-1e5d7a8258fa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dldr12-s19",
+      "support": "The January 27, 2026 Dutch Supreme Court decision addresses extradition permissibility only and does not prove completed extradition or a U.S. merits disposition",
+      "locator": "ECLI:NL:HR:2026:116; case 25/03473"
+    },
+    {
+      "source_id": "gov-1e5d7a8258fa",
+      "support": "The indictment caption identifies the shared Florida prosecution, S.D. Fla. No. 1:25-cr-20021-DPG | The indictment charges Pedro Ernesto Alonso de los Reyes and alleges that his identity and payment-platform account were used in the remote-employment and proceeds-transfer scheme | The indictment is the U.S. charging instrument; its allegations do not establish guilt",
+      "locator": "S.D. Fla. No. 1:25-cr-20021-DPG, caption; ¶12; ¶¶3–11 and overt acts 3, 6, PDF pp. 2, 6, 9–13 | S.D. Fla. No. 1:25-cr-20021-DPG, Doc. 3 | S.D. Fla. No. 1:25-cr-20021-DPG, Doc. 3, caption"
+    },
+    {
+      "source_id": "gov-b89e91664279",
+      "support": "The release names Pedro Ernesto Alonso de los Reyes as a charged Mexican facilitator and reports his January 10, 2025 arrest in the Netherlands pursuant to a U.S. warrant",
+      "locator": "Press release — allegations, named subjects, organizations, and scheme summary"
+    },
+    {
+      "source_id": "flr6-s20",
+      "support": "The May 6, 2026 DOJ release states that Pedro Ernesto Alonso de los Reyes was in custody in the Netherlands awaiting extradition; it reports no completed extradition or merits disposition.",
+      "locator": "Paragraph beginning “On Jan. 21, 2025” and pending-co-defendant discussion"
+    },
+    {
+      "source_id": "dldf-s03"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-pedro-legal-name",
+      "type": "identity_name",
+      "predicate": "named_federal_defendant",
+      "value": {
+        "name": "Pedro Ernesto Alonso de los Reyes"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 2, caption",
+          "quote": "PEDRO ERNESTO ALONSO DE LOS REYES"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "A filed charge, not proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-pedro-federal-case-number",
+      "type": "legal_event",
+      "predicate": "federal_criminal_case_number",
+      "value": {
+        "court": "U.S. District Court for the Southern District of Florida",
+        "case_number": "25-CR-20021-GAYLES/GOODMAN"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 2, filed case stamp",
+          "quote": "25-CR-20021-GAYLES/GOODMAN"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "The normalized catalog renders this docket as S.D. Fla. No. 1:25-cr-20021-DPG."
+      ]
+    },
+    {
+      "id": "claim-pedro-nationality",
+      "type": "location",
+      "predicate": "indictment_reported_nationality",
+      "value": {
+        "nationality": "Mexico"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 7, The Defendants, paragraph 12",
+          "quote": "Defendant PEDRO ERNESTO ALONSO DE LOS REYES was a Mexican citizen residing in Sweden."
+        }
+      ],
+      "observed_at": "2025-01-21"
+    },
+    {
+      "id": "claim-pedro-reported-residence-country",
+      "type": "location",
+      "predicate": "indictment_reported_country_of_residence",
+      "value": {
+        "reported_country_of_residence": "Sweden",
+        "current_location_established": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 7, The Defendants, paragraph 12",
+          "quote": "Defendant PEDRO ERNESTO ALONSO DE LOS REYES was a Mexican citizen residing in Sweden."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment description at filing; it does not establish present residence or current location."
+      ]
+    },
+    {
+      "id": "claim-pedro-netherlands-arrest",
+      "type": "legal_event",
+      "predicate": "arrested_in_netherlands_on_us_warrant",
+      "value": {
+        "arrest_date": "2025-01-10",
+        "country": "Netherlands",
+        "basis": "United States arrest warrant"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "Scheme-summary paragraph",
+          "quote": "Alonso was arrested in the Netherlands on Jan. 10, pursuant to an arrest warrant from the United States."
+        }
+      ],
+      "observed_at": "2025-01-10"
+    },
+    {
+      "id": "claim-pedro-four-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_in_four_conspiracies",
+      "value": {
+        "charges": [
+          "conspiracy to cause damage to a protected computer",
+          "conspiracy to commit wire fraud and mail fraud",
+          "conspiracy to commit money laundering",
+          "conspiracy to transfer false identification documents"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "Charging paragraph",
+          "quote": "All five defendants are charged with conspiracy to cause damage to a protected computer, conspiracy to commit wire fraud and mail fraud, conspiracy to commit money laundering, and conspiracy to transfer false identification documents."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-pedro-alleged-consensual-identity-use",
+      "type": "incident",
+      "predicate": "indictment_alleged_consent_to_identity_use",
+      "value": {
+        "approximate_date": "2021-06",
+        "activity": "allowed Jin Sung-Il to use Pedro Alonso de los Reyes' identity in a remote-employment application",
+        "posture": "allegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF pp. 13-14, Fraudulent Employment with Company A, overt act 2",
+          "quote": "On or about June 2021"
+        },
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 14, Fraudulent Employment with Company A, overt act 2",
+          "quote": "utilizing PEDRO ERNESTO ALONSO DE LOS REYES' identity with ALONSO's consent"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegation only; identity-document imagery and victim or address details were excluded."
+      ]
+    },
+    {
+      "id": "claim-pedro-alleged-shared-payment-access",
+      "type": "relationship",
+      "predicate": "indictment_alleged_shared_payment_platform_access",
+      "value": {
+        "other_subject": "Jin Sung-Il",
+        "accounts_described": 2,
+        "relationship": "accounts in Alonso's name allegedly accessible by both Jin and Alonso",
+        "selectors_retained": false,
+        "posture": "allegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 15, Fraudulent Employment with Company A, overt act 6",
+          "quote": "an Online Payment Platform 1 account in the name of ALONSO, which was accessible by both JIN and ALONSO."
+        },
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 20, overt act 31 continuation",
+          "quote": "an Online Payment Platform 2 account in the name of PEDRO ERNESTO ALONSO DE LOS REYES, which was accessible by both JIN and ALONSO."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegation only; no platform name, account number, or financial selector is retained."
+      ]
+    },
+    {
+      "id": "claim-pedro-extradition-request-timeline",
+      "type": "legal_event",
+      "predicate": "dutch_recorded_us_extradition_request_and_warrant",
+      "value": {
+        "extradition_request_date": "2025-03-05",
+        "attached_arrest_warrant_date": "2025-01-21",
+        "source_posture": "advocate general's procedural conclusion"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dldf-s03",
+          "locator": "Conclusion, section 6.6",
+          "quote": "De Amerikaanse autoriteiten hebben bij het uitleveringsverzoek van 5 maart 2025 namelijk een aanhoudingsbevel (“Arrest Warrant”) van 21 januari 2025 bijgesloten"
+        }
+      ],
+      "observed_at": "2025-12-16",
+      "notes": [
+        "The Dutch record is pseudonymized; linkage to this profile follows the normalized source reconciliation and later DOJ status statement."
+      ]
+    },
+    {
+      "id": "claim-pedro-extradition-appeal-result",
+      "type": "legal_event",
+      "predicate": "dutch_supreme_court_rejected_extradition_appeal",
+      "value": {
+        "lower_court_decision_date": "2025-07-17",
+        "supreme_court_decision_date": "2026-01-27",
+        "result": "appeal rejected"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dldr12-s19",
+          "locator": "Decision opening",
+          "quote": "op het beroep in cassatie tegen een uitspraak van de rechtbank Noord-Holland van 17 juli 2025"
+        },
+        {
+          "source_id": "dldr12-s19",
+          "locator": "Section 4, Beslissing",
+          "quote": "De Hoge Raad verwerpt het beroep."
+        }
+      ],
+      "observed_at": "2026-01-27",
+      "notes": [
+        "The public decision pseudonymizes the requested person and resolves extradition permissibility only; it does not prove completed surrender, guilt, conviction, or sentence."
+      ]
+    },
+    {
+      "id": "claim-pedro-status-may-2026",
+      "type": "legal_event",
+      "predicate": "doj_reported_awaiting_extradition_in_netherlands",
+      "value": {
+        "status_date": "2026-05-06",
+        "status": "in custody in the Netherlands awaiting extradition"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s20",
+          "locator": "Southern District of Florida, co-defendant status paragraph",
+          "quote": "de los Reyes is in custody in The Netherlands awaiting extradition"
+        }
+      ],
+      "observed_at": "2026-05-06",
+      "notes": [
+        "Latest verified official public posture located in this review; later extradition, U.S. custody, plea, trial, conviction, or sentence was not established."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Pedro Ernesto Alonso de los Reyes is the Mexican defendant named in S.D. Fla. No. 1:25-cr-20021-DPG and the pseudonymized requested person reconciled to Dutch extradition case 25/03473. Preserve U.S. charging allegations, Dutch extradition procedure, arrest and custody status, and any later merits event separately; completed surrender, guilt, present location, account ownership, and same-named-public-profile identity remain unresolved."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "motoki-masuo",
+  "real_name": "Motoki Masuo",
+  "aliases": [
+    "bestselection18",
+    "noahsflood908"
+  ],
+  "fake_names": [
+    "Hiroto Iwaki"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "noahsflood908@gmail.com"
+  ],
+  "websites": [
+    "https://x.com/blackbigswan/status/1912647965505736753"
+  ],
+  "associates": [
+    {
+      "gh_id": "hiroto-iwaki"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/motoki-masuo/1912647965505736753.png",
+      "short_description": "Motoki Masuo on call",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

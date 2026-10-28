@@ -1,0 +1,30 @@
+{
+  "id": "ttp-ttp-platform-account-mutation",
+  "type": "ttp",
+  "name": "TTP-PLATFORM-ACCOUNT-MUTATION",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-can-gac-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Online-platform warning characteristics include frequent changes to an account name, contact details, or salary-payment information; an account-holder/payee-name mismatch; and self-posted false reviews intended to improve the account's rating."
+  ],
+  "caveats": [
+    "Preserves platform-account mutation and self-review signals that were compressed or absent in earlier normalization.",
+    "The alert calls for combined characteristics; nationality, identity, and DPRK affiliation require multi-signal assessment."
+  ],
+  "sources": [
+    {
+      "source_id": "int-can-gac-2026-joint",
+      "support": "Online-platform warning characteristics include frequent changes to an account name, contact details, or salary-payment information; an account-holder/payee-name mismatch; and self-posted false reviews intended to improve the account's rating",
+      "locator": "Modus Operandi Used by North Korean IT Workers; For companies operating online platforms; For those hiring or procuring services"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

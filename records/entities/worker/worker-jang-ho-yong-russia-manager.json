@@ -1,0 +1,123 @@
+{
+  "id": "worker-jang-ho-yong-russia-manager",
+  "type": "worker",
+  "name": "Jang Ho Yong",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel reporting relays Member State information and a host-state response; it reports an operational role, with criminal judgment and sanctions designation status absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "duir6-un-s-2020-840"
+    ]
+  },
+  "legal_or_reported_name": "Jang Ho Yong",
+  "organizations": [
+    "Munitions Industry Department"
+  ],
+  "locations": [
+    "Russia"
+  ],
+  "ttps": [
+    "it-worker-team-management"
+  ],
+  "caveats": [
+    "Preserve the Russian Federation's departure and pandemic-delay response adjacent to the allegation.",
+    "Sensitive biographical and document identifiers reproduced in the source are intentionally omitted.",
+    "The displayed name is a source-reported name; independent legal-identity verification is absent.",
+    "The reported management role is a source report; conviction, sanctions designation and personal involvement in hacking require separate findings.",
+    "These are reported operational roles; convictions, sanctions designations, and personal hacking involvement require separate findings."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-it-worker-management-role",
+      "statements": [
+        "The Panel described Jang Ho Yong as leading a separate IT-worker group subordinate to the Munitions Industry Department.",
+        "The Russian Federation replied that most relevant DPRK migrant workers—including Pak Kwang Hyok and Ri Yong Min—had left by the end of 2019; it attributed delayed remaining departures after employment termination to pandemic transport suspension."
+      ],
+      "role": "reported leader of a Munitions Industry Department-subordinate DPRK IT-worker group in Russia",
+      "evidence_class": "official UN Panel report relaying Member State information with host-state response",
+      "source_ids": [
+        "duir6-un-s-2020-840"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "duir6-un-s-2020-840",
+      "support": "Evidence class: official UN Panel report relaying Member State information with host-state response. Source-qualified support: The Panel described an approximately 50-person Vladivostok IT-worker group managed by Ri Kyong Sik and Pak Kwang Hyok, with Ri in charge of six software-development teams. It described a separate Munitions Industry Department-subordinate group led by Jang Ho Yong and a third approximately 15-person group managed by Ri Yong Min. The Russian Federation replied that the majority of the relevant DPRK migrant workers, including Ri Kyong Sik, Pak Kwang Hyok, and Ri Yong Min, had left by the end of 2019; remaining departures were reportedly delayed after employment termination because transport was suspended during the COVID-19 pandemic",
+      "locator": "S/2020/840, PDF pp. 34-35, para. 113; Annex 47, PDF pp. 173-174"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jang-officially-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Jang Ho Yong"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 113",
+          "quote": "was led by Jang Ho Yong."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Name as reported by the UN Panel while relaying Member State information; no additional civil-identity fields were established."
+      ]
+    },
+    {
+      "id": "claim-jang-russia-group-manager",
+      "type": "employment",
+      "predicate": "reported_it_worker_group_lead",
+      "value": {
+        "role": "leader of a Democratic People's Republic of Korea information technology worker group",
+        "reported_area": "Russian Federation",
+        "reported_period": "March 2020"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 113",
+          "quote": "Another group, also subordinate to the Munitions Industry Department, was operating in the Russian Federation as of March 2020 and was led by Jang Ho Yong."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Operational reporting attributed by the Panel to a Member State; it does not establish Jang's present role or location."
+      ]
+    },
+    {
+      "id": "claim-jang-mid-subordination",
+      "type": "organization_affiliation",
+      "predicate": "reported_group_subordinate_to",
+      "value": {
+        "organization": "Munitions Industry Department",
+        "affiliation_scope": "group led by Jang Ho Yong"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "duir6-un-s-2020-840",
+          "locator": "PDF file page 35, paragraph 113",
+          "quote": "Another group, also subordinate to the Munitions Industry Department, was operating in the Russian Federation as of March 2020 and was led by Jang Ho Yong."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "The source explicitly describes the group as subordinate; the claim is scoped to the reported group rather than asserting a separately documented formal position for Jang."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Jang Ho Yong is the manager named in paragraph 113 of UN report S/2020/840. The reviewed source supplies the name and role and no alias, civil-identity detail, account, image-based identity bridge, or present-location finding. Exact-name search results and other Russian Federation workers remain separate records."
+}

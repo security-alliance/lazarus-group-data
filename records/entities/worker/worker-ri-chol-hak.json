@@ -1,0 +1,170 @@
+{
+  "id": "worker-ri-chol-hak",
+  "type": "worker",
+  "name": "Ri Chol Hak",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Ri Chol Hak",
+  "organizations": [
+    "Chonsurim delegation"
+  ],
+  "locations": [
+    "Laos (August 2022-April 2025)"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 11 list supplied by an MSMT participating state",
+      "locator": "Annex 11 delegation-member list, PDF p. 130 / printed p. 128 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ri-chol-hak-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Ri Chol Hak"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 11 delegation-member list, PDF file p. 130 (printed p. 128)",
+          "quote": "Ri Chol Hak"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State list name; no additional civil-identity fields were supplied."
+      ]
+    },
+    {
+      "id": "claim-ri-chol-hak-chonsurim-membership",
+      "type": "organization_affiliation",
+      "predicate": "listed_as_chonsurim_delegation_member",
+      "value": {
+        "organization": "Chonsurim delegation",
+        "source_scope": "Annex 11"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Chonsurim case study, PDF file p. 66 (printed p. 64)",
+          "quote": "Annex 11 is a list of individuals who were members of the Chonsurim delegation in Laos"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 11 delegation-member list, PDF file p. 130 (printed p. 128)",
+          "quote": "Ri Chol Hak"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported delegation membership; no leadership, Department 53 role, or current employment is inferred."
+      ]
+    },
+    {
+      "id": "claim-ri-chol-hak-historical-laos-timeframe",
+      "type": "location",
+      "predicate": "source_reported_delegation_location_timeframe",
+      "value": {
+        "location": "Laos",
+        "timeframe_start": "2022-08",
+        "timeframe_end": "2025-04",
+        "qualification": "member at various points in the period"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Chonsurim case study, PDF file p. 66 (printed p. 64)",
+          "quote": "members of the Chonsurim delegation in Laos at various points in the period August 2022 to April 2025"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 11 delegation-member list, PDF file p. 130 (printed p. 128)",
+          "quote": "Ri Chol Hak"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical and interval-qualified. It does not establish continuous presence, exact site, travel, departure date, or present location."
+      ]
+    },
+    {
+      "id": "claim-ri-chol-hak-chonsurim-blockchain-software-context",
+      "type": "incident",
+      "predicate": "msmt_reported_delegation_blockchain_software_development",
+      "value": {
+        "organization": "Chonsurim delegation",
+        "reported_activity": "software development work",
+        "technology_scope": "multiple blockchain-based products and services",
+        "attribution_scope": "organization/delegation-level",
+        "individual_conduct_attributed": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Chonsurim case study, PDF file p. 67 (printed p. 65)",
+          "quote": "Chonsurim IT workers have undertaken software development work on multiple blockchain-based products and services."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Delegation-level MSMT Participating State report only; Annex 11 membership does not attribute this conduct to the named worker individually.",
+        "No client, victim, project, account, credential, payment, transaction, wallet, contact, or other actionable selector is retained or inferred."
+      ]
+    },
+    {
+      "id": "claim-ri-chol-hak-annex11-link-only-media",
+      "type": "image",
+      "predicate": "official_link_only_annex_row_reference",
+      "value": {
+        "media_type": "official PDF annex row",
+        "presentation": "narrative/link-only",
+        "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+        "annex": "Annex 11",
+        "pdf_file_page": 130,
+        "printed_page": 128,
+        "row_label": "Ri Chol Hak",
+        "table_copied_or_embedded": false,
+        "identity_inference_performed": false,
+        "individual_conduct_attributed": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 11 delegation-member list, PDF file p. 130 (printed p. 128)",
+          "quote": "Ri Chol Hak"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Narrative/link-only reference to the visually reviewed official source row; do not copy, crop, embed, or reproduce the Annex table.",
+        "The row is a text list entry, not a portrait or identity image, and it supports no facial, civil-identity, current-location, account-control, or individualized-conduct inference."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ri Chol Hak is the person listed by MSMT as a member of the Chonsurim delegation in Laos at some point during August 2022-April 2025. The list supplies historical source name and delegation context; full-period presence, current location, delegation role, civil identity beyond the source name and present account control require separate evidence. Keep records separate by name, nationality, geography, technology and image."
+}

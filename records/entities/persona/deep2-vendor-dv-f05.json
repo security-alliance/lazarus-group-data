@@ -1,0 +1,393 @@
+{
+  "id": "deep2-vendor-dv-f05",
+  "type": "persona",
+  "name": "Okta persona EM",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; no legal identity or adjudication is recorded.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s03-dv-f05",
+      "dppr11-okta-payroll-2026"
+    ]
+  },
+  "caveats": [
+    "The historical screenshot supplies historical GitHub context; current ownership, control, and maliciousness remain unresolved.",
+    "Partially visible letters remain untranscribed as names or handles.",
+    "EM is an Okta pseudonym; the victim identity is deliberately omitted.",
+    "Link-only provenance: preserve publisher captions; source images require rights review before republication, while facial recognition, redaction reversal, and legal-identity inference fall outside permitted use.",
+    "The review used source reading only; facial recognition and cross-image similarity were outside scope.",
+    "This project used source review; facial recognition, reverse-image search, biometric comparison, and identity resolution were unperformed.",
+    "Raw identity document and photograph materials are excluded from retention.",
+    "Image provenance supplies image context; an additional persona, alias, account, organization, location, or legal identity requires a source link.",
+    "Synthetic or enhanced faces provide visual context only; identifying a natural person requires source-backed evidence.",
+    "The historical source image provides historical context; present ownership or control status for any account, profile, portfolio, or employer page is unreported.",
+    "The profile photograph is a source image artifact; the review performed no image comparison, and identity proof is outside its provenance."
+  ],
+  "images": [
+    {
+      "source_id": "dppr11-okta-payroll-2026",
+      "source_url": "https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/",
+      "direct_asset_url": "https://www.okta.com/content/okta-www/us/en-us/blog/threat-intelligence/the-north-korean-on-your-payroll/_jcr_content/root/container_wrapper/container_main/container_right/container/image_836662520.coreimg.png/1780684099487/em-github-redacted-wm.png",
+      "caption": "Figure 3. An impressive GitHub account Publisher-hosted image/png asset, 1224x747; retained as link-only historical provenance.",
+      "publication_handling": "link-only",
+      "sha256": "5b94ea1ba411a905f739cf85b9df976d1f4df8afd4eb726bbb3debefbe9a52b7"
+    },
+    {
+      "source_id": "dppr11-okta-payroll-2026",
+      "source_url": "https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/",
+      "direct_asset_url": "https://www.okta.com/content/okta-www/us/en-us/blog/threat-intelligence/the-north-korean-on-your-payroll/_jcr_content/root/container_wrapper/container_main/container_right/container/image_1828490379.coreimg.png/1780684100075/em-photos-wm.png",
+      "caption": "Figures 6,7. AI-generated profile pictures Publisher-hosted image/png asset, 900x460; retained as link-only historical provenance.",
+      "publication_handling": "link-only",
+      "sha256": "ac678ff5e920128b73dcf2f4030bf7e701116b793c188fd0537289ebe39b6ba8"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Okta described pseudonymous actor EM as using the name and photograph of a real person whose public information enabled identity co-option.",
+        "EM's claimed residence and employment history differed materially from the real person's history, demonstrating that stolen identity elements can be combined with fabricated biography rather than copied wholesale."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s03-dv-f05"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-vendor-dv-f05"
+  ],
+  "sources": [
+    {
+      "source_id": "dppr11-okta-payroll-2026",
+      "support": "Source originally published February 11, 2026 and modified June 24, 2026. The publisher embeds the reviewed figure(s) associated with Okta persona EM. The assets add link-only provenance only; redacted details are not reconstructed, and the images do not establish current account control or a legal identity",
+      "locator": "Meet “JJ”; “EM” gets hired; Figures 1 and 3-12"
+    },
+    {
+      "source_id": "deep2-vendor-dv-s03-dv-f05",
+      "support": "Okta described pseudonymous actor EM as using the name and photograph of a real person whose public information enabled identity co-option. EM's claimed residence and employment history differed materially from the real person's history, demonstrating that stolen identity elements can be combined with fabricated biography rather than copied wholesale",
+      "locator": "Meet JJ; The DPRK EM; Finding an artificial persona"
+    },
+    {
+      "source_id": "deep2-vendor-dv-s01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-okta-em-pseudonym",
+      "type": "alias",
+      "predicate": "publisher_assigned_pseudonym",
+      "value": {
+        "pseudonym": "EM",
+        "publisher": "Okta Threat Intelligence"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#2 “EM” gets hired, opening sentence",
+          "quote": "We will refer to our second actor as \"EM\"."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Publisher pseudonym only; not a legal name, account handle, or verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-okta-em-interview-pattern",
+      "type": "employment",
+      "predicate": "publisher_observed_interview_activity",
+      "value": {
+        "duration": "more than one year",
+        "volume": "hundreds of interviews",
+        "scope": "all verticals",
+        "favored_roles": "AI-related roles and organizations"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#2 “EM” gets hired, opening paragraph",
+          "quote": "EM’s employment fraud activity stretches back over a year, with hundreds of interviews again across all verticals, but very much favoring AI-related roles and organizations."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Vendor-observed applicant activity; no affected organization is identified in the retained claim."
+      ]
+    },
+    {
+      "id": "claim-okta-em-sensitive-sector-interviews",
+      "type": "employment",
+      "predicate": "publisher_observed_sensitive_sector_interviews",
+      "value": {
+        "sector_categories": [
+          "commercial aviation",
+          "communications providers",
+          "internet service providers",
+          "voting technology",
+          "intelligence and defense contractors"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#2 “EM” gets hired, opening paragraph",
+          "quote": "Okta Threat Intelligence also observed EM interviewing with sensitive critical national infrastructure (CNI) organizations such as commercial aviation, communications providers, internet service providers, a voting technology company and intelligence and defense contractors."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Only sector categories are retained; affected organization identities are excluded."
+      ]
+    },
+    {
+      "id": "claim-okta-em-interview-progression",
+      "type": "employment",
+      "predicate": "publisher_observed_high_interview_progression_and_likely_hires",
+      "value": {
+        "first_interview_success": "statistically high occurrence",
+        "later_rounds": "multiple rounds with individual organizations",
+        "broader_hire_assessment": "likely hired by several organizations into software-development roles",
+        "posture": "publisher assessment distinct from the separately high-confidence employer-post hire"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "#2 “EM” gets hired, second paragraph",
+          "quote": "EM has a statistically high occurrence of succeeding in first interviews and being offered multiple rounds of interviews with individual organizations, and is likely to have been hired by several organisations into software development roles."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Okta's broader likelihood assessment, not a count of confirmed hires. No organization, role, application, recruiter, or employment selector was retained."
+      ]
+    },
+    {
+      "id": "claim-okta-em-coopted-identity",
+      "type": "relationship",
+      "predicate": "publisher_assessed_identity_cooption",
+      "value": {
+        "activity": "co-opted a legitimate person's identity",
+        "boundary": "claimed residence and employment history differed from the real person's history"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The DPRK EM, opening sentence",
+          "quote": "EM’s professed residential and employment history differs significantly from that of the real person whose identity was assumed."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "The real person's name, identity material, biography, and profile selectors are deliberately omitted and are not attributed to the actor."
+      ]
+    },
+    {
+      "id": "claim-okta-em-claimed-citizenship-document-posture",
+      "type": "incident",
+      "predicate": "publisher_observed_claimed_citizenship_and_document_presentation",
+      "value": {
+        "claimed_citizenship_for_employment_eligibility": "United States",
+        "identity_document_characterization": "very realistic",
+        "verification_status": "claim and presentation only; not accepted as genuine citizenship or identity"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The real EM and an identity problem, opening sentence",
+          "quote": "EM claims to be a US citizen when asked about employment eligibility, and presents very realistic identity documents."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "This records a publisher-observed claim and presentation, not verified citizenship or a valid identity document.",
+        "The distinct victim name, document type, number, dates, jurisdiction, images, photograph, signature, and comparison material were excluded."
+      ]
+    },
+    {
+      "id": "claim-okta-em-voip-biography-contradiction",
+      "type": "infrastructure",
+      "predicate": "publisher_observed_nonselector_phone_pattern_and_biography_conflict",
+      "value": {
+        "phone_count": 2,
+        "service_type": "VoIP",
+        "conflict": "one caller-ID location contradicted the professed biography",
+        "selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The DPRK EM, phone-number paragraph",
+          "quote": "Okta Threat Intelligence observed EM offering two different contact phone numbers. Both are VoIP phones - ubiquitous with DPRK actors - and one has a Caller ID location that contradicts their professed biography."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Pattern-level vendor observation only. Phone numbers, caller-ID place labels, providers, routing metadata, and the professed residence were excluded."
+      ]
+    },
+    {
+      "id": "claim-okta-em-claimed-linkedin-status",
+      "type": "account",
+      "predicate": "publisher_reported_claimed_professional_profile_removed",
+      "value": {
+        "platform": "LinkedIn",
+        "relationship": "profile listed in the résumé",
+        "status": "taken down by LinkedIn",
+        "current_actor_control": "not established"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The DPRK EM, final sentence",
+          "quote": "The LinkedIn profile listed in their resume has since been taken down by the team at LinkedIn."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Publisher-reported historical status. The path, profile name, victim identity, employer, connections, linked accounts, and removal reason or date were not retained or inferred."
+      ]
+    },
+    {
+      "id": "claim-okta-em-github-backdating",
+      "type": "account",
+      "predicate": "publisher_reported_commit_date_manipulation",
+      "value": {
+        "platform": "GitHub",
+        "reported_presentation": "thousands of contributions ostensibly dating to 2011",
+        "publisher_api_finding": "repository creation in December 2024",
+        "reported_method": "changed the year of unsigned commit dates from 2024 to 2011"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The DPRK EM, GitHub discussion",
+          "quote": "A GitHub account used by EM has thousands of contributions, ostensibly dating back to 2011."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The DPRK EM, GitHub API paragraph",
+          "quote": "The actual earliest contribution date from EM in this account can be determined using the GitHub API (see request response below), which returns a date of December 2024, not 2011."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The DPRK EM, sentence following API example",
+          "quote": "This actor simply changed the year of their unsigned commit date from 2024 to 2011."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "The source-redacted handle and repository are not reconstructed. Historical vendor attribution does not establish present ownership or control."
+      ]
+    },
+    {
+      "id": "claim-okta-em-biography-ambiguity",
+      "type": "relationship",
+      "predicate": "publisher_reported_multiple_profile_ambiguity",
+      "value": {
+        "possibilities": [
+          "a different DPRK IT-worker actor using the same identity",
+          "an earlier iteration of EM's fictional biography"
+        ]
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "The other DPRK EM?, assessment paragraph",
+          "quote": "This may be a different DPRK ITW actor using the same identity, or an earlier iteration of EM’s fictional biography."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "The profiles are not merged; the source explicitly leaves actor continuity unresolved. Biography details and images are omitted."
+      ]
+    },
+    {
+      "id": "claim-okta-em-successful-hire",
+      "type": "employment",
+      "predicate": "publisher_assessed_successful_hire",
+      "value": {
+        "status": "at least one hire assessed with high confidence",
+        "publisher_confidence": "high",
+        "basis": "new employer's public LinkedIn welcome post",
+        "broader_assessment": "separate earlier passage says likely hired by several organizations"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "Your new (DPRK) hire, opening paragraph",
+          "quote": "In this case we can say with high confidence that EM has been hired: thanks to a LinkedIn post by their new employer, welcoming their newest hire."
+        }
+      ],
+      "observed_at": "2026-02-11",
+      "notes": [
+        "Vendor assessment only. The employer, post, image, role, date, location, and employment selectors are deliberately omitted.",
+        "The high-confidence public-post basis establishes at least one source-assessed hire; it does not convert the separate 'likely several' statement into a confirmed organization count."
+      ]
+    },
+    {
+      "id": "claim-okta-em-source-cohort-context",
+      "type": "note",
+      "predicate": "publisher_research_cohort_context_and_count_resolution",
+      "value": {
+        "tracked_identities": "more than 130",
+        "initial_job_interviews": "more than 6,500",
+        "distinct_companies": "more than 5,000",
+        "cutoff": "mid-2025",
+        "attribution_method": "combination of technical indicators, behavioral patterns, and first-hand employer reporting",
+        "em_article_company_restatement": "500 companies",
+        "count_resolution": "use the original September 2025 study's more-than-5,000 figure; the later 500 wording is inconsistent"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-vendor-dv-s01",
+          "locator": "Inside the investigation: 130+ identities and thousands of targeted companies",
+          "quote": "We linked these actors to over 6,500 initial job interviews across more than 5,000 distinct companies up until mid-2025."
+        },
+        {
+          "source_id": "deep2-vendor-dv-s01",
+          "locator": "cohort-attribution methodology paragraph",
+          "quote": "Okta assesses any given identity as DPRK-aligned based on a combination of technical indicators, behavioural patterns and first-hand employer reporting."
+        },
+        {
+          "source_id": "dppr11-okta-payroll-2026",
+          "locator": "article introduction, prior-research restatement",
+          "quote": "That research collated data from over 130 actors, conducting over 6500 interviews with 500 companies."
+        }
+      ],
+      "observed_at": "2025-09-30",
+      "notes": [
+        "Cohort context only; the aggregate does not mean EM personally conducted all interviews or targeted all companies.",
+        "The original referenced study is the more authoritative count source and says more than 5,000 distinct companies. The later 500-company wording is retained only as a documented source inconsistency, not normalized as fact."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "EM is an Okta-assigned pseudonym for a tracked applicant actor. Okta reports co-option of a real person's distinct name and identity material alongside materially different claimed biographies. Keep the real person, EM, potentially separate actors and all redacted names, images, documents, employers, locations, accounts, URLs and contact values unresolved."
+}

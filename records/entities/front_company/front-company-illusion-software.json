@@ -1,0 +1,42 @@
+{
+  "id": "front-company-illusion-software",
+  "type": "front_company",
+  "name": "Illusion Software",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DOJ charging documents allegedly characterize this as a fake résumé-reference business; the organization-specific claim remains at the charging stage.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "The organization name may be generic or collide with unrelated businesses; publish only with the cited government context.",
+    "The source characterizes this organization in charging-stage allegations; the label remains an allegation rather than an adjudicated organizational finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "domain",
+      "value": "illusionsoft.net",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-f9a72a1e535b"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "Fourteen DPRK nationals affiliated with Yanbian Silverstar and Volasys Silverstar allegedly used stolen identities, front-company websites, laptop farms, money-transfer accounts, and extortion",
+      "locator": "Press release — allegations, named subjects, organizations, and scheme summary"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

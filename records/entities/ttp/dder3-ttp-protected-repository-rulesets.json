@@ -1,0 +1,65 @@
+{
+  "id": "dder3-ttp-protected-repository-rulesets",
+  "type": "ttp",
+  "name": "Protected repository rulesets and change constraints",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is analyst-applied defensive context derived from generic first-party product documentation; it describes controls. Incident attribution, actor finding, legal allegation, adjudication, and measured effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DDER3-S04"
+    ]
+  },
+  "ttps": [
+    "change-control",
+    "force-push-restrictions",
+    "protected-branches",
+    "repository-rulesets",
+    "signed-commits"
+  ],
+  "caveats": [
+    "Account, handle, repository, portfolio, commit, and image similarity identify evidence types; legal identity requires source-explicit linkage or authoritative corroboration.",
+    "Keep fake-interview malware separate from fraudulent employment unless a source explicitly connects the same account or operator to both activities.",
+    "Platform features, account state, geographic field, signing credential, and verification result are contextual signals; legal identity, nationality, physical location, employment legitimacy, and sole operator control require separate evidence.",
+    "Preserve provider caveats and label first-party product descriptions as provider claims rather than independently measured efficacy.",
+    "Signed commits prove possession of a signing credential; legal identity and physical location require separate evidence. Combine controls with least privilege, independent review, credential hygiene, and post-hire access monitoring.",
+    "This is generic first-party product documentation applied as a layered defensive control for DPRK IT-worker insider risk; it describes a control approach and its intended risk, with incident and detection evidence requiring separate sources.",
+    "This record's aggregate scope excludes people, personas, accounts, companies, repositories, packages, images, private data, and raw selectors.",
+    "Use multiple behavior-based signals, independent human review, proportional access controls, and an appeal or correction path."
+  ],
+  "infrastructure": [
+    {
+      "type": "generic-developer-platform-repository-governance-control",
+      "statements": [
+        "GitHub rulesets can constrain pushes and branch or tag operations, require signed commits, and block force pushes for selected repository scopes."
+      ],
+      "limitations": [
+        "Signed commits prove possession of a signing credential, not a person's legal identity or physical location. Combine controls with least privilege, independent review, credential hygiene, and post-hire access monitoring.",
+        "This is generic first-party product documentation applied as a layered defensive control for DPRK IT-worker insider risk; it is not a report of an observed incident or evidence that the control detects DPRK operators.",
+        "No platform feature, account state, geographic field, signing credential, or verification result establishes legal identity, nationality, physical location, employment legitimacy, or sole operator control.",
+        "Use multiple behavior-based signals, independent human review, proportional access controls, and an appeal or correction path.",
+        "Account, handle, repository, portfolio, commit, and image similarity are not legal identity. Merge only with source-explicit linkage or authoritative corroboration.",
+        "Keep fake-interview malware separate from fraudulent employment unless a source explicitly connects the same account or operator to both activities.",
+        "Preserve provider caveats and label first-party product descriptions as provider claims rather than independently measured efficacy.",
+        "This record contains no people, personas, accounts, companies, repositories, packages, images, private data, or raw selectors."
+      ],
+      "source_ids": [
+        "DDER3-S04"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk"
+  ],
+  "sources": [
+    {
+      "source_id": "DDER3-S04",
+      "support": "GitHub rulesets can constrain pushes and branch or tag operations, require signed commits, and block force pushes for selected repository scopes",
+      "locator": "About rulesets; branch and tag rulesets; signed-commit and force-push example; push rulesets for private or internal repositories and fork networks"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

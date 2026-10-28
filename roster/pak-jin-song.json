@@ -1,0 +1,262 @@
+{
+  "id": "pak-jin-song",
+  "real_name": "Pak Jin-Song",
+  "fake_names": [
+    "Glaus Li"
+  ],
+  "notes": "DPRK national; alleged remote mobile-application developer. Charged in the U.S. District Court for the Southern District of Florida, No. 1:25-cr-20021 (filed 2025-01-21). FBI wanted, last verified 2026-08-13; DOJ reported him a fugitive on 2026-05-06. A charge is an allegation.",
+  "images": [],
+  "research_id": "worker-pak-jin-song",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "charged-allegation",
+    "summary": "DPRK national; alleged remote mobile-application developer. Charged in the U.S. District Court for the Southern District of Florida, No. 1:25-cr-20021 (filed 2025-01-21). FBI wanted, last verified 2026-08-13; DOJ reported him a fugitive on 2026-05-06. A charge is an allegation.",
+    "case": "1:25-cr-20021",
+    "court": "U.S. District Court for the Southern District of Florida",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Pak Jin-Song (박진성), the North Korean national charged under that name in S.D. Fla. No. 1:25-cr-20021-DPG; Glaus Li is an indictment- and FBI-attributed employment persona, not a verified civil identity. Do not merge identity-theft victims, accounts, or images with this subject.",
+      "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+      "Do not infer biometric identity, match the image to another persona, or identify a stolen-identity victim.",
+      "Do not use the wanted image as a portrait of the person whose identity documents were allegedly forged or stolen.",
+      "FBI pages may change; retain verification date.",
+      "Prefer link-only until rights and insignia review is complete.",
+      "Retain charged/wanted context.",
+      "The direct asset is reference metadata only and is not approved for caching.",
+      "The FBI image may be historical and may not reflect the subject's current appearance.",
+      "Wanted and charged status does not establish guilt.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "The indictment (para. 7) calls 'Glaus Li' a fake persona; it is not a real person's stolen name.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-16e563da0343",
+      "title": "Pak Jin-Song",
+      "publisher": "Federal Bureau of Investigation",
+      "url": "https://www.fbi.gov/wanted/cyber/pak-jin-song/@@download.pdf",
+      "date": "2025-02-03"
+    },
+    {
+      "id": "doc-41d1f61a9b16",
+      "title": "Two North Korean Nationals and Three Facilitators Indicted for Multi-Year Fraudulent Remote Information Technology Worker Scheme that Generated Revenue for the Democratic People’s Republic of Korea",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/two-north-korean-nationals-and-three-facilitators-indicted-multi-year-fraudulent-remote",
+      "date": "2025-01-23"
+    },
+    {
+      "id": "doc-7ef4465aad5f",
+      "title": "FBI Wanted Person API record for Pak Jin-Song",
+      "publisher": "Federal Bureau of Investigation",
+      "url": "https://api.fbi.gov/@wanted-person/51c0db5e0a8d46559efcef2cb0d50edd",
+      "date": "2025-02-03"
+    },
+    {
+      "id": "doc-pak-indictment-2025",
+      "title": "Indictment, United States v. Jin Sung-Il et al.",
+      "publisher": "U.S. District Court for the Southern District of Florida",
+      "url": "https://www.justice.gov/media/1386281/dl",
+      "date": "2025-01-21"
+    },
+    {
+      "id": "doc-pak-status-update-2026",
+      "title": "Two U.S. Nationals Sentenced for Facilitating Fraudulent Remote Information Technology Worker Schemes to Generate Revenue for the Democratic People's Republic of Korea",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker-0",
+      "date": "2026-05-06"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-pak-anydesk-allegation",
+      "label": "Allegedly used remote access software",
+      "category": "infrastructure",
+      "observed": "2022-04-22",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 16 (printed p. 15), continuation of paragraph 10",
+          "quote": "installed Anydesk on the Company A laptop, enabling PAK JIN-SONG, to perform remote IT work using the \"Glaus Li\" persona."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-charged-conspiracies",
+      "label": "Charged in five conspiracies",
+      "category": "legal_event",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-41d1f61a9b16",
+          "locator": "charges paragraph",
+          "quote": "All five defendants are charged with conspiracy to cause damage to a protected computer, conspiracy to commit wire fraud and mail fraud, conspiracy to commit money laundering, and conspiracy to transfer false identification documents."
+        },
+        {
+          "source_id": "doc-41d1f61a9b16",
+          "locator": "charges paragraph",
+          "quote": "Jin and Pak are charged with conspiracy to violate the International Emergency Economic Powers Act."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-company-registration-allegation",
+      "label": "Named in alleged joint company registration",
+      "category": "organization_affiliation",
+      "observed": "2025-01-21",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 11 (printed p. 10), paragraph 4",
+          "quote": "PAK JIN-SONG, EMANUEL ASHTOR, and their co-conspirators registered U.S. companies, including Taggcar Inc. and Vali Tech Inc."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-fbi-wanted-and-warrant",
+      "label": "Fbi reported wanted status and arrest warrant",
+      "category": "legal_event",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-16e563da0343",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Pak Jin-Song is wanted for his alleged involvement in a fraudulent scheme to obtain remote information technology (IT) work with U.S. companies that generated revenue for the Democratic People's Republic of Korea (DPRK)."
+        },
+        {
+          "source_id": "doc-16e563da0343",
+          "locator": "PDF p. 1, Caution",
+          "quote": "On January 21, 2025, a federal arrest warrant was issued for Pak Jin-Song in the United States District Court for the Southern District of Florida, Miami, Florida"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-fugitive-report-2026",
+      "label": "Reported fugitive",
+      "category": "legal_event",
+      "observed": "2026-05-06",
+      "evidence": [
+        {
+          "source_id": "doc-pak-status-update-2026",
+          "locator": "U.S. v. Erick Ntekereze Prince, status paragraph",
+          "quote": "the Sung-il and Jin-Song are fugitives."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-glaus-li-persona",
+      "label": "Used employment persona",
+      "category": "alias",
+      "observed": "2025-01-21",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 2, caption",
+          "quote": "a/k/a \"Glaus Li,\""
+        },
+        {
+          "source_id": "doc-7ef4465aad5f",
+          "locator": "JSON field: aliases[0]",
+          "quote": "Glaus Li"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-indictment-liaoning-context",
+      "label": "Indictment alleged coarse historical residence",
+      "category": "location",
+      "observed": "2025-01-21",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF p. 7, paragraph 14",
+          "quote": "Defendant PAK JIN-SONG was a North Korean IT worker residing in Liaoning Province, China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-jin-song-link-only-fbi-image",
+      "label": "Publisher page carries a captioned image related to this record (not reproduced here)",
+      "category": "media-reference",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-16e563da0343",
+          "locator": "Official one-page wanted poster with source-labeled photograph",
+          "quote": "PAK JIN-SONG"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-later-mobile-application",
+      "label": "Allegedly applied for additional mobile developer role",
+      "category": "employment",
+      "observed": "2022-10-12",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 17 (printed p. 16), paragraph 16",
+          "quote": "PAK JIN-SONG, utilizing the \"Glaus Li\" persona, applied for a position as a mobile application developer"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-mobile-developer-allegation",
+      "label": "Allegedly obtained mobile developer work",
+      "category": "employment",
+      "observed": "2022-03-23",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 15 (printed p. 14), paragraph 8",
+          "quote": "On or about March 23, 2022, PAK JIN-SONG was hired for a position as a mobile application developer for services ultimately rendered by Company A utilizing the \"Glaus Li\" persona"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-official-name",
+      "label": "Officially charged name",
+      "category": "identity_name",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-41d1f61a9b16",
+          "locator": "opening paragraph",
+          "quote": "The Justice Department today announced the indictment of North Korean nationals Jin Sung-Il (진성일) and Pak Jin-Song (박진성)"
+        },
+        {
+          "source_id": "doc-7ef4465aad5f",
+          "locator": "JSON field: title",
+          "quote": "PAK JIN-SONG"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-remote-device-access-allegation",
+      "label": "Allegedly remotely accessed employer devices",
+      "category": "infrastructure",
+      "observed": "2025-01-21",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 12 (printed p. 11), paragraph 6",
+          "quote": "enabled the co-conspirators, including JIN SUNG-IL and PAK JIN-SONG, to remotely access victim laptops by turning them on, logging in, installing software, and executing other commands on such devices without authorization."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-pak-specialist-engineer-application",
+      "label": "Allegedly applied for specialist engineer role",
+      "category": "employment",
+      "observed": "2022-03-16",
+      "evidence": [
+        {
+          "source_id": "doc-pak-indictment-2025",
+          "locator": "PDF file page 16 (printed p. 15), paragraph 11",
+          "quote": "PAK JIN-SONG, utilizing the \"Glaus Li\" persona, applied for a specialist engineer position"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

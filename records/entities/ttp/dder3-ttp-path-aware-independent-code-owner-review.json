@@ -1,0 +1,72 @@
+{
+  "id": "dder3-ttp-path-aware-independent-code-owner-review",
+  "type": "ttp",
+  "name": "Path-aware independent code-owner review",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is analyst-applied defensive context derived from generic first-party product documentation; it describes controls. Incident attribution, actor finding, legal allegation, adjudication, and measured effectiveness require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DDER3-S03",
+      "DDER3-S10"
+    ]
+  },
+  "ttps": [
+    "code-owner-approval",
+    "code-review-integrity",
+    "path-aware-review",
+    "reviewer-independence",
+    "sensitive-code-paths"
+  ],
+  "caveats": [
+    "Account, handle, repository, portfolio, commit, and image similarity identify evidence types; legal identity requires source-explicit linkage or authoritative corroboration.",
+    "Keep fake-interview malware separate from fraudulent employment unless a source explicitly connects the same account or operator to both activities.",
+    "Platform features, account state, geographic field, signing credential, and verification result are contextual signals; legal identity, nationality, physical location, employment legitimacy, and sole operator control require separate evidence.",
+    "Present this as a general control. Reviewers should be independent of the candidate or new hire; account labels require evidence that reviewers are distinct human operators.",
+    "Preserve provider caveats and label first-party product descriptions as provider claims rather than independently measured efficacy.",
+    "This is generic first-party product documentation applied as a layered defensive control for DPRK IT-worker insider risk; it describes a control approach and its intended risk, with incident and detection evidence requiring separate sources.",
+    "This record's aggregate scope excludes people, personas, accounts, companies, repositories, packages, images, private data, and raw selectors.",
+    "Use multiple behavior-based signals, independent human review, proportional access controls, and an appeal or correction path."
+  ],
+  "infrastructure": [
+    {
+      "type": "generic-developer-platform-code-review-control",
+      "statements": [
+        "GitHub and Bitbucket document code-owner mappings that route changed paths to designated reviewers; GitHub can require code-owner approval before merge."
+      ],
+      "limitations": [
+        "Present as a general control. Require reviewers independent of the candidate or new hire; account labels alone do not prove that reviewers are distinct human operators.",
+        "This is generic first-party product documentation applied as a layered defensive control for DPRK IT-worker insider risk; it is not a report of an observed incident or evidence that the control detects DPRK operators.",
+        "No platform feature, account state, geographic field, signing credential, or verification result establishes legal identity, nationality, physical location, employment legitimacy, or sole operator control.",
+        "Use multiple behavior-based signals, independent human review, proportional access controls, and an appeal or correction path.",
+        "Account, handle, repository, portfolio, commit, and image similarity are not legal identity. Merge only with source-explicit linkage or authoritative corroboration.",
+        "Keep fake-interview malware separate from fraudulent employment unless a source explicitly connects the same account or operator to both activities.",
+        "Preserve provider caveats and label first-party product descriptions as provider claims rather than independently measured efficacy.",
+        "This record contains no people, personas, accounts, companies, repositories, packages, images, private data, or raw selectors."
+      ],
+      "source_ids": [
+        "DDER3-S03",
+        "DDER3-S10"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk"
+  ],
+  "sources": [
+    {
+      "source_id": "DDER3-S03",
+      "support": "GitHub and Bitbucket document code-owner mappings that route changed paths to designated reviewers; GitHub can require code-owner approval before merge",
+      "locator": "About code owners; CODEOWNERS and branch protection; require approval from a code owner before merge"
+    },
+    {
+      "source_id": "DDER3-S10",
+      "support": "GitHub and Bitbucket document code-owner mappings that route changed paths to designated reviewers; GitHub can require code-owner approval before merge",
+      "locator": "About code owners; CODEOWNERS path mapping; automatic reviewer assignment for pull requests"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "cluster-anyrun-ballena-azul-worker-trio",
+  "type": "cluster",
+  "name": "Ballena Azul controlled-engagement worker trio",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "suspected DPRK IT workers hired into a fake DeFi startup",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-anyrun-part2",
+      "late-2026-defcon34-slides"
+    ]
+  },
+  "caveats": [
+    "Account and persona observations belong to the cited historical investigation; current ownership, control, availability, location, nationality, and legal identity require newer evidence.",
+    "Names are operational personas. A stolen-ID victim name and all license/SSN/address/bank details were intentionally omitted.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence.",
+    "The ANY.RUN article and DEF CON deck describe one controlled investigation and form one source family; corroboration remains within that family."
+  ],
+  "aliases": [
+    {
+      "value": "Angelo Espree",
+      "alias_type": "synthetic-identity",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides"
+      ]
+    },
+    {
+      "value": "Jack Anderson",
+      "alias_type": "synthetic-identity",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides"
+      ]
+    },
+    {
+      "value": "Lucas Theo",
+      "alias_type": "synthetic-identity",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+      "caption": "Source-published: ANY.RUN source-labeled operative composite. Source-labeled imagery only; no facial recognition performed.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "claimed-role",
+      "value": "smart-contract developer",
+      "persona": "Angelo Espree",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides"
+      ]
+    },
+    {
+      "type": "claimed-role",
+      "value": "front-end developer",
+      "persona": "Jack Anderson",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides"
+      ]
+    },
+    {
+      "type": "claimed-role",
+      "value": "back-end developer",
+      "persona": "Lucas Theo",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "support": "The article describes interviewing the three operational personas, assigning claimed development roles, provisioning separate controlled VDI environments, and observing their activity",
+      "locator": "Chapter IV: “The Team” (three interviews and claimed roles); Chapter VI: “The North Korean Job” (three separate controlled VDI instances and observed activity)"
+    },
+    {
+      "source_id": "late-2026-defcon34-slides",
+      "support": "The conference deck specifically presents separate worker-persona and claimed-role slides for the three controlled-engagement accounts; it is another presentation of the same investigation, not independent corroboration",
+      "locator": "PDF pp. 17–19, separate worker-persona and claimed-role slides"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

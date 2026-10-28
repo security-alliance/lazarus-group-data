@@ -1,0 +1,12 @@
+{
+  "id": "src-e754c8dffb9b",
+  "publisher": "GitHub",
+  "title": "GitHub public repositories: cornel-cp",
+  "url": "https://api.github.com/users/cornel-cp/repos?per_page=100&sort=full_name",
+  "accessed_at": "2026-08-14",
+  "sha256": "508fc7825cf6f230defe205dd78edf7d421b59d085589c109a3cd169456e4047",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "persona-zhang-wei-ping-chinese-alias",
+  "type": "persona",
+  "name": "张卫平",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded persona record for 张卫平; keep it separate from any person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports 张卫平 in the described scheme.",
+      "locator": "PDF p. 8 ¶25"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-zhang-wei-ping-chinese-alias",
+      "type": "alias",
+      "predicate": "source_reported_alias",
+      "value": {
+        "persona": "张卫平",
+        "source_reported_for": "ZHANG WEI PING, aka 张卫平"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 8 ¶25",
+          "quote": "ZHANG WEI PING, aka 张卫平, was a Chinese citizen residing in China."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

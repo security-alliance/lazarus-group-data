@@ -1,0 +1,270 @@
+{
+  "id": "facilitator-rok-313-ri-il-jin",
+  "type": "facilitator",
+  "name": "리일진",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Named in a Republic of Korea unilateral sanctions designation or its official living sanctions list. The status is administrative; criminal charge and conviction status remain absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ROK-MOFA-2024-IT15",
+      "ROK-MOFA-SANCTIONS-LIST"
+    ]
+  },
+  "legal_or_reported_name": "리일진",
+  "organizations": [
+    "313총국"
+  ],
+  "locations": [
+    "Shenyang, China"
+  ],
+  "caveats": [
+    "The dated designation announcement and the living sanctions list are two Republic of Korea Ministry of Foreign Affairs publications in one official source family; retain both for complementary claim-level support and treat them as one source family. The living-list citation establishes list presence and naming as accessed; current activity, location, role, and operational control require newer evidence.",
+    "Included regional primary sources print only Korean-script forms; the Latin-script field remains blank.",
+    "This record preserves the official source's stated role in an overseas IT delegation or related entity. Personal software-development work requires a separate source finding."
+  ],
+  "sources": [
+    {
+      "source_id": "ROK-MOFA-2024-IT15",
+      "support": "The December 26, 2024 designation announcement names 리일진 as 선양 주재 IT 대표단 부원 affiliated with 313총국 and alleges overseas IT foreign-currency earning activity",
+      "locator": "Body paragraphs beginning “이러한 배경에서” through “조선금정경제정보기술교류사는”; designation entry naming 리일진 and role “선양 주재 IT 대표단 부원”. | Official document/download: https://www.korea.kr/common/download.do?fileId=197999152&tblKey=GMN"
+    },
+    {
+      "source_id": "ROK-MOFA-SANCTIONS-LIST",
+      "support": "As accessed on 2026-08-12, the living ROK unilateral-sanctions list includes 리일진 in its 개인 designation rows with designation date 2024-12-30. This supports list presence, the designation date, and the displayed canonical name form only",
+      "locator": "개인 designation row for “리일진”, dated 24.12.30. | Availability note (2026-08-12): Living sanctions list. A passive check followed an HTTP 307 redirect and then timed out; this does not establish removal. Keep publication_date null and use accessed_date for every extraction"
+    },
+    {
+      "source_id": "src-37e6445a52ef"
+    },
+    {
+      "source_id": "src-a3c54a0e393d"
+    },
+    {
+      "source_id": "src-9f929fe58b1c"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ri-il-jin-reported-name",
+      "type": "identity_name",
+      "predicate": "rok_official_source_named_subject",
+      "value": {
+        "name": "리일진",
+        "script": "Hangul"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "Designation paragraph",
+          "quote": "리일진"
+        },
+        {
+          "source_id": "src-37e6445a52ef",
+          "locator": "Designation table, 리일진 row",
+          "quote": "리일진"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF page 2, designation table, 리일진 row",
+          "quote": "리일진"
+        },
+        {
+          "source_id": "src-a3c54a0e393d",
+          "locator": "Article paragraph listing the 14 people described as 313총국 members",
+          "quote": "박흥룡, 윤정식, 리일진"
+        },
+        {
+          "source_id": "src-9f929fe58b1c",
+          "locator": "Article paragraph listing the ROK-designated 313총국 group",
+          "quote": "박흥룡, 윤정식, 리일진, 김경일"
+        }
+      ],
+      "observed_at": "2024-12-26",
+      "notes": [
+        "No Latin-script romanization is printed in the reviewed accessible sources; none is inferred."
+      ]
+    },
+    {
+      "id": "claim-ri-il-jin-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea government",
+        "announcement_date": "2024-12-26",
+        "effective_date": "2024-12-30",
+        "posture": "unilateral administrative sanctions designation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "Designation paragraph naming the designated individuals",
+          "quote": "정부는 해외 외화벌이 활동을 통해 북한 핵․미사일 개발 자금을 조달해 온 북한 IT 조직원 15명 및 관련 기관 1개를 대북 독자제재 대상으로 지정한다."
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "Closing implementation paragraph",
+          "quote": "이번 독자제재는 관보 게재를 통해 12.30.(월) 00시부터 시행 예정"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF page 3, closing implementation paragraph",
+          "quote": "이번 독자제재는 관보 게재를 통해 12.30.(월) 00시부터 시행 예정"
+        },
+        {
+          "source_id": "src-a3c54a0e393d",
+          "locator": "Article paragraph reporting implementation timing",
+          "quote": "이번 독자제재는 12월 30일 0시부터 시행됩니다."
+        },
+        {
+          "source_id": "src-9f929fe58b1c",
+          "locator": "Article paragraph reporting implementation timing",
+          "quote": "이번 제재는 관보 게재를 통해 오는 30일 0시부터 시행됩니다."
+        }
+      ],
+      "observed_at": "2024-12-30",
+      "notes": [
+        "Administrative sanctions designation only; no criminal charge, conviction, or guilt finding established."
+      ]
+    },
+    {
+      "id": "claim-ri-il-jin-313-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "rok_reported_affiliation",
+      "value": {
+        "organization": "313총국",
+        "source_description": "subordinate organization of the Workers' Party of Korea Munitions Industry Department"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "Paragraph listing designated 313총국 members",
+          "quote": "박흥룡, 윤정식, 리일진, 김경일, 강현철, 김철민, 리금형, 김류성, 황철, 안광일, 한일남, 승철범, 리영림, 박동현은 조선노동당 군수공업부 산하기관인 313총국에 소속되어"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF pages 1-2, paragraph listing designated 313총국 members",
+          "quote": "박흥룡, 윤정식, 리일진, 김경일, 강현철, 김철민, 리금형, 김류성, 황철, 안광일, 한일남, 승철범, 리영림, 박동현은 조선노동당 군수공업부 산하기관인 313총국에 소속되어"
+        },
+        {
+          "source_id": "src-a3c54a0e393d",
+          "locator": "Article paragraph naming the 14 people described by the government as 313총국 members",
+          "quote": "박흥룡, 윤정식, 리일진, 김경일, 강현철, 김철민, 리금형, 김류성, 황철, 안광일, 한일남, 승철범, 리영림, 박동현 등 14명은 조선노동당 군수공업부 산하기관인 313총국에 소속되어"
+        },
+        {
+          "source_id": "src-9f929fe58b1c",
+          "locator": "Article paragraph naming the ROK-designated 313총국 group",
+          "quote": "모두 조선노동당 군수공업부 산하기관인 313총국에 소속돼 해외에 주재했습니다."
+        }
+      ],
+      "observed_at": "2024-12-26",
+      "notes": [
+        "ROK government description; not independently adjudicated."
+      ]
+    },
+    {
+      "id": "claim-ri-il-jin-delegation-role",
+      "type": "employment",
+      "predicate": "rok_reported_historical_delegation_role",
+      "value": {
+        "organization": "313총국",
+        "role": "IT delegation member",
+        "posting_context": "Shenyang"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-37e6445a52ef",
+          "locator": "Designation table, 리일진 row",
+          "quote": "313총국 선양 주재 IT 대표단 부원"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF page 2, designation table, 리일진 row",
+          "quote": "313총국 선양 주재 IT 대표단 부원"
+        }
+      ],
+      "observed_at": "2024-12-26",
+      "notes": [
+        "Historical source-described posting and role only; it does not establish present location, current employment, or personal software-development activity."
+      ]
+    },
+    {
+      "id": "claim-ri-il-jin-designation-era-location",
+      "type": "location",
+      "predicate": "rok_reported_historical_posting_context",
+      "value": {
+        "location": "Shenyang, China",
+        "source_form": "선양",
+        "context": "designation-time IT delegation posting",
+        "present_location_inference": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF page 2, designation table, 리일진 row",
+          "quote": "313총국 선양 주재 IT 대표단 부원"
+        },
+        {
+          "source_id": "src-37e6445a52ef",
+          "locator": "Designation table, 리일진 row",
+          "quote": "313총국 선양 주재 IT 대표단 부원"
+        }
+      ],
+      "observed_at": "2024-12-26",
+      "notes": [
+        "Retain only the coarse city-and-country context. This is not a residence, precise address, continued-presence, or present-location claim."
+      ]
+    },
+    {
+      "id": "claim-ri-il-jin-reported-revenue-role",
+      "type": "incident",
+      "predicate": "rok_reported_it_revenue_activity",
+      "value": {
+        "reported_activity": "IT foreign-currency earning activity",
+        "reported_purpose": "remittance of military-program funds"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-37e6445a52ef",
+          "locator": "Designation table, shared rationale column applying to the listed individuals including 리일진",
+          "quote": "IT 외화벌이 활동을 통해 군수자금 상납"
+        },
+        {
+          "source_id": "ROK-MOFA-2024-IT15",
+          "locator": "PDF page 2, shared rationale column applying to the listed individuals including 리일진",
+          "quote": "IT 외화벌이 활동을 통해 군수자금 상납"
+        },
+        {
+          "source_id": "src-a3c54a0e393d",
+          "locator": "Article paragraph naming 리일진 among the 313총국 group",
+          "quote": "313총국에 소속되어 해외에 주재하면서 IT 외화벌이 활동을 해왔습니다."
+        },
+        {
+          "source_id": "src-9f929fe58b1c",
+          "locator": "Opening paragraphs naming 리일진 among the designated group",
+          "quote": "해외에서 정보통신(IT) 분야 외화벌이 활동을 하면서 핵과 미사일 개발 자금을 조달한 북한인 15명"
+        }
+      ],
+      "observed_at": "2024-12-26",
+      "notes": [
+        "ROK administrative designation rationale; no transaction, account, payment, wallet, employer, or victim selector retained and no criminal adjudication inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "리일진 is the Korean-script identity printed in Republic of Korea administrative sanctions materials for a source-described 313총국 Shenyang IT delegation member. The designation and stated rationale are administrative government actions; no criminal charge, conviction, or finding of guilt is recorded. The reviewed accessible sources print the Korean-script form only; Latin-script form, residence, present location, current activity, and public-account linkage require separate source evidence. Unrelated search results and public accounts remain separate pending an explicit source bridge."
+}

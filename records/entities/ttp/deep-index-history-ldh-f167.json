@@ -1,0 +1,44 @@
+{
+  "id": "deep-index-history-ldh-f167",
+  "type": "ttp",
+  "name": "DPRK Remote Workers Hiring Scheme: Lessons Learned",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher-attributed public research finding; legal adjudication and civil identity require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-history-ldh-167"
+    ]
+  },
+  "ttps": [
+    "hiring and reference-screening controls"
+  ],
+  "caveats": [
+    "Keep shipping addresses and personal reference details out of the record.",
+    "These are risk indicators for proportionate review; proof requires corroboration, and screening must avoid discrimination."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Nisos says suspicious applicants may change the equipment-shipping address after an offer and recommends checking whether the new address is actually linked to the claimed person.",
+        "References may be the same person or part of the same network as applicants, avoid camera, and provide brief answers lacking credible supervisory context.",
+        "Cross-platform persona checks should compare name, appearance, location, work history and education; same-photo/different-location profiles and sparse professional-only footprints are useful correlated signals."
+      ],
+      "source_ids": [
+        "deep-index-history-ldh-167"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-history-ldh-167",
+      "support": "Nisos says suspicious applicants may change the equipment-shipping address after an offer and recommends checking whether the new address is actually linked to the claimed person. References may be the same person or part of the same network as applicants, avoid camera, and provide brief answers lacking credible supervisory context. Cross-platform persona checks should compare name, appearance, location, work history and education; same-photo/different-location profiles and sparse professional-only footprints are useful correlated signals",
+      "locator": "Sections “Anomalies in Applicants and References,” “Applicant Screening Best Practices,” and “Reference Screening Best Practices”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

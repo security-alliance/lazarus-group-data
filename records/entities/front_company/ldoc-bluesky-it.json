@@ -1,0 +1,34 @@
+{
+  "id": "ldoc-bluesky-it",
+  "type": "front_company",
+  "name": "Bluesky IT",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The affidavit states a participant described Bluesky IT as managing freelancer payments and activity associated with workers assisting the babyboxtech.com operation",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ldoc-03"
+    ]
+  },
+  "organizations": [
+    "Bluesky IT"
+  ],
+  "front_companies": [
+    "Bluesky IT"
+  ],
+  "caveats": [
+    "The document supplies source detail short of legal registration; Bluesky IT incorporation status is unconfirmed.",
+    "This record preserves the legal document's posture; guilt remains bounded by the stated proceeding."
+  ],
+  "sources": [
+    {
+      "source_id": "ldoc-03",
+      "support": "The affidavit states a participant described Bluesky IT as managing freelancer payments and activity associated with workers assisting the babyboxtech.com operation",
+      "locator": "Affidavit pp. 46-49, ¶¶106-112"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

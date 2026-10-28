@@ -1,0 +1,50 @@
+{
+  "id": "deep2-government-dgl-2026-fbi-ic3-annual-report",
+  "type": "cluster",
+  "name": "IC3 complaint-derived DPRK IT-worker victim-company scale",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official U.S. government aggregate or risk-assessment finding. Underlying pending case summaries remain allegations where applicable",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-government-dgl-2026-fbi-ic3-annual-report"
+    ]
+  },
+  "ttps": [
+    "cloud-data-exfiltration",
+    "remote-desktop",
+    "source-code-exfiltration"
+  ],
+  "caveats": [
+    "Complaint-derived identification records an allegation or investigative lead; conviction status requires a court disposition, and investigations may be at different stages.",
+    "The April 6, 2026 date is corroborated by contemporaneous public reporting; the official report PDF and landing page provide no visible day-specific publication date.",
+    "The report omits exact victim-company number, loss total, worker names, company names, and incident-level case details."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "IC3 says it identified dozens of victim companies affected by the DPRK IT-worker scam through complaints submitted to IC3.gov.",
+        "The FBI says it observed DPRK IT workers use unlawful network access to exfiltrate proprietary and sensitive data and facilitate cyber-criminal activity on behalf of the DPRK.",
+        "The report describes the broader program as involving thousands of workers dispatched globally to obtain remote employment and generate weapons-program revenue."
+      ],
+      "source_ids": [
+        "deep2-government-dgl-2026-fbi-ic3-annual-report"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-government-dgl-2026-fbi-ic3-annual-report",
+      "support": "IC3 says it identified dozens of victim companies affected by the DPRK IT-worker scam through complaints submitted to IC3.gov. The FBI says it observed DPRK IT workers use unlawful network access to exfiltrate proprietary and sensitive data and facilitate cyber-criminal activity on behalf of the DPRK. The report describes the broader program as involving thousands of workers dispatched globally to obtain remote employment and generate weapons-program revenue",
+      "locator": "PDF page 22, 'Positive Impacts, continued' panel titled 'DPRK.'"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

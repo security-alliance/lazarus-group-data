@@ -1,0 +1,42 @@
+{
+  "id": "deep2-unhistory-dalian-runguang",
+  "type": "front_company",
+  "name": "Dalian Runguang Science and Technology Co., Ltd.",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel-reported Member State allegation; publication records the response status as pending.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang"
+    ]
+  },
+  "ttps": [
+    "money-laundering"
+  ],
+  "caveats": [
+    "Money-laundering language is an allegation relayed by a Member State; the report's legal posture remains an allegation.",
+    "The Panel had not received a reply from Dalian Runguang at publication."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State alleged that Dalian-based manager Ma Tong Hyok brought Munitions Industry Department-subordinate IT workers to China and that Dalian Runguang knowingly worked with him and DPRK IT workers while laundering money for the DPRK."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2021-211-un-ma-tong-hyok-dalian-runguang",
+      "support": "Supports the manager, company, worker-dispatch and laundering allegation, plus no-reply status",
+      "locator": "PDF p. 48, para. 124"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

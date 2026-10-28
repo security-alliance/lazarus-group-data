@@ -1,0 +1,54 @@
+{
+  "id": "mike-willie-lee",
+  "real_name": "Mike Willie Lee",
+  "aliases": [
+    "keizir",
+    "willie.lee226"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "willie.lee226@gmail.com"
+  ],
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "keizir",
+      "usernames": [
+        "keizir"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x97e36fAE76cD7ef7cC1213927A9A4E10a61CdD8d"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/mike-willie-lee/mike-willie-lee-1.jpg",
+      "short_description": "Mike Willie Lee 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/mike-willie-lee/mike-willie-lee-av.png",
+      "short_description": "Mike Willie Lee avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

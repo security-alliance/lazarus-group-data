@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/security-alliance/lazarus-group/blob/main/data/dprk/schema/source.schema.json",
+  "title": "Source",
+  "description": "A public document that entities and claims cite. One file per source in data/sources/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "publisher", "url"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{2,120}$" },
+    "publisher": { "type": "string", "minLength": 1 },
+    "title": { "type": "string" },
+    "url": { "type": "string", "pattern": "^(?:https?|hxxps)://" },
+    "published_at": { "type": "string", "description": "ISO date when known. Leave out for living pages; never use an access date here." },
+    "accessed_at": { "type": "string" },
+    "archived_url": { "type": ["string", "null"] },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$", "description": "Hash of the document body as reviewed, when the reviewer retained it." },
+    "content_type": { "type": "string" },
+    "languages": { "type": "array", "items": { "type": "string" } },
+    "local_copy": { "type": "string", "description": "Path under sources/documents/ when a public-domain copy is kept in this repository." },
+    "note": { "type": "string" }
+  }
+}

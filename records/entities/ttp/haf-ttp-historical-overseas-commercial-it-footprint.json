@@ -1,0 +1,74 @@
+{
+  "id": "haf-ttp-historical-overseas-commercial-it-footprint",
+  "type": "ttp",
+  "name": "Historical overseas commercial IT footprint before modern remote hiring",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S1",
+      "HAF-S2"
+    ]
+  },
+  "locations": [
+    "China",
+    "Germany",
+    "India",
+    "Japan",
+    "Malaysia",
+    "Middle East",
+    "Nigeria",
+    "Russia",
+    "Syria",
+    "Thailand",
+    "Vietnam"
+  ],
+  "ttps": [
+    "company-formation",
+    "foreign-based-facilitator"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "Most countries appear individually in later official sources, but the 2018 sources add historical chronology and the commercial-company/biometrics context.",
+    "Publish with dates and source attribution; avoid country-level generalization or present-tense claims.",
+    "The locations are explicitly reported by a reputable research source or attributed there to official Treasury reporting."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-source-attributed-behavior-or-context",
+      "statements": [
+        "CNS described the DPRK commercial IT sector as operating through networks in China, Russia, Southeast Asia, the Middle East, and Africa.",
+        "The report cited U.S. Treasury reporting that Korea Computer Center had overseas locations in Germany, China, Syria, India, and the Middle East, while its own case studies mapped activity in Malaysia, Vietnam, Nigeria, China, and Russia.",
+        "These are historical network locations and market links, not proof that every listed country hosted a fraudulent remote-employment cell."
+      ],
+      "limitations": [
+        "Publish with dates and source attribution; avoid country-level generalization or present-tense claims.",
+        "Most countries appear individually in later official sources, but the 2018 sources add historical chronology and the commercial-company/biometrics context."
+      ],
+      "source_ids": [
+        "HAF-S1",
+        "HAF-S2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-global-locations"
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "CNS described the DPRK commercial IT sector as operating through networks in China, Russia, Southeast Asia, the Middle East, and Africa. The report cited U.S. Treasury reporting that Korea Computer Center had overseas locations in Germany, China, Syria, India, and the Middle East, while its own case studies mapped activity in Malaysia, Vietnam, Nigeria, China, and Russia. These are historical network locations and market links, not proof that every listed country hosted a fraudulent remote-employment cell",
+      "locator": "PDF pp. 4, 8, 43-48"
+    },
+    {
+      "source_id": "HAF-S1",
+      "support": "CNS described the DPRK commercial IT sector as operating through networks in China, Russia, Southeast Asia, the Middle East, and Africa. The report cited U.S. Treasury reporting that Korea Computer Center had overseas locations in Germany, China, Syria, India, and the Middle East, while its own case studies mapped activity in Malaysia, Vietnam, Nigeria, China, and Russia. These are historical network locations and market links, not proof that every listed country hosted a fraudulent remote-employment cell",
+      "locator": "PDF pp. 4-7 (printed pp. 1-4) and case-study sections"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

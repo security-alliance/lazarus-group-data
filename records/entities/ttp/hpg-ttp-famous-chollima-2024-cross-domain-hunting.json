@@ -1,0 +1,52 @@
+{
+  "id": "hpg-ttp-famous-chollima-2024-cross-domain-hunting",
+  "type": "ttp",
+  "name": "FAMOUS CHOLLIMA 2024 endpoint-plus-identity hunting workflow",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CrowdStrike vendor-attributed historical cluster and hunting assessment for the July 2023-June 2024 reporting window; legal identity status remains outside the assessment.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "hpg-s05"
+    ]
+  },
+  "ttps": [
+    "cloud-data-exfiltration",
+    "kvm-over-ip",
+    "multiple-simultaneous-jobs",
+    "remote-desktop",
+    "remote-management-tool",
+    "source-code-exfiltration"
+  ],
+  "caveats": [
+    "FAMOUS CHOLLIMA is CrowdStrike's vendor cluster name, separate from a legal identity.",
+    "Keep this historical more-than-100-company applications-or-active-work denominator separate from CrowdStrike's later 2025 report of more than 320 infiltrated companies in a different preceding-12-month window.",
+    "Victim identities, IP addresses, and endpoint artifacts are excluded.",
+    "The more-than-100 figure covers applications or active work; confirmed successful hires and compromises require separate counts."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "CrowdStrike identified FAMOUS CHOLLIMA-associated people applying to or actively working at more than 100 unique companies during its July 2023-June 2024 reporting window; most were U.S.-based technology entities.",
+        "In the initial case set, claimed U.S. residents held multiple remote IT roles, did minimal expected work, and in some incidents attempted exfiltration through Git, SharePoint or OneDrive.",
+        "Observed remote-access tools included RustDesk, AnyDesk, TinyPilot, VS Code Dev Tunnels and Google Chrome Remote Desktop; CrowdStrike paired RMM/network anomalies with role-baseline and identity telemetry.",
+        "CrowdStrike developed more than 20 hunting leads by combining endpoint and identity data and reported notifying some organizations within days of employment and network access."
+      ],
+      "source_ids": [
+        "hpg-s05"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "hpg-s05",
+      "support": "CrowdStrike identified FAMOUS CHOLLIMA-associated people applying to or actively working at more than 100 unique companies during its July 2023-June 2024 reporting window; most were U.S.-based technology entities. In the initial case set, claimed U.S. residents held multiple remote IT roles, did minimal expected work, and in some incidents attempted exfiltration through Git, SharePoint or OneDrive. Observed remote-access tools included RustDesk, AnyDesk, TinyPilot, VS Code Dev Tunnels and Google Chrome Remote Desktop; CrowdStrike paired RMM/network anomalies with role-baseline and identity telemetry. CrowdStrike developed more than 20 hunting leads by combining endpoint and identity data and reported notifying some organizations within days of employment and network access",
+      "locator": "PDF pp. 18-21, Hunting the Insider Threat and Case Study: FAMOUS CHOLLIMA Insider Threats Target 100+ U.S.-Based Companies"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

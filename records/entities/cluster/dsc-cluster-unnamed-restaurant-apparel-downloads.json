@@ -1,0 +1,55 @@
+{
+  "id": "dsc-cluster-unnamed-restaurant-apparel-downloads",
+  "type": "cluster",
+  "name": "Alleged bulk downloads at unnamed restaurant and apparel companies",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Official federal indictment; download and apparent-exfiltration conduct remain allegations, with data and impact unspecified",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S01"
+    ]
+  },
+  "ttps": [
+    "cloud-data-exfiltration",
+    "customer-data-exfiltration"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "Official federal indictment; download and apparent-exfiltration conduct remain allegations, with data and impact unspecified.",
+    "official indictment; allegation only"
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "retail/food/apparel",
+      "event_period": "2023-03-20 to 2023-11-09",
+      "statements": [
+        "The indictment alleges that a worker at an unnamed restaurant chain accessed sensitive server segments and downloaded large amounts of information during a short tenure. It separately alleges what appeared to be repeated data exfiltration at an unnamed apparel company, without identifying the data, downstream use, or confirmed impact."
+      ],
+      "defensive_controls": [
+        "Apply download-volume and unusual-egress monitoring from the first day of contractor access.",
+        "Investigate abrupt leave/non-return combined with bulk access, but do not treat leave alone as malicious.",
+        "Use country/IP anomalies only as corroborating evidence; VPNs, travel and third-party infrastructure can make geolocation misleading."
+      ],
+      "source_ids": [
+        "DSC-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "drh-ttp-endpoint-custody-posthire-control-bundle",
+    "facilitator-christina-marie-chapman"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S01",
+      "support": "The indictment alleges that a worker at an unnamed restaurant chain accessed sensitive server segments and downloaded large amounts of information during a short tenure. It separately alleges what appeared to be repeated data exfiltration at an unnamed apparel company, without identifying the data, downstream use, or confirmed impact",
+      "locator": "PDF pp. 4, 20, 27-37; especially ¶¶ 23, 30(w)-(ddd)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

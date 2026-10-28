@@ -1,0 +1,102 @@
+{
+  "id": "dwpr5-ttp-document-actual-screening-scope",
+  "type": "ttp",
+  "name": "Document the actual scope and limits of workforce-platform screening",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a cross-provider comparison of publicly stated control scope. Identity verification, background screening, sanctions review, and employment-history checks remain distinct; the limitations describe controls rather than incidents or findings about platform users.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DWPR5-S12",
+      "DWPR5-S16",
+      "DWPR5-S17",
+      "DWPR5-S19"
+    ]
+  },
+  "ttps": [
+    "freelance-platform",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Avoid collecting unnecessary criminal or sensitive personal data.",
+    "Provider ranking and effectiveness claims require independent testing.",
+    "Identity documents, selfies, liveness recordings, addresses, phone numbers, emails, tax records, payment details, credentials, device identifiers, IP addresses, and raw screening reports stay unreproduced.",
+    "Platform-wide fraud metrics describe platform-wide activity; DPRK estimates require separate measurement.",
+    "Document check scope, jurisdiction, consent, result date, and decision owner.",
+    "Identity verification confirms an identity check; employment history, technical authorship, and beneficial payee status require separate evidence.",
+    "Keep fake-interview malware separate from fraudulent employment unless a first-party source establishes the overlap.",
+    "Keep historical North Korea platform access distinct from a DPRK IT-worker attribution.",
+    "Face, accent, language, nationality, travel, time zone, VPN use, location mismatch, and payment-method change require corroboration before an adverse conclusion.",
+    "Payment-beneficiary review remains private and compliance-led; sensitive financial selectors are excluded from the public dataset.",
+    "A persona is a reported platform identity, while legal identity and platform verification remain separate questions.",
+    "Platform controls, restrictions, and verification outcomes are review inputs; DPRK affiliation, legal identity, nationality, work location, and sole-operator control require corroborating evidence.",
+    "Publish provider-level controls and limitations; private account-level evidence remains outside the record.",
+    "Retain only minimal control decisions and provenance; people, personas, accounts, entities, private profiles, payment identifiers, addresses, credentials, images, and raw screening artifacts stay outside the record.",
+    "Sanctions, employment, criminal, and identity checks have jurisdictional and methodological limits; document exactly what was checked and when.",
+    "Use multiple explainable signals, proportional human review, correction, and appeal; face, accent, language, nationality, travel, time zone, VPN use, location mismatch, or payment change alone are insufficient for adverse decisions.",
+    "Use multiple independently explainable signals, human review, proportionality, correction, and appeal."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-workforce-platform-screening-boundary",
+      "statements": [
+        "Provider controls vary materially: mandatory identity verification may coexist with optional, jurisdiction-limited, or absent employment and criminal checks. Oyster explicitly says it verifies contractor identity but does not conduct contractor employment or criminal checks; Remote distinguishes standard EOR identity/right-to-work checks from selectable background checks; HireGlobal presents broader screening as a service claim. Employers must map what was actually checked rather than assuming an EOR or contractor platform completed a comprehensive background investigation."
+      ],
+      "limitations": [
+        "Do not rank providers or claim effectiveness without independent testing.",
+        "Avoid collecting unnecessary criminal or sensitive personal data.",
+        "Document check scope, jurisdiction, consent, result date, and decision owner.",
+        "Identity verification does not validate employment history, technical authorship, or beneficial payee.",
+        "Platform controls, restrictions, and verification outcomes are review inputs; none independently proves or excludes DPRK affiliation, legal identity, nationality, work location, or sole operator control.",
+        "Use multiple explainable signals, proportional human review, correction, and appeal; do not make adverse decisions from face, accent, language, nationality, travel, time zone, VPN use, location mismatch, or payment change alone.",
+        "Retain only minimal control decisions and provenance. No people, personas, accounts, entities, private profiles, payment identifiers, addresses, credentials, images, or raw screening artifacts are included.",
+        "Persona is not legal identity, and platform verification is not legal attribution.",
+        "No adverse conclusion may rest on face, accent, language, nationality, travel, time zone, VPN use, location mismatch, or payment-method change alone.",
+        "Use multiple independently explainable signals, human review, proportionality, correction, and appeal.",
+        "Publish provider-level controls and limitations, not private account-level evidence.",
+        "Do not reproduce identity documents, selfies, liveness recordings, addresses, phone numbers, emails, tax records, payment details, credentials, device identifiers, IP addresses, or raw screening reports.",
+        "Do not turn platform-wide fraud metrics into DPRK estimates.",
+        "Keep historical North Korea platform access distinct from a DPRK IT-worker attribution.",
+        "Keep fake-interview malware separate from fraudulent employment unless a first-party source establishes the overlap.",
+        "Sanctions, employment, criminal, and identity checks have jurisdictional and methodological limits; document exactly what was checked and when.",
+        "Payment-beneficiary review should remain private and compliance-led; no sensitive financial selector belongs in the public dataset."
+      ],
+      "source_ids": [
+        "DWPR5-S12",
+        "DWPR5-S16",
+        "DWPR5-S17",
+        "DWPR5-S19"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "dfef-ttp-lifecycle-identity-continuity",
+    "dfp-ttp-upwork-verification-boundary"
+  ],
+  "sources": [
+    {
+      "source_id": "DWPR5-S19",
+      "support": "Oyster says it performs contractor identity verification but not employment or criminal background checks, and advises customers conducting their own checks to disclose scope and obtain consent. Publish the limitation with the control. Do not imply identity verification validates work history or sanctions status unless separately established. Provider controls vary materially: mandatory identity verification may coexist with optional, jurisdiction-limited, or absent employment and criminal checks. Oyster explicitly says it verifies contractor identity but does not conduct contractor employment or criminal checks; Remote distinguishes standard EOR identity/right-to-work checks from selectable background checks; HireGlobal presents broader screening as a service claim. Employers must map what was actually checked rather than assuming an EOR or contractor platform completed a comprehensive background investigation",
+      "locator": "Identity verification; Employment checks; Conducting background checks on your own"
+    },
+    {
+      "source_id": "DWPR5-S17",
+      "support": "Remote documents pre-onboarding education, employment, sanctions, and jurisdiction-dependent criminal checks; standard EOR identity and right-to-work checks; a screening history view; customer review of discrepancies; and provider review of sanctions or criminal-record concerns for EOR and COR candidates. Emphasize jurisdictional limits, candidate consent, and human decision-making. Avoid contact details, reports, or private findings. Provider controls vary materially: mandatory identity verification may coexist with optional, jurisdiction-limited, or absent employment and criminal checks. Oyster explicitly says it verifies contractor identity but does not conduct contractor employment or criminal checks; Remote distinguishes standard EOR identity/right-to-work checks from selectable background checks; HireGlobal presents broader screening as a service claim. Employers must map what was actually checked rather than assuming an EOR or contractor platform completed a comprehensive background investigation",
+      "locator": "How It Works; Background Check History Table; Do you offer identity verification and right-to-work checks?; What happens if a background check reveals concerning information?"
+    },
+    {
+      "source_id": "DWPR5-S16",
+      "support": "Remote says all employees and contractors must complete KYC to address identity misuse, impersonation, fraud, and AML obligations. Do not treat mandatory KYC as proof that employment-history, identity-lender, or post-hire continuity risk is resolved. Provider controls vary materially: mandatory identity verification may coexist with optional, jurisdiction-limited, or absent employment and criminal checks. Oyster explicitly says it verifies contractor identity but does not conduct contractor employment or criminal checks; Remote distinguishes standard EOR identity/right-to-work checks from selectable background checks; HireGlobal presents broader screening as a service claim. Employers must map what was actually checked rather than assuming an EOR or contractor platform completed a comprehensive background investigation",
+      "locator": "Why this step is important; Regulations; Security"
+    },
+    {
+      "source_id": "DWPR5-S12",
+      "support": "HireGlobal says workforce members receive identity verification during onboarding and offers watchlist, employment, education, and other checks. Characterize this as provider product documentation, not validated efficacy or DPRK-specific enforcement. Provider controls vary materially: mandatory identity verification may coexist with optional, jurisdiction-limited, or absent employment and criminal checks. Oyster explicitly says it verifies contractor identity but does not conduct contractor employment or criminal checks; Remote distinguishes standard EOR identity/right-to-work checks from selectable background checks; HireGlobal presents broader screening as a service claim. Employers must map what was actually checked rather than assuming an EOR or contractor platform completed a comprehensive background investigation",
+      "locator": "What's available in your global background check; Identity verification; Global watchlist screening; Employment verification"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

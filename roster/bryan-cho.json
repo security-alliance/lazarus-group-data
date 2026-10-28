@@ -1,0 +1,314 @@
+{
+  "id": "bryan-cho",
+  "named_in": "Indictment, United States v. Kim Kwang Jin et al., N.D. Ga. No. 1:25-cr-00291 (unsealed 2025-06-30)",
+  "real_name": "Jong Pong Ju",
+  "fake_names": [
+    "Bryan Cho"
+  ],
+  "aliases": [
+    "Chris Yu",
+    "atroboj",
+    "bugarnet"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "atroboj@gmail.com"
+  ],
+  "telegram": [
+    {
+      "usernames": [
+        "@atroobj"
+      ]
+    }
+  ],
+  "websites": [
+    "https://www.justice.gov/usao-dc/media/1402691/dl",
+    "https://www.npmjs.com/~atroboj",
+    "https://x.com/bestvideosofct/status/1824786325834432776"
+  ],
+  "github": [
+    {
+      "gh_id": "atroboj"
+    },
+    {
+      "gh_id": "bugarnet"
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x3b9a870c24905256de10863cb360f4b93c7cc60f",
+        "0xc2b2a9c05740eeb7ee7ba7eb3ab11ec8bebcb1d1",
+        "0x1043efee936903951b88db23551873bb67292e95"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "ESSfP3aAcW6Z59ozut9Jkqy9btaX5YTHt25b3Vhs2hsf"
+      ],
+      "currency": "SOL"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/bryan-cho/bryan-cho-wanted.png",
+      "short_description": "FBI wanted poster, issued in the legal name",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/bryan-cho/bryan-cho-despace.jpg",
+      "short_description": "Bryan Cho from Despace.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/bryan-cho/bryan-cho-id.jpg",
+      "short_description": "ID of Bryan Cho.",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/bryan-cho/bryan-cho-chris-yu-1.png",
+      "short_description": "Bryan Cho as Chris Yu.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/bryan-cho/bryan-cho-chris-yu-2.png",
+      "short_description": "Second image of Bryan Cho as Chris Yu.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "research_id": "worker-jong-pong-ju",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "charged-allegation",
+    "summary": "DPRK national; IT worker charged in employer virtual-currency thefts",
+    "case": "1:25-cr-00291",
+    "court": "U.S. District Court for the Northern District of Georgia",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Jong Pong Ju is the officially alleged worker identity charged in N.D. Ga. No. 1:25-CR-291; Bryan Cho is an officially alleged employment alias. Chollima Group separately maps Bryan Cho to Jong Pong Ju and assesses a likely Bureau 61/Umnal affiliation, but legacy Chris Yu, atroboj, atroobj, and bugarnet identifiers remain a reported cluster and are not merged into the legal identity without stronger selector-level evidence.",
+      "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-8fe1311bd7cb",
+      "title": "Indictment, United States v. Kim Kwang Jin et al.",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/media/1406396/dl",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "doc-chollima-reframing-jong-pong-ju",
+      "title": "Reframing Insights: Our Research through the lens of the 2025 MSMT Report",
+      "publisher": "Chollima Group",
+      "url": "https://chollima-group.io/posts/reframing-insights-our-research-msmt",
+      "date": "2025-11-19"
+    },
+    {
+      "id": "doc-eb442144975a",
+      "title": "Justice Department Announces Coordinated Nationwide Actions to Combat North Korean Remote Information Technology Worker Schemes",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "doc-fox5atlanta-jong-pong-ju-2025",
+      "title": "North Korean nationals wanted in cryptocurrency embezzlement scheme; $5M reward",
+      "publisher": "FOX 5 Atlanta",
+      "url": "https://www.fox5atlanta.com/news/north-korean-nationals-wanted-cryptocurrency-embezzlement-scheme-5m-reward",
+      "date": "2025-06-30"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-at-large-2025",
+      "label": "Reported at large",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment – Northern District of Georgia section, first paragraph",
+          "quote": "The defendants remain at large and wanted by the FBI."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-bryan-cho-alias",
+      "label": "Used alias",
+      "category": "alias",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 3, paragraph 2",
+          "quote": "JONG PONG JU a/k/a ‘Bryan Cho’"
+        },
+        {
+          "source_id": "doc-chollima-reframing-jong-pong-ju",
+          "locator": "Bureau 61 section, publisher mapping",
+          "quote": "Bryan Cho (Jong Pong Ju)"
+        },
+        {
+          "source_id": "doc-fox5atlanta-jong-pong-ju-2025",
+          "locator": "North Korean crypto scheme section",
+          "quote": "Jong used the alias \"Bryan Cho.\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-bryan-cho-telegram",
+      "label": "Used telegram account",
+      "category": "account",
+      "observed": "2021-10-01",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 9, paragraph 27",
+          "quote": "In or about October 2021, via Telegram, defendant JONG PONG JU, using the Telegram account for the ‘Bryan Cho’ alias, recommended that the founder of Company-2 hire ‘Peter Xiao’ as a developer."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-charged-status",
+      "label": "Charged in federal indictment",
+      "category": "legal_event",
+      "observed": "2024-12-12",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 2, unsealing order caption",
+          "quote": "Criminal Indictment No. 1:25-CR-291"
+        },
+        {
+          "source_id": "doc-eb442144975a",
+          "locator": "Kim Kwang Jin et al. Indictment – Northern District of Georgia section, first paragraph",
+          "quote": "Today, the Northern District of Georgia unsealed a five-count wire fraud and money laundering indictment charging four North Korean nationals, Kim Kwang Jin (김관진), Kang Tae Bok (강태복), Jong Pong Ju (정봉주) and Chang Nam Il (창남일)"
+        },
+        {
+          "source_id": "doc-fox5atlanta-jong-pong-ju-2025",
+          "locator": "opening indictment sentence",
+          "quote": "A five-count indictment unsealed Monday in the Northern District of Georgia names Kim Kwang Jin, Kang Tae Bok, Jong Pong Ju, and Chang Nam Il as defendants in the case, accusing them of wire fraud and money laundering."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-company-2-employment",
+      "label": "Alleged remote employment",
+      "category": "employment",
+      "observed": "2021-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 9, paragraph 25",
+          "quote": "Since at least in or about May 2021 and continuing until in or about February 2022, defendant JONG PONG JU, using the alias ‘Bryan Cho,’ was employed by Company-2 to provide IT services."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-company-2-theft",
+      "label": "Alleged virtual currency theft",
+      "category": "incident",
+      "observed": "2022-02-11",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 10, paragraph 29",
+          "quote": "On or about February 11, 2022, defendant JONG PONG JU, using access granted to him by Company-2, fraudulently obtained virtual currency tokens valued at approximately 60 Ether (worth approximately $175,680 at the time of the theft) from Company-2"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-jong-collective-fbi-reward-report",
+      "label": "Media-reported collective reward of up to $5M (State Department Rewards for Justice, as reported)",
+      "category": "legal_event",
+      "observed": "2025-06-30",
+      "evidence": [
+        {
+          "source_id": "doc-fox5atlanta-jong-pong-ju-2025",
+          "locator": "What's next section",
+          "quote": "The FBI has offered a reward of up to $5 million for information leading to the arrest of the four men."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-nationality",
+      "label": "Alleged nationality",
+      "category": "location",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF pp. 3-4, paragraph 2",
+          "quote": "JONG PONG JU a/k/a ‘Bryan Cho,’ and CHANG NAM IL a/k/a ‘Bong Chee Shen,’ a/k/a ‘Peter Xiao,’ were citizens of North Korea"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-official-name",
+      "label": "Officially reported name",
+      "category": "identity_name",
+      "observed": "2024-12-12",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 1, caption",
+          "quote": "JONG PONG JU (정봉주) A/K/A ‘BRYAN CHO’"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-referred-peter-xiao",
+      "label": "Referred for employment",
+      "category": "relationship",
+      "observed": "2021-10-01",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF pp. 9-10, paragraph 27",
+          "quote": "In truth, ‘Peter Xiao’ was actually defendant CHANG NAM IL, which defendant JONG PONG JU knew at the time he recommended ‘Peter Xiao’ to Company-2."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-tornado-cash",
+      "label": "Allegedly sent stolen funds to mixer",
+      "category": "incident",
+      "observed": "2022-02-13",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 14, paragraph 42",
+          "quote": "On or about February 13, 2022, defendant JONG PONG JU sent virtual currency totaling approximately 60 Ether that was fraudulently obtained from Company-2 to Tornado Cash for mixing."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-uae-colocated-team",
+      "label": "Alleged work location",
+      "category": "location",
+      "evidence": [
+        {
+          "source_id": "doc-8fe1311bd7cb",
+          "locator": "PDF p. 7, paragraph 22(a)",
+          "quote": "The defendants, KIM KWANG JIN, KANG TAE BOK, JONG PONG JU, and CHANG NAM IL, and others unknown to the Grand Jury, traveled to locations outside of North Korea, including the United Arab Emirates, using North Korean travel documents, and lived and worked as a co-located team."
+        },
+        {
+          "source_id": "doc-fox5atlanta-jong-pong-ju-2025",
+          "locator": "historical group-location paragraph",
+          "quote": "The defendants are believed to have traveled to the United Arab Emirates in 2019 on North Korean travel documents and worked there together as a co-located team."
+        }
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

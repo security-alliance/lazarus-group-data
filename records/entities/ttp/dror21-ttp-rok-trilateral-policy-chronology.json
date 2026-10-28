@@ -1,0 +1,57 @@
+{
+  "id": "dror21-ttp-rok-trilateral-policy-chronology",
+  "type": "ttp",
+  "name": "ROK trilateral IT-worker policy chronology",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Official meeting and policy-coordination notice; underlying assessments, enforcement action, sanctions designation, criminal allegation, and adjudication status remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dror21-s01-rok-mofa-trilateral-2026"
+    ]
+  },
+  "ttps": [
+    "official-meeting-chronology",
+    "threat-assessment-sharing",
+    "trilateral-policy-coordination"
+  ],
+  "caveats": [
+    "The meeting record supplies the meeting context; contents, evidentiary basis, and conclusions of the shared assessments remain unreported.",
+    "Government representatives named in the source are omitted from this dataset's threat-actor, facilitator, and case-subject records.",
+    "This notice overlaps prior trilateral policy activity and adds a fifth-meeting chronology point; underlying-conduct corroboration requires separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-policy-chronology",
+      "statements": [
+        "An official June 2026 meeting notice supplies a chronology anchor for the fifth trilateral diplomatic working-group discussion of DPRK cyber threats.",
+        "The notice identifies IT-worker activity as an agenda category alongside other illicit cyber activity and records policy coordination, without publishing the assessments shared."
+      ],
+      "chronology": [
+        {
+          "date_range": "2026-06-25/2026-06-26",
+          "event": "Fifth trilateral diplomatic working-group meeting."
+        },
+        {
+          "date": "2026-06-27",
+          "event": "Official meeting notice published."
+        }
+      ],
+      "evidence_boundary": "A meeting notice establishes policy chronology and discussion scope only. It is not evidence of a specific placement, operation, employer, worker, victim, sanction, prosecution, labor measure, or immigration action.",
+      "source_ids": [
+        "dror21-s01-rok-mofa-trilateral-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dror21-s01-rok-mofa-trilateral-2026",
+      "support": "Supports only the chronology and policy-coordination claim: the fifth trilateral diplomatic working-group meeting occurred on June 25-26, 2026, and its agenda expressly included sharing assessments of DPRK IT-worker activity and discussing coordinated responses. It does not disclose the assessments, a specific operation, placement, employer, worker, victim, sanction, charge, labor action, or immigration action",
+      "locator": "Body paragraphs 1-3, especially paragraph 2 beginning '3국은 북한의 가상자산 탈취 및 세탁, IT 인력 활동 등'"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

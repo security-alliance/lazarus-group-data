@@ -1,0 +1,64 @@
+{
+  "id": "dphr5-ttp-onboarding-and-in-employment-exfiltration-attempts",
+  "type": "ttp",
+  "name": "Onboarding and in-employment exfiltration attempts",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party observed attempts and defensive abstractions; the record shows an attempt, with loss status unresolved, while ordinary tools remain contextual.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPHR5-S06-CROWDSTRIKE-2024-HUNTING",
+      "DPHR5-S07-EXABEAM-INSIDER-CASE"
+    ]
+  },
+  "ttps": [
+    "attempted-data-exfiltration",
+    "early-employment-collection",
+    "repository-and-cloud-transfer-monitoring",
+    "role-baselined-access-review"
+  ],
+  "caveats": [
+    "The record describes reported conduct by specific fraudulent workers; theft, extortion, espionage, persistence, and sabotage remain case-specific.",
+    "Evidence class: first-party observed incident and aggregate.",
+    "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+    "Git, SharePoint, OneDrive, remote-access tools and LLMs are legitimate technologies; use context, role baselines, access scope and correlated behavior.",
+    "Neither source establishes that all observed attempts succeeded.",
+    "The record retains bounded source context; people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, and private repository content stay outside it."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-observed-attempt-and-defensive-context",
+      "statements": [
+        "CrowdStrike observed attempted transfers through common code and cloud services in some cases, while Exabeam describes attempted company-data exfiltration within days of onboarding amid remote-access and C2-related activity."
+      ],
+      "limitations": [
+        "Evidence class: first-party observed incident and aggregate.",
+        "Git, SharePoint, OneDrive, remote-access tools and LLMs are legitimate technologies; use context, role baselines, access scope and correlated behavior.",
+        "Neither source establishes that all observed attempts succeeded.",
+        "No people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, or private repository content are retained.",
+        "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+        "Do not infer that every fraudulent worker performs theft, extortion, espionage, persistence, or sabotage."
+      ],
+      "source_ids": [
+        "DPHR5-S06-CROWDSTRIKE-2024-HUNTING",
+        "DPHR5-S07-EXABEAM-INSIDER-CASE"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPHR5-S06-CROWDSTRIKE-2024-HUNTING",
+      "support": "CrowdStrike reports that in an initial set of fraudulent-worker cases, some subjects attempted data exfiltration through Git, SharePoint or OneDrive while holding remote roles. The report pairs repository or cloud-transfer behavior with endpoint and identity evidence rather than treating use of those services as inherently malicious. CrowdStrike observed attempted transfers through common code and cloud services in some cases, while Exabeam describes attempted company-data exfiltration within days of onboarding amid remote-access and C2-related activity",
+      "locator": "PDF pages 18-21, Hunting the Insider Threat and FAMOUS CHOLLIMA case study"
+    },
+    {
+      "source_id": "DPHR5-S07-EXABEAM-INSIDER-CASE",
+      "support": "Exabeam describes a newly onboarded user it attributed to a North Korean threat-actor scenario who immediately installed remote-access or C2-related software and attempted to exfiltrate company data. The organization isolated and ultimately disabled the endpoint and shared indicators with the FBI. CrowdStrike observed attempted transfers through common code and cloud services in some cases, while Exabeam describes attempted company-data exfiltration within days of onboarding amid remote-access and C2-related activity",
+      "locator": "Slides 5-12 and 24"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

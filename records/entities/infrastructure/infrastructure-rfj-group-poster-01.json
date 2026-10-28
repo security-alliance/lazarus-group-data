@@ -1,0 +1,50 @@
+{
+  "id": "infrastructure-rfj-group-poster-01",
+  "type": "infrastructure",
+  "name": "Rewards for Justice group poster 1",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-5353a9559e88"
+    ]
+  },
+  "caveats": [
+    "The asset contains multiple people and/or silhouettes; individual-profile attachment and visual identity remain unestablished."
+  ],
+  "images": [
+    {
+      "source_id": "gov-5353a9559e88",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korean-information-technology-it-workers/",
+      "direct_asset_url": "https://rewardsforjustice.net/wp-content/uploads/2024/05/DPRKITWorkers_EN-300x176.jpg",
+      "caption": "Group campaign poster covering multiple named subjects; this is not an individual portrait.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "group-poster",
+      "value": "https://rewardsforjustice.net/wp-content/uploads/2024/05/DPRKITWorkers_EN-300x176.jpg",
+      "subjects": [
+        "Chunji Jin",
+        "Haoran Xu",
+        "Jiho Han",
+        "Zhonghua"
+      ],
+      "source_ids": [
+        "gov-5353a9559e88"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-5353a9559e88",
+      "support": "Rewards for Justice names Jiho Han, Chunji Jin, Haoran Xu, and Zhonghua as employment aliases in the Chapman scheme; the page does not establish that the person shown in its image is the underlying actor",
+      "locator": "Named-alias list and campaign image"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

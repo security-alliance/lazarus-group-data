@@ -1,0 +1,140 @@
+{
+  "id": "crypto-incident-elemental-stabble-2026",
+  "type": "cluster",
+  "name": "ElementalDeFi and Stabble — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Project or organization statement; preserve its wording and any dispute over employment or attribution",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-vientiane",
+      "crypto-jupiter-stabble-team",
+      "crypto-stabble-x-admission",
+      "crypto-stabble-x-confirmed",
+      "crypto-stabble-x-emergency",
+      "crypto-stabble-x-no-exploit",
+      "crypto-theblock-stabble",
+      "crypto-zach-elemental-2026"
+    ]
+  },
+  "organizations": [
+    "ElementalDeFi and Stabble"
+  ],
+  "ttps": [
+    "Applied across projects and may have held multiple positions simultaneously",
+    "Backed by additional DPRK-linked actors",
+    "Embedded as technical founder/CTO-level contributor",
+    "Long-lived Japanese persona",
+    "Manipulated a founder through social engineering",
+    "Project issued precautionary liquidity-withdrawal notice after disclosure",
+    "Reused handles across X, GitHub, Discord, and projects"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "Primary Stabble posts establish the emergency warning, apparent prior employment, and no-exploit outcome. A contemporaneous founder-authored team profile establishes the leadership/CTO role. ElementalDeFi did not publish a response located in the cited evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Keisuke Watanabe",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Github",
+      "identifier": "hirayama1534",
+      "url": "https://github.com/hirayama1534",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "kAsky53",
+      "url": "https://github.com/kAsky53",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Twitter",
+      "identifier": "kAsky53",
+      "url": "hxxps://x[.]com/kAsky53",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-vientiane"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "source_url": "https://chollima-group.io/posts/tracking-a-north-korean-it-worker-cell",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/tracking-a-north-korean-it-worker-cell/6.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "keisuke-watanabe"
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-vientiane",
+      "support": "Keisuke Watanabe AKA kAsky53 AKA hirayama1534; Naoki Murano AKA supermutecx",
+      "locator": "Sections “Timeline” and “Tools, Services, and Other Findings”"
+    },
+    {
+      "source_id": "crypto-jupiter-stabble-team",
+      "support": "Keisuke, the CTO of stabble, boasts an impressive background in software development",
+      "locator": "Forum topic “LFG Introduction: stabble”; founder-authored team-profile post identifying the CTO"
+    },
+    {
+      "source_id": "crypto-theblock-stabble",
+      "support": "Stabble said it appeared to have employed the worker one year earlier",
+      "locator": "Article body beneath headline; Stabble statement paragraphs"
+    },
+    {
+      "source_id": "crypto-stabble-x-emergency",
+      "support": "EMERGENCY! Guys, please temporarily withdraw your liquidity instantly!",
+      "locator": "X status 2041509913080352916"
+    },
+    {
+      "source_id": "crypto-stabble-x-admission",
+      "support": "It seems we had one year ago. We have a new team at Stabble",
+      "locator": "X status 2041518983912866186"
+    },
+    {
+      "source_id": "crypto-stabble-x-no-exploit",
+      "support": "There has been no exploit. We received a message and are acting on it",
+      "locator": "X status 2041545304525210062"
+    },
+    {
+      "source_id": "crypto-stabble-x-confirmed",
+      "support": "Until one year ago we had a North Korean developer on our team",
+      "locator": "X status 2041970106931278115"
+    },
+    {
+      "source_id": "crypto-zach-elemental-2026",
+      "support": "Elemental had a DPRK IT worker on payroll for years",
+      "locator": "X status 2041408263921819822"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

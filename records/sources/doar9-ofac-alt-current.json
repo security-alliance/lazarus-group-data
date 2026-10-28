@@ -1,0 +1,12 @@
+{
+  "id": "doar9-ofac-alt-current",
+  "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+  "title": "Sanctions List Service — ALT.CSV current alias export",
+  "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
+  "accessed_at": "2026-10-18",
+  "sha256": "3262c0c6315d8b6d2d9513c32a4234d45476611b04d7c69cc225fcdc25b171b0",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

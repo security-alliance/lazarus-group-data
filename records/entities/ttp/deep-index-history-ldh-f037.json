@@ -1,0 +1,44 @@
+{
+  "id": "deep-index-history-ldh-f037",
+  "type": "ttp",
+  "name": "Detecting and countering misuse of AI: August 2025",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher-attributed public research finding; legal adjudication and civil identity require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep-index-history-ldh-037"
+    ]
+  },
+  "ttps": [
+    "AI-enabled employment fraud"
+  ],
+  "caveats": [
+    "Aggregate first-party provider assessment; employer, worker, and account identities are unspecified in the source.",
+    "Keep this employment-fraud case separate from unrelated malware and extortion cases in the same report."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Anthropic says it disrupted accounts used by North Korean operatives to create false professional identities, complete coding assessments, pass technical interviews and perform technical work after hiring at U.S. Fortune 500 technology companies.",
+        "The provider assessed that AI reduced prior language and coding-skill constraints, allowing less capable operators to maintain fraudulent employment.",
+        "Anthropic reports banning relevant accounts, improving indicator correlation and sharing findings with authorities; no account identifiers were published in this dataset."
+      ],
+      "source_ids": [
+        "deep-index-history-ldh-037"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep-index-history-ldh-037",
+      "support": "Anthropic says it disrupted accounts used by North Korean operatives to create false professional identities, complete coding assessments, pass technical interviews and perform technical work after hiring at U.S. Fortune 500 technology companies. The provider assessed that AI reduced prior language and coding-skill constraints, allowing less capable operators to maintain fraudulent employment. Anthropic reports banning relevant accounts, improving indicator correlation and sharing findings with authorities; no account identifiers were published in this dataset",
+      "locator": "Section “Remote worker fraud: how North Korean IT workers are scaling fraudulent employment with AI”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

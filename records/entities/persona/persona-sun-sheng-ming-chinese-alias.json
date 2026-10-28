@@ -1,0 +1,49 @@
+{
+  "id": "persona-sun-sheng-ming-chinese-alias",
+  "type": "persona",
+  "name": "孙圣明",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment explicitly reports this alias or moniker for a named defendant; the persona record leaves account-holder identity unassigned.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded persona record for 孙圣明; it remains separate from any person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports 孙圣明 in the described scheme.",
+      "locator": "PDF p. 6 ¶18"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-sun-sheng-ming-chinese-alias",
+      "type": "alias",
+      "predicate": "source_reported_alias",
+      "value": {
+        "persona": "孙圣明",
+        "source_reported_for": "SUN SHENG MING, aka 孙圣明"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 6 ¶18",
+          "quote": "SUN SHENG MING, aka 孙圣明, also known by the online moniker “GOLDLINE 1,” and the names Wang Caihong and Chunayn"
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

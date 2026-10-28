@@ -1,0 +1,147 @@
+{
+  "id": "facilitator-syeda-aliya-batool-zaidi",
+  "type": "facilitator",
+  "name": "Syeda Aliya Batool Zaidi",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT Participating State information reproduced in MSMT/2025/2. The record is source-reported information rather than a criminal charge, conviction, sanctions designation, or adjudication.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "dmfd60-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Syeda Aliya Batool Zaidi",
+  "locations": [
+    "Pakistan"
+  ],
+  "caveats": [
+    "The country is retained as source-reported historical context; precise and present location remain unresolved.",
+    "The record's identity bridge is limited to the source families and selectors explicitly cited; civil-identity, script, public-account, and current-location linkage require additional sources.",
+    "Syeda Aliya Batool Zaidi is retained only as the exact Latin-script name printed in MSMT/2025/2 with source-reported Pakistan context, bounded role and period, co-reported entity context, and Didenko relationship. The Solutions Tree remains outside her modeled affiliation. Identity-document content, current role/location, legal posture, account, and same-name bridge remain unresolved.",
+    "The facilitator record type is repository taxonomy for the reported association; adjudicated status requires a separate legal source.",
+    "The report passage is Participating State attribution; charge, conviction, designation, adjudication, and present-activity status require separate sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-participating-state-reported-facilitator-role",
+      "reported_name": "Syeda Aliya Batool Zaidi",
+      "reported_role": "Pakistan-based source-reported provider of fraudulent credentials to DPRK IT workers",
+      "historical_country_context": "Pakistan",
+      "historical_period": "since at least 2021 through early 2025, as reported in 2025",
+      "current_role_inferred": false,
+      "present_location_inferred": false,
+      "legal_event_inferred": false,
+      "facilitator_affiliation_inferred": false,
+      "source_ids": [
+        "dmfd60-msmt-2025-2"
+      ],
+      "co_reported_entity": "The Solutions Tree",
+      "source_reported_relationship": "Oleksandr Didenko purchased credentials from Zaidi in early 2024",
+      "related_record_id": "facilitator-oleksandr-didenko"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dmfd60-msmt-2025-2",
+      "support": "A Pakistan-based entity, The Solutions Tree, and a Pakistan-based forger, Syeda Aliya Batool Zaidi A Ukraine-based facilitator discussed below, Oleksandr Didenko, purchased credentials from Zaidi in early 2024",
+      "locator": "PDF file pp. 87-88 (printed pp. 85-86), Pakistan subsection; footnote 267"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-syeda-aliya-batool-zaidi-name",
+      "type": "identity_name",
+      "predicate": "msmt_report_source_printed_name",
+      "value": {
+        "name": "Syeda Aliya Batool Zaidi",
+        "script": "Latin"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file pp. 87-88 (printed pp. 85-86), Pakistan subsection; footnote 267",
+          "quote": "Syeda Aliya Batool Zaidi"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-syeda-aliya-batool-zaidi-role-period",
+      "type": "employment",
+      "predicate": "msmt_participating_state_reported_facilitator_role",
+      "value": {
+        "reported_role": "Pakistan-based source-reported provider of fraudulent credentials to DPRK IT workers",
+        "historical_country_context": "Pakistan",
+        "historical_period": "since at least 2021 through early 2025, as reported in 2025",
+        "current_role_inferred": false,
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file pp. 87-88 (printed pp. 85-86), Pakistan subsection; footnote 267",
+          "quote": "A Pakistan-based entity, The Solutions Tree, and a Pakistan-based forger, Syeda Aliya Batool Zaidi"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-syeda-aliya-batool-zaidi-co-reported-entity",
+      "type": "relationship",
+      "predicate": "msmt_co_reported_entity_context",
+      "value": {
+        "co_reported_entity": "The Solutions Tree",
+        "facilitator_affiliation_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file pp. 87-88 (printed pp. 85-86), Pakistan subsection; footnote 267",
+          "quote": "A Pakistan-based entity, The Solutions Tree, and a Pakistan-based forger, Syeda Aliya Batool Zaidi"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-syeda-aliya-batool-zaidi-didenko-relationship",
+      "type": "relationship",
+      "predicate": "msmt_reported_zaidi_didenko_relationship",
+      "value": {
+        "related_record_id": "facilitator-oleksandr-didenko",
+        "reported_relationship": "Didenko purchased credentials from Zaidi in early 2024"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dmfd60-msmt-2025-2",
+          "locator": "PDF file pp. 87-88 (printed pp. 85-86), Pakistan subsection; footnote 267",
+          "quote": "A Ukraine-based facilitator discussed below, Oleksandr Didenko, purchased credentials from Zaidi in early 2024."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State attribution; no charge, conviction, designation, adjudication, current role, or present location is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "Syeda Aliya Batool Zaidi is retained only as the exact Latin-script name printed in MSMT/2025/2 with source-reported Pakistan context, bounded role and period, co-reported entity context, and Didenko relationship. The Solutions Tree remains outside her modeled affiliation. Identity-document content, current role/location, legal posture, account, and same-name bridge remain unresolved."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "deep2-unhistory-un-freelance-platform-evasion-2021",
+  "type": "ttp",
+  "name": "2021 freelance-platform due-diligence evasion model",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2021-211-un-freelance-platform-evasion-2021"
+    ]
+  },
+  "ttps": [
+    "false-location",
+    "freelance-platform",
+    "shared-account"
+  ],
+  "caveats": [
+    "One observed account generated only about $1,050 over a year; this is an account-level amount rather than a network-wide estimate.",
+    "The Panel did not identify the platform or publish the sensitive identity details retained in this finding."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The Panel reported use of false identification, VPNs and Hong Kong front companies to evade platform due diligence and know-your-customer checks.",
+        "Most linked accounts in one company investigation operated from China; accounts often moved customers off-platform after contact and targeted platforms with weaker security or due diligence.",
+        "A Jilin-linked account was connected to four additional accounts through a Chinese phone number and IP addresses and used likely fraudulent identity data; the Panel warned of unintentional platform access to international payment systems."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2021-211-un-freelance-platform-evasion-2021"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2021-211-un-freelance-platform-evasion-2021",
+      "support": "Supports false-ID/VPN/Hong Kong-front methods, China operating location, off-platform migration and lower-control platform targeting",
+      "locator": "PDF p. 57, paras. 160-161; annex 93"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

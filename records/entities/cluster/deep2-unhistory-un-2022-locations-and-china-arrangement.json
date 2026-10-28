@@ -1,0 +1,41 @@
+{
+  "id": "deep2-unhistory-un-2022-locations-and-china-arrangement",
+  "type": "cluster",
+  "name": "2022 Equatorial Guinea locations and Mangyongbong/Dandong Junxing dispatch arrangement",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2022-132-un-2022-locations-and-china-arrangement"
+    ]
+  },
+  "caveats": [
+    "Individual worker names in annex 81 are intentionally omitted from this file because location-level defensive context is sufficient.",
+    "One Panel expert stated the annex 70 China information required further corroboration.",
+    "The Panel had received no response from Equatorial Guinea on the 13 workers."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported at least 13 DPRK IT workers in Malabo and Oyala, Equatorial Guinea, assessed to have arrived in 2018-2019.",
+        "Annex 70 reported that Mangyongbong International Trade and Economic Development Corporation worked with Dandong Junxing Science and Technology Co. Ltd. to send DPRK IT workers to China around October 2020, with the Munitions Industry Department facilitating the relationship."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2022-132-un-2022-locations-and-china-arrangement"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2022-132-un-2022-locations-and-china-arrangement",
+      "support": "Supports the Equatorial Guinea locations and the Mangyongbong/Dandong Junxing dispatch arrangement, including corroboration caveat",
+      "locator": "PDF p. 78, para. 173; PDF pp. 344-345, annex 70; PDF p. 348, annex 81"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

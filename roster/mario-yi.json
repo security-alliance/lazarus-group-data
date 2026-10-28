@@ -1,0 +1,38 @@
+{
+  "id": "mario-yi",
+  "fake_names": [
+    "Mario Yi"
+  ],
+  "aliases": [
+    "ethhandy"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Estonia"
+  ],
+  "github": [
+    {
+      "gh_id": "ethhandy",
+      "usernames": [
+        "ethhandy"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x86562eCfD557487612c55260fCa5Fed7c960504E"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/mario-yi/mario-yi-1.jpg",
+      "short_description": "Mario Yi.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

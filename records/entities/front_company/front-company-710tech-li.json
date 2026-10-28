@@ -1,0 +1,108 @@
+{
+  "id": "front-company-710tech-li",
+  "type": "front_company",
+  "name": "710TECH LI",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "fictitious backstopping company and persona cluster",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-nisos-operation-pdf"
+    ]
+  },
+  "organizations": [
+    "710TECH LI"
+  ],
+  "front_companies": [
+    "710TECH LI"
+  ],
+  "locations": [
+    "Plano, Texas"
+  ],
+  "caveats": [
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence.",
+    "The three labels are fictitious website personas; legal identities and individual operative status remain unresolved."
+  ],
+  "aliases": [
+    {
+      "value": "Carlos Salcedo",
+      "alias_type": "synthetic-identity",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    },
+    {
+      "value": "Dominic Zambrano",
+      "alias_type": "synthetic-identity",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    },
+    {
+      "value": "Jordan Rinehart",
+      "alias_type": "synthetic-identity",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "claimed-role",
+      "value": "Chief Executive Officer",
+      "persona": "Carlos Salcedo",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    },
+    {
+      "type": "claimed-role",
+      "value": "Senior Software Engineer",
+      "persona": "Dominic Zambrano",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    },
+    {
+      "type": "claimed-role",
+      "value": "Project Manager",
+      "persona": "Jordan Rinehart",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "tech710.com",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    },
+    {
+      "type": "website",
+      "value": "https://www.tech710.com/",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-nisos-operation-pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-nisos-operation-pdf",
+      "support": "Nisos assessed the Vercel-hosted company site as almost certainly created by the cell Address and phone were associated with other entities No observed resume or LinkedIn use during the investigation",
+      "locator": "Graphic 1: Discord channel structure; Graphics 2-3: Vercel calendar and leaderboard; Graphics 7-8: persona and license-verification instructions; Graphic 9: 710TECH LI backstop site; Graphic 10: live AI interview-assistance view | Landing page publication date; PDF metadata shows creation on June 11, 2026"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

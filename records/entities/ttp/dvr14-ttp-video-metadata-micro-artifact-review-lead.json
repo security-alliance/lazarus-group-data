@@ -1,0 +1,60 @@
+{
+  "id": "dvr14-ttp-video-metadata-micro-artifact-review-lead",
+  "type": "ttp",
+  "name": "Video-metadata micro-artifact review lead for live deepfake interviews",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Cloudforce One's published assessment is retained as an evidence-limited review lead; validation methods and detector performance remain unpublished by the source.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DVR14-S02-CLOUDFLARE-2026-THREAT"
+    ]
+  },
+  "ttps": [
+    "deepfake-interview-review",
+    "human-in-the-loop-corroboration",
+    "video-metadata-review"
+  ],
+  "caveats": [
+    "Apply this signal within human review and corroboration, rather than as an automated rejection rule.",
+    "Faceprints, raw interview video, and biometric templates are excluded from this dataset.",
+    "A metadata anomaly calls for review; deepfake use, fraudulent employment, nationality, and DPRK affiliation require corroboration.",
+    "Retain the video-metadata item only as a vendor-assessed corroborating lead. Candidate rejection and DPRK attribution require separate evidence. The report's biometrics-only recommendation requires privacy, accessibility, legal, spoof-resistance, and non-biometric-alternative safeguards before defensive use.",
+    "The report omits technical definition, implementation detail, test corpus, sample size, sensitivity, specificity, and false-positive rate.",
+    "The source recommends zero-trust biometric verification; this record keeps the recommendation under review. Any identity-assurance control requires privacy, accessibility, legal, retention, consent, spoof-resistance, and non-biometric-alternative review.",
+    "Video metadata can be altered by legitimate conferencing software, accessibility tooling, virtual backgrounds, bandwidth adaptation, recording, privacy tools, and ordinary media processing."
+  ],
+  "infrastructure": [
+    {
+      "type": "evidence-limited-vendor-assessed-corroborating-telemetry",
+      "statements": [
+        "Cloudforce One identifies specific video metadata micro-artifacts consistent with real-time deepfake rendering as one of several high-fidelity indicators in North Korean remote IT-worker schemes.",
+        "The vendor’s metadata-layer micro-artifact concept is a proposed corroborating lead, not a validated detection method.",
+        "Materially new but evidence-limited lead: preserve conferencing metadata only when lawful and necessary for security review, assess source-described metadata-layer rendering anomalies, and require independent identity, device, location, and hiring-process evidence before escalation."
+      ],
+      "limitations": [
+        "The report provides no technical definition, implementation detail, test corpus, sample size, sensitivity, specificity, or false-positive rate.",
+        "Video metadata can be altered by legitimate conferencing software, accessibility tooling, virtual backgrounds, bandwidth adaptation, recording, privacy tools, and ordinary media processing.",
+        "The source's recommendation for zero-trust biometric verification is not adopted here; any identity-assurance control requires privacy, accessibility, legal, retention, consent, spoof-resistance, and non-biometric-alternative review.",
+        "Do not treat a metadata anomaly as proof of deepfake use, fraudulent employment, nationality, or DPRK affiliation.",
+        "Do not retain faceprints, raw interview video, or biometric templates in this dataset.",
+        "Do not apply this signal as an automated rejection rule.",
+        "Retain the video-metadata item only as a vendor-assessed corroborating lead. Do not use it alone to reject a candidate or attribute DPRK affiliation. Do not adopt the report's biometrics-only recommendation as a defensive control without privacy, accessibility, legal, spoof-resistance, and non-biometric-alternative safeguards."
+      ],
+      "source_ids": [
+        "DVR14-S02-CLOUDFLARE-2026-THREAT"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DVR14-S02-CLOUDFLARE-2026-THREAT",
+      "support": "Cloudforce One describes North Korean remote IT-worker schemes as an industrialized insider threat using fraudulent identities, AI-driven deepfakes, U.S.-based laptop farms, facilitators, RMM access, and comprehensive LinkedIn and GitHub personas. Alongside impossible-travel and mouse-jiggling indicators, Cloudforce One identifies video metadata micro-artifacts consistent with real-time deepfake rendering as a high-fidelity detection indicator. The source reports publication timing only at year precision: 2026; published_at is therefore left null rather than inventing a day. The PDF metadata records document creation on 2026-03-23; this is not asserted as the public release date. Normalized finding: Cloudforce One identifies specific video metadata micro-artifacts consistent with real-time deepfake rendering as one of several high-fidelity indicators in North Korean remote IT-worker schemes",
+      "locator": "PDF page 12, The industrialization of insider threats; PDF page 55, Implement human-in-the-loop verification for remote hiring"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

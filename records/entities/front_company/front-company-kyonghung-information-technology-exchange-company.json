@@ -1,0 +1,37 @@
+{
+  "id": "front-company-kyonghung-information-technology-exchange-company",
+  "type": "front_company",
+  "name": "Kyonghung Information Technology Exchange Company",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "DPRK IT-worker company",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "China"
+  ],
+  "aliases": [
+    {
+      "value": "Kyonghung IT",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 9 documents personnel, gambling-site development, fraudulent persona, financial and social accounts",
+      "locator": "Annex 9 Tables 1-4 and Figures 2-6, PDF pp. 122-126 / printed pp. 120-124 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

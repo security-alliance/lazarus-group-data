@@ -1,0 +1,84 @@
+{
+  "id": "dimf-ttp-active-laptop-farm-onboarding-support",
+  "type": "ttp",
+  "name": "Active laptop-farm onboarding and troubleshooting support",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S02",
+      "DIMF-S10",
+      "DIMF-S11"
+    ]
+  },
+  "ttps": [
+    "laptop-farm",
+    "onboarding-support",
+    "payroll-routing",
+    "remote-access"
+  ],
+  "caveats": [
+    "Contextual clues leave unnamed employers, staffing firms, and stolen-identity victims unresolved.",
+    "Public court records reconstructed by multiple reputable outlets provide strong support for this same-case behavior.",
+    "Use official legal records for named-person claims and outcomes."
+  ],
+  "infrastructure": [
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S02",
+        "DIMF-S10",
+        "DIMF-S11"
+      ]
+    },
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "A domestic device host may join employer setup calls, restart or stage devices, install or maintain remote-access tooling, answer logistical questions, validate identity information, and route payroll, rather than only receiving a laptop."
+      ],
+      "limitations": [
+        "Public court records reconstructed by multiple reputable outlets provide strong support for this same-case behavior.",
+        "Use official legal records for named-person claims and outcomes.",
+        "Do not identify unnamed employers, staffing firms, or stolen-identity victims from contextual clues."
+      ],
+      "source_ids": [
+        "DIMF-S02",
+        "DIMF-S10",
+        "DIMF-S11"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "DRH-F04",
+    "existing Chapman and laptop-farm facilitator records"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S02",
+      "support": "CNN reports that a U.S.-based laptop-farm operator assisted with employer onboarding and Microsoft Teams support while hosting and managing employer-issued devices",
+      "locator": "How the operation works; fake resumes and rehearsed lines powered by AI; laptop-farm onboarding and Microsoft Teams support"
+    },
+    {
+      "source_id": "DIMF-S10",
+      "support": "Fortune describes facilitators hosting employer laptops, helping validate borrowed identities, and handling or forwarding employment proceeds",
+      "locator": "Facilitator workflow, recruitment context, laptop hosting, identity validation, money movement, and sentencing updates"
+    },
+    {
+      "source_id": "DIMF-S11",
+      "support": "The Guardian reports that the laptop-farm operation supported remote access, identity validation, payroll transfers, and Microsoft Teams onboarding",
+      "locator": "Recruitment through LinkedIn; laptop-farm operation; identity validation; remote access; payroll transfer; Microsoft Teams onboarding"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

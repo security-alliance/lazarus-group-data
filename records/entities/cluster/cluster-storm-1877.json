@@ -1,0 +1,30 @@
+{
+  "id": "cluster-storm-1877",
+  "type": "cluster",
+  "name": "Storm-1877",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Microsoft cluster observed pursuing fraudulent employment",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-microsoft-2025-jasper-sleet"
+    ]
+  },
+  "ttps": [
+    "fraudulent remote employment"
+  ],
+  "caveats": [
+    "Microsoft threat-actor cluster name; legal identity remains unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-microsoft-2025-jasper-sleet",
+      "support": "Names LinkedIn persona Joshua Desire and GitHub codegod2222; documents 3,000 suspended Microsoft accounts, Faceswap/AI image editing, voice changing, laptop farms, PiKVM/TinyPilot, VPN/VPS/proxies, RMM, stolen or rented identities, and facilitators",
+      "locator": "Figures 2-7; Crafting fake personas; Establishing digital footprint; AI; Facilitators; Defense evasion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

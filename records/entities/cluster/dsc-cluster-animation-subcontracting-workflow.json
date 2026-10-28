@@ -1,0 +1,55 @@
+{
+  "id": "dsc-cluster-animation-subcontracting-workflow",
+  "type": "cluster",
+  "name": "DPRK-hosted animation subcontracting workflow",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Specialist research attribution based on exposed work files; downstream commissioning-company knowledge or complicity remains unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S04"
+    ]
+  },
+  "ttps": [
+    "foreign-based-facilitator",
+    "outsourced-task",
+    "unauthorized-subcontractor"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "medium-high for the exposed workflow; the reviewed evidence leaves downstream studios' knowing-hiring status unestablished.",
+    "Specialist research attribution based on exposed work files; downstream commissioning-company knowledge or complicity remains unresolved."
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "animation/media",
+      "event_period": "late 2023 to early 2024; reported 2024-04-22",
+      "statements": [
+        "38 North reported that a misconfigured DPRK-hosted server was updated with animation work files and completed output apparently connected to international productions. Chinese-language instructions were consistent with intermediary subcontracting, and the researchers found no evidence that downstream commissioning companies knew DPRK labor was in the chain."
+      ],
+      "defensive_controls": [
+        "Require subcontractor-chain disclosure and sanctions screening through every animation/visual-effects tier.",
+        "Contractually prohibit undisclosed offshore subcontracting and retain audit rights for source-file provenance.",
+        "Use work-file metadata, review comments, handoff timing and vendor payment paths to validate production provenance without assuming the named studios knew."
+      ],
+      "source_ids": [
+        "DSC-S04"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-dalian-shepherd-boy-animation-studio-limited"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S04",
+      "support": "38 North reported that a misconfigured DPRK-hosted server was updated with animation work files and completed output apparently connected to international productions. Chinese-language instructions were consistent with intermediary subcontracting, and the researchers found no evidence that downstream commissioning companies knew DPRK labor was in the chain",
+      "locator": "Findings on daily work batches, Chinese intermediary annotations, and identified international productions"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

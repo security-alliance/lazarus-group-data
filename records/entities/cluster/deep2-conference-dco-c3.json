@@ -1,0 +1,47 @@
+{
+  "id": "deep2-conference-dco-c3",
+  "type": "cluster",
+  "name": "Exabeam July 2025 phantom-hire case",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party case presentation; legal identity adjudication is absent.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-conference-dco-s1"
+    ]
+  },
+  "ttps": [
+    "forged-identity-document",
+    "proxy-interviewee",
+    "remote-desktop",
+    "vpn"
+  ],
+  "caveats": [
+    "Raw IOC bulk is excluded from this record.",
+    "The employer/victim context beyond Exabeam's own presentation is incomplete; customer identities remain unresolved.",
+    "The stolen identity victim name and local username are omitted entirely."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Offer accepted June 16, pre-employment clearance June 26, onboarding July 7, and endpoint detections July 9, 2025.",
+        "Actor immediately used streaming/remote-access, VPN, malicious-download, jump-box, and C2-like behavior; the SOC isolated and bricked the laptop and shared IOCs with the FBI."
+      ],
+      "source_ids": [
+        "deep2-conference-dco-s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-conference-dco-s1",
+      "support": "Offer accepted June 16, pre-employment clearance June 26, onboarding July 7, and endpoint detections July 9, 2025. Actor immediately used streaming/remote-access, VPN, malicious-download, jump-box, and C2-like behavior; the SOC isolated and bricked the laptop and shared IOCs with the FBI",
+      "locator": "Slides 1-18, especially Summary of Events, Hiring Timeline, Picture This, UEBA Timeline, How the Attack Was Thwarted, Nation State Adversary Tools & Techniques"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,235 @@
+{
+  "id": "weitao-wang",
+  "fake_names": [
+    "WeiTao Wang",
+    "shaowtw"
+  ],
+  "notes": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+  "telegram": [
+    {
+      "usernames": [
+        "skyhero454"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "shaowtw"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-weitao-wang",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+    "as_of": "2026-08-11",
+    "caveats": [
+      "Identity boundary: Source-reported employment and online persona attributed by Nisos to the same likely operator as Osamu Odaka; none of the name, accounts, biography, or imagery is a verified civil identity.",
+      "This record describes a reported employment persona/account cluster, not proof that the apparent identity owner is a DPRK national.",
+      "This source-reported persona or account label is not a verified legal or civil identity. Historical observation or page reachability does not establish present ownership, control, activity, affiliation, nationality, sanctions status, or lawful identity; do not contact or target the account holder.",
+      "The cited source page at https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-threat-japan.pdf carries an image related to this record. It is not reproduced: citation only, no caching, cropping, biometric use, or facial comparison.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "Nisos links an X account (ChengKaiMing) to a ProPursuit profile named 'Link' that claimed the same GitHub handle, leaves the persona column blank for it, and notes it has not posted since 2012. It is not shown on this record.",
+      "Nisos assesses, with hedged wording ('appears'), that this individual previously worked under the Osamu Odaka persona; see /team/osamu-odaka. That assessment is Nisos's.",
+      "'Weitao Wang' is a common name; no real person of this name is identified or implicated.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-5bbf20120d4f",
+      "title": "Japanese Companies Threatened by DPRK IT Workers",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-threat-japan.pdf",
+      "date": "2025-01-23"
+    },
+    {
+      "id": "doc-github-shaowtw-repos",
+      "title": "GitHub repositories: shaowtw",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/shaowtw/repos?per_page=100"
+    },
+    {
+      "id": "doc-github-shaowtw-user",
+      "title": "GitHub user metadata: shaowtw",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/shaowtw"
+    },
+    {
+      "id": "doc-telegram-skyhero454",
+      "title": "Telegram: Contact @skyhero454",
+      "publisher": "Telegram",
+      "url": "https://t.me/skyhero454"
+    },
+    {
+      "id": "doc-weitao-live-portfolio",
+      "title": "Pro-Web-Developer",
+      "publisher": "Vercel-hosted site",
+      "url": "https://wwt-nu.vercel.app"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-anacondadev-followed-shaowtw",
+      "label": "Historical github follow relationship",
+      "category": "relationship",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 11, paragraph above Graphic 16",
+          "quote": "Researchers found that Github account AnacondaDev0120 was following the GitHub account shaowtw."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-claimed-linkx-employment",
+      "label": "Claimed employment",
+      "category": "employment",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 8, third bullet under 'Shared Resume Content'",
+          "quote": "WeiTao Wang listed the same work experience as Osamu Odaka on their resumes, including work for LinkX Inc."
+        },
+        {
+          "source_id": "doc-weitao-live-portfolio",
+          "locator": "Experience section",
+          "quote": "Full-Stack Developer\n2022 - 2023\nLinkx Inc"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-claimed-tenpct-employment",
+      "label": "Reported employment (Nisos assessment: 'suggests that the persona is currently employed', as of 2025-01-23)",
+      "category": "employment",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 12, text above Graphic 19",
+          "quote": "the persona is currently employed at Japanese consulting company Tenpct Inc."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-created-2024",
+      "label": "Github account created at",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-github-shaowtw-user",
+          "locator": "JSON created_at field",
+          "quote": "\"created_at\": \"2024-04-08T00:41:45Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-second-repository",
+      "label": "Public repository observed",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-github-shaowtw-repos",
+          "locator": "Repository object full_name shaowtw/waitlist-manager",
+          "quote": "\"full_name\": \"shaowtw/waitlist-manager\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-shaowtw",
+      "label": "Historically used github account",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 11, paragraph above Graphic 16",
+          "quote": "Researchers also found a Github account as well as a LinkedIn account with the same username"
+        },
+        {
+          "source_id": "doc-github-shaowtw-user",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"shaowtw\""
+        },
+        {
+          "source_id": "doc-github-shaowtw-user",
+          "locator": "JSON field id",
+          "quote": "\"id\": 166346287"
+        },
+        {
+          "source_id": "doc-github-shaowtw-user",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 2"
+        },
+        {
+          "source_id": "doc-github-shaowtw-user",
+          "locator": "JSON field updated_at",
+          "quote": "\"updated_at\": \"2024-10-08T01:35:49Z\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-reported-weitao-persona",
+      "label": "Reported employment persona",
+      "category": "identity_name",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 6, 'Fake Persona 1: WeiTao Wang'",
+          "quote": "Nisos researchers identified the persona WeiTao Wang—used by the likely DPRK IT worker to obtain remote work in Japan"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-reused-osamu-content",
+      "label": "Reused content from persona",
+      "category": "relationship",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 8, 'Shared Resume Content'",
+          "quote": "The WeiTao Wang persona borrowed three pieces of content from the Osamu Odaka persona."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-shaowtw-alias",
+      "label": "Used online name",
+      "category": "alias",
+      "observed": "2025-01-23",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 10, first paragraph",
+          "quote": "Nisos researchers uncovered the username shaowtw on the freelancer website Remote Ok"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-telegram-skyhero454",
+      "label": "Historically used telegram account",
+      "category": "account",
+      "observed": "2026-08-15",
+      "evidence": [
+        {
+          "source_id": "doc-5bbf20120d4f",
+          "locator": "PDF p. 6, opening paragraph",
+          "quote": "by investigating the Telegram username skyhero454"
+        },
+        {
+          "source_id": "doc-telegram-skyhero454",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact @skyhero454"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

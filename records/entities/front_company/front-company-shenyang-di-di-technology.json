@@ -1,0 +1,76 @@
+{
+  "id": "front-company-shenyang-di-di-technology",
+  "type": "front_company",
+  "name": "Shenyang Di Di Technology LTD",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported front company or recruitment front; legal adjudication requires a separate official record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "front_companies": [
+    "Shenyang Di Di Technology LTD"
+  ],
+  "locations": [
+    "Shenyang, Liaoning, China"
+  ],
+  "ttps": [
+    "copied or templated company website",
+    "front-company or linked-company presentation",
+    "shared hosting and registration patterns"
+  ],
+  "caveats": [
+    "Historical infrastructure indicators describe past observations; current ownership or operation remains unestablished.",
+    "Publish with source attribution; omit phone and street address.",
+    "source window: website registered between 2022-04 and 2024-09; exact company-domain date remains unspecified in narrative; as of 2026 08 12: historical indicator; current operation status untested."
+  ],
+  "aliases": [
+    {
+      "value": "沈阳蒂迪科技有限公司",
+      "alias_type": "alternate-spelling",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "cluster",
+      "value": "TAG-121",
+      "status": "Insikt Group designation",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "hosting",
+      "value": "180.235.135[.]180",
+      "status": "source-observed; shared with Shenyang Wuxian",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    },
+    {
+      "kind": "website",
+      "value": "diditechltd[.]com",
+      "status": "source-observed",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports Shenyang Di Di Technology LTD in the stated front-company or corporate-linkage context: diditechltd[.]com; 180.235.135[.]180; TAG-121",
+      "locator": "PDF pp. 9-10 and Appendix D p. 17"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

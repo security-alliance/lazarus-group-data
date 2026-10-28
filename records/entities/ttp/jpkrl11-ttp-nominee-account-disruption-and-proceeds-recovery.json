@@ -1,0 +1,53 @@
+{
+  "id": "jpkrl11-ttp-nominee-account-disruption-and-proceeds-recovery",
+  "type": "ttp",
+  "name": "Nominee-account disruption and partial proceeds recovery",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The Republic of Korea Ministry of Foreign Affairs stated on 2023-03-09 that ROK-U.S. cooperation with the private sector had disabled a substantial portion of nominee accounts used by DPRK IT workers and recovered part of the proceeds. The statement is aggregate and covers disabled accounts and recovered proceeds; selectors, amounts, identities, platforms, affected organizations, and case-level outcomes remain outside its disclosure.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "JPKR11-KR-MOFA-20230309"
+    ]
+  },
+  "locations": [
+    "Republic of Korea"
+  ],
+  "ttps": [
+    "nominee-account-review",
+    "payment-beneficiary-continuity",
+    "proceeds-recovery",
+    "public-private-account-disruption"
+  ],
+  "caveats": [
+    "This source creates context only; account, person, platform, and employer records require separate evidence.",
+    "Account selectors, identities and recovery amounts remain limited to what the source discloses.",
+    "The source leaves open how many accounts were disabled, which platforms held them, how much money was recovered, and which authority performed each action.",
+    "This aggregate statement covers only aggregate context; account selectors, recovered amounts, beneficiary identities, platforms, and affected organizations require separate records.",
+    "An account held in another person's name requires independent evidence before it can be treated as DPRK-linked; this statement is aggregate.",
+    "This is aggregate enforcement context; account, person, company, and incident records require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "aggregate-public-private-disruption-context",
+      "statement": "The ROK and United States assessed that close cooperation with the private sector had disabled a substantial portion of nominee accounts used by DPRK IT workers and recovered part of their illicit proceeds, constraining the activity.",
+      "original_language_title": "북한 IT 인력의 차명계정 차단 및 불법 수익 일부 회수",
+      "original_language_statement": "한미 양측이 민간 분야와 긴밀히 협력하여 북한 IT 인력의 차명계정을 상당 부분 차단하고 이들의 불법 수익 자금 역시 일부 회수함으로써 관련 활동을 위축시키는 성과를 거두었음을 평가하였다.",
+      "translation_note": "English wording is a researcher translation retained alongside the original-language text.",
+      "source_ids": [
+        "JPKR11-KR-MOFA-20230309"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "JPKR11-KR-MOFA-20230309",
+      "support": "The ROK and United States assessed that close cooperation with the private sector had disabled a substantial portion of nominee accounts used by DPRK IT workers and recovered part of their illicit proceeds, constraining the activity",
+      "locator": "Paragraph beginning 아울러, 양측은 신분과 국적을 속여 활동하는 북한 IT 인력 활동을 차단하기 위해"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "huy-diep",
+  "fake_names": [
+    "Huy Diep",
+    "HuiGia Diep"
+  ],
+  "notes": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+  "telegram": [
+    {
+      "usernames": [
+        "superbluestar"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "nickdev0118"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-huy-diep",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Employment persona attributed to DPRK IT-worker activity by the cited security-research publishers.",
+    "as_of": "2026-08-11",
+    "caveats": [
+      "Identity boundary: Source-reported employment and online persona in a reused account network; Huy Diep, HuiGia Diep, accounts, biography, and imagery are not a verified civil identity and must not be merged with apparent identity owners.",
+      "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens do not establish that this label and other labels are one natural person.",
+      "This record describes a reported employment persona/account cluster, not proof that the apparent identity owner is a DPRK national.",
+      "The cited source page at https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-github-employment-fraud.pdf carries an image related to this record. It is not reproduced: citation only, no caching, cropping, biometric use, or facial comparison.",
+      "Source-reported alias labels with no platform stated: Passion118. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Huy Diep' is a common Vietnamese name; no real person of this name is identified or implicated. This record concerns only the persona tied to nickdev0118 and superbluestar as reported by Nisos.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-f1a151392e64",
+      "title": "DPRK IT Fraud Network Uses GitHub to Target Global Companies",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-github-employment-fraud.pdf",
+      "date": "2025-03-04"
+    },
+    {
+      "id": "doc-github-nickdev0118-status",
+      "title": "GitHub user status: nickdev0118",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/nickdev0118"
+    },
+    {
+      "id": "doc-huy-live-portfolio",
+      "title": "Huy Diep - Web & Mobile App Developer",
+      "publisher": "Persona-controlled Firebase site",
+      "url": "https://huy-diep.web.app"
+    },
+    {
+      "id": "doc-telegram-superbluestar",
+      "title": "Telegram: Contact @superbluestar",
+      "publisher": "Telegram",
+      "url": "https://t.me/superbluestar"
+    },
+    {
+      "id": "doc-torre-nickdev0118",
+      "title": "Alvaro Morales Web Developer",
+      "publisher": "Torre",
+      "url": "https://torre.ai/nickdev0118?r=lX1jAn71"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-coauthored-anacondadev0120",
+      "label": "Github coauthored commit with account",
+      "category": "relationship",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 4, opening paragraph and Graphic 2",
+          "quote": "the account co-authored commits with a previously identified, likely DPRK IT worker persona, which used the GitHub account AnacondaDev0120"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-github-nickdev0118",
+      "label": "Historically used github account",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 4, opening paragraph",
+          "quote": "We investigated the GitHub account nickdev0118 and found this account listed on a website belonging to persona Huy Diep/HuiGia Diep."
+        },
+        {
+          "source_id": "doc-github-nickdev0118-status",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-huigia-diep-alias",
+      "label": "Used employment persona name",
+      "category": "alias",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 4, section heading",
+          "quote": "Fake Persona 1: Huy Diep/HuiGia Diep"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-linkedin-huigia",
+      "label": "Portfolio linked linkedin account",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-huy-live-portfolio",
+          "locator": "Contact section hyperlink",
+          "quote": "https://www.linkedin.com/in/huigia-diep-670a6628a/"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-passion118-alias",
+      "label": "Used online handle",
+      "category": "alias",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 6, Graphic 5, visual transcription",
+          "quote": "@passion118"
+        },
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 6, Graphic 5, visual transcription",
+          "quote": "HuiGia Diep"
+        },
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 6, footnote 8",
+          "quote": "https://joinentre[.]com/profile/passion118"
+        },
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 16, Contact Information and Usernames table, visual row transcription",
+          "quote": "Username | Passion118 | Huy Diep"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-reported-huy-diep-persona",
+      "label": "Reported employment persona",
+      "category": "identity_name",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 4, 'Fake Persona 1: Huy Diep/HuiGia Diep'",
+          "quote": "a website belonging to persona Huy Diep/HuiGia Diep"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-reused-by-alvaro-morales",
+      "label": "Account label reused by persona",
+      "category": "relationship",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 15, paragraph above Graphic 29",
+          "quote": "both Huy Diep and likely newly created persona Alvaro Morales were associated with username nickdev0118"
+        },
+        {
+          "source_id": "doc-torre-nickdev0118",
+          "locator": "Page title and profile heading at /nickdev0118",
+          "quote": "Alvaro Morales Web Developer | Torre.ai"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-telegram-superbluestar",
+      "label": "Historically used telegram account",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 8, first Naoyuki Tanaka paragraph",
+          "quote": "the Telegram username superbluestar, which was listed on Huy Diep’s and Naoyuki Tanaka’s resumes"
+        },
+        {
+          "source_id": "doc-telegram-superbluestar",
+          "locator": "Public landing-page heading",
+          "quote": "Telegram: Contact @superbluestar"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-tenpct-employment",
+      "label": "Reported employment (Nisos assessment, 'appears to have been employed', as of 2025-03-04)",
+      "category": "employment",
+      "observed": "2025-03-04",
+      "evidence": [
+        {
+          "source_id": "doc-f1a151392e64",
+          "locator": "PDF p. 4, opening paragraph",
+          "quote": "Huy Diep appears to have been employed as a software engineer specializing in web and mobile app programming at Japanese consulting company Tenpct Inc since September 2023."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

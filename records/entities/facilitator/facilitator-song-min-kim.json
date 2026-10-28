@@ -1,0 +1,228 @@
+{
+  "id": "facilitator-song-min-kim",
+  "type": "facilitator",
+  "name": "Song Min Kim",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "DPRK IT-company manager; RFJ-described suspected DPRK IT-company manager associated with the Wang-network scheme; the person is not represented as a defendant in either Wang criminal proceeding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dipf-rfj-north-korea-money-laundering-9-individuals"
+    ]
+  },
+  "legal_or_reported_name": "Song Min Kim",
+  "ttps": [
+    "creation of a U.S. company",
+    "remote-work placement",
+    "revenue laundering"
+  ],
+  "caveats": [
+    "Identity resolution excludes caching, cropping, display, reverse-search, and facial recognition of the placeholder.",
+    "Keep this Rewards for Justice-reported facilitator/manager separate from the MSMT-reported worker Kim Min Song; transposed name tokens supply no identity bridge.",
+    "Rewards for Justice describes the suspected role. This record places Song Min Kim in the RFJ-described role, while charged status in either Wang criminal proceeding and adjudicated guilt require separate records. The page's Song-labeled asset is a generic silhouette placeholder, and the shared campaign poster is a campaign graphic; both remain outside the public-image set.",
+    "The filename-only string Allen Kim is a filename label; explicit subject text would establish an alias relationship.",
+    "The official reward-page role remains an allegation unless separately adjudicated.",
+    "The Song-labeled asset is a generic silhouette placeholder; display it as a placeholder rather than a subject image."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dipf-rfj-north-korea-money-laundering-9-individuals"
+      ],
+      "value": "Chengmin Jin"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-song-min-kim"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "RFJ identifies nine people tied to shell companies, payment accounts, infrastructure, laptop farms, and laundering proceeds from over 100 U.S. companies | The Rewards for Justice page publishes a separately named asset for Song Min Kim, but visual review established that it is a generic silhouette placeholder rather than a subject image. The placeholder is excluded from subject images, and the filename-only string Allen Kim is not treated as an alias",
+      "locator": "Image grid, Song-labeled generic silhouette placeholder | Named-person list; generic silhouette and shared poster excluded from subject-image use"
+    },
+    {
+      "source_id": "flr6-s19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-song-min-kim-official-name",
+      "type": "identity_name",
+      "predicate": "rfj_reported_name",
+      "value": {
+        "name": "Song Min Kim",
+        "attribution": "Rewards for Justice named subject"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Named-person list, Song Min Kim entry",
+          "quote": "Song Min Kim"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Song Min Kim (also known as Chengmin Jin)"
+        }
+      ],
+      "notes": [
+        "RFJ-named subject in an allegation/reward context, not a criminal adjudication."
+      ]
+    },
+    {
+      "id": "claim-song-min-kim-chengmin-jin-alias",
+      "type": "alias",
+      "predicate": "rfj_explicitly_reported_alias",
+      "value": {
+        "alias": "Chengmin Jin",
+        "source_semantics": "a.k.a."
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Named-person list, Song Min Kim entry",
+          "quote": "Song Min Kim (a.k.a. Chengmin Jin)"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Song Min Kim (also known as Chengmin Jin)"
+        }
+      ],
+      "notes": [
+        "Explicit State Department alias independently repeated by DOJ. The separate string Allen Kim appearing only in an image-asset filename is not promoted to an alias because the accessible subject text and the generic silhouette pixels do not establish it."
+      ]
+    },
+    {
+      "id": "claim-song-min-kim-it-company-manager",
+      "type": "employment",
+      "predicate": "rfj_reported_it_company_manager_role",
+      "value": {
+        "role": "managed an information technology company",
+        "reported_base": "DPRK"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Named-person list, Song Min Kim entry",
+          "quote": "Managed an information technology company based in DPRK"
+        }
+      ],
+      "notes": [
+        "RFJ allegation, not a verified corporate-registration or present-employment finding. The company is not named and is not inferred."
+      ]
+    },
+    {
+      "id": "claim-song-min-kim-us-company-creation-assistance",
+      "type": "incident",
+      "predicate": "rfj_reported_us_company_creation_assistance",
+      "value": {
+        "reported_conduct": "assisted in creating a U.S. company through which employees could obtain remote IT work with other U.S. companies"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Named-person list, Song Min Kim entry",
+          "quote": "assisted in the creation of a U.S. company through which his employees could obtain remote IT work with other U.S. companies."
+        }
+      ],
+      "notes": [
+        "RFJ allegation. The company, employees, employers, accounts, jobs, victims, and operational selectors are not named, inferred, or retained."
+      ]
+    },
+    {
+      "id": "claim-song-min-kim-collective-scheme-allegation",
+      "type": "incident",
+      "predicate": "included_in_rfj_collective_2021_2024_scheme_allegation",
+      "value": {
+        "period": "2021 to late 2024",
+        "scope": "collective statement about nine RFJ-named individuals",
+        "reported_conduct": "identity compromise, shell-company and account creation, remote employment, wage receipt, laundering and remittance supporting DPRK revenue"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Collective paragraph following the nine named-person entries",
+          "quote": "From 2021 to late 2024, these individuals compromised the identities of more than 80 U.S. persons to obtain remote jobs at over 100 U.S. companies. They participated in a scheme to create credible fake American citizenship documents, register U.S. shell companies and bank accounts, gain technical employment with U.S. companies, receive wages, launder and remit that money to banks and individuals in China, and ultimately facilitate the transmission of the illicit funds to the DPRK regime."
+        }
+      ],
+      "notes": [
+        "Collective RFJ allegation. The aggregate counts and full activity list are not treated as proof that Song personally performed every act, and no victim, employer, shell-company, account, laptop-farm, payment, or identity-document selector is retained."
+      ]
+    },
+    {
+      "id": "claim-song-min-kim-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "reward heading and opening paragraph",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Concurrent with today’s announcement’",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Program-level reward language on a page and DOJ list that include Song. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payment, a charge, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-song-min-kim-doj-reward-roster",
+      "type": "legal_event",
+      "predicate": "doj_named_in_2026_reward_subject_list",
+      "value": {
+        "announcement_date": "2026-04-15",
+        "listed_form": "Song Min Kim (also known as Chengmin Jin)",
+        "roster_scope": "eight June 2025 defendants and one suspected IT worker",
+        "song_named_as_defendant": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-roster introduction",
+          "quote": "The reward is offered for the following eight defendants who are alleged to have participated in the above-described scheme and one suspected IT worker:"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Song Min Kim (also known as Chengmin Jin)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "DOJ's release separately says the other eight June 2025 defendants remained wanted, then lists those eight defendants and one suspected IT worker. Song is the additional named reward subject, not a defendant in the two reviewed Wang proceedings. This legal-posture distinction does not determine guilt or innocence."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Song Min Kim, explicitly identified by Rewards for Justice as also using Chengmin Jin, is preserved as an RFJ-described suspected DPRK IT-company manager associated with the Wang-network scheme. RFJ allegations and reward-page imagery carry the reported posture; defendant status, conviction, same-named-account identity, and identity with the reordered Kim Min Song record are unestablished, while facial recognition and image-based identity resolution are excluded."
+}

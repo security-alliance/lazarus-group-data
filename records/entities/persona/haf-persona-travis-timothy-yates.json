@@ -1,0 +1,57 @@
+{
+  "id": "haf-persona-travis-timothy-yates",
+  "type": "persona",
+  "name": "Travis Timothy Yates reported historical freelancer persona",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a historical source-attributed research finding with historical status; current sanctions, criminal adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "HAF-S2"
+    ]
+  },
+  "ttps": [
+    "freelance-platform",
+    "shared-portfolio",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "The reporting is historical; present activity, current account control, and knowing participation by every named foreign entity require newer or source-specific evidence.",
+    "Portfolio overlap is directly reported, while the underlying user and legal identity remain unresolved and the source uses cautious language.",
+    "Retain this as a historical, source-attributed persona lead. The displayed name may belong to an identity-theft victim; DPRK legal identity requires source evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Travis Timothy Yates",
+      "alias_type": "employment-persona",
+      "relationship": "uncertain",
+      "source_ids": [
+        "HAF-S2"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Guru.com",
+      "identifier": "Travis Timothy Yates",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "HAF-S2"
+      ],
+      "note": "The source says the displayed name may be a stolen identity; do not treat it as a DPRK legal identity or contact the account."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "HAF-S2",
+      "support": "C4ADS reported that a Guru.com account under this name reused work-sample thumbnails associated with the kjg197318 cluster and offered similar software services. The report stated that subsequent investigation suggested the account may use a stolen identity",
+      "locator": "PDF p. 46, Vietnam case study Part II; endnote 250"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "C4ADS-reported historical Guru.com profile label that may use a stolen identity. The displayed name may represent a victimized identity rather than a DPRK legal identity or knowing participant; account-page findings are restricted platform artifacts, with present controller, location, culpability, continuity, and possible-victim identity requiring separate evidence."
+}

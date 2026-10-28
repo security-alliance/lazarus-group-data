@@ -1,0 +1,229 @@
+{
+  "id": "drh-ttp-continuous-recruitment-integrity-governance",
+  "type": "ttp",
+  "name": "Continuous recruitment-integrity and cross-sector identity-risk governance",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive governance synthesis from public platform, policy, practitioner, and official guidance; official contextual controls inform the recommendations, while the broader bundle and DPRK incident remain unattributed.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "DC2-S05",
+      "DFP-S13",
+      "DFP-S14",
+      "DFP-S18",
+      "DFP-S19",
+      "DRDR24-S01A-SG-CSA-SCL-2024-2025-PAGE",
+      "DRDR24-S01B-SG-CSA-SCL-2024-2025-PDF",
+      "DRH-S03",
+      "cises-2026-09-12-remote-work-risk"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "company-network-access",
+    "continuous-remote-access-monitoring",
+    "credential-sharing",
+    "false-employment-persona",
+    "identity-verification",
+    "inconsistent-language-or-timezone",
+    "interview-assistance",
+    "multiple-personas",
+    "proxy-interviewee",
+    "referral-network",
+    "regime-revenue-remittance",
+    "remote-workforce-infiltration",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Apply controls consistently with privacy, employment, labor, accessibility, retention, notice, correction, and access-governance requirements.",
+    "Checks are optional and jurisdiction-dependent; published material supplies no DPRK-specific efficacy or enforcement data.",
+    "Controls must be applied consistently and lawfully; demographic, accent, nationality, ethnicity, or appearance-based screening is excluded.",
+    "Isolated VPN, device and location anomalies require corroboration. The DPRK example in this article relies partly on secondary reporting.",
+    "Identity and remote-access anomalies are screening signals that require corroboration before supporting a nationality, identity, intent, or DPRK-affiliation finding.",
+    "Identity verification and background checks are optional, jurisdiction-dependent, and point-in-time controls; their assurance is limited to the documented review.",
+    "Official contextual guidance adds context only; separate cluster attribution and recommendations made by other sources rely on their own source records.",
+    "Pindrop's internal applicant ratios describe its own sample; labor-market use or detector thresholds require independent validation.",
+    "Profile age, camera behavior, time-zone mismatch, VPN use, pauses, and language differences are weak signals with many benign explanations.",
+    "Reverification should be risk-based, proportionate, privacy-preserving, and paired with human review and applicable legal safeguards.",
+    "Risk-based reverification must be lawful, proportionate, accessible, and privacy-preserving; routine biometric surveillance falls outside that control.",
+    "The landing page and PDF are one publication family and supply one corroboration line.",
+    "The report provides general official guidance; a Singapore employer hire or compromise requires a separate incident source.",
+    "These are policy recommendations describing desired controls; actor behavior remains unobserved.",
+    "This is first-party vendor guidance and product positioning; DPRK detection-rate measurement requires an independent study. Identity checks require human review and privacy/legal safeguards.",
+    "Use the pattern to prioritize documented human-led review; DPRK affiliation, fraud, and malicious intent require a combined evidence record."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Remote offers optional contractor background checks covering education, employment history, sanctions, and criminal records where available, while KYC is intended to address identity misuse, impersonation, fraud, and AML obligations."
+      ],
+      "limitations": [
+        "Checks are optional and jurisdiction-dependent, and no DPRK-specific efficacy or enforcement data is published."
+      ],
+      "source_ids": [
+        "DFP-S18",
+        "DFP-S19"
+      ]
+    },
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Persona models candidate fraud as a lifecycle: AI-generated or false applications, proxy/deepfake screening, legitimate credential and device issuance, insider access, then residual access after offboarding. It recommends signal aggregation and reverification before provisioning and at later high-risk moments."
+      ],
+      "limitations": [
+        "Do not use isolated VPN, device, or location anomalies as dispositive. The DPRK example in this article relies partly on secondary reporting."
+      ],
+      "source_ids": [
+        "DFP-S14"
+      ]
+    },
+    {
+      "type": "source-reported-observed-case-pattern",
+      "statements": [
+        "Pindrop reports that inconsistencies in its hiring experience sometimes appeared only across repeated interactions and says operators adapted previously common profile-age, camera, and time-zone behaviors."
+      ],
+      "limitations": [
+        "Pindrop's applicant ratios are internal observations, not industry prevalence. The article provides no case-level identifiers or measured performance for a detector."
+      ],
+      "source_ids": [
+        "DC2-S05"
+      ]
+    },
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Treat identity assurance as a series of checkpoints: interview, onboarding, first privileged access, material profile or payroll change, device replacement, and selected risk-based post-hire moments.",
+        "Compare identity continuity across live interactions, trusted-channel references, device possession, account recovery, work behavior, and approved exceptions rather than relying on static profile-age or camera rules.",
+        "Create a feedback loop between recruiters, managers, fraud, IT, and security because each function sees only part of the sequence."
+      ],
+      "limitations": [
+        "Profile age, camera behavior, time-zone mismatch, VPN use, pauses, and language differences are weak signals with many benign explanations.",
+        "Risk-based reverification must be lawful, proportionate, accessible, and privacy-preserving; it should not become routine biometric surveillance.",
+        "Pindrop's internal applicant ratios must not be generalized to the labor market or used as a detector threshold."
+      ],
+      "source_ids": [
+        "DC2-S05"
+      ]
+    },
+    {
+      "type": "official-defensive-guidance",
+      "statements": [
+        "CSA describes disguised freelance-developer or remote-employee roles as a route for DPRK-linked workers to gain access to company networks and direct earnings to the DPRK.",
+        "CSA recommends identity verification and continuous monitoring of remote access in response to this remote-workforce threat."
+      ],
+      "limitations": [
+        "The report provides general official guidance and does not establish that any Singapore employer hired a DPRK worker or suffered compromise.",
+        "The landing page and PDF are one publication family and must not be counted as independent corroboration.",
+        "Identity and remote-access anomalies are screening signals, not proof of nationality, identity, intent, or DPRK affiliation."
+      ],
+      "source_ids": [
+        "DRDR24-S01A-SG-CSA-SCL-2024-2025-PAGE",
+        "DRDR24-S01B-SG-CSA-SCL-2024-2025-PDF"
+      ]
+    },
+    {
+      "type": "first-party-platform-guidance",
+      "statements": [
+        "Persona recommends identity verification at application/screen, before key interviews, at offer/onboarding, and at later high-risk events, linking the verified hiring identity to provisioning, credential issuance, device enrollment, recovery, and offboarding. It explicitly identifies North Korean IT workers among organized/state-sponsored hiring threats."
+      ],
+      "limitations": [
+        "This is first-party vendor guidance and product positioning, not an independently measured DPRK detection-rate study. Identity checks must be paired with human review and privacy/legal safeguards."
+      ],
+      "source_ids": [
+        "DFP-S13",
+        "DFP-S14"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "38 North recommends recruitment-integrity standards for sensitive industries and an AML-style, continuous risk-based approach to employee identity rather than one-time onboarding verification.",
+        "The analysis recommends integrating HR into security, sanctions, compliance, and counter-proliferation functions and creating cross-sector information-sharing mechanisms linking cyber, financial, regulatory, recruitment, and private-sector stakeholders.",
+        "Suggested operational controls include live video onboarding, post-hire or surprise re-verification, digital-footprint review, behavioral anomaly detection, and stronger human escalation paths."
+      ],
+      "source_ids": [
+        "DRH-S03"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-11-cloud-saas-posthire-correlation",
+    "dfp-ttp-payroll-beneficiary-screening-boundary",
+    "drh-ttp-continuous-recruitment-integrity-governance",
+    "pindrop-unnamed-hiring-observations",
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DRDR24-S01B-SG-CSA-SCL-2024-2025-PDF",
+      "support": "CSA describes fake North Korean IT workers disguising themselves as freelance developers or remote employees, gaining company-network access and covertly funneling funds to the DPRK. It says the development reinforces identity verification and continuous monitoring of remote access. Evidence boundary: Official general defensive guidance. It does not identify a Singapore incident, affected employer, worker, facilitator, account, or adjudicated event",
+      "locator": "PDF file page 55, printed p. 108, section “The Targeting of Remote Workforce (SCL2020)”; concluding callback on printed p. 109"
+    },
+    {
+      "source_id": "DFP-S18",
+      "support": "Remote documents optional, jurisdiction-dependent contractor background checks and KYC intended to address identity misuse, impersonation, fraud, sanctions, and AML obligations",
+      "locator": "Service scope and optional onboarding workflow"
+    },
+    {
+      "source_id": "DFP-S19",
+      "support": "Remote documents optional, jurisdiction-dependent contractor background checks and KYC intended to address identity misuse, impersonation, fraud, sanctions, and AML obligations",
+      "locator": "Purpose of KYC and identity verification"
+    },
+    {
+      "source_id": "DFP-S14",
+      "support": "Persona models identity risk across the application-to-offboarding lifecycle and recommends aggregated signals and later reverification instead of treating onboarding as the terminal trust decision | Persona recommends staged identity checks from application and interviews through offer, onboarding, provisioning, recovery, and high-risk events, while explicitly discussing North Korean IT-worker risk",
+      "locator": "Candidate-fraud attack chain; signs; Zero Trust for hiring; verification checkpoints"
+    },
+    {
+      "source_id": "DFP-S13",
+      "support": "Persona recommends staged identity checks from application and interviews through offer, onboarding, provisioning, recovery, and high-risk events, while explicitly discussing North Korean IT-worker risk",
+      "locator": "How candidate verification works; A single platform for the candidate and employee life cycle; Stop security threats before day one"
+    },
+    {
+      "source_id": "DRH-S03",
+      "support": "38 North recommends recruitment-integrity standards for sensitive industries and an AML-style, continuous risk-based approach to employee identity rather than one-time onboarding verification. The analysis recommends integrating HR into security, sanctions, compliance, and counter-proliferation functions and creating cross-sector information-sharing mechanisms linking cyber, financial, regulatory, recruitment, and private-sector stakeholders. Suggested operational controls include live video onboarding, post-hire or surprise re-verification, digital-footprint review, behavioral anomaly detection, and stronger human escalation paths",
+      "locator": "A Deeper Look Into ITW Typologies; Recommendations and a Path Forward; Conclusion"
+    },
+    {
+      "source_id": "DRDR24-S01A-SG-CSA-SCL-2024-2025-PAGE",
+      "support": "The official landing page dates Singapore Cyber Landscape 2024/2025 to September 3, 2025 and links the exact PDF. Evidence boundary: Publication metadata and provenance companion to the report PDF; not independent corroboration",
+      "locator": "Publication date and report-download link"
+    },
+    {
+      "source_id": "DC2-S05",
+      "support": "Pindrop reports that inconsistencies in its hiring experience sometimes appeared only across repeated interactions and says operators adapted previously common profile-age, camera, and time-zone behaviors. Pindrop and its guest recommend trusted-channel reference validation and continued identity checks while warning that no single indicator is definitive",
+      "locator": "Attackers are adapting as quickly as defenders; Identity verification is becoming continuous; This isn't just an HR problem"
+    },
+    {
+      "source_id": "cises-2026-09-12-remote-work-risk",
+      "support": "CISES assesses structural weaknesses in digital labour markets, identity verification, and remote-work ecosystems.",
+      "locator": "Analysis section"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-cises-2026-09-12-remote-work-risk-strategic-risk-assessment",
+      "type": "note",
+      "predicate": "strategic_risk_assessment",
+      "value": {
+        "publication": "cises-2026-09-12-remote-work-risk",
+        "statement": "CISES assesses structural weaknesses in digital labour markets, identity verification, and remote-work ecosystems."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "cises-2026-09-12-remote-work-risk",
+          "locator": "Analysis section",
+          "quote": "This activity exploits structural weaknesses in digital labour markets, identity-verification systems, and remote-work ecosystems."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

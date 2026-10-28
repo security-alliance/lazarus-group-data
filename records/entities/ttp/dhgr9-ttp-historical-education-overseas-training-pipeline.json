@@ -1,0 +1,47 @@
+{
+  "id": "dhgr9-ttp-historical-education-overseas-training-pipeline",
+  "type": "ttp",
+  "name": "Historical education and overseas-training pipeline",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHGR9-S01-US-INTERAGENCY-2022"
+    ]
+  },
+  "ttps": [
+    "overseas-deployment",
+    "technical-training"
+  ],
+  "caveats": [
+    "An ordinary educational or training connection supplies educational context; DPRK government employment requires separate evidence.",
+    "Foreign contractors, customers, local companies, schools, universities, jurisdictions, networks, and service providers require direct evidence before treatment as knowing participants.",
+    "Students, teachers, schools, and universities remain outside threat-actor profiling.",
+    "Retain only as historical workforce-pipeline context. The named educational institutions and regions are contextual, not adverse entities. Student enrollment is a historical education detail; later IT-worker deployment or misconduct requires separate evidence.",
+    "The educational figures are source-reported historical estimates as of 2019 or earlier; current census status requires newer data.",
+    "This is a historical, source-qualified program-level finding; current census and person, organization, jurisdiction, platform-user or technology-user status require current sources.",
+    "Use aggregate, dated language and omit granular locations or personal records."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-workforce-pipeline-context",
+      "statement": "The advisory describes an integrated cyber and IT curriculum coordinated with Workers' Party, research-center, and military priorities. It says approximately 30,000 students studied information and communications technology subjects at three leading universities, that by 2019 dozens of universities had established advanced STEM programs, that promising students were recruited from specialized secondary schools, and that IT workers historically received additional training through overseas placements and regional IT research centers in East Africa, Southeast Asia, and South Asia.",
+      "evidence_class": "official intelligence, sanctions, law-enforcement, and compliance synthesis",
+      "historical_boundary": "The educational figures are source-reported historical estimates as of 2019 or earlier, not a current census.",
+      "source_ids": [
+        "DHGR9-S01-US-INTERAGENCY-2022"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DHGR9-S01-US-INTERAGENCY-2022",
+      "support": "The advisory describes an integrated cyber and IT curriculum coordinated with Workers' Party, research-center, and military priorities. It says approximately 30,000 students studied information and communications technology subjects at three leading universities, that by 2019 dozens of universities had established advanced STEM programs, that promising students were recruited from specialized secondary schools, and that IT workers historically received additional training through overseas placements and regional IT research centers in East Africa, Southeast Asia, and South Asia",
+      "locator": "PDF pp. 3-4, education and training paragraphs"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

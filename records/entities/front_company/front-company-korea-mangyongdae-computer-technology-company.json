@@ -1,0 +1,112 @@
+{
+  "id": "front-company-korea-mangyongdae-computer-technology-company",
+  "type": "front_company",
+  "name": "Korea Mangyongdae Computer Technology Company",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds the bounded structured context stated here: DPRK IT company operating worker delegations in Shenyang and Dandong; DPRK IT-worker organization; Administrative sanctions designation. The record states no criminal charge or conviction.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dln26-s07",
+      "doar9-ofac-sdn-current",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89",
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "Shenyang and Dandong, China",
+    "Songhung-dong, North Korea (OFAC listing context)"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Canonicalized to the OFAC-designated KMCTC entity. Any Albatross/Viet Nam relationship remains a separate source-qualified and disputed claim.",
+    "The record is canonicalized to the OFAC-designated KMCTC entity. Company and Corporation are legal-form variants of this entry.",
+    "Legal-form variation alone leaves entity identity unresolved.",
+    "The record retains locality only; street/postal detail and current operating-site status remain outside its scope.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s07"
+      ],
+      "value": "Korea Mangyongdae Computer Technology Corp."
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s07"
+      ],
+      "value": "Korea Mangyongdae Computer Technology Corporation"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dln26-s07"
+      ],
+      "value": "Mangyongdae Computer Technology"
+    },
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-c960ddb931ea"
+      ],
+      "value": "KMCTC"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-organization-type",
+      "value": "Other information technology and computer service activities",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-korea-mangyongdae-computer-technology-company"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "OFAC designated eight individuals and two entities, including Korea Mangyongdae Computer Technology Company, for laundering cybercrime and IT-worker funds",
+      "locator": "Bankers and KMCTC sections"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 7; approximately $1.5m in 2022, $1m in 2023, and $350k in H1 2024 from listed work",
+      "locator": "Annex 7 company/delegation description and employment table, PDF pp. 109-112 / printed pp. 107-110 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "dln26-s07",
+      "support": "OFAC lists the following aliases for Korea Mangyongdae Computer Technology Company: Korea Mangyongdae Computer Technology Corporation; Korea Mangyongdae Computer Technology Corp.; Mangyongdae Computer Technology",
+      "locator": "Specially Designated Nationals List Update — DPRK banker and KMCTC entries"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 56044 support only the retained coarse sanctions-list location values. No street or postal detail is retained, and the locality does not establish a current operating site. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 56044"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 56044 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add an IT/computer-services classification and Songhung-dong listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 56044"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "front-company-foreign-trade-bank",
+  "type": "front_company",
+  "name": "Foreign Trade Bank",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "MSMT identifies Foreign Trade Bank as UN-designated KPe.047; this is an administrative designation, with no criminal conviction on record.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "Source-bounded organization record; merge similar names only with an explicit source link.",
+    "This record retains no street addresses, payment selectors, or private contact data."
+  ],
+  "identity_boundary": "The organization label Foreign Trade Bank is reported by MSMT; an explicit source link is required before merging it with another entity sharing a name or transliteration.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Foreign Trade Bank.",
+      "locator": "PDF p. 60, Annex A"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-organization-foreign-trade-bank",
+      "type": "organization_affiliation",
+      "predicate": "un_designated_entity",
+      "value": {
+        "organization": "Foreign Trade Bank"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 60, Annex A",
+          "quote": "Smaller portions of funds are sent to the DPRK through the overseas representative offices of UN-designated North Korean entities such as Foreign Trade Bank (KPe.047)."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

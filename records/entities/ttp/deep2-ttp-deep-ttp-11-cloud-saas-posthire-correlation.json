@@ -1,0 +1,108 @@
+{
+  "id": "deep2-ttp-deep-ttp-11-cloud-saas-posthire-correlation",
+  "type": "ttp",
+  "name": "Post-hire cloud, SaaS, and wrong-employer authentication correlation",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources; DTEX source-reported cross-company observations combined with Sophos defensive guidance; technique mapping describes methods rather than an identity; affected employers are unnamed and adjudication status is unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DC2-S02",
+      "DC2-S03",
+      "deep2-ttp-deep-ttp-s12-us-joint-alert-2026-deep-ttp-11-cloud-saas-posthire-correlation",
+      "deep2-ttp-deep-ttp-s5-microsoft-detections-2026-deep-ttp-11-cloud-saas-posthire-correlation"
+    ]
+  },
+  "ttps": [
+    "cloud-data-exfiltration",
+    "credential-sharing",
+    "kvm-over-ip",
+    "multiple-simultaneous-jobs",
+    "payroll-fraud",
+    "remote-desktop",
+    "remote-management-tool",
+    "vpn"
+  ],
+  "caveats": [
+    "Apply controls consistently with privacy, employment, labor, accessibility, retention, notice, correction, and access-governance requirements.",
+    "Browser autofill and stale cached credentials can create isolated wrong-domain failures.",
+    "Consultants, managed-service providers, client support personnel, developers with test tenants, and corporate acquisitions can legitimately access multiple domains.",
+    "False-positive caution: Overly restrictive onboarding can impede legitimate workers. Define transparent, role-based milestones and prompt exception handling.",
+    "False-positive caution: Remote onboarding, travel, payroll corrections, and privacy tools are common. Require a sequence of inconsistent events and human verification.",
+    "Require device ownership, contractual scope, session timing, and approved-customer context before escalation.",
+    "Use the pattern to prioritize documented human-led review; DPRK affiliation, fraud, and malicious intent require a combined evidence record."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "On managed endpoints, correlate failed logons, credential-provider events, browser/VDI launches, and remote-session metadata for organization identifiers inconsistent with the device's tenant and approved customers.",
+        "Investigate sequences that combine a wrong-tenant artifact with unapproved RMM/KVM, simultaneous remote sessions, or unexplained access to an external VDI.",
+        "Block unauthorized cross-company pivoting and isolate the device when policy or customer confidentiality is at risk, while preserving evidence for a human-led investigation."
+      ],
+      "limitations": [
+        "Consultants, managed-service providers, client support personnel, developers with test tenants, and corporate acquisitions can legitimately access multiple domains.",
+        "Browser autofill and stale cached credentials can create isolated wrong-domain failures.",
+        "Require device ownership, contractual scope, session timing, and approved-customer context before escalation."
+      ],
+      "source_ids": [
+        "DC2-S02"
+      ]
+    },
+    {
+      "type": "source-reported-observed-case-pattern",
+      "statements": [
+        "DTEX reports investigations in which operators reused similar credentials, exposed another employer's virtual workspace, used one employer endpoint to reach another employer environment, or let multiple people operate under one account."
+      ],
+      "limitations": [
+        "DTEX reports observations from investigations but does not identify the affected employers. Cross-company behavior remains source-attributed, not independently adjudicated."
+      ],
+      "source_ids": [
+        "DC2-S03"
+      ]
+    },
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Microsoft’s 2026 detection guidance ties Workday applications and external interview communications to DocuSign onboarding, payroll changes from known infrastructure, anonymous proxies/impossible travel, and access to Teams, SharePoint, OneDrive, and Exchange Online. The material contribution is a cross-control-plane detection model rather than a single endpoint indicator."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s12-us-joint-alert-2026-deep-ttp-11-cloud-saas-posthire-correlation",
+        "deep2-ttp-deep-ttp-s5-microsoft-detections-2026-deep-ttp-11-cloud-saas-posthire-correlation"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-jasper-sleet",
+    "deep2-ttp-deep-ttp-08-collaborator-laptop-identity-contracts",
+    "deep2-ttp-deep-ttp-11-cloud-saas-posthire-correlation",
+    "ttp-july-31-2026-joint-dprk-it-worker-alert",
+    "ttp-late-2026-06-transparent-chatgpt-overlays-and-pikvm-sessions-let-an"
+  ],
+  "sources": [
+    {
+      "source_id": "DC2-S02",
+      "support": "Sophos recommends reviewing failed authentication associated with an unexpected organization domain as one component of a broader concurrent-employment investigation",
+      "locator": "Worksheets: Project Tracker Sheet, Banking payroll and finance, Security and monitoring, Threat hunting"
+    },
+    {
+      "source_id": "DC2-S03",
+      "support": "DTEX reports investigations in which operators reused similar credentials, exposed another employer's virtual workspace, used one employer endpoint to reach another employer environment, or let multiple people operate under one account",
+      "locator": "pp. 18-19 (Operational Security Lapses), pp. 36-38 (IT-worker methodology), p. 48 (Immediate Steps)"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s12-us-joint-alert-2026-deep-ttp-11-cloud-saas-posthire-correlation",
+      "support": "The joint alert supports layered verification and combined telemetry rather than single-indicator decisions",
+      "locator": "PDF pp. 2-6; verification and telemetry guidance"
+    },
+    {
+      "source_id": "deep2-ttp-deep-ttp-s5-microsoft-detections-2026-deep-ttp-11-cloud-saas-posthire-correlation",
+      "support": "Microsoft correlates hiring/onboarding, identity risk, payroll changes, and cloud/SaaS access in a cross-control-plane model",
+      "locator": "Attack chain and detection table"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

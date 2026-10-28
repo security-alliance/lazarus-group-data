@@ -1,0 +1,394 @@
+{
+  "id": "facilitator-han-chol-man",
+  "type": "facilitator",
+  "name": "Han Chol Man",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Kumgang Bank representative and payment facilitator sanctioned by the United States and Republic of Korea; named by an issuing government or multilateral sanctions-monitoring source, with charging status separate. Administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-28e42dec45a8",
+      "gov-32a750c6b801",
+      "gov-81fd96ced830",
+      "gov-e31464a55e89",
+      "int-rok-mofa-2024-sanctions"
+    ]
+  },
+  "legal_or_reported_name": "Han Chol Man",
+  "organizations": [
+    "Kumgang Bank"
+  ],
+  "locations": [
+    "Shenyang, China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "The 2024 OFAC action and Federal Register render the Korean name as 한절만, while the ROK release renders it 한철만. Preserve the discrepancy as source-specific spelling for one record; Vladivostok belongs to the separately listed Jong Song Ho and stays outside Han's profile."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "HAN, Ch'o'l-man"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "Treasury identifies Han Chol Man as a Shenyang, China-based representative of Kumgang Bank, reports that he coordinated or facilitated more than $1 million in payments between China and the DPRK from 2019 to 2023 and more than $600,000 in 2023 payment orders with an unnamed MID-subordinate bank, and records his E.O. 13722 designation. These are administrative-source assessments, not adjudicated findings; no account, instruction, counterparty, or transaction selector is retained",
+      "locator": "Han Chol Man paragraph"
+    },
+    {
+      "source_id": "gov-32a750c6b801",
+      "support": "The administrative action lists HAN, Chol Man, the alternate romanization HAN, Ch'o'l-man, Shenyang, China, the DPRK3 program, and the linked-to relationship with Kumgang Bank. Birth, nationality, gender, compliance, and other sensitive fields are excluded",
+      "locator": "SDN additions, Han entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Shenyang, China for OFAC entity number 48267 without a street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 48267"
+    },
+    {
+      "source_id": "gov-81fd96ced830",
+      "support": "The official notice lists Han Chol Man at Shenyang, China, records the alternate romanization HAN, Ch'o'l-man and Kumgang Bank link, and states the E.O. 13722 administrative designation basis. The location is retained only at coarse city-and-country level; birth and other sensitive selectors are excluded",
+      "locator": "Federal Register p. 22775, individual entry 5 and designation paragraph"
+    },
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "The ROK sanctions table identifies Han Chol-man (한철만) as the Shenyang representative of Tongsong Kumgang Bank. Shenyang is person-specific; Vladivostok belongs to the separately listed Jong Song-ho and is not attributed to Han",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    },
+    {
+      "source_id": "doaa-s05"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-han-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "display": "Han Chol-man",
+        "ofac_primary": "HAN, Chol Man",
+        "rok_korean": "한철만",
+        "ofac_action_korean": "한절만"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Han row",
+          "quote": "한철만 주선양 동성금강은행 대표"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Han entry",
+          "quote": "HAN, Chol Man (Korean: 한절만)"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48267",
+          "quote": "HAN, Chol Man"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 5",
+          "quote": "HAN, Chol Man (Korean: 한절만)"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "The two official Korean spellings differ by one syllable. They are retained as source-specific forms tied to the same coordinated designation record, not represented as separate identities or silently harmonized."
+      ]
+    },
+    {
+      "id": "claim-han-ofac-alias",
+      "type": "alias",
+      "predicate": "officially_listed_alias",
+      "value": {
+        "alias": "HAN, Ch'o'l-man",
+        "alias_type": "alternate romanization",
+        "ofac_entity_number": "48267"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Han entry",
+          "quote": "a.k.a. HAN, Ch'o'l-man"
+        },
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row joined by OFAC entity number 48267",
+          "quote": "HAN, Ch'o'l-man"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 5",
+          "quote": "a.k.a. HAN, Ch'o'l-man"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Official source-scoped romanization, not a separate civil identity."
+      ]
+    },
+    {
+      "id": "claim-han-kumgang-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "reported_bank_representative_role",
+      "value": {
+        "organization": "Kumgang Bank",
+        "role": "representative",
+        "reported_base": "Shenyang, China",
+        "as_of": "2024-03"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Han Chol Man paragraph",
+          "quote": "Han Chol Man is a Shenyang, China-based representative of U.S- and UN-designated Kumgang Bank."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Han row",
+          "quote": "한철만 주선양 동성금강은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Historical designation-time role and geography only; no present employment or location is inferred. The ROK source uses the fuller bank rendering 동성금강은행."
+      ]
+    },
+    {
+      "id": "claim-han-2019-2023-payments",
+      "type": "incident",
+      "predicate": "treasury_reported_payment_coordination",
+      "value": {
+        "period": "2019-2023",
+        "approximate_total": "over USD 1 million",
+        "reported_conduct": "coordinated or facilitated payments between China and the DPRK for several DPRK banks"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Han Chol Man paragraph, second sentence",
+          "quote": "From 2019 to 2023, Han Chol Man coordinated or facilitated over $1 million in payments between China and DPRK for several DPRK banks."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Treasury administrative finding, not an adjudicated criminal fact. No bank account, payment instruction, counterparty identity, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-han-2023-mid-bank-payment-orders",
+      "type": "incident",
+      "predicate": "treasury_reported_payment_order_coordination",
+      "value": {
+        "period": "2023",
+        "approximate_total": "over USD 600,000",
+        "reported_conduct": "coordinated payment orders with an unnamed bank subordinate to the Munitions Industry Department"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Han Chol Man paragraph, third sentence",
+          "quote": "During 2023, Han Chol Man coordinated over $600,000 in payment orders with a bank that is subordinate to the U.S. and UN-designated Munitions Industry Department (MID)."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Treasury administrative finding. The unnamed bank is not identified or inferred, and no account, payment instruction, counterparty, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-han-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13722",
+        "date": "2024-03-27",
+        "reported_basis": "acting or purporting to act for or on behalf of Kumgang Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Han Chol Man paragraph, designation sentence",
+          "quote": "Han Chol Man is being designated pursuant to E.O. 13722 for acting or purporting to act for or on behalf of, directly or indirectly, of Kumgang Bank."
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Han entry",
+          "quote": "HAN, Chol Man"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, Han designation paragraph",
+          "quote": "Designated pursuant to section 2(a)(viii) of Executive Order 13722"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-han-rok-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2024-03-28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "opening designation paragraph",
+          "quote": "우리 정부는 3.28(목) 북한 IT 인력의 해외 외화벌이 활동에 관여하거나 불법 자금을 조달한 기관 2개와 개인 4명을 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Han row",
+          "quote": "한철만 주선양 동성금강은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-han-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "DPRK3",
+        "checked_at": "2026-08-15",
+        "linked_organization": "Kumgang Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 48267",
+          "quote": "48267,\"HAN, Chol Man\",\"individual\",\"DPRK3\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 48267",
+          "quote": "Linked To: KUMGANG BANK."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Dated administrative-list observation; it does not establish criminal guilt, present role, or present location. Sensitive fields in the row were excluded."
+      ]
+    },
+    {
+      "id": "claim-han-ofac-listed-location",
+      "type": "location",
+      "predicate": "treasury_reported_and_ofac_listed_coarse_location",
+      "value": {
+        "location": "Shenyang, China",
+        "precision": "coarse city-and-country only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Han Chol Man paragraph",
+          "quote": "Han Chol Man is a Shenyang, China-based representative"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 5, contiguous fragment 1 of 2",
+          "quote": "HAN, Chol Man"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 5, contiguous fragment 2 of 2",
+          "quote": "Shenyang, China"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 48267",
+          "quote": "\"Shenyang\",\"China\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Person-specific official designation context only. It does not establish a street address, residence, continued presence, or present location. Federal Register visual review confirms that Vladivostok, Russia belongs to the following Jong Song Ho entry and must not be assigned to Han."
+      ]
+    },
+    {
+      "id": "claim-han-chol-man-un-annex76-multibank-china-report",
+      "type": "organization_affiliation",
+      "predicate": "un_member_state_reported_multibank_representative_roles",
+      "value": {
+        "organizations": [
+          "Korea Kumgang Group Bank",
+          "Golden Triangle Bank",
+          "Jasong Bank"
+        ],
+        "reported_role": "representative",
+        "historical_location_context": "China",
+        "source_scope": "reported by Member States in Annex 76",
+        "present_location_inferred": false,
+        "individual_sanctions_violation_established": false,
+        "member_state_response": "China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Annex 76, PDF file p. 451, visually reviewed subject row and footnote 244",
+          "quote": "Han Chol Man\nKorea Kumgang Group Bank Representative, Golden Triangle Bank Representative, and Jasong Bank Representative\nChina"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Annex 76 is a list of individuals reported by Member States; footnote 244 records that two Panel members considered the evidence insufficient to substantiate the affiliation and sanctions-violation allegations.",
+        "The row is retained as source-reported historical role and coarse location context, not a finding of current employment, present location, criminal conduct, or an individualized sanctions violation.",
+        "The relevant Member State response is preserved: China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Han Chol Man, listed by OFAC as HAN, Chol Man with the alternate romanization HAN, Ch'o'l-man, is the person identified by the ROK as 한철만 and described by Treasury as a Kumgang Bank representative. The 2024 OFAC action renders the Korean name as 한절만 while the ROK source renders it 한철만; preserve that source discrepancy. Separate personhood, criminal guilt, present location, and same-named public-account ownership remain unresolved."
+}

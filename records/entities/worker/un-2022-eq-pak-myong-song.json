@@ -1,0 +1,143 @@
+{
+  "id": "un-2022-eq-pak-myong-song",
+  "type": "worker",
+  "name": "Pak Myong Song",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official UN Panel reporting reproduces or follows up on Member State information; it is an official source summary at the Member State stage. Criminal charge, conviction, UN Committee designation, and present-activity finding require separate sources.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dunw47-un-s-2022-132"
+    ]
+  },
+  "legal_or_reported_name": "Pak Myong Song",
+  "locations": [
+    "Malabo, Equatorial Guinea"
+  ],
+  "caveats": [
+    "The separate WPK Central Committee member and football references sharing the Latin name remain separate records.",
+    "The publication records Equatorial Guinea's response as pending.",
+    "The Malabo, Equatorial Guinea field is historical Member State report context; present location and current work require newer evidence.",
+    "The name is retained exactly as printed in the English-language annex; additional script or alias forms require source evidence.",
+    "The OpenSanctions/RUSI match derives from UN Panel reporting; it belongs to the same UN Panel source family.",
+    "The record is source-scoped and review-only pending an independent identity bridge or second source family."
+  ],
+  "infrastructure": [
+    {
+      "type": "public-database-derivative-crosswalk",
+      "provider": "OpenSanctions DPRK Reports / RUSI",
+      "entity_id": "kprusi-372723fcbed6cce474e757116b7b73184e70ef22",
+      "url": "https://www.opensanctions.org/entities/kprusi-372723fcbed6cce474e757116b7b73184e70ef22/",
+      "independent_source_family": false,
+      "handling": "discovery crosswalk only"
+    },
+    {
+      "type": "un-panel-member-state-reported-worker-row",
+      "reported_name": "Pak Myong Song",
+      "reported_occupation": "DPRK IT worker",
+      "historical_location_context": "Malabo, Equatorial Guinea",
+      "source_scope": "Member State report reproduced in a UN Panel annex",
+      "host_state_response": "No response had been received from Equatorial Guinea at publication.",
+      "present_location_inferred": false,
+      "source_ids": [
+        "dunw47-un-s-2022-132"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dunw47-un-s-2022-132",
+      "support": "Annex explicitly lists Pak Myong Song among DPRK IT workers and supplies Malabo, Equatorial Guinea as historical report context. No response had been received from Equatorial Guinea at publication",
+      "locator": "PDF file p. 348, annex 81, visually reviewed; exact row: Pak Myong Song"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-un-2022-eq-pak-myong-song-printed-name",
+      "type": "identity_name",
+      "predicate": "un_annex_printed_name",
+      "value": {
+        "name": "Pak Myong Song",
+        "script": "Latin",
+        "source_scope": "Member State report reproduced in a UN Panel annex"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-132",
+          "locator": "PDF file p. 348, annex 81, visually reviewed; subject row",
+          "quote": "Pak Myong Song"
+        }
+      ],
+      "observed_at": "2022-03-01",
+      "notes": [
+        "Exact source-printed Latin name only; spelling variants and Korean forms are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2022-eq-pak-myong-song-reported-it-worker-role",
+      "type": "employment",
+      "predicate": "member_state_reported_dprk_it_worker",
+      "value": {
+        "reported_role": "DPRK IT worker",
+        "source_scope": "Member State report reproduced in a UN Panel annex",
+        "current_activity_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-132",
+          "locator": "PDF file p. 348, annex 81, visually reviewed; subject row",
+          "quote": "Pak Myong Song"
+        },
+        {
+          "source_id": "dunw47-un-s-2022-132",
+          "locator": "PDF file p. 348, annex 81, visually reviewed",
+          "quote": "According to a Member State, at least 13 DPRK IT workers (see below) are located and working in Malabo and Oyala, in Equatorial Guinea. The Member State assessed that these IT workers arrived in Equatorial Guinea between 2018 and 2019. No response has yet been received to the Panel's request for further information."
+        }
+      ],
+      "observed_at": "2022-03-01",
+      "notes": [
+        "Member State information relayed by the UN Panel; not a criminal charge, conviction, UN designation, or adjudicated finding.",
+        "No response had been received from Equatorial Guinea at publication."
+      ]
+    },
+    {
+      "id": "claim-un-2022-eq-pak-myong-song-historical-location",
+      "type": "location",
+      "predicate": "member_state_reported_historical_location",
+      "value": {
+        "location": "Malabo, Equatorial Guinea",
+        "context": "historical report row",
+        "present_location_inferred": false,
+        "reported_group_arrival_period": "2018-2019"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dunw47-un-s-2022-132",
+          "locator": "PDF file p. 348, annex 81, visually reviewed; subject row",
+          "quote": "Pak Myong Song"
+        },
+        {
+          "source_id": "dunw47-un-s-2022-132",
+          "locator": "PDF file p. 348, annex 81, visually reviewed",
+          "quote": "According to a Member State, at least 13 DPRK IT workers (see below) are located and working in Malabo and Oyala, in Equatorial Guinea. The Member State assessed that these IT workers arrived in Equatorial Guinea between 2018 and 2019. No response has yet been received to the Panel's request for further information."
+        }
+      ],
+      "observed_at": "2022-03-01",
+      "notes": [
+        "Member State information relayed by the UN Panel; not a criminal charge, conviction, UN designation, or adjudicated finding.",
+        "No response had been received from Equatorial Guinea at publication.",
+        "No present location, residence, or continuing activity is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Pak Myong Song is the Latin-script name printed in a Member State-sourced UN Panel annex for a reported DPRK IT worker. The included source prints this Latin-script form only; Korean-script form, public account, civil identity, and current location require separate evidence. Approximate romanizations and shared country context remain collision leads pending an explicit source bridge."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "facilitator-kim-chol-yong",
+  "type": "facilitator",
+  "name": "Kim Chol-Yong",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT identifies Kim Chol-Yong as the named representative of the office it describes; the source states no criminal charge or conviction.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "The source-bounded facilitator record for Kim Chol-Yong; keep it separate from another person sharing the name or a related organization unless an explicit source link connects them.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Kim Chol-Yong.",
+      "locator": "PDF p. 50"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-kim-chol-yong",
+      "type": "identity_name",
+      "predicate": "named_company_representative",
+      "value": {
+        "name": "Kim Chol-Yong",
+        "role": "named representative of the office described by MSMT"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 50",
+          "quote": "Kim Chol-Yong is its named representative and it employs five foreign nationals."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

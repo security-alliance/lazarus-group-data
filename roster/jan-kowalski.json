@@ -1,0 +1,236 @@
+{
+  "id": "jan-kowalski",
+  "fake_names": [
+    "Jan Kowalski"
+  ],
+  "notes": "Security-research-reported persona or historical account; no legal identity attribution",
+  "github": [
+    {
+      "gh_id": "VeteranSoftDev"
+    }
+  ],
+  "images": [],
+  "research_id": "persona-saja-jan-kowalski",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Security-research-reported persona or historical account; no legal identity attribution",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Nisos-reported employment persona reused across two account presentations, not a verified civil identity. Keep the two Jan Kowalski presentations, the VeteranSoftDev account, other network personas, and the uninvolved people whose images were reused distinct; never identify an operator from those images or treat current account reachability as present ownership or control.",
+      "No identity conclusion may be drawn from profile imagery or visual similarity.",
+      "Publish as a reused persona label. Never identify either pictured person as the operator; one image was of an uninvolved public figure.",
+      "source-observed through 2025-05-01; Nisos found different individuals' images attached to the same persona",
+      "This is a source-reported persona or account label, not a verified legal identity.",
+      "Website account 'portfolio-seven-umber-18.vercel[.]app'.",
+      "Website account 'veteransoftdev.github[.]io'.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Jan Kowalski' is the standard Polish placeholder name, the equivalent of 'John Smith'. This record refers solely to the VeteranSoftDev GitHub account and the veteransoftdev.github.io and portfolio-seven-umber-18.vercel.app presentations identified by Nisos. Nisos attributes the two Jan Kowalski presentations it found to two different operators; the GitHub account belongs to the first only. No real person named Jan Kowalski is implicated.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-a2cf3f705a9c",
+      "title": "Backed by Evidence: Unmasking the People Behind North Korea’s IT Worker Schemes",
+      "publisher": "Nisos",
+      "url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/saja-dprk-employment-scam-network.pdf",
+      "date": "2025-05-01"
+    },
+    {
+      "id": "doc-github-veteransoftdev-repositories",
+      "title": "GitHub public repositories: VeteranSoftDev",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/VeteranSoftDev/repos?per_page=100&sort=updated"
+    },
+    {
+      "id": "doc-github-veteransoftdev-user",
+      "title": "GitHub user status: VeteranSoftDev",
+      "publisher": "GitHub",
+      "url": "https://api.github.com/users/VeteranSoftDev"
+    },
+    {
+      "id": "doc-jan-kowalski-second-site-current",
+      "title": "Jan's portfolio",
+      "publisher": "Vercel-hosted portfolio",
+      "url": "https://portfolio-seven-umber-18.vercel.app/"
+    },
+    {
+      "id": "doc-veteransoftdev-site-current",
+      "title": "Jan Kowalski",
+      "publisher": "VeteranSoftDev GitHub Pages",
+      "url": "https://veteransoftdev.github.io/"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-first-portfolio-experience-claim",
+      "label": "Portfolio claimed software engineering experience",
+      "category": "skill",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 13, Portfolio website",
+          "quote": "The portfolio website claimed that Jan Kowalsk has 10+ years of experience in software engineering."
+        },
+        {
+          "source_id": "doc-veteransoftdev-site-current",
+          "locator": "About section",
+          "quote": "Bachelor's degree in software engineering & 10+ years experience from software internship to lead engineer"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-first-portfolio-github-network-link",
+      "label": "Researcher linked portfolio and github to network",
+      "category": "relationship",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 13, Jan Kowalski #1",
+          "quote": "Nisos identified a portfolio website and a GitHub account for Jan Kowalski, which are linked to several other accounts in the network."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-first-portfolio-project-claims",
+      "label": "Portfolio claimed project history",
+      "category": "skill",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 13, Portfolio website",
+          "quote": "The website also lists 25+ successful projects, including work on “AFF” and the “Anti-Game-Cheat engine focusing on AI components to detect cheating.”"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-jan-kowalski-reused-persona",
+      "label": "Researcher reported reused employment persona",
+      "category": "identity_name",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 13, Same Persona, Different Threat Actor",
+          "quote": "Nisos identified a fake persona associated with the network, Jan Kowalski, who has accounts containing photos of different individuals."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-second-portfolio-poland",
+      "label": "Second portfolio claimed location",
+      "category": "location",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 14, Jan Kowalski #2",
+          "quote": "Nisos identified a second portfolio website for Jan Kowalski, which claimed that the persona is located in Poland."
+        },
+        {
+          "source_id": "doc-jan-kowalski-second-site-current",
+          "locator": "Home section",
+          "quote": "Szczecin, województwo zachodniopomorskie, Polska"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-two-sites-currently-reachable",
+      "label": "Source reported portfolio sites publicly reachable",
+      "category": "infrastructure",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-veteransoftdev-site-current",
+          "locator": "HTML title and About section",
+          "quote": "Hello, I'm Jan Kowalski."
+        },
+        {
+          "source_id": "doc-jan-kowalski-second-site-current",
+          "locator": "HTML title and Home section",
+          "quote": "Hi, I'am Jan"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-veteransoftdev-current-portfolio-link",
+      "label": "Github profile currently links source reported portfolio",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-veteransoftdev-user",
+          "locator": "complete public user API response, blog field",
+          "quote": "\"blog\": \"https://veteransoftdev.github.io/\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-veteransoftdev-current-status",
+      "label": "Source linked github account publicly reachable",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-veteransoftdev-user",
+          "locator": "complete public user API response, login field",
+          "quote": "\"login\": \"VeteranSoftDev\""
+        },
+        {
+          "source_id": "doc-github-veteransoftdev-user",
+          "locator": "complete public user API response, public_repos field",
+          "quote": "\"public_repos\": 18"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-veteransoftdev-repositories-current",
+      "label": "Public repository listing contains source reported artifacts",
+      "category": "account",
+      "observed": "2026-08-13",
+      "evidence": [
+        {
+          "source_id": "doc-github-veteransoftdev-repositories",
+          "locator": "complete 18-record public repository listing, name fields",
+          "quote": "\"full_name\": \"VeteranSoftDev/Web\""
+        },
+        {
+          "source_id": "doc-github-veteransoftdev-repositories",
+          "locator": "complete 18-record public repository listing, name fields",
+          "quote": "\"full_name\": \"VeteranSoftDev/VeteranSoftDev.github.io\""
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-veteransoftdev-source-link",
+      "label": "Researcher linked historical github account",
+      "category": "account",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 14, GitHub",
+          "quote": "The same threat actor is also associated with GitHub account VeteranSoftDev, which uses the same profile picture and links to the portfolio website."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-veteransoftdev-web-aff-network",
+      "label": "Researcher linked repository to aff network",
+      "category": "relationship",
+      "observed": "2025-05-01",
+      "evidence": [
+        {
+          "source_id": "doc-a2cf3f705a9c",
+          "locator": "PDF p. 14, GitHub",
+          "quote": "The account contains a repository labeled “Web”, which mentions AFF and highlights work from another network persona, Jiner Enoheart, who was also listed in the AFF screenshots above."
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

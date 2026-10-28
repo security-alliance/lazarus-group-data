@@ -1,0 +1,483 @@
+{
+  "id": "facilitator-emanuel-ashtor",
+  "type": "facilitator",
+  "name": "Emanuel Ashtor",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. The latest reviewed official merits source lists the defendant as charged and awaiting trial through 2026-08-12; future scheduling entries preserve procedural status, while merits disposition remains unreported. Charged in S.D. Fla. No. 1:25-cr-20021-DPG.",
+    "as_of": "2026-08-18",
+    "source_ids": [
+      "dldr12-s04",
+      "gov-1e5d7a8258fa",
+      "gov-b89e91664279",
+      "sar55-s02-ashtor-docket-feed"
+    ]
+  },
+  "legal_or_reported_name": "Emanuel Ashtor",
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "The search covered public indexed records; sealed, restricted, delayed, PACER-only, and pending-index activity remain outside its reach.",
+    "Charges are allegations, and the subject is presumed innocent unless and until proven guilty.",
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Future court settings may change; hearing or trial occurrence remains a future-status question.",
+    "Merits disposition status through August 12, 2026 remains unlocated.",
+    "Proceedings scheduled after the research cutoff remain scheduled events; outcome status belongs to later court records.",
+    "The December settings are mutable future settings and carry no merits determination. Entry 96 names three other defendants; their cancellation or fugitive characterizations apply to those defendants, while Ashtor's record remains separate.",
+    "The latest retained subject-specific official status source is DOJ's May 6, 2026 release; docket disposition after the bounded no-disposition statement remains unreported.",
+    "The latest cited official subject-specific status source is the May 6, 2026 DOJ release; the absence of a located disposition is limited to the stated cutoff."
+  ],
+  "aliases": [
+    {
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-1e5d7a8258fa"
+      ],
+      "value": "Ndagijimana Emmanuel"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "criminal-case-docket",
+      "value": "S.D. Fla. No. 1:25-cr-20021-DPG",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "dldr12-s04",
+        "gov-1e5d7a8258fa"
+      ]
+    },
+    {
+      "type": "criminal-case-procedural-status",
+      "value": "S.D. Fla. No. 1:25-cr-20021-DPG",
+      "status_as_of": "2026-08-12",
+      "status": "charged; awaiting trial as of 2026-05-06; no verified merits disposition through the research cutoff",
+      "relationship": "official-doj-case-status",
+      "source_ids": [
+        "dldr12-s04"
+      ]
+    },
+    {
+      "type": "criminal-case-status",
+      "value": "S.D. Fla. No. 1:25-cr-20021-DPG",
+      "status_as_of": "2026-08-12",
+      "status": "charged; no verified merits disposition",
+      "source_ids": [
+        "dldr12-s04",
+        "gov-1e5d7a8258fa"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-emanuel-ashtor"
+  ],
+  "sources": [
+    {
+      "source_id": "sar55-s02-ashtor-docket-feed",
+      "support": "The CourtListener Atom feed reproduces the same entry-specific court-docket scheduling and defendant-scoped cancellation text as the two previously reviewed docket-entry pages",
+      "locator": "Atom entry 95, published 2026-05-20; Atom entry 96, published 2026-06-09"
+    },
+    {
+      "source_id": "gov-1e5d7a8258fa",
+      "support": "The charging instrument identifies Ashtor in the shared Florida prosecution. For defendants without a separate disposition, the indictment remains allegations only | The indictment caption identifies the shared Florida prosecution, S.D. Fla. No. 1:25-cr-20021-DPG | The indictment charges Emanuel Ashtor, identifies Ndagijimana Emmanuel as an alias, alleges his ownership role in Vali Tech Inc., laptop hosting and unauthorized remote-access installation, and receipt of scheme proceeds",
+      "locator": "S.D. Fla. No. 1:25-cr-20021-DPG, caption; ¶15; ¶¶4–11, PDF pp. 2, 6, 9–12 | S.D. Fla. No. 1:25-cr-20021-DPG, Doc. 3 | S.D. Fla. No. 1:25-cr-20021-DPG, Doc. 3, caption"
+    },
+    {
+      "source_id": "gov-b89e91664279",
+      "support": "The release names Emanuel Ashtor as a charged U.S. facilitator and says he hosted victim-company laptops at his residence and installed remote-access software without authorization for overseas IT-worker access",
+      "locator": "Press release — allegations, named subjects, organizations, and scheme summary"
+    },
+    {
+      "source_id": "dldr12-s04",
+      "support": "The May 6, 2026 DOJ release states that Emanuel Ashtor remained awaiting trial and reports no plea, conviction, acquittal, dismissal, or other merits disposition for him.",
+      "locator": "Paragraph beginning “On Jan. 21, 2025” and pending-co-defendant discussion"
+    },
+    {
+      "source_id": "src-b5c401ccaaa2"
+    },
+    {
+      "source_id": "src-363d4572996c"
+    },
+    {
+      "source_id": "DOLG25-S06-ASHTOR-SCHEDULING"
+    },
+    {
+      "source_id": "DOLG25-S07-ASHTOR-FUGITIVE-CANCELLATION"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-charged-name",
+      "type": "identity_name",
+      "predicate": "name_in_indictment",
+      "value": {
+        "name": "Emanuel Ashtor"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 2, caption",
+          "quote": "EMANUEL ASHTOR"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Name in charging instrument; not a guilt finding."
+      ]
+    },
+    {
+      "id": "claim-alias-ndagijimana-emmanuel",
+      "type": "alias",
+      "predicate": "charged_alias",
+      "value": {
+        "alias": "Ndagijimana Emmanuel"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 2, caption",
+          "quote": "EMANUEL ASHTOR, a/k/a \"Ndagijimana Emmanuel,\""
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment alias only; no separate civil identity resolution."
+      ]
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the Southern District of Florida",
+        "docket": "1:25-cr-20021-DPG"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 2, filed stamp",
+          "quote": "25-CR-20021-GAYLES/GOODMAN"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "The docket's judge suffix appears in normalized form as DPG."
+      ]
+    },
+    {
+      "id": "claim-us-national",
+      "type": "location",
+      "predicate": "doj_reported_nationality",
+      "value": {
+        "nationality": "United States"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "opening paragraph",
+          "quote": "U.S. nationals Erick Ntekereze Prince and Emanuel Ashtor"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "Public nationality descriptor; no residential location is retained."
+      ]
+    },
+    {
+      "id": "claim-vali-tech-owner",
+      "type": "organization_affiliation",
+      "predicate": "alleged_owner_of",
+      "value": {
+        "organization": "Vali Tech Inc.",
+        "role": "one of the owners"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 7, para. 15",
+          "quote": "one of the owners of Vali Tech Inc."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegation. Victim/private co-officers and registration address are excluded."
+      ]
+    },
+    {
+      "id": "claim-four-charges",
+      "type": "legal_event",
+      "predicate": "charged_with_conspiracies",
+      "value": {
+        "offenses": [
+          "conspiracy to cause damage to a protected computer",
+          "conspiracy to commit wire fraud and mail fraud",
+          "conspiracy to commit money laundering",
+          "conspiracy to transfer false identification documents"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "paragraph beginning 'All five defendants'",
+          "quote": "All five defendants are charged with conspiracy to cause damage to a protected computer, conspiracy to commit wire fraud and mail fraud, conspiracy to commit money laundering, and conspiracy to transfer false identification documents."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Charges are allegations. The IEEPA count was charged only against the two North Korean defendants, not Ashtor."
+      ]
+    },
+    {
+      "id": "claim-laptop-hosting",
+      "type": "incident",
+      "predicate": "allegedly_hosted_company_laptops",
+      "value": {
+        "purpose": "remote access by alleged co-conspirators"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF pp. 11-12, para. 6",
+          "quote": "the co-conspirators received U.S. victim company-provided laptops (\"victim laptops\") at ERICK NTEKEREZE PRINCE's and EMANUEL ASHTOR's residences."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegation; addresses are excluded."
+      ]
+    },
+    {
+      "id": "claim-installed-remote-access",
+      "type": "incident",
+      "predicate": "allegedly_installed_unauthorized_remote_access",
+      "value": {
+        "applications": [
+          "AnyDesk",
+          "TeamViewer"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 19, overt acts 26 and 29",
+          "quote": "EMANUEL ASHTOR, without authorization, connected the Company D laptop to Company D's network and then knowingly downloaded and installed AnyDesk"
+        },
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 19, overt act 29",
+          "quote": "knowingly downloaded and installed Team Viewer on the second Company D laptop."
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegations; no credentials, device identifiers, or access instructions are retained."
+      ]
+    },
+    {
+      "id": "claim-fraudulent-i9-certification",
+      "type": "incident",
+      "predicate": "allegedly_certified_false_identity_document",
+      "value": {
+        "document_context": "Form I-9"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 19, overt act 27",
+          "quote": "certifying that ASHTOR had examined the U.S. passport ending in -3892 for \"K. Bane\" and determined it was legitimate, despite knowing that it was fraudulent."
+        }
+      ],
+      "observed_at": "2022-10-20",
+      "notes": [
+        "Indictment allegation. The document image, victim persona, and selector are not retained in structured value."
+      ]
+    },
+    {
+      "id": "claim-vali-tech-invoices",
+      "type": "incident",
+      "predicate": "allegedly_invoiced_for_overseas_worker",
+      "value": {
+        "minimum_invoices": 10,
+        "period_start": "2023-01",
+        "period_end": "2024-05"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF pp. 19-20, overt act 31",
+          "quote": "EMANUEL ASHTOR used his company, Vali Tech Inc., to invoice U.S. IT Company 2 at least 10 times for IT work performed by JIN SUNG-IL"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegation. Victim-company identity is excluded."
+      ]
+    },
+    {
+      "id": "claim-alleged-payment-received",
+      "type": "incident",
+      "predicate": "allegedly_received_scheme_payment",
+      "value": {
+        "currency": "USD",
+        "amount_more_than": "40000"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1e5d7a8258fa",
+          "locator": "PDF p. 13, para. 11",
+          "quote": "EMANUEL ASHTOR was paid more than $40,000, through Vali Tech Inc. and other means"
+        }
+      ],
+      "observed_at": "2025-01-21",
+      "notes": [
+        "Indictment allegation, not forfeiture or adjudication."
+      ]
+    },
+    {
+      "id": "claim-arrested",
+      "type": "legal_event",
+      "predicate": "doj_reported_arrest",
+      "value": {
+        "status": "arrested in connection with prosecution"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "paragraph beginning 'According to the indictment, over the course'",
+          "quote": "the FBI arrested Ntekereze and Ashtor"
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "No detention, address, or booking data retained."
+      ]
+    },
+    {
+      "id": "claim-awaiting-trial",
+      "type": "legal_event",
+      "predicate": "official_status_awaiting_trial",
+      "value": {
+        "as_of": "2026-05-06"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dldr12-s04",
+          "locator": "Southern District of Florida section, paragraph beginning 'On Jan. 21, 2025'",
+          "quote": "Ashtor is awaiting trial"
+        }
+      ],
+      "observed_at": "2026-05-06",
+      "notes": [
+        "Latest accessible subject-specific official status source. It does not establish that a later trial occurred."
+      ]
+    },
+    {
+      "id": "claim-north-carolina-laptop-farm-context",
+      "type": "location",
+      "predicate": "doj_reported_historical_residence_and_alleged_laptop_farm",
+      "value": {
+        "location": "North Carolina, United States",
+        "granularity": "state",
+        "context": "DOJ-reported residence search and prior alleged laptop-farm operation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b89e91664279",
+          "locator": "paragraph beginning 'According to the indictment, over the course'",
+          "quote": "the FBI arrested Ntekereze and Ashtor and executed a search of Ashtor’s residence in North Carolina, where he previously operated a “laptop farm”"
+        },
+        {
+          "source_id": "src-b5c401ccaaa2",
+          "locator": "paragraph beginning 'The FBI arrested Ntekereze and Ashtor'",
+          "quote": "The FBI arrested Ntekereze and Ashtor after a search of Ashtor’s North Carolina residence, which previously served as the home base for the “laptop farm.”"
+        },
+        {
+          "source_id": "src-363d4572996c",
+          "locator": "third paragraph",
+          "quote": "Ntekereze and Ashtor were arrested by the FBI, who found evidence of a “laptop farm” at Ashtor’s home during a raid."
+        }
+      ],
+      "observed_at": "2025-01-23",
+      "notes": [
+        "The Justice Department is the underlying source; the two reporting articles independently edit the account but do not provide independent court evidence.",
+        "State-level historical context only. No address, county, city, property, current residence, present location, or private household information is retained.",
+        "The laptop-farm characterization and associated conduct remain allegations, not adjudicated facts."
+      ]
+    },
+    {
+      "id": "claim-future-december-2026-settings",
+      "type": "legal_event",
+      "predicate": "court_scheduled_future_calendar_call_and_trial",
+      "value": {
+        "order_date": "2026-05-20",
+        "calendar_call": "2026-12-09",
+        "jury_trial": "2026-12-14",
+        "status": "future settings as of the reviewed public docket capture"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DOLG25-S06-ASHTOR-SCHEDULING",
+          "locator": "Doc. 95 public docket description",
+          "quote": "Calendar Call set for 12/9/2026 at 9:30 AM in Miami Division before Judge Darrin P. Gayles. Jury Trial set for 12/14/2026 in Miami Division before Judge Darrin P. Gayles."
+        },
+        {
+          "source_id": "DOLG25-S07-ASHTOR-FUGITIVE-CANCELLATION",
+          "locator": "Doc. 96 public docket description",
+          "quote": "PAPERLESS Order Canceling Jury Trial and Calendar Call as to Jin Sung-IL, Pedro Ernesto Alonso De Los Reyes, and Pak Jin-Song."
+        },
+        {
+          "source_id": "sar55-s02-ashtor-docket-feed",
+          "locator": "Atom entry 95, published 2026-05-20",
+          "quote": "Calendar Call set for 12/9/2026 at 9:30 AM in Miami Division before Judge Darrin P. Gayles. Jury Trial set for 12/14/2026 in Miami Division before Judge Darrin P. Gayles."
+        },
+        {
+          "source_id": "sar55-s02-ashtor-docket-feed",
+          "locator": "Atom entry 96, published 2026-06-09",
+          "quote": "PAPERLESS Order Canceling Jury Trial and Calendar Call as to Jin Sung-IL, Pedro Ernesto Alonso De Los Reyes, and Pak Jin-Song."
+        }
+      ],
+      "observed_at": "2026-05-20",
+      "notes": [
+        "These future schedules are mutable and do not establish that a calendar call or trial occurred, or that there was a plea, verdict, dismissal, acquittal, conviction, sentence, or other merits disposition.",
+        "Doc. 96 does not name Ashtor; its cancellation and any fugitive characterization are not transferred to him.",
+        "The latest subject-specific official merits posture remains the May 6, 2026 DOJ statement that Ashtor was awaiting trial."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Emanuel Ashtor, also charged as Ndagijimana Emmanuel, in S.D. Fla. No. 1:25-cr-20021-DPG; every conduct claim remains an indictment allegation, and the latest verified official posture is awaiting trial as of May 6, 2026."
+}

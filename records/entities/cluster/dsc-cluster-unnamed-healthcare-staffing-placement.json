@@ -1,0 +1,57 @@
+{
+  "id": "dsc-cluster-unnamed-healthcare-staffing-placement",
+  "type": "cluster",
+  "name": "Unnamed healthcare-administration placement through a staffing chain",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Official federal indictment; employment and device delivery remain allegations, and patient-data access is absent from the allegations.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DSC-S01"
+    ]
+  },
+  "ttps": [
+    "borrowed-identity",
+    "laptop-farm",
+    "laptop-forwarding",
+    "staffing-firm"
+  ],
+  "caveats": [
+    "Behavioral signals require corroboration and human review; staffing, badge, device, download, location, and sector signals become DPRK attribution only with supporting evidence.",
+    "Official federal indictment; employment and device delivery remain allegations, while patient-data access falls outside its allegations.",
+    "official indictment; allegation only"
+  ],
+  "infrastructure": [
+    {
+      "type": "unnamed-sector-incident",
+      "sector": "healthcare",
+      "event_period": "2023-06-16 to 2023-07-17",
+      "statements": [
+        "The indictment alleges a successful contractor placement at an unnamed Missouri healthcare-administration company through a staffing chain. The end-client laptop was delivered to the domestic laptop-farm address; the filing does not allege patient-data access or compromise."
+      ],
+      "defensive_controls": [
+        "Healthcare firms should independently re-proof remote contractors supplied by staffing firms before device shipment.",
+        "Correlate shipping address, tax/home address, device geolocation and identity-verification evidence across the staffing chain.",
+        "Do not infer access to patient data: the filing alleges employment and device delivery, not PHI access or compromise."
+      ],
+      "source_ids": [
+        "DSC-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-hiring-composite-detection",
+    "facilitator-christina-marie-chapman"
+  ],
+  "sources": [
+    {
+      "source_id": "DSC-S01",
+      "support": "The indictment alleges a successful contractor placement at an unnamed Missouri healthcare-administration company through a staffing chain. The end-client laptop was delivered to the domestic laptop-farm address; the filing does not allege patient-data access or compromise",
+      "locator": "PDF pp. 4, 20, 27-37; especially ¶¶ 23, 30(w)-(ddd)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

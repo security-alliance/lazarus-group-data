@@ -1,0 +1,59 @@
+{
+  "id": "dpa-ttp-bounded-overseas-labour-control-context",
+  "type": "ttp",
+  "name": "Bounded overseas-labour control context for IT-worker management",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official OHCHR overseas-labour context. Criminal adjudication is outside this context, and the described conditions apply at report scope rather than universally to every DPRK IT worker.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dpa-s01-a-80-149",
+      "dpa-s03-ohchr-forced-labour-2024"
+    ]
+  },
+  "ttps": [
+    "manager-percentage-cut",
+    "regime-remittance",
+    "team-manager"
+  ],
+  "caveats": [
+    "Most detailed testimony in the 2024 OHCHR report concerns overseas labour generally, including non-IT sectors; conditions, deductions, controls, and percentages require source-specific support before applying them to an IT worker.",
+    "This record retains no protected witness identifier or other interview-level personal data.",
+    "Use this context only for system safeguards; demographic, nationality, language, geographic, socioeconomic, and student-status screening fall outside this use."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-structural-context",
+      "statements": [
+        "OHCHR's 2024 thematic report describes a general overseas-labour model in which host employers pay DPRK-affiliated companies, workers receive a limited share after State and living-cost deductions, and compensation can remain subject to manager discretion.",
+        "The same report describes surveillance and movement or information controls by Ministry of State Security officers or unit heads in overseas labour settings.",
+        "A/80/149 separately places information-technology workers within the broader State overseas-labour system, but the detailed 2024 testimony concerns overseas labour generally and cannot be silently transferred to every IT worker."
+      ],
+      "source_ids": [
+        "dpa-s01-a-80-149",
+        "dpa-s03-ohchr-forced-labour-2024"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-01-bbc-tiered-workforce-management",
+    "deep2-ttp-deep-ttp-05-worker-monitoring-and-production-quota",
+    "deep2-unhistory-un-2019-revenue-cover-model"
+  ],
+  "sources": [
+    {
+      "source_id": "dpa-s01-a-80-149",
+      "support": "Supports the narrower bridge that information-technology workers are part of the broader State-managed overseas labour system; it does not make every general labour condition IT-worker-specific",
+      "locator": "A/80/149 paras. 20-22 (PDF pp. 7-8)"
+    },
+    {
+      "source_id": "dpa-s03-ohchr-forced-labour-2024",
+      "support": "Supports the bounded general overseas-labour context concerning company-level payment collection, deductions, manager discretion, surveillance, and movement or information controls",
+      "locator": "OHCHR Forced labour, paras. 95-103 (report pp. 37-41; PDF pp. 39-43)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

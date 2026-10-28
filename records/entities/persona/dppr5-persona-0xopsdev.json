@@ -1,0 +1,317 @@
+{
+  "id": "dppr5-persona-0xopsdev",
+  "type": "persona",
+  "name": "0xopsdev persona",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Research attribution only; public charge, adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dppr5-ketman-github-organizations-2025"
+    ]
+  },
+  "organizations": [
+    "HyperbuildX",
+    "m8s-lab"
+  ],
+  "ttps": [
+    "Source-attributed public employment-persona and developer-account use"
+  ],
+  "caveats": [
+    "Current ownership or control of any public account remains unresolved; account-holder contact, targeting, and investigation require a separate lawful basis.",
+    "Counterparties or employers remain outside scheme-participant attribution in this record.",
+    "Merge the alias labels with similarly named GitHub users only with exact source continuity.",
+    "The omitted wallet is unavailable for tracing, contact or identity resolution.",
+    "Ketman reports 0xopsdev as a HyperbuildX-orbit persona and explicitly lists three additional names. A source-published wallet and email are deliberately omitted from this dataset.",
+    "Name similarity, appearance, avatars, code style, followers, stars, forks, organization membership, and social amplification provide context only; relationships require source links.",
+    "Persona labels and public handles are source-reported indicators; legal identity and criminal-guilt status require separate official findings."
+  ],
+  "aliases": [
+    {
+      "value": "MinionGit",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "ZireaelGit",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "meta0xflip",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "0xopsdev",
+      "url": "https://github.com/0xopsdev",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dppr5-ketman-github-organizations-2025",
+      "support": "Ketman reports 0xopsdev as a HyperbuildX-orbit persona and explicitly lists three additional names. A source-published wallet and email are deliberately omitted from this dataset",
+      "locator": "The Core Team of HyperbuildX; Other DPRK IT Workers in the orbit of HyperbuildX; Indicators of Compromise"
+    },
+    {
+      "source_id": "src-4ed64806575a"
+    },
+    {
+      "source_id": "src-dffce3fd63c3"
+    },
+    {
+      "source_id": "src-f25d56625f57"
+    },
+    {
+      "source_id": "src-db81b9305296"
+    },
+    {
+      "source_id": "src-85945298da8f"
+    },
+    {
+      "source_id": "src-a604322d8714"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-0xops-source-account-aliases",
+      "type": "account",
+      "predicate": "publisher_reported_account_and_aliases",
+      "value": {
+        "github": "0xopsdev",
+        "reported_aliases": [
+          "ZireaelGit",
+          "MinionGit",
+          "meta0xflip"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "0xOpsDev account block",
+          "quote": "0xOpsDev\nGithub URL:\nhttps://github.com/0xopsdev"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "0xOpsDev account block, other names",
+          "quote": "Other names:\nZireaelGit, MinionGit, meta0xflip"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Source-reported aliases only; similarly named current users are not merged without continuity evidence."
+      ]
+    },
+    {
+      "id": "claim-0xops-source-hyperbuildx-context",
+      "type": "organization_affiliation",
+      "predicate": "publisher_listed_in_hyperbuildx_core_team_section",
+      "value": {
+        "organization": "HyperBuildX",
+        "context": "listed persona block in core-team section"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "Section heading preceding persona blocks",
+          "quote": "The Core Team of HyperbuildX"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "0xOpsDev block heading",
+          "quote": "0xOpsDev"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Section placement is publisher context, not proof of current membership, employment, shared control, or guilt."
+      ]
+    },
+    {
+      "id": "claim-0xops-source-payment-dispute",
+      "type": "incident",
+      "predicate": "publisher_reported_public_nonpayment_complaint",
+      "value": {
+        "context": "past engagement",
+        "reported_action": "complained publicly about not being paid",
+        "payment_selector_status": "excluded",
+        "publisher_caveat": "DPRK IT workers can themselves be salary-scam victims"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "0xOpsDev section, payment-dispute paragraph",
+          "quote": "one of the traces of his past engagement where he complains about not getting paid"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "0xOpsDev section, source caveat",
+          "quote": "DPRK IT Workers are sometimes victims themselves, being scammed out of a salary."
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Ketman publisher context only. The source-published wallet and transaction history were excluded, and the complaint does not establish the employer, amount, contractual facts, or adjudicated wrongdoing by either party."
+      ]
+    },
+    {
+      "id": "claim-0xops-tayvano-public-account-pairing",
+      "type": "account",
+      "predicate": "curated_osint_source_paired_x_and_github_handles",
+      "value": {
+        "cluster_section": "m8s-lab / MutantRolls / HyperbuildX",
+        "x_handle": "0xopsdev",
+        "github_handle": "0xopsdev",
+        "current_x_status": "HTTP 404 profile not found",
+        "current_github_status": "HTTP 404 Not Found",
+        "attribution_boundary": "curated discovery grouping; not a legal finding or current-controller proof"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-4ed64806575a",
+          "locator": "m8s-lab / MutantRolls / HyperbuildX, 0xopsdev section",
+          "quote": "x.com/0xopsdev github.com/0xopsdev"
+        },
+        {
+          "source_id": "src-dffce3fd63c3",
+          "locator": "Open Graph title",
+          "quote": "User Profile Not Found - X"
+        },
+        {
+          "source_id": "src-f25d56625f57",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        }
+      ],
+      "observed_at": "2026-07-25",
+      "notes": [
+        "This adds a source-published historical X handle paired with the known GitHub handle. Tayvano's adjacent handles and blockchain selector were not converted into shared-control or identity claims."
+      ]
+    },
+    {
+      "id": "claim-0xops-current-alias-endpoint-statuses",
+      "type": "account",
+      "predicate": "current_public_reported_alias_label_endpoint_statuses",
+      "value": {
+        "platform": "GitHub",
+        "statuses": [
+          {
+            "reported_label": "ZireaelGit",
+            "endpoint_status": "HTTP 404 Not Found"
+          },
+          {
+            "reported_label": "meta0xflip",
+            "endpoint_status": "HTTP 404 Not Found"
+          },
+          {
+            "reported_label": "MinionGit",
+            "endpoint_status": "HTTP 200",
+            "current_login": "miniongit",
+            "numeric_id": 153974462,
+            "created_at": "2023-12-16T05:38:17Z",
+            "public_repositories": 0,
+            "followers": 0,
+            "following": 0,
+            "merge_status": "not merged"
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-db81b9305296",
+          "locator": "JSON fields message and status",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-85945298da8f",
+          "locator": "JSON fields message and status",
+          "quote": "\"status\": \"404\""
+        },
+        {
+          "source_id": "src-a604322d8714",
+          "locator": "JSON fields login and id",
+          "quote": "\"login\": \"miniongit\""
+        },
+        {
+          "source_id": "src-a604322d8714",
+          "locator": "JSON field id",
+          "quote": "\"id\": 153974462"
+        },
+        {
+          "source_id": "src-a604322d8714",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2023-12-16T05:38:17Z\""
+        },
+        {
+          "source_id": "src-a604322d8714",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 0"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "High confidence applies only to current endpoint metadata. The empty MinionGit account could be the historical alias, a renamed/recreated account, or an unrelated collision; no continuity evidence survived, so no identity or controller merge was made."
+      ]
+    },
+    {
+      "id": "claim-0xops-current-github-status",
+      "type": "account",
+      "predicate": "current_public_account_endpoint_status",
+      "value": {
+        "platform": "GitHub",
+        "historical_handle": "0xopsdev",
+        "status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-f25d56625f57",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-f25d56625f57",
+          "locator": "JSON field status",
+          "quote": "\"status\": \"404\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current unavailability does not establish removal cause, timing, ownership, or identity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ketman-reported developer persona and handle set. Similar alias labels remain separate; civil identity is unestablished, and omitted contact or payment selectors are excluded from tracing."
+}

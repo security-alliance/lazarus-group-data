@@ -1,0 +1,79 @@
+{
+  "id": "dphr5-ttp-aggregate-repository-copying-and-coercion",
+  "type": "ttp",
+  "name": "Aggregate repository or sensitive-data copying followed by coercion",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "This is multi-source aggregate threat reporting: a conditional behavior family whose public denominator and universal-worker scope are outside the cited reporting.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPHR5-S02-FBI-DATA-EXTORTION",
+      "DPHR5-S03-GTIG-EXTORTION",
+      "DPHR5-S04-SOPHOS-NICKEL-TAPESTRY",
+      "DPHR5-S09-CH-BACS-2024-2"
+    ]
+  },
+  "ttps": [
+    "delayed-coercion",
+    "post-employment-extortion",
+    "sensitive-data-collection",
+    "source-code-copying",
+    "threatened-disclosure"
+  ],
+  "caveats": [
+    "The record describes reported conduct by specific fraudulent workers; theft, extortion, espionage, persistence, and sabotage remain case-specific.",
+    "Evidence class: official and vendor aggregate.",
+    "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+    "The record retains bounded source context; people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, and private repository content stay outside it.",
+    "The retained sources provide no reliable public denominator.",
+    "The threatened transfer to a competitor is source-reported; the reviewed material leaves completion unresolved."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-and-vendor-aggregate-harm-pattern",
+      "statements": [
+        "Independent U.S., Swiss and first-party vendor sources describe workers retaining source code, proprietary repositories or sensitive company data and later threatening publication, sale or transfer to competitors. Google dates an increase in attempts to late October 2024; Sophos warns collection may happen soon after hiring while coercion may wait until termination."
+      ],
+      "limitations": [
+        "Evidence class: official and vendor aggregate.",
+        "No retained source provides a reliable public denominator.",
+        "Threatened transfer to a competitor is source-reported; this pass found no public case proving a completed competitor transfer.",
+        "No people, personas, accounts, entities, victim organizations, raw data, sensitive selectors, images, wallets, payment identifiers, or private repository content are retained.",
+        "Fraudulent employment, post-hire insider abuse, fake-interview malware, and external intrusion remain separate analytic tracks unless a source expressly establishes same-case overlap.",
+        "Do not infer that every fraudulent worker performs theft, extortion, espionage, persistence, or sabotage."
+      ],
+      "source_ids": [
+        "DPHR5-S02-FBI-DATA-EXTORTION",
+        "DPHR5-S03-GTIG-EXTORTION",
+        "DPHR5-S04-SOPHOS-NICKEL-TAPESTRY",
+        "DPHR5-S09-CH-BACS-2024-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPHR5-S03-GTIG-EXTORTION",
+      "support": "GTIG assesses that extortion attempts increased from late October 2024 and targeted larger organizations. In described incidents, recently terminated workers threatened to release former employers' sensitive material or provide it to competitors; the material included proprietary data and internal-project source code. Independent U.S., Swiss and first-party vendor sources describe workers retaining source code, proprietary repositories or sensitive company data and later threatening publication, sale or transfer to competitors. Google dates an increase in attempts to late October 2024; Sophos warns collection may happen soon after hiring while coercion may wait until termination",
+      "locator": "Extortion Heating Up"
+    },
+    {
+      "source_id": "DPHR5-S02-FBI-DATA-EXTORTION",
+      "support": "The FBI says some workers copied proprietary code repositories and other sensitive company data, demanded payments after discovery or termination, and threatened disclosure. It recommends preserving evidence, limiting access, reviewing network and code-repository logs and reporting incidents. Independent U.S., Swiss and first-party vendor sources describe workers retaining source code, proprietary repositories or sensitive company data and later threatening publication, sale or transfer to competitors. Google dates an increase in attempts to late October 2024; Sophos warns collection may happen soon after hiring while coercion may wait until termination",
+      "locator": "Threat description and recommended mitigations"
+    },
+    {
+      "source_id": "DPHR5-S09-CH-BACS-2024-2",
+      "support": "BACS describes deceptive hiring followed by theft of sensitive data and threats to publish or sell it unless payment is made. Independent U.S., Swiss and first-party vendor sources describe workers retaining source code, proprietary repositories or sensitive company data and later threatening publication, sale or transfer to competitors. Google dates an increase in attempts to late October 2024; Sophos warns collection may happen soon after hiring while coercion may wait until termination",
+      "locator": "Chapter 5.3, Extortion by North Korean IT workers"
+    },
+    {
+      "source_id": "DPHR5-S04-SOPHOS-NICKEL-TAPESTRY",
+      "support": "Sophos says several extortion attempts were reported in 2024, source-code and intellectual-property theft remains an ongoing post-termination risk, and data may be taken within days of hiring but reserved for later coercion. It separately frames cloud or API access, credential theft, trade-secret knowledge and access reuse by other DPRK groups as insider-risk possibilities. Independent U.S., Swiss and first-party vendor sources describe workers retaining source code, proprietary repositories or sensitive company data and later threatening publication, sale or transfer to competitors. Google dates an increase in attempts to late October 2024; Sophos warns collection may happen soon after hiring while coercion may wait until termination",
+      "locator": "Opening threat overview; data-theft extortion and insider-threat paragraphs"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

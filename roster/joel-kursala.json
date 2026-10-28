@@ -1,0 +1,35 @@
+{
+  "id": "joel-kursala",
+  "real_name": "Joel Kursala",
+  "gender": "male",
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "scott-brown"
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0xa8cB25ddf0A7195BDc3232ac6e1D812c8a4713Fe"
+      ]
+    }
+  ],
+  "notes": "Part of the Scott Brown Cluster. Received payroll to same address as Scott Brown.\nWallet Addresses:\n0xa8cB25ddf0A7195BDc3232ac6e1D812c8a4713Fe",
+  "images": [
+    {
+      "path": "/team-images/joel-kursala/joel-kursala-av.png",
+      "short_description": "Joel Kursala avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

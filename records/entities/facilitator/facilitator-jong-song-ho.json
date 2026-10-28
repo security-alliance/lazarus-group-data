@@ -1,0 +1,403 @@
+{
+  "id": "facilitator-jong-song-ho",
+  "type": "facilitator",
+  "name": "Jong Song-ho (정성호)",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Jinmyong Joint Bank representative and coal-export facilitator sanctioned by the United States and Republic of Korea; named by an issuing government or multilateral sanctions-monitoring source; administrative sanctions designation with case-specific charging status and no criminal conviction on record.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-28e42dec45a8",
+      "gov-2d8dc05b8be6",
+      "gov-32a750c6b801",
+      "gov-81fd96ced830",
+      "gov-e31464a55e89",
+      "int-rok-mofa-2024-sanctions"
+    ]
+  },
+  "legal_or_reported_name": "Jong Song-ho (정성호)",
+  "organizations": [
+    "Jinmyong Joint Bank"
+  ],
+  "locations": [
+    "Vladivostok, Russia"
+  ],
+  "caveats": [
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "CHO'NG, So'ng-ho — official romanization.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family.",
+    "The official primary form JONG, Song Ho and alternate romanization CHO'NG, So'ng-ho are retained as source-specific renderings tied to one OFAC entity. Only designation-era Vladivostok city-and-country context is retained; present location and precise address require separate sources. Treasury's coal statements are administrative-source assessments, with no adjudicated finding in this record."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "CHO'NG, So'ng-ho"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-32a750c6b801",
+        "gov-81fd96ced830"
+      ],
+      "value": "JONG, Song Ho"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-jong-song-ho"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "Treasury identifies Jong Song Ho as a Russia-based representative of Jinmyong Joint Bank, reports that he had engaged in exporting DPRK coal and, as of 2019, was involved in developing DPRK coal-briquette factories that facilitated coal exports for foreign currency, and records his E.O. 13810 designation. These are administrative-source assessments, not adjudicated findings; no buyer, shipment, factory, account, counterparty, or transaction selector is retained",
+      "locator": "Jong Song Ho paragraph"
+    },
+    {
+      "source_id": "gov-32a750c6b801",
+      "support": "The administrative action lists JONG, Song Ho, the alternate romanization CHO'NG, So'ng-ho, Vladivostok, Russia, the DPRK4 program, and the linked-to relationship with Jinmyong Joint Bank. Birth, nationality, gender, passport, compliance, and other sensitive fields are excluded",
+      "locator": "SDN additions, Jong entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Vladivostok, Russia for OFAC entity number 48269 without a street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 48269"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 48269: CHO'NG, So'ng-ho. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 48269"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 48269 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV",
+      "locator": "SDN.CSV primary/current-list row for OFAC ent_num 48269"
+    },
+    {
+      "source_id": "gov-81fd96ced830",
+      "support": "The official notice lists Jong Song Ho at Vladivostok, Russia, records the alternate romanization CHO'NG, So'ng-ho and Jinmyong Joint Bank link, and states the E.O. 13810 administrative designation basis. The location is retained only at coarse city-and-country level; birth, passport, and other sensitive selectors are excluded",
+      "locator": "Federal Register p. 22775, individual entry 6 and designation paragraph"
+    },
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "The ROK sanctions table identifies Jong Song-ho (정성호) as the Vladivostok representative of Jinmyong Joint Bank. Vladivostok is person-specific; Shenyang belongs to other separately listed representatives and is not attributed to Jong | The ROK sanctions table identifies Yu Pu-ung (유부웅) as the Shenyang representative of Amnokgang Development Bank and separately reports large-scale laundering of DPRK IT-worker income and procurement of sensitive goods for DPRK nuclear and missile development. Shenyang is person-specific; Vladivostok belongs to other separately listed representatives and is not attributed to Yu. The ROK bank-role claim remains distinct from the U.S. Tanchon Commercial Bank relationship",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    },
+    {
+      "source_id": "gov-2d8dc05b8be6",
+      "support": "The Reuters report published by Voice of America independently names Jong Song Ho among six people sanctioned in the coordinated U.S.-ROK action. It relies on Treasury for the underlying event and adds no independent proof of the alleged conduct, bank role, account control, or present location",
+      "locator": "Article body, named-individuals paragraph"
+    },
+    {
+      "source_id": "doaa-s05"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "ofac_primary": "JONG, Song Ho",
+        "korean": "정성호",
+        "display": "Jong Song-ho"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 48269",
+          "quote": "48269,\"JONG, Song Ho\",\"individual\",\"DPRK4\""
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Jong row",
+          "quote": "정성호 주블라디보스톡"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Jong entry",
+          "quote": "JONG, Song Ho"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "The OFAC entity-number join and Korean sanctions row bind these source-specific name forms; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "CHO'NG, So'ng-ho",
+        "ofac_entity_number": "48269"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV row joined by OFAC entity number 48269",
+          "quote": "48269,74985,\"aka\",\"CHO'NG, So'ng-ho\",-0-"
+        },
+        {
+          "source_id": "doaa-s05",
+          "locator": "SDN additions, Jong entry",
+          "quote": "a.k.a. CHO'NG, So'ng-ho"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 6",
+          "quote": "JONG, Song Ho (a.k.a. CHO'NG, So'ng-ho)"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK4",
+        "as_of": "2026-08-15",
+        "linked_organization": "Jinmyong Joint Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 48269",
+          "quote": "48269,\"JONG, Song Ho\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction. The living export does not supply the original listing date."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-bank",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Jinmyong Joint Bank",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 48269",
+          "quote": "Linked To: JINMYONG JOINT BANK."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, control, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2024-03-28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "first body paragraph",
+          "quote": "우리 정부는 3.28(목) 북한 IT 인력의 해외 외화벌이 활동에 관여하거나 불법 자금을 조달한 기관 2개와 개인 4명을 독자제재 대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Jong row",
+          "quote": "정성호 주블라디보스톡"
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-jinmyong-representative-role",
+      "type": "organization_affiliation",
+      "predicate": "officially_reported_bank_representative_role",
+      "value": {
+        "organization": "Jinmyong Joint Bank",
+        "role": "representative",
+        "reported_base": "Russia",
+        "rok_posting": "Vladivostok, Russia",
+        "as_of": "2024-03"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Jong Song Ho paragraph, first sentence",
+          "quote": "Jong Song Ho is a Russia-based representative of U.S-designated Jinmyong Joint Bank."
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Jong row, first line",
+          "quote": "정성호 주블라디보스톡"
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Jong row, second line",
+          "quote": "진명합영은행 대표"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Historical designation-time role and posting; no present employment or location is inferred."
+      ]
+    },
+    {
+      "id": "claim-jong-treasury-coal-activity",
+      "type": "incident",
+      "predicate": "treasury_reported_coal_export_and_factory_activity",
+      "value": {
+        "reported_conduct": "previously engaged in exporting DPRK coal and, as of 2019, was involved in developing coal-briquette factories in the DPRK that Treasury says facilitated coal exports for foreign currency",
+        "source_posture": "Treasury administrative assessment"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Jong Song Ho paragraph, coal sentences",
+          "quote": "Jong Song Ho has previously engaged in the exportation of DPRK coal. As of 2019, Jong Song Ho was involved in developing coal briquette factories in the DPRK, which facilitates the DPRK leadership’s scheme of exporting coal to earn foreign currency."
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Not an adjudicated finding. Treasury identifies no buyer, shipment, factory, account, counterparty, or transaction selector, and none is inferred or retained."
+      ]
+    },
+    {
+      "id": "claim-jong-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13810",
+        "date": "2024-03-27",
+        "reported_basis": "acting or purporting to act for or on behalf of Jinmyong Joint Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Jong Song Ho paragraph, designation sentence",
+          "quote": "Jong Song Ho is being designated pursuant to E.O. 13810 for acting or purporting to act for or on behalf of, directly or indirectly, Jinmyong Joint Bank."
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, designation paragraph following individual entry 6",
+          "quote": "Designated pursuant to section 1(a)(vi) of Executive Order 13810"
+        }
+      ],
+      "observed_at": "2024-03-27",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-jong-ofac-listed-location",
+      "type": "location",
+      "predicate": "treasury_reported_and_ofac_listed_coarse_location",
+      "value": {
+        "location": "Vladivostok, Russia",
+        "precision": "coarse city-and-country only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-28e42dec45a8",
+          "locator": "Jong Song Ho paragraph",
+          "quote": "Jong Song Ho is a Russia-based representative"
+        },
+        {
+          "source_id": "int-rok-mofa-2024-sanctions",
+          "locator": "sanctions table, Jong row",
+          "quote": "정성호 주블라디보스톡 진명합영은행 대표"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 6, contiguous fragment 1 of 2",
+          "quote": "JONG, Song Ho"
+        },
+        {
+          "source_id": "gov-81fd96ced830",
+          "locator": "Federal Register p. 22775, individual entry 6, contiguous fragment 2 of 2",
+          "quote": "Vladivostok, Russia"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 48269",
+          "quote": "\"Vladivostok\",\"Russia\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Person-specific official designation context only. It does not establish a street address, residence, continued presence, or present location. Shenyang, China was removed from Jong's aggregate record because the ROK and OFAC tables assign Jong specifically to Vladivostok."
+      ]
+    },
+    {
+      "id": "claim-jong-voa-reuters-designation-corroboration",
+      "type": "legal_event",
+      "predicate": "secondary_publisher_reported_ofac_designation",
+      "value": {
+        "publisher": "Voice of America / Reuters",
+        "reported_date": "2024-03-28",
+        "reported_context": "one of six individuals named in the coordinated U.S.-ROK sanctions action"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2d8dc05b8be6",
+          "locator": "Article body, named-individuals paragraph",
+          "quote": "It named the six individuals as Yu Pu Ung, Ri Tong Hyok, Han Chol Man, O In Chun, Jong Song Ho and Jon Yon Gun."
+        }
+      ],
+      "observed_at": "2024-03-28",
+      "notes": [
+        "Independent publication-level corroboration that Jong was named in the sanctions action. The Reuters report cites Treasury, so it does not independently prove the underlying conduct or alter the administrative legal posture."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Reported facilitator or legal subject; preserve allegation, designation, conviction, and identity posture separately for every claim."
+}

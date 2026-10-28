@@ -1,0 +1,315 @@
+{
+  "id": "facilitator-jo-kyong-hun",
+  "type": "facilitator",
+  "name": "Jo Kyong Hun",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID rows retain the administrative listing and Korea Sobaeksu link. The source identifies a Korea Sobaeksu representative and overseas-network facilitator; designation-era context covers the relationship, while criminal-case and present-location status remain unresolved. This is an administrative sanctions designation; criminal charge and conviction status are absent.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-264fee881740",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Jo Kyong Hun",
+  "organizations": [
+    "Korea Sobaeksu Trading Corporation"
+  ],
+  "locations": [
+    "North Korea (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "CHO, Kyo'ng-hun — official romanization.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "Sanctions-list address context records designation-era information; present physical location, current operations, ownership and control require separate evidence.",
+    "SDN.CSV and ADD.CSV are component tables of one current OFAC dataset; together they form one corroboration source.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, financial selectors, and sanctions boilerplate are excluded."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current"
+      ],
+      "value": "CHO, Kyo'ng-hun"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Korea Sobaeksu Trading Corporation",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-jo-kyong-hun"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-264fee881740",
+      "support": "OFAC designated Korea Sobaeksu Trading Company, Kim Se Un, Jo Kyong Hun, and Myong Chol Min for sanctions evasion and IT-worker revenue schemes",
+      "locator": "Overseas Trading and IT Worker Networks section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row supplies North Korea country context for Jo Kyong Hun. This is sanctions-list context and does not establish his present location",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 54800"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 54800: CHO, Kyo'ng-hun. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 54800"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 54800 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV | The current exact-ID SDN row explicitly links Jo Kyong Hun to Korea Sobaeksu Trading Corporation. Birth, passport, gender, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 54800 | SDN.CSV primary/current-list row for OFAC ent_num 54800"
+    },
+    {
+      "source_id": "dln26-s03"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "JO, Kyong Hun",
+        "display": "Jo Kyong Hun"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 54800",
+          "quote": "54800,\"JO, Kyong Hun\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "The OFAC entity number binds the primary name to the current row; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-ofac-hangul-name-form",
+      "type": "identity_name",
+      "predicate": "ofac_listed_hangul_name_form",
+      "value": {
+        "hangul": "조경훈",
+        "ofac_entity_number": "54800"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s03",
+          "locator": "Specially Designated Nationals List Update, Jo entry",
+          "quote": "JO, Kyong Hun (Hangul: 조경훈) (a.k.a. CHO, Kyo'ng-hun)"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Official source-scoped Hangul name form; it is not used to merge another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "CHO, Kyo'ng-hun",
+        "ofac_entity_number": "54800"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV row joined by OFAC entity number 54800",
+          "quote": "54800,85305,\"aka\",\"CHO, Kyo'ng-hun\",-0-"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "NPWMD",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 54800",
+          "quote": "54800,\"JO, Kyong Hun\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction. The living export does not supply the original listing date."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-sobaeksu",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Korea Sobaeksu Trading Corporation",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 54800",
+          "quote": "Linked To: KOREA SOBAEKSU TRADING CORPORATION."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, control, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-07-24",
+        "authority_basis": "Executive Order 13382",
+        "basis_entity": "Korea Sobaeksu Trading Company"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas trading and IT worker networks section, Jo-specific designation sentence",
+          "quote": "OFAC is designating Jo Kyong Hun pursuant to E.O. 13382 for having provided, or attempted to provide, financial, material, technological, or other support for, or goods or services in support of, Sobaeksu, a person whose property and interests in property are blocked pursuant to E.O. 13382."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Administrative designation, not a criminal charge, conviction, or sentence."
+      ]
+    },
+    {
+      "id": "claim-sobaeksu-it-team-leader-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_it_team_leader_role",
+      "value": {
+        "organization": "Korea Sobaeksu Trading Company",
+        "role": "IT team leader",
+        "as_of": "2025-07-24"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas trading and IT worker networks section, Jo-specific sentence",
+          "quote": "Jo Kyong Hun is a North Korea-based Sobaeksu IT team leader"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury designation-time report; no present employment is inferred from the historical statement."
+      ]
+    },
+    {
+      "id": "claim-treasury-reported-country-basis",
+      "type": "location",
+      "predicate": "treasury_reported_country_basis_at_designation",
+      "value": {
+        "country": "North Korea",
+        "source_description": "North Korea-based",
+        "as_of": "2025-07-24"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas trading and IT worker networks section, Jo-specific sentence",
+          "quote": "Jo Kyong Hun is a North Korea-based Sobaeksu IT team leader"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Designation-time country descriptor only; it does not establish a present location or a more precise location within North Korea."
+      ]
+    },
+    {
+      "id": "claim-kim-se-un-collaboration",
+      "type": "relationship",
+      "predicate": "treasury_reported_collaboration_with",
+      "value": {
+        "person": "Kim Se Un",
+        "context": "cryptocurrency and other financial issues related to IT-project revenue generation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas trading and IT worker networks section, Jo-specific sentence",
+          "quote": "Jo Kyong Hun is a North Korea-based Sobaeksu IT team leader who has worked with Kim Se Un"
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury administrative report; collaboration does not establish shared ownership of any account, wallet, company, or transaction."
+      ]
+    },
+    {
+      "id": "claim-it-project-financial-work",
+      "type": "incident",
+      "predicate": "treasury_reported_financial_work_for_it_project_revenue",
+      "value": {
+        "reported_topics": [
+          "cryptocurrency",
+          "other financial issues"
+        ],
+        "reported_purpose": "revenue generation for IT projects"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-264fee881740",
+          "locator": "Overseas trading and IT worker networks section, Jo-specific sentence",
+          "quote": "Jo Kyong Hun is a North Korea-based Sobaeksu IT team leader who has worked with Kim Se Un on cryptocurrency and other financial issues related to revenue generation for IT projects."
+        }
+      ],
+      "observed_at": "2025-07-24",
+      "notes": [
+        "Treasury administrative report, not an adjudicated criminal fact. No wallet, account, payment, transaction, project, or counterparty selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Jo Kyong Hun, listed by OFAC as JO, Kyong Hun with the Hangul name 조경훈 and alternate romanization CHO, Kyo'ng-hun, is the Korea Sobaeksu IT team leader described in Treasury’s July 2025 sanctions action. The source records an administrative designation and designation-time location posture; criminal-case, present-location, and same-named-account ownership status remain unverified."
+}

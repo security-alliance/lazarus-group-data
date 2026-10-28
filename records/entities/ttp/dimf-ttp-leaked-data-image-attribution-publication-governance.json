@@ -1,0 +1,74 @@
+{
+  "id": "dimf-ttp-leaked-data-image-attribution-publication-governance",
+  "type": "ttp",
+  "name": "Publication governance for leaked-data and image attribution claims",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified investigative reporting and defensive abstraction; named-person attribution, nationality finding, and adjudicated legal fact remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DIMF-S04",
+      "DIMF-S12"
+    ]
+  },
+  "ttps": [
+    "privacy-protection",
+    "publication-governance",
+    "source-verification"
+  ],
+  "caveats": [
+    "The record uses source text only; facial recognition, image-similarity identity inference, and possible victim imagery stay outside publication.",
+    "Research and public exports contain source-bounded material; raw leaked data, private selectors, credentials, communications, and victim details stay outside them.",
+    "Reporting may be close to operations, while public sources leave the evidentiary material unsuitable for revalidation and republication."
+  ],
+  "infrastructure": [
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Use this behavior or governance pattern only with corroborated, consistently applied human review."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, camera or audio quality, geography, address, payment service, remote-work preference, device-hosting request, or technical-answer anomaly establishes fraud or DPRK attribution.",
+        "Do not publish or derive legal identities, pseudonyms, stolen identities, victim details, private selectors, leaked communications, credentials, or image matches from these records."
+      ],
+      "source_ids": [
+        "DIMF-S04",
+        "DIMF-S12"
+      ]
+    },
+    {
+      "type": "source-qualified-investigative-finding",
+      "statements": [
+        "Researcher-attributed faces, online CVs, private communications, and leaked operational records should remain leads unless an official source or independently verifiable public record supports the identity and relationship claimed."
+      ],
+      "limitations": [
+        "The reporting may be close to operations, but the evidentiary material cannot be safely revalidated or republished from public sources alone.",
+        "No facial recognition, image-similarity identity inference, or publication of possible identity-theft victims.",
+        "No raw leaked data, private selectors, credentials, communications, or victim details in research or public exports."
+      ],
+      "source_ids": [
+        "DIMF-S04",
+        "DIMF-S12"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "existing held-source and public-image safeguards"
+  ],
+  "sources": [
+    {
+      "source_id": "DIMF-S12",
+      "support": "Researcher-attributed faces, online CVs, private communications, and leaked operational records should remain leads unless an official source or independently verifiable public record supports the identity and relationship claimed",
+      "locator": "Article-wide discussion of work routines, management, applications, and communications derived from leaked data"
+    },
+    {
+      "source_id": "DIMF-S04",
+      "support": "Researcher-attributed faces, online CVs, private communications, and leaked operational records should remain leads unless an official source or independently verifiable public record supports the identity and relationship claimed",
+      "locator": "Opening identification claims; employer responses concerning an online CV; discussion of worker relocation and overlapping personas"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

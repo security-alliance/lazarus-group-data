@@ -1,0 +1,112 @@
+{
+  "id": "ju-kwang-song",
+  "real_name": "Ju Kwang Song",
+  "fake_names": [
+    "Jin Tian"
+  ],
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-ju-kwang-song",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: MSMT-reported worker identity only; the employment label Jin Tian is source-scoped and is not treated as a civil identity. Do not merge by name or image similarity.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Identity-document imagery is do-not-publish evidence only. Do not export, cache, crop, transcribe, OCR, reproduce, perform facial recognition or identity matching, resolve aliases, or infer current appearance or location; preserve citation provenance only.",
+      "The source-reported employment label Jin Tian also appears under a separate named worker in the same MSMT table; the label is non-unique and is not evidence that the two workers are one person.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Jin Tian' is also printed under Kim Chung Hyok (/team/kim-chung-hyok) in the same MSMT Annex 7 table. It is a common Chinese personal name, not a unique identifier; no real person of that name is implicated.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-ju-kwang-song-jin-tian-employment-row",
+      "label": "Source reported employment engagement",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, Ju Kwang Song row, printed p. 108 / PDF p. 110; rate omitted",
+          "quote": "Ju Kwang  \nSong \n- \nJin Tian \n- \nUnited \nStates \n$50/hour, 40 \nhours/week \n-"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ju-kwang-song-jin-tian-label",
+      "label": "Source reported employment label",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, Ju Kwang Song row, printed p. 108 / PDF p. 110",
+          "quote": "Jin Tian"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ju-kwang-song-kmctc-affiliation",
+      "label": "Msmt reported kmctc worker affiliation",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Case Study: Korea Mangyongdae Computer Technology Corporation, PDF p. 58 / printed p. 56, opening paragraph",
+          "quote": "Korea Mangyongdae Computer Technology Corporation (KMCTC)"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 introduction, printed p. 107 / PDF p. 109",
+          "quote": "The following table details employment information of several KMCTC IT workers."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, printed p. 108 / PDF p. 110",
+          "quote": "Ju Kwang Song"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ju-kwang-song-kmctc-banking-proxy-context",
+      "label": "KMCTC organisation-level context (MSMT): banking proxies; not attributed to this individual",
+      "category": "organisation-context",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 opening narrative, PDF file p. 109 (printed p. 107)",
+          "quote": "DPRK IT workers affiliated with KMCTC used Chinese nationals as banking proxies in order to launder illicit funds generated from the DPRK IT workers' revenue generation efforts in China."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-ju-kwang-song-reported-name",
+      "label": "Msmt reported worker name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 7 employment table, printed p. 108 / PDF p. 110",
+          "quote": "Ju Kwang Song"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

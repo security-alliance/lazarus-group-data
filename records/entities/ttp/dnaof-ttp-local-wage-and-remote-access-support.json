@@ -1,0 +1,60 @@
+{
+  "id": "dnaof-ttp-local-wage-and-remote-access-support",
+  "type": "ttp",
+  "name": "Local wage movement and remote-access hardware support",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Federal threat assessment; the reviewed public material covers a general threat picture, with Swiss company, facilitator, worker, charge, sanction, and adjudicated-outcome details outside the record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DNAOF-S03-CH-BACS-2025-1"
+    ]
+  },
+  "ttps": [
+    "foreign-based-facilitator",
+    "laptop-farm",
+    "remote-desktop",
+    "remote-management-tool",
+    "wage laundering"
+  ],
+  "caveats": [
+    "Media speculation is unverified context; employer identification requires source-backed evidence.",
+    "Swiss resident or company facilitation status is unestablished in the source record.",
+    "Payment descriptions stay aggregate; accounts, addresses, and wallets stay out of the record.",
+    "This record is defensive behavior and geographic context only; named person, employer, facilitator, account, image, wallet, and adjudicated-outcome profiles require separate sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-facilitation-and-geographic-context",
+      "statements": [
+        "BACS reports that DPRK IT-worker schemes often need local support, including moving wages and supplying devices that permit remote access from the worker's true location. It also states that the employment footprint had reached companies in Switzerland. This reinforces the facilitator/laptop-farm model while extending official geographic confirmation to Switzerland."
+      ],
+      "limitations": [
+        "Federal threat assessment; no named Swiss company, facilitator, worker, charge, sanction or adjudicated outcome was disclosed in the reviewed public material.",
+        "The facilitator and device-relay pattern is already covered by U.S., UK, German and multilateral sources. The net value is an independent Swiss federal source plus explicit Switzerland exposure, not a new technique or named facilitator.",
+        "Do not infer that a Swiss resident or company knowingly facilitated the scheme.",
+        "Do not identify suspected employers from media speculation.",
+        "Keep payment descriptions aggregate; do not retain accounts, addresses or wallets."
+      ],
+      "source_ids": [
+        "DNAOF-S03-CH-BACS-2025-1"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-insider-threat",
+    "ttp-ttp-laptop-farms",
+    "ttp-ttp-payments"
+  ],
+  "sources": [
+    {
+      "source_id": "DNAOF-S03-CH-BACS-2025-1",
+      "support": "BACS reports that DPRK IT-worker schemes often need local support, including moving wages and supplying devices that permit remote access from the worker's true location. It also states that the employment footprint had reached companies in Switzerland. This reinforces the facilitator/laptop-farm model while extending official geographic confirmation to Switzerland",
+      "locator": "Section 5.2, North Korean IT Workers Expanding in Scale and Scope"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

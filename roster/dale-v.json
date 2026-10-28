@@ -1,0 +1,164 @@
+{
+  "id": "dale-v",
+  "aliases": [
+    "Dale_V"
+  ],
+  "notes": "Telegram account that, per Recorded Future Insikt Group (February 2025), posted job advertisements using agencyhill99[.]com addresses. Recorded Future places AgencyHill99 in its PurpleBravo (Famous Chollima) reporting and states it does not know who controls the associated Destiny War X account or game.",
+  "telegram": [
+    {
+      "usernames": [
+        "Dale_V"
+      ]
+    }
+  ],
+  "images": [],
+  "research_id": "persona-agencyhill99-dale-v",
+  "record_type": "persona",
+  "legal_status": {
+    "posture": "research-attributed",
+    "summary": "Telegram account that, per Recorded Future Insikt Group (February 2025), posted job advertisements using agencyhill99[.]com addresses. Recorded Future places AgencyHill99 in its PurpleBravo (Famous Chollima) reporting and states it does not know who controls the associated Destiny War X account or game.",
+    "as_of": "2026-08-12",
+    "caveats": [
+      "Identity boundary: Historical Telegram recruiter account Dale_V as reported by Recorded Future. Do not infer a civil identity, a single continuing operator, or current control from repeated job posts or reused AgencyHill99-domain email indicators.",
+      "Emails are public threat indicators from the report; mark historical and do not contact.",
+      "job advertisements observed 2024-09-16 through 2024-10-22",
+      "No identity conclusion may be drawn from profile imagery or visual similarity.",
+      "This is a source-reported persona or account label, not a verified legal identity.",
+      "Source-reported alias labels with no platform stated: Dale_V. They are not shown as account handles; any live account using these strings is not attributed by the source.",
+      "As of 2026-09-04, t.me/Dale_V shows Telegram's generic placeholder; no public account is exposed under this username.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-c84c0687ad0a",
+      "title": "From IT Workers to Cyber Operations: Tracking North Korean Threat Actors Around the Globe",
+      "publisher": "Recorded Future Insikt Group",
+      "url": "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-nk-2025-0213.pdf",
+      "date": "2025-02-13"
+    },
+    {
+      "id": "doc-recordedfuture-inside-scam-html",
+      "title": "Inside the Scam: North Korea’s IT Worker Threat",
+      "publisher": "Recorded Future Insikt Group",
+      "url": "https://www.recordedfuture.com/research/inside-the-scam-north-koreas-it-worker-threat",
+      "date": "2025-02-13"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-agencyhill99-domain-use",
+      "label": "Research reported domain indicator use",
+      "category": "organization_affiliation",
+      "observed": "2024-09-16",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, Telegram summary; mailbox local part omitted",
+          "quote": "an account with the username Dale_V and email address"
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, same address, exact organization-domain fragment; mailbox local part omitted",
+          "quote": "agencyhill99[.]com"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-blockchain-recruitment",
+      "label": "Research observed job advertising",
+      "category": "incident",
+      "observed": "2024-09-26",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, September 26 bullet, exact fragment before the excluded contact selector",
+          "quote": "the account Dale_V"
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, September 26 bullet, exact fragment after the excluded contact selector",
+          "quote": "posted in the Telegram channel “cryptolux_b” that they were looking to hire a blockchain developer."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-dale-v-handle",
+      "label": "Research reported historical telegram account",
+      "category": "account",
+      "observed": "2024-09-16",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, September 16 bullet, exact fragment before the excluded contact selector",
+          "quote": "On September 16, 2024, an account with the username Dale_V"
+        },
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 5, September 16 bullet, exact fragment after the excluded contact selector",
+          "quote": "posted in the Telegram channel “freelancerclients” that they were looking to hire a developer."
+        },
+        {
+          "source_id": "doc-recordedfuture-inside-scam-html",
+          "locator": "PurpleBravo’s Fraudulent Profiles, Telegram summary, September 16 bullet",
+          "quote": "On September 16, 2024, an account with the username Dale_V"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-destiny-war-control-unclear",
+      "label": "Research stated project control unclear",
+      "category": "relationship",
+      "observed": "2025-02-13",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 6, Telegram summary, October 22 bullet",
+          "quote": "It is unclear if the actor controls this X account or game."
+        },
+        {
+          "source_id": "doc-recordedfuture-inside-scam-html",
+          "locator": "PurpleBravo’s Fraudulent Profiles, Telegram summary, October 22 bullet",
+          "quote": "It is unclear if the actor controls this X account or game."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-destiny-war-maintenance",
+      "label": "Research observed game maintenance recruitment",
+      "category": "incident",
+      "observed": "2024-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF p. 6, Telegram summary, October 22 bullet",
+          "quote": "On October 22, 2024, Dale_V posted in the Telegram channel “hiringofm” seeking individuals to help maintain a game called Destiny War"
+        },
+        {
+          "source_id": "doc-recordedfuture-inside-scam-html",
+          "locator": "PurpleBravo’s Fraudulent Profiles, Telegram summary, October 22 bullet",
+          "quote": "On October 22, 2024, Dale_V posted in the Telegram channel “hiringofm” seeking individuals to help maintain a game called Destiny War"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-repeated-channel-posting",
+      "label": "Research observed repeated job posts",
+      "category": "incident",
+      "observed": "2024-10-09",
+      "evidence": [
+        {
+          "source_id": "doc-c84c0687ad0a",
+          "locator": "PDF pp. 5-6, Telegram summary",
+          "quote": "On October 9, 2024, Dale_V posted job advertisements in the “andexzuxiaomichat”, “family_indonesia_uae_ph”, “cryptolux_br”, “crypto_brazil”, and “freelancerclients” channels."
+        },
+        {
+          "source_id": "doc-recordedfuture-inside-scam-html",
+          "locator": "PurpleBravo’s Fraudulent Profiles, Telegram summary, September 26 through October 9 bullets",
+          "quote": "On October 2, 2024, Dale_V posted the same message with a new email address"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

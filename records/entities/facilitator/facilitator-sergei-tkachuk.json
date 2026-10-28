@@ -1,0 +1,48 @@
+{
+  "id": "facilitator-sergei-tkachuk",
+  "type": "facilitator",
+  "name": "Sergei Tkachuk",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT reports Sergei Tkachuk as the IMC representative who oversees and manages facilitation of North Korean labourer recruitment; the report states no criminal conviction.",
+    "as_of": "2026-09-16",
+    "source_ids": [
+      "msmt-2026-1"
+    ]
+  },
+  "caveats": [
+    "This record reproduces the report's source-bounded description; role stays within the cited passage.",
+    "The record retains bounded source context; addresses, contact selectors, identity documents, and present whereabouts stay outside it."
+  ],
+  "identity_boundary": "The source-bounded facilitator record for Sergei Tkachuk; an explicit source link is required before merging it with another person sharing the name or a related organization.",
+  "sources": [
+    {
+      "source_id": "msmt-2026-1",
+      "support": "MSMT names or describes Sergei Tkachuk.",
+      "locator": "PDF p. 34 fn. 151"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-sergei-tkachuk",
+      "type": "identity_name",
+      "predicate": "msmt_named_person",
+      "value": {
+        "name": "Sergei Tkachuk"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-09-16",
+      "sources": [
+        {
+          "source_id": "msmt-2026-1",
+          "locator": "PDF p. 34 fn. 151",
+          "quote": "Sergei Tkachuk is a former government official who has served in Moscow municipal government agencies since the 2000s. He currently oversees and manages the facilitation of North Korean labourer recruitment."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

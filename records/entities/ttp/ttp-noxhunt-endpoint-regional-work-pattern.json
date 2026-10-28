@@ -1,0 +1,48 @@
+{
+  "id": "ttp-noxhunt-endpoint-regional-work-pattern",
+  "type": "ttp",
+  "name": "Suspected worker endpoint and regional-work pattern",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Publisher research assessment; legal charge, conviction, and verified legal-identity status remain unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "noxhunt-2026-04-20-worker-computers"
+    ]
+  },
+  "ttps": [
+    "multiple-personas",
+    "remote-desktop",
+    "vpn"
+  ],
+  "caveats": [
+    "Describe this as source-observed work context; named regional businesses require separate evidence of knowing participation.",
+    "Preserve this limitation and require account/context corroboration before any attribution.",
+    "The underlying telemetry is sensitive and stays outside this dataset. The article treats workstation characteristics as contextual for SuperDev's reported DPRK-worker assessment. Retained persona/account links remain research-attributed, while legal identity requires source evidence.",
+    "Use only as a multi-signal investigative pattern. Each common tool requires contextual review and carries no independent suspicion."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Across two research personas, NoxHunt observed broad full-stack development environments, commercial VPN use, remote-access software, virtual machines or local test environments, numerous job-platform interactions, rapidly assembled portfolios, and AI interview-assistance services.",
+        "NoxHunt assessed parts of the observed work and recruiting activity as focused on Middle Eastern markets, including Saudi-linked web projects and broader Dubai/Saudi job context.",
+        "NoxHunt explicitly stated that computer specifications and Korean-language indications alone were insufficient to conclude that SuperDev was a DPRK worker."
+      ],
+      "source_ids": [
+        "noxhunt-2026-04-20-worker-computers"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "noxhunt-2026-04-20-worker-computers",
+      "support": "Across two research personas, NoxHunt observed broad full-stack development environments, commercial VPN use, remote-access software, virtual machines or local test environments, numerous job-platform interactions, rapidly assembled portfolios, and AI interview-assistance services. NoxHunt assessed parts of the observed work and recruiting activity as focused on Middle Eastern markets, including Saudi-linked web projects and broader Dubai/Saudi job context. NoxHunt explicitly stated that computer specifications and Korean-language indications alone were insufficient to conclude that SuperDev was a DPRK worker",
+      "locator": "Key points; Hero#1: Meet SuperDev; SuperDev multiple identities; Hero#2: Meet DevWisdom; DevWisdom's web accounts"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "jordan-lopez",
+  "real_name": "Jordan Lopez",
+  "aliases": [
+    "firstninja111"
+  ],
+  "fake_names": [
+    "Nemanja Djordjevic"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "cloudrider.m92@gmail.com"
+  ],
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "firstninja111",
+      "usernames": [
+        "firstninja111"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x92cd7363c5b1853bc8fe6b5ae269836fc508ca73"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/jordan-lopez/jordan-lopez-av.png",
+      "short_description": "Jordan Lopez avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

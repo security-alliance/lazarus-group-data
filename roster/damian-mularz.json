@@ -1,0 +1,155 @@
+{
+  "id": "damian-mularz",
+  "aliases": [
+    "DreamHigh",
+    "Netdragon986",
+    "0xwhiz"
+  ],
+  "fake_names": [
+    "Damian Mularz",
+    "Tony Guo",
+    "Sergio Ramos"
+  ],
+  "gender": "male",
+  "fake_citizenships": [
+    "Poland"
+  ],
+  "real_citizenships": [
+    "North Korea"
+  ],
+  "fake_locations": [
+    "Torun",
+    "Tarnobrzeg"
+  ],
+  "real_locations": [
+    "Russia"
+  ],
+  "personal_emails": [
+    "damian.mularz.725@gmail.com",
+    "cuiguo23@gmail.com",
+    "evgenpan228@gmail.com",
+    "netdragon986@gmail.com"
+  ],
+  "phone_numbers": [
+    "+48 667 729 989"
+  ],
+  "websites": [
+    "https://www.damianmularz.pro/"
+  ],
+  "employment": [
+    {
+      "company": "Undisclosed Company 1",
+      "role": "Back End Developer",
+      "date_hired": {
+        "$date": "2023-03-01"
+      },
+      "date_unhired": {
+        "$date": "2025-04-01"
+      }
+    },
+    {
+      "company": "Undisclosed Company 2",
+      "role": "Web3 Developer",
+      "date_hired": {
+        "$date": "2020-11-01"
+      },
+      "date_unhired": {
+        "$date": "2023-02-01"
+      }
+    }
+  ],
+  "telegram": [
+    {
+      "id": "8058892726",
+      "usernames": [
+        "damianmularz"
+      ],
+      "names": [
+        "Damian"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "0xwhiz",
+      "creation_date": {
+        "$date": "2014-09-01"
+      },
+      "names": [
+        "0xwhiz"
+      ],
+      "emails": [
+        "netdragon986@gmail.com"
+      ],
+      "usernames": [
+        "0xwhiz"
+      ]
+    },
+    {
+      "gh_id": "evgpan",
+      "creation_date": {
+        "$date": "2023-10-15"
+      },
+      "names": [
+        "DreamHigh"
+      ],
+      "emails": [
+        "cuiguo23@gmail.com"
+      ],
+      "usernames": [
+        "evgpan"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "value_usd": 5000,
+      "currency": "USD",
+      "frequency": "monthly",
+      "notes": "Remote work, paid in stablecoins"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/damian-mularz/damian_mularz_1.png",
+      "short_description": "Screenshot",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/damian-mularz/damian_mularz_2.png",
+      "short_description": "Front of fake Polish ID card",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/damian-mularz/damian_mularz_3.png",
+      "short_description": "Back of fake Polish ID card",
+      "tags": [
+        "document"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "damian_mularz_cv.pdf",
+      "short_description": "Damian Mularz CV",
+      "path": "/team-images/damian-mularz/damian_mularz_cv.pdf",
+      "tags": [
+        "resume",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "damian_mularz_video_interview.mp4",
+      "short_description": "Damian Mularz video interview clip",
+      "path": "/team-images/damian-mularz/damian_mularz_video_interview.mp4",
+      "tags": [
+        "interview"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

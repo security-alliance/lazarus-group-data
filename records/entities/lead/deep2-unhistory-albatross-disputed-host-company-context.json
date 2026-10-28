@@ -1,0 +1,41 @@
+{
+  "id": "deep2-unhistory-albatross-disputed-host-company-context",
+  "type": "lead",
+  "name": "Albatross Company disputed host-company relationship",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "UN Panel-reported Member State allegation disputed by Viet Nam",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae"
+    ]
+  },
+  "caveats": [
+    "Albatross remains a separate entity classification; DPRK front-company status is unassigned in this output.",
+    "The host-country response belongs alongside the Member State allegation; the relationship remains allegation-level.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence.",
+    "Viet Nam replied that its authorities reported zero DPRK workers or IT experts working in Albatross and gave contrary travel information about a related DPRK national."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported that Vietnamese Albatross Company (Albatross Co. Ltd.) worked with DPRK IT developers assessed to remain in Viet Nam as of November 2019."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae",
+      "support": "Verifies Albatross, Korea National Development Investment Company, Mangyongdae, the reported sourcing relationship and Viet Nam response",
+      "locator": "PDF pp. 53-54, paras. 126-127"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "datf-ttp-uk-official-typology-detection",
+  "type": "ttp",
+  "name": "Official UK confirmation of remote IT-worker typology detection",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official country-level detection statement covering a national pattern; named case, victim, person, enforcement result, and scale remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DATF-S17"
+    ]
+  },
+  "ttps": [
+    "international-sanctions-coordination",
+    "official-typology-detection",
+    "third-country-identity-presentation"
+  ],
+  "caveats": [
+    "Source-described presentation as a third-country national is a deception pattern; nationality profiling and legitimate-applicant rejection require source-backed evidence.",
+    "The officials supplied testimony lacking worker, employer, victim, count, payment route, and enforcement outcome; prevalence and company attribution remain unassessed."
+  ],
+  "infrastructure": [
+    {
+      "type": "defensive-use-boundary",
+      "statements": [
+        "Use this source-qualified context for governance or corroborated behavior-based review, never as standalone identity or nationality attribution."
+      ],
+      "limitations": [
+        "No single nationality, geography, language, education history, technical skill, remote-work preference, interview anomaly, authentication event, or device signal establishes fraud or DPRK attribution."
+      ],
+      "source_ids": [
+        "DATF-S17"
+      ]
+    },
+    {
+      "type": "official-parliamentary-testimony",
+      "statements": [
+        "In official parliamentary evidence, UK sanctions officials stated that authorities had detected the remote IT-worker revenue typology in the United Kingdom and described the advisory as arising through international DPRK-sanctions coordination."
+      ],
+      "limitations": [
+        "The officials provided no worker, employer, victim, count, payment route, or enforcement outcome, so the testimony cannot support prevalence estimates or company-level attribution.",
+        "Source-described presentation as a third-country national is a deception pattern, not a basis for nationality profiling or rejecting legitimate foreign applicants."
+      ],
+      "method_and_source_boundary": "authoritative first-party testimony from HM Treasury and OFSI officials; intentionally non-granular to protect intelligence and compliance activity",
+      "source_ids": [
+        "DATF-S17"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "DPA-F06",
+    "OFSI-2024-DPRK-IT-WORKERS",
+    "ttp-global-locations"
+  ],
+  "sources": [
+    {
+      "source_id": "DATF-S17",
+      "support": "Supports the official UK statement that the typology had been detected and discussed through sanctions coordination. Normalized statement: In official parliamentary evidence, UK sanctions officials stated that authorities had detected the remote IT-worker revenue typology in the United Kingdom and described the advisory as arising through international DPRK-sanctions coordination",
+      "locator": "Questions 7-11, especially Q9-Q10"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

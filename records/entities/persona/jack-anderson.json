@@ -1,0 +1,434 @@
+{
+  "id": "jack-anderson",
+  "type": "persona",
+  "name": "Jack Anderson",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Controlled investigation persona with an unverified legal identity.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-anyrun-2026-08-10"
+    ]
+  },
+  "organizations": [
+    "Ballena Azul LTD",
+    "Famous Chollima"
+  ],
+  "front_companies": [
+    "Ballena Azul LTD / Blue Whale LTD"
+  ],
+  "locations": [
+    "Claimed Austin, Texas"
+  ],
+  "ttps": [
+    "claimed U.S. identity documentation and banking details during onboarding",
+    "coding and work activity from a controlled VDI",
+    "live translation failure used as an excuse to avoid a stand-up",
+    "referral through an existing worker/persona",
+    "reliance on remote tooling and VPN infrastructure",
+    "second-monitor/live-translation use during interview"
+  ],
+  "caveats": [
+    "The talk identifies Jack Anderson as a persona and reports behavioral observations; legal identity status requires an official source.",
+    "This is a research-reported persona label from a public investigation; legal or civil identity verification remains open."
+  ],
+  "images": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two/",
+      "direct_asset_url": "https://any.run/cybersecurity-blog/wp-content/uploads/2026/08/Lazarus-Jacks-Fake-License-1024x648.png",
+      "caption": "Public figure showing the purported Jack identity document in the controlled investigation.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "remote-access",
+      "value": "live translation tool; AnyDesk/remote workflow observed in the investigation",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "support": "Chapters III, V, VI and Bonus Chapter II describe Jack Anderson's interview behavior, purported identity documents, live translation, and controlled work activity",
+      "locator": "Chapters III, V, VI; Bonus Chapter II"
+    },
+    {
+      "source_id": "src-1948a59a3373"
+    },
+    {
+      "source_id": "src-c5e2acb56602"
+    },
+    {
+      "source_id": "src-5f37c52ddfc2"
+    },
+    {
+      "source_id": "src-239219dd8dbb"
+    },
+    {
+      "source_id": "src-e101a124225f"
+    },
+    {
+      "source_id": "src-ee206f1e6ccd"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jack-anderson-persona",
+      "type": "identity_name",
+      "predicate": "publisher_reported_worker_persona",
+      "value": {
+        "name": "Jack Anderson",
+        "context": "controlled Ballena Azul LTD engagement"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, transition to Jack",
+          "quote": "Angelo already had someone in mind: his friend Jack Anderson."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Inside fake crypto company Ballena Azul, recruiter paragraph",
+          "quote": "García said that Ballena Azul needed to hire software developers and the recruiter offered up “Jack Anderson,” “Angelo Espree” and “Lucas Theo.”"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Worker persona label based on a common name; not a verified legal name or civil identity."
+      ]
+    },
+    {
+      "id": "claim-jack-angelo-referral",
+      "type": "relationship",
+      "predicate": "publisher_reported_referral_by_persona",
+      "value": {
+        "referring_persona": "Angelo Espree",
+        "reported_relationship": "friend"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, transition to Jack",
+          "quote": "Angelo already had someone in mind: his friend Jack Anderson."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Source-reported persona relationship; not a civil-identity or off-platform social relationship finding."
+      ]
+    },
+    {
+      "id": "claim-jack-controlled-role",
+      "type": "employment",
+      "predicate": "accepted_controlled_company_position",
+      "value": {
+        "organization": "Ballena Azul LTD",
+        "role": "front-end developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Jack interview conclusion",
+          "quote": "we welcomed him to Ballena Azul LTD as our Front-end Developer."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Ballena Azul LTD was the researchers' controlled fictional company; this is not verified ordinary real-world employment."
+      ]
+    },
+    {
+      "id": "claim-jack-live-translation-interview",
+      "type": "incident",
+      "predicate": "publisher_observed_apparent_live_translation_use",
+      "value": {
+        "context": "employment interview",
+        "observation": "repeated off-screen glances consistent with reading from a second monitor",
+        "publisher_assessment": "live translation tool"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Jack interview paragraph",
+          "quote": "Throughout the interview, we caught him repeatedly glancing off-screen, as if reading from a second monitor running a live translation tool"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Behavioral vendor assessment; no screen contents, account, image, or biometric inference is retained."
+      ]
+    },
+    {
+      "id": "claim-jack-claimed-austin-context",
+      "type": "location",
+      "predicate": "claimed_residence_in_onboarding",
+      "value": {
+        "claimed_location": "Austin, Texas"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter V, Jack onboarding paragraph",
+          "quote": "Jack sent a driver’s license from Austin, Texas, where he supposedly lived"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Claimed onboarding location only; no document, address, identity, or current-residence selector is retained."
+      ]
+    },
+    {
+      "id": "claim-jack-frontend-work",
+      "type": "skill",
+      "predicate": "publisher_observed_controlled_frontend_work",
+      "value": {
+        "work_area": "front-end development",
+        "environment": "researcher-controlled virtual desktop",
+        "publisher_assessment": "output appeared heavily template- or AI-assisted"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VI, team work paragraph",
+          "quote": "Jack struggled to deliver a frontend that didn’t look completely vibe-coded and identical to half the internet"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Publisher assessment during a controlled simulation; not a general competency or current-employment finding."
+      ]
+    },
+    {
+      "id": "claim-jack-lucas-referral",
+      "type": "relationship",
+      "predicate": "publisher_reported_referral",
+      "value": {
+        "referred_persona": "Lucas Theo",
+        "role_context": "backend developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Lucas introduction",
+          "quote": "Jack had Lucas Theo, a seasoned Backend Developer."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Source-reported persona relationship; not a civil-identity or off-platform social relationship finding."
+      ]
+    },
+    {
+      "id": "claim-jack-standup-translation-failure",
+      "type": "incident",
+      "predicate": "publisher_assessed_live_translation_failure",
+      "value": {
+        "context": "daily stand-up",
+        "publisher_assessment": "most likely a live translation tool malfunction"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Bonus Chapter II, opening paragraph",
+          "quote": "we immediately understood that something was acting up on his side, most likely his live translation tool"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Publisher assessment, explicitly qualified as most likely; the tool and cause were not independently verified."
+      ]
+    },
+    {
+      "id": "claim-jack-source-attribution",
+      "type": "relationship",
+      "predicate": "publishers_reported_suspected_dprk_it_worker",
+      "value": {
+        "researcher_attribution": "suspected Famous Chollima / DPRK IT worker",
+        "context": "controlled Ballena Azul LTD engagement",
+        "civil_identity": "unresolved",
+        "government_confirmation": "The Hacker News found no confirming government source as of 2026-08-11"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Key Takeaways, first bullet and Chapter IV",
+          "quote": "Researchers created a fake DeFi startup and hired suspected Famous Chollima operatives, providing a rare inside view of a DPRK IT worker operation."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Editor's note",
+          "quote": "Cointelegraph could not independently confirm the nationality or affiliation of the suspected DPRK IT workers, and no government agency has publicly identified them."
+        },
+        {
+          "source_id": "src-c5e2acb56602",
+          "locator": "Attribution and identity-limit paragraphs",
+          "quote": "Attribution rests with the researchers, who presented the work at DEF CON 34 in Las Vegas this month. They describe the three as suspected Famous Chollima operatives."
+        },
+        {
+          "source_id": "src-c5e2acb56602",
+          "locator": "Final paragraph",
+          "quote": "As of August 11, no government source reviewed for this article had confirmed that identification. The real names behind the three personas are unknown"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Vendor/researcher attribution linked through the same named controlled trio; it is not a verified nationality, government identification, sanctions designation, charge, conviction, or civil-identity finding.",
+        "Cointelegraph participated in one controlled-investigation stage and The Hacker News independently reviewed the reporting; neither supplies an independent primary identity bridge."
+      ]
+    },
+    {
+      "id": "claim-jack-interview-background",
+      "type": "note",
+      "predicate": "publisher_reported_interview_background",
+      "value": {
+        "reported_study_subject": "mathematics",
+        "reported_sports_interest": "Real Madrid supporter"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Jack interview paragraph",
+          "quote": "Like Angelo, Jack had studied mathematics, supported Real Madrid, and didn’t laugh easily."
+        },
+        {
+          "source_id": "src-5f37c52ddfc2",
+          "locator": "第四章：团队, Jack interview paragraph",
+          "quote": "和 Angelo 一样，Jack 也学过数学，支持皇家马德里"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Source-reported persona background from the controlled interview; not verified education, employment, civil identity, nationality, residence, or continuing interest. Odaily is a same-source-family republication, not independent corroboration."
+      ]
+    },
+    {
+      "id": "claim-jack-confrontation-response",
+      "type": "incident",
+      "predicate": "publishers_reported_response_to_controlled_identity_confrontation",
+      "value": {
+        "response": "remained on the controlled video call after Angelo Espree left, then left after understanding the confrontation",
+        "context": "researcher-controlled Ballena Azul engagement"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VIII, confrontation paragraph",
+          "quote": "The first to run away was Angelo, completely terrified. Jack took longer to understand what was happening"
+        },
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VIII, confrontation paragraph",
+          "quote": "Once Jack finally understood the situation, he simply left."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Taking Ballena Azul down, confrontation paragraph",
+          "quote": "Espree left the video call first, while Anderson stayed longer before realizing the scheme was unraveling."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Historical behavior within a controlled scenario. It does not establish motive, intent, guilt, present relationship, or continuing activity."
+      ]
+    },
+    {
+      "id": "claim-jack-link-only-source-media",
+      "type": "image",
+      "predicate": "publishers_linked_source_labeled_persona_media",
+      "value": {
+        "handling": "link_only",
+        "identification_use": false,
+        "media": [
+          {
+            "media_type": "video",
+            "source_page": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+            "media_url": "https://www.youtube.com/watch?v=GNuF0H_K4Tc",
+            "title": "Jack’s Interview",
+            "duration_seconds": 298
+          },
+          {
+            "media_type": "video",
+            "source_page": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+            "media_url": "https://www.youtube.com/watch?v=PIHLsv-jZqQ",
+            "title": "The Many Lives of Mr Anderson",
+            "duration_seconds": 157
+          },
+          {
+            "media_type": "video",
+            "source_page": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+            "media_url": "https://www.youtube.com/watch?v=hjpQBRR7lQ4",
+            "title": "Cough syrup",
+            "duration_seconds": 81
+          },
+          {
+            "media_type": "source_labeled_figure",
+            "source_page": "https://cointelegraph.com/magazine/fake-crypto-startup-fooled-north-korean-it-workers",
+            "media_url": "https://s3-images.ctmedia.io/media/content/ballena-azul-milan-co-founder.png",
+            "caption_label": "Are you living two lives, Mr. Anderson? Camella asks Jack Anderson during the confrontation",
+            "source_credit": "ANY.RUN"
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-239219dd8dbb",
+          "locator": "Public video metadata",
+          "quote": "Jack’s Interview"
+        },
+        {
+          "source_id": "src-e101a124225f",
+          "locator": "Public video metadata",
+          "quote": "The Many Lives of Mr Anderson"
+        },
+        {
+          "source_id": "src-ee206f1e6ccd",
+          "locator": "Public video metadata",
+          "quote": "Cough syrup"
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Taking Ballena Azul down, figure caption",
+          "quote": "“Are you living two lives, Mr. Anderson?” Camella asks Jack Anderson during the confrontation. Source: ANY.RUN"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Source-explicit link-only references for editorial review. No video, audio, image, thumbnail, caption track, or face asset was cached, cropped, republished, compared, reverse-searched, or used for facial recognition, voice analysis, current-appearance inference, or civil-identity resolution.",
+        "The URLs and durations establish public media artifacts, not verified identity, current control, present activity, or rights clearance for republication."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Jack Anderson is an ANY.RUN-reported worker persona from the controlled Ballena Azul LTD engagement; the civil identity remains unverified. The common name, claimed Texas identity material, interview behavior, and live-translation observations leave legal identity, nationality, and present account unresolved. Same-named people remain separate; documents, images, addresses, birth details, contacts, credentials, financial, wallet, and private-account selectors stay out."
+}

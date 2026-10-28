@@ -1,0 +1,55 @@
+{
+  "id": "ttp-crowdstrike-2026-device-hash-spoofing",
+  "type": "ttp",
+  "name": "FAMOUS CHOLLIMA device-hash spoofing and laptop-farm reuse",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CrowdStrike reports observing device-hash spoofing and reuse across victim organizations in its FAMOUS CHOLLIMA investigation; this remains vendor reporting rather than a court finding.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "crowdstrike-2026-10-13-famous-chollima-disruption"
+    ]
+  },
+  "ttps": [
+    "device-hash spoofing",
+    "laptop-farm infrastructure reuse"
+  ],
+  "caveats": [
+    "The vendor observation remains research attribution with source-specific scope for DPRK IT-worker cases."
+  ],
+  "identity_boundary": "A vendor-reported technique record; a source-specific link is required before connecting it to a named person, account, or organization.",
+  "sources": [
+    {
+      "source_id": "crowdstrike-2026-10-13-famous-chollima-disruption",
+      "support": "CrowdStrike reports device-hash spoofing and reuse of disguised devices across separate victim organizations.",
+      "locator": "FAMOUS CHOLLIMA’s Reliance on Laptop Farms"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-crowdstrike-device-hash-spoofing",
+      "type": "infrastructure",
+      "predicate": "crowdstrike_observed_device_hash_spoofing",
+      "value": {
+        "observation": "video capture card made to appear as a webcam",
+        "observed_since": "2026-05"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crowdstrike-2026-10-13-famous-chollima-disruption",
+          "locator": "FAMOUS CHOLLIMA’s Reliance on Laptop Farms, device-hash paragraph",
+          "quote": "Since May 2026, FAMOUS CHOLLIMA has begun spoofing device hashes; for example, making a video capture card appear as a webcam."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "CrowdStrike observation; not independently corroborated in this record."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

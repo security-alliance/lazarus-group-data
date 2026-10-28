@@ -1,0 +1,57 @@
+{
+  "id": "dpr13-ttp-fintech-transaction-restriction-enhanced-verification",
+  "type": "ttp",
+  "name": "Fintech transaction restriction and enhanced-verification pathway",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "First-party provider descriptions of controls adopted in response to government warnings; they document provider controls rather than observed DPRK case evidence, an enforcement action, or an adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPR13-S04-REVOLUT-JAPAN-EN-2025",
+      "DPR13-S05-REVOLUT-JAPAN-JA-2025"
+    ]
+  },
+  "ttps": [
+    "enhanced-verification-after-payment-risk-signal",
+    "human-review-and-corroboration",
+    "risk-based-payment-restriction",
+    "transaction-purpose-documentation"
+  ],
+  "caveats": [
+    "Cryptocurrency payment, off-platform work, language, pricing, reluctance to use video, and other listed signs are non-exclusive; identity, nationality, sanctions status, fraud, and wrongdoing require independent evidence.",
+    "Restrictions and enhanced verification should be proportionate, privacy-preserving, accessible, and subject to documented human review and independent corroboration.",
+    "The English and Japanese pages are language companions with displayed dates one day apart; they form one source family rather than independent corroboration.",
+    "The provider reports no identifying, restricting, reporting, or offboarding of a DPRK-linked account or transaction.",
+    "The provider statement documents a control pathway; product efficacy and measured detection require separate evidence.",
+    "This customer guidance implements a government warning; it provides policy context, with observed DPRK case evidence outside this record."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-fintech-payment-execution-control",
+      "statement": "Revolut Japan states that activity its systems identify as suspicious may result in transaction restrictions and requests for additional identity-verification material or documents explaining the transaction. Its English and Japanese notices are companion versions of one provider disclosure, not two independent confirmations and not evidence of a detected DPRK-linked account or payment.",
+      "source_ids": [
+        "DPR13-S04-REVOLUT-JAPAN-EN-2025",
+        "DPR13-S05-REVOLUT-JAPAN-JA-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-payment-routing"
+  ],
+  "sources": [
+    {
+      "source_id": "DPR13-S04-REVOLUT-JAPAN-EN-2025",
+      "support": "Revolut Japan asks customers to verify counterparties and whether a transaction would transfer funds to a DPRK IT worker. It lists cryptocurrency-payment or off-platform-work demands among non-exclusive signs, alongside identity and interaction inconsistencies. It says suspicious activity detected by its in-app systems may lead to transaction restrictions and requests for additional identity-verification documents or transaction information. Evidence boundary: The page is customer guidance and a general description of possible platform controls. It does not say Revolut detected a DPRK-linked account or transaction, and the listed signs are not proof individually",
+      "locator": "How do I stay protected; Signs to look out for"
+    },
+    {
+      "source_id": "DPR13-S05-REVOLUT-JAPAN-JA-2025",
+      "support": "The Japanese version says detected suspicious accounts or transactions may be restricted and customers may be asked for added identity verification or documents showing transaction content. Evidence boundary: This is the Japanese-language companion to the English page, with a one-day displayed publication-date difference. It is one logical disclosure, not independent corroboration or a disclosed incident",
+      "locator": "How to stay protected; examples of suspicious signs; final control paragraph"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

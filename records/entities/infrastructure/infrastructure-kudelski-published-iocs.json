@@ -1,0 +1,170 @@
+{
+  "id": "infrastructure-kudelski-published-iocs",
+  "type": "infrastructure",
+  "name": "source-published DPRK/offensive-team IPs",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "source-specific",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-kudelski-infrastructure"
+    ]
+  },
+  "images": [
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "source_url": "https://kudelskisecurity.com/research/dprk-fake-it-workers-inside-their-evolving-network-infrastructure",
+      "direct_asset_url": "https://cdn.prod.website-files.com/67711be5796275bf61eaabfc/6a58dc1f13410d3543cce1ba_Figure%204%20DPRK%20public%20facing%20infrastructure.png",
+      "caption": "Source figure: Kudelski DPRK public-facing infrastructure",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "value": "175.45.176.144",
+      "description": "C2 operations",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "175.45.176.160",
+      "description": "C2 operations",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "175.45.176.180",
+      "description": "C2 operations",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "175.45.176.27",
+      "description": "C2 operations",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "175.45.176.40",
+      "description": "C2 operations",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "175.45.178.222",
+      "description": "DPRK attacker exit node",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "175.45.176.69",
+      "description": "DPRK fake IT-worker exit node",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "162.253.129.2",
+      "description": "MyoHyangGyongSong team",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "104.253.160.77",
+      "description": "Polaris Team",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "104.253.201.228",
+      "description": "Polaris Team",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "104.253.43.239",
+      "description": "Polaris Team",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "104.253.7.202",
+      "description": "Polaris Team",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "104.253.75.110",
+      "description": "Polaris Team",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "91.239.130.102",
+      "description": "Team 128-710",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    },
+    {
+      "value": "83.234.227.10",
+      "description": "Team 821-39",
+      "type": "source-published-indicator",
+      "relationship": "reported-link",
+      "source_ids": [
+        "late-2026-kudelski-infrastructure"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-kudelski-infrastructure",
+      "support": "175.45.178.222: DPRK attacker exit node 175.45.176.27: C2 operations 175.45.176.40: C2 operations 175.45.176.160: C2 operations 175.45.176.180: C2 operations 175.45.176.144: C2 operations 175.45.176.69: DPRK fake IT-worker exit node 104.253.7.202: Polaris Team 104.253.43.239: Polaris Team 104.253.75.110: Polaris Team 104.253.160.77: Polaris Team 104.253.201.228: Polaris Team 162.253.129.2: MyoHyangGyongSong team 91.239.130.102: Team 128-710 83.234.227.10: Team 821-39",
+      "locator": "Figure 2: Russian exit-node mapping; Figure 4: public-facing infrastructure; Figure 5: Team 313 network; Figure 6: RB administrative network; Figures 7-8: KUT website/network; Figure 9: offensive infrastructure"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

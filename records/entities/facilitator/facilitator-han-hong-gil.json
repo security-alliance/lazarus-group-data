@@ -1,0 +1,394 @@
+{
+  "id": "facilitator-han-hong-gil",
+  "type": "facilitator",
+  "name": "Han Hong Gil",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "designated under E.O. 13810; Koryo Commercial Bank employee and DPRK financial representative; Treasury reported that he coordinated over $630,000 in U.S. dollars and Chinese yuan transactions on behalf of Ryugyong Commercial Bank; administrative sanctions designation; the record has no criminal charge or conviction.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-2815ca074b83",
+      "gov-38e5789f9f87",
+      "gov-59746ada8798",
+      "gov-b2897867e002",
+      "gov-c960ddb931ea",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Han Hong Gil",
+  "organizations": [
+    "Koryo Commercial Bank",
+    "Ryugyong Commercial Bank"
+  ],
+  "locations": [
+    "Dandong, China"
+  ],
+  "caveats": [
+    "Administrative designation and Treasury-reported conduct. Dandong, China is designation-era exact-entry context; location fields remain historical. Koryo Commercial Bank employment and the separate Ryugyong Commercial Bank transaction-coordination relationship retain distinct source semantics. The record contains aggregate attribution context and sensitive selectors are excluded.",
+    "Administrative sanctions listing; the record carries no criminal conviction.",
+    "The source supplies its recorded transliterations; an alias transfers to a same-name person or entity only when the source explicitly links it.",
+    "Exact-ID merge only: each retained value is explicitly attached by the cited official dataset to the same sanctions-list entry; values stay attached to that entry pending a source bridge to any same-name subject.",
+    "HAN, Hong Kil — official romanization.",
+    "SDN.CSV and ALT.CSV are component tables of one OFAC Sanctions List Service dataset/source family; count them as one source family."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current",
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "HAN, Hong Kil"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "HAN, Hong Gil"
+    },
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-59746ada8798",
+        "gov-b2897867e002"
+      ],
+      "value": "한홍길"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-han-hong-gil"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-38e5789f9f87",
+      "support": "CyberScoop independently publishes Han's name among five financial-institution employees designated in the action. Its collective China-or-Russia and illicit-transaction summary relies on Treasury and is not used to infer Han's individual location, bank, account, or conduct beyond the primary evidence",
+      "locator": "Article body; paragraph naming the five financial-institution employees"
+    },
+    {
+      "source_id": "gov-c960ddb931ea",
+      "support": "Treasury identifies Han as an employee of Koryo Commercial Bank, reports that he coordinated over $630,000 in U.S.-dollar and Chinese-yuan transactions on behalf of Ryugyong Commercial Bank, and records his E.O. 13810 designation. These are administrative-source allegations, not adjudicated findings; no account, payment, counterparty, or transaction selector is retained",
+      "locator": "Sanctions evasion networks section; Han-specific sentence and designation paragraph"
+    },
+    {
+      "source_id": "gov-b2897867e002",
+      "support": "The original OFAC action lists the primary form HAN, Hong Gil, Korean form 한홍길, alias HAN, Hong Kil, a Dandong, China designation-era location, program DPRK4, and a linked-to relationship with Koryo Commercial Bank Ltd. Sensitive identifiers and person attributes are excluded",
+      "locator": "Specially Designated Nationals List Update; Han entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row confirms Dandong, China for OFAC entity number 56043. Precise address components are excluded; the living row does not establish residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 56043"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "ALT.CSV supplies the retained source-explicit alias value(s) for OFAC ent_num 56043: HAN, Hong Kil. ALT.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of SDN.CSV",
+      "locator": "ALT.CSV alias row(s) joined to SDN.CSV by OFAC ent_num 56043"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "SDN.CSV supplies the current primary sanctions-list row and ent_num 56043 used to bind the entry to ALT.CSV. It does not supply any retained alias value in this record. SDN.CSV is one component table of the OFAC Sanctions List Service dataset, not independent corroboration of ALT.CSV",
+      "locator": "SDN.CSV primary/current-list row for OFAC ent_num 56043"
+    },
+    {
+      "source_id": "gov-2815ca074b83",
+      "support": "Recorded Future News independently publishes Han's name among the sanctioned employees or facilitators and summarizes Treasury's allegation concerning approximately $630,000 through another sanctioned bank. The article expressly attributes the underlying account to Treasury and does not independently prove the conduct or identify any account, payment, counterparty, or transaction",
+      "locator": "Article body; named-individuals paragraph and Han bullet"
+    },
+    {
+      "source_id": "gov-59746ada8798",
+      "support": "The official notice lists HAN, Hong Gil, Korean form 한홍길, alias HAN, Hong Kil, Dandong, China, program DPRK4, and the link to Koryo Commercial Bank Ltd.; the following paragraph records the E.O. 13810 designation basis. The page was rendered and visually inspected. Sensitive identifiers and person attributes are excluded",
+      "locator": "90 FR 51442, item 6 and following designation paragraph (PDF p. 2)"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name-form",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_form",
+      "value": {
+        "ofac_primary": "HAN, Hong Gil",
+        "display": "Han Hong Gil"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 56043",
+          "quote": "56043,\"HAN, Hong Gil\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "The OFAC entity number binds the primary name to the current row; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-ofac-korean-name-form",
+      "type": "identity_name",
+      "predicate": "ofac_listed_korean_name_form",
+      "value": {
+        "hangul": "한홍길",
+        "ofac_entity_number": "56043"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b2897867e002",
+          "locator": "Specially Designated Nationals List Update, Han entry",
+          "quote": "HAN, Hong Gil (Korean: 한홍길) (a.k.a. HAN, Hong Kil)"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Official source-scoped Korean name form; it is not used to merge another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-ofac-romanization",
+      "type": "alias",
+      "predicate": "ofac_listed_alternate_spelling",
+      "value": {
+        "alias": "HAN, Hong Kil",
+        "ofac_entity_number": "56043"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV row joined by OFAC entity number 56043",
+          "quote": "56043,87049,\"aka\",\"HAN, Hong Kil\",-0-"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official source-scoped romanization; do not transfer it to another same-name subject."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK4",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV row for OFAC entity number 56043",
+          "quote": "56043,\"HAN, Hong Gil\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Administrative sanctions-list status, not a criminal charge or conviction. The living export does not supply the original listing date."
+      ]
+    },
+    {
+      "id": "claim-ofac-linked-bank",
+      "type": "relationship",
+      "predicate": "ofac_listed_link_to",
+      "value": {
+        "organization": "Koryo Commercial Bank Ltd.",
+        "source_semantics": "Linked To"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 56043",
+          "quote": "Linked To: KORYO COMMERCIAL BANK LTD."
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "OFAC administrative link field; it is not independently interpreted as ownership, control, employment, or a current role."
+      ]
+    },
+    {
+      "id": "claim-treasury-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "date": "2025-11-04",
+        "authority_basis": "Executive Order 13810",
+        "basis_entity": "Koryo Commercial Bank"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions evasion networks section, designation sentence",
+          "quote": "Han pursuant to E.O. 13810 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, KCB"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Administrative designation, not a criminal charge, conviction, or sentence."
+      ]
+    },
+    {
+      "id": "claim-kcb-employee-role",
+      "type": "organization_affiliation",
+      "predicate": "treasury_reported_bank_employee_role",
+      "value": {
+        "organization": "Koryo Commercial Bank",
+        "role": "employee",
+        "as_of": "2025-11-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions evasion networks section, Han-specific sentence",
+          "quote": "Han is an employee of the U.S.-designated Koryo Commercial Bank (KCB)"
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury designation-time report; no present employment is inferred from the historical statement."
+      ]
+    },
+    {
+      "id": "claim-ryugyong-transaction-coordination",
+      "type": "incident",
+      "predicate": "treasury_reported_transaction_coordination_for_bank",
+      "value": {
+        "organization": "Ryugyong Commercial Bank",
+        "reported_aggregate": "over $630,000",
+        "reported_currencies": [
+          "U.S. dollars",
+          "Chinese yuan"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-c960ddb931ea",
+          "locator": "Sanctions evasion networks section, Han-specific sentence",
+          "quote": "Han is an employee of the U.S.-designated Koryo Commercial Bank (KCB) and has coordinated over $630,000 in both USD and CNY worth of transactions on behalf of the U.S.-designated Ryugyong Commercial Bank."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Treasury administrative finding, not an adjudicated criminal fact. No payment, account, counterparty, transaction, or other operational selector is retained."
+      ]
+    },
+    {
+      "id": "claim-designation-era-dandong",
+      "type": "location",
+      "predicate": "official_listed_designation_era_location",
+      "value": {
+        "city": "Dandong",
+        "country": "China",
+        "context": "OFAC exact-entry listing"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-59746ada8798",
+          "locator": "90 FR 51442, item 6 (PDF p. 2)",
+          "quote": "HAN, Hong Gil (Korean: 한홍길) (a.k.a. HAN, Hong Kil), Dandong, China"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV row joined to OFAC entity number 56043; coarse fields only",
+          "quote": "\"Dandong\",\"China\""
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Coarse official listing context only. It does not establish residence, continued presence, or present location; dataset-internal identifiers and sensitive person fields are excluded."
+      ]
+    },
+    {
+      "id": "claim-separate-media-coverage",
+      "type": "note",
+      "predicate": "named_in_separate_publisher_coverage",
+      "value": {
+        "publishers": [
+          "Recorded Future News / The Record",
+          "CyberScoop"
+        ],
+        "underlying_evidence": "U.S. Department of the Treasury"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-2815ca074b83",
+          "locator": "Article body; named-individuals paragraph",
+          "quote": "Seven other men — Jang Kuk Chol, Ho Jong Son, Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok — were also sanctioned for their role as employees of sanctioned companies or facilitators in the wider money laundering scheme."
+        },
+        {
+          "source_id": "gov-38e5789f9f87",
+          "locator": "Article body; paragraph naming the five financial-institution employees",
+          "quote": "It also designated five people who work for North Korean financial institutions: Ho Yong Chol, Han Hong Gil, Jong Sung Hyok, Choe Chun Pom and Ri Jin Hyok."
+        }
+      ],
+      "observed_at": "2025-11-04",
+      "notes": [
+        "Both outlets provide separate publisher coverage but rely on Treasury for the designation and conduct. They are not treated as independent proof or additional government findings."
+      ]
+    },
+    {
+      "id": "claim-han-hong-gil-un-annex76-mandal-koryo-report",
+      "type": "organization_affiliation",
+      "predicate": "un_member_state_reported_mandal_koryo_roles",
+      "value": {
+        "organizations": [
+          "Korea Mandal Credit Bank",
+          "Koryo Commercial Bank"
+        ],
+        "reported_role": "Mandal Credit Bank representative and Koryo Commercial Bank associate",
+        "historical_location_context": "Dandong, China",
+        "source_scope": "reported by Member States in Annex 76",
+        "present_location_inferred": false,
+        "individual_sanctions_violation_established": false,
+        "member_state_response": "China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Annex 76, PDF file p. 451, visually reviewed subject row and footnote 244",
+          "quote": "Han Hong Gil\nDPRK Korea Mandal Credit Bank Representative; associate of the Koryo Commercial Bank\nDandong, China"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Annex 76 is a list of individuals reported by Member States; footnote 244 records that two Panel members considered the evidence insufficient to substantiate the affiliation and sanctions-violation allegations.",
+        "The row is retained as source-reported historical role and coarse location context, not a finding of current employment, present location, criminal conduct, or an individualized sanctions violation.",
+        "The relevant Member State response is preserved: China reported in 2024 that its name-based inquiry found no evidence of DPRK-related Security Council resolution violations and warned that the list lacked key identity information."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Han Hong Gil, listed by OFAC as HAN, Hong Gil with the Korean name 한홍길 and alternate spelling HAN, Hong Kil, is the bank employee described in Treasury's November 2025 sanctions action. The record preserves the administrative-designation posture; criminal case, precise present location, and same-named account ownership require separate sources."
+}

@@ -1,0 +1,72 @@
+{
+  "id": "benjamin-nguyen",
+  "fake_names": [
+    "Benjamin Nguyen"
+  ],
+  "aliases": [
+    "ponyjackal"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "benguyen0214@gmail.com",
+    "pony1125@outlook.com",
+    "vladimiru1125@gmail.com"
+  ],
+  "twitter_usernames": [
+    "ponyjackalx"
+  ],
+  "github": [
+    {
+      "gh_id": "ponyjackal",
+      "creation_date": {
+        "$date": "2019-02-12"
+      },
+      "names": [
+        "Benjamin Nguyen"
+      ],
+      "emails": [
+        "pony1125@outlook.com",
+        "vladimiru1125@gmail.com"
+      ],
+      "usernames": [
+        "ponyjackal",
+        "ponyjackalx"
+      ]
+    }
+  ],
+  "notes": "Has JP Morgan Chase account through Rippling in his name. Wallet Addresses: 0x5c411cb174c2e163f6465252ae895f3e3e5a8792, 0xdfae024a22713ecd8049784ca0ba4c9e87753493",
+  "salary_details": [
+    {
+      "addresses": [
+        "ponyjackal.eth"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "associates": [
+    {
+      "gh_id": "bbshark99",
+      "emails": [
+        "andy.solution99@gmail.com",
+        "blue.shark99@outlook.com"
+      ],
+      "names": [
+        "Andy Bell"
+      ],
+      "usernames": [
+        "SharkDev99",
+        "andy-solution"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/benjamin-nguyen/benjamin-nguyen.jpg",
+      "short_description": "Benjamin Nguyen on call.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

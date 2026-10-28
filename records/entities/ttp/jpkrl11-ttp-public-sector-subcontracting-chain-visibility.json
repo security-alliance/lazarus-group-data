@@ -1,0 +1,54 @@
+{
+  "id": "jpkrl11-ttp-public-sector-subcontracting-chain-visibility",
+  "type": "ttp",
+  "name": "Public-sector software subcontracting-chain visibility",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "NISC published a public-source synthesis on 2022-09-20 describing DPRK IT-worker involvement in outsourced work on an unnamed local-government disaster-prevention application. The underlying detail is secondary reporting, the affected organization remains anonymous, and intrusion, theft, sabotage, or persistent-access status requires separate incident evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "JPKR11-JP-NISC-20220920"
+    ]
+  },
+  "locations": [
+    "Japan"
+  ],
+  "ttps": [
+    "intermediary-platform-labor-review",
+    "least-privilege-contractor-access",
+    "subcontractor-chain-mapping",
+    "worker-payment-beneficiary-continuity"
+  ],
+  "caveats": [
+    "Describe the anonymous municipality or contractors only to the extent stated by the source; victim status requires independent confirmation.",
+    "This summary leaves the municipality, contractor, subcontractor, worker, and platform unidentified.",
+    "The source describes involvement in application maintenance/development; data theft, sabotage, persistent access, compromise, and cyber-intrusion status require separate evidence.",
+    "The municipality and every contractor, subcontractor, worker, and intermediary platform remain anonymous; identity resolution through procurement records or correlation is outside this record.",
+    "NISC states that the briefing is based on public information and carries an accuracy and completeness limitation for the cited reporting.",
+    "NISC expressly warns that its briefing compiles public information and carries a source-truth limitation for each underlying report.",
+    "The record is defensive review context; affected-organization or incident profile status is outside it."
+  ],
+  "infrastructure": [
+    {
+      "type": "anonymized-public-sector-outsourcing-context",
+      "statement": "NISC's public-source briefing says a DPRK IT worker was involved in outsourced system-development work on a local-government disaster-prevention application. It recommends that organizations understand how contractors and subcontractors use intermediary platforms for hiring and how compensation is paid.",
+      "original_language_title": "国内のシステム開発委託における北朝鮮のIT労働者問題",
+      "original_language_statement": "自治体の防災アプリのシステム開発外注において北朝鮮のIT労働者が関与。経済安全保障上の観点から業務の委託先、再委託先組織における仲介サイトを使った雇用や報酬の支払い方法について適切に把握することが重要。",
+      "translation_note": "English wording is a researcher translation retained alongside the original-language text.",
+      "source_ids": [
+        "JPKR11-JP-NISC-20220920"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "JPKR11-JP-NISC-20220920",
+      "support": "NISC's public-source briefing says a DPRK IT worker was involved in outsourced system-development work on a local-government disaster-prevention application. It recommends that organizations understand how contractors and subcontractors use intermediary platforms for hiring and how compensation is paid",
+      "locator": "PDF pages 5-6, section 国内のシステム開発委託における北朝鮮のIT労働者問題; footnotes 19-21"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

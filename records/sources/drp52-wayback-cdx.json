@@ -1,0 +1,12 @@
+{
+  "id": "drp52-wayback-cdx",
+  "publisher": "Internet Archive",
+  "title": "Public CDX checks for the exact GitHub account and repository paths",
+  "url": "https://web.archive.org/cdx/search/cdx?output=json&url=github.com%2Fcodegod2222",
+  "accessed_at": "2026-08-16",
+  "sha256": "1912f7ba9adcd636edb7fb6ed334f77d3523aebec06f321eab55d499049e0b44",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

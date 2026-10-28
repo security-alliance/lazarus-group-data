@@ -1,0 +1,266 @@
+{
+  "id": "cluster-nisos-june-2026-employment-fraud-operation",
+  "type": "cluster",
+  "name": "Nisos June 2026 employment-fraud operation",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Nisos investigation of a suspected DPRK applicant and leaked operation dashboard",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-nisos-2026-operation"
+    ]
+  },
+  "ttps": [
+    "centralized application tracking",
+    "performance reviews",
+    "three-team operating structure",
+    "voice-cloning tests"
+  ],
+  "caveats": [
+    "Joe is a researcher-assigned pseudonym rather than a true name.",
+    "The 22 three-letter values are internal identifiers; standalone public profiles require source-backed identity."
+  ],
+  "aliases": [
+    {
+      "value": "Joe (Nisos pseudonym)",
+      "alias_type": "unknown",
+      "relationship": "uncertain",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "AJM",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "AJW",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "CDC",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "CIC",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "CKG",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "CMJ",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "HJH",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "HKS",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "HMJ",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "KJM",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "KKH",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "KKS",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "KUG",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "KYS",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "MYM",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "PJS",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "PJU",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "RGB",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "RHS",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "RSJ",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "SWC",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    },
+    {
+      "platform": "Internal dashboard identifier",
+      "identifier": "SYR",
+      "status": "historical",
+      "relationship": "related-cluster",
+      "source_ids": [
+        "vendor-nisos-2026-operation"
+      ],
+      "note": "Three-letter worker identifier printed in the Q1 2026 dashboard calendar; no real-name expansion inferred."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-nisos-2026-operation",
+      "support": "Uses the pseudonym Joe for the applicant and publishes 22 three-letter worker identifiers in a Q1 2026 calendar. Reports a three-team structure, $550,040 in first-quarter earnings, 1,832 applications, reviews by Sachon Geunwon, active voice-cloning tests, and intervention after the third interview",
+      "locator": "Summary; Operative Persona; pp./lines 70-110; internal dashboard figures and Q1 2026 performance calendar"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

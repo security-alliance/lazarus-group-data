@@ -1,0 +1,51 @@
+{
+  "id": "cluster-unc5267",
+  "type": "cluster",
+  "name": "UNC5267",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Mandiant umbrella cluster for DPRK IT-worker operations",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-dtex-2025-hidden-workforce",
+      "vendor-mandiant-2024-unc5267"
+    ]
+  },
+  "ttps": [
+    "commercial remote-management tooling",
+    "laptop farms and IP-KVM access",
+    "resume and image reuse across personas",
+    "VPN and VoIP use"
+  ],
+  "caveats": [
+    "DTEX lists UNC5267 and Wagemole together; this dataset keeps distinct vendors’ cluster labels separate rather than auto-merging them.",
+    "The first-party PDF exposes no verified public release date; PDF metadata and HTTP Last-Modified values are not publication evidence.",
+    "Vendor cluster names are analytic labels; legal identities require source-specific attribution."
+  ],
+  "infrastructure": [
+    {
+      "type": "portfolio-domain",
+      "value": "daniel-ayala.netlify.app",
+      "relationship": "reported-link",
+      "source_ids": [
+        "vendor-mandiant-2024-unc5267"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-mandiant-2024-unc5267",
+      "support": "Documents reused multi-persona resumes, altered resume imagery, a Netlify portfolio at daniel-ayala[.]netlify[.]app, laptop farms, IP-KVMs, six RMM tools, Astrill VPN, VoIP, Caffeine, and network IOCs",
+      "locator": "UNC5267; Incident Response Observations; Figures 1-3; URLs and Network IOCs"
+    },
+    {
+      "source_id": "vendor-dtex-2025-hidden-workforce",
+      "support": "DTEX discusses UNC5267 and Wagemole alongside a source-reported Dandong IT-worker group, persona creation, facilitators, interview assistance, laptop farms, payment laundering, and MFA-bypass tradecraft. Internal workspace and routing selectors are intentionally omitted",
+      "locator": "PDF pp. 31-40, Figures 9-12"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

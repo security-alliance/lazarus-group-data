@@ -1,0 +1,318 @@
+{
+  "id": "facilitator-do-phi-khanh",
+  "type": "facilitator",
+  "name": "Do Phi Khanh",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Vietnam-based proxy/bank-account facilitator; administrative sanctions designation; no criminal charge or conviction is on record.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-1bfbb0e72fae",
+      "gov-54cada63e515",
+      "gov-ded09ec68479",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Do Phi Khanh",
+  "locations": [
+    "Hanoi, Vietnam (OFAC-listed location; not a present-location inference)"
+  ],
+  "caveats": [
+    "OFAC's designation is an administrative action; criminal charge or conviction is outside that action. Hanoi is a source-listed location as of the cited sanctions records; current residence, presence, and activity are outside that listing, and public account or financial selector is absent here."
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "OFAC designated six individuals and two entities across the DPRK, Vietnam, Laos, and Spain, including DPRK team lead Yun Song Guk and Amnokgang Technology Development Company",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks section"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Hanoi, Vietnam for OFAC entity number 57054. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a street address, residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 57054"
+    },
+    {
+      "source_id": "gov-ded09ec68479",
+      "support": "Recorded Future News independently names Do Phi Khanh among the sanctioned individuals and summarizes Treasury's accusation that he and Hoang Van Nguyen opened accounts receiving IT-worker funds. The article is a separate publisher but relies on Treasury for the underlying designation and conduct assessment",
+      "locator": "Paragraph naming Nguyen Quang Viet, Do Phi Khanh, and Hoang Van Nguyen"
+    },
+    {
+      "source_id": "gov-1bfbb0e72fae",
+      "support": "The official notice lists Do Phi Khanh at Hanoi, Vietnam and states that OFAC designated him under Executive Order 13382 for providing or attempting to provide support, goods, or services to Kim Se Un. The location is retained only at coarse city level, and the action is administrative rather than a criminal charge or conviction",
+      "locator": "Federal Register p. 12904, Do entry and designation paragraph"
+    },
+    {
+      "source_id": "dln26-s09"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-do-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "display_name": "Do Phi Khanh",
+        "ofac_primary_name": "DO, Phi Khanh"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph",
+          "quote": "Do Phi Khanh"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Do entry",
+          "quote": "DO, Phi Khanh"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57054, fields 1-4",
+          "quote": "57054,\"DO, Phi Khanh\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Official presentation variants of the same source-defined person; this does not resolve unrelated same-name people."
+      ]
+    },
+    {
+      "id": "claim-do-treasury-shorthand",
+      "type": "alias",
+      "predicate": "treasury_reference_shorthand",
+      "value": {
+        "shorthand": "Do",
+        "scope": "Treasury March 12, 2026 press release"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph",
+          "quote": "Do Phi Khanh (Do)"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Release-specific shorthand. The current OFAC ALT.CSV export contains no alias row for entity number 57054, so this is not described as an OFAC-listed alias."
+      ]
+    },
+    {
+      "id": "claim-do-kim-association",
+      "type": "relationship",
+      "predicate": "treasury_reported_association_with",
+      "value": {
+        "person": "Kim Se Un",
+        "reported_role_of_person": "DPRK nuclear procurement facilitator"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph, opening clause",
+          "quote": "Do Phi Khanh (Do) is an associate of U.S.-sanctioned DPRK nuclear procurement facilitator Kim Se Un (Kim)"
+        },
+        {
+          "source_id": "dln26-s09",
+          "locator": "Specially Designated Nationals List Update, individual additions, Do entry",
+          "quote": "Linked To: KIM, Se Un"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative-source relationship and OFAC linked-to notation; no criminal association finding is inferred."
+      ]
+    },
+    {
+      "id": "claim-do-proxy-role",
+      "type": "relationship",
+      "predicate": "treasury_reported_proxy_role_for",
+      "value": {
+        "person": "Kim Se Un",
+        "role": "proxy"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph, proxy clause",
+          "quote": "who acts as Kim’s proxy"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury-reported role, not an adjudicated finding. The relative clause is read in the source paragraph as referring to Do."
+      ]
+    },
+    {
+      "id": "claim-do-qualified-identity-bank-use",
+      "type": "account",
+      "predicate": "treasury_assessed_identity_use_for_bank_accounts",
+      "value": {
+        "person_enabled": "Kim Se Un",
+        "method": "use of Do Phi Khanh's identity",
+        "purpose": "open bank accounts",
+        "assessment": "likely"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph, qualified identity-use clause",
+          "quote": "likely allows Kim to use his identity to open bank accounts"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "The source's likely qualifier is preserved. No bank, account, jurisdiction, selector, current control, or transaction is inferred or retained."
+      ]
+    },
+    {
+      "id": "claim-do-qualified-it-worker-proceeds-laundering",
+      "type": "incident",
+      "predicate": "treasury_assessed_identity_use_for_proceeds_laundering",
+      "value": {
+        "person_enabled": "Kim Se Un",
+        "method": "use of Do Phi Khanh's identity",
+        "proceeds_source": "DPRK IT workers",
+        "assessment": "likely"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang paragraph, qualified proceeds clause",
+          "quote": "likely allows Kim to use his identity to open bank accounts and launder proceeds from DPRK IT workers"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "The source's likely qualifier is preserved. This is Treasury's administrative assessment, not a charged or adjudicated money-laundering finding."
+      ]
+    },
+    {
+      "id": "claim-do-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_under_proliferation_authority",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation",
+        "date": "2026-03-12",
+        "authority_basis": "Executive Order 13382",
+        "reported_basis": "support for Kim Se Un"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks, Do/Hoang designation sentence",
+          "quote": "OFAC is designating Do and Hoang pursuant to E.O. 13382 for having provided, or attempted to provide, financial, material, technological or other support for, or goods or services in support of Kim."
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, Do designation paragraph, contiguous fragment 1 of 2",
+          "quote": "Designated pursuant to section 1(a)(iii) of Executive Order 13382"
+        },
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, Do designation paragraph, contiguous fragment 2 of 2",
+          "quote": "for having provided, or attempted to provide, financial, material, technological or other support for, or goods or services in support of, KIM SE UN"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-do-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals and Blocked Persons List",
+        "program": "NPWMD",
+        "checked_at": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57054, fields 1-4",
+          "quote": "57054,\"DO, Phi Khanh\",\"individual\",\"NPWMD\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current-list observation as of the access date; it does not establish criminal posture, present location, or present control of any bank account."
+      ]
+    },
+    {
+      "id": "claim-do-ofac-listed-location",
+      "type": "location",
+      "predicate": "ofac_listed_coarse_location",
+      "value": {
+        "location": "Hanoi, Vietnam",
+        "precision": "coarse city-level only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-1bfbb0e72fae",
+          "locator": "Federal Register p. 12904, individual entry 1",
+          "quote": "DO, Phi Khanh, Hanoi, Vietnam"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 57054",
+          "quote": "\"Hanoi\",\"Vietnam\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Exact-ID official listing context only. The retained city and country do not establish a street address, residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-do-independent-media-coverage",
+      "type": "note",
+      "predicate": "independently_published_designation_coverage",
+      "value": {
+        "publisher": "Recorded Future News",
+        "published_at": "2026-03-12",
+        "coverage": "Named Do Phi Khanh among the sanctioned people and summarized the U.S. bank-account accusation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-ded09ec68479",
+          "locator": "Paragraph naming Nguyen Quang Viet, Do Phi Khanh, and Hoang Van Nguyen",
+          "quote": "Do Phi Khanh and Hoang Van Nguyen — two men accused of opening bank accounts that intake the funds earned by IT workers."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "This establishes a reputable second publisher for the public profile, not independent proof of the underlying conduct. The article relies on U.S. officials and does not upgrade Treasury's qualified administrative assessment."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Do Phi Khanh, listed by OFAC as DO, Phi Khanh and referenced by Treasury as Do, is the person Treasury reported as an associate and proxy of DPRK nuclear-procurement facilitator Kim Se Un. Treasury's qualified conduct assessment and administrative-designation posture govern this record; criminal guilt, present location, current control of a bank account, and identity with a same-named public account remain unestablished."
+}

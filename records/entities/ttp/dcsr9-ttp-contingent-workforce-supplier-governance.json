@@ -1,0 +1,53 @@
+{
+  "id": "dcsr9-ttp-contingent-workforce-supplier-governance",
+  "type": "ttp",
+  "name": "Contingent-workforce identity controls with enforceable supplier governance",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is private supplier policy and guidance, not a statute, regulation, or adjudication, and it supplies no evidence that Salesforce experienced an incident.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCSR9-S03-SALESFORCE-SUPPLIER-2026"
+    ]
+  },
+  "ttps": [
+    "contractual-control-enforcement",
+    "cross-platform-inconsistency-escalation",
+    "employment-and-education-verification",
+    "identity-and-work-location-change-review",
+    "layered-candidate-verification",
+    "staffing-supplier-control-flowdown",
+    "supplier-exception-and-escalation-path"
+  ],
+  "caveats": [
+    "Evidence class: first-party supplier requirements describing controls; incident status belongs to a separate evidence class.",
+    "Generalize the control for other organizations; Salesforce incident attribution requires source evidence. Keep private identity documents out of reproduction and requests. Require lawful, proportionate, accessible verification with human review and anti-discrimination safeguards.",
+    "Guidance and prospective scenarios are presented as guidance, while source-reported suspicion remains distinct from adjudicated fact.",
+    "Legal-status boundary: private contractual governance guidance; its scope is contractual, with statute, regulation, adjudication, and Salesforce incident disclosure outside it.",
+    "Nationality, accent, language, appearance, geography, camera behavior, remote-work preference, job title, and any single technical signal require corroboration before attribution or adverse action.",
+    "Unnamed organizations and people remain unidentified in the source record.",
+    "Use proportionate, documented, privacy-preserving review with a meaningful human appeal path."
+  ],
+  "infrastructure": [
+    {
+      "type": "first-party-supplier-governance-guidance",
+      "statement": "Salesforce's contingent-workforce supplier enablement ties layered interview, identity, background and change-request checks to supplier governance: intentional failure to adhere to and adapt the guidance may trigger business review and possible contract termination. The useful cross-sector lesson is to make identity-continuity controls flow down to staffing and contingent-labor suppliers and to establish an enforceable exception and escalation path.",
+      "evidence_class": "first-party supplier requirements, not an observed incident",
+      "sector": "public-sector, regulated-sector and critical-infrastructure procurement supply chains",
+      "source_ids": [
+        "DCSR9-S03-SALESFORCE-SUPPLIER-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DCSR9-S03-SALESFORCE-SUPPLIER-2026",
+      "support": "Salesforce directs contingent-workforce suppliers to implement available measures against inauthentic candidates associated with the DPRK IT-worker scheme. It requires layered interview and identity checks, escalation of cross-platform inconsistencies, direct verification of employment and education, scrutiny of abrupt identity or work-location changes, and states that intentional failure to adhere to and adapt the guidance may trigger business review and possible contract termination. Evidence class: supplier governance and hiring guidance, not an incident disclosure Legal-status boundary: Private supplier policy and guidance; not proof that Salesforce hired or was compromised by a DPRK IT worker. The exact initial publication date was not established, so publication_date is null. Source-displayed update: 2026-01; exact initial publication date not established",
+      "locator": "PDF pp. 1-4; Purpose; Candidate Vetting and Review; Interview & Onboarding; Identity & Background Verification; footer 'Last Updated: January 2026'"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

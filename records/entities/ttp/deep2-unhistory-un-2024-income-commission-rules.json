@@ -1,0 +1,50 @@
+{
+  "id": "deep2-unhistory-un-2024-income-commission-rules",
+  "type": "ttp",
+  "name": "2024 Panel income targets, commission rules and multi-job model",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting; some claims reproduce Member State information and remain outside criminal adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2024-215-un-2024-income-commission-rules"
+    ]
+  },
+  "ttps": [
+    "manager-percentage-cut",
+    "multiple-simultaneous-jobs",
+    "regime-remittance"
+  ],
+  "caveats": [
+    "The differing revenue figures remain separate; a precise universal rule requires source harmonization.",
+    "These are Member State/former-worker estimates and may reflect different periods, teams or gross-versus-net accounting than S/2019/691 and S/2020/151."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported overseas IT-worker earnings of $15,000-$60,000 monthly; a former worker reported an annual expectation of at least $100,000, often through multiple full-time positions plus freelance jobs.",
+        "Former workers reported retaining only a small percentage: approximately 10% for lower earners up to 30% for the highest earners, with dispatching agencies taking the rest and sometimes using it to purchase goods for the DPRK.",
+        "A former worker estimated 3,000 workers overseas and 1,000 inside the DPRK."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2024-215-un-2024-income-commission-rules"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-payments",
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2024-215-un-2024-income-commission-rules",
+      "support": "Supports monthly/annual targets, multiple jobs, worker commission range, dispatch-agency retention and population estimate",
+      "locator": "PDF pp. 50-51, para. 152 and footnotes 120-122"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

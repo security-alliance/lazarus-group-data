@@ -1,0 +1,175 @@
+{
+  "id": "leon-lin",
+  "aliases": [
+    "Leon Lowden",
+    "Abe Sinjiro",
+    "Bernard Shibata"
+  ],
+  "fake_names": [
+    "Leon Lin"
+  ],
+  "gender": "male",
+  "fake_citizenships": [
+    "Thailand"
+  ],
+  "real_citizenships": [
+    "North Korea"
+  ],
+  "fake_locations": [
+    "Bangkok"
+  ],
+  "real_locations": [
+    "Vladivostok, Russia"
+  ],
+  "fake_addresses": [
+    "Lung Kan 1 Alley, Bang Bon Tai, Khet Bang Bon, Krung Thep Maha Nakhon, Bangkok, 10150, Thailand"
+  ],
+  "personal_emails": [
+    "leonxdev1@gmail.com",
+    "leon.lowden7@gmail.com",
+    "abe.sinjiro7@gmail.com",
+    "0xl2@proton.me",
+    "bernard.shibata@hotmail.com",
+    "real_striver@outlook.com"
+  ],
+  "phone_numbers": [
+    "+66-863146268"
+  ],
+  "twitter_usernames": [
+    "@zeroxjoe"
+  ],
+  "employment": [
+    {
+      "company": "Undisclosed Company 1",
+      "role": "Smart Contract Engineer",
+      "date_hired": {
+        "$date": "2024-01-01"
+      },
+      "date_identified": {
+        "$date": "2023-04-01"
+      },
+      "date_unhired": {
+        "$date": "2024-04-17"
+      },
+      "managed_laptop": false,
+      "background_check": false,
+      "kyc_collected": false
+    }
+  ],
+  "telegram": [
+    {
+      "id": "7071594535",
+      "usernames": [
+        "moreleon"
+      ],
+      "names": [
+        "Leon Lin"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "mmsys34",
+      "creation_date": {
+        "$date": "2024-08-29"
+      },
+      "names": [
+        "Leon Lin"
+      ],
+      "emails": [
+        "abe.sinjiro7@gmail.com"
+      ],
+      "usernames": [
+        "mmsys",
+        "mmsys34"
+      ]
+    },
+    {
+      "gh_id": "0xhiler",
+      "creation_date": {
+        "$date": "2024-04-17"
+      },
+      "names": [
+        "Leon Lin"
+      ],
+      "emails": [
+        "leonxdev1@gmail.com"
+      ],
+      "usernames": [
+        "0xhil1",
+        "0xhiler"
+      ]
+    },
+    {
+      "gh_id": "prodigy205",
+      "creation_date": {
+        "$date": "2018-03-21"
+      },
+      "names": [
+        "Abe Sinjiro"
+      ],
+      "emails": [
+        "abe.sinjiro7@gmail.com",
+        "real_striver@outlook.com"
+      ],
+      "usernames": [
+        "0xl2",
+        "abe-sinjiro",
+        "naruto0913",
+        "James0913"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0x64d668978ddd6145d4f192eefb03691b75f65096",
+        "0x90a8974ed484da8e209e6db7b2f84c1b5be345d0"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/leon-lin/leon_lin_1.jpg",
+      "short_description": "Photo posted by the persona",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/leon-lin/leon_lin_2.jpg",
+      "short_description": "KYC Leon Lin",
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "path": "/team-images/leon-lin/leon_lin_3.jpg",
+      "short_description": "Leon Lin with his friends (Kazune Takeda and Sadao Murano)",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "Leon's Resume 1",
+      "short_description": "Part 1 of Leon's Resume",
+      "path": "/team-images/leon-lin/CV_1.jpg",
+      "tags": [
+        "resume",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "Leon's Resume 2",
+      "short_description": "Part 2 of Leon's Resume",
+      "path": "/team-images/leon-lin/CV_2.jpg",
+      "tags": [
+        "resume",
+        "portfolio"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "khanh-nguyen",
+  "fake_names": [
+    "Khanh Nguyen"
+  ],
+  "aliases": [
+    "DevCrown333"
+  ],
+  "gender": "other",
+  "fake_locations": [
+    "Hanoi, Vietnam"
+  ],
+  "personal_emails": [
+    "christinejurich17@gmail.com",
+    "dev.tianlong33@gmail.com"
+  ],
+  "github": [
+    {
+      "gh_id": "DevCrown333",
+      "usernames": [
+        "DevCrown333"
+      ]
+    }
+  ],
+  "images": [],
+  "curation": "analyst"
+}

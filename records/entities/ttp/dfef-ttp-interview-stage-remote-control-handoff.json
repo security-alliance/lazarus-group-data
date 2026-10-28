@@ -1,0 +1,70 @@
+{
+  "id": "dfef-ttp-interview-stage-remote-control-handoff",
+  "type": "ttp",
+  "name": "Interview-stage remote-control handoff indicator",
+  "status": "published",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party employer, platform, or hiring-service disclosure with defensive guidance; legal attribution remains at source and service level.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFEF-S02"
+    ]
+  },
+  "ttps": [
+    "interview-assistance",
+    "proxy-interviewee",
+    "remote-desktop"
+  ],
+  "caveats": [
+    "This record carries no identification or inference of an unnamed customer, applicant, identity-theft victim, or account.",
+    "The source describes accidental exposure of two remote-desktop instances during a live technical interview.",
+    "Source-reported product or platform outcome statements require independent audit for efficacy claims.",
+    "Prospect identity and adjudicated DPRK identity are absent from the source. AnyDesk has many legitimate uses and calls for contextual assessment."
+  ],
+  "infrastructure": [
+    {
+      "type": "published-defensive-control-pattern",
+      "statements": [
+        "Use live, observed practical tasks and ask candidates to explain their environment and actions",
+        "Review unexpected remote-control software only through lawful, consented interview or endpoint processes",
+        "Escalate only when multiple identity, device, and behavior signals align"
+      ],
+      "limitations": [
+        "Signals require lawful, proportionate, accessible, privacy-preserving human review. Accent, ethnicity, nationality, visual similarity, camera behavior, geography, VPN use, remote work, or one device/network attribute must never act as a standalone detector."
+      ],
+      "source_ids": [
+        "DFEF-S02"
+      ]
+    },
+    {
+      "type": "source-reported-behavior-or-platform-pattern",
+      "statements": [
+        "Tofu relays a prospect incident in which a candidate accidentally exposed two active AnyDesk instances while sharing a coding environment. The observation is useful as a handoff or remote-assistance indicator when combined with identity inconsistencies, but remote administration software is not independently proof of DPRK activity.",
+        "Use remote-control software during a technical interview or workstation setup",
+        "Allow an off-camera operator to assist or control the interview environment",
+        "Separate the visible candidate from the person operating the system"
+      ],
+      "limitations": [
+        "The source does not identify the prospect or establish an adjudicated DPRK identity. AnyDesk has many legitimate uses and must not be treated as dispositive.",
+        "The source describes accidental exposure of two remote-desktop instances during a live technical interview."
+      ],
+      "source_ids": [
+        "DFEF-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-08-collaborator-laptop-identity-contracts"
+  ],
+  "sources": [
+    {
+      "source_id": "DFEF-S02",
+      "support": "Tofu relays a prospect incident in which a candidate accidentally exposed two active AnyDesk instances while sharing a coding environment. The observation is useful as a handoff or remote-assistance indicator when combined with identity inconsistencies, but remote administration software is not independently proof of DPRK activity. Use live, observed practical tasks and ask candidates to explain their environment and actions Review unexpected remote-control software only through lawful, consented interview or endpoint processes Escalate only when multiple identity, device, and behavior signals align",
+      "locator": "Opening prospect case; What We Found; The Key Insight; The Scale of the Problem; What to Watch For"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

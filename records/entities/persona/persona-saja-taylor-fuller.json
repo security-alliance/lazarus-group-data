@@ -1,0 +1,277 @@
+{
+  "id": "persona-saja-taylor-fuller",
+  "type": "persona",
+  "name": "Taylor Fuller",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s2-nisos-2025-saja"
+    ]
+  },
+  "organizations": [
+    "Inspiration With Digital Living (IWDL)"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "Report this as a Nisos-attributed persona rather than a verified person’s identity. Manipulated photos stay unpublished.",
+    "Source-observed through 2025-05-01; current account ownership remains unestablished.",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Taylor Fuller",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "Ideal-Softer",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    },
+    {
+      "platform": "Professional networking profile",
+      "identifier": "ideal-softer",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    },
+    {
+      "platform": "Website",
+      "identifier": "portfolio-ideal-softer.vercel[.]app",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s2-nisos-2025-saja"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s2-nisos-2025-saja",
+      "support": "The cited source reports Taylor Fuller as a persona or account linked to Inspiration With Digital Living (IWDL); historical indicators described by the source include GitHub Ideal-Softer, portfolio-ideal-softer.vercel[.]app, professional-networking account ideal-softer",
+      "locator": "PDF pp. 9-11"
+    },
+    {
+      "source_id": "src-df7dcca6f8c9"
+    },
+    {
+      "source_id": "src-2a04d3765c81"
+    },
+    {
+      "source_id": "src-5bbcf758629e"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-taylor-persona-artifacts",
+      "type": "identity_name",
+      "predicate": "researcher_reported_persona_artifacts",
+      "value": {
+        "name": "Taylor Fuller",
+        "artifacts": [
+          "portfolio",
+          "professional-networking account",
+          "GitHub account",
+          "software company"
+        ],
+        "identity_status": "persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 9, Taylor Fuller",
+          "quote": "Nisos identified a portfolio website, an active professional networking platform account, a GitHub account, and a software solutions company, which use digitally manipulated photos of the threat actor using the name Taylor Fuller and claiming to be located in the United States."
+        }
+      ],
+      "observed_at": "2025-05-01"
+    },
+    {
+      "id": "claim-taylor-aff-iwdl",
+      "type": "relationship",
+      "predicate": "portfolio_claimed_development_lead",
+      "value": {
+        "projects": [
+          "AFF service",
+          "Inspiration With Digital Living website"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 9, Taylor Fuller",
+          "quote": "The portfolio website claimed that Taylor Fuller led the development of the AFF service, as well as the website of software company, Inspiration With Digital Living (IWDL)."
+        }
+      ],
+      "observed_at": "2025-05-01"
+    },
+    {
+      "id": "claim-taylor-github-history",
+      "type": "account",
+      "predicate": "researcher_reported_github_profile_claim",
+      "value": {
+        "platform": "GitHub",
+        "handle": "Ideal-Softer",
+        "claimed_experience": "over nine years"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "PDF p. 10, Taylor Fuller",
+          "quote": "The GitHub account Ideal-Softer claimed over nine years of experience in web service and mobile applications."
+        }
+      ],
+      "observed_at": "2025-05-01"
+    },
+    {
+      "id": "claim-taylor-portfolio-current",
+      "type": "account",
+      "predicate": "current_page_presents_persona",
+      "value": {
+        "page": "Ideal-Softer portfolio",
+        "name": "Taylor Fuller"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-df7dcca6f8c9",
+          "locator": "HTML page title",
+          "quote": "Taylor Fuller"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current reachability and self-description do not establish current control or truth of the claims."
+      ]
+    },
+    {
+      "id": "claim-taylor-github-current",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "Ideal-Softer",
+        "profile_name": "Taylor Fuller",
+        "public_repositories": 6
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-2a04d3765c81",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"Ideal-Softer\""
+        },
+        {
+          "source_id": "src-2a04d3765c81",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Taylor Fuller\""
+        },
+        {
+          "source_id": "src-2a04d3765c81",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 6"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "API reachability does not establish present ownership or control."
+      ]
+    },
+    {
+      "id": "claim-taylor-current-owner-repository-inventory",
+      "type": "account",
+      "predicate": "current_public_owner_repository_inventory",
+      "value": {
+        "platform": "GitHub",
+        "handle": "Ideal-Softer",
+        "returned_owner_repository_records": 6,
+        "repository_names": [
+          "android",
+          "chat-app",
+          "gigs",
+          "Ideal-Softer",
+          "React-components",
+          "Sample-blockchain"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-5bbcf758629e",
+          "locator": "android repository name field",
+          "quote": "\"name\": \"android\""
+        },
+        {
+          "source_id": "src-5bbcf758629e",
+          "locator": "Sample-blockchain repository name field",
+          "quote": "\"name\": \"Sample-blockchain\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The record count is derived from the complete returned array. Repository metadata does not verify individual authorship, expertise, employment, current control, or civil identity."
+      ]
+    },
+    {
+      "id": "claim-taylor-researcher-reported-manipulated-persona-media",
+      "type": "image",
+      "predicate": "researcher_reported_manipulated_persona_media",
+      "value": {
+        "contexts": [
+          "portfolio",
+          "professional-networking account",
+          "software company"
+        ],
+        "finding": "digitally manipulated photos used with the Taylor Fuller persona",
+        "handling": "narrative_only",
+        "image_retained": false,
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "front-infra-s2-nisos-2025-saja",
+          "locator": "Taylor Fuller persona discussion",
+          "quote": "Nisos identified a portfolio website, an active professional networking platform account, a GitHub account, and a software solutions company, which use digitally manipulated photos of the threat actor using the name Taylor Fuller and claiming to be located in the United States."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Narrative-only publisher finding; no image, direct asset, crop, biometric inference, visual matching, civil-identity inference, or present-location inference is retained or authorized."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Source-reported employment or online persona; civil identity verification remains open for this label, account, and image."
+}

@@ -1,0 +1,410 @@
+{
+  "id": "crypto-incident-babylongroup-defitankland",
+  "type": "cluster",
+  "name": "DefiTankLand / BabylonSwap / Galaxy Foundation cluster — public incident context",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Public security or investigative reporting; legal identity status belongs to a separate official finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-chollima-babylongroup",
+      "crypto-chollima-reframing"
+    ]
+  },
+  "organizations": [
+    "DefiTankLand / BabylonSwap / Galaxy Foundation cluster"
+  ],
+  "ttps": [
+    "Created and staffed a crypto/game project rather than merely infiltrating an employer",
+    "Crypto project served as a talent/revenue vehicle",
+    "Multiple names, locations, and photos across Upwork/LinkedIn/GitHub/Telegram",
+    "Portfolios with copied or misleading project claims",
+    "Reported development work on ICICB/Atari blockchain/metaverse projects",
+    "Reused email and resume infrastructure",
+    "Separate Moonstone Sleet DeTankZone campaign copied the game and weaponized it; do not conflate the two mechanisms",
+    "Shared GitHub organizations: Galaxy Foundation/Galaxy Digital and BabylonSwap"
+  ],
+  "caveats": [
+    "Historical public reporting describes an earlier account state; current account ownership requires current evidence.",
+    "Incident record covering observations; the named personas remain separate catalog labels unless a source links them as one natural person.",
+    "Xiao He appears in the same ecosystem; the source identifies him as a Chinese collaborator, and the identity list places him in a category separate from DPRK workers."
+  ],
+  "aliases": [
+    {
+      "value": "Artem Stepanov",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Brent Jeremy",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Derek Miller",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Ethan Chan",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Evgeny Shalimov",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Jaycee Tran",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Leon Zhang",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Liguo Ma",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Logan King",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Logan Lee",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Logan Smith",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Marcin Iwanski",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Pirachat Chaiwongrote",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Sasuke Uchiha",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Thomas Anderson",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    },
+    {
+      "value": "Vasyl Smirnov",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Linkedin",
+      "identifier": "Brent Jeremy",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Freelance",
+      "identifier": "Derek Miller profiles on Fiverr, Guru, and LaborX",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Linkedin",
+      "identifier": "Derek Miller",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Linkedin",
+      "identifier": "Evgeny Shalimov",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Linkedin",
+      "identifier": "Jaycee Tran",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Linkedin",
+      "identifier": "Logan Smith",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Linkedin",
+      "identifier": "Marcin Iwanski",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Linkedin",
+      "identifier": "Thomas Anderson",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "brent111",
+      "url": "https://github.com/brent111",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Freelance",
+      "identifier": "https://www.upwork.com/freelancers/~01111d002dbda7cb0a",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Freelance",
+      "identifier": "https://www.upwork.com/freelancers/~01d0fb782936f64b5f",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "jayceetran",
+      "url": "https://github.com/jayceetran",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "loganworld",
+      "url": "https://github.com/loganworld",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "sirbang",
+      "url": "https://github.com/sirbang",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    },
+    {
+      "platform": "Github",
+      "identifier": "thomson0313",
+      "url": "https://github.com/thomson0313",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "crypto-chollima-babylongroup",
+        "crypto-chollima-reframing"
+      ],
+      "note": "Historical public indicator; do not infer current ownership from this record."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "source_url": "https://chollima-group.io/posts/dubai-crypto-moonstonesleet-pivot-odyssey",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/dubai-crypto-moonstonesleet-pivot-odyssey/11-b.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "source_url": "https://chollima-group.io/posts/dubai-crypto-moonstonesleet-pivot-odyssey",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/dubai-crypto-moonstonesleet-pivot-odyssey/15-b.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "source_url": "https://chollima-group.io/posts/dubai-crypto-moonstonesleet-pivot-odyssey",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/dubai-crypto-moonstonesleet-pivot-odyssey/4.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "source_url": "https://chollima-group.io/posts/dubai-crypto-moonstonesleet-pivot-odyssey",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/dubai-crypto-moonstonesleet-pivot-odyssey/5.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "source_url": "https://chollima-group.io/posts/dubai-crypto-moonstonesleet-pivot-odyssey",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/dubai-crypto-moonstonesleet-pivot-odyssey/6.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "source_url": "https://chollima-group.io/posts/dubai-crypto-moonstonesleet-pivot-odyssey",
+      "direct_asset_url": "https://chollima-group.io/assets/images/posts/dubai-crypto-moonstonesleet-pivot-odyssey/8-b.png",
+      "caption": "Source-published investigative image associated with this incident; reported context only.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-chollima-babylongroup",
+      "support": "DefiTankLand was built by a cluster of North Korean IT workers",
+      "locator": "Sections “In The Beginning There Was Tanks,” “The Web Expands,” and “The Dubai Connection”"
+    },
+    {
+      "source_id": "crypto-chollima-reframing",
+      "support": "Pemba Sherpa is mapped to Kim Kwang Jin, and Bryan Cho to Jong Pong Ju",
+      "locator": "Section “Bureau 61 (From Vientiane to Vladivostok)” and “Righting Wrongs”"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

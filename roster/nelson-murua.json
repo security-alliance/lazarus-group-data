@@ -1,0 +1,84 @@
+{
+  "id": "nelson-murua",
+  "real_name": "Nelson Murua",
+  "aliases": [
+    "Alberto Mira",
+    "Jackson Bill",
+    "NelsonMurua913",
+    "albertomira1114",
+    "super1114dev"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "sr.muruanelson@gmail.com",
+    "albertomira1114@gmail.com",
+    "super1114dev@gmail.com"
+  ],
+  "websites": [
+    "https://crypto.jobs/talent/profile/senior-smart-contracts-developer-solidity-1",
+    "https://codementor.io/@super1114dev",
+    "https://remote3.co/p/albertomira"
+  ],
+  "employment": [
+    {
+      "company": "Munchables",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "NelsonMurua913",
+      "usernames": [
+        "NelsonMurua913"
+      ]
+    },
+    {
+      "gh_id": "super1114",
+      "usernames": [
+        "super1114"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x6be96b68a46879305c905ccafff02b2519e78055",
+        "0x9976fe30dac6063666eea87133dfad1d5ec27c5e"
+      ]
+    }
+  ],
+  "notes": "Related to Munchables hack.\nWallet Addresses:\n0x6be96b68a46879305c905ccafff02b2519e78055\n0x9976fe30dac6063666eea87133dfad1d5ec27c5e",
+  "images": [
+    {
+      "path": "/team-images/nelson-murua/munchables-alberto-mira-1.png",
+      "short_description": "Alberto Mira profile picture.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/nelson-murua/munchables-alberto-mira-2.png",
+      "short_description": "Alberto Mira profile picture.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/nelson-murua/munchables-nelson-murua-alberto-mira.jpeg",
+      "short_description": "Nelson Murua / Alberto Mira profile picture.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/nelson-murua/munchables-super1114.jpeg",
+      "short_description": "super1114 profile picture.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

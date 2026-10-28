@@ -1,0 +1,162 @@
+{
+  "id": "choe-kum-song",
+  "real_name": "Choe Kum Song",
+  "fake_names": [
+    "Eugene Ong",
+    "Eujin Ong"
+  ],
+  "notes": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+  "images": [],
+  "research_id": "worker-choe-kum-song",
+  "record_type": "worker",
+  "legal_status": {
+    "posture": "officially-attributed",
+    "summary": "Named in MSMT Participating State information relayed in MSMT report 2025/2, which identifies this individual as a DPRK IT worker and records the employment personas and engagements described in the sourced facts. Not individually designated or criminally charged.",
+    "as_of": "2026-08-30",
+    "caveats": [
+      "Identity boundary: Legal or officially reported worker identity only to the extent established by cited sources; do not merge by name or image similarity.",
+      "Employment aliases may be stolen, borrowed, or synthetic identities; do not imply that the apparent alias owner is the DPRK worker.",
+      "Same-source depth from the already-admitted MSMT/2025/2 report; this fragment is not independent corroboration and not an independent source family.",
+      "Victim and employer names, accounts, payments, selectors, contacts, identity documents, birth dates, and precise addresses are excluded.",
+      "Persona names shown here are labels reported by the cited publisher. They are not asserted to be anyone's legal name, and unrelated real people who share a name are not implicated.",
+      "'Eugene Ong' and 'Eujin Ong' are common real names in Singapore and Malaysia. MSMT reports them as aliases used by Choe Kum Song as of June 2024 and does not identify any real person; no real Eugene Ong should be inferred to be this worker.",
+      "Accounts and handles are historical observations reported by the cited sources. Present control of any account is not asserted, and a persona name is not asserted to be anyone's legal identity."
+    ]
+  },
+  "sources": [
+    {
+      "id": "doc-331cc418089a",
+      "title": "The DPRK's Violation and Evasion of UN Sanctions through Cyber and Information Technology Worker Activities (MSMT/2025/2)",
+      "publisher": "Multilateral Sanctions Monitoring Team",
+      "url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "date": "2025-10-22"
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-choe-kum-song-bounded-employment-presentation-round61",
+      "label": "Msmt reported historical employment presentation",
+      "category": "employment",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "Choe appeared to be a lead engineer at a Singaporean company that issued verifiable digital certificates."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "Choe claimed to have work experience as a main developer at a Canadian company."
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "In June 2024, Choe Kum Song was an employee of at least three U.S. companies."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-crypto-investment-approaches-round61",
+      "label": "Msmt reported historical crypto investment approaches",
+      "category": "incident",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "In March and April 2023, Choe Kum Song, a Laos-based DPRK IT worker linked to Sangsin, approached multiple individuals to invest in a cryptocurrency investment scam."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-eugene-ong-employment-persona-round61",
+      "label": "Msmt reported historical employment persona alias",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "As of June 2024, Choe Kum Song used the aliases Eujin Ong and Eugene Ong."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-eujin-ong-employment-persona-round61",
+      "label": "Msmt reported historical employment persona alias",
+      "category": "alias",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "As of June 2024, Choe Kum Song used the aliases Eujin Ong and Eugene Ong."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-historical-relocation",
+      "label": "Msmt reported historical delegation relocation context",
+      "category": "location",
+      "observed": "2024-12-31",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 14 heading, printed p. 131 / PDF p. 133",
+          "quote": "Individuals from SANS FAB IT Delegation who Relocated from Laos to China"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 14 list, printed p. 131 / PDF p. 133",
+          "quote": "Choe Kum Song"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-reported-name",
+      "label": "Msmt reported delegation member name",
+      "category": "identity_name",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 12, Individuals Associated with SANS FAB IT/Sangsin Delegation, printed p. 129 / PDF p. 131",
+          "quote": "Choe Kum Song"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-sangsin-delegation-earnings-context",
+      "label": "Msmt reported sangsin delegation earnings context",
+      "category": "incident",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "The delegation earned over $2.5 million between mid-2019 and mid-2024"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-choe-kum-song-sans-affiliation",
+      "label": "Msmt reported sans fab sangsin association",
+      "category": "organization_affiliation",
+      "observed": "2025-10-22",
+      "evidence": [
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 12 heading, printed p. 129 / PDF p. 131",
+          "quote": "Individuals Associated with SANS FAB IT/Sangsin Delegation"
+        },
+        {
+          "source_id": "doc-331cc418089a",
+          "locator": "Annex 12 list, printed p. 129 / PDF p. 131",
+          "quote": "Choe Kum Song"
+        }
+      ]
+    }
+  ],
+  "curation": "ai-assisted"
+}

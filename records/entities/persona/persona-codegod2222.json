@@ -1,0 +1,256 @@
+{
+  "id": "persona-codegod2222",
+  "type": "persona",
+  "name": "codegod2222",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Microsoft Threat Intelligence reports Figure 3 as a GitHub profile used by a North Korean IT worker. This is a publisher attribution to a historical platform account; it carries no civil-identity finding, criminal allegation, sanctions designation, proof of nationality for an apparent profile subject, or present-controller determination.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "drp52-microsoft-figures"
+    ]
+  },
+  "ttps": [
+    "source-reported public developer-profile backstopping"
+  ],
+  "caveats": [
+    "A surviving third-party issue mention shows only that codegod2222 appeared in the record; authorship of deleted content, account control at that time, and code contribution remain unestablished.",
+    "Microsoft Figure 3 reports codegod2222 as a GitHub profile used by a North Korean IT worker. Figure 2 separately reports the Joshua Desire LinkedIn persona; their adjacency leaves account, label, and apparent profile-subject linkage unresolved.",
+    "The profile title and experience text are historical account claims visible in Microsoft's figure; employment or experience status remains source-reported.",
+    "Zero current GitHub and archive search results leave deletion timing, deletion cause, renaming, and universal historical absence unresolved."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "codegod2222",
+      "url": "https://github.com/codegod2222",
+      "status": "removed",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "drp52-github-user-status",
+        "drp52-microsoft-figures"
+      ],
+      "note": "Microsoft Figure 3 reports the historical handle and says the profile had been taken down; the exact public user endpoint returned Not Found at the cutoff. Cause, timing, renaming, and present controller remain unknown."
+    }
+  ],
+  "images": [
+    {
+      "source_id": "drp52-microsoft-figures",
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/",
+      "direct_asset_url": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2025/06/Figure-3.-Example-profile-used-by-a-North-Korean-IT-worker-that-has-since-been-taken-down.webp",
+      "caption": "Microsoft Figure 3 shows the historical codegod2222 GitHub profile. Treat the avatar as non-identifying and do not attach this figure to Joshua Desire.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "third-party-handle-mention",
+      "account": "codegod2222",
+      "repository": "ffmpegwasm/ffmpeg.wasm",
+      "observed_at": "2024-09-14",
+      "account_authorship_or_contribution_established": false,
+      "source_ids": [
+        "drp52-github-issue-mention"
+      ]
+    },
+    {
+      "type": "historical-account-status",
+      "account": "codegod2222",
+      "status_at_cutoff": "not found",
+      "current_exact_search_counts": {
+        "users": 0,
+        "author_commits": 0,
+        "repositories": 0
+      },
+      "removal_cause_or_date_established": false,
+      "source_ids": [
+        "drp52-github-searches",
+        "drp52-github-user-status"
+      ]
+    },
+    {
+      "type": "source-displayed-profile-claims",
+      "platform": "GitHub",
+      "account": "codegod2222",
+      "profile_title": "Full Stack Mobile & Web Expert",
+      "experience_claim": "13+ Years Experience in Software Development",
+      "verified_employment_or_experience": false,
+      "source_ids": [
+        "drp52-microsoft-figures"
+      ]
+    },
+    {
+      "type": "archive-availability-check",
+      "account": "codegod2222",
+      "returned_cdx_rows": 0,
+      "historical_absence_established": false,
+      "source_ids": [
+        "drp52-wayback-cdx"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "drp52-github-searches",
+      "support": "Exact current user, author-commit, and repository searches returned zero results; those bounded results do not establish historical absence",
+      "locator": "Three complete zero-result aggregate searches"
+    },
+    {
+      "source_id": "drp52-github-user-status",
+      "support": "The exact public user endpoint returned Not Found at the cutoff; cause, timing, renaming, and present controller are not established",
+      "locator": "Complete Not Found response"
+    },
+    {
+      "source_id": "drp52-github-issue-mention",
+      "support": "A surviving third-party 2024 GitHub comment mentions [@]codegod2222; it does not establish account authorship, control, or code contribution",
+      "locator": "avi12 comment created 2024-09-14T06:13:07Z"
+    },
+    {
+      "source_id": "drp52-wayback-cdx",
+      "support": "Public CDX checks returned no account or repository rows; the empty result does not prove no historical capture or content existed",
+      "locator": "Two complete zero-row CDX responses"
+    },
+    {
+      "source_id": "drp52-microsoft-figures",
+      "support": "Microsoft Figure 3 reports GitHub handle codegod2222 as a profile used by a North Korean IT worker, displays bounded role/experience claims, and says the profile had been taken down; Figure 2 separately depicts Joshua Desire",
+      "locator": "Crafting fake personas and profiles, Figure 2; Establishing digital footprint, Figure 3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-persona-codegod2222-historical-github-account-round52",
+      "type": "account",
+      "predicate": "publisher_reported_historical_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "codegod2222",
+        "source_reported_status": "taken down by publication time",
+        "current_exact_endpoint_status": "not found",
+        "present_controller_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp52-microsoft-figures",
+          "locator": "Figure 3 alternative text and caption",
+          "quote": "Screenshot of a GitHub profile from a North Korean IT worker using the username codegod2222"
+        },
+        {
+          "source_id": "drp52-github-user-status",
+          "locator": "Complete response",
+          "quote": "\"message\": \"Not Found\""
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Historical platform account only. Microsoft reports the account as taken down, while GitHub's current endpoint establishes only present non-reachability."
+      ]
+    },
+    {
+      "id": "claim-persona-codegod2222-microsoft-it-worker-attribution-round52",
+      "type": "relationship",
+      "predicate": "publisher_attributed_historical_account_to_dprk_it_worker_activity",
+      "value": {
+        "publisher": "Microsoft Threat Intelligence",
+        "platform": "GitHub",
+        "handle": "codegod2222",
+        "attribution_scope": "profile used by a North Korean IT worker",
+        "civil_identity_established": false,
+        "same_as_joshua_desire_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp52-microsoft-figures",
+          "locator": "Figure 3 alternative text",
+          "quote": "GitHub profile from a North Korean IT worker using the username codegod2222"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Publisher attribution applies to the historical account example. It is not a legal finding, sanctions designation, or natural-person identity resolution."
+      ]
+    },
+    {
+      "id": "claim-persona-codegod2222-source-displayed-profile-title-round52",
+      "type": "employment",
+      "predicate": "source_displayed_historical_profile_title",
+      "value": {
+        "platform": "GitHub",
+        "handle": "codegod2222",
+        "claimed_title": "Full Stack Mobile & Web Expert",
+        "verified_employment": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp52-microsoft-figures",
+          "locator": "Figure 3 bounded non-contact visual transcription",
+          "quote": "Full Stack Mobile & Web Expert"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Historical profile claim only; no employer or employment relationship is established."
+      ]
+    },
+    {
+      "id": "claim-persona-codegod2222-source-displayed-experience-round52",
+      "type": "employment",
+      "predicate": "source_displayed_historical_experience_claim",
+      "value": {
+        "platform": "GitHub",
+        "handle": "codegod2222",
+        "claimed_experience": "13+ Years Experience in Software Development",
+        "verified_experience": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp52-microsoft-figures",
+          "locator": "Figure 3 bounded non-contact visual transcription",
+          "quote": "13+ Years Experience in Software Development"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Historical self-presentation visible in the publisher's figure; not independently verified."
+      ]
+    },
+    {
+      "id": "claim-persona-codegod2222-current-negative-search-boundary-round52",
+      "type": "note",
+      "predicate": "current_exact_handle_searches_returned_no_results",
+      "value": {
+        "platform": "GitHub",
+        "handle": "codegod2222",
+        "user_results": 0,
+        "author_commit_results": 0,
+        "repository_results": 0,
+        "historical_absence_established": false,
+        "renaming_or_deletion_cause_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp52-github-searches",
+          "locator": "Three complete query counts",
+          "quote": "\"total_count\": 0"
+        }
+      ],
+      "observed_at": "2026-08-16",
+      "notes": [
+        "This bounded current-state result is retained to prevent speculative repository or rename claims."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Microsoft Figure 3 reports codegod2222 as a GitHub profile used by a North Korean IT worker. Figure 2 separately reports the Joshua Desire LinkedIn persona; their adjacency leaves account, label, and apparent profile-subject linkage unresolved."
+}

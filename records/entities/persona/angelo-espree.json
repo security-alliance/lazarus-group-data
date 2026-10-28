@@ -1,0 +1,356 @@
+{
+  "id": "angelo-espree",
+  "type": "persona",
+  "name": "Angelo Espree",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "ANY.RUN/Bitso controlled investigation identifies this as a suspected Famous Chollima operative; the talk supplies a suspected-operative label, with legal identity unresolved.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-anyrun-2026-08-10"
+    ]
+  },
+  "organizations": [
+    "Ballena Azul LTD",
+    "Famous Chollima"
+  ],
+  "front_companies": [
+    "Ballena Azul LTD / Blue Whale LTD"
+  ],
+  "locations": [
+    "Claimed Pasadena, Texas"
+  ],
+  "ttps": [
+    "CAPTCHA and selective-outage behavior observed during work simulation",
+    "ChatGPT-assisted coding and troubleshooting",
+    "communication through Notepad when remote support was presented",
+    "GitHub access from the controlled VDI",
+    "Google account synchronization exposing stored browser data and extensions",
+    "Google Remote Desktop setup",
+    "IP/geolocation checking through IP8",
+    "system reconnaissance with dxdiag, systeminfo, and wmic",
+    "testnet-faucet and wallet confusion"
+  ],
+  "caveats": [
+    "Angelo Espree is a public persona label from the controlled investigation; civil identity status remains unverified.",
+    "This is a research-reported persona label from a public investigation; legal or civil identity verification remains open."
+  ],
+  "images": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two/",
+      "caption": "Public figure showing Angelo's comment on GitHub looking for facilitators.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two/",
+      "caption": "Public figure showing Angelo using ChatGPT during the controlled work simulation.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "remote-access",
+      "value": "Google Remote Desktop",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    },
+    {
+      "type": "vpn",
+      "value": "AstrillVPN",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "talk-anyrun-2026-08-10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-anyrun-2026-08-10",
+      "support": "Chapters III, V and VI name Angelo Espree, show public figures, and describe reconnaissance, remote access, account synchronization, AI use, wallets, and work behavior",
+      "locator": "Chapters III, V and VI"
+    },
+    {
+      "source_id": "src-1948a59a3373"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-angelo-espree-persona",
+      "type": "identity_name",
+      "predicate": "publisher_reported_worker_persona",
+      "value": {
+        "name": "Angelo Espree",
+        "context": "controlled Ballena Azul LTD engagement"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter III, closing paragraph",
+          "quote": "Not long afterwards, Angelo introduced us to our first engineer: Angelo Espree."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Inside fake crypto company Ballena Azul, recruiter paragraph",
+          "quote": "García said that Ballena Azul needed to hire software developers and the recruiter offered up “Jack Anderson,” “Angelo Espree” and “Lucas Theo.”"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Worker persona label, kept separate from recruiter Angelo Cruz and from any civil identity."
+      ]
+    },
+    {
+      "id": "claim-angelo-controlled-role",
+      "type": "employment",
+      "predicate": "accepted_controlled_company_position",
+      "value": {
+        "organization": "Ballena Azul LTD",
+        "role": "smart-contract developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Angelo introduction",
+          "quote": "Angelo Espree was the first to accept a position at Ballena Azul LTD"
+        },
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Angelo interview paragraph",
+          "quote": "Angelo would be responsible for developing the company’s smart contracts."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Ballena Azul LTD was the researchers' controlled fictional company; this is not verified real-world employment."
+      ]
+    },
+    {
+      "id": "claim-angelo-anyrun-attribution",
+      "type": "relationship",
+      "predicate": "publisher_attributed_dprk_it_worker",
+      "value": {
+        "attribution": "DPRK IT worker",
+        "basis": "controlled investigation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, Angelo introduction",
+          "quote": "making him the first DPRK IT Worker to step inside our company"
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Inside fake crypto company Ballena Azul, Angelo image caption",
+          "quote": "Angelo Espree was one of the developers onboarded through a recruiter associated with DPRK operations. Source: ANY.RUN"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Vendor attribution within a controlled engagement; not a legal identity, nationality adjudication, charge, or conviction. Cointelegraph relays the attribution but explicitly says it could not independently confirm nationality or affiliation and that no government agency had publicly identified the workers."
+      ]
+    },
+    {
+      "id": "claim-angelo-jack-referral",
+      "type": "relationship",
+      "predicate": "publisher_reported_referral",
+      "value": {
+        "referred_persona": "Jack Anderson",
+        "reported_relationship": "friend"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter IV, transition to Jack",
+          "quote": "Angelo already had someone in mind: his friend Jack Anderson."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Source-reported persona relationship; not a civil-identity or off-platform social relationship finding."
+      ]
+    },
+    {
+      "id": "claim-angelo-onboarding-document-inconsistency",
+      "type": "incident",
+      "predicate": "publisher_reported_claimed_location_document_mismatch",
+      "value": {
+        "claimed_location": "Pasadena, Texas",
+        "document_jurisdiction": "California",
+        "publisher_assessment": "document image showed alteration metadata"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter V, Angelo onboarding paragraph",
+          "quote": "He claimed to be living in Pasadena, Texas, yet sent us a California driver’s license"
+        },
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter V, Angelo document-metadata paragraph",
+          "quote": "Several EXIF entries revealed that the image had been processed with Google Gemini, and a SynthID watermark had been embedded as well."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "No document image, number, address, birth date, physical description, account, or other identity selector is retained. The document does not establish a civil identity or current residence."
+      ]
+    },
+    {
+      "id": "claim-angelo-system-reconnaissance",
+      "type": "incident",
+      "predicate": "publisher_observed_controlled_environment_reconnaissance",
+      "value": {
+        "tools": [
+          "dxdiag",
+          "systeminfo",
+          "wmic",
+          "public IP lookup"
+        ],
+        "environment": "researcher-controlled virtual desktop"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VI, first-day activity paragraph",
+          "quote": "They started with dxdiag (DirectX Diagnostic Tool), systeminfo, and wmic to get a detailed overview of the system, then checked where in the world they appeared to be by visiting legitimate IP lookup websites, in this case IP8."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Observed inside a controlled environment; no IP or device selector is retained."
+      ]
+    },
+    {
+      "id": "claim-angelo-remote-desktop-sync",
+      "type": "account",
+      "predicate": "publisher_observed_browser_account_and_remote_desktop_setup",
+      "value": {
+        "services": [
+          "Google account",
+          "Google Remote Desktop"
+        ],
+        "activity": "opened an account session, installed remote desktop software, and synchronized the account with the controlled machine"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VI, account synchronization paragraph",
+          "quote": "Angelo felt safe enough to open his Google account, install Google Remote Desktop, just as we’d seen in Episode 1, and sync his account with the machine."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Historical session behavior in a controlled environment. No account identifier, stored data, credential, or current ownership/control inference is retained."
+      ]
+    },
+    {
+      "id": "claim-angelo-ai-assisted-development",
+      "type": "skill",
+      "predicate": "publisher_observed_ai_assisted_development",
+      "value": {
+        "work_area": "backend and smart contracts",
+        "tool": "ChatGPT",
+        "context": "controlled work simulation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VI, team work paragraph",
+          "quote": "Angelo and Lucas wrestled with the backend and the smart contracts."
+        },
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VI, debugging paragraph",
+          "quote": "Their vibecoding session continued, now wrestling with a faulty NPM installation and dealing with the occasional network outages while juggling ChatGPT results between Remix and Visual Studio, hoping for the best."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Collective team observation for the controlled simulation; it does not prove independent skill level or current tool use."
+      ]
+    },
+    {
+      "id": "claim-angelo-confrontation-response",
+      "type": "incident",
+      "predicate": "publishers_reported_response_to_controlled_identity_confrontation",
+      "value": {
+        "immediate_response": "left the controlled video call first",
+        "reported_follow_up": "privately asked researcher persona Andy whether he was alright and apologized for what had happened",
+        "context": "researcher-controlled Ballena Azul engagement"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VIII, confrontation paragraph",
+          "quote": "The first to run away was Angelo, completely terrified."
+        },
+        {
+          "source_id": "talk-anyrun-2026-08-10",
+          "locator": "Chapter VIII, post-confrontation paragraph",
+          "quote": "Angelo reached out to Andy privately to ask whether he was alright and to say he was sorry about what had happened between us."
+        },
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Taking Ballena Azul down, confrontation paragraph",
+          "quote": "Espree left the video call first, while Anderson stayed longer before realizing the scheme was unraveling."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Historical behavior within the investigators' controlled scenario. No private message content, contact selector, present relationship, or intent inference is retained."
+      ]
+    },
+    {
+      "id": "claim-angelo-link-only-cointelegraph-image",
+      "type": "image",
+      "predicate": "publisher_captioned_link_only_persona_image",
+      "value": {
+        "source_page": "https://cointelegraph.com/magazine/fake-crypto-startup-fooled-north-korean-it-workers",
+        "media_url": "https://s3-images.ctmedia.io/media/content/angelo-espree-dprk-ballena-azul.png",
+        "caption_label": "Angelo Espree was one of the developers onboarded through a recruiter associated with DPRK operations",
+        "source_credit": "ANY.RUN",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1948a59a3373",
+          "locator": "Inside fake crypto company Ballena Azul, Angelo image caption",
+          "quote": "Angelo Espree was one of the developers onboarded through a recruiter associated with DPRK operations. Source: ANY.RUN"
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "Source-explicit link-only media reference. The asset was not separately downloaded, cropped, cached for publication, compared, reverse-searched, or used for facial recognition, appearance inference, or civil-identity resolution."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Angelo Espree is an ANY.RUN-assigned or source-reported worker persona observed in the controlled Ballena Azul LTD engagement, with an unverified civil identity. Keep this persona separate from recruiter Angelo Cruz. Claimed identity documents, locations, browser-account sessions, GitHub access, and images leave legal identity and present account control unresolved; document, contact, financial, wallet, image, and private-account selectors are omitted."
+}

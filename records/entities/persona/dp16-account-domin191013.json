@@ -1,0 +1,491 @@
+{
+  "id": "dp16-account-domin191013",
+  "type": "persona",
+  "name": "domin191013",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Recorded Future Insikt Group research attribution only. PurpleBravo fake-interview artifacts and PurpleDelta fraudulent-employment activity remain distinct unless the cited source explicitly bridges a particular artifact",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dp16-recordedfuture-purplebravo-2026"
+    ]
+  },
+  "ttps": [
+    "Historical use of a public code-hosting account in source-attributed activity"
+  ],
+  "caveats": [
+    "Aaron and Boris are generic historical display aliases for this account. A same-named record or natural person requires a source-backed bridge.",
+    "Keep Aaron and Boris separate from same-named people/personas; GitHub account control on 2026-08-12 remains unresolved.",
+    "Historical source attribution only; present account, profile, and brand control require current source evidence.",
+    "The source describes PurpleBravo and PurpleDelta overlap; identifiers remain distinct across those activity sets unless separately linked.",
+    "This is a historical PurpleBravo campaign-account record with qualified PurpleDelta overlap; the record covers a campaign account rather than a proven fraudulent-employment worker account."
+  ],
+  "aliases": [
+    {
+      "value": "Aaron",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dp16-recordedfuture-purplebravo-2026"
+      ]
+    },
+    {
+      "value": "Boris",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dp16-recordedfuture-purplebravo-2026"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "domin191013",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dp16-recordedfuture-purplebravo-2026"
+      ],
+      "note": "Source-published historical public handle; no present-control claim."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dp16-recordedfuture-purplebravo-2026",
+      "support": "Recorded Future Insikt Group vendor attribution; historical observation, not a present-control finding. Retained as a historical, source-attributed public identifier; no present ownership or civil identity is inferred",
+      "locator": "PDF pp. 25-27, PurpleBravo and PurpleDelta Overlap; Figure 17"
+    },
+    {
+      "source_id": "src-399ec64feab0"
+    },
+    {
+      "source_id": "src-4519fdbe279c"
+    },
+    {
+      "source_id": "src-acae6de83d4a"
+    },
+    {
+      "source_id": "src-e3237df796ea"
+    },
+    {
+      "source_id": "src-5b65ab28433b"
+    },
+    {
+      "source_id": "src-66a3f9ca94a4"
+    },
+    {
+      "source_id": "src-d26f4617edc6"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-domin-source-purplebravo-account",
+      "type": "account",
+      "predicate": "publisher_reported_github_account_used_by_operator",
+      "value": {
+        "platform": "GitHub",
+        "handle": "domin191013",
+        "attribution_context": "PurpleBravo operator",
+        "status": "active at report writing"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), PurpleBravo and PurpleDelta Overlap, account sentence",
+          "quote": "The operator uses a GitHub account with the username “domin191013” that is active at the time of this writing."
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "Recorded Future attribution only; report-time activity does not establish present controller or civil identity."
+      ]
+    },
+    {
+      "id": "claim-domin-source-remote-session-profile-context",
+      "type": "relationship",
+      "predicate": "publisher_reported_profile_open_in_potential_remote_session",
+      "value": {
+        "platform": "GitHub",
+        "handle": "domin191013",
+        "publisher_context": "profile open in a browser during a remote desktop session potentially connected to the PurpleBravo operator",
+        "selector_status": "network selector excluded"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), remote-session paragraph, selector-free clause",
+          "quote": "with the GitHub profile “domin191013” open in the web browser."
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "The publisher used qualified language, so this is contextual support rather than independent proof of controller identity. The exact remote-session address was excluded."
+      ]
+    },
+    {
+      "id": "claim-domin-source-adonis-follow",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_github_follow",
+      "value": {
+        "platform": "GitHub",
+        "source_handle": "domin191013",
+        "target_handle": "adonistoday",
+        "status": "historical publisher observation",
+        "merge_status": "not merged"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), PurpleBravo and PurpleDelta Overlap, follower-graph sentence",
+          "quote": "Among the GitHub users “domin191013” follows is the profile “adonistoday”"
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "A historical follow is contextual and does not prove identity, shared ownership, coordination, or current relationship. The accounts remain separate records."
+      ]
+    },
+    {
+      "id": "claim-domin-source-display-aliases",
+      "type": "alias",
+      "predicate": "publisher_reported_github_display_alias_change",
+      "value": {
+        "platform": "GitHub",
+        "historical_alias": "Aaron",
+        "report_time_alias": "Boris"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), final paragraph, historical alias clause",
+          "quote": "At the time of access, the GitHub profile used the alias “Aaron”"
+        },
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), final paragraph, report-time alias clause",
+          "quote": "however, the profile currently uses the alias “Boris”"
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "Generic display aliases only; neither is treated as a civil name or linked to any same-named person or record."
+      ]
+    },
+    {
+      "id": "claim-domin-source-adjacent-aaron-personas",
+      "type": "relationship",
+      "predicate": "publisher_reported_names_in_same_operator_environment",
+      "value": {
+        "names": [
+          "Aaron Porchia",
+          "Aaron Taylor",
+          "Aaron Ham"
+        ],
+        "related_profile_ids": [
+          "dp16-persona-aaron-porchia",
+          "dp16-persona-aaron-taylor",
+          "dp16-persona-aaron-ham"
+        ],
+        "relationship_to_account": "same publisher-described operator environment; not established as GitHub aliases or one person",
+        "merge_status": "not merged"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), names paragraph",
+          "quote": "The names Aaron Porchia, Aaron Taylor, and Aaron Ham were frequently seen"
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "The report did not establish these as aliases of the GitHub account or as one natural person. They remain separate review-tier persona records. The unresolved Korean name in the same paragraph was not promoted or added as an account alias."
+      ]
+    },
+    {
+      "id": "claim-domin-current-github-metadata",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "domin191013",
+        "numeric_id": 101926344,
+        "display_name": "Boris",
+        "bio": "AI | Crypto | Trading | Web Development",
+        "public_repositories": 17,
+        "public_gists": 0,
+        "followers": 32,
+        "following": 67,
+        "created_at": "2022-03-19T09:51:25Z",
+        "updated_at": "2026-04-29T01:49:18Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"domin191013\""
+        },
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field id",
+          "quote": "\"id\": 101926344"
+        },
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Boris\""
+        },
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field bio",
+          "quote": "\"bio\": \"AI | Crypto | Trading | Web Development\""
+        },
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 17"
+        },
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2022-03-19T09:51:25Z\""
+        },
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field updated_at",
+          "quote": "\"updated_at\": \"2026-04-29T01:49:18Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Mutable public metadata only; display name, biography, graph counts, and reachability do not establish present controller, civil identity, skill, location, or uninterrupted continuity."
+      ]
+    },
+    {
+      "id": "claim-domin-current-repository-portfolio",
+      "type": "account",
+      "predicate": "current_public_repository_portfolio_summary",
+      "value": {
+        "platform": "GitHub",
+        "owner_repository_count": 17,
+        "non_fork_count": 6,
+        "fork_count": 11,
+        "archived_count": 0,
+        "disabled_count": 0,
+        "repository_creation_range": [
+          "2022-05-15T05:17:08Z",
+          "2025-12-03T17:59:16Z"
+        ],
+        "primary_language_counts": {
+          "Solidity": 4,
+          "Python": 2,
+          "JavaScript": 1,
+          "unlabelled": 10
+        },
+        "safe_project_context_examples": [
+          "social frontend",
+          "NFT marketplaces and staking",
+          "Solana and Solidity contracts",
+          "DEX and arbitrage",
+          "virtual-estate protocol and GraphQL",
+          "Ethereum tooling for VS Code"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-4519fdbe279c",
+          "locator": "Complete 17-item owner-repository response",
+          "quote": "\"full_name\": \"domin191013/Algo-Social-Frontend\""
+        },
+        {
+          "source_id": "src-4519fdbe279c",
+          "locator": "Repository fork flags",
+          "quote": "\"fork\": true"
+        },
+        {
+          "source_id": "src-4519fdbe279c",
+          "locator": "Repository archive flags",
+          "quote": "\"archived\": false"
+        },
+        {
+          "source_id": "src-4519fdbe279c",
+          "locator": "Repository primary-language fields",
+          "quote": "\"language\": \"Solidity\""
+        },
+        {
+          "source_id": "src-4519fdbe279c",
+          "locator": "Earliest repository created_at field",
+          "quote": "\"created_at\": \"2022-05-15T05:17:08Z\""
+        },
+        {
+          "source_id": "src-4519fdbe279c",
+          "locator": "Latest repository created_at field",
+          "quote": "\"created_at\": \"2025-12-03T17:59:16Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Aggregate public portfolio metadata only. Eleven of seventeen repositories are forks, so repository presence and descriptions do not verify authorship, professional competency, campaign purpose, or current controller."
+      ]
+    },
+    {
+      "id": "claim-domin-public-open-source-activity",
+      "type": "organization_affiliation",
+      "predicate": "public_account_contribution_history_to_open_source_repositories",
+      "value": {
+        "platform": "GitHub",
+        "date_range": [
+          "2022-06-16T01:27:54Z",
+          "2025-12-03T18:39:25Z"
+        ],
+        "public_items_total": 95,
+        "pull_requests": 78,
+        "merged_pull_requests": 66,
+        "closed_unmerged_pull_requests": 12,
+        "issues": 17,
+        "repository_breakdown": [
+          {
+            "repository": "interledger/testnet",
+            "items": 81,
+            "pull_requests": 66,
+            "merged_pull_requests": 56,
+            "issues": 15
+          },
+          {
+            "repository": "interledger/rafiki",
+            "items": 6,
+            "pull_requests": 6,
+            "merged_pull_requests": 6,
+            "issues": 0
+          },
+          {
+            "repository": "7finney/ethcode",
+            "items": 5,
+            "pull_requests": 3,
+            "merged_pull_requests": 2,
+            "issues": 2
+          },
+          {
+            "repository": "domin191013/code-vs-code",
+            "items": 3,
+            "pull_requests": 3,
+            "merged_pull_requests": 2,
+            "issues": 0
+          }
+        ],
+        "representative_account_activity_topics": [
+          "authentication and grants",
+          "wallet and payment APIs",
+          "transactions and shared data models",
+          "developer keys and testing",
+          "Ethereum tooling",
+          "small Python arithmetic changes"
+        ],
+        "relationship_boundary": "public account contribution history; not employment or organization membership"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-acae6de83d4a",
+          "locator": "Search response total_count",
+          "quote": "\"total_count\": 95"
+        },
+        {
+          "source_id": "src-acae6de83d4a",
+          "locator": "Issue and pull-request author objects",
+          "quote": "\"login\": \"domin191013\""
+        },
+        {
+          "source_id": "src-acae6de83d4a",
+          "locator": "Representative Interledger testnet pull request title",
+          "quote": "feat: add default user to rafiki admin"
+        },
+        {
+          "source_id": "src-acae6de83d4a",
+          "locator": "Representative Interledger Rafiki pull request title",
+          "quote": "feat(auth): added revokeGrant function"
+        },
+        {
+          "source_id": "src-acae6de83d4a",
+          "locator": "Representative ethcode pull request title",
+          "quote": "updated interfaces, abi, bytecode"
+        },
+        {
+          "source_id": "src-e3237df796ea",
+          "locator": "JSON fields full_name and description",
+          "quote": "\"full_name\": \"interledger/testnet\""
+        },
+        {
+          "source_id": "src-5b65ab28433b",
+          "locator": "JSON fields full_name and description",
+          "quote": "\"full_name\": \"interledger/rafiki\""
+        },
+        {
+          "source_id": "src-66a3f9ca94a4",
+          "locator": "JSON fields full_name and description",
+          "quote": "\"description\": \"Ethereum plugin for vscode\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Counts were derived from all 95 public results returned at cutoff; 66 pull-request objects had non-null merged timestamps.",
+        "This is strong evidence of public activity under the account, not proof of the natural person behind each action, employment, Interledger or 7finney membership, victim status, DPRK tasking, or uninterrupted control across the timeline."
+      ]
+    },
+    {
+      "id": "claim-domin-current-adonis-follow-check",
+      "type": "relationship",
+      "predicate": "current_public_follow_check_endpoint_status",
+      "value": {
+        "platform": "GitHub",
+        "source_handle": "domin191013",
+        "target_handle": "adonistoday",
+        "source_account_endpoint_status": "HTTP 200",
+        "target_account_endpoint_status": "HTTP 200",
+        "follow_check_endpoint_status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"domin191013\""
+        },
+        {
+          "source_id": "src-d26f4617edc6",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-d26f4617edc6",
+          "locator": "JSON field status",
+          "quote": "\"status\": \"404\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Endpoint state only; it does not negate the historical publisher observation or establish why or when the graph changed."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Recorded Future reports a historical GitHub account used in PurpleBravo-attributed activity, with qualified PurpleDelta overlap. Aaron and Boris are generic account aliases with civil identity status unverified. Public repository, issue, pull-request, and review activity belongs to the account timeline; human author, employment, uninterrupted control, and present attribution require separate evidence."
+}

@@ -1,0 +1,351 @@
+{
+  "id": "worker-yun-song-guk",
+  "type": "worker",
+  "name": "Yun Song Guk",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. The record names an OFAC-designated DPRK national; the Federal Register provides durable publication of the same OFAC administrative designation action already represented; the source describes a leader of an IT-worker team in Boten, Laos. The team-lead account is source-bounded; independent corroboration and a new legal event are absent. The administrative notice supplies the list entry and alternate name form, while the separate Boten team-lead narrative remains source-unlinked. Administrative sanctions designation; criminal charge or conviction is outside the designation.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doaa-s08",
+      "doar9-ofac-sdn-current",
+      "dofr62-2026-05114",
+      "gov-54cada63e515",
+      "gov-e31464a55e89"
+    ]
+  },
+  "legal_or_reported_name": "Yun Song Guk",
+  "organizations": [
+    "Amnokgang Technology Development Company"
+  ],
+  "locations": [
+    "Boten, Laos (OFAC listing context; not current location)"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Birth data, address, nationality, gender, email, passport or identity-document data, wallets, financial selectors, related-person selectors, and contact details are excluded.",
+    "Sanctions designations are administrative actions; the record carries no conviction.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The alias is a romanization variant of the same name.",
+    "The locality is sanctions-list context; current presence and team activity require separate evidence.",
+    "This notice adds durable official publication metadata; person, legal event, designation posture, and independent-source-family status remain unchanged."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doaa-s08",
+        "dofr62-2026-05114"
+      ],
+      "value": "YUN, So'ng-kuk"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "federal-register-durable-publication-of-existing-ofac-action",
+      "document_number": "2026-05114",
+      "citation": "91 FR 12904",
+      "official_name": "YUN, Song Guk",
+      "action_issued_date": "2026-03-12",
+      "publication_date": "2026-03-17",
+      "designation_bases": [
+        "section 1(a)(iv) of Executive Order 13810"
+      ],
+      "same_ofac_action_already_represented": true,
+      "independent_corroboration": false,
+      "new_legal_event": false,
+      "official_alias_already_represented": "YUN, So'ng-kuk",
+      "source_ids": [
+        "dofr62-2026-05114"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-yun-song-guk"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-54cada63e515",
+      "support": "OFAC designated six individuals and two entities across the DPRK, Vietnam, Laos, and Spain, including DPRK team lead Yun Song Guk and Amnokgang Technology Development Company",
+      "locator": "Key Enablers of Global DPRK IT Worker Networks section"
+    },
+    {
+      "source_id": "doaa-s08",
+      "support": "The OFAC administrative notice supplies Yun Song Guk's official list entry and alternate name form. It does not itself supply Treasury's Boten team-lead narrative",
+      "locator": "YUN, Song Guk entry; alias YUN, So'ng-kuk"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 57034 support only the retained coarse sanctions-list location values. The locality is sanctions-list context and does not establish current presence or team activity. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 57034"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 57034 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add Boten, Laos listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 57034"
+    },
+    {
+      "source_id": "dofr62-2026-05114",
+      "support": "This action was issued on March 12, 2026. 6. YUN, Song Guk (a.k.a. YUN, So'ng-kuk), Designated pursuant to section 1(a)(iv) of E.O. 13810 Source boundary: Durable official publication of the March 12, 2026 OFAC administrative designation action; not an independent source family, criminal allegation, conviction, or adjudication",
+      "locator": "91 FR 12905, DATES; individual entry 6 and following designation paragraph"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-yun-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Yun Song Guk",
+        "ofac_primary_name": "YUN, Song Guk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks section",
+          "quote": "Yun Song Guk"
+        },
+        {
+          "source_id": "doaa-s08",
+          "locator": "SDN additions, Yun entry",
+          "quote": "YUN, Song Guk"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57034",
+          "quote": "YUN, Song Guk"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Official name formatting variants, not separate identities."
+      ]
+    },
+    {
+      "id": "claim-yun-ofac-alias",
+      "type": "alias",
+      "predicate": "officially_listed_alias",
+      "value": {
+        "alias": "YUN, So'ng-kuk",
+        "alias_type": "alternate romanization"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doaa-s08",
+          "locator": "SDN additions, Yun entry",
+          "quote": "a.k.a. YUN, So'ng-kuk"
+        },
+        {
+          "source_id": "doar9-ofac-alt-current",
+          "locator": "ALT.CSV alias row for OFAC entity number 57034",
+          "quote": "YUN, So'ng-kuk"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Official alternate romanization, not a separate civil identity."
+      ]
+    },
+    {
+      "id": "claim-yun-boten-team-lead",
+      "type": "employment",
+      "predicate": "reported_it_worker_group_lead",
+      "value": {
+        "role": "leader of a North Korean IT-worker group",
+        "work_type": "freelance IT work",
+        "reported_base": "Boten, Laos",
+        "since": "2023"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks section",
+          "quote": "Since at least 2023, DPRK national Yun Song Guk (Yun) led a group of North Korean IT workers that conduct freelance IT work operating out of Boten, Laos."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative sanctions finding; no present-location inference is made beyond the dated source statement."
+      ]
+    },
+    {
+      "id": "claim-yun-minh-it-services-transactions",
+      "type": "relationship",
+      "predicate": "reported_financial_coordination_for_it_services_with",
+      "value": {
+        "person": "Hoang Minh Quang",
+        "conduct": "reported coordination of financial transactions relating to IT services performed by Yun"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks section",
+          "quote": "Yun coordinated several dozen financial transactions totaling more than $70,000 with Hoang Minh Quang (Minh) relating to IT services performed by Yun."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding. No account, wallet, transaction hash, or other financial selector is retained in the structured value."
+      ]
+    },
+    {
+      "id": "claim-yun-celestino-contract-development",
+      "type": "relationship",
+      "predicate": "reported_contract_development_collaboration_with",
+      "value": {
+        "person": "York Louis Celestino Herrera",
+        "conduct": "reported work to develop freelance IT service contracts for Yun",
+        "since": "2024"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks section",
+          "quote": "Since at least 2024, Yun also worked with York Louis Celestino Herrera (Celestino) to develop freelance IT service contracts for Yun."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Treasury administrative finding; the collaborator is not treated as an alias or identity merge."
+      ]
+    },
+    {
+      "id": "claim-yun-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13810",
+        "date": "2026-03-12",
+        "basis": "reported North Korean person engaged in commercial revenue-generating activity"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks section",
+          "quote": "Yun is being designated pursuant to E.O. 13810 for being a North Korean person, including a North Korean person that has engaged in commercial activity that generates revenue for the Government of North Korea or the Workers’ Party of Korea."
+        },
+        {
+          "source_id": "doaa-s08",
+          "locator": "SDN additions, Yun entry",
+          "quote": "YUN, Song Guk"
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-yun-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "checked_at": "2026-08-14"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 57034",
+          "quote": "YUN, Song Guk"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current-list observation as of the access date; wallet and other sensitive row fields were excluded."
+      ]
+    },
+    {
+      "id": "claim-yun-boten-historical-operating-context",
+      "type": "location",
+      "predicate": "treasury_reported_historical_group_operating_context",
+      "value": {
+        "location": "Boten, Laos",
+        "context": "source-reported IT-worker group operating base since at least 2023",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-54cada63e515",
+          "locator": "Key Enablers of Global DPRK IT Worker Networks section",
+          "quote": "Since at least 2023, DPRK national Yun Song Guk (Yun) led a group of North Korean IT workers that conduct freelance IT work operating out of Boten, Laos."
+        }
+      ],
+      "observed_at": "2026-03-12",
+      "notes": [
+        "Historical source-reported group operating context only; it does not establish residence, precise location, continued presence, travel, or present location."
+      ]
+    },
+    {
+      "id": "claim-yun-song-guk-federal-register-durability-round62",
+      "type": "legal_event",
+      "predicate": "federal_register_durable_publication_of_existing_ofac_action",
+      "value": {
+        "document_number": "2026-05114",
+        "citation": "91 FR 12904",
+        "official_name": "YUN, Song Guk",
+        "action_issued_date": "2026-03-12",
+        "publication_date": "2026-03-17",
+        "designation_bases": [
+          "section 1(a)(iv) of Executive Order 13810"
+        ],
+        "same_ofac_action_already_represented": true,
+        "independent_corroboration": false,
+        "new_legal_event": false,
+        "official_alias_already_represented": "YUN, So'ng-kuk"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dofr62-2026-05114",
+          "locator": "91 FR 12905, DATES; individual entry 6 and following designation paragraph",
+          "quote": "This action was issued on March 12, 2026."
+        },
+        {
+          "source_id": "dofr62-2026-05114",
+          "locator": "91 FR 12905, DATES; individual entry 6 and following designation paragraph",
+          "quote": "6. YUN, Song Guk (a.k.a. YUN, So'ng-kuk),"
+        },
+        {
+          "source_id": "dofr62-2026-05114",
+          "locator": "91 FR 12905, DATES; individual entry 6 and following designation paragraph",
+          "quote": "Designated pursuant to section 1(a)(iv) of E.O. 13810"
+        }
+      ],
+      "observed_at": "2026-03-17",
+      "notes": [
+        "Durable official publication of the same OFAC administrative designation action already represented; this does not change designation posture or create a new legal event.",
+        "The Federal Register notice belongs to the same OFAC action family and is not independent legal or adjudicative corroboration.",
+        "Only safe name forms, action/publication dates, executive-order bases, citation, and document number are retained from the person entry."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Yun Song Guk, listed by OFAC as YUN, Song Guk with the alternate romanization YUN, So'ng-kuk, is the DPRK national Treasury reported as leading an IT-worker group in Boten, Laos. Amnokgang Technology Development Company was designated in the same action; the reviewed sources leave Yun's organizational affiliation unresolved, and co-listing supplies separate designation context."
+}

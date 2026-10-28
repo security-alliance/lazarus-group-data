@@ -1,0 +1,41 @@
+{
+  "id": "artur-dranhoi",
+  "real_name": "Artur Dranhoi",
+  "aliases": [
+    "artur.dranhoi1025",
+    "Prince Charming",
+    "princecharming0915"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "artur.dranhoi1025@gmail.com"
+  ],
+  "telegram": [
+    {
+      "usernames": [
+        "incredible823"
+      ]
+    }
+  ],
+  "websites": [
+    "https://www.impaxrecruitment.com/candidates/candidate-name-artur-job-name-senior-blockchain-engineer/"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "notes": "Part of the Scott Brown Cluster.\nWallet Addresses:\n0xc75bbfc0cef2b93c1965930632ceeda9f055f83e\n0xa8cb25ddf0a7195bdc3232ac6e1d812c8a4713fe",
+  "images": [
+    {
+      "path": "/team-images/artur-dranhoi/artur-dranhoi-av.png",
+      "short_description": "Artur Dranhoi avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ttp-ttp-team-account",
+  "type": "ttp",
+  "name": "TTP-TEAM-ACCOUNT",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-can-gac-2026-joint",
+      "int-gbr-ofsi-2024",
+      "int-jpn-npa-2025",
+      "int-rok-mofa-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Accounts may be operated by teams, with the person interacting with recruiters changing by time of day; same-identity or same-network account clusters, one account using multiple network origins in a short interval, unusually long sessions, and unnaturally high cumulative work metrics are distinct combined-signal indicators."
+  ],
+  "sources": [
+    {
+      "source_id": "int-gbr-ofsi-2024",
+      "support": "OFSI lists unusually long online activity, operation outside declared business hours, shared payment accounts, and shared devices as warning signs",
+      "locator": "pp. 4-6 | Original official publication page: https://www.gov.uk/government/publications/north-korean-it-workers-advisory-signs-to-watch-for"
+    },
+    {
+      "source_id": "int-can-gac-2026-joint",
+      "support": "The Canadian endpoint separately lists multiple accounts using one identity document or network origin, one account using multiple network origins in a short period, an unusually long login session, unnaturally high cumulative work metrics, and team-operated accounts; these are combined warning characteristics, not proof by themselves",
+      "locator": "For companies operating online platforms; For those hiring or procuring services"
+    },
+    {
+      "source_id": "int-jpn-npa-2025",
+      "support": "The Japanese alert lists shared identifiers and network patterns, including multiple accounts associated with the same IP address, as warning signs",
+      "locator": "pp. 2-3 | Original official publication page: https://www.mofa.go.jp/mofaj/press/release/pressit_000001_02650.html"
+    },
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "The joint alert describes accounts operated collectively, including changes in the person interacting with a client or recruiter over the course of a day",
+      "locator": "pp. 3-4 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

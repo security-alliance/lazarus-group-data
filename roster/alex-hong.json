@@ -1,0 +1,73 @@
+{
+  "id": "alex-hong",
+  "real_name": "Alex Hong",
+  "gender": "male",
+  "twitter_usernames": [
+    "musectech"
+  ],
+  "websites": [
+    "https://www.justice.gov/usao-dc/media/1402691/dl",
+    "https://decubate.medium.com/meet-the-decubate-team-1cc097cae24c",
+    "https://blogtienao.com/depo-coin/",
+    "https://cryptototem.com/despace-des/",
+    "https://gamerse.gitbook.io/gamerse/team",
+    "https://shinchanieoalerts.medium.com/gamerse-ama-summary-recap-with-shin-chan-community-8171e08ac22f",
+    "https://stack.money/asset/paid-network",
+    "https://cryptototem.com/panther-protocol-zkp/",
+    "https://stack.money/asset/impermax-2",
+    "https://x.com/musectech/status/1914020967275462667"
+  ],
+  "employment": [
+    {
+      "company": "CreamFi"
+    },
+    {
+      "company": "Decubate"
+    },
+    {
+      "company": "DEPO"
+    },
+    {
+      "company": "DeSpace"
+    },
+    {
+      "company": "Gamerse"
+    },
+    {
+      "company": "Jointer"
+    },
+    {
+      "company": "Paid Network"
+    },
+    {
+      "company": "Panther Protocol"
+    },
+    {
+      "company": "Impermax"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/alex-hong/alex-hong-depo.png",
+      "short_description": "Alex Hong profile picture from DEPO project.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/alex-hong/alex-hong-despace.jpg",
+      "short_description": "Alex Hong profile picture from DeSpace project.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/alex-hong/alex-hong.png",
+      "short_description": "Profile picture of Alex Hong.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "muhammad-abdullah",
+  "fake_names": [
+    "Muhammad Abdullah"
+  ],
+  "aliases": [
+    "polartar",
+    "talentdev2020",
+    "aristidesgpg",
+    "WebExpert2000"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "polaris.center@outlook.com"
+  ],
+  "twitter_usernames": [
+    "m_polartar"
+  ],
+  "github": [
+    {
+      "gh_id": "talentdev2020",
+      "creation_date": {
+        "$date": "2021-01-11"
+      },
+      "names": [
+        "talentdevsilvio"
+      ],
+      "emails": [
+        "polaris.center@outlook.com"
+      ],
+      "usernames": [
+        "aristidesgpg"
+      ]
+    },
+    {
+      "gh_id": "polartar",
+      "creation_date": {
+        "$date": "2023-01-05"
+      },
+      "names": [
+        "Muhammad Abdullah"
+      ],
+      "emails": [
+        "polaris.center@outlook.com"
+      ],
+      "usernames": [
+        "m_ polartar"
+      ]
+    },
+    {
+      "gh_id": "aristidesgpg",
+      "creation_date": {
+        "$date": "2023-01-05"
+      },
+      "emails": [
+        "polaris.center@outlook.com"
+      ],
+      "usernames": [
+        "aristidesgpg"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xf7f89251eaa664993893efea0e55d8ec3306d959"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/muhammad-abdullah/muhammad-abdullah.jpg",
+      "short_description": "Muhammad Abdullah on call",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

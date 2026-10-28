@@ -1,0 +1,377 @@
+{
+  "id": "deep2-unhistory-yun-song-il",
+  "type": "facilitator",
+  "name": "Yun Song Il",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Republic of Korea autonomous sanctions designation. The UN Panel reports Member State allegations; the legal posture is administrative, with no UN Committee designation or criminal charge or conviction on record.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023"
+    ]
+  },
+  "ttps": [
+    "foreign-based-facilitator",
+    "money-laundering"
+  ],
+  "caveats": [
+    "The claims were Member State information, and the Lao People’s Democratic Republic had not replied at publication.",
+    "The individuals and company were designated by two Member States; the report attributes the designations to Member State action rather than the UN Committee."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "A Member State reported Tongmyong Technology Trade Company as a Laos-based Munitions Industry Department affiliate that dispatched IT workers; its reported representative was Kim Hyo Dong, while Yu Song Hyok and Yun Song Il reportedly arranged office space/accommodation and mediated with foreign brokers to cash out embezzled virtual assets."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+      "support": "Supports Tongmyong Tech, the three reported support roles, office/accommodation assistance, virtual-asset cash-out mediation and no-reply status",
+      "locator": "PDF p. 51, para. 123 and footnotes 132-134"
+    },
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "The ROK joint release includes Yun Song Il in its autonomous-sanctions announcement and in a two-person financial-helper category. Grouped conduct language is not converted into an adjudicated or person-specific finding",
+      "locator": "body; named-person designation table and two-person financial-helper note | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "The FSC mirror reproduces Yun Song Il's ROK autonomous designation and the same grouped financial-helper context; it is not independent corroboration",
+      "locator": "joint release and designation table | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. Sensitive identification, payment, and person-image fields are deliberately excluded"
+    },
+    {
+      "source_id": "src-87f70450c133"
+    },
+    {
+      "source_id": "src-1316e9ec3c0f"
+    },
+    {
+      "source_id": "src-ed591d78f19f"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    },
+    {
+      "source_id": "src-9e61751cb7e7"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-yun-song-il-official-name-forms",
+      "type": "identity_name",
+      "predicate": "un_panel_reported_name_forms",
+      "value": {
+        "name": "Yun Song Il",
+        "korean": "윤성일"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 329, annex 71, Yun Song Il entry",
+          "quote": "Yun Song Il (윤성일, last name : Yun)"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Member State-supplied name forms reproduced by the UN Panel, not an adjudicated civil-identity finding."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-worker-office-accommodation-support",
+      "type": "incident",
+      "predicate": "member_state_alleged_support_for_it_workers",
+      "value": {
+        "reported_conduct": "supporting DPRK IT workers seeking office space and accommodation",
+        "reported_context": "Lao People's Democratic Republic"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123, collective Yu/Yun support sentence",
+          "quote": "Yu Song Hyok and Yun Song Il, have reportedly been supporting Democratic People’s Republic of Korea information technology workers seeking office space and accommodation"
+        },
+        {
+          "source_id": "src-87f70450c133",
+          "locator": "public article excerpt, paragraph naming the alleged managers",
+          "quote": "The restaurant’s alleged managers, Yu Song Hyok and Yun Song Il, also aided North Korean IT workers by providing workspaces and accommodation"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Collective Member State allegation relayed by the UN Panel. No office, accommodation, worker, address, or current-location selector is retained."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-virtual-asset-cashout-mediation",
+      "type": "incident",
+      "predicate": "member_state_alleged_virtual_asset_cashout_mediation",
+      "value": {
+        "reported_conduct": "mediating with foreign brokers to cash out embezzled virtual assets"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123, collective Yu/Yun mediation clause",
+          "quote": "mediating with foreign brokers to cash out embezzled virtual assets"
+        },
+        {
+          "source_id": "src-87f70450c133",
+          "locator": "public article excerpt, paragraph naming the alleged managers",
+          "quote": "negotiated with foreign brokers to convert stolen virtual funds"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Collective Member State allegation, not an adjudicated money-laundering or theft finding. No broker, asset, wallet, exchange, account, payment, or transaction selector is retained."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-restaurant-operation",
+      "type": "employment",
+      "predicate": "member_state_reported_dprk_restaurant_operation",
+      "value": {
+        "role": "known to be operating a DPRK restaurant",
+        "reported_country": "Lao People's Democratic Republic"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 329, annex 71, Yun Song Il occupation",
+          "quote": "Known to be operating a DPRK restaurant"
+        },
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123, collective restaurant sentence",
+          "quote": "These two individuals also operate a Democratic People’s Republic of Korea restaurant in the Lao People’s Democratic Republic"
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, individual-designations table, Yun row",
+          "quote": "윤성일 IT 인력 외화벌이 조력자 (라오스 내 북한식당 운영)"
+        },
+        {
+          "source_id": "src-87f70450c133",
+          "locator": "public article dek and opening paragraphs",
+          "quote": "Managers of restaurant in Vientiane reportedly assisted DPRK IT workers and were previously sanctioned by Seoul"
+        }
+      ],
+      "observed_at": "2023-09-12",
+      "notes": [
+        "Member State-reported historical role. Restaurant name, address, ownership records, workers, contacts, and present operation were excluded or not inferred."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-member-state-designation",
+      "type": "legal_event",
+      "predicate": "reported_designation_by_member_state",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation",
+        "date": "2023-05-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "deep2-unhistory-s-2023-656-un-tongmyong-tech-laos-support",
+          "locator": "PDF p. 51, paragraph 123, designation sentence",
+          "quote": "the Member State designated Tongmyong Tech, Kim Hyo Dong, Yu Song Hyok and Yun Song Il in May 2023."
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, designation table and introductory designation paragraph",
+          "quote": "우리 정부는 북한 기관 3개와 개인 7명을 제재대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, individual-designations table, Yun row",
+          "quote": "윤성일 IT 인력 외화벌이 조력자 (라오스 내 북한식당 운영)"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The original ROK publication resolves the UN report's unnamed Member State and exact date. This is an administrative national designation, not a UN Committee designation, criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-dprk-nationality",
+      "type": "note",
+      "predicate": "official_and_research_sources_reported_nationality",
+      "value": {
+        "nationality": "Democratic People's Republic of Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, North Korean individuals designation table, Yun row",
+          "quote": "윤성일"
+        },
+        {
+          "source_id": "src-1316e9ec3c0f",
+          "locator": "profile-aligned entity 54d631ccf3675e1c5c6642977218979bfbe25e25, nationality property",
+          "quote": "kp"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The ROK release identifies the seven listed people as North Korean individuals. The RUSI nationality field is derivative of the UN source and is not independent corroboration."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-rok-financial-helper-category",
+      "type": "incident",
+      "predicate": "rok_grouped_financial_helper_allegation",
+      "value": {
+        "source_class": "two foreign-currency-earning helpers: Yu Song Hyok and Yun Song Il",
+        "designation_table_role": "IT-worker foreign-currency-earning helper and DPRK-restaurant operator in Laos",
+        "grouped_allegation": "helped foreign-currency earning through money laundering and other illicit financial activity, thereby participating in sanctions evasion and funding for nuclear and missile development",
+        "attribution_posture": "grouped Republic of Korea government allegation, not individually particularized conduct"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, grouped individual-conduct paragraph",
+          "quote": "자금세탁 등 불법 금융활동을 통해 외화벌이를 도움으로써2) 대북제재 회피와 핵ㆍ미사일 개발 자금 조달에 관여하였다."
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, footnote identifying the two financial helpers",
+          "quote": "2) 유성혁, 윤성일"
+        },
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, individual-designations table, Yun row",
+          "quote": "IT 인력 외화벌이 조력자 (라오스 내 북한식당 운영)"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "The release places Yun in a two-person helper class but does not provide a separate broker, transaction, wallet, amount, worker, date, or act particular to Yun. The grouped posture is preserved.",
+        "The later forced-labor sentence expressly concerns the separate five-person IT branch-head class and is not assigned to Yun. This is an administrative-government allegation, not a criminal or civil adjudication."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-rok-designation-legal-effect",
+      "type": "legal_event",
+      "predicate": "rok_autonomous_sanctions_legal_basis_and_transaction_effect",
+      "value": {
+        "authority": "Republic of Korea",
+        "legal_bases": [
+          "Foreign Exchange Transactions Act",
+          "Act on Prohibition against the Financing of Terrorism and Proliferation of Weapons of Mass Destruction"
+        ],
+        "effect": "foreign-exchange, financial, and virtual-asset transactions with a designated subject require prior authorization under the release's stated framework"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "full official release, legal basis and transaction-effects paragraph",
+          "quote": "이번 조치는 “외국환거래법”과 “공중 등 협박목적 및 대량살상무기확산을 위한 자금조달행위의 금지에 관한 법률”에 따른 것이다. 이번 금융제재대상자로 지정된 대상과 외환거래 또는 금융거래를 하기 위해서는 각각 한국은행 총재 또는 금융위원회의 사전 허가가 필요하며, 허가를 받지 않고 거래하는 경우 관련법에 따라 처벌받을 수 있다. 아울러, 금융위원회의 사전 허가 없이 제재 대상으로 지정된 자와 가상자산을 거래하는 것도 금지된다."
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "This records the general legal effect described by the designation release. It is not a claim that Yun attempted a prohibited transaction or was prosecuted for violating these provisions."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-public-database-cross-reference",
+      "type": "note",
+      "predicate": "public_database_entity_cross_reference",
+      "value": {
+        "rusi_entity_id": "54d631ccf3675e1c5c6642977218979bfbe25e25",
+        "opensanctions_entity_id": "kprusi-54d631ccf3675e1c5c6642977218979bfbe25e25",
+        "source_dataset": "DPRK Reports",
+        "source_organization": "Korea Risk Group at RUSI",
+        "source_status": "non-official",
+        "proof_documents": [
+          "S/2023/656"
+        ],
+        "opensanctions_coverage_gap": "entity page does not reflect the verified 2023 ROK autonomous designation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1316e9ec3c0f",
+          "locator": "profile-aligned exact entity and sole proof property",
+          "quote": "Yun Song Il"
+        },
+        {
+          "source_id": "src-ed591d78f19f",
+          "locator": "public entity page, database risk statement",
+          "quote": "They are not linked to any risk indications in our database, and they have not been found on international sanctions lists."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This records database coverage and provenance, not a second independent attribution.",
+        "OpenSanctions' statement is limited to its own database and international-list coverage. It does not negate the original ROK national autonomous designation and was not treated as a legal conclusion."
+      ]
+    },
+    {
+      "id": "claim-yun-song-il-russia-case-same-name-collision",
+      "type": "note",
+      "predicate": "unresolved_same_name_public_record_not_merged",
+      "value": {
+        "same_name": "Yun Song Il",
+        "candidate_context": "DPRK national named in a 2024 UN annex table concerning Russian employment cases",
+        "rusi_collision_entity_id": "9fbee72e529c4b613e82b3f02c2d41336f171621",
+        "merge_status": "not merged",
+        "missing_bridges": [
+          "Korean name",
+          "birth bridge",
+          "Laos context",
+          "restaurant relationship",
+          "ROK designation cross-reference",
+          "shared unique selector"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "report p. 442, unnamed-companies employment-case table",
+          "quote": "DPRK national Yun Song Il"
+        },
+        {
+          "source_id": "src-9e61751cb7e7",
+          "locator": "public entity page, description",
+          "quote": "DPRK national involved in a legal case in Russia regarding illicit employment of DPRK citizens by an unnamed company."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "This is a collision-control claim, not a legal event or location claim about the Laos-context Yun Song Il.",
+        "Name and nationality alone are insufficient to merge the records. Case number, employer, company, precise location, and outcome were deliberately not transferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Yun Song Il (윤성일) is preserved as the Laos-context person named in a UN Panel report and the Republic of Korea's 23 May 2023 autonomous-sanctions release. Preserve the ROK's two-person financial-helper allegation separately from the five IT branch heads. A second Latin-only Yun Song Il in a 2024 UN Russia-case table remains separate because no Korean-name, birth, Laos, restaurant, designation or unique-selector bridge exists."
+}

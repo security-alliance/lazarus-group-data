@@ -1,0 +1,96 @@
+{
+  "id": "eric-andrade",
+  "fake_names": [
+    "Eric Andrade"
+  ],
+  "gender": "male",
+  "aliases": [
+    "Josh Thomas",
+    "gsofter",
+    "Guru2921",
+    "Adelin Ionut",
+    "GuruSoftwareMaster",
+    "gurusoft13"
+  ],
+  "twitter_usernames": [
+    "ggsofter"
+  ],
+  "personal_emails": [
+    "guru.softwaremaster@mail.ru",
+    "ivanromanov1771@gmail.com",
+    "real.kingstar@outlook.com"
+  ],
+  "github": [
+    {
+      "gh_id": "gsofter",
+      "creation_date": {
+        "$date": "2019-04-13"
+      },
+      "names": [
+        "gSofter"
+      ],
+      "emails": [
+        "eric@gsofter.com"
+      ],
+      "usernames": [
+        "gsofter"
+      ]
+    },
+    {
+      "gh_id": "Guru2921",
+      "creation_date": {
+        "$date": "2019-04-13"
+      },
+      "names": [
+        "Adelin Ionut"
+      ],
+      "emails": [
+        "guru.softwaremaster@mail.ru",
+        "ivanromanov1771@gmail.com",
+        "real.kingstar@outlook.com"
+      ],
+      "usernames": [
+        "Guru2921",
+        "GuruSoftwareMaster",
+        "gurusoft13"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "gsofter.eth"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "0xfff50b1b9154b0631591dab746c5fc8f41dc44bd"
+      ],
+      "currency": "ETH"
+    },
+    {
+      "addresses": [
+        "0xe2becede47e8cba800b42323117a15399a6b5334"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/eric-andrade/eric-andrade.jpg",
+      "short_description": "Eric Andrade headshot",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/eric-andrade/eric-andrade-2.jpg",
+      "short_description": "Second profile picture of Eric Andrade.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

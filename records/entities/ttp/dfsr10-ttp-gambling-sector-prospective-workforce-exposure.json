@@ -1,0 +1,67 @@
+{
+  "id": "dfsr10-ttp-gambling-sector-prospective-workforce-exposure",
+  "type": "ttp",
+  "name": "Prospective DPRK IT-worker exposure for technology-intensive gambling operators",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official prospective sector guidance. The regulator expressly reported zero direct gambling-sector instances; this is policy guidance, not a victim disclosure, attribution, enforcement action, or adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFSR10-S01-IOM-GSC-2026",
+      "DFSR10-S02-IOM-GSC-REPORT-2026",
+      "DFSR10-S05-IOM-GSC-FORUM-2024"
+    ]
+  },
+  "ttps": [
+    "identity-continuity",
+    "privileged-access-governance",
+    "remote-contractor-governance",
+    "sector-specific-risk-assessment"
+  ],
+  "caveats": [
+    "Employment in gambling, remote work, virtual-asset use, nationality, language, location, and any one behavioral indicator require corroboration before supporting DPRK linkage.",
+    "Employee-risk and customer-AML processes address distinct populations and remain separate.",
+    "Nationality, language, appearance, geography, payment method, remote-work preference, device, network, and any single behavioral signal require independent corroboration before supporting DPRK linkage.",
+    "Prospective guidance, scenarios, and red flags describe controls and possibilities; incident or attribution status remains unassigned.",
+    "The March 25, 2026 web page announces the attached report; both records remain prospective guidance rather than an observed gambling-sector incident.",
+    "The source synthesizes other official and private reporting; individual red flags are contextual and require corroboration.",
+    "This is an emerging-risk advisory; disclosed event, sanctions, prosecution, and infiltration status require separate evidence.",
+    "Use proportionate, documented, privacy-preserving human review and jurisdiction-appropriate legal advice."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-sector-supervisor-prospective-risk-guidance",
+      "statement": "The GSC says online gambling is IT-intensive and may outsource technical staff, creating possible exposure to fraudulent remote-worker hiring. The regulator expressly says this typology had not been recorded directly in the gambling industry. The defensible delta is sector applicability and control mapping, not an allegation against any operator, employee, platform, or jurisdiction.",
+      "source_ids": [
+        "DFSR10-S01-IOM-GSC-2026",
+        "DFSR10-S02-IOM-GSC-REPORT-2026",
+        "DFSR10-S05-IOM-GSC-FORUM-2024"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-access-and-data-risk",
+    "ttp-ttp-recruiting"
+  ],
+  "sources": [
+    {
+      "source_id": "DFSR10-S01-IOM-GSC-2026",
+      "support": "The GSC released a DPRK IT-worker PF typology for a technology-intensive regulated sector. It expressly states that the typology had not been recorded directly in gambling and frames the publication as awareness and risk mitigation. Evidence class: primary regulator guidance describing prospective sector risk",
+      "locator": "publication page; statement that the typology has not been recorded directly in the gambling industry"
+    },
+    {
+      "source_id": "DFSR10-S05-IOM-GSC-FORUM-2024",
+      "support": "The presentation briefly flags freelancer use, data theft, sanctions evasion, cybercrime, and virtual-asset exposure. The 2026 GSC report supersedes it with materially fuller guidance. Evidence class: sector awareness material",
+      "locator": "Cover and PF TYPOLOGIES slide"
+    },
+    {
+      "source_id": "DFSR10-S02-IOM-GSC-REPORT-2026",
+      "support": "The report identifies remote staffing exposure for an IT-intensive sector and a separate possibility that customer-facing gambling or virtual-asset functions could be used for layering. It pairs staff-integrity controls with customer AML/PF controls and reporting duties. It does not claim a known gambling-sector incident. Evidence class: primary regulator guidance synthesizing official and attributed private-sector reporting; prospective for the regulated sector",
+      "locator": "PDF pp. 2-3, 5-12; especially pp. 3, 8-12"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

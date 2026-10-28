@@ -1,0 +1,366 @@
+{
+  "id": "cluster-doj-fbi-lonestar-roundup-2026",
+  "type": "cluster",
+  "name": "DOJ/FBI Operation Lonestar Roundup and Ohio indictment (October 2026)",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The Department of Justice announced an Ohio indictment, two arrests, and coordinated searches and seizures tied to alleged DPRK remote IT-worker schemes; the indictment allegations remain unadjudicated.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-remote-it-actions",
+      "doj-2026-10-13-ohio-indictment",
+      "doj-2026-10-13-ndoh-release",
+      "doj-2026-10-13-ndtx-release",
+      "zerot-2026-10-15-employment-contract",
+      "helpnet-2026-10-14-laptop-farms",
+      "therecord-2026-10-13-doj-texas",
+      "cyberscoop-2026-10-13-doj-laptop-farms"
+    ]
+  },
+  "locations": [
+    "Ohio, United States (indictment and arrests context)",
+    "Texas, United States (Operation Lonestar Roundup search context)"
+  ],
+  "caveats": [
+    "This is an incident and charging record. The DOJ release names defendants and unnamed sealed defendants; each person stays tied to the specific charging allegations that name them, with identities kept separate from one another.",
+    "This record retains no victim names, account selectors, addresses, identity-document images or private data."
+  ],
+  "identity_boundary": "A source-linked incident record covers the October 2026 DOJ/FBI actions. The named defendants remain separate people, and the shared scheme description applies at the scheme level.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+      "support": "DOJ reports the Ohio indictment, arrests, Operation Lonestar Roundup searches, approximately 187 device seizures, and the alleged scheme scope.",
+      "locator": "Press release opening, Sun Sheng Ming indictment section, Operation Lonestar Roundup section"
+    },
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The linked federal indictment is the charging document referenced by the DOJ release.",
+      "locator": "Linked indictment PDF"
+    },
+    {
+      "source_id": "fbi-ic3-2026-10-13-psa-dprk-it-workers",
+      "support": "The FBI PSA describes the evolving facilitator and detection context associated with the operation.",
+      "locator": "Opening and Evolution of North Korean IT Worker Tactics sections"
+    },
+    {
+      "source_id": "crowdstrike-2026-10-13-famous-chollima-disruption",
+      "support": "CrowdStrike describes its collaboration with the FBI and technical observations supporting the disruption.",
+      "locator": "Opening; FAMOUS CHOLLIMA’s Reliance on Laptop Farms"
+    },
+    {
+      "source_id": "doj-2026-10-13-ndoh-release",
+      "support": "DOJ reports an October 1, 2026 indictment alleging wire fraud, money laundering, and identity theft conspiracies and aggravated identity theft.",
+      "locator": "N.D. Ohio release, indictment section"
+    },
+    {
+      "source_id": "doj-2026-10-13-ndtx-release",
+      "support": "DOJ reports searches at more than 40 Texas residences and seizure of 187 laptops and KVM devices during Operation Lonestar Roundup.",
+      "locator": "N.D. Texas release, Operation Lonestar Roundup section"
+    },
+    {
+      "source_id": "zerot-2026-10-15-employment-contract",
+      "support": "ZeroT summarizes the October 13 DOJ actions and the alleged 14-person scheme involving more than 70 companies and approximately $3 million.",
+      "locator": "Abstract"
+    },
+    {
+      "source_id": "helpnet-2026-10-14-laptop-farms",
+      "support": "Help Net Security reports more than 40 Texas laptop-farm searches and about 187 laptops and KVM devices seized during Operation Lonestar Roundup.",
+      "locator": "Report body"
+    },
+    {
+      "source_id": "therecord-2026-10-13-doj-texas",
+      "support": "The Record reports 187 laptops and other devices seized in the October 2026 actions.",
+      "locator": "News report body"
+    },
+    {
+      "source_id": "cyberscoop-2026-10-13-doj-laptop-farms",
+      "support": "CyberScoop reports 14 people charged and roughly 187 computers seized in the October 2026 DOJ actions.",
+      "locator": "News report opening"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ohio-indictment-defendants",
+      "type": "legal_event",
+      "predicate": "doj_indicted_named_defendants",
+      "value": {
+        "named_defendants": [
+          "Michael James Bostelle",
+          "Juan Cecilio Pena Carrillo",
+          "Sun Sheng Ming",
+          "Pei Li Guang",
+          "Weng Shou Cheng",
+          "Han Guo Bin",
+          "Wang Jian Jun",
+          "Sheng Zhang Kun",
+          "Zhang Wei Ping",
+          "Zhang Li Ping",
+          "Yu Yang",
+          "Jin Long"
+        ],
+        "additional_defendants": "Two defendants remain under seal",
+        "counts": "four-count wire fraud, money laundering, and identity theft indictment"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Sun Sheng Ming, et al. Indictment and Arrests section",
+          "quote": "The indictment also charges China-based Sun Sheng Ming, Pei Li Guang, Weng Shou Cheng, Han Guo Bin, Wang Jian Jun, Sheng Zhang Kun, Zhang Wei Ping, Zhang Li Ping, Yu Yang, Jin Long for their roles in the scheme."
+        },
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Sun Sheng Ming, et al. Indictment and Arrests section",
+          "quote": "Today, the U.S. Attorney’s Office for the Northern District of Ohio announced the arrests of U.S. nationals Michael James Bostelle of Pennsylvania and Juan Cecilio Pena Carrillo of Texas pursuant to a four-count wire fraud, money laundering, and identity theft indictment."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The release names defendants and describes roles collectively; it does not assign each alleged act to each person."
+      ]
+    },
+    {
+      "id": "claim-ohio-scheme-method",
+      "type": "incident",
+      "predicate": "doj_reported_scheme_method",
+      "value": {
+        "period": "2019 to in or around July 2025",
+        "methods": [
+          "stolen or fabricated identity documents",
+          "virtual private networks",
+          "proxy infrastructure",
+          "U.S.-based facilitators and laptop farms"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Sun Sheng Ming, et al. Indictment and Arrests section, paragraph beginning According to the indictment",
+          "quote": "According to the indictment, from 2019 to in or around July 2025, DPRK IT workers applied for and obtained remote positions by using stolen or fabricated identity documents, virtual private networks and proxy infrastructure to appear as though they were U.S. persons working from within the United States."
+        },
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Sun Sheng Ming, et al. Indictment and Arrests section, facilitator paragraph",
+          "quote": "They also relied on U.S.-based facilitators who received and hosted multiple laptop computers — issued by victim U.S. companies — at their residences in the United States (“laptop farms”), housed and configured those devices, installed remote-access software and transferred earnings to DPRK‑controlled accounts."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The release describes collective allegations; no individual identity or victim is inferred from this cluster."
+      ]
+    },
+    {
+      "id": "claim-ohio-scheme-scale",
+      "type": "incident",
+      "predicate": "doj_reported_scheme_scale",
+      "value": {
+        "employer_count_lower_bound": 70,
+        "revenue_usd_approx": 3000000
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Sun Sheng Ming, et al. Indictment and Arrests section, In total paragraph",
+          "quote": "In total, the scheme impacted more than 70 U.S. company employers and generated approximately $3 million in revenue for IT workers."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Aggregate release figures; they are not assigned to a particular defendant or employer."
+      ]
+    },
+    {
+      "id": "claim-lonestar-roundup-searches",
+      "type": "incident",
+      "predicate": "fbi_operation_lonestar_roundup_searches",
+      "value": {
+        "operation": "Operation Lonestar Roundup",
+        "search_period": "2026-09-21 to 2026-09-25",
+        "residences_count_lower_bound": 40,
+        "state": "Texas"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Operation Lonestar Roundup Disrupts Multiple Known or Suspected Laptop Farms in Texas section",
+          "quote": "Between Sept. 21 and Sept. 25, the FBI conducted searches and other law enforcement action at over 40 residences in Texas known to be, or suspected of operating as, laptop farms for DPRK IT workers."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "Residence count and state are operation context; no address or present-location claim is retained."
+      ]
+    },
+    {
+      "id": "claim-lonestar-roundup-seizures",
+      "type": "incident",
+      "predicate": "fbi_operation_lonestar_roundup_device_seizures",
+      "value": {
+        "devices_count_approx": 187,
+        "device_types": [
+          "laptops",
+          "KVM devices"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "locator": "Operation Lonestar Roundup Disrupts Multiple Known or Suspected Laptop Farms in Texas section",
+          "quote": "Over the course of the entire operation (Operation Lonestar Roundup), the FBI seized approximately 187 laptops and KVM (keyboard, video, mouse) devices that DPRK IT workers and their U.S.-based facilitators used to commit fraud, obtain remote employment, and generate revenue for the North Korean regime’s sanctioned weapons programs."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "The seizure statement is an agency account of the operation and does not establish guilt for any unconvicted person."
+      ]
+    },
+    {
+      "id": "claim-crowdstrike-fbi-collaboration",
+      "type": "relationship",
+      "predicate": "crowdstrike_collaborated_with_fbi_on_disruption",
+      "value": {
+        "adversary_label": "FAMOUS CHOLLIMA",
+        "activity": "laptop-farm disruption"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crowdstrike-2026-10-13-famous-chollima-disruption",
+          "locator": "Opening paragraph",
+          "quote": "In late September, 2026, CrowdStrike's Counter Adversary Operations team collaborated with the United States Federal Bureau of Investigation (FBI) to disrupt several laptop farms operating across the U.S. maintained by DPRK-nexus adversary FAMOUS CHOLLIMA to fraudulently employ operatives at American companies while concealing their true location and identity."
+        }
+      ],
+      "observed_at": "2026-10-18",
+      "notes": [
+        "CrowdStrike's publisher account is retained as a research attribution; the DOJ release is the primary charging and seizure source."
+      ]
+    },
+    {
+      "id": "claim-doj-2026-10-13-ndoh-release-official-charging-summary",
+      "type": "legal_event",
+      "predicate": "official_charging_summary",
+      "value": {
+        "publication": "doj-2026-10-13-ndoh-release",
+        "statement": "DOJ reports an October 1, 2026 indictment alleging wire fraud, money laundering, and identity theft conspiracies and aggravated identity theft."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ndoh-release",
+          "locator": "N.D. Ohio release, indictment section",
+          "quote": "A federal grand jury returned an indictment Oct. 1, 2026, charging the following defendants with Wire Fraud Conspiracy, Money Laundering Conspiracy, Conspiracy to Commit Identity Theft, and Aggravated Identity Theft:"
+        }
+      ]
+    },
+    {
+      "id": "claim-doj-2026-10-13-ndtx-release-lonestar-roundup-searches",
+      "type": "incident",
+      "predicate": "lonestar_roundup_searches",
+      "value": {
+        "publication": "doj-2026-10-13-ndtx-release",
+        "statement": "DOJ reports searches at more than 40 Texas residences and seizure of 187 laptops and KVM devices during Operation Lonestar Roundup."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ndtx-release",
+          "locator": "N.D. Texas release, Operation Lonestar Roundup section",
+          "quote": "As part of Operation Lonestar Roundup, the FBI executed searches of over 40 residences in the State of Texas seizing 187 laptops and KVM (keyboard, video, mouse) devices, all of which had operated as laptop farms for DPRK IT workers."
+        }
+      ]
+    },
+    {
+      "id": "claim-zerot-2026-10-15-employment-contract-doj-case-summary",
+      "type": "incident",
+      "predicate": "doj_case_summary",
+      "value": {
+        "publication": "zerot-2026-10-15-employment-contract",
+        "statement": "ZeroT summarizes the October 13 DOJ actions and the alleged 14-person scheme involving more than 70 companies and approximately $3 million."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "zerot-2026-10-15-employment-contract",
+          "locator": "Abstract",
+          "quote": "On October 13, 2026, the U.S. Department of Justice announced coordinated actions against North Korean remote IT worker operations. A newly unsealed indictment charged 14 individuals in a scheme involving more than 70 American companies and approximately $3 million in revenue."
+        }
+      ]
+    },
+    {
+      "id": "claim-helpnet-2026-10-14-laptop-farms-laptop-farm-scale",
+      "type": "incident",
+      "predicate": "laptop_farm_scale",
+      "value": {
+        "publication": "helpnet-2026-10-14-laptop-farms",
+        "statement": "Help Net Security reports more than 40 Texas laptop-farm searches and about 187 laptops and KVM devices seized during Operation Lonestar Roundup."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "helpnet-2026-10-14-laptop-farms",
+          "locator": "Report body",
+          "quote": "In Texas, FBI agents searched more than 40 suspected “laptop farms” between September 21 and 25 as part of Operation Lonestar Roundup, seizing about 187 laptops and KVM (keyboard, video, mouse) devices."
+        }
+      ]
+    },
+    {
+      "id": "claim-therecord-2026-10-13-doj-texas-doj-laptop-farm-scale",
+      "type": "incident",
+      "predicate": "doj_laptop_farm_scale",
+      "value": {
+        "publication": "therecord-2026-10-13-doj-texas",
+        "statement": "The Record reports 187 laptops and other devices seized in the October 2026 actions."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "therecord-2026-10-13-doj-texas",
+          "locator": "News report body",
+          "quote": "Law enforcement seized 187 laptops and other devices used by North Koreans."
+        }
+      ]
+    },
+    {
+      "id": "claim-cyberscoop-2026-10-13-doj-laptop-farms-doj-charges-and-seizures",
+      "type": "legal_event",
+      "predicate": "doj_charges_and_seizures",
+      "value": {
+        "publication": "cyberscoop-2026-10-13-doj-laptop-farms",
+        "statement": "CyberScoop reports 14 people charged and roughly 187 computers seized in the October 2026 DOJ actions."
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "cyberscoop-2026-10-13-doj-laptop-farms",
+          "locator": "News report opening",
+          "quote": "Federal authorities have charged 14 people and seized roughly 187 computers in their newest effort to disrupt North Korea’s remote IT worker scheme."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

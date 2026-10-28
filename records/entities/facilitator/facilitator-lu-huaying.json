@@ -1,0 +1,325 @@
+{
+  "id": "facilitator-lu-huaying",
+  "type": "facilitator",
+  "name": "Lu Huaying",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Administratively designated by OFAC on December 17, 2024 under the stated non-proliferation authority. Current OFAC exact-ID component-table data confirms the administrative-list entry and adds only the bounded structured context stated here. Existing OFAC administrative designation posture is unchanged. Current-list verification is administrative only; MSMT's same-family historical synthesis is historical administrative reporting, with charge, conviction, civil judgment, guilt finding, and adjudication requiring separate records.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "DLSR29-S01-TREASURY-JY2752",
+      "DLSR29-S02-OFAC-20241217",
+      "doar9-ofac-sdn-current",
+      "gov-e31464a55e89",
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Lu Huaying",
+  "locations": [
+    "United Arab Emirates (OFAC listing context; not current location)",
+    "United Arab Emirates (source-described/listing context; not current location)"
+  ],
+  "ttps": [
+    "digital-asset or fiat conversion",
+    "DPRK IT-worker revenue laundering support"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "An OFAC designation is an administrative action; the record has no criminal charge or conviction.",
+    "Birth, identity-document, government-ID, precise-address, contact, account, wallet, payment, transaction, and other sensitive selectors are excluded.",
+    "Source pages provide contextual reporting; omitted addresses, identity documents, government identifiers, payment details, and wallet selectors stay outside publication.",
+    "MSMT footnote 264 apparently misdates jy2752 as July 29, 2025; the admitted Treasury release is dated December 17, 2024.",
+    "MSMT/2025/2 republishes or synthesizes the Treasury jy2752 action family for these findings; the source family remains singular.",
+    "The sources support historical context; present activity, present control and new legal posture require current sources.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The country supplies location context, and the linked-to field supplies a source relationship; current presence and adjudication require separate evidence.",
+    "UAE wording is source-described historical or listing context; residence, continued presence, travel, and current location require separate evidence."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DLSR29-S02-OFAC-20241217"
+      ],
+      "value": "LU, Huaying"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-treasury-same-family-bounded-historical-depth",
+      "msmt_source_described_context": "UAE-based Chinese national",
+      "historical_crypto_cashout_start": "at least early 2022",
+      "historical_crypto_cashout_description": "cashed out cryptocurrency derived from obfuscated DPRK revenue-generation projects into fiat cash on behalf of Sim Hyon Sop",
+      "historical_laundering_period": "early 2022 through approximately September 2023",
+      "source_summarized_amount": "several million dollars",
+      "source_summarized_methods": [
+        "cryptocurrency cash-outs",
+        "money mules"
+      ],
+      "independent_corroboration": false,
+      "current_presence_or_activity_inferred": false,
+      "new_legal_posture": false,
+      "sensitive_selectors_retained": false,
+      "msmt_underlying_source_family": "Treasury December 17, 2024 jy2752 action family",
+      "msmt_apparent_footnote_date_defect": "Footnote 264 labels the Treasury jy2752 release as July 29, 2025, while the admitted Treasury document at that URL is dated December 17, 2024. The URL and underlying action family are retained; the apparent footnote date is not promoted as a publication date.",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    },
+    {
+      "type": "ofac-linked-to",
+      "value": "Sim Hyon Sop",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-lu-huaying"
+  ],
+  "sources": [
+    {
+      "source_id": "DLSR29-S01-TREASURY-JY2752",
+      "support": "Treasury describes Lu Huaying in the stated role: Treasury-described facilitator of cryptocurrency cash-outs and laundering for a network handling DPRK IT-worker and cybercrime proceeds. Personal, identity-document, address, payment, and wallet selectors are omitted",
+      "locator": "Opening; section ‘Digital Assets to Fund Regime’s Activities’; paragraphs naming Sim Hyon Sop, Lu Huaying, and Zhang Jian"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Two associates—UAE-based Chinese nationals Lu Huaying and Zhang Jian—have recently assisted in Sim’s money laundering schemes. Since at least early 2022, Lu has cashed out cryptocurrency derived from obfuscated DPRK revenue-generation projects into fiat cash on behalf of Sim. Between early 2022 and approximately September 2023, Lu laundered several million dollars of Sim’s money through a combination of cryptocurrency cash-outs and money mules",
+      "locator": "UAE subsection, printed p. 85, PDF file p. 87; footnote 264"
+    },
+    {
+      "source_id": "DLSR29-S02-OFAC-20241217",
+      "support": "OFAC's recent-action notice lists Lu Huaying as an SDN addition and supports the displayed sanctions posture and exact listed name forms; it does not independently establish the fuller Treasury or DOJ role description. Personal, identity-document, address, payment, and wallet selectors are omitted",
+      "locator": "SDN additions for LU, Huaying and ZHANG, Jian; personal and financial selectors omitted"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 52173 support only the retained coarse sanctions-list location values. The country is not evidence of current presence, and the linked-to field is not an adjudication. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 52173"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 52173 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add United Arab Emirates listing context and an explicit Sim Hyon Sop link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 52173"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lu-reported-name",
+      "type": "identity_name",
+      "predicate": "official_source_named_subject",
+      "value": {
+        "name": "Lu Huaying"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "Opening paragraph",
+          "quote": "Lu Huaying and Zhang Jian worked through a UAE-based front company"
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Officially listed name; not independently verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-lu-ofac-listed-form",
+      "type": "alias",
+      "predicate": "ofac_listed_name_form",
+      "value": {
+        "name": "LU, Huaying"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S02-OFAC-20241217",
+          "locator": "SDN List Update, Lu entry",
+          "quote": "LU, Huaying, United Arab Emirates;"
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "OFAC display form only; omitted selectors are not reproduced."
+      ]
+    },
+    {
+      "id": "claim-lu-treasury-described-cashout-role",
+      "type": "incident",
+      "predicate": "treasury_reported_digital_asset_cashout_role",
+      "value": {
+        "activity": "converted cryptocurrency-derived DPRK revenue into fiat cash",
+        "reported_principal": "Sim Hyon Sop",
+        "time_context": "since at least early 2022"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "DPRK Laundering Digital Assets section, Lu paragraph",
+          "quote": "Since at least early 2022, UAE-based PRC national Lu Huaying has cashed out cryptocurrency derived from obfuscated DPRK revenue-generation projects into fiat cash on behalf of OFAC-sanctioned Sim Hyon Sop."
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Treasury assessment; no transaction, account, payment, wallet, or current-location selector retained."
+      ]
+    },
+    {
+      "id": "claim-lu-sim-reported-relationship",
+      "type": "relationship",
+      "predicate": "treasury_and_ofac_reported_acting_for",
+      "value": {
+        "related_person": "Sim Hyon Sop",
+        "relationship_context": "acted or purported to act on behalf of"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "Designation paragraph",
+          "quote": "OFAC is designating Lu Huaying and Zhang Jian for being owned or controlled by or having acted or purported to act for or on behalf of, directly or indirectly, Sim Hyon Sop"
+        },
+        {
+          "source_id": "DLSR29-S02-OFAC-20241217",
+          "locator": "SDN List Update, Lu entry",
+          "quote": "(individual) [NPWMD] (Linked To: SIM, Hyon Sop)."
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Administrative designation rationale and list linkage; not a finding of criminal liability."
+      ]
+    },
+    {
+      "id": "claim-lu-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "date": "2024-12-17",
+        "program": "NPWMD",
+        "authority_context": "Executive Order 13382"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S02-OFAC-20241217",
+          "locator": "SDN List Update heading",
+          "quote": "The following individuals have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "Designation paragraph",
+          "quote": "OFAC is designating Lu Huaying and Zhang Jian"
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Administrative sanctions action only; no criminal charge, conviction, or guilt finding established."
+      ]
+    },
+    {
+      "id": "claim-lu-designation-era-uae-context",
+      "type": "location",
+      "predicate": "treasury_reported_historical_operating_country_context",
+      "value": {
+        "country": "United Arab Emirates",
+        "source_description": "UAE-based",
+        "context": "Treasury's December 2024 administrative designation narrative",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "DLSR29-S01-TREASURY-JY2752",
+          "locator": "DPRK Laundering Digital Assets section, Lu paragraph",
+          "quote": "Since at least early 2022, UAE-based PRC national Lu Huaying has cashed out cryptocurrency derived from obfuscated DPRK revenue-generation projects into fiat cash on behalf of OFAC-sanctioned Sim Hyon Sop."
+        }
+      ],
+      "observed_at": "2024-12-17",
+      "notes": [
+        "Designation-time country-level source context only; it does not establish residence, precise location, continued presence, travel, or present location."
+      ]
+    },
+    {
+      "id": "claim-lu-msmt-crypto-fiat-cashout-round66",
+      "type": "incident",
+      "predicate": "msmt_synthesized_historical_crypto_fiat_cashout",
+      "value": {
+        "source_described_context": "UAE-based Chinese national",
+        "historical_start": "at least early 2022",
+        "reported_activity": "cashed out cryptocurrency derived from obfuscated DPRK revenue-generation projects into fiat cash",
+        "reported_principal": "Sim Hyon Sop",
+        "independent_corroboration": false,
+        "current_presence_or_activity_inferred": false,
+        "new_legal_posture": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "UAE subsection, printed p. 85, PDF file p. 87; footnote 264",
+          "quote": "Since at least early 2022, Lu has cashed out cryptocurrency derived from obfuscated DPRK revenue-generation projects into fiat cash on behalf of Sim."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT/2025/2 is a republication or synthesis dependent on Treasury jy2752, not independent corroboration.",
+        "Footnote 264 apparently misdates jy2752 as July 29, 2025; the admitted Treasury page is dated December 17, 2024.",
+        "UAE wording is source-described historical context and does not establish residence, continued presence, travel, or current location.",
+        "No account, wallet, payment, transaction, identity-document, precise-address, or other sensitive selector is retained."
+      ]
+    },
+    {
+      "id": "claim-lu-msmt-several-million-period-round66",
+      "type": "incident",
+      "predicate": "msmt_synthesized_historical_laundering_summary",
+      "value": {
+        "historical_period": "early 2022 through approximately September 2023",
+        "source_summarized_amount": "several million dollars",
+        "source_summarized_methods": [
+          "cryptocurrency cash-outs",
+          "money mules"
+        ],
+        "reported_principal": "Sim Hyon Sop",
+        "independent_corroboration": false,
+        "current_presence_or_activity_inferred": false,
+        "new_legal_posture": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "UAE subsection, printed p. 85, PDF file p. 87; footnote 264",
+          "quote": "Between early 2022 and approximately September 2023, Lu laundered several million dollars of Sim’s money through a combination of cryptocurrency cash-outs and money mules."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT/2025/2 is a republication or synthesis dependent on Treasury jy2752, not independent corroboration.",
+        "Footnote 264 apparently misdates jy2752 as July 29, 2025; the admitted Treasury page is dated December 17, 2024.",
+        "UAE wording is source-described historical context and does not establish residence, continued presence, travel, or current location.",
+        "No account, wallet, payment, transaction, identity-document, precise-address, or other sensitive selector is retained.",
+        "The report's aggregate wording is preserved; no underlying transaction or financial selector is retained."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Lu Huaying is identified here only as the person named in Treasury's December 17, 2024 administrative designation materials. Treasury-reported conduct is an agency assessment, and the OFAC designation is administrative; no criminal charge, conviction, or finding of guilt appears in the record. Present location requires separate source evidence, and addresses, birth data, identity documents, government identifiers, account, payment, wallet, victim, and private selectors are excluded."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "deep2-media-media-oregon-campaign-website-contractor-2025",
+  "type": "cluster",
+  "name": "Oregon campaign-website contractor case",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Fortune reports an explicit DPRK IT-worker assessment with affected-campaign and investigator sourcing; no public legal case was located.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-media-m2-media-oregon-campaign-website-contractor-2025"
+    ]
+  },
+  "locations": [
+    "Oregon, United States"
+  ],
+  "ttps": [
+    "false-location",
+    "multiple-simultaneous-jobs",
+    "payroll-fraud"
+  ],
+  "caveats": [
+    "The record concerns the cited activity; U.S. election infrastructure is outside its incident scope.",
+    "Fortune was paywalled and only indexed excerpts were available.",
+    "The second campaign identity remains undisclosed in the reviewed material."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Fortune reported that former Oregon state representative and 2024 legislative candidate the affected former Oregon legislative candidate hired a remote web developer for her campaign website.",
+        "Investigators reportedly traced the worker's connection to China despite a claimed U.S. location and found the presented U.S. identity story was fabricated.",
+        "The contractor repeatedly changed the account used for payroll and appeared to be doing contemporaneous work for another U.S. election campaign.",
+        "The reviewed reporting supports access to campaign web work and payroll, not access to election administration, voting systems or government networks."
+      ],
+      "source_ids": [
+        "deep2-media-m2-media-oregon-campaign-website-contractor-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-media-m2-media-oregon-campaign-website-contractor-2025",
+      "support": "Fortune reported that former Oregon state representative and 2024 legislative candidate the affected former Oregon legislative candidate hired a remote web developer for her campaign website. Investigators reportedly traced the worker's connection to China despite a claimed U.S. location and found the presented U.S. identity story was fabricated. The contractor repeatedly changed the account used for payroll and appeared to be doing contemporaneous work for another U.S. election campaign. The reviewed reporting supports access to campaign web work and payroll, not access to election administration, voting systems or government networks",
+      "locator": "Fortune reporting; affected campaign principal interview; private investigator/IP findings described by Fortune"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

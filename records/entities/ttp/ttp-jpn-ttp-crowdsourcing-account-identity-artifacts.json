@@ -1,0 +1,31 @@
+{
+  "id": "ttp-jpn-ttp-crowdsourcing-account-identity-artifacts",
+  "type": "ttp",
+  "name": "License-image and bank-information lending for fraudulent crowdsourcing registration",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Japanese police reported an apprehension using 検挙; the cited annual report records the apprehension stage, with prosecution, formal charge, conviction, and sentence status unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "JPN-NPA-FOCUS-296"
+    ]
+  },
+  "ttps": [
+    "Tokyo police reported apprehending two Japanese men for allegedly aiding the unlawful creation and use of private electromagnetic records by providing driver-license image information and bank-account information for fraudulent registration of a crowdsourcing-company account by a person believed to be a DPRK IT worker."
+  ],
+  "caveats": [
+    "License image, bank data, account identifier, and personal name are excluded from collection and republication.",
+    "The government source reports the enforcement event and describes the associated worker as a person believed to be a DPRK IT worker; identity remains unreported."
+  ],
+  "sources": [
+    {
+      "source_id": "JPN-NPA-FOCUS-296",
+      "support": "Tokyo police reported apprehending two Japanese men for allegedly aiding the unlawful creation and use of private electromagnetic records by providing driver-license image information and bank-account information for fraudulent registration of a crowdsourcing-company account by a person believed to be a DPRK IT worker",
+      "locator": "PDF page 48 (printed 45). | Original official publication page: https://www.npa.go.jp/bureau/security/publications/"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,427 @@
+{
+  "id": "persona-0xexp-po",
+  "type": "persona",
+  "name": "0xExp-po",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s5"
+    ]
+  },
+  "organizations": [
+    "Build on Stellar-linked soroban-versioning project"
+  ],
+  "ttps": [
+    "account created 2023-12-10 but displayed manipulated history back to 2018",
+    "cloned repositories with edited commit history",
+    "reported $200 and 26 merged pull requests",
+    "spam issues used for credibility badges"
+  ],
+  "caveats": [
+    "The published source identifies this handle at label level; natural-person naming remains unresolved.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved.",
+    "This source-reported persona or account label has unverified legal or civil identity. Historical observation or page reachability covers historical context; present ownership, control, activity, affiliation, nationality, sanctions status, and lawful identity remain unverified, and account-holder contact or targeting is prohibited."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "0xExp-po",
+      "url": "https://github.com/0xExp-po",
+      "status": "removed",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    },
+    {
+      "platform": "onlyDust",
+      "identifier": "0xExp-po",
+      "url": "https://app.onlydust.com/",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s5"
+      ],
+      "note": "Historical source observation bounded by record attribution date 2026-08-11. Page reachability or a prior status description does not establish present ownership, control, activity, or lawful identity; do not contact or target the account holder."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s5",
+      "support": "The first identity discovered was GitHub handle “0xExp-po” in a Build on Stellar-linked repository",
+      "locator": "Sections documenting the aidenwong812 / cryptogru812 handle change, the V0410 and related persona links, and the 0xExp-po Build on Stellar / OnlyDust account pivot"
+    },
+    {
+      "source_id": "src-2e7a3cd32dc3"
+    },
+    {
+      "source_id": "src-80e55c787fb0"
+    },
+    {
+      "source_id": "src-15395f49fbaa"
+    },
+    {
+      "source_id": "src-b57c4b7d7a28"
+    },
+    {
+      "source_id": "src-97eed9dbf59c"
+    },
+    {
+      "source_id": "src-cb4afb69d274"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-0xexp-reported-handle",
+      "type": "account",
+      "predicate": "researcher_reported_github_handle",
+      "value": {
+        "platform": "GitHub",
+        "handle": "0xExp-po",
+        "identity_status": "handle, no defensible civil name"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, opening paragraph",
+          "quote": "The first identity we discovered belongs to a developer going by the handle 0xExp-po on GitHub."
+        }
+      ],
+      "observed_at": "2025-02-09",
+      "notes": [
+        "The source uses “identity” for the handle; no natural-person identity was published or inferred."
+      ]
+    },
+    {
+      "id": "claim-0xexp-build-on-stellar-context",
+      "type": "relationship",
+      "predicate": "researcher_found_handle_in_build_on_stellar_linked_repository",
+      "value": {
+        "ecosystem": "Build on Stellar",
+        "artifact": "repository of a legitimate developer"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, opening paragraph",
+          "quote": "The actor’s patterns of activity fit the known DPRK IT Workers’ M.O."
+        },
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, opening paragraph",
+          "quote": "a developer working on one of Stellar’s “Build on Stellar” programs."
+        }
+      ],
+      "observed_at": "2025-02-09",
+      "notes": [
+        "Ketman's assessment and program context; not an official Stellar attribution."
+      ]
+    },
+    {
+      "id": "claim-0xexp-account-history-manipulation",
+      "type": "incident",
+      "predicate": "researcher_reported_manipulated_commit_history",
+      "value": {
+        "account_created": "2023-12-10T13:54:11Z",
+        "displayed_history_start": "2018",
+        "finding": "commit history manipulation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, List of highly unusual patterns discovered",
+          "quote": "Account created at 2023-12-10T13:54:11Z; however, commit history manipulation displays account history dating back to 2018."
+        }
+      ],
+      "observed_at": "2025-04-16",
+      "notes": [
+        "Researcher-reported artifact finding; repository behavior was not independently tested."
+      ]
+    },
+    {
+      "id": "claim-0xexp-cloned-repositories",
+      "type": "incident",
+      "predicate": "researcher_reported_cloned_repositories_with_edited_history",
+      "value": {
+        "technique": "clone original repository, edit commit history, push to persona profile"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, List of highly unusual patterns discovered",
+          "quote": "Multiple repositories with “stolen” commit history"
+        },
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, parenthetical explanation",
+          "quote": "DPRK IT Workers git clone the original repository and edit its commit history before pushing it to their own profiles"
+        }
+      ],
+      "observed_at": "2025-04-16",
+      "notes": [
+        "Source characterization and generalized technique; public review tier because individual repository-by-repository provenance was not independently reconstructed."
+      ]
+    },
+    {
+      "id": "claim-0xexp-credibility-badges",
+      "type": "incident",
+      "predicate": "researcher_reported_spam_issues_for_credibility",
+      "value": {
+        "activity": "opening spam issues",
+        "claimed_objective": "credibility badges displayed in GitHub UI"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, List of highly unusual patterns discovered",
+          "quote": "“Credibility building” through opening “Spam Issues” in valid organizations in exchange for badges displayed in the GitHub UI view."
+        }
+      ],
+      "observed_at": "2025-04-16",
+      "notes": [
+        "Researcher interpretation of public activity; not independently reproduced."
+      ]
+    },
+    {
+      "id": "claim-0xexp-onlydust-payment",
+      "type": "incident",
+      "predicate": "researcher_reported_onlydust_compensation_and_merges",
+      "value": {
+        "platform": "onlyDust",
+        "amount_usd": 200,
+        "merged_pull_requests": 26
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "List of Affected Projects and Developers, 0xExp-po",
+          "quote": "Amount received / Successful Pull Requests:"
+        },
+        {
+          "source_id": "platform-s5",
+          "locator": "List of Affected Projects and Developers, 0xExp-po",
+          "quote": "$200"
+        },
+        {
+          "source_id": "platform-s5",
+          "locator": "List of Affected Projects and Developers, 0xExp-po",
+          "quote": "26 Pull Requests Merged"
+        }
+      ],
+      "observed_at": "2025-04-16",
+      "notes": [
+        "Article-reported platform figures; not independently audited against private settlement records."
+      ]
+    },
+    {
+      "id": "claim-0xexp-soroban-versioning",
+      "type": "relationship",
+      "predicate": "researcher_listed_affected_repository",
+      "value": {
+        "repository": "tupui/soroban-versioning",
+        "program_context": "BuildOnStellar grant"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "List of Affected Projects and Developers, 0xExp-po",
+          "quote": "https://github.com/tupui/soroban-versioning"
+        },
+        {
+          "source_id": "platform-s5",
+          "locator": "List of Affected Projects and Developers, 0xExp-po",
+          "quote": "(Project is part of a BuildOnStellar grant)"
+        }
+      ],
+      "observed_at": "2025-04-16",
+      "notes": [
+        "Source-reported affected project; this does not imply wrongdoing by the legitimate repository owner or program."
+      ]
+    },
+    {
+      "id": "claim-0xexp-github-cutoff-status",
+      "type": "account",
+      "predicate": "historical_github_login_not_found_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "historical_handle": "0xExp-po",
+        "direct_endpoint_status_at_cutoff": "not found",
+        "exact_login_search_results": 0
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, opening paragraph",
+          "quote": "0xExp-po on GitHub"
+        },
+        {
+          "source_id": "src-2e7a3cd32dc3",
+          "locator": "JSON response",
+          "quote": "{\"message\":\"Not Found\"}"
+        },
+        {
+          "source_id": "src-80e55c787fb0",
+          "locator": "JSON total_count",
+          "quote": "\"total_count\": 0"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The historical login is unavailable at cutoff. Separate stable-artifact evidence is consistent with a login change to tinc-x; the 404 and search silence do not establish the change date or current human controller."
+      ]
+    },
+    {
+      "id": "claim-0xexp-tinc-x-account-bridge",
+      "type": "account",
+      "predicate": "public_artifacts_link_historical_and_current_github_logins",
+      "value": {
+        "platform": "GitHub",
+        "historical_handle": "0xExp-po",
+        "current_login": "tinc-x",
+        "stable_numeric_user_id": 153439271,
+        "account_created_at": "2023-12-10T13:54:11Z",
+        "bridge_artifact": "tupui/soroban-versioning pull request 134",
+        "bridge_interpretation": "strong account-level continuity consistent with a login change"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-15395f49fbaa",
+          "locator": "JSON user fields",
+          "quote": "\"login\": \"tinc-x\""
+        },
+        {
+          "source_id": "src-15395f49fbaa",
+          "locator": "JSON user fields",
+          "quote": "\"id\": 153439271"
+        },
+        {
+          "source_id": "src-b57c4b7d7a28",
+          "locator": "Issue comment 2708481563, opening sentence",
+          "quote": "Thanks for the redesign"
+        },
+        {
+          "source_id": "src-97eed9dbf59c",
+          "locator": "JSON created_at",
+          "quote": "\"created_at\": \"2023-12-10T13:54:11Z\""
+        },
+        {
+          "source_id": "platform-s5",
+          "locator": "First Actor Discovered, unusual-pattern list",
+          "quote": "Account created at 2023-12-10T13:54:11Z"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "GitHub retroactively displays current logins on historical artifacts. The same pull request is currently authored by tinc-x/153439271 while the repository owner addresses that contributor as [@]0xExp-po, and the stable account creation timestamp matches Ketman's historical observation.",
+        "This establishes an account-level bridge, not a verified natural person, unchanged operator, current control, nationality, residence, or legal attribution.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-0xexp-tinc-x-current-metadata",
+      "type": "account",
+      "predicate": "current_linked_github_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "login": "tinc-x",
+        "numeric_id": 153439271,
+        "created_at": "2023-12-10T13:54:11Z",
+        "public_repositories": 74,
+        "public_profile_fields": {
+          "name": null,
+          "company": null,
+          "blog": "",
+          "location": null,
+          "bio": null,
+          "twitter_username": null
+        }
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-97eed9dbf59c",
+          "locator": "JSON login and id fields",
+          "quote": "\"login\": \"tinc-x\""
+        },
+        {
+          "source_id": "src-97eed9dbf59c",
+          "locator": "JSON public_repos",
+          "quote": "\"public_repos\": 74"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The current public profile supplies no civil-name, company, location, biography, external profile, public email, or X/Twitter field.",
+        "Mutable repository and social metrics do not establish current control or the identity of the human operator."
+      ]
+    },
+    {
+      "id": "claim-0xexp-tinc-x-repository-metadata",
+      "type": "skill",
+      "predicate": "current_linked_account_repository_metadata_labels",
+      "value": {
+        "platform": "GitHub",
+        "login": "tinc-x",
+        "repository_count": 74,
+        "fork_count": 33,
+        "non_fork_count": 41,
+        "primary_language_labels": {
+          "Rust": 13,
+          "TypeScript": 9,
+          "JavaScript": 6,
+          "Solidity": 2,
+          "Motoko": 2,
+          "Python": 1,
+          "HTML": 1,
+          "Move": 1,
+          "Cairo": 1,
+          "unlabeled": 38
+        }
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-cb4afb69d274",
+          "locator": "Complete 74-object public repository response",
+          "quote": "\"full_name\": \"tinc-x/soroban-versioning\""
+        },
+        {
+          "source_id": "src-cb4afb69d274",
+          "locator": "Repository metadata field examples",
+          "quote": "\"language\": \"Rust\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Counts are a complete cutoff-time aggregation of GitHub's repository metadata fields; no code was downloaded, scanned, or executed.",
+        "Language labels, non-fork flags, descriptions, stars, and repository presence do not independently prove authorship, originality, skill, employment, or benign content. Ketman's source-reported history-manipulation and cloned-repository caveats remain controlling context."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Ketman reports a GitHub/OnlyDust contributor handle; civil identity status remains unverified. Public GitHub artifacts link the historical 0xExp-po label at the account level to stable numeric user ID 153439271, currently displayed as tinc-x. That continuity concerns the account; natural-person name, nationality, unchanged human operator, present ownership, and control remain unresolved."
+}

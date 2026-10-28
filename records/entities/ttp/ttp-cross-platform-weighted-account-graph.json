@@ -1,0 +1,60 @@
+{
+  "id": "ttp-cross-platform-weighted-account-graph",
+  "type": "ttp",
+  "name": "Weighted, provenance-aware cross-platform account graphs",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "First-party provider observations and source-attributed investigations supply a public security-research assessment; legal identity, civil identity, adjacent-account control, court findings, labor-market prevalence and independently validated efficacy require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPC-S03",
+      "DPPLR19-S01-PINDROP-TELEMETRY"
+    ]
+  },
+  "ttps": [
+    "confirmed-case-expansion",
+    "weighted cross-platform identity and repository correlation",
+    "weighted-account-graph"
+  ],
+  "caveats": [
+    "Auto-blocking every neighbor of a flagged account and using demographic or nationality proxies are unsuitable controls.",
+    "Identity-document imagery, synthetic-image examples, biometric templates, candidate-level telemetry, and raw graph nodes stay out of publication and operational use.",
+    "Graph edges require provenance, weighting, explainability, temporal context, and human review; shared résumé structure, employers, repositories, or contact patterns provide correlation context, while identity proof requires additional evidence.",
+    "Identity or attribution requires more than a single face, image, document, VPN, location, device, network, profile, résumé, repository, contact, or behavior signal.",
+    "The package includes published Rapid7 graph context only; inferred labels are excluded.",
+    "Retain source provenance and confidence for every edge and distinguish shared control from ordinary collaboration.",
+    "Successful or failed verification is one bounded observation; legal identity, nationality, DPRK affiliation, worker continuity, present account control and product-wide performance require separate evidence.",
+    "The source-labeled 23 additional applicants remain suspicious review leads; worker, incident, and legal identity status remain unconfirmed.",
+    "Use explainable multi-signal review, minimization, bounded retention, trained human adjudication, correction, appeal, accessibility accommodations, and applicable legal review."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Useful graph edges include repeated code-repository handles, shared projects/code, social relationships, overlapping email-domain patterns, infrastructure reuse, contractor-profile attributes, and front-company accounts. Human review should distinguish a true shared-control signal from ordinary open-source collaboration."
+      ],
+      "source_ids": [
+        "DPC-S03"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-cross-platform-weighted-account-graph"
+  ],
+  "sources": [
+    {
+      "source_id": "DPPLR19-S01-PINDROP-TELEMETRY",
+      "support": "Pindrop says one confirmed fraud case led it to 23 additional suspicious applicants through repeated resume structure, recurring claimed employers, reused or swapped repositories, and contact-pattern overlap. This is useful first-party hiring-pipeline provenance for the existing weighted, provenance-aware graph-control record. Evidence boundary: Provider-reported observations from Pindrop's own pipeline. The article does not publish methodology sufficient to reproduce its labels, cohort sizes for every percentage, independent validation, named candidates, legal identities, or a labor-market prevalence estimate. Its 'confirmed fraud' and 'linked to North Korea' labels are source labels, not adjudications",
+      "locator": "Opening comparison with GitLab; Pindrop Research: Fraud runs rampant in job applicant pools; Device telemetry; Geography & network characteristics; Synthetic identity construction; From one suspicious node to a cluster; Beyond deepfakes: What hiring telemetry actually shows"
+    },
+    {
+      "source_id": "DPC-S03",
+      "support": "Useful graph edges include repeated code-repository handles, shared projects/code, social relationships, overlapping email-domain patterns, infrastructure reuse, contractor-profile attributes, and front-company accounts. Human review should distinguish a true shared-control signal from ordinary open-source collaboration",
+      "locator": "PDF pages 10-11, DPRK section and Figure 3"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

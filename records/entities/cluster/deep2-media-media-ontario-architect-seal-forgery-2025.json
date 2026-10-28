@@ -1,0 +1,49 @@
+{
+  "id": "deep2-media-media-ontario-architect-seal-forgery-2025",
+  "type": "cluster",
+  "name": "Ontario design firm architect-seal forgery case",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Reported law-enforcement belief; public charge and final adjudication are separate stages.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-media-m1-media-ontario-architect-seal-forgery-2025"
+    ]
+  },
+  "locations": [
+    "Ontario, Canada"
+  ],
+  "ttps": [
+    "forged-identity-document",
+    "stolen-identity"
+  ],
+  "caveats": [
+    "Avoid implying that every questioned project was unsafe; the reported fact is unauthorized seal use.",
+    "CBC's canonical page had intermittent full-page retrieval on the stated access date.",
+    "Supplied identity documents, home address, employee face, and private identifiers remain unpublished."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "CBC reported that a small Ontario design firm hired a remote worker who was later believed by Ontario Provincial Police to be a North Korean fraudster.",
+        "The worker allegedly forged the seal of architect Stephen Mauro on at least two dozen projects, creating professional, safety, regulatory and liability exposure beyond payroll loss.",
+        "The firm's owner Jason Riedel and Mauro were publicly interviewed; no criminal charge or adjudicated DPRK identity was located in the cited evidence."
+      ],
+      "source_ids": [
+        "deep2-media-m1-media-ontario-architect-seal-forgery-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-media-m1-media-ontario-architect-seal-forgery-2025",
+      "support": "CBC reported that a small Ontario design firm hired a remote worker who was later believed by Ontario Provincial Police to be a North Korean fraudster. The worker allegedly forged the seal of architect Stephen Mauro on at least two dozen projects, creating professional, safety, regulatory and liability exposure beyond payroll loss. The firm's owner Jason Riedel and Mauro were publicly interviewed; no criminal charge or adjudicated DPRK identity was located in the cited evidence",
+      "locator": "CBC News original reporting; affected firm's owner and architect interviews; Ontario Provincial Police assessment as reported by CBC"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

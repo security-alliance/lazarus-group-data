@@ -1,0 +1,273 @@
+{
+  "id": "kyle-lankford-healthcare-applicant",
+  "type": "persona",
+  "name": "Kyle Lankford",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "Trellix assessed the applicant as a likely DPRK operative; no public charge or adjudication was identified.",
+    "as_of": "2025-09-23",
+    "source_ids": [
+      "affected-org-ao-s5"
+    ]
+  },
+  "organizations": [
+    "Trellix",
+    "Unnamed major U.S. healthcare provider"
+  ],
+  "locations": [
+    "United States (claimed/target context)"
+  ],
+  "ttps": [
+    "Apply for principal software engineer role under an employment persona",
+    "Blend into normal recruitment workflow using legitimate SaaS and mail infrastructure",
+    "Complete ordinary CodeSignal assessment without obvious behavioral red flags",
+    "Use fluent, professional, malware-free email follow-up",
+    "Use multiple email addresses connected through public threat intelligence"
+  ],
+  "caveats": [
+    "Historical email indicators require editorial review before display; current ownership remains a future verification question.",
+    "Kyle Lankford is an employment persona with an unverified legal identity.",
+    "The affected healthcare provider remains unnamed in public sources.",
+    "The displayed name is a source-reported employment persona or handle; legal or civil identity requires a source bridge.",
+    "The email addresses are historical threat indicators; current-account status requires current source evidence."
+  ],
+  "aliases": [
+    {
+      "value": "Kyle Lankford",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "affected-org-ao-s5"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Email",
+      "identifier": "kyle12lank@gmail[.]com",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "affected-org-ao-s5"
+      ],
+      "note": "Address used for the application follow-up. Employer-published historical threat indicator; it does not establish the identity of any current account holder."
+    },
+    {
+      "platform": "Email",
+      "identifier": "suptalentdev@gmail[.]com",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "affected-org-ao-s5"
+      ],
+      "note": "Address Trellix says appeared in email headers. Employer-published historical threat indicator; it does not establish the identity of any current account holder."
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "mail-provider",
+      "value": "Gmail",
+      "note": "DMARC-aligned Google mail; no spoofing reported.",
+      "source_ids": [
+        "affected-org-ao-s5"
+      ]
+    },
+    {
+      "type": "application-platform",
+      "value": "CodeSignal",
+      "note": "Legitimate assessment platform; not malicious infrastructure.",
+      "source_ids": [
+        "affected-org-ao-s5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "affected-org-ao-s5",
+      "support": "Trellix reports stopping a likely DPRK applicant targeting a major unnamed U.S. healthcare provider. It publishes the employment persona Kyle Lankford, two Gmail addresses, the principal-software-engineer role, CodeSignal timeline, and the fact that the messages contained no malware or suspicious URLs. The no-locale URL is the verified canonical endpoint; the former en-ca URL was a historical locale endpoint",
+      "locator": "Lines 280-326; Tables 1-2"
+    },
+    {
+      "source_id": "src-435542408ca2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-employment-persona-and-role",
+      "type": "identity_name",
+      "predicate": "reported_employment_persona",
+      "value": {
+        "name": "Kyle Lankford",
+        "role_applied_for": "Principal Software Engineer",
+        "target": "unnamed major U.S. healthcare provider",
+        "identity_status": "employment persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "The Evolving Threat, paragraph after OSINT discussion",
+          "quote": "In this case, an individual using the name ‘Kyle Lankford’ had applied for a Principal Software Engineer position at the healthcare company."
+        }
+      ],
+      "observed_at": "2025-09-23",
+      "notes": [
+        "The affected company is deliberately unnamed and the persona label is not treated as a civil identity."
+      ]
+    },
+    {
+      "id": "claim-codesignal-application-timeline",
+      "type": "incident",
+      "predicate": "reported_application_timeline",
+      "value": {
+        "assessment_platform": "CodeSignal",
+        "assessment_invited_at": "2025-07-10",
+        "assessment_completed_at": "2025-07-16",
+        "follow_up_at": "2025-08-04"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Table 1, July 10, 2025 row",
+          "quote": "July 10, 2025 Initial screening & Assessment invitation Company (Talent Acquisition) emailed ‘Kyle Lankford’ with instructions for an online CodeSignal technical assessment."
+        },
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Table 1, July 16, 2025 row",
+          "quote": "July 16, 2025 Assessment completed The candidate completed the coding test as instructed."
+        },
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Table 1, August 4, 2025 row",
+          "quote": "August 4, 2025 Follow-up from applicant ‘Kyle’ emailed the recruiter, politely asking if there were any updates on the application status after the assessment."
+        }
+      ],
+      "observed_at": "2025-08-04",
+      "notes": [
+        "The platform was used as ordinary recruitment infrastructure and is not characterized as malicious."
+      ]
+    },
+    {
+      "id": "claim-trellix-threat-hunt-assessment",
+      "type": "incident",
+      "predicate": "vendor_assessed_likely_dprk_operative",
+      "value": {
+        "assessor": "Trellix",
+        "assessment_type": "vendor threat-hunting assessment",
+        "assessment_month": "2025-08",
+        "assessment": "likely North Korean operative",
+        "basis": "correlation with known DPRK IT-worker indicators and further investigation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Table 1, August 2025 threat-hunt row",
+          "quote": "August 2025 Threat hunt triggered (Trellix SecondSight) Trellix’s SecondSight threat hunting service correlated the applicant’s email addresses with known DPRK IT worker indicators."
+        },
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Table 1, August 2025 investigation and exposure row",
+          "quote": "August 2025 Investigation & exposure Upon deeper analysis of the email exchanges and background checks, the candidate was identified as a likely North Korean operative."
+        }
+      ],
+      "notes": [
+        "Trellix assessment only; no public charge, sanctions designation, civil identity, or adjudication was found."
+      ]
+    },
+    {
+      "id": "claim-malware-free-correspondence",
+      "type": "incident",
+      "predicate": "reported_correspondence_characteristics",
+      "value": {
+        "malware": false,
+        "phishing_urls": false,
+        "obvious_red_flags": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Paragraph after Table 1",
+          "quote": "The emails exchanged between the ‘applicant’ and the company contained no malware, no phishing URLs, and no obvious red flags."
+        }
+      ],
+      "observed_at": "2025-09-23",
+      "notes": [
+        "This limits the observed technique and should remain adjacent to the threat-hunt assessment."
+      ]
+    },
+    {
+      "id": "claim-kyle-mail-authentication-and-routing",
+      "type": "incident",
+      "predicate": "source_reported_follow_up_mail_mechanics",
+      "value": {
+        "sent_at": "2025-08-04T09:19:34-04:00",
+        "service_assessment": "consistent with Gmail web client",
+        "dmarc_alignment": "passed",
+        "spoofing_observed": false,
+        "attachment": "signature logo; no malware",
+        "body_url_scope": "legitimate CodeSignal help resources through the employer's secure URL wrapper"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "Table 2, applicant follow-up header and content analysis",
+          "quote": "No spoofing; DMARC alignment passed via Google."
+        },
+        {
+          "source_id": "src-435542408ca2",
+          "locator": "Table 2, attachment and URLs in body rows",
+          "quote": "All URLs were legitimate resources (e.g., MFA setup guide, assessment tips) wrapped by an email security gateway (urldefense), which found no issues."
+        }
+      ],
+      "observed_at": "2025-08-04",
+      "notes": [
+        "No email address, recipient, mail-server IP, secure-wrapper selector, recruiter identity, or message body is included in this public-tier claim.",
+        "The -04:00 offset is message metadata and does not establish the sender's physical location, residence, nationality, time zone, or device."
+      ]
+    },
+    {
+      "id": "claim-kyle-indicator-hunt-provenance",
+      "type": "incident",
+      "predicate": "vendor_reported_osint_indicator_provenance",
+      "value": {
+        "reporting_vendor": "Trellix",
+        "upstream_public_source_label": "[@]SttyK",
+        "upstream_dataset_description": "approximately 1,400 email addresses linked by the analyst to North Korean IT workers operating abroad",
+        "use": "Trellix says the public indicators initiated its telemetry hunt and that applicant addresses later correlated with known DPRK IT-worker indicators"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "affected-org-ao-s5",
+          "locator": "The Evolving Threat, opening two paragraphs and Table 1 August 2025 threat-hunt row",
+          "quote": "uncovered approximately 1,400 email addresses linked to North Korean IT workers operating abroad."
+        },
+        {
+          "source_id": "src-435542408ca2",
+          "locator": "Table 1, August 2025 threat-hunt row",
+          "quote": "Trellix's SecondSight threat hunting service correlated the applicant's email addresses with known DPRK IT worker indicators."
+        }
+      ],
+      "observed_at": "2025-09-23",
+      "notes": [
+        "This records Trellix's stated detection provenance, not an independent audit of the approximately 1,400-address dataset and not a claim that every address in it is correctly attributed.",
+        "The analyst's X posts are currently protected; no post archive, follower graph, private dataset, or contact pivot was attempted or retained.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Trellix-reported employment persona Kyle Lankford; the civil identity is unverified. Keep the unnamed healthcare provider, recruiter and historical email indicators protected; the source's 'likely North Korean operative' language is an affected-organization assessment, while legal adjudication requires a court record."
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dhrr12-ttp-reversible-human-adjudication-of-hiring-risk-signals",
+  "type": "ttp",
+  "name": "Reversible human adjudication of hiring-risk signals",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Product-neutral defensive control abstracted from first-party vendor workflow documentation. It is guidance rather than an incident finding, legal determination, claim of DPRK affiliation, or independent validation of a vendor product.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DHRR12-S05",
+      "DHRR12-S06",
+      "DHRR12-S07",
+      "DHRR12-S10"
+    ]
+  },
+  "ttps": [
+    "accessible-non-biometric-alternative",
+    "bias-and-disparate-impact-testing",
+    "correction-and-appeal",
+    "documented-human-adjudication",
+    "explainable-risk-signal-presentation",
+    "independent-corroboration",
+    "plausible-benign-alternative-review",
+    "privacy-preserving-bounded-retention",
+    "reversible-cross-job-disposition"
+  ],
+  "caveats": [
+    "Separate signal display, reversible adjudication, and cross-job adverse action in ATS workflows; common network and contact anomalies require consideration of benign explanations.",
+    "Every signal must be accompanied by an intelligible reason, uncertainty or review state, and plausible benign alternatives such as travel, relocation, VPN use, shared networks, disability, assistive technology, camera or audio quality, legal name changes, sparse professional history, privacy choices, or ordinary data error.",
+    "Gem's vendor-published observation that 112 of 127 applicants for one OneSignal technical role were flagged high risk is omitted from this record; it is treated as a risk observation rather than a confirmed-fraud count, DPRK count, prevalence estimate, or efficacy result.",
+    "The public corpus is limited to aggregate findings; people, personas, accounts, entities, images, biometric material, identity documents, private selectors, and raw applicant signals stay outside it.",
+    "A signal, signal combination, or automated score is a review input; identity, nationality, sanctions status, fraud, and wrongdoing findings require authorized and documented human review using independently corroborated evidence.",
+    "Provide notice where appropriate, accessible non-biometric alternatives, a meaningful correction or appeal path, and the ability to reverse a decision. Cross-job blocking must occur only after adjudication and must remain reversible.",
+    "Signals may reflect travel, relocation, VPNs, shared networks, disability, assistive technology, camera or audio quality, legal name changes, sparse professional history, privacy choices, or ordinary data errors. Minimize collection and retention; restrict access; avoid protected-class proxies; provide notice and accessible alternatives where appropriate; test for disparate impact; and require independent evidence before inferring nationality or DPRK affiliation from platform signals.",
+    "These first-party vendor sources document generic hiring-fraud workflows; DPRK incident disclosure, independent product evaluation and North Korea affiliation require separate sources.",
+    "Use lawful, proportionate, privacy-preserving collection with access controls, bounded retention, bias and disparate-impact testing, and accommodation for disability and assistive technology."
+  ],
+  "infrastructure": [
+    {
+      "type": "ats-risk-signal-adjudication-control",
+      "statement": "A hiring or identity platform should present each risk signal with an explanation, confidence or review state, and plausible benign alternatives; route the application to an authorized human reviewer; preserve the reviewer’s reason and any later correction; and support reversal or appeal. No single indicator—including IP or location mismatch, VoIP or disposable contact data, profile age, face or voice anomaly, repeated infrastructure, or an automated risk score—should automatically reject an applicant or establish identity, nationality, sanctions status, or wrongdoing. Cross-job blocking should occur only after documented adjudication and remain reversible.",
+      "evidence_class": "product-neutral control abstracted from first-party ATS workflow documentation",
+      "source_scope": "First-party ATS and hiring-workflow documentation only; no independent efficacy or DPRK-attribution claim.",
+      "source_ids": [
+        "DHRR12-S05",
+        "DHRR12-S06",
+        "DHRR12-S07",
+        "DHRR12-S10"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-hiring-composite-detection",
+    "dfef-ttp-explainable-ats-integrated-multisignal-review",
+    "dhpr9-ttp-bias-aware-assessment-investigation"
+  ],
+  "sources": [
+    {
+      "source_id": "DHRR12-S07",
+      "support": "A hiring or identity platform should present each risk signal with an explanation, confidence or review state, and plausible benign alternatives; route the application to an authorized human reviewer; preserve the reviewer’s reason and any later correction; and support reversal or appeal. No single indicator—including IP or location mismatch, VoIP or disposable contact data, profile age, face or voice anomaly, repeated infrastructure, or an automated risk score—should automatically reject an applicant or establish identity, nationality, sanctions status, or wrongdoing. Cross-job blocking should occur only after documented adjudication and remain reversible",
+      "locator": "Overview; description of applications segmented for manual review; admin configuration and candidate fraud status"
+    },
+    {
+      "source_id": "DHRR12-S10",
+      "support": "A hiring or identity platform should present each risk signal with an explanation, confidence or review state, and plausible benign alternatives; route the application to an authorized human reviewer; preserve the reviewer’s reason and any later correction; and support reversal or appeal. No single indicator—including IP or location mismatch, VoIP or disposable contact data, profile age, face or voice anomaly, repeated infrastructure, or an automated risk score—should automatically reject an applicant or establish identity, nationality, sanctions status, or wrongdoing. Cross-job blocking should occur only after documented adjudication and remain reversible",
+      "locator": "Blocking candidates; Unblocking candidates; timeline and cross-job effects"
+    },
+    {
+      "source_id": "DHRR12-S06",
+      "support": "A hiring or identity platform should present each risk signal with an explanation, confidence or review state, and plausible benign alternatives; route the application to an authorized human reviewer; preserve the reviewer’s reason and any later correction; and support reversal or appeal. No single indicator—including IP or location mismatch, VoIP or disposable contact data, profile age, face or voice anomaly, repeated infrastructure, or an automated risk score—should automatically reject an applicant or establish identity, nationality, sanctions status, or wrongdoing. Cross-job blocking should occur only after documented adjudication and remain reversible",
+      "locator": "fraud signal summary and drill-down description; buttons to mark an applicant fraudulent or not; reporting and organization-level configuration"
+    },
+    {
+      "source_id": "DHRR12-S05",
+      "support": "Current HTML JSON-LD datePublished and the article body both give January 7, 2026; JSON-LD dateCreated is January 5 and dateModified is February 12. A separate generic resource-date element says February 24 and is not used as the publication date. A hiring or identity platform should present each risk signal with an explanation, confidence or review state, and plausible benign alternatives; route the application to an authorized human reviewer; preserve the reviewer’s reason and any later correction; and support reversal or appeal. No single indicator—including IP or location mismatch, VoIP or disposable contact data, profile age, face or voice anomaly, repeated infrastructure, or an automated risk score—should automatically reject an applicant or establish identity, nationality, sanctions status, or wrongdoing. Cross-job blocking should occur only after documented adjudication and remain reversible",
+      "locator": "Why context matters; What gets flagged; How it shows up; An important note on AI use"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

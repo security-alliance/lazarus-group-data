@@ -1,0 +1,81 @@
+{
+  "id": "hepta-x-it-worker-targeting-cluster",
+  "type": "cluster",
+  "name": "HEPTA-X activity targeting DPRK IT workers",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "Gordon assesses with low confidence that HEPTA-X may itself be North Korean activity spying on DPRK IT workers. Generic TTPs, weak operational security, and imperfect exclusions of other actors limit confidence",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "CM-S5"
+    ]
+  },
+  "organizations": [
+    "BSides Pyongyang",
+    "Cyble"
+  ],
+  "ttps": [
+    "Add the created account to Remote Desktop permissions",
+    "Connect to actor infrastructure through AstrillVPN",
+    "Create a local administrative account with a weak reused password",
+    "Enable RDP for persistent remote access",
+    "Exclude System32 from Windows Defender scanning",
+    "Retrieve a second-stage payload from shared command-and-control infrastructure",
+    "Steal browser credentials with ChromePass",
+    "Trojanize software likely to be downloaded specifically by DPRK IT workers",
+    "Use open directories and shared infrastructure that permit campaign pivoting"
+  ],
+  "caveats": [
+    "HEPTA-X remains an unconfirmed DPRK attribution.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence.",
+    "The talk explicitly rules out several alternatives only imperfectly and keeps attribution at low confidence.",
+    "This is an actor/cluster lead; worker-persona status requires separate evidence."
+  ],
+  "aliases": [
+    {
+      "value": "HEPTA-X",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "CM-S5"
+      ]
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "hosting",
+      "value": "Namecheap-linked/adversary-registered infrastructure and open directories described in talk",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S5"
+      ]
+    },
+    {
+      "type": "malware-delivery",
+      "value": "Backdoored installers for Hotmon, IP Messenger, Google Update, and WinRAR-like software",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S5"
+      ]
+    },
+    {
+      "type": "tooling",
+      "value": "QuasarRAT, ChromePass, zipped LNK/PowerShell lures, RDP enablement",
+      "relationship": "observed-in-investigation",
+      "source_ids": [
+        "CM-S5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CM-S5",
+      "support": "Official conference-channel recording of Daniel Gordon’s research into backdoored software distributed to DPRK IT workers and a low-confidence attribution assessment for the HEPTA-X cluster",
+      "locator": "01:45–09:31 Hopana Tech/Hotmon findings; 09:31–18:55 HEPTA-X investigation and attribution; 18:55–20:23 takeaways"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

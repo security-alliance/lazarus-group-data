@@ -1,0 +1,27 @@
+{
+  "id": "ttp-late-2026-03-closed-loop-employment-reference-channel-lets-operative",
+  "type": "ttp",
+  "name": "Closed-loop employment-reference channel lets operatives deconflict calls and supply scripts for each other’s personas.",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source confidence: high",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-nisos-operation-pdf"
+    ]
+  },
+  "ttps": [
+    "Closed-loop employment-reference channel lets operatives deconflict calls and supply scripts for each other’s personas."
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-nisos-operation-pdf",
+      "support": "Closed-loop employment-reference channel lets operatives deconflict calls and supply scripts for each other’s personas",
+      "locator": "Graphic 1: Discord channel structure; Graphics 2-3: Vercel calendar and leaderboard; Graphics 7-8: persona and license-verification instructions; Graphic 9: 710TECH LI backstop site; Graphic 10: live AI interview-assistance view | Landing page publication date; PDF metadata shows creation on June 11, 2026"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

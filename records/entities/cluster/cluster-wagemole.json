@@ -1,0 +1,51 @@
+{
+  "id": "cluster-wagemole",
+  "type": "cluster",
+  "name": "Wagemole",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Unit 42 label for job-seeking DPRK IT-worker activity",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "vendor-dtex-2025-hidden-workforce",
+      "vendor-unit42-2024-clsta0237",
+      "vendor-unit42-2024-wagemole"
+    ]
+  },
+  "front_companies": [
+    "Baby Box Info",
+    "Cubix Tech",
+    "Helix US"
+  ],
+  "ttps": [
+    "fraudulent remote-employment personas",
+    "front-company use",
+    "identity and resume fabrication"
+  ],
+  "caveats": [
+    "CL-STA-0237 indicators are retained on their own narrower cluster record.",
+    "The first-party PDF exposes no verified public release date; PDF metadata and HTTP Last-Modified values are not publication evidence.",
+    "Vendor cluster names are analytic labels; legal identities require source-specific attribution."
+  ],
+  "sources": [
+    {
+      "source_id": "vendor-dtex-2025-hidden-workforce",
+      "support": "DTEX discusses UNC5267 and Wagemole alongside a source-reported Dandong IT-worker group, persona creation, facilitators, interview assistance, laptop farms, payment laundering, and MFA-bypass tradecraft. Internal workspace and routing selectors are intentionally omitted",
+      "locator": "PDF pp. 31-40, Figures 9-12"
+    },
+    {
+      "source_id": "vendor-unit42-2024-clsta0237",
+      "support": "Tracks CL-STA-0237, likely Laos-based, and explicitly links its fake-worker activity to BeaverTail video-conference phishing while retaining attribution uncertainty. Publishes 38 email indicators, six domains, and one IP",
+      "locator": "Executive Summary; Fake resumes Figures 1-2; Attribution; Indicators of Compromise"
+    },
+    {
+      "source_id": "vendor-unit42-2024-wagemole",
+      "support": "Names Robert, Evan Andrew Daniel, Andrew Gibson, Jacob Samuel John, Stephen Bright, and Ian Roger Gough; identifies Baby Box Info, Helix US, and Cubix Tech. Jovi Arellano is described as an identity-theft victim, not an actor persona",
+      "locator": "Examples of Fake IT Worker Personas; Front companies; profile/resume figures"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-11"
+}

@@ -1,0 +1,384 @@
+{
+  "id": "facilitator-tong-yuze",
+  "type": "facilitator",
+  "name": "Tong Yuze",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. Through 2026-08-12, the verified record reaches charging in the District of Massachusetts Wang matter; later merits disposition remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Tong Yuze",
+  "ttps": [
+    "laundering DPRK IT-worker proceeds",
+    "shell-company and payment infrastructure"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Keep the campaign context intact; the source presents the State Department in a contextual role only.",
+    "Facial recognition is excluded; shell-company portrait linkage requires source evidence.",
+    "The image is retained as visual context only. Biometric matching and resolution of employment personas, aliases, accounts, and victim identities are outside the method.",
+    "Keep alleged-role and source context adjacent.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The official reward-page role remains an allegation unless separately adjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "caption": "Official Rewards for Justice subject card for Tong Yuze; the cited role is an allegation and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-tong-yuze"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "The official Rewards for Justice page publishes a separately named subject image for Tong Yuze in the page's alleged DPRK IT-worker facilitation and money-laundering context. The image does not establish guilt or linkage to any other alias, account, company, or image",
+      "locator": "Individual subject card labeled Tong Yuze"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ identifies the eight Wang-case facilitators as charged defendants in the District of Massachusetts matter; the charges are allegations and do not establish guilt",
+      "locator": "District of Massachusetts section beginning “In a third coordinated action”; paragraph listing the eight additional charged defendants"
+    },
+    {
+      "source_id": "src-55b829310f0a"
+    },
+    {
+      "source_id": "flr6-s19"
+    },
+    {
+      "source_id": "front-infra-s1-sentinelone-2024-fronts"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-tong-reported-name",
+      "type": "identity_name",
+      "predicate": "official_sources_named_subject",
+      "value": {
+        "name": "Tong Yuze"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Subject list, Tong entry",
+          "quote": "Tong Yuze 佟雨泽:"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "PDF file p. 2 (printed p. 1), caption",
+          "quote": "TONG YUZE"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Tong Yuze (佟雨泽)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Reported and charged-subject name; not independently verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-tong-chinese-name-form",
+      "type": "alias",
+      "predicate": "official_source_used_chinese_name_form",
+      "value": {
+        "name": "佟雨泽"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Subject list, Tong entry",
+          "quote": "Tong Yuze 佟雨泽:"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Tong Yuze (佟雨泽)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Officially paired name form only; no broader identity resolution performed."
+      ]
+    },
+    {
+      "id": "claim-tong-rfj-alleged-role",
+      "type": "incident",
+      "predicate": "rfj_seeks_information_for_reported_role",
+      "value": {
+        "reported_context": "exportation of DPRK IT workers and money laundering",
+        "posture": "information sought by Rewards for Justice"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Introduction to individual list",
+          "quote": "The Department is seeking information on the following individuals for their role in the exportation of IT workers from North Korea and money laundering on behalf of the DPRK regime:"
+        }
+      ],
+      "notes": [
+        "RFJ allegation/reward-program context only; not an adjudicated fact."
+      ]
+    },
+    {
+      "id": "claim-tong-shell-company-representative",
+      "type": "organization_affiliation",
+      "predicate": "rfj_reported_shell_company_website_role",
+      "value": {
+        "reported_role": "China-based representative",
+        "organization_context": "scheme shell-company website"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "Subject list, Tong entry",
+          "quote": "One of the scheme’s shell company websites identified Tong as the China-based representative for the company"
+        }
+      ],
+      "notes": [
+        "Website representation as reported by RFJ; not proof of current employment, present location, ownership, or control."
+      ]
+    },
+    {
+      "id": "claim-tong-federal-indictment",
+      "type": "legal_event",
+      "predicate": "charged_in_federal_indictment",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "case": "United States v. Zhenxing Wang et al.",
+        "case_number": "25-cr-10273-NMG-MPK",
+        "posture": "indicted; allegations unresolved"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts section",
+          "quote": "The indictment also charges Chinese nationals Jing Bin Huang (靖斌 黄), Baoyu Zhou (周宝玉), Tong Yuze (佟雨泽), Yongzhe Xu"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "PDF file p. 2 (printed p. 1), caption",
+          "quote": "TONG YUZE"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "Closing legal-posture caveat",
+          "quote": "The details in the above-described court documents are merely allegations. All defendants are presumed innocent until proven guilty beyond a reasonable doubt in a court of law."
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "A charge is an allegation. The DOJ release states that all defendants are presumed innocent until proven guilty beyond a reasonable doubt."
+      ]
+    },
+    {
+      "id": "claim-tong-sentinelone-hopana-xiwang-link",
+      "type": "relationship",
+      "predicate": "sentinellabs_reported_name_bridge_between_hopana_site_and_xiwang_registry",
+      "value": {
+        "website_context": "the now-seized HopanaTech website listed Tong Yuze",
+        "registry_context": "the same name appeared as corporate registrant of Beijing Xiwang Technology Company",
+        "company_native_name": "北京市戏网科技有限公司",
+        "former_company_name": "Beijing Hou Pa Na Technology Company",
+        "historical_observation": "2024-11-21"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s1-sentinelone-2024-fronts",
+          "locator": "The Tong Yuze Identity, first four paragraphs",
+          "quote": "the above screenshot of HopanaTech’s website, which lists the Tonywkj email address, also lists Tong Yuze (佟雨泽). The same name is used for the corporate registrant of Beijing Xiwang Technology Company."
+        },
+        {
+          "source_id": "front-infra-s1-sentinelone-2024-fronts",
+          "locator": "The Tong Yuze Identity, corporate-name-history paragraph",
+          "quote": "Beijing Xiwang Technology Company (北京市戏网科技有限公司), previously used the name Beijing Hou Pa Na Technology Company (北京后帕纳科技有限公司)"
+        }
+      ],
+      "observed_at": "2024-11-21",
+      "notes": [
+        "SentinelLabs research attribution based on a seized website and PRC corporate-record review. It is not independent verification of civil identity, present registry status, ownership, company complicity, or guilt; the email and other selectors were excluded."
+      ]
+    },
+    {
+      "id": "claim-tong-sentinelone-haikou-yilu-registration-link",
+      "type": "organization_affiliation",
+      "predicate": "sentinellabs_reported_corporate_registration_link",
+      "value": {
+        "organization": "Haikou Yilu Changtong Technology Trading Company",
+        "native_name": "海口宜路畅佟科技贸易有限公司",
+        "source_reported_relationship": "company connected to the Tong Yuze corporate-registration identity",
+        "shared_contact_field_with_beijing_xiwang": true,
+        "contact_value_retained": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s1-sentinelone-2024-fronts",
+          "locator": "The Haikou Yilu Changtong Technology Trading Company section",
+          "quote": "One of the companies connected to the Tong Yuze identity and accessible on corporate registration sites is Haikou Yilu Changtong Technology Trading Company (海口宜路畅佟科技贸易有限公司)."
+        },
+        {
+          "source_id": "front-infra-s1-sentinelone-2024-fronts",
+          "locator": "The Haikou Yilu Changtong Technology Trading Company section, second paragraph",
+          "quote": "its corporate registration makes use of a telephone number that differs from Tong Yuze’s restaurant businesses but is shared with the Beijing Xiwang Technology Company corporate registration."
+        }
+      ],
+      "observed_at": "2024-11-21",
+      "notes": [
+        "Source-reported historical corporate linkage only. No telephone number, precise address, present registration, current employment, company complicity, ownership, or guilt is inferred or retained."
+      ]
+    },
+    {
+      "id": "claim-tong-sentinelone-registration-network-breadth",
+      "type": "note",
+      "predicate": "sentinellabs_reported_2024_corporate_registrant_count",
+      "value": {
+        "source_reported_company_count": 25,
+        "geography": "China",
+        "company_mix": "many restaurant and catering companies plus technology companies",
+        "as_reported_at": "2024-11-21",
+        "current_registry_status_known": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s1-sentinelone-2024-fronts",
+          "locator": "The Tong Yuze Identity, corporate-registration breadth paragraph",
+          "quote": "Tong Yuze is currently listed as the corporate registrant of 25 companies in China, including many restaurants and catering companies."
+        }
+      ],
+      "observed_at": "2024-11-21",
+      "notes": [
+        "The article's present-tense wording is bounded to its November 2024 publication and does not establish current registry status in 2026. Ordinary company registration does not itself establish DPRK involvement, company complicity, present employment, ownership, or guilt; only the aggregate source-reported count and company mix are retained."
+      ]
+    },
+    {
+      "id": "claim-tong-doj-2026-wanted-status",
+      "type": "legal_event",
+      "predicate": "doj_reported_at_large_and_wanted_by_fbi",
+      "value": {
+        "status": "at large and wanted by the FBI",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘The other eight defendants’",
+          "quote": "The other eight defendants indicted in June 2025 remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Tong Yuze (佟雨泽)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Dated official report. Wanted and charged status do not establish guilt, and no later plea, conviction, acquittal, dismissal, sentence, or other merits disposition was verified through the cutoff."
+      ]
+    },
+    {
+      "id": "claim-tong-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "reward heading and opening paragraph",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Concurrent with today’s announcement’",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Program-level reward language on pages that include Tong. It must not be presented as a USD 5 million individual arrest reward, a guaranteed payment, a conviction, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-tong-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals",
+        "media_description": "official source-labeled portrait",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "source image grid containing the separately named Tong Yuze asset and the adjacent named-person list",
+          "quote": "Tong Yuze 佟雨泽:"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official link-only editorial reference. Visual review verified only that the source-labeled asset is person-bearing rather than a placeholder; no face comparison or identity inference was performed. Do not export the direct asset, cache, crop, republish, perform facial recognition, compare appearance, infer current appearance, or use it to merge an identity or account. Rights and allegation-context review remain required before any display."
+      ]
+    },
+    {
+      "id": "claim-tong-yuze-rfj-native-name",
+      "type": "identity_name",
+      "predicate": "official_reward_page_native_script_name_form",
+      "value": {
+        "name": "佟雨泽",
+        "script": "source-published CJK form",
+        "latin_label": "Tong Yuze"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Tong Yuze’",
+          "quote": "Tong Yuze 佟雨泽:"
+        }
+      ],
+      "notes": [
+        "Official source-published name form for this reward-page subject; it is not a separate person, an independent civil-identity verification, or proof of the alleged conduct."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Tong Yuze is the reported name of a Rewards for Justice subject and a defendant named in a 2025 federal indictment. The RFJ descriptions, indictment, and SentinelLabs corporate-linkage reporting are allegations or source-attributed research; no plea, conviction, acquittal, dismissal, sentence, or other merits disposition was verified. Keep the same-name Uzi8 GitHub profile and other same-named people separate; the RFJ image is excluded from identity resolution, and direct images, precise addresses, victim identities, contacts, accounts, payment, wallet, identity-document, infrastructure, and private selectors are excluded from retention."
+}

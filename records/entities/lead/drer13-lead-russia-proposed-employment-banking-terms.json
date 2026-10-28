@@ -1,0 +1,47 @@
+{
+  "id": "drer13-lead-russia-proposed-employment-banking-terms",
+  "type": "lead",
+  "name": "Proposed Russia employment, wage and banking terms for a DPRK IT-worker deployment",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "The source describes a reported proposal or contract. Performance, payment, account opening, Russian enforcement, and knowing host-company participation are outside the source; the source supplies no adjudication.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "locations": [
+    "Russia"
+  ],
+  "caveats": [
+    "This source-bounded report covers its cited context; Russian enforcement, host-company knowledge, completed implementation, current operating status, nationality, and criminal liability fall outside its findings.",
+    "The contract supplies company and personnel context; knowing participation in sanctions evasion requires separate evidence.",
+    "The proposed contracting terms supply contracting context; identity or participation of a contracting party requires source evidence.",
+    "The reported terms describe an arrangement; arrival, work performed, wages paid, accounts opened, sanctions evasion, and knowing participation by any Russian organization or financial institution require corroborated evidence.",
+    "The terms describe a reported plan or contract; performance, payment, arrival, account opening, and current status remain unspecified.",
+    "This is aggregate or contract-level context; profiles for listed entity types require person- or case-specific sources."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-proposed-employment-and-banking-terms",
+      "statement": "MSMT reports a proposed ten-year arrangement beginning in early 2025 for 25 DPRK IT workers. The reported terms included an average monthly salary of at least $1,200, overtime and holiday pay of $4 per hour, and Russian bank accounts to be opened for the workers.",
+      "timeframe": "Proposed ten-year arrangement beginning in early 2025",
+      "evidence_class": "official multilateral report based on participating-state information",
+      "attribution_boundary": "The source describes a reported proposal or contract. It does not establish performance, payment, account opening, Russian enforcement, adjudication, or knowing host-company participation.",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT reports a proposed ten-year arrangement beginning in early 2025 for 25 DPRK IT workers. The reported terms included an average monthly salary of at least $1,200, overtime and holiday pay of $4 per hour, and Russian bank accounts to be opened for the workers",
+      "locator": "Report p. 64 / PDF p. 66, reported employment contract and banking terms"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

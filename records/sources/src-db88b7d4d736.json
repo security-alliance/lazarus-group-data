@@ -1,0 +1,12 @@
+{
+  "id": "src-db88b7d4d736",
+  "publisher": "GitHub",
+  "title": "GitHub public repositories: m8s-lab",
+  "url": "https://api.github.com/orgs/m8s-lab/repos?per_page=100&sort=full_name",
+  "accessed_at": "2026-08-14",
+  "sha256": "e0afd9606075ba9f36178b1a0d8297fa75b2bfc3503167b80eed4b99f82fbb03",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

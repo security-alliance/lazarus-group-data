@@ -1,0 +1,12 @@
+{
+  "id": "src-38f12c1eece1",
+  "publisher": "GitHub",
+  "title": "GitHub public organizations: mooncitydev",
+  "url": "https://api.github.com/users/mooncitydev/orgs?per_page=100",
+  "accessed_at": "2026-08-14",
+  "sha256": "b6d87c14a6fcd83c5ae16b76039b49aed335c302e9053506045418791c106a7b",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

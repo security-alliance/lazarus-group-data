@@ -1,0 +1,485 @@
+{
+  "id": "worker-hyon-chol-song",
+  "type": "worker",
+  "name": "Hyon Chol Song",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "DPRK national; Mid-level manager; the indictment alleges the bounded historical engagement details. The allegations remain unadjudicated; the indictment covers historical engagement details only. The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; the case is at the charged and wanted stage. A later HTTP 403 provides no removal finding or fresh status verification.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "deep-public-images-dpi-fbi-07",
+      "gov-107f8a96865d",
+      "gov-658a689dd76a",
+      "gov-f9a72a1e535b"
+    ]
+  },
+  "legal_or_reported_name": "Hyon Chol Song",
+  "organizations": [
+    "Volasys Silverstar",
+    "Yanbian Silverstar Network Technology Co., Ltd."
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Biometric identity, image matching to another persona, and stolen-identity-victim identification stay outside this record.",
+    "FBI pages may change; retain verification date.",
+    "Historical PRC laptop access is an access signal only; present location, activity, employment, and control remain outside the source finding.",
+    "The record excludes facial recognition and cross-persona identity inference.",
+    "Prefer link-only until rights and insignia review is complete.",
+    "Retain charged/wanted context.",
+    "The same charging document and existing source family support this item; together they form one source family rather than independent corroboration.",
+    "Scheme-wide context: the indictment alleges that members of the charged Yanbian/Volasys conspiracy collectively used stolen or borrowed identities, front sites, U.S.-hosted laptop farms, money-transfer laundering, and post-termination extortion. Individual attribution requires a separately sourced item in this profile.",
+    "Separate engagements and typed identity personas remain unmerged.",
+    "The direct asset is reference metadata only; caching requires approval.",
+    "The FBI image may be historical and may differ from the subject’s current appearance.",
+    "Victim details, identity initials, emails, accounts, payment routing, identity-document details, private data, and precise selectors are excluded.",
+    "Wanted and charged status records the case posture; guilt remains unadjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "deep-public-images-dpi-fbi-07",
+      "source_url": "https://www.fbi.gov/wanted/cyber/hyon-chol-song",
+      "direct_asset_url": "https://www.fbi.gov/wanted/cyber/hyon-chol-song/@@images/image/large",
+      "caption": "FBI wanted-page image published for Hyon Chol Song, a charged defendant. The charge is an allegation, the image does not establish guilt or linkage to any separate employment persona, and it may not reflect current appearance.",
+      "publication_handling": "needs-review"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "doj-indictment-bounded-historical-engagement-depth",
+      "legal_basis": "the indictment alleges",
+      "alleged_engagement_type": "remote IT specialist",
+      "alleged_period": "approximately March 2022 to February 2023",
+      "alleged_approximate_compensation_usd": 50000,
+      "alleged_post_termination_sequence": [
+        "demanded an additional payment",
+        "threatened public posting of proprietary information",
+        "posted proprietary information"
+      ],
+      "unnamed_organization_only": true,
+      "sensitive_selectors_retained": false,
+      "independent_corroboration": false,
+      "present_activity_employment_or_control_inferred": false,
+      "source_family_dependencies": [
+        "DPHR5-S01-DOJ-EDMO-INDICTMENT",
+        "ldoc-05"
+      ],
+      "source_ids": [
+        "gov-107f8a96865d"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "edenprogram.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "illusionsoft.net",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-107f8a96865d",
+        "gov-658a689dd76a",
+        "gov-f9a72a1e535b"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "worker-hyon-chol-song"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-658a689dd76a",
+      "support": "RFJ names 14 workers, managers, and support staff, identifies their roles, and says the companies employed more than 130 DPRK IT workers",
+      "locator": "Named-person list, associated organizations, poster images"
+    },
+    {
+      "source_id": "deep-public-images-dpi-fbi-07",
+      "support": "The individual FBI page listed the subject as wanted when reviewed on 2026-08-12; charges remain allegations. A later HTTP 403 would not establish removal or provide fresh status verification | The official FBI wanted page embeds the reviewed individual image for Hyon Chol Song; the raw audit classifies reuse as needs-review",
+      "locator": "Primary wanted-page image | Remarks / Details / Images"
+    },
+    {
+      "source_id": "gov-f9a72a1e535b",
+      "support": "DOJ names Hyon Chol Song as a charged defendant in the Yanbian Silverstar/Volasys Silverstar case. The release describes stolen identities, front-company websites, laptop farms, money transfers, and extortion only as scheme-wide allegations; it does not assign every listed method to this defendant individually, and the charges remain allegations",
+      "locator": "Press release — named-defendant entry for Hyon Chol Song and scheme-summary paragraphs; related indictment: E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24"
+    },
+    {
+      "source_id": "gov-107f8a96865d",
+      "support": "The indictment alleges the bounded engagement details summarized in this record; exact excerpts remain in the raw review package | The indictment names Hyon Chol Song as a defendant. Its scheme allegations describe collective charged conduct and do not by themselves assign every alleged method to this defendant individually",
+      "locator": "Defendant: Hyon Chol Song; E.D. Mo. No. 4:24-cr-00648-MTS-JSD, Doc. 2, pp. 3-4, 8-10, 17-24 | PDF pp. 12-13, paragraphs 38-44"
+    },
+    {
+      "source_id": "src-2c35594063af"
+    },
+    {
+      "source_id": "src-24606d06b67e"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Hyon Chol Song",
+        "korean": "현철성"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list",
+          "quote": "Hyon Chol Song (현철성), mid-level manager"
+        },
+        {
+          "source_id": "src-2c35594063af",
+          "locator": "identified-individuals list",
+          "quote": "Hyon Chol Song (현철성)"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "The Latin and Hangul forms are explicitly paired; no same-name person is merged."
+      ]
+    },
+    {
+      "id": "claim-group-leader-role",
+      "type": "organization_affiliation",
+      "predicate": "alleged_role_at",
+      "value": {
+        "organization": "Yanbian Silverstar",
+        "role": "Group Leader",
+        "reporting_to": "Rim Un Chol"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 20",
+          "quote": "HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 7, paragraph 20",
+          "quote": "acted as middle management also known as \"Group Leaders\" for Yanbian Silverstar and reported to Delegation Leader RIM UN CHOL."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation, not an adjudicated or present-role finding."
+      ]
+    },
+    {
+      "id": "claim-charged-counts",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "docket": "4:24-cr-00648-MTS-JSD",
+        "counts": [
+          "conspiracy to violate IEEPA",
+          "conspiracy to commit wire fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft",
+          "aggravated identity theft"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 title",
+          "quote": "Conspiracy to Violate the International Emergency Economic Powers Act"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, Count 1 defendant list",
+          "quote": "HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 title",
+          "quote": "Conspiracy to Commit Wire Fraud"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 22, Count 2 defendant list",
+          "quote": "HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 23, Count 3 title",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 24, Count 3 defendant list",
+          "quote": "HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 title",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 25, Count 4 defendant list",
+          "quote": "HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 title",
+          "quote": "Aggravated Identity Theft"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 28, Count 5 defendant list",
+          "quote": "HYON CHOL SONG"
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Charges are allegations; the subject is presumed innocent unless and until proven guilty."
+      ]
+    },
+    {
+      "id": "claim-fbi-wanted-and-warrant",
+      "type": "legal_event",
+      "predicate": "fbi_reported_wanted_status_and_arrest_warrant",
+      "value": {
+        "status": "wanted",
+        "warrant_issued": "2024-12",
+        "court": "U.S. District Court for the Eastern District of Missouri",
+        "alleged_scheme_period": "approximately April 2017 to approximately March 2023"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-24606d06b67e",
+          "locator": "PDF p. 1, Caution",
+          "quote": "Hyon Chol Song is wanted for his alleged involvement in a conspiracy to generate revenue and launder it for the North Korean regime from approximately April 2017 to approximately March 2023 in violation of United States and international sanctions."
+        },
+        {
+          "source_id": "src-24606d06b67e",
+          "locator": "PDF p. 1, Caution",
+          "quote": "A federal arrest warrant was issued for Hyon Chol Song in the United States District Court, Eastern District of Missouri, Eastern Division, St. Louis, Missouri, in December 2024."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Wanted and warrant status do not establish guilt; status is reported as displayed on the retrieved official poster."
+      ]
+    },
+    {
+      "id": "claim-edenprogram-registration-allegation",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "edenprogram.com",
+        "registered_at": "2020-06-26",
+        "represented_business": "Eden Programming Solutions"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 77",
+          "quote": "On or about June 26, 2020, HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 77",
+          "quote": "registered the domain edenprogram.com from U.S. Domain Registrar #1. The website at that domain falsely claimed that Eden Programming Solutions provided clients with web development expertise and was based in the United States."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation; the private identity selector in the same paragraph is excluded."
+      ]
+    },
+    {
+      "id": "claim-illusionsoft-registration-allegation",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_domain",
+      "value": {
+        "domain": "illusionsoft.net",
+        "registered_at": "2023-10-17",
+        "represented_business": "Illusion Software"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 82",
+          "quote": "On or about October 17, 2023, HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 19, paragraph 82",
+          "quote": "registered the domain illusionsoft.net from U.S. Domain Registrar #1."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF p. 20, continuation of paragraph 82",
+          "quote": "falsely claimed that Illusion Software specialized in web development and IT management and had been in operation since 2015."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "Indictment allegation; the private identity selector in the same paragraph is excluded."
+      ]
+    },
+    {
+      "id": "claim-hyon-program-reward-context",
+      "type": "legal_event",
+      "predicate": "named_on_program_level_reward_page",
+      "value": {
+        "program": "Rewards for Justice",
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "About section and named-person list",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        }
+      ],
+      "observed_at": "2024-12-12",
+      "notes": [
+        "Program-level reward language on a page naming Hyon and the Yanbian/Volasys network. It is not a USD 5 million individual arrest reward, guaranteed payout, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-hyon-qualified-china-ties",
+      "type": "location",
+      "predicate": "fbi_reported_ties_or_possible_travel",
+      "value": {
+        "locations": [
+          "China"
+        ],
+        "qualification": "has ties to or may visit"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-24606d06b67e",
+          "locator": "PDF p. 1, Remarks",
+          "quote": "Hyon Chol Song has ties to or may visit China."
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Qualified FBI wording only. It does not establish travel, residence, continuous presence, or present location in China."
+      ]
+    },
+    {
+      "id": "claim-hyon-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/yanbian-silverstar-and-volasys-silverstar",
+        "media_url": "https://rewardsforjustice.net/wp-content/uploads/2026/01/Rewards-Hyon-Chol-Song-현철성.png",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Named-person list and source-named rewards image link",
+          "quote": "Hyon Chol Song (현철성), mid-level manager"
+        },
+        {
+          "source_id": "gov-658a689dd76a",
+          "locator": "Linked image href",
+          "quote": "Rewards-Hyon-Chol-Song-현철성.png"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Official source-explicit media reference only. The asset was not downloaded, cropped, compared, or used for facial recognition or identity inference; charged and wanted status does not establish guilt or current appearance."
+      ]
+    },
+    {
+      "id": "claim-hyon-indictment-remote-role-post-termination-round65",
+      "type": "incident",
+      "predicate": "indictment_alleged_historical_remote_role_and_post_termination_sequence",
+      "value": {
+        "legal_basis": "the indictment alleges",
+        "alleged_engagement_type": "remote IT specialist",
+        "alleged_period": "approximately March 2022 to February 2023",
+        "alleged_approximate_compensation_usd": 50000,
+        "alleged_post_termination_sequence": [
+          "demanded an additional payment",
+          "threatened public posting of proprietary information",
+          "posted proprietary information"
+        ],
+        "sensitive_selectors_retained": false,
+        "current_activity_or_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "On or about March 21 , 2022, U.S. Business #2 hired an individual"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "to be a remote IT specialist."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "Between in or around March 2022 and in or around February 2023, U.S. Business #2 paid HYON CHOL SONG"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "approximately $50,000."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "U.S. Business #2 terminated its relationship"
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "HYON CHOL SONG stated that if the money was not paid, he would publicly post U.S. Business #2's proprietary business information."
+        },
+        {
+          "source_id": "gov-107f8a96865d",
+          "locator": "PDF pp. 12-13, paragraphs 38-44",
+          "quote": "to post U.S. Business #2's proprietary information on a public website for software development."
+        }
+      ],
+      "observed_at": "2024-12-11",
+      "notes": [
+        "The indictment alleges these historical details; they are not adjudicated findings and do not establish guilt.",
+        "Same charging document and source family; not independent corroboration. Victim details, identity initials, accounts, payment routing, documents, private data, and precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "The cited sources establish a legal or officially reported worker identity within their stated bounds; name or image similarity leaves related records separate pending a source link."
+}

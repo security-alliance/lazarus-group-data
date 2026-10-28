@@ -1,0 +1,32 @@
+{
+  "id": "ttp-ttp-fx-autotrading",
+  "type": "ttp",
+  "name": "TTP-FX-AUTOTRADING",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-jpn-npa-2025",
+      "int-rok-mofa-2026-joint"
+    ]
+  },
+  "ttps": [
+    "Foreign-currency generation through fraudulent FX trading using self-developed automated trading systems."
+  ],
+  "sources": [
+    {
+      "source_id": "int-jpn-npa-2025",
+      "support": "Foreign-currency generation through fraudulent FX trading using self-developed automated trading systems",
+      "locator": "pp. 1-3 | Original official publication page: https://www.mofa.go.jp/mofaj/press/release/pressit_000001_02650.html"
+    },
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "Foreign-currency generation through fraudulent FX trading using self-developed automated trading systems",
+      "locator": "pp. 1-4 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

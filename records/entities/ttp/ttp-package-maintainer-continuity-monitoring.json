@@ -1,0 +1,42 @@
+{
+  "id": "ttp-package-maintainer-continuity-monitoring",
+  "type": "ttp",
+  "name": "Package-maintainer continuity and provenance monitoring",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-attributed public security research; legal adjudication, civil-identity finding, and same-operator scope remain unresolved.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPC-S02"
+    ]
+  },
+  "ttps": [
+    "package-publisher change control"
+  ],
+  "caveats": [
+    "A familiar maintainer name offers a continuity lead after an account takeover; continuity requires source-backed account evidence.",
+    "Treat a compromised maintainer as a victim; coordinate privately and avoid publishing credentials, exploit details, or infrastructure selectors."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Defenders and package ecosystems should correlate abrupt maintainer or publisher changes, newly linked repository organizations, package-version timing, provenance/signing changes, and unexpected infrastructure transitions. A familiar maintainer name is not sufficient after an account takeover."
+      ],
+      "source_ids": [
+        "DPC-S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DPC-S02",
+      "support": "Defenders and package ecosystems should correlate abrupt maintainer or publisher changes, newly linked repository organizations, package-version timing, provenance/signing changes, and unexpected infrastructure transitions. A familiar maintainer name is not sufficient after an account takeover",
+      "locator": "Sections “Account Takeover” and “Safety Measures,” especially the repository redirects, release timing, privileged-account activity, and contributor/package-monitoring guidance"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

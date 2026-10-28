@@ -1,0 +1,725 @@
+{
+  "id": "dppr5-persona-justshiftjk",
+  "type": "persona",
+  "name": "justshiftjk / Adam Glab persona",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Research attribution only; public charge, adjudication, and verified civil identity require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dppr5-ketman-github-organizations-2025"
+    ]
+  },
+  "organizations": [
+    "HyperbuildX",
+    "m8s-lab"
+  ],
+  "ttps": [
+    "Source-attributed public employment-persona and developer-account use"
+  ],
+  "caveats": [
+    "Current ownership or control of any public account remains unresolved; account-holder contact, targeting, and investigation require a separate lawful basis.",
+    "YouTube viewers, followers and collaborators are audience relationships; scheme participation requires separate evidence.",
+    "justshiftjk and justinshiftjk remain separate pending source-explicit account continuity.",
+    "Adam Glab remains a persona label; legal-name status and a real Polish identity remain unverified.",
+    "Ketman reports that the public accounts and aliases were used by the same HyperbuildX-associated employment persona. The source reports the Polish identity claim as false and leaves the legal identity unresolved.",
+    "Name similarity, appearance, avatars, code style, followers, stars, forks, organization membership, and social amplification provide context only; relationships require source links.",
+    "Persona labels and public handles are source-reported indicators; legal identity and criminal-guilt status require separate official findings."
+  ],
+  "aliases": [
+    {
+      "value": "Adam Glab",
+      "alias_type": "employment-persona",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "0xAlche",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "bettyjk0915",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    },
+    {
+      "value": "infinite0731",
+      "alias_type": "online-handle",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "X",
+      "identifier": "bettyjk0915",
+      "url": "hxxps://x[.]com/bettyjk0915",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "justshiftjk",
+      "url": "https://github.com/justshiftjk",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    },
+    {
+      "platform": "YouTube",
+      "identifier": "justshiftjk",
+      "url": "https://www.youtube.com/[@]justshiftjk",
+      "status": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dppr5-ketman-github-organizations-2025"
+      ],
+      "note": "Public account linked by the cited investigation as source-explicit. Current ownership, control, and activity are not independently established."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dppr5-ketman-github-organizations-2025",
+      "support": "Ketman reports that the public accounts and aliases were used by the same HyperbuildX-associated employment persona. The Polish identity claim is reported as false by the source but is not resolved to a legal identity",
+      "locator": "The Core Team of HyperbuildX; Other DPRK IT Workers in the orbit of HyperbuildX; Indicators of Compromise"
+    },
+    {
+      "source_id": "src-629d5e06574c"
+    },
+    {
+      "source_id": "src-5a600ad99aab"
+    },
+    {
+      "source_id": "src-fbc2dbe34233"
+    },
+    {
+      "source_id": "src-e091cb02d804"
+    },
+    {
+      "source_id": "src-98987ab6d658"
+    },
+    {
+      "source_id": "src-bf51d03ae089"
+    },
+    {
+      "source_id": "src-6bd2f375cd90"
+    },
+    {
+      "source_id": "src-0f1d5e449e1e"
+    },
+    {
+      "source_id": "src-c26b6f4b074f"
+    },
+    {
+      "source_id": "src-b25649cd0998"
+    },
+    {
+      "source_id": "src-853993dfc54f"
+    },
+    {
+      "source_id": "src-3fff43ca228b"
+    },
+    {
+      "source_id": "src-42c971ec71d9"
+    },
+    {
+      "source_id": "src-54f4a109bf7d"
+    },
+    {
+      "source_id": "src-64a6acbd3166"
+    },
+    {
+      "source_id": "src-f467c7980e17"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-justshiftjk-handle",
+      "type": "account",
+      "predicate": "research_reported_historical_github_account",
+      "value": {
+        "platform": "GitHub",
+        "handle": "justshiftjk",
+        "status": "historical"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk section, Github",
+          "quote": "Github: https://github.com/justshiftjk"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "The current endpoint returns 404; present ownership and historical numeric account ID are not established."
+      ]
+    },
+    {
+      "id": "claim-adam-glab-persona",
+      "type": "identity_name",
+      "predicate": "research_reported_false_identity",
+      "value": {
+        "name": "Adam Glab",
+        "identity_status": "known identity used by a DPRK IT worker, per Ketman"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk section, opening paragraph",
+          "quote": "“Adam Glab” is a known identity of a DPRK IT Worker posing as a Polish citizen persistently looking for job engagements in the blockchain space."
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Research attribution; do not identify or implicate a real Polish person from the name and do not treat the claimed nationality as verified."
+      ]
+    },
+    {
+      "id": "claim-x-account",
+      "type": "account",
+      "predicate": "research_reported_historical_x_account",
+      "value": {
+        "platform": "X",
+        "handle": "bettyjk0915",
+        "source_text_variant": "bettyjk_0915",
+        "current_status": "both routes HTTP 404 profile not found"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk section, Twitter",
+          "quote": "Twitter: hxxps://x[.]com/bettyjk0915"
+        },
+        {
+          "source_id": "src-629d5e06574c",
+          "locator": "HTML title",
+          "quote": "User Profile Not Found - X | 404 Error"
+        },
+        {
+          "source_id": "src-5a600ad99aab",
+          "locator": "HTML title",
+          "quote": "User Profile Not Found - X | 404 Error"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current unavailability does not determine why or establish past/current ownership."
+      ]
+    },
+    {
+      "id": "claim-youtube-account",
+      "type": "account",
+      "predicate": "research_reported_youtube_channel",
+      "value": {
+        "platform": "YouTube",
+        "handle": "justshiftjk",
+        "current_status": "HTTP 404 Not Found"
+      },
+      "confidence": "medium",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk section, Youtube",
+          "quote": "Youtube: https://www.youtube.com/"
+        },
+        {
+          "source_id": "src-fbc2dbe34233",
+          "locator": "HTML title",
+          "quote": "404 Not Found"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current channel ID, content, ownership, and removal reason were not established.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-adamglab-portfolio",
+      "type": "account",
+      "predicate": "research_reported_historical_portfolio",
+      "value": {
+        "url": "https://adamglab.dev",
+        "historical_persona": "Adam Glab",
+        "current_status": "parking-style redirect page"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk opening paragraph",
+          "quote": "https://adamglab.dev/ was a portfolio justshiftjk was using."
+        },
+        {
+          "source_id": "src-e091cb02d804",
+          "locator": "HTML title",
+          "quote": "Redirecting..."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The historical link is publisher-explicit and independently corroborated by archived build/account metadata. Current parking presentation does not establish when or why the portfolio disappeared or who now controls the domain."
+      ]
+    },
+    {
+      "id": "claim-hyperbuildx-contact-domain-transition",
+      "type": "relationship",
+      "predicate": "publisher_reported_hyperbuildx_contact_domain_transition",
+      "value": {
+        "organization": "HyperBuildX",
+        "from_context": "Adam Glab portfolio domain",
+        "to_context": "HyperBuildX organization domain",
+        "contact_values": "excluded"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk opening paragraph; selector-redacted evidence",
+          "quote": "The original HyperBuildX e-mail was defined as"
+        },
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "same sentence after original contact",
+          "quote": "before being changed to"
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "The source-published email values were excluded. The retained fact is a publisher-reported contact-domain transition linking the organization to the historical portfolio context; it does not establish current ownership or civil identity."
+      ]
+    },
+    {
+      "id": "claim-hyperbuildx-recommendation",
+      "type": "organization_affiliation",
+      "predicate": "research_observed_organization_job_recommendation",
+      "value": {
+        "organization": "HyperBuildX",
+        "activity": "recommended justshiftjk for a job"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dppr5-ketman-github-organizations-2025",
+          "locator": "justshiftjk section, after account list",
+          "quote": "We can see the HyperbuildX organization recommending justshiftjk for a job."
+        }
+      ],
+      "observed_at": "2025-10-01",
+      "notes": [
+        "Ketman interpretation of public posts; not proof of present organization membership, employment, control, or a successful hire."
+      ]
+    },
+    {
+      "id": "claim-archived-build-account-bridge",
+      "type": "relationship",
+      "predicate": "archived_production_build_links_portfolio_accounts_and_alias",
+      "value": {
+        "portfolio_domain": "adamglab.dev",
+        "displayed_persona": "Adam Glab",
+        "git_commit_author_name": "infinite0731",
+        "git_commit_author_login": "justshiftjk",
+        "git_repository_owner": "justshiftjk",
+        "git_repository_slug": "Dev-Portfolio",
+        "git_repository_id": 831002840,
+        "current_repository_status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Embedded Vercel/Git build field REACT_APP_VERCEL_GIT_COMMIT_AUTHOR_NAME",
+          "quote": "\"infinite0731\""
+        },
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Embedded build fields commit-author login and repository owner",
+          "quote": "REACT_APP_VERCEL_GIT_COMMIT_AUTHOR_LOGIN:\"justshiftjk\""
+        },
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Embedded repository identifier",
+          "quote": "REACT_APP_VERCEL_GIT_REPO_ID:\"831002840\""
+        },
+        {
+          "source_id": "src-bf51d03ae089",
+          "locator": "Current JSON response",
+          "quote": "\"message\":\"Not Found\""
+        }
+      ],
+      "observed_at": "2024-10-01",
+      "notes": [
+        "This is source-explicit first-party artifact evidence that independently corroborates Ketman's justshiftjk–infinite0731–Adam Glab portfolio association. It does not prove one natural-person author, a legal identity, current ownership, or DPRK tasking at every timestamp. Deployment hosts, commit SHA, and contact selectors were excluded."
+      ]
+    },
+    {
+      "id": "claim-archived-portfolio-persona-timeline",
+      "type": "alias",
+      "predicate": "historical_portfolio_self_presentation_timeline",
+      "value": {
+        "timeline": [
+          {
+            "observed_at": "2024-10-01",
+            "brand": "Adam Portfolio",
+            "displayed_name": "Adam Glab",
+            "headline": "blockchain developer"
+          },
+          {
+            "observed_at": "2025-05-15",
+            "brand": "0xAlche",
+            "headline": "Web3 & Smart Contract Developer"
+          },
+          {
+            "observed_at": "2025-08-30",
+            "brand": "0xAlche",
+            "displayed_name": "Adam",
+            "headline": "Full-Stack Web3 developer",
+            "linked_accounts": [
+              "X:bettyjk0915",
+              "GitHub:justshiftjk",
+              "YouTube:justshiftjk"
+            ]
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-6bd2f375cd90",
+          "locator": "Open Graph title and description",
+          "quote": "Adam Portfolio"
+        },
+        {
+          "source_id": "src-0f1d5e449e1e",
+          "locator": "Shared title and subtitle across sixteen archived pages",
+          "quote": "0xAlche"
+        },
+        {
+          "source_id": "src-c26b6f4b074f",
+          "locator": "Page title and visible introduction",
+          "quote": "Howdy👋, I am Adam"
+        },
+        {
+          "source_id": "src-c26b6f4b074f",
+          "locator": "Archived public account links",
+          "quote": "https://github.com/justshiftjk"
+        }
+      ],
+      "observed_at": "2025-08-30",
+      "notes": [
+        "The timeline establishes changing public self-presentation and reciprocal portfolio/account links. Adam and 0xAlche remain persona labels, not verified civil identities; current control and uninterrupted authorship are not inferred."
+      ]
+    },
+    {
+      "id": "claim-archived-portfolio-biography-and-skills",
+      "type": "skill",
+      "predicate": "historical_portfolio_self_claimed_biography_and_technical_scope",
+      "value": {
+        "self_claims": {
+          "web_and_decentralized_app_experience": "a decade",
+          "blockchain_career_start": 2018
+        },
+        "technology_scope": [
+          "EVM",
+          "Solana",
+          "BTC Ordinals and Runes",
+          "DeFi",
+          "NFT",
+          "P2E games",
+          "trading bots",
+          "Solidity",
+          "Rust",
+          "JavaScript and TypeScript",
+          "React, Next.js, Node.js",
+          "Python",
+          "Anchor",
+          "databases, APIs, cloud, containers, and CI/CD",
+          "ZK, account abstraction, and metaverse labels"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Visible About paragraph embedded in production build",
+          "quote": "a decade of experience in web and decentralized app development"
+        },
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Same paragraph",
+          "quote": "Since beginning my career as a blockchain developer in 2018"
+        },
+        {
+          "source_id": "src-c26b6f4b074f",
+          "locator": "Visible 2025 introduction",
+          "quote": "A Full-Stack Web3 developer"
+        }
+      ],
+      "observed_at": "2024-10-01",
+      "notes": [
+        "These are mutable historical self-claims, not verified age, employment, expertise, education, authorship, or one-person biography. The decade claim and 2018 start date are internally tensioned and preserved without reconciliation."
+      ]
+    },
+    {
+      "id": "claim-archived-portfolio-projects",
+      "type": "skill",
+      "predicate": "historical_portfolio_project_set",
+      "value": {
+        "project_count_2024": 16,
+        "project_count_2025_detail_set": 16,
+        "representative_2024_labels": [
+          "Galactic Kingdom",
+          "The Rune Guardians Game",
+          "Foster Marketplace",
+          "Space Falcon",
+          "PlayZelo",
+          "Divvy Bet",
+          "DexOrdi",
+          "Mechagotchis",
+          "Bloodloop",
+          "360 Protocol",
+          "Justshift",
+          "Lucia Protocol",
+          "Solana Sniper & MEME Coin Bot",
+          "SunPump Tron Sniper Bot"
+        ],
+        "representative_2025_scope": [
+          "Solana sniper and volume bots",
+          "Pump.fun-style Solana and EVM contracts",
+          "NFT and streaming marketplace",
+          "GameFi and Web3 games",
+          "BTC Runes and Ordinals",
+          "crypto betting",
+          "lending, liquid staking, DeFi and DEX",
+          "Sui NFT minting"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Sixteen-object project array, representative role field",
+          "quote": "role:\"Justshift\""
+        },
+        {
+          "source_id": "src-98987ab6d658",
+          "locator": "Representative bot project role",
+          "quote": "role:\"Solana Sniper & MEME Coin Bot\""
+        },
+        {
+          "source_id": "src-0f1d5e449e1e",
+          "locator": "Archived detail page 0 summary",
+          "quote": "Solana Raydium Sniper Bot V2"
+        },
+        {
+          "source_id": "src-0f1d5e449e1e",
+          "locator": "Archived detail page 15 summary",
+          "quote": "Sui Lords is a NFT minting platform built on Sui Blockchain."
+        }
+      ],
+      "observed_at": "2025-05-15",
+      "notes": [
+        "Project labels, summaries, and claimed skills are portfolio self-presentation only. They do not establish employment, client relationships, original authorship, successful delivery, ownership, victim status, or endorsement; exact links, third-party identities, and images were excluded and no code was executed."
+      ]
+    },
+    {
+      "id": "claim-current-personal-endpoint-statuses",
+      "type": "account",
+      "predicate": "current_public_personal_account_and_repository_statuses",
+      "value": {
+        "statuses": [
+          {
+            "platform": "GitHub",
+            "label": "justshiftjk",
+            "status": "HTTP 404"
+          },
+          {
+            "platform": "GitHub",
+            "label": "infinite0731",
+            "status": "HTTP 404"
+          },
+          {
+            "platform": "GitHub",
+            "label": "0xAlche",
+            "status": "HTTP 404"
+          },
+          {
+            "platform": "GitHub",
+            "label": "bettyjk0915",
+            "status": "HTTP 404 collision check only"
+          },
+          {
+            "platform": "GitHub",
+            "label": "Dev-Portfolio stable repository ID 831002840",
+            "status": "HTTP 404"
+          },
+          {
+            "platform": "X",
+            "label": "bettyjk0915",
+            "status": "HTTP 404"
+          },
+          {
+            "platform": "X",
+            "label": "bettyjk_0915",
+            "status": "HTTP 404"
+          },
+          {
+            "platform": "YouTube",
+            "label": "justshiftjk",
+            "status": "HTTP 404"
+          }
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-b25649cd0998",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        },
+        {
+          "source_id": "src-853993dfc54f",
+          "locator": "JSON response",
+          "quote": "\"status\":\"404\""
+        },
+        {
+          "source_id": "src-3fff43ca228b",
+          "locator": "JSON response",
+          "quote": "\"message\":\"Not Found\""
+        },
+        {
+          "source_id": "src-629d5e06574c",
+          "locator": "HTML title",
+          "quote": "User Profile Not Found - X | 404 Error"
+        },
+        {
+          "source_id": "src-fbc2dbe34233",
+          "locator": "HTML title",
+          "quote": "404 Not Found"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "High confidence applies only to point-in-time endpoint status. Current unavailability does not establish deletion cause, timing, prior IDs, ownership, or permanent absence; similar current labels were not merged."
+      ]
+    },
+    {
+      "id": "claim-hyperbuildx-current-public-context",
+      "type": "organization_affiliation",
+      "predicate": "source_linked_organization_current_public_metadata",
+      "value": {
+        "organization": "HyperBuildX",
+        "numeric_id": 213766622,
+        "self_description": "Web3 and AI product development",
+        "public_repositories": 8,
+        "repository_breakdown": {
+          "non_forks": 8,
+          "forks": 0,
+          "archived": 0,
+          "disabled": 1
+        },
+        "safe_themes": [
+          "prediction-market trading",
+          "EVM AI agent",
+          "Solana trading-bot package",
+          "casino and crash games",
+          "prediction market",
+          "token launchpad",
+          "voice AI"
+        ],
+        "public_member_count": 0
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-42c971ec71d9",
+          "locator": "JSON fields login and id",
+          "quote": "\"login\": \"HyperBuildX\""
+        },
+        {
+          "source_id": "src-54f4a109bf7d",
+          "locator": "Complete eight-object repository response",
+          "quote": "\"name\": \"Polymarket-Trading-Bot\""
+        },
+        {
+          "source_id": "src-64a6acbd3166",
+          "locator": "Complete response",
+          "quote": "[]"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current organization metadata provides context for Ketman's report but does not establish justshiftjk's present membership, employment, authorship, control, or culpability. No repository code was executed."
+      ]
+    },
+    {
+      "id": "claim-m8s-lab-reachable",
+      "type": "organization_affiliation",
+      "predicate": "source_linked_organization_reachable_at_cutoff",
+      "value": {
+        "platform": "GitHub",
+        "organization": "m8s-lab",
+        "numeric_id": 143429220,
+        "status": "reachable",
+        "public_repositories": 11,
+        "created_at": "2023-08-28"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f467c7980e17",
+          "locator": "JSON fields login and id",
+          "quote": "\"login\": \"m8s-lab\""
+        },
+        {
+          "source_id": "src-f467c7980e17",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 11"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Ketman discusses a connection between organizations, not direct current membership of justshiftjk in m8s-lab. Reachability does not establish control, authorship, employment, or one shared operator."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Ketman-attributed justshiftjk employment-persona cluster, including the claimed Adam Glab identity and source-linked public handles. Adam Glab remains a source label rather than a verified civil identity, and the name supplies identity context only. Keep the exact spelling justshiftjk distinct from justinshiftjk. Archived build metadata and cross-links establish account/portfolio associations; natural-person authorship, present controller, employment, and current DPRK tasking remain unresolved."
+}

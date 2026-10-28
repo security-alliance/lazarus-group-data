@@ -1,0 +1,195 @@
+{
+  "id": "worker-kim-o-song",
+  "type": "worker",
+  "name": "Kim O Song",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Kim O Song",
+  "organizations": [
+    "Umnal delegation, subordinate to Chinyong Information Technology Cooperation Company"
+  ],
+  "locations": [
+    "Likely dispatched to Russia in 2025"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Identity-document imagery is restricted evidence only. Preserve citation provenance; omit exports, caches, crops, transcription, OCR, reproduction, facial recognition, identity matching, alias resolution, current-appearance, and location details."
+  ],
+  "images": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "source_url": "https://msmt.info/view/save/2025/10/22/26294780-c396-407d-bb33-88afe988cd96-The_DPRK%E2%80%99s_Violation_and_Evasion_of_UN_Sanctions_through_Cyber_and_Information_Technology_Worker_Activities_(MSMT_2025_2).pdf",
+      "caption": "Government-supplied passport image; cite in place, no facial recognition.",
+      "publication_handling": "do-not-publish"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annex 10 lists ten public-affairs passports and reproduces their images; document numbers and birth dates omitted here",
+      "locator": "Annex 10 item 9, PDF p. 129 / printed p. 127 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-o-song-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim O Song"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 9, PDF file p. 129 (printed p. 127); text extraction only",
+          "quote": "Name: Kim O Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Name retained without passport number, birth data, or image."
+      ]
+    },
+    {
+      "id": "claim-kim-o-song-umnal-affiliation",
+      "type": "organization_affiliation",
+      "predicate": "listed_as_umnal_delegation_member",
+      "value": {
+        "organization": "Umnal",
+        "parent_organization": "DPRK Chinyong Information Technology Company",
+        "source_scope": "Annex 10 delegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "IT workers at Umnal—a delegation subordinate to DPRK Chinyong Information Technology Company"
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 item 9, PDF file p. 129 (printed p. 127); text extraction only",
+          "quote": "Name: Kim O Song"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported delegation relationship; no present employment or command role is inferred."
+      ]
+    },
+    {
+      "id": "claim-kim-o-song-likely-russia-2025",
+      "type": "location",
+      "predicate": "source_reported_likely_dispatch",
+      "value": {
+        "location": "Russia",
+        "timeframe": "2025",
+        "qualification": "likely dispatched",
+        "context": "Umnal delegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "who were likely dispatched to Russia in 2025"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Qualified historical source language; it does not establish that the person traveled, arrived, remained, or is presently located in Russia."
+      ]
+    },
+    {
+      "id": "claim-kim-o-song-public-affairs-passport-category",
+      "type": "note",
+      "predicate": "source_reported_delegation_travel_document_category",
+      "value": {
+        "document_category": "Passports for Public Affairs",
+        "scope": "delegation members",
+        "status": "historical source report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 10 introduction, PDF file p. 127 (printed p. 125); text extraction only",
+          "quote": "The delegation members all traveled on Passports for Public Affairs."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Document category only. No passport number, validity date, birth data, image, or present document status is retained."
+      ]
+    },
+    {
+      "id": "claim-kim-o-song-umnal-relocation-context",
+      "type": "incident",
+      "predicate": "msmt_reported_umnal_delegation_relocation_context",
+      "value": {
+        "organization": "Umnal",
+        "reported_activity": "began working in Vladivostok after relocating from Laos",
+        "timeframe": "late 2023",
+        "scope": "organization/delegation-level",
+        "individual_conduct_attributed": false,
+        "individual_travel_attributed": false,
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Umnal case-study paragraph, PDF file p. 66 (printed p. 64)",
+          "quote": "Umnal, the Russia-based delegation subordinate to DPRK Chinyong Information Technology Cooperation Company, began working in Vladivostok in late 2023. Umnal came to Russia after relocating from Laos."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT organization/delegation-level history only; it does not establish that this listed member personally relocated, traveled, worked in Vladivostok, or remains in Russia.",
+        "No precise site, travel-document detail, account, payment, client, victim, or present-location inference is retained."
+      ]
+    },
+    {
+      "id": "claim-kim-o-song-umnal-joint-venture-context",
+      "type": "incident",
+      "predicate": "msmt_reported_umnal_delegation_joint_venture_context",
+      "value": {
+        "organization": "Umnal",
+        "counterparty": "Alias LLC (also referred to as Alis LLC)",
+        "reported_relationship": "joint venture",
+        "scope": "organization/delegation-level",
+        "individual_conduct_attributed": false,
+        "individual_role_attributed": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Umnal case-study paragraph, PDF file p. 66 (printed p. 64)",
+          "quote": "Umnal also has a joint venture with another well-established IT worker delegation, Alias LLC (also referred to as Alis LLC)."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT organization/delegation-level relationship only; it does not establish this listed member's personal role, tasking, account control, employment, or conduct in the joint venture."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Kim O Song is the person named in MSMT Annex 10 as a member of the Umnal delegation. The likely-Russia-2025 wording and delegation-level travel-document category are historical source reports; present location and current document status require newer evidence. Keep records separate by name, image, nationality, geography and transposed tokens."
+}

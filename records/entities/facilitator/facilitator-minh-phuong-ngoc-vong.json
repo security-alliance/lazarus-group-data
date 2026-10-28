@@ -1,0 +1,353 @@
+{
+  "id": "facilitator-minh-phuong-ngoc-vong",
+  "type": "facilitator",
+  "name": "Minh Phuong Ngoc Vong",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea of conspiracy to commit wire fraud; sentenced on 2025-12-04 to 15 months in prison and three years of supervised release, including six months of home confinement",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "vong-doj-plea-2025",
+      "vong-doj-sentence-2025"
+    ]
+  },
+  "legal_or_reported_name": "Minh Phuong Ngoc Vong",
+  "ttps": [
+    "credential-sharing",
+    "stolen-identity",
+    "us-based-facilitator"
+  ],
+  "caveats": [
+    "The record states only defendant-specific facts supported by the cited DOJ releases.",
+    "The stolen identity victim and affected employers are intentionally omitted."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-legal-case-summary",
+      "court": "U.S. District Court for the District of Maryland",
+      "statements": [
+        "Vong pleaded guilty to conspiracy to commit wire fraud and was sentenced on 2025-12-04 to 15 months in prison and three years of supervised release, including six months of home confinement.",
+        "DOJ says he used a stolen U.S. identity to help an overseas individual obtain remote IT work at U.S. companies."
+      ],
+      "source_ids": [
+        "vong-doj-plea-2025",
+        "vong-doj-sentence-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "vong-doj-plea-2025",
+      "support": "DOJ states that Minh Phuong Ngoc Vong pleaded guilty to conspiracy to commit wire fraud after using a stolen U.S. identity to help an overseas individual obtain remote IT work at U.S. companies",
+      "locator": "Plea announcement; paragraphs describing Vong's plea and the overseas worker using the name William James"
+    },
+    {
+      "source_id": "vong-doj-sentence-2025",
+      "support": "DOJ states that Vong was sentenced to 15 months in prison and three years of supervised release, including six months of home confinement. DOJ also reports that communications indicated the foreign worker using the name William James was likely a North Korean national; that assessment is not an adjudicated nationality finding",
+      "locator": "Opening and sentencing paragraph; John Doe / William James paragraphs"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name",
+      "type": "identity_name",
+      "predicate": "legal_name_in_official_release",
+      "value": {
+        "name": "Minh Phuong Ngoc Vong"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "opening paragraph",
+          "quote": "Minh Phuong Ngoc Vong, 40, of Bowie, Maryland, pleaded guilty today"
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "Age and locality are not retained as structured claims."
+      ]
+    },
+    {
+      "id": "claim-guilty-plea",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty_to",
+      "value": {
+        "offense": "conspiracy to commit wire fraud",
+        "date": "2025-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "opening paragraph",
+          "quote": "pleaded guilty today to conspiracy to commit wire fraud"
+        }
+      ],
+      "observed_at": "2025-04-15"
+    },
+    {
+      "id": "claim-conspired-with-overseas-worker",
+      "type": "relationship",
+      "predicate": "admitted_conspiracy_with_overseas_worker",
+      "value": {
+        "counterparty_status": "foreign national living in Shenyang, China"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "opening paragraph",
+          "quote": "he conspired with unknown individuals, including John Doe, also known as William James, a foreign national living in Shenyang, China"
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "The source pseudonym is not retained as an identity selector or resolved to a civil person."
+      ]
+    },
+    {
+      "id": "claim-shared-credentials",
+      "type": "incident",
+      "predicate": "admitted_allowing_credential_use",
+      "value": {
+        "purpose": "overseas conspirators performed remote software-development work and received payment"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "opening paragraph, final sentence",
+          "quote": "Vong allowed Doe and others to use his computer access credentials to perform the remote software development work and receive payment for that work."
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "No credential value is retained."
+      ]
+    },
+    {
+      "id": "claim-fraudulent-resume",
+      "type": "incident",
+      "predicate": "admitted_fraudulent_resume_in_name",
+      "value": {
+        "date": "2023-01-30",
+        "false_degree": true,
+        "false_experience_years": 16
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "second paragraph",
+          "quote": "The resume falsely represented that Vong had a Bachelor of Science degree and 16 years of experience as a software developer."
+        }
+      ],
+      "observed_at": "2023-01-30"
+    },
+    {
+      "id": "claim-vetting-interview",
+      "type": "incident",
+      "predicate": "admitted_participating_in_job_interview",
+      "value": {
+        "date": "2023-03-28",
+        "purpose": "identity and citizenship verification"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "third paragraph, opening sentence",
+          "quote": "On March 28, 2023, Vong participated in an online job interview with the CEO of the Virginia-based company and verified his identity and citizenship"
+        }
+      ],
+      "observed_at": "2023-03-28",
+      "notes": [
+        "Identity-document types shown during the interview are deliberately omitted."
+      ]
+    },
+    {
+      "id": "claim-installed-remote-access",
+      "type": "incident",
+      "predicate": "admitted_installing_remote_access_software",
+      "value": {
+        "purpose": "facilitate overseas access and conceal location in China"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "third paragraph, final sentence",
+          "quote": "Vong installed remote access software on the laptop to facilitate Doe’s access to it and conceal his location in China."
+        }
+      ],
+      "observed_at": "2023-03-28",
+      "notes": [
+        "No software name or access details are supplied by the release."
+      ]
+    },
+    {
+      "id": "claim-thirteen-companies",
+      "type": "incident",
+      "predicate": "admitted_fraudulent_employment_count",
+      "value": {
+        "minimum_companies": 13,
+        "period_start": 2021,
+        "period_end": 2024
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "fifth paragraph",
+          "quote": "Between 2021 and 2024, Vong used fraudulent misrepresentations to obtain employment with at least 13 different U.S. companies"
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "Employer identities are excluded."
+      ]
+    },
+    {
+      "id": "claim-salary-total",
+      "type": "incident",
+      "predicate": "admitted_salary_generated",
+      "value": {
+        "currency": "USD",
+        "amount_more_than": "970000"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-sentence-2025",
+          "locator": "sixth paragraph",
+          "quote": "who collectively paid Vong more than $970,000 in salary for software development services"
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "Aggregate across the companies described in Vong's plea; not represented as personal profit."
+      ]
+    },
+    {
+      "id": "claim-government-system-access",
+      "type": "incident",
+      "predicate": "admitted_causing_overseas_access_to_government_systems",
+      "value": {
+        "access_origin": "China"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "fifth paragraph, final sentence",
+          "quote": "these government agencies unknowingly granted Vong’s co-conspirators access to sensitive U.S. government systems, which they accessed from China."
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "Agency and system particulars beyond the public general description are not retained."
+      ]
+    },
+    {
+      "id": "claim-overseas-worker-likely-north-korean",
+      "type": "relationship",
+      "predicate": "doj_reported_counterparty_likely_north_korean",
+      "value": {
+        "assessment": "likely a North Korean national working to generate revenue for the North Korean government"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "vong-doj-sentence-2025",
+          "locator": "second paragraph, final sentence",
+          "quote": "Doe’s communications indicate that he is likely a North Korean national who was working to generate revenue for the North Korean government."
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "DOJ/court-document assessment about an unnamed counterparty; not an adjudicated nationality finding and not an identity resolution."
+      ]
+    },
+    {
+      "id": "claim-sentence-imprisonment",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment",
+      "value": {
+        "months": 15,
+        "date": "2025-12-04"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-sentence-2025",
+          "locator": "opening paragraph",
+          "quote": "was sentenced today to 15 months in prison"
+        }
+      ],
+      "observed_at": "2025-12-04"
+    },
+    {
+      "id": "claim-supervised-release",
+      "type": "legal_event",
+      "predicate": "sentenced_to_supervised_release",
+      "value": {
+        "years": 3
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-sentence-2025",
+          "locator": "opening paragraph",
+          "quote": "followed by three years of supervised release"
+        }
+      ],
+      "observed_at": "2025-12-04",
+      "notes": [
+        "The seeded catalog states that supervised release included six months of home confinement, but that phrase is absent from the accessible release body captured on the cutoff date; only the three-year term is verified here."
+      ]
+    },
+    {
+      "id": "claim-minh-vong-coarse-historical-location",
+      "type": "location",
+      "predicate": "official_source_reported_coarse_historical_location",
+      "value": {
+        "location": "Bowie, Maryland, United States",
+        "context": "DOJ plea-time city descriptor",
+        "present_location_inferred": false,
+        "precise_location_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "vong-doj-plea-2025",
+          "locator": "Opening sentence",
+          "quote": "Minh Phuong Ngoc Vong, 40, of Bowie, Maryland, pleaded guilty today"
+        }
+      ],
+      "observed_at": "2025-04-15",
+      "notes": [
+        "Coarse source-time geography only; it does not establish present residence, custody, travel, precise location, or continued presence.",
+        "Street addresses, residential details, facility details, and other precise selectors are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Minh Phuong Ngoc Vong, the defendant described in the District of Maryland plea and sentencing releases; his admissions, adjudicated sentence, and source assessments about an overseas conspirator are kept distinct."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "datf-ttp-testimony-technical-talent-assignment-context",
+  "type": "ttp",
+  "name": "Testimony-based context on technical-talent cultivation and assignment",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is public congressional testimony providing historical context; it supplies no adjudicated finding or basis for identifying any student, applicant, or worker.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DATF-S01"
+    ]
+  },
+  "ttps": [
+    "organizational-assignment",
+    "overseas-cover",
+    "skill-training-pipeline"
+  ],
+  "caveats": [
+    "Education, mathematics achievement, foreign study, visa status, language, and technical skill require corroboration before screening or attribution.",
+    "The testimony combines observation, interviews, and investigative reporting; it presents a reported model, while workforce prevalence and conversion of every trained worker into cyber operations remain unmeasured."
+  ],
+  "infrastructure": [
+    {
+      "type": "defensive-use-boundary",
+      "statements": [
+        "Use this source-qualified context for governance or corroborated behavior-based review, never as standalone identity or nationality attribution."
+      ],
+      "limitations": [
+        "No single nationality, geography, language, education history, technical skill, remote-work preference, interview anomaly, authentication event, or device signal establishes fraud or DPRK attribution."
+      ],
+      "source_ids": [
+        "DATF-S01"
+      ]
+    },
+    {
+      "type": "congressional-testimony",
+      "statements": [
+        "Written congressional testimony described a historical pathway in which selected technical students received privileged training and strong performance pressure before some were assigned to military cyber work or sent abroad for exposure to foreign online environments."
+      ],
+      "limitations": [
+        "The testimony combines observation, interviews, and investigative reporting; it is not a workforce census and does not show that every trained IT worker became a cyber operator.",
+        "Education, mathematics achievement, foreign study, visa status, language, or technical skill must never be used as standalone screening or attribution indicators."
+      ],
+      "method_and_source_boundary": "high for the fact and wording of sworn/public testimony; moderate for historical claims based on interviews and secondary investigative reporting",
+      "source_ids": [
+        "DATF-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-07-un-worker-vs-cyber-actor-separation",
+    "DPA-F01"
+  ],
+  "sources": [
+    {
+      "source_id": "DATF-S01",
+      "support": "Supports the fact and scope of the source-attributed historical testimony. Normalized statement: Written congressional testimony described a historical pathway in which selected technical students received privileged training and strong performance pressure before some were assigned to military cyber work or sent abroad for exposure to foreign online environments",
+      "locator": "PDF pp. 4-5, Hacking as a form of patriotism"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

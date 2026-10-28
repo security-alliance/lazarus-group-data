@@ -1,0 +1,693 @@
+{
+  "id": "facilitator-kim-sang-man",
+  "type": "facilitator",
+  "name": "Kim Sang Man",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "This OFAC-designated DPRK IT-worker financial intermediary was separately named in June 2025 in-rem civil-forfeiture allegations. No criminal charge was verified. The administrative designation and civil complaint remain distinct from criminal conviction; Administrative sanctions designation.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "DLSR29-S05-DOJ-SIM-CIVIL-2025",
+      "doar9-ofac-alt-current",
+      "doar9-ofac-sdn-current",
+      "gov-cf4404774939",
+      "gov-e31464a55e89",
+      "int-msmt-2025-2",
+      "int-rok-fsc-2023",
+      "int-rok-mofa-2023"
+    ]
+  },
+  "legal_or_reported_name": "Kim Sang Man",
+  "organizations": [
+    "Chinyong Information Technology Cooperation Company",
+    "Jinyong Information Technology Development Cooperation Company (general manager)"
+  ],
+  "locations": [
+    "DPRK / overseas worker dispatch",
+    "North Korea (OFAC listing context; not current location)",
+    "Russia (OFAC listing context; not current location)"
+  ],
+  "ttps": [
+    "delegation management",
+    "payment facilitation"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Employer and victim identities, persons other than the named subject, devices, accounts, wallets, payments, contacts, precise addresses, and other sensitive selectors are excluded.",
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved.",
+    "Kim Sang Man is named in allegations concerning an in-rem property action; the civil case’s defendant field excludes him.",
+    "Named in a 2023 OFAC action; included here because later official sources tie Chinyong networks to IT-worker delegations.",
+    "The country rows provide historical context; current presence remains unresolved, and the separate civil-forfeiture posture remains unchanged.",
+    "The civil complaint and OFAC designation record separate civil and administrative matters; no criminal charge or adjudication is inferred.",
+    "The record supplies historical context; present location, current control, current activity, and new legal posture status are unreported.",
+    "This is same-source depth from the already-admitted MSMT/2025/2 report; corroboration remains within the MSMT/2025/2 source family.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The forced-labor sentence applies across the action and collectively to the five footnoted IT-branch managers; person-specific adjudication requires a separate finding."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "doar9-ofac-alt-current"
+      ],
+      "value": "KIM, Sangman"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-reported-bounded-historical-facilitator-depth",
+      "historical_salary_payment_geography": [
+        "Vladivostok",
+        "Shenyang",
+        "Dubai"
+      ],
+      "source_summarized_crypto_laundering": "over $2 million in cryptocurrency funds raised by North Korean IT workers in China and Russia",
+      "underlying_action_family": [
+        "U.S. Department of the Treasury, May 23, 2023",
+        "adjacent role summary: U.S. Department of Justice, June 5, 2025"
+      ],
+      "wallet_payment_or_account_selectors_retained": false,
+      "independent_corroboration": false,
+      "new_legal_posture": false,
+      "present_location_control_or_activity_inferred": false,
+      "source_basis": "MSMT summary expressly footnoting the May 23, 2023 Treasury action; adjacent role text footnotes the June 5, 2025 DOJ civil-forfeiture release",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-kim-sang-man"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-cf4404774939",
+      "support": "OFAC designated Chinyong Information Technology Cooperation Company and its representative Kim Sang Man for DPRK IT-worker revenue generation",
+      "locator": "Illicit IT Worker Revenue Generation section"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Kim has been involved in paying the salaries of North Korean IT workers in Vladivostok, Shenyang and Dubai. He has also laundered over $2 million in cryptocurrency funds raised by North Korean IT workers in China and Russia. 248 U.S. Department of the Treasury, “Treasury Targets DPRK Malicious Cyber and Illicit IT Worker Activities,”",
+      "locator": "Known North Koreans Facilitating DPRK Laundering Activities, PDF file p. 84 (printed p. 82), Kim Sang Man subsection; footnote 248"
+    },
+    {
+      "source_id": "int-rok-mofa-2023",
+      "support": "ROK autonomous sanctions designation. The joint release collectively alleges that five named IT-branch managers, including Kim Sang-man, imposed forced labor through surveillance, control, abusive treatment, and non-payment of wages; it does not separately prove each listed manager committed every practice",
+      "locator": "body | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=373689 | Availability note (2026-08-12): The original MOFA publication endpoint returned HTTP 500 in a passive check. The exact MOFA Open Data resource returned HTTP 200 and is used as the machine-stable claim-bearing endpoint; the original publication URL is retained as provenance"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 43377 support only the retained coarse sanctions-list location values. Neither country row establishes current presence; the separate civil-forfeiture posture remains unchanged. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 43377"
+    },
+    {
+      "source_id": "doar9-ofac-alt-current",
+      "support": "The current exact-ID ALT row(s) joined to OFAC entity number 43377 supply the alternate spelling(s): KIM, Sangman. No name-only identity inference is used",
+      "locator": "ALT.CSV current row(s) joined to OFAC entity number 43377"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 43377 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add a alternate spelling and country-level Russia and North Korea listing context. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 43377"
+    },
+    {
+      "source_id": "int-rok-fsc-2023",
+      "support": "ROK autonomous sanctions designation. The joint release collectively alleges that five named IT-branch managers, including Kim Sang-man, imposed forced labor through surveillance, control, abusive treatment, and non-payment of wages; it does not separately prove each listed manager committed every practice",
+      "locator": "joint release pp. 1-5; sanctions table and manager footnotes | Original official publication page: https://www.fsc.go.kr/no010101/80031 | Availability note (2026-08-12): The FSC page and six-page attachment returned HTTP 200 in passive review. The attachment SHA-256 was 4f8871cda387b9f163b01c4590198c30df6f43d777649653659001e4c56f1e8a. Sensitive identification, payment, and person-image fields on page 5 are deliberately excluded"
+    },
+    {
+      "source_id": "DLSR29-S05-DOJ-SIM-CIVIL-2025",
+      "support": "DOJ's in-rem civil-forfeiture release names Kim Sang Man in the alleged DPRK IT-worker laundering scheme. It does not announce a criminal charge, conviction, or final forfeiture judgment against him",
+      "locator": "Opening; paragraphs naming Sim Hyon Sop and describing the in-rem civil-forfeiture complaint; updated July 9, 2025"
+    },
+    {
+      "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769"
+    },
+    {
+      "source_id": "un-s-2023-656"
+    },
+    {
+      "source_id": "int-un-poe-2024"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Sang Man",
+        "korean": "김상만"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 1",
+          "quote": "KIM, Sang Man (김상만)"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Latin and Hangul forms are explicitly paired."
+      ]
+    },
+    {
+      "id": "claim-ofac-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "action": "sanctions designation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cf4404774939",
+          "locator": "Illicit IT Worker Revenue Generation; designation paragraph",
+          "quote": "Kim is being designated pursuant to E.O. 13810 for being a North Korean person, including a North Korean person that has engaged in commercial activity that generates revenue for the Government of North Korea or the Workers’ Party of Korea."
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Administrative designation, not a criminal charge or conviction."
+      ]
+    },
+    {
+      "id": "claim-rok-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_rok",
+      "value": {
+        "authority": "Republic of Korea",
+        "action": "autonomous sanctions designation"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-mofa-2023",
+          "locator": "bibo:abstract, individual-designations table",
+          "quote": "우리 정부는 북한 기관 3개와 개인 7명을 제재대상으로 지정하였다."
+        },
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 1, designation table",
+          "quote": "김상만 진영정보기술개발협조회사 총책임자"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Two mirrors of one joint Korean government release; not independent confirmations."
+      ]
+    },
+    {
+      "id": "claim-jinyong-general-manager",
+      "type": "organization_affiliation",
+      "predicate": "officially_reported_general_manager_of",
+      "value": {
+        "organization": "Jinyong IT Cooperation Company",
+        "role": "General Manager"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 5, item 1",
+          "quote": "General Manager of Jinyong IT Cooperation Company"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Official historical role description; no present role is inferred."
+      ]
+    },
+    {
+      "id": "claim-it-developer-history",
+      "type": "employment",
+      "predicate": "treasury_reported_prior_work",
+      "value": {
+        "role": "IT developer",
+        "country": "North Korea"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cf4404774939",
+          "locator": "Illicit IT Worker Revenue Generation",
+          "quote": "Kim has been affiliated with the U.S.-designated Korea Computer Center and worked as an IT developer in the DPRK prior to being selected as an agent of the UN- and U.S.-designated RGB"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Historical Treasury report; no present employment or location is inferred."
+      ]
+    },
+    {
+      "id": "claim-it-equipment-activity",
+      "type": "incident",
+      "predicate": "treasury_reported_it_equipment_activity",
+      "value": {
+        "activities": [
+          "sale",
+          "transfer"
+        ],
+        "object": "IT equipment",
+        "beneficiary": "DPRK"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-cf4404774939",
+          "locator": "Illicit IT Worker Revenue Generation",
+          "quote": "Kim has been involved in the sale and transfer of IT equipment for the DPRK"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Treasury-reported conduct, not an adjudicated finding."
+      ]
+    },
+    {
+      "id": "claim-civil-intermediary-allegation",
+      "type": "incident",
+      "predicate": "alleged_financial_intermediary_role",
+      "value": {
+        "from": "North Korean IT workers",
+        "to": "North Korea's Foreign Trade Bank via Sim Hyon Sop"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "DLSR29-S05-DOJ-SIM-CIVIL-2025",
+          "locator": "paragraph following laundering-techniques paragraph",
+          "quote": "Kim allegedly acts as an intermediary between the North Korean IT workers and North Korea’s FTB by sending funds from the North Korean IT workers to Sim."
+        }
+      ],
+      "observed_at": "2025-06-05",
+      "notes": [
+        "Allegation in an in-rem civil complaint; Kim is not modeled as a defendant and no final judgment is inferred."
+      ]
+    },
+    {
+      "id": "claim-collective-labor-control",
+      "type": "incident",
+      "predicate": "included_in_collective_labor_control_allegation",
+      "value": {
+        "scope": "five footnoted overseas IT branch managers",
+        "alleged_practices": [
+          "surveillance and control",
+          "abusive treatment",
+          "non-payment of wages",
+          "forced labor"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-rok-fsc-2023",
+          "locator": "PDF p. 2 and footnote 1",
+          "quote": "특히, 이들 IT 지부 책임자들은 IT 인력에 대한 감시ㆍ통제ㆍ갑질, 임금 미지급 등 강제노동을 강요하여 이들의 인권을 유린해 왔다. 1) 김상만, 김기혁, 김성일, 전연근, 김효동"
+        }
+      ],
+      "observed_at": "2023-05-23",
+      "notes": [
+        "Collectively scoped allegation; it does not separately prove that Kim personally committed every listed practice."
+      ]
+    },
+    {
+      "id": "claim-current-ofac-listing",
+      "type": "legal_event",
+      "predicate": "listed_on_current_ofac_sdn_export",
+      "value": {
+        "authority": "U.S. Department of the Treasury, OFAC",
+        "program": "DPRK4",
+        "entity_number": "43377",
+        "as_of": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity 43377",
+          "quote": "43377,\"KIM, Sang Man\",\"individual\",\"DPRK4\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Current administrative sanctions-list status only; not a criminal charge, conviction, or finding on the civil complaint."
+      ]
+    },
+    {
+      "id": "claim-north-korean-nationality",
+      "type": "note",
+      "predicate": "official_sources_reported_nationality",
+      "value": {
+        "country": "North Korea",
+        "source_terms": [
+          "North Korean national",
+          "nationality Korea, North"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+          "locator": "PDF p. 22, ¶55",
+          "quote": "KIM is a North Korean national."
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks field for OFAC entity 43377",
+          "quote": "nationality Korea, North"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Nationality does not establish present residence or location. Birth, birthplace, passport, and gender fields were not retained."
+      ]
+    },
+    {
+      "id": "claim-civil-ceo-head-wording",
+      "type": "organization_affiliation",
+      "predicate": "civil_complaint_alleged_role_at",
+      "value": {
+        "organization": "Chinyong / Jinyong IT Cooperation Company",
+        "complaint_terms": [
+          "chief executive officer (CEO)",
+          "head"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+          "locator": "PDF p. 20, ¶50; p. 22, ¶55",
+          "quote": "KIM is a North Korean national who is the chief executive officer (CEO) of “Chinyong,” also known as “Jinyong IT Cooperation Company.”"
+        }
+      ],
+      "observed_at": "2025-06-05",
+      "notes": [
+        "Civil-complaint allegation, not an adjudicated corporate title. It is preserved separately from Treasury and ROK sources' General Manager wording rather than used to overwrite it."
+      ]
+    },
+    {
+      "id": "claim-civil-former-kcc-role",
+      "type": "employment",
+      "predicate": "civil_complaint_alleged_former_role",
+      "value": {
+        "organization": "Korea Computer Center",
+        "role": "representative",
+        "temporal_scope": "former"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+          "locator": "PDF p. 22, ¶55",
+          "quote": "He is the head of Chinyong and was formerly a representative of Korea Computer Center, a state-run IT research and development center."
+        }
+      ],
+      "observed_at": "2025-06-05",
+      "notes": [
+        "Complaint-stage historical role allegation. It complements, but is not interchangeable with, Treasury's broader prior KCC affiliation and DPRK IT-developer description."
+      ]
+    },
+    {
+      "id": "claim-civil-russian-companies",
+      "type": "organization_affiliation",
+      "predicate": "civil_complaint_alleged_companies_established",
+      "value": {
+        "organizations": [
+          "Alis LLC",
+          "Alias LLC"
+        ],
+        "business_focus": "software development",
+        "source_scope": "at least two companies"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+          "locator": "PDF p. 23, ¶57",
+          "quote": "According to publicly available business records from the Russian Federation, KIM established at least two companies in Vladivostok, Russia that are focused on software development. Those companies are Alis LLC and Alias LLC."
+        }
+      ],
+      "observed_at": "2025-06-05",
+      "notes": [
+        "Complaint-stage allegation based on depicted registry material. It does not establish present ownership, control, active status, address, or current employment."
+      ]
+    },
+    {
+      "id": "claim-civil-historical-vladivostok",
+      "type": "location",
+      "predicate": "civil_complaint_alleged_historical_residence_context",
+      "value": {
+        "city": "Vladivostok",
+        "country": "Russia",
+        "granularity": "city",
+        "temporal_scope": "at times relevant to the complaint's alleged money laundering"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+          "locator": "PDF p. 24, ¶58",
+          "quote": "The FBI’s investigation indicates that KIM—at times relevant to the money laundering described herein—was living in Vladivostok, Russia."
+        }
+      ],
+      "observed_at": "2025-06-05",
+      "notes": [
+        "Historical complaint allegation only; no address, date range, present residence, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-civil-subject-image-reference",
+      "type": "image",
+      "predicate": "court_filing_labeled_subject_image_reference",
+      "value": {
+        "source_page_url": "https://www.justice.gov/usao-dc/media/1402691/dl#page=22",
+        "page": 22,
+        "usage": "link_only",
+        "source_label": "KIM is pictured below"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-doj-civil-forfeiture-1-25-cv-1769",
+          "locator": "PDF p. 22, ¶55 and immediately following image",
+          "quote": "KIM is pictured below:"
+        }
+      ],
+      "observed_at": "2025-06-05",
+      "notes": [
+        "Official court-filing page reference only. No direct image asset, crop, facial recognition, biometric inference, or cross-image identity comparison is retained or authorized."
+      ]
+    },
+    {
+      "id": "claim-historical-ofac-wallet-indicators",
+      "type": "wallet",
+      "predicate": "ofac_listed_digital_currency_addresses",
+      "value": {
+        "as_of": "2026-08-15",
+        "source": "OFAC SDN.CSV entity 43377",
+        "asset_address_pairs": [
+          {
+            "asset": "XBT",
+            "address": "1D6gG9iKEhPitTcWRJiniuj1jYM2hNeAfJ"
+          },
+          {
+            "asset": "XBT",
+            "address": "1FCNgfZWpYMeYhy9t18AAkTBu8AsdoAc1Z"
+          },
+          {
+            "asset": "ETH",
+            "address": "0x97b1043abd9e6fc31681635166d430a458d14f9c"
+          },
+          {
+            "asset": "ETH",
+            "address": "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40"
+          },
+          {
+            "asset": "USDT",
+            "address": "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40"
+          },
+          {
+            "asset": "USDC",
+            "address": "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40"
+          }
+        ],
+        "indicator_status": "Historical, source-reported OFAC designation snapshot; current control is not asserted"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks field for OFAC entity 43377, XBT and ETH entries",
+          "quote": "Digital Currency Address - XBT 1D6gG9iKEhPitTcWRJiniuj1jYM2hNeAfJ; alt. Digital Currency Address - XBT 1FCNgfZWpYMeYhy9t18AAkTBu8AsdoAc1Z; Digital Currency Address - ETH 0x97b1043abd9e6fc31681635166d430a458d14f9c; alt. Digital Currency Address - ETH 0xb6f5ec1a0a9cd1526536d3f0426c429529471f40"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks field for OFAC entity 43377, USDT entry",
+          "quote": "Digital Currency Address - USDT 0xb6f5ec1a0a9cd1526536d3f0426c429529471f40"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks field for OFAC entity 43377, USDC entry",
+          "quote": "Digital Currency Address - USDC 0xb6f5ec1a0a9cd1526536d3f0426c429529471f40"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Review-tier official sanctions indicator. The claim records OFAC's source-reported historical listing associations and does not independently infer present control, transaction ownership, balance, custody, or activity beyond that source.",
+        "The repeated EVM address is retained once per OFAC-listed asset association. Complaint-only exchange user IDs, phone numbers, account registration data, transaction paths, and third-party wallets are excluded.",
+        "Retained because OFAC lists these addresses in its designation record; they are historical source-reported indicators, not independently verified ownership."
+      ]
+    },
+    {
+      "id": "claim-kim-sang-man-un-it-equipment-crypto-allegation",
+      "type": "incident",
+      "predicate": "un_reported_it_equipment_and_crypto_receipt_allegation",
+      "value": {
+        "reported_role": "General Manager of Chinyong IT",
+        "historical_location_context": "Vladivostok, Russian Federation",
+        "reported_activity": "sale and transfer of information technology equipment for the DPRK",
+        "reported_receipts": "cryptocurrency transfers from IT workers in China and the Russian Federation during 2021",
+        "source_posture": "reported and alleged in the Panel report",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "un-s-2023-656",
+          "locator": "Paragraph 119, PDF file p. 50; Annex 69 p. 327 visually reviewed for exact 김상만 name and General Manager role",
+          "quote": "Kim Sang Man, who is known to be based in Vladivostok, Russian Federation, reportedly the General Manager of Chinyong IT, was alleged to be involved in the sale and transfer of information technology equipment for the Democratic People’s Republic of Korea and, in 2021, received cryptocurrency transfers from information technology workers in China and the Russian Federation."
+        }
+      ],
+      "observed_at": "2023-09-07",
+      "notes": [
+        "The report's reportedly and alleged posture is preserved; this is not a criminal charge, adjudication, or proof of current activity.",
+        "Annex 69 independently preserves the exact Korean spelling 김상만 and Chinyong General Manager role. Wallet, account, transaction, identity-document, and counterparty selectors are excluded.",
+        "Vladivostok is historical report context only and does not establish present residence."
+      ]
+    },
+    {
+      "id": "claim-kim-sang-man-un-chebeoton-registration-context",
+      "type": "organization_affiliation",
+      "predicate": "un_reported_russian_company_registration_context",
+      "value": {
+        "organization": "Chebeoton, OOO",
+        "reported_interest": "listed as 100 percent participant",
+        "historical_location_context": "Vladivostok, Russian Federation",
+        "current_operating_status": "Panel unable to ascertain",
+        "present_ownership_inferred": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-un-poe-2024",
+          "locator": "Registration-information table, PDF file p. 464, visually reviewed Chebeoton row",
+          "quote": "Based on the Russian Federation’s response, the Panel is unable to ascertain whether the company is still operating."
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "Historical source-table registration context only. Current company operation, ownership, employment, residence, or control is not established.",
+        "Government identifiers, company registration numbers, precise address, and third-party personal data are excluded."
+      ]
+    },
+    {
+      "id": "claim-kim-sang-man-msmt-salary-geography-round64",
+      "type": "incident",
+      "predicate": "msmt_summarized_historical_salary_payment_geography",
+      "value": {
+        "historical_salary_payment_geography": [
+          "Vladivostok",
+          "Shenyang",
+          "Dubai"
+        ],
+        "underlying_source_family": "Treasury May 23, 2023 action; adjacent DOJ June 5, 2025 action context",
+        "payment_or_account_selectors_retained": false,
+        "present_location_control_or_activity_inferred": false,
+        "independent_corroboration": false,
+        "new_legal_posture": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Known North Koreans Facilitating DPRK Laundering Activities, PDF file p. 84 (printed p. 82), Kim Sang Man subsection; footnote 248",
+          "quote": "Kim has been involved in paying the salaries of North Korean IT workers in Vladivostok, Shenyang and Dubai."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Known North Koreans Facilitating DPRK Laundering Activities, PDF file p. 84 (printed p. 82), Kim Sang Man subsection; footnote 248",
+          "quote": "248 U.S. Department of the Treasury, “Treasury Targets DPRK Malicious Cyber and Illicit IT Worker Activities,”"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT footnote 248 cites Treasury's May 23, 2023 action; the adjacent role sentence footnotes DOJ's June 5, 2025 civil-forfeiture release. This is derivative same-action-family depth, not independent corroboration or a new legal posture.",
+        "Coarse historical geography only; no wallet, payment, account, present-location, current-control, or present-activity inference is retained."
+      ]
+    },
+    {
+      "id": "claim-kim-sang-man-msmt-over-2m-crypto-summary-round64",
+      "type": "incident",
+      "predicate": "msmt_summarized_historical_crypto_laundering",
+      "value": {
+        "summarized_amount": "over $2 million",
+        "asset_class": "cryptocurrency",
+        "reported_fund_origin": "funds raised by North Korean IT workers in China and Russia",
+        "underlying_source_family": "Treasury May 23, 2023 action; adjacent DOJ June 5, 2025 action context",
+        "wallet_payment_or_account_selectors_retained": false,
+        "present_location_control_or_activity_inferred": false,
+        "independent_corroboration": false,
+        "new_legal_posture": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Known North Koreans Facilitating DPRK Laundering Activities, PDF file p. 84 (printed p. 82), Kim Sang Man subsection; footnote 248",
+          "quote": "He has also laundered over $2 million in cryptocurrency funds raised by North Korean IT workers in China and Russia."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Known North Koreans Facilitating DPRK Laundering Activities, PDF file p. 84 (printed p. 82), Kim Sang Man subsection; footnote 248",
+          "quote": "248 U.S. Department of the Treasury, “Treasury Targets DPRK Malicious Cyber and Illicit IT Worker Activities,”"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT footnote 248 cites Treasury's May 23, 2023 action; the adjacent role sentence footnotes DOJ's June 5, 2025 civil-forfeiture release. This is derivative same-action-family depth, not independent corroboration or a new legal posture.",
+        "The MSMT's summarized aggregate wording is preserved; wallets, accounts, payment routes, transaction selectors, and current-state inferences are excluded."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Kim Sang Man, listed by OFAC as KIM, Sang Man and by Republic of Korea sources as 김상만, is source-explicitly linked to Chinyong/Jinyong and the coordinated May 23, 2023 U.S. and ROK administrative designations. Preserve Treasury's General Manager wording separately from the 2025 civil complaint's CEO/head wording; every complaint-based role, company, location, image, account, and transaction statement remains a civil allegation rather than criminal posture or adjudication. Same-named Korean public figures or accounts require an explicit organization, designation, docket, or unique-identifier bridge; historical Vladivostok context leaves present residence open."
+}

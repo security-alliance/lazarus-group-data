@@ -1,0 +1,46 @@
+{
+  "id": "deep2-vendor-dv-f06",
+  "type": "ttp",
+  "name": "Okta-observed GenAI facilitator workflow",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s04-dv-f06"
+    ]
+  },
+  "ttps": [
+    "direct-application",
+    "fabricated-resume",
+    "interview-assistance",
+    "multiple-personas"
+  ],
+  "caveats": [
+    "Use of a named category of legitimate service requires corroboration before supporting DPRK activity.",
+    "Okta could generally observe service logins; activity beyond the login page remains outside observation, and several proposed use cases remain hypotheses based on service functionality."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Okta observed suspected DPRK personas/facilitators signing into GenAI-enhanced services for unified multi-channel communications, voice/text translation, job advertising, ATS-oriented resume optimization, automated application completion and tracking, interview hosting/recording/coaching, and generic LLM assistance.",
+        "Okta assessed that fake front-company vacancies could be used to collect legitimate resumes and cover letters and learn which features pass employer ATS screening."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s04-dv-f06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s04-dv-f06",
+      "support": "Okta observed suspected DPRK personas/facilitators signing into GenAI-enhanced services for unified multi-channel communications, voice/text translation, job advertising, ATS-oriented resume optimization, automated application completion and tracking, interview hosting/recording/coaching, and generic LLM assistance. Okta assessed that fake front-company vacancies could be used to collect legitimate resumes and cover letters and learn which features pass employer ATS screening",
+      "locator": "Communications; Jobs and recruitment; Resume/CV screening; Application management; Interview preparation"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "paul-martin-werewolves",
+  "real_name": "Paul Martin",
+  "aliases": [
+    "Werewolves0493"
+  ],
+  "gender": "male",
+  "employment": [
+    {
+      "company": "Munchables",
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "Werewolves0493",
+      "usernames": [
+        "Werewolves0493"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x4890e32a6a631ba451b7823dad39e88614f59c97"
+      ]
+    }
+  ],
+  "notes": "Related to Munchables hack.\nWallet Addresses:\n0x4890e32a6a631ba451b7823dad39e88614f59c97",
+  "images": [
+    {
+      "path": "/team-images/paul-martin-werewolves/munchables-paul-song-senior-dev.jpg",
+      "short_description": "Paul Song, senior dev at Munchables.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/paul-martin-werewolves/munchables-paul-martin.png",
+      "short_description": "Paul Martin profile picture.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

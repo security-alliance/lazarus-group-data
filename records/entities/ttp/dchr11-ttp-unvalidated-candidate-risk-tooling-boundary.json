@@ -1,0 +1,76 @@
+{
+  "id": "dchr11-ttp-unvalidated-candidate-risk-tooling-boundary",
+  "type": "ttp",
+  "name": "Do not use unvalidated candidate-risk tooling for automated attribution",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a methodological boundary from a bounded review of public repositories. The reviewed tools establish neither validated DPRK detection efficacy nor new identities or authoritative attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dchr11-s04",
+      "dchr11-s05",
+      "dchr11-s06"
+    ]
+  },
+  "ttps": [
+    "bias-review",
+    "correction-and-appeal",
+    "false-positive-testing",
+    "human-adjudication",
+    "provenance-validation"
+  ],
+  "caveats": [
+    "Name similarity, profile images, avatars, code style, language, geography, account age, follower graphs, stars, forks, contribution volume and repository topic require corroboration before supporting legal identity, nationality, common operator or DPRK affiliation.",
+    "These repositories are research references. Their profile assets remain unpublished, and authoritative DPRK attribution requires separate evidence.",
+    "Keep applicant messages, resumes, emails, phone numbers, identity documents, biometrics, private repositories, credentials, tokens, payment data, wallets, raw device or network selectors, active infrastructure and copied malware code out of the record.",
+    "Accounts described by these sources remain unpublished, uncontacted, unfollowed, unstarred, unforked, unmessaged, and unprobed.",
+    "Fake-interview malware remains analytically separate from fraudulent employment unless an exact source explicitly establishes overlap.",
+    "Keep DPRK-linked fake-interview malware analytically separate from fraudulent employment unless an exact source establishes overlap.",
+    "The record scope excludes person, persona, account, organization, repository, domain, contact value, executable code, active infrastructure selector, and applicant artifact.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence.",
+    "This held record documents the reviewed repositories; it records neither endorsement nor profile-specific findings.",
+    "Treat researcher and vendor attributions as claims with source, date, confidence, and limitation. Persona and account labels carry source-level identity status; civil identity is outside those labels.",
+    "This is guidance on the limitations of candidate-risk tooling; actor behavior and automated candidate-attribution status are outside its evidentiary scope.",
+    "Unvalidated candidate-risk tooling remains on hold pending validation and human review.",
+    "Use multiple independently explainable signals, trained human review, documented reasons, proportional collection, bounded retention, and a correction or appeal path.",
+    "Verify exact package status and technical behavior independently before operational blocking; package-name similarity can create false positives."
+  ],
+  "infrastructure": [
+    {
+      "type": "candidate-risk-tooling-governance-boundary",
+      "statement": "The reviewed repositories either provide an unvalidated weighted scorecard, summarize a threat-hunt without public evidence, or collect profile material without a clear top-level methodology. This material does not independently establish a DPRK identity or a validated detection rate.",
+      "defensive_use": [
+        "Do not use community scorecards or indicator lists as automated rejection systems.",
+        "Require documented provenance, versioning, false-positive testing, bias review, human adjudication, correction, and appeal before operational use.",
+        "Prefer first-party platform evidence and independently corroborated source relationships over copied profile collections."
+      ],
+      "evidence_class": "public repository review",
+      "source_ids": [
+        "dchr11-s04",
+        "dchr11-s05",
+        "dchr11-s06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dchr11-s04",
+      "support": "The reviewed repositories either provide an unvalidated weighted scorecard, summarize a threat-hunt without public evidence, or collect profile material without a clear top-level methodology. This material does not independently establish a DPRK identity or a validated detection rate",
+      "locator": "README: Modes; README: Scoring"
+    },
+    {
+      "source_id": "dchr11-s05",
+      "support": "The reviewed repositories either provide an unvalidated weighted scorecard, summarize a threat-hunt without public evidence, or collect profile material without a clear top-level methodology. This material does not independently establish a DPRK identity or a validated detection rate",
+      "locator": "README: Overview; README: Project Summary"
+    },
+    {
+      "source_id": "dchr11-s06",
+      "support": "The reviewed repositories either provide an unvalidated weighted scorecard, summarize a threat-hunt without public evidence, or collect profile material without a clear top-level methodology. This material does not independently establish a DPRK identity or a validated detection rate",
+      "locator": "public repository root listing"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

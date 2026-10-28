@@ -1,0 +1,536 @@
+{
+  "id": "dp16-account-adonistoday",
+  "type": "persona",
+  "name": "adonistoday",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Recorded Future Insikt Group research attribution only. PurpleBravo fake-interview artifacts and PurpleDelta fraudulent-employment activity remain distinct unless the cited source explicitly bridges a particular artifact",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dp16-recordedfuture-purplebravo-2026"
+    ]
+  },
+  "ttps": [
+    "Historical use of a public code-hosting account in source-attributed activity"
+  ],
+  "caveats": [
+    "Follower relationships and profile characteristics provide contextual links; identity, shared ownership, and present control require source-backed evidence.",
+    "Follower-graph relationships and profile characteristics are contextual signals; shared ownership or identity requires corroboration.",
+    "Historical source attribution only; present account, profile, and brand control require current source evidence.",
+    "The source describes PurpleBravo and PurpleDelta overlap; identifiers remain distinct across those activity sets unless separately linked."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "adonistoday",
+      "status": "historical",
+      "relationship": "uncertain",
+      "source_ids": [
+        "dp16-recordedfuture-purplebravo-2026"
+      ],
+      "note": "Source-published historical public handle; no present-control claim."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dp16-recordedfuture-purplebravo-2026",
+      "support": "Recorded Future Insikt Group reported behavioral and follower-graph linkage; this is not proof of legal identity or present control. Retained as a historical, source-attributed public identifier; no present ownership or civil identity is inferred",
+      "locator": "PDF p. 26, PurpleBravo and PurpleDelta Overlap"
+    },
+    {
+      "source_id": "src-79daef77b952"
+    },
+    {
+      "source_id": "src-04ba856616b6"
+    },
+    {
+      "source_id": "src-f600d9f542a7"
+    },
+    {
+      "source_id": "src-cdafe5436e41"
+    },
+    {
+      "source_id": "src-bd56f96801a4"
+    },
+    {
+      "source_id": "src-80e642cab050"
+    },
+    {
+      "source_id": "src-ed9c6e972086"
+    },
+    {
+      "source_id": "src-f0adf591f7d9"
+    },
+    {
+      "source_id": "src-1a349e033c34"
+    },
+    {
+      "source_id": "src-62a492f82999"
+    },
+    {
+      "source_id": "src-399ec64feab0"
+    },
+    {
+      "source_id": "src-d26f4617edc6"
+    },
+    {
+      "source_id": "src-71f55861f9f6"
+    },
+    {
+      "source_id": "src-938a6003052e"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-adonis-source-domin-follow-and-characteristics",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_follow_and_assessed_characteristics",
+      "value": {
+        "platform": "GitHub",
+        "account": "adonistoday",
+        "historically_followed_by": "domin191013",
+        "publisher_assessment": "displays many common characteristics of a PurpleDelta operator",
+        "merge_status": "not merged"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), PurpleBravo and PurpleDelta Overlap, follower-graph and characteristics sentence",
+          "quote": "Among the GitHub users “domin191013” follows is the profile “adonistoday”, an account that displays many common characteristics of a PurpleDelta operator."
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "Publisher-qualified contextual assessment only. Follower proximity and profile characteristics do not establish identity, shared ownership, or PurpleDelta membership."
+      ]
+    },
+    {
+      "id": "claim-adonis-source-smartdev-follow",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_github_follow",
+      "value": {
+        "platform": "GitHub",
+        "source_handle": "adonistoday",
+        "target_handle": "smartdev022",
+        "target_context": "publisher-described known PurpleDelta GitHub persona",
+        "status": "historical publisher observation",
+        "merge_status": "not merged"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dp16-recordedfuture-purplebravo-2026",
+          "locator": "PDF page index 26 (printed footer p. 25), PurpleBravo and PurpleDelta Overlap, smartdev022 sentence",
+          "quote": "Pivoting on the profile “adonistoday”, the user follows a known PurpleDelta GitHub persona, “smartdev022”."
+        }
+      ],
+      "observed_at": "2026-01-21",
+      "notes": [
+        "Historical publisher report only; the relationship does not prove identity, shared ownership, coordination, or present control."
+      ]
+    },
+    {
+      "id": "claim-adonis-current-repository-portfolio",
+      "type": "account",
+      "predicate": "current_public_repository_portfolio_summary",
+      "value": {
+        "platform": "GitHub",
+        "owner_repository_count": 20,
+        "non_fork_count": 16,
+        "fork_count": 4,
+        "archived_count": 0,
+        "disabled_count": 0,
+        "repository_creation_range": [
+          "2023-03-14T16:10:24Z",
+          "2025-07-15T21:26:40Z"
+        ],
+        "primary_language_counts": {
+          "JavaScript": 5,
+          "C#": 2,
+          "Python": 2,
+          "TypeScript": 2,
+          "HTML": 1,
+          "Vue": 1,
+          "unlabelled": 7
+        },
+        "safe_project_context_examples": [
+          "web and cloud API",
+          "desktop application",
+          "customer-experience and sentiment analysis",
+          "speech",
+          "Firebase",
+          "generative NFT art",
+          "Solana project template",
+          "library and patient management"
+        ]
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-04ba856616b6",
+          "locator": "Complete 20-item owner-repository response",
+          "quote": "\"full_name\": \"adonistoday/adonistoday\""
+        },
+        {
+          "source_id": "src-04ba856616b6",
+          "locator": "Repository fork flags",
+          "quote": "\"fork\": true"
+        },
+        {
+          "source_id": "src-04ba856616b6",
+          "locator": "Repository archive flags",
+          "quote": "\"archived\": false"
+        },
+        {
+          "source_id": "src-04ba856616b6",
+          "locator": "Repository primary-language fields",
+          "quote": "\"language\": \"JavaScript\""
+        },
+        {
+          "source_id": "src-04ba856616b6",
+          "locator": "Earliest repository created_at field",
+          "quote": "\"created_at\": \"2023-03-14T16:10:24Z\""
+        },
+        {
+          "source_id": "src-04ba856616b6",
+          "locator": "Latest repository created_at field",
+          "quote": "\"created_at\": \"2025-07-15T21:26:40Z\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Aggregate public portfolio metadata only. Repository labels, template READMEs, and primary-language fields do not verify authorship, professional competency, campaign purpose, or current controller."
+      ]
+    },
+    {
+      "id": "claim-adonis-historical-self-presented-professional-profile",
+      "type": "skill",
+      "predicate": "historical_self_presented_professional_headlines_and_technology_focus",
+      "value": {
+        "platform": "GitHub",
+        "headlines": [
+          {
+            "observed_in_commit_date": "2023-06-14",
+            "value": "Senior Software Engineer"
+          },
+          {
+            "observed_in_commit_date": "2024-02-21",
+            "value": "Full Stack Web&Blockchain Developer"
+          },
+          {
+            "observed_in_commit_date": "2025-11-17",
+            "value": "Senior Software Engineer"
+          },
+          {
+            "observed_in_commit_date": "2026-02-18",
+            "value": "Senior Software Engineer"
+          }
+        ],
+        "current_badge_examples": [
+          "C#",
+          "C++",
+          "Java",
+          "Python",
+          "Rust",
+          "TypeScript",
+          "React",
+          "Vue",
+          "Docker",
+          "MongoDB",
+          "Ethereum",
+          "Solana"
+        ],
+        "verification": "account self-presentation only"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f600d9f542a7",
+          "locator": "README h1",
+          "quote": "Senior Software Engineer"
+        },
+        {
+          "source_id": "src-cdafe5436e41",
+          "locator": "README h1",
+          "quote": "Full Stack Web&Blockchain Developer"
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "README h1",
+          "quote": "Senior Software Engineer"
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "Skills image alt attributes",
+          "quote": "alt=\"Python\""
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "Skills image alt attributes",
+          "quote": "alt=\"React\""
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "Skills image alt attributes",
+          "quote": "alt=\"Docker\""
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "Skills image alt attributes",
+          "quote": "alt=\"Ethereum\""
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "Skills image alt attributes",
+          "quote": "alt=\"Solana\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Verified only as wording and badges publicly presented by the account. No underlying skill, employment, education, project authorship, or identity claim was independently verified."
+      ]
+    },
+    {
+      "id": "claim-adonis-historical-self-description-variation",
+      "type": "note",
+      "predicate": "historical_self_description_changed_across_profile_commits",
+      "value": {
+        "platform": "GitHub",
+        "earlier_first_computer_age_claim": 7,
+        "later_first_computer_age_claim": 10,
+        "historical_geographic_aspiration": "wanted to have the experience of living in the U.S. or Canada for a while",
+        "interpretation": "mutable and internally inconsistent self-presentation; not age, birth, residence, nationality, or travel evidence"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-80e642cab050",
+          "locator": "README introductory paragraph",
+          "quote": "I had my first contact with computers when I was 7 years old"
+        },
+        {
+          "source_id": "src-bd56f96801a4",
+          "locator": "README introductory paragraph",
+          "quote": "I had my first contact with computers when I was 10 years old"
+        },
+        {
+          "source_id": "src-f600d9f542a7",
+          "locator": "README introductory paragraph",
+          "quote": "I wanted to have the experience of living in U.S. or Canada for a while."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The statements are retained to represent persona evolution and source reliability, not as facts about the person or controller behind the account."
+      ]
+    },
+    {
+      "id": "claim-adonis-historical-public-form-names",
+      "type": "alias",
+      "predicate": "historical_self_presented_names_in_public_issue_forms",
+      "value": {
+        "platform": "GitHub",
+        "presentations": [
+          {
+            "name": "Tomas Lind",
+            "date": "2024-02-21",
+            "public_form_count": 4,
+            "context": "community-organization invitation requests"
+          },
+          {
+            "name": "Luis",
+            "date": "2024-03-13",
+            "public_form_count": 1,
+            "context": "community invitation request"
+          }
+        ],
+        "verification": "names typed by the account in public issue forms; not verified civil identities",
+        "merge_status": "not merged with same-named people"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-ed9c6e972086",
+          "locator": "Four issue bodies dated 2024-02-21, Name field",
+          "quote": "### Name\n\nTomas Lind"
+        },
+        {
+          "source_id": "src-ed9c6e972086",
+          "locator": "Issue body dated 2024-03-13, Name field",
+          "quote": "### Name\n\nLuis"
+        },
+        {
+          "source_id": "src-ed9c6e972086",
+          "locator": "Issue author object",
+          "quote": "\"login\": \"adonistoday\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "High confidence applies only to use of these names in the account's public forms. The conflicting forms prevent treating either as a verified legal name or stable alias. A contact handle included in two forms was excluded."
+      ]
+    },
+    {
+      "id": "claim-adonis-smartdevcode-content-collision",
+      "type": "relationship",
+      "predicate": "separate_public_account_has_matching_display_and_profile_content",
+      "value": {
+        "platform": "GitHub",
+        "other_handle": "smartdevcode",
+        "other_numeric_id": 92331896,
+        "shared_current_display_name": "Stack Master",
+        "other_repository": "smartdevcode/adonistoday",
+        "other_repository_fork_status": false,
+        "other_repository_created_at": "2024-03-21T13:58:27Z",
+        "content_comparison": "the 2024-03-21 other-account README and adonistoday's 2024-02-21 README have the same substantive visible profile text and technology-badge set, differing only by blank lines in a complete-file diff",
+        "merge_status": "not merged",
+        "attribution_status": "content-reuse lead only"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-f0adf591f7d9",
+          "locator": "JSON fields login, id, and name",
+          "quote": "\"login\": \"smartdevcode\""
+        },
+        {
+          "source_id": "src-f0adf591f7d9",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Stack Master\""
+        },
+        {
+          "source_id": "src-1a349e033c34",
+          "locator": "JSON fields full_name and fork",
+          "quote": "\"full_name\": \"smartdevcode/adonistoday\""
+        },
+        {
+          "source_id": "src-1a349e033c34",
+          "locator": "JSON field fork",
+          "quote": "\"fork\": false"
+        },
+        {
+          "source_id": "src-1a349e033c34",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2024-03-21T13:58:27Z\""
+        },
+        {
+          "source_id": "src-62a492f82999",
+          "locator": "README h1",
+          "quote": "Full Stack Web&Blockchain Developer"
+        },
+        {
+          "source_id": "src-cdafe5436e41",
+          "locator": "README h1",
+          "quote": "Full Stack Web&Blockchain Developer"
+        },
+        {
+          "source_id": "src-62a492f82999",
+          "locator": "README introductory paragraph",
+          "quote": "I had my first contact with computers when I was 7 years old"
+        },
+        {
+          "source_id": "src-cdafe5436e41",
+          "locator": "README introductory paragraph",
+          "quote": "I had my first contact with computers when I was 7 years old"
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "The evidence supports content reuse or a shared template association, not shared control, identity, DPRK attribution, campaign membership, or direction of copying. The separate account was not promoted to a DPRK-person profile from this evidence alone."
+      ]
+    },
+    {
+      "id": "claim-adonis-current-domin-follow-check",
+      "type": "relationship",
+      "predicate": "current_public_follow_check_endpoint_status",
+      "value": {
+        "platform": "GitHub",
+        "source_handle": "domin191013",
+        "target_handle": "adonistoday",
+        "source_account_endpoint_status": "HTTP 200",
+        "target_account_endpoint_status": "HTTP 200",
+        "follow_check_endpoint_status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-399ec64feab0",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"domin191013\""
+        },
+        {
+          "source_id": "src-79daef77b952",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"adonistoday\""
+        },
+        {
+          "source_id": "src-d26f4617edc6",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-d26f4617edc6",
+          "locator": "JSON field status",
+          "quote": "\"status\": \"404\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Current endpoint state only. It does not revise the publisher's historical observation or establish when, why, or under whose control the follower graph changed."
+      ]
+    },
+    {
+      "id": "claim-adonis-current-smartdev-follow-check",
+      "type": "relationship",
+      "predicate": "current_public_follow_check_endpoint_status",
+      "value": {
+        "platform": "GitHub",
+        "source_handle": "adonistoday",
+        "target_handle": "smartdev022",
+        "endpoint_status": "HTTP 404 Not Found",
+        "target_endpoint_status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-71f55861f9f6",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-71f55861f9f6",
+          "locator": "JSON field status",
+          "quote": "\"status\": \"404\""
+        },
+        {
+          "source_id": "src-938a6003052e",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-938a6003052e",
+          "locator": "JSON field status",
+          "quote": "\"status\": \"404\""
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Endpoint states only. Because the target endpoint is unavailable, the follow-check result does not establish whether or when the historical graph changed."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Recorded Future-reported historical GitHub account used as qualified follower-graph context for PurpleBravo/PurpleDelta overlap. Public self-presented names, professional claims, repository content, and account-content similarities remain account history. Graph proximity, mutable profile text, shared content, or handle/display-name similarity are contextual signals; civil identity, shared ownership, PurpleDelta membership, and current controller require source-backed links."
+}

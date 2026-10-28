@@ -1,0 +1,73 @@
+{
+  "id": "dhbr20-cluster-early-commercial-software-cooperation",
+  "type": "cluster",
+  "name": "Early-2000s disclosed DPRK commercial software-cooperation ecosystem",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Historical scholarly and policy sources describe disclosed commercial or cooperative software activity; allegation, adjudication, sanctions designation, modern fraudulent-employment finding, and current-control claim require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dhbr20-s01",
+      "dhbr20-s02",
+      "dhbr20-s03"
+    ]
+  },
+  "organizations": [
+    "Chosun Computer Center",
+    "Entrac",
+    "Hana Program Center",
+    "Hanabiz Co.",
+    "Koryo Technology Development Factory",
+    "Pyongyang Informatics Center",
+    "Samsung Electronics"
+  ],
+  "locations": [
+    "Beijing, China",
+    "Dandong, China"
+  ],
+  "ttps": [
+    "historical-commercial-software-development",
+    "institution-to-institution-cooperation",
+    "technical-training"
+  ],
+  "caveats": [
+    "Historical paid software work, training, joint development, product marketing, and overseas technical labor remain distinct from false-identity remote employment, laptop farming, unauthorized employer access, malicious cyber activity, or sanctions evasion unless an explicit source bridge connects them.",
+    "These closed historical relationships provide historical context; worker, employee, persona, account, current company, and present operation require current source evidence.",
+    "Publish this as a dated historical ecosystem or timeline entry; employer and front-company status requires separate source evidence.",
+    "The named South Korean or foreign organizations are described in source reporting; knowing-facilitator status requires separate evidence.",
+    "This evidence concerns openly structured, paid software development, training, and inter-Korean economic cooperation; cited material covers legitimate development and cooperation context, while false identities, third-party laptop hosts, covert payroll diversion, unauthorized access, data theft, and modern remote-employment fraud require separate evidence. The named South Korean firms' knowledge remains unestablished."
+  ],
+  "infrastructure": [
+    {
+      "type": "historical-evidence-boundary",
+      "statement": "This evidence concerns openly structured, paid software development, training, and inter-Korean economic cooperation. It does not establish false identities, third-party laptop hosts, covert payroll diversion, unauthorized access, data theft, or modern remote-employment fraud. Do not imply that the named South Korean firms knowingly supported illicit activity.",
+      "date_range": "1999-2011",
+      "source_ids": [
+        "dhbr20-s01",
+        "dhbr20-s02",
+        "dhbr20-s03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dhbr20-s03",
+      "support": "Provides the clearest dated institutional history of the Hana Program Center, including its joint-investment model, training role, contracted software work, and 2011 cessation. Source scope: The report describes the 2001-2011 Hana Program Center as a disclosed PIC–Hanabiz joint investment for contracted software development and training, records its closure, and explicitly says it had no evidence that PIC was engaged in malicious cyber activity at the time. It separately treats KCC offensive-cyber involvement as a source-qualified concern requiring further investigation. Evidence boundary: Reputable policy synthesis with extensive citations. Its institution-level cyber discussion contains stated uncertainty and must not be converted into a claim that all workers or commercial projects were malicious",
+      "locator": "Report pp. 57-59 (PDF pp. 67-69)"
+    },
+    {
+      "source_id": "dhbr20-s02",
+      "support": "Describes agreements, joint development, marketing, and on-site training as institution-to-institution cooperation rather than covert individual placement. Source scope: The chapter separates joint software development and marketing from other IT cooperation, names Samsung Electronics, Hanabiz.com, Entrac, Chosun Computer Center, and Dandong training centers, and frames the model as low-capital, labor-intensive commercial cooperation rather than concealed remote hiring. Evidence boundary: Government-hosted scholarly analysis. Several details reproduce then-current company or press reporting and should remain attributed to the chapter rather than presented as independently adjudicated facts. PDF creation date; the reviewed chapter itself identifies the 2005 edited volume but does not print a separate day-level publication date",
+      "locator": "Printed pp. 110 and 117-120 (PDF pp. 11 and 18-21)"
+    },
+    {
+      "source_id": "dhbr20-s01",
+      "support": "Documents a Beijing Samsung–Chosun Computer Center joint software center and the Dandong Hana Program Center as disclosed cooperative ventures intended to develop products or fill software orders. Source scope: The article describes disclosed commercial cooperation: a Samsung–Chosun Computer Center software center in Beijing, UNIKOTECH as a sales-oriented joint venture, and the Hana Program Center in Dandong filling software-development orders from South Korea and China using DPRK labor. Evidence boundary: Reputable academic source based partly on cited contemporary reporting and disclosed author interviews. It is historical secondary evidence, not a current corporate-registry record or proof of later illicit conduct. issue-level month inferred from the journal issue label Fall 2004; no day is printed in the reviewed PDF",
+      "locator": "Printed pp. 81-82 (PDF pp. 7-8)"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

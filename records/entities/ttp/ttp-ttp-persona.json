@@ -1,0 +1,91 @@
+{
+  "id": "ttp-ttp-persona",
+  "type": "ttp",
+  "name": "TTP-PERSONA",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Official regional guidance covering a regional pattern; named actor, employer, account, and front company remain unreported.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "ML-JPN-PSIA-2025-OUTLOOK",
+      "int-deu-bfv-2024",
+      "int-gbr-ofsi-2024",
+      "int-jpn-npa-2025",
+      "int-msmt-2025-2",
+      "int-rok-mofa-2026-joint",
+      "int-un-poe-2024"
+    ]
+  },
+  "ttps": [
+    "bank-account-mule",
+    "fabricated-employment-history",
+    "fabricated-resume",
+    "false-nationality",
+    "Forged/stolen IDs, synthetic KYC documents, stolen or AI-generated faces, face swaps, false education/employment histories, identity rental, verified-account purchases, email/phone masking, and mutually fabricated reviews.",
+    "freelance-platform",
+    "laptop-farm",
+    "regime-remittance",
+    "remote-desktop",
+    "stolen-identity",
+    "us-based-facilitator"
+  ],
+  "caveats": [
+    "Nationality, accent, appearance, contractor status and remote work are context signals; attribution requires corroboration.",
+    "This is an official Japanese framing of already documented identity-fraud and laptop-farm methods; it supplies methods context rather than a new named network."
+  ],
+  "infrastructure": [
+    {
+      "type": "regional-source-context",
+      "statements": [
+        "PSIA gives the fraudulent-employment model a standalone hidden-threat treatment. It describes workers falsifying nationality, names and employment histories or impersonating real people to obtain freelance remote development work. It also describes U.S.-based helpers procuring false identity materials, operating laptop farms, receiving payroll and forwarding funds, while warning that contractors as well as employees can create sanctions and insider-access risk."
+      ],
+      "source_ids": [
+        "ML-JPN-PSIA-2025-OUTLOOK"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "int-gbr-ofsi-2024",
+      "support": "OFSI describes false personae and aliases, rented identities, proxy accounts, fraudulent documents, face-swapping, and third parties completing verification or interviews",
+      "locator": "pp. 4-6 | Original official publication page: https://www.gov.uk/government/publications/north-korean-it-workers-advisory-signs-to-watch-for"
+    },
+    {
+      "source_id": "int-un-poe-2024",
+      "support": "The UN Panel reports multiple fake personas, purchased or borrowed reputable accounts, synthetic supporting documents, proxy email/SMS services, and AI-generated profile images",
+      "locator": "Annex 64 (PDF pp. 354-359) | Original official publication page: https://documents.un.org/doc/undoc/gen/n24/038/01/pdf/n2403801.pdf"
+    },
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "MSMT documents false and stolen identities, purchased or borrowed high-reputation accounts, proxy email/SMS services, and AI-generated profile material",
+      "locator": "report pp. 31-39; Annex 15 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    },
+    {
+      "source_id": "int-jpn-npa-2025",
+      "support": "The Japanese alert lists identity-document misuse, proxy interview participation, and inconsistent or shared account details as warning signs",
+      "locator": "pp. 2-3 | Original official publication page: https://www.mofa.go.jp/mofaj/press/release/pressit_000001_02650.html"
+    },
+    {
+      "source_id": "int-rok-mofa-2026-joint",
+      "support": "The joint alert describes forged or stolen identity material, AI-assisted identity obfuscation, and fabricated employment profiles",
+      "locator": "pp. 2-4 | Original official publication page: https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377471"
+    },
+    {
+      "source_id": "ML-JPN-PSIA-2025-OUTLOOK",
+      "support": "Japan's PSIA describes concealed DPRK IT workers using false nationality, names, work histories, or real-person impersonation to obtain remote freelance work, supported by U.S.-based helpers who procure identity materials, host employer laptops, enable remote access, receive payroll, and forward funds. It frames contractor access and payments as sanctions and insider-risk concerns, not as proof from remote status alone",
+      "locator": "Cyber section, PDF page 5, printed page 39, Column 2: 隠れた脅威：リモートワーカーに紛れ込む北朝鮮IT労働者"
+    },
+    {
+      "source_id": "int-deu-bfv-2024",
+      "support": "BfV describes fictitious or stolen identities, forged identity and education documents, AI-generated or edited photographs, and false career histories",
+      "locator": "pp. 1-3 | Original official publication page: https://www.verfassungsschutz.de/SharedDocs/publikationen/EN/economic-and-scientific-protection/2024-10-01-security-advisory.html"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

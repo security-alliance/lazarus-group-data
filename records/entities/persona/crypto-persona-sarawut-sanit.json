@@ -1,0 +1,118 @@
+{
+  "id": "crypto-persona-sarawut-sanit",
+  "type": "persona",
+  "name": "Sarawut Sanit",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "CoinDesk investigative reporting supports a historical employment-persona and incident relationship. It supplies no verified civil or legal identity, nationality, criminal charge, conviction, sanctions designation, present location, current activity, or control of any payment address.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "crypto-coindesk-2024-10-02"
+    ]
+  },
+  "organizations": [
+    "Iqlusion"
+  ],
+  "ttps": [
+    "CoinDesk-reported routing of employment earnings"
+  ],
+  "caveats": [
+    "CoinDesk independently reports Sarawut Sanit as one of two developers hired by Iqlusion and says blockchain review found earnings routed to wallets linked to sanctioned DPRK agent Sim Hyon Sop. The record carries a research-attributed persona and payment-linkage finding at that source's level; legal identity determination is outside this source-level finding.",
+    "One investigative publisher family supports this persona. Payment linkage or incident co-occurrence provides contextual association; verified natural person or present controller status requires a source bridge.",
+    "Only the CoinDesk-supported persona and relationship claims are admitted; upstream-only account, image, residence, contact, identity-document, and payment-address material is excluded."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-payment-linkage",
+      "persona_label": "Sarawut Sanit",
+      "historical_payment_context": "Iqlusion payments",
+      "reported_destination_association": "wallets linked by CoinDesk to Sim Hyon Sop",
+      "payment_address_retained": false,
+      "recipient_control_or_persona_identity_established": false,
+      "source_ids": [
+        "crypto-coindesk-2024-10-02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crypto-coindesk-2024-10-02",
+      "support": "Named worker persona, employer relationship, and payment-linkage allegation",
+      "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing wallet transfers to Sim Hyon Sop-linked addresses"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-crypto-persona-sarawut-sanit-source-reported-persona-label-round57",
+      "type": "identity_name",
+      "predicate": "coindesk_reported_historical_persona_label",
+      "value": {
+        "label": "Sarawut Sanit",
+        "verified_civil_or_legal_identity": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing wallet transfers to Sim Hyon Sop-linked addresses.",
+          "quote": "Manian never met the freelancers, “Jun Kai” and “Sarawut Sanit,” in person."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "Source-reported freelancer label only; no legal identity is established."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-sarawut-sanit-iqlusion-contractor-relationship-round57",
+      "type": "relationship",
+      "predicate": "coindesk_reported_historical_iqlusion_payment_relationship",
+      "value": {
+        "organization": "Iqlusion",
+        "formal_employment_or_present_relationship_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing wallet transfers to Sim Hyon Sop-linked addresses.",
+          "quote": "The transfers in question turned out to be Iqlusion's payments to Kai and Sanit."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "Historical source-reported payment context only."
+      ]
+    },
+    {
+      "id": "claim-crypto-persona-sarawut-sanit-sim-hyon-sop-linked-payment-report-round57",
+      "type": "relationship",
+      "predicate": "coindesk_reported_payment_routing_to_linked_wallets",
+      "value": {
+        "related_label": "Sim Hyon Sop",
+        "relationship_scope": "wallets CoinDesk described as linked to Sim Hyon Sop",
+        "payment_address_retained": false,
+        "recipient_control_or_persona_identity_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "crypto-coindesk-2024-10-02",
+          "locator": "Section heading ‘Hiding in plain sight’; subsection discussing Iqlusion; paragraphs naming Jun Kai and Sarawut Sanit and describing wallet transfers to Sim Hyon Sop-linked addresses.",
+          "quote": "Sarawut appears to have funneled all of his earnings to Sim and other Sim-linked blockchain wallets."
+        }
+      ],
+      "observed_at": "2024-10-02",
+      "notes": [
+        "No address is retained. CoinDesk's blockchain-linkage finding does not by itself prove wallet control or civil identity."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "CoinDesk-reported historical employment persona. The displayed name, pseudonym, project relationship, and payment linkage leave civil identity, nationality, present controller, and current activity unresolved."
+}

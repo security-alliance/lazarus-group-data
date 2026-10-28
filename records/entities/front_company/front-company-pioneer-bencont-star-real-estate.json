@@ -1,0 +1,88 @@
+{
+  "id": "front-company-pioneer-bencont-star-real-estate",
+  "type": "front_company",
+  "name": "Pioneer Bencont Star Real Estate",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "OFAC-designated UAE-based company subordinate to Chinyong; Treasury reported that team lead Jon Yon Gun coordinated payments from Pioneer Bencont to Chinyong; administrative sanctions designation, with payment coordination source-reported and criminal charge or conviction outside the designation.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "doar9-ofac-sdn-current",
+      "gov-28e42dec45a8",
+      "gov-e31464a55e89",
+      "int-rok-mofa-2024-sanctions"
+    ]
+  },
+  "organizations": [
+    "Chinyong Information Technology Cooperation Company"
+  ],
+  "locations": [
+    "Dubai, United Arab Emirates (OFAC listing context)",
+    "United Arab Emirates"
+  ],
+  "ttps": [
+    "front-company presentation",
+    "resume credibility and/or worker deployment"
+  ],
+  "caveats": [
+    "Administrative sanctions state an administrative status; criminal charges and convictions require separate proceedings.",
+    "Sanctions-list address context is historical location context; present physical location, current operations, ownership, employment, or control require current evidence.",
+    "SDN.CSV, ADD.CSV, and ALT.CSV are component tables of one current OFAC dataset and count as one source family.",
+    "Street and postal addresses, birth data, passports, government and company identifiers, email addresses, financial selectors, and sanctions boilerplate are excluded.",
+    "The city and classification are historical context; current operating-site and activity status are unreported.",
+    "The source supplies no current-operation, current-ownership or criminal-conviction finding.",
+    "Treasury identifies the company as UAE-based; Russia-based location requires separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "ofac-linked-to",
+      "value": "Chinyong Information Technology Cooperation Company",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    },
+    {
+      "type": "ofac-organization-type",
+      "value": "Other information technology and computer service activities",
+      "source_ids": [
+        "doar9-ofac-sdn-current"
+      ]
+    },
+    {
+      "type": "treasury-reported-payment-coordination",
+      "value": "Jon Yon Gun coordinated payments from Pioneer Bencont Star Real Estate to Chinyong",
+      "source_ids": [
+        "gov-28e42dec45a8"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-pioneer-bencont-star-real-estate"
+  ],
+  "sources": [
+    {
+      "source_id": "gov-28e42dec45a8",
+      "support": "Treasury identifies Pioneer Bencont Star Real Estate as a UAE-based company subordinate to Chinyong and reports that team lead Jon Yon Gun coordinated payments from Pioneer Bencont to Chinyong. This is an administrative sanctions finding, not a criminal conviction.",
+      "locator": "DPRK IT Worker Delegations section; Pioneer Bencont Star Real Estate paragraph"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID ADD row(s) joined to OFAC entity number 48261 support only the retained coarse sanctions-list location values. The city and classification do not establish a current operating site or activity. Street, postal, and duplicate-row details are excluded",
+      "locator": "ADD.CSV current row(s) joined to OFAC entity number 48261"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current",
+      "support": "The current exact-ID SDN row for OFAC entity number 48261 supports the current administrative-list verification and source-explicit structured facts in this record. The exact current rows add an IT/computer-services classification, Dubai listing context, and retain the explicit Chinyong link. Sensitive personal, identity-document, company-identifier, financial, contact, and compliance fields are excluded",
+      "locator": "SDN.CSV current row for OFAC entity number 48261"
+    },
+    {
+      "source_id": "int-rok-mofa-2024-sanctions",
+      "support": "ROK designated it for illicit activity linked to Jinyong IT",
+      "locator": "body and sanctions table | Availability note (2026-08-12): The exact MOFA page returned HTTP 500 and the analogous Open Data path returned HTTP 404. No content-equivalent official alternate was verified; retain the exact original URL and do not classify it as removed"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

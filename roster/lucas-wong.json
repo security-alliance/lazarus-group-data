@@ -1,0 +1,67 @@
+{
+  "id": "lucas-wong",
+  "real_name": "Lucas Wong",
+  "aliases": [
+    "cox1118",
+    "superlwclx",
+    "LucasWongC",
+    "c__x__"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "lucas.wong.1118@gmail.com",
+    "wm111898@gmail.com"
+  ],
+  "websites": [
+    "lucasw.net"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2025-01-01"
+      }
+    }
+  ],
+  "telegram": [
+    {
+      "id": "5034927805",
+      "usernames": [
+        "cox1118"
+      ],
+      "names": []
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "superlwclx",
+      "usernames": [
+        "superlwclx"
+      ]
+    },
+    {
+      "gh_id": "LucasWongC",
+      "usernames": [
+        "LucasWongC"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xee52717e6dA13499a3C4ba803e4D952CF052704E",
+        "0x94A8518B76A3c45F5387B521695024379d43d715"
+      ],
+      "currency": "ETH"
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/lucas-wong/lucas-wong.jpg",
+      "short_description": "Profile picture of Lucas Wong.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

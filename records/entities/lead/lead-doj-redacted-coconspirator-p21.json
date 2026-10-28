@@ -1,0 +1,48 @@
+{
+  "id": "lead-doj-redacted-coconspirator-p21",
+  "type": "lead",
+  "name": "Redacted co-conspirator (indictment ¶21)",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The public indictment redacts this person and two monikers; the role is reproduced at source level, and identity inference requires separate evidence.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "A source-bounded lead record for Redacted co-conspirator (indictment ¶21); it remains separate from any person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports Redacted co-conspirator (indictment ¶21) in the described scheme.",
+      "locator": "PDF p. 7 ¶21"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-lead-doj-redacted-coconspirator-p21",
+      "type": "alias",
+      "predicate": "redacted_supervisor_role",
+      "value": {
+        "description": "The person and two monikers are redacted in the public indictment."
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 7 ¶21",
+          "quote": "functioned as a supervisor of overseas co-conspirators posing as employees and domestic co-conspirators facilitating the overseas worker scheme."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

@@ -1,0 +1,679 @@
+{
+  "id": "facilitator-oleksandr-didenko",
+  "type": "facilitator",
+  "name": "Oleksandr Didenko",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "Convicted by guilty plea and sentenced in D.D.C. No. 1:24-cr-00261-RDM for conspiracy to commit wire fraud and aggravated identity theft to 60 months in prison and 12 months of supervised release, with more than $1.4 million forfeiture and $46,547.28 restitution.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "dln26-s05",
+      "flr6-s08",
+      "flr6-s21",
+      "gov-cb0ee78e68a2",
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Oleksandr Didenko",
+  "organizations": [
+    "Upworksell.com"
+  ],
+  "ttps": [
+    "identity or account enablement",
+    "payment or laptop-farm support"
+  ],
+  "caveats": [
+    "Employer and victim identities, persons other than the named subject, devices, accounts, wallets, payments, contacts, precise addresses, and other sensitive selectors are excluded.",
+    "The record supplies historical context; present location, current control, current activity, and new legal posture status are unreported.",
+    "This is same-source depth from the already-admitted MSMT/2025/2 report; corroboration remains within the MSMT/2025/2 source family.",
+    "The cited affidavit states probable-cause allegations; the cited court and DOJ records supply later adjudicated posture. The Telegram handle is historical source-attributed infrastructure; current control requires newer evidence.",
+    "The criminal docket is distinct from the related magistrate arrest-warrant matter, D.D.C. No. 1:24-mj-00152-MAU.",
+    "Only defendant-specific plea, sentence and role facts in the cited DOJ release are assigned to this person; aggregate enforcement totals remain separate."
+  ],
+  "aliases": [
+    {
+      "alias_type": "alternate-spelling",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-cb0ee78e68a2"
+      ],
+      "value": "Alexander Didenko"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "msmt-reported-bounded-historical-facilitator-depth",
+      "historical_period": "2024, before and soon after arrest",
+      "reported_minimum_workers_supported": 300,
+      "reported_support_methods": [
+        "managing laptop farms",
+        "creating fake accounts"
+      ],
+      "reported_post_arrest_effect": "workers lost jobs at at least two unnamed U.S. companies because access to Didenko's U.S.-based laptop farms was lost",
+      "employer_or_victim_names_retained": false,
+      "person_device_or_account_selectors_retained": false,
+      "independent_corroboration": false,
+      "new_legal_finding": false,
+      "current_activity_or_control_inferred": false,
+      "source_basis": "MSMT Participating State information",
+      "source_ids": [
+        "int-msmt-2025-2"
+      ]
+    },
+    {
+      "type": "criminal-case-docket",
+      "value": "D.D.C. No. 1:24-cr-00261-RDM",
+      "relationship": "exact-captioned-case",
+      "source_ids": [
+        "flr6-s08",
+        "flr6-s21"
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "upworksell.com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-cb0ee78e68a2"
+      ]
+    },
+    {
+      "type": "social-handle",
+      "value": "[@]AlexAccountManager",
+      "relationship": "reported-link",
+      "source_ids": [
+        "gov-cb0ee78e68a2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Prior to his arrest, Didenko provided support to at least 300 North Korean IT workers through managing laptop farms and creating fake accounts. Soon after his arrest, DPRK IT workers lost jobs with at least two U.S. companies because he lost access to Didenko’s U.S.-based laptop farms. 281 MSMT Participating State information",
+      "locator": "Ukraine facilitator section, PDF file p. 90 (printed p. 88), paragraph beginning 'In 2024'; footnote 281"
+    },
+    {
+      "source_id": "flr6-s08",
+      "support": "The final judgment identifies United States v. Oleksandr Didenko, D.D.C. No. 1:24-cr-00261-RDM",
+      "locator": "D.D.C. No. 1:24-cr-00261-RDM, Doc. 35"
+    },
+    {
+      "source_id": "gov-cb0ee78e68a2",
+      "support": "The affidavit alleges that Oleksandr Didenko operated UpWorkSell, managed approximately 871 proxy identities, supplied proxy accounts for freelance and money-transfer platforms, and facilitated at least three U.S. laptop farms",
+      "locator": "D.D.C. No. 1:24-mj-00152-MAU, Doc. 1-1, ¶¶15–18"
+    },
+    {
+      "source_id": "dln26-s05",
+      "support": "Oleksandr Didenko pleaded guilty on November 10, 2025, to conspiracy to commit wire fraud and aggravated identity theft",
+      "locator": "Three Guilty Pleas — Southern District of Georgia; Oleksandr Didenko Guilty Plea; Erick Ntekereze Prince Guilty Plea"
+    },
+    {
+      "source_id": "flr6-s21",
+      "support": "DOJ reports Didenko's conviction and sentence in the criminal prosecution",
+      "locator": "Opening and sentence paragraph"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-legal-name",
+      "type": "identity_name",
+      "predicate": "legal_name_in_judgment",
+      "value": {
+        "name": "Oleksandr Didenko"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 1, case caption",
+          "quote": "UNITED STATES OF AMERICA v. OLEKSANDR DIDENKO"
+        }
+      ],
+      "observed_at": "2026-02-24"
+    },
+    {
+      "id": "claim-alias-alexander",
+      "type": "alias",
+      "predicate": "also_known_as",
+      "value": {
+        "alias": "Alexander Didenko",
+        "alias_type": "alternate spelling"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 6, para. 15",
+          "quote": "OLEKSANDR DIDENKO, also known as “Alexander Didenko” (DIDENKO)"
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Alias is explicitly stated in a probable-cause affidavit."
+      ]
+    },
+    {
+      "id": "claim-nationality-ukrainian",
+      "type": "location",
+      "predicate": "reported_nationality",
+      "value": {
+        "nationality": "Ukrainian"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "section 'Oleksandr Didenko Guilty Plea – District of Columbia', opening sentence",
+          "quote": "Ukrainian national Oleksandr Didenko pleaded guilty"
+        }
+      ],
+      "observed_at": "2025-11-14",
+      "notes": [
+        "The public nationality descriptor does not establish residence."
+      ]
+    },
+    {
+      "id": "claim-operated-upworksell",
+      "type": "organization_affiliation",
+      "predicate": "allegedly_operated",
+      "value": {
+        "organization": "UpWorkSell"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 7, para. 17",
+          "quote": "UpWorkSell is operated by DIDENKO."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause allegation, not independently converted into an adjudicated fact by this claim."
+      ]
+    },
+    {
+      "id": "claim-domain-upworksell",
+      "type": "infrastructure",
+      "predicate": "reported_domain_link",
+      "value": {
+        "domain": "upworksell.com"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 6, para. 16",
+          "quote": "UpWorkSell uses a publicly-available website, https://upworksell.com (UpWorkSell)."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Historical source observation; no present hosting, registration, or control inference."
+      ]
+    },
+    {
+      "id": "claim-telegram-handle",
+      "type": "account",
+      "predicate": "historical_reported_handle",
+      "value": {
+        "platform": "Telegram",
+        "handle": "[@]AlexAccountManager"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 7, para. 17, item (2)",
+          "quote": "Telegram handle"
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Only the public handle is retained. The email, recovery selectors, and telephone number in the same passage are excluded. Historical attribution is not proof of current control.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-proxy-identities",
+      "type": "incident",
+      "predicate": "alleged_proxy_identity_count",
+      "value": {
+        "approximate_count": 871
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "pp. 7-8, para. 18",
+          "quote": "evidence collected during the investigation reveals that DIDENKO manages as many as approximately 871 proxy identities"
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause allegation; no identities or identity documents are retained."
+      ]
+    },
+    {
+      "id": "claim-laptop-farms",
+      "type": "incident",
+      "predicate": "allegedly_facilitated_laptop_farms",
+      "value": {
+        "minimum_count": 3,
+        "country": "United States"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "pp. 7-8, para. 18",
+          "quote": "DIDENKO facilitates the operation of at least 3 U.S.-based “laptop farms” hosting approximately 79 computers."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Probable-cause allegation; facility addresses and associated private persons are excluded."
+      ]
+    },
+    {
+      "id": "claim-remote-access-service",
+      "type": "incident",
+      "predicate": "allegedly_provided_remote_access",
+      "value": {
+        "service": "remote access to freelance and financial accounts via hosted computers"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 9, para. 21",
+          "quote": "DIDENKO also offers customers, for a fee, the ability to access freelance worker accounts and the above-mentioned financial accounts via a remote computer desktop program."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "New atomic extraction from a seeded document; probable-cause allegation."
+      ]
+    },
+    {
+      "id": "claim-technical-manager-simon",
+      "type": "relationship",
+      "predicate": "allegedly_referred_customers_to_technical_manager",
+      "value": {
+        "moniker": "Simon",
+        "reported_role": "Technical Manager"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 14, para. 38",
+          "quote": "DIDENKO refers them to “Simon”, the Technical Manager."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Moniker only; the redacted/non-extractable messaging selectors were not retained. This does not resolve Simon to a legal person."
+      ]
+    },
+    {
+      "id": "claim-finance-manager-denys",
+      "type": "relationship",
+      "predicate": "allegedly_referred_customers_to_finance_manager",
+      "value": {
+        "moniker": "Denys",
+        "reported_role": "Finance Manager"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 14, para. 39",
+          "quote": "DIDENKO sometimes refers customers to “Denys”, the Finance Manager."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "Moniker only; the redacted/non-extractable messaging selectors were not retained. This does not resolve Denys to a legal person."
+      ]
+    },
+    {
+      "id": "claim-trello-use",
+      "type": "account",
+      "predicate": "allegedly_used_work_management_service",
+      "value": {
+        "service": "Trello"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "pp. 14-15, para. 40",
+          "quote": "DIDENKO uses Trello to further the scheme."
+        }
+      ],
+      "observed_at": "2024-04-29",
+      "notes": [
+        "New atomic extraction from the seeded affidavit; no account selector is retained. Probable-cause allegation."
+      ]
+    },
+    {
+      "id": "claim-north-korea-awareness",
+      "type": "incident",
+      "predicate": "alleged_statement_about_north_korean_clients",
+      "value": {
+        "statement_date": "2023-03-10"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-cb0ee78e68a2",
+          "locator": "p. 32, para. 64",
+          "quote": "last year I received information that some of my clients are from North Korea, I was very surprised, I thought it was impossible"
+        }
+      ],
+      "observed_at": "2023-03-10",
+      "notes": [
+        "The affidavit attributes this chat statement to Didenko. It is not generalized into a claim that every client was North Korean."
+      ]
+    },
+    {
+      "id": "claim-plea-date",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty_on",
+      "value": {
+        "date": "2025-11-10"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "section 'Oleksandr Didenko Guilty Plea – District of Columbia', opening sentence",
+          "quote": "On Nov. 10, in the U.S. District Court for the District of Columbia, Ukrainian national Oleksandr Didenko pleaded guilty"
+        }
+      ],
+      "observed_at": "2025-11-10",
+      "notes": [
+        "Year follows from the release date and is represented explicitly in the normalized source support."
+      ]
+    },
+    {
+      "id": "claim-plea-wire-fraud",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty_to",
+      "value": {
+        "count": 1,
+        "offense": "wire fraud conspiracy"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "section 'Oleksandr Didenko Guilty Plea – District of Columbia', opening sentence",
+          "quote": "pleaded guilty to one count of wire fraud conspiracy"
+        }
+      ],
+      "observed_at": "2025-11-10"
+    },
+    {
+      "id": "claim-plea-identity-theft",
+      "type": "legal_event",
+      "predicate": "pleaded_guilty_to",
+      "value": {
+        "count": 1,
+        "offense": "aggravated identity theft"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "section 'Oleksandr Didenko Guilty Plea – District of Columbia', opening sentence",
+          "quote": "and one count of aggravated identity theft"
+        }
+      ],
+      "observed_at": "2025-11-10"
+    },
+    {
+      "id": "claim-extradition",
+      "type": "legal_event",
+      "predicate": "extradited_to_united_states",
+      "value": {
+        "date": "2024-12-30",
+        "from_country": "Poland",
+        "to_country": "United States"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dln26-s05",
+          "locator": "section 'Oleksandr Didenko Guilty Plea – District of Columbia', second paragraph",
+          "quote": "In May 2024, Polish authorities arrested Didenko and on Dec. 30, 2024, he was extradited to the United States."
+        }
+      ],
+      "observed_at": "2024-12-30",
+      "notes": [
+        "New profile chronology claim found during complete review of the seeded release."
+      ]
+    },
+    {
+      "id": "claim-criminal-docket",
+      "type": "infrastructure",
+      "predicate": "criminal_case_docket",
+      "value": {
+        "court": "U.S. District Court for the District of Columbia",
+        "docket": "1:24-cr-00261-RDM"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 1, case caption",
+          "quote": "Case Number: 24-CR-261-RDM"
+        }
+      ],
+      "observed_at": "2026-02-24",
+      "notes": [
+        "This criminal docket is distinct from related magistrate matter 1:24-mj-00152-MAU."
+      ]
+    },
+    {
+      "id": "claim-adjudicated-guilty",
+      "type": "legal_event",
+      "predicate": "adjudicated_guilty_after_plea",
+      "value": {
+        "counts": [
+          1,
+          4
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 1, 'The Defendant' and offense table",
+          "quote": "pleaded guilty to count(s) 1 and 4"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "The same page marks all remaining counts dismissed on the government's motion."
+      ]
+    },
+    {
+      "id": "claim-sentence-imprisonment",
+      "type": "legal_event",
+      "predicate": "sentenced_to_imprisonment",
+      "value": {
+        "total_months": 60,
+        "count_1_months": 36,
+        "count_4_months": 24,
+        "run": "consecutively"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 2, 'Imprisonment'",
+          "quote": "36 months as to count 1 and 24 months as to count 4 all to run consecutively."
+        }
+      ],
+      "observed_at": "2026-02-19"
+    },
+    {
+      "id": "claim-supervised-release",
+      "type": "legal_event",
+      "predicate": "sentenced_to_supervised_release",
+      "value": {
+        "months": 12,
+        "counts": [
+          1,
+          4
+        ],
+        "run": "concurrently"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 3, 'Supervised Release'",
+          "quote": "12 months as to counts 1 and 4 all to run concurrently."
+        }
+      ],
+      "observed_at": "2026-02-19"
+    },
+    {
+      "id": "claim-restitution",
+      "type": "legal_event",
+      "predicate": "ordered_restitution",
+      "value": {
+        "currency": "USD",
+        "amount": "46547.28"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 5, special conditions, restitution paragraph",
+          "quote": "You are ordered to make restitution in the amount of 46,547.28"
+        }
+      ],
+      "observed_at": "2026-02-19",
+      "notes": [
+        "Victim payee name and address are excluded."
+      ]
+    },
+    {
+      "id": "claim-forfeiture",
+      "type": "legal_event",
+      "predicate": "ordered_forfeiture_money_judgment",
+      "value": {
+        "currency": "USD",
+        "amount": "1420185.64"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s08",
+          "locator": "p. 5, final paragraph",
+          "quote": "you, Oleksandr Didenko, are hereby ordered to forfeit a money judgment in the amount of $1,420,185.64"
+        }
+      ],
+      "observed_at": "2026-02-19"
+    },
+    {
+      "id": "claim-didenko-msmt-300-worker-support-round64",
+      "type": "incident",
+      "predicate": "msmt_participating_state_reported_historical_worker_support",
+      "value": {
+        "historical_period": "2024, before arrest",
+        "minimum_dprk_it_workers_supported": 300,
+        "reported_support_methods": [
+          "managing laptop farms",
+          "creating fake accounts"
+        ],
+        "person_device_or_account_selectors_retained": false,
+        "current_activity_or_control_inferred": false,
+        "new_legal_finding": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Ukraine facilitator section, PDF file p. 90 (printed p. 88), subject paragraph; footnote 281",
+          "quote": "Prior to his arrest, Didenko provided support to at least 300 North Korean IT workers through managing laptop farms and creating fake accounts."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Ukraine facilitator section, PDF file p. 90 (printed p. 88), subject paragraph; footnote 281",
+          "quote": "281 MSMT Participating State information."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State reporting only; the existing conviction remains separately sourced and no new legal finding is inferred.",
+        "Individual worker identities, devices, accounts, credentials, precise locations, and selectors are excluded."
+      ]
+    },
+    {
+      "id": "claim-didenko-msmt-post-arrest-job-loss-round64",
+      "type": "incident",
+      "predicate": "msmt_participating_state_reported_post_arrest_disruption",
+      "value": {
+        "historical_period": "soon after 2024 arrest",
+        "reported_effect": "DPRK IT workers lost jobs",
+        "minimum_unnamed_us_companies": 2,
+        "reported_reason": "loss of access to Didenko's U.S.-based laptop farms",
+        "employer_or_victim_names_retained": false,
+        "current_access_or_activity_inferred": false,
+        "new_legal_finding": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Ukraine facilitator section, PDF file p. 90 (printed p. 88), subject paragraph; footnote 281",
+          "quote": "Soon after his arrest, DPRK IT workers lost jobs with at least two U.S. companies because he lost access to Didenko’s U.S.-based laptop farms."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Ukraine facilitator section, PDF file p. 90 (printed p. 88), subject paragraph; footnote 281",
+          "quote": "281 MSMT Participating State information."
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Reported historical operational effect only; employer/victim identities and person, device, and account selectors are excluded.",
+        "The report is not independent corroboration of the existing criminal case."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Oleksandr Didenko is the Ukrainian defendant in D.D.C. docket 1:24-cr-00261-RDM and the subject of the related arrest-warrant matter; allegations, guilty plea, and judgment remain date- and source-specific."
+}

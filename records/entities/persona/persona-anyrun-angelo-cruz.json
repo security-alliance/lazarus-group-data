@@ -1,0 +1,475 @@
+{
+  "id": "persona-anyrun-angelo-cruz",
+  "type": "persona",
+  "name": "Angelo Cruz recruiter persona",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "suspected Famous Chollima recruiter/facilitator recruiter",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "late-2026-anyrun-part2",
+      "late-2026-defcon34-slides",
+      "late-2026-github-angelo-discussion"
+    ]
+  },
+  "caveats": [
+    "Account and persona observations belong to the cited historical investigation; current ownership, control, availability, location, nationality, and legal identity require newer evidence.",
+    "Angelo Cruz is a source-assigned persona label; the record carries the label rather than a verified legal identity.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "Presented names and account labels are source-reported personas or handles; legal identity requires source evidence.",
+    "The ANY.RUN article and DEF CON deck describe one controlled investigation and form one source family; corroboration remains within that family."
+  ],
+  "aliases": [
+    {
+      "value": "Angelo Cruz",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides",
+        "late-2026-github-angelo-discussion"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "angelocruz4206",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides",
+        "late-2026-github-angelo-discussion"
+      ],
+      "note": "Source-reported previous handle for stackpilot108."
+    },
+    {
+      "platform": "Telegram",
+      "identifier": "hurrican08",
+      "url": "hxxps://t[.]me/hurrican08",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides",
+        "late-2026-github-angelo-discussion"
+      ]
+    },
+    {
+      "platform": "GitHub",
+      "identifier": "stackpilot108",
+      "url": "https://github.com/stackpilot108",
+      "status": "historical",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "late-2026-anyrun-part2",
+        "late-2026-defcon34-slides",
+        "late-2026-github-angelo-discussion"
+      ],
+      "note": "Source-published numeric account ID: 166145845"
+    }
+  ],
+  "images": [
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+      "caption": "Source-published: ANY.RUN Angelo GitHub recruitment screenshot",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "source_url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation-part-two",
+      "caption": "Source-published: ANY.RUN source-labeled Angelo interview capture. Source-labeled imagery only; no facial recognition performed.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "late-2026-anyrun-part2",
+      "support": "The article reports that the Angelo Cruz recruiter persona recruited the controlled facilitator through GitHub and introduced workers to the fake company",
+      "locator": "Chapter III: “The Horse Trader,” including “Angelo’s comment on GitHub looking for facilitators” and the introduction to Ballena Azul LTD"
+    },
+    {
+      "source_id": "late-2026-github-angelo-discussion",
+      "support": "The public GitHub discussion preserves the source-reported Telegram identifier after the GitHub handle changed",
+      "locator": "Discussion #21; source-published evidence URL"
+    },
+    {
+      "source_id": "late-2026-defcon34-slides",
+      "support": "The conference deck specifically presents the recruiter-account and interview-image sequence used to explain the controlled engagement; it is another presentation of the same investigation, not independent corroboration",
+      "locator": "PDF pp. 13–14, recruiter account and interview imagery"
+    },
+    {
+      "source_id": "src-1476746594fe"
+    },
+    {
+      "source_id": "src-ce41b4ea5563"
+    },
+    {
+      "source_id": "src-437f25674f44"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-angelo-cruz-persona-name",
+      "type": "identity_name",
+      "predicate": "researcher_reported_recruiter_persona_name",
+      "value": {
+        "name": "Angelo Cruz",
+        "identity_status": "researcher-reported persona, not verified civil identity"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-anyrun-part2",
+          "locator": "Chapter III: The Horse Trader, opening paragraph",
+          "quote": "Angelo Cruz met Andy on GitHub"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "The label is not independently established as a legal name."
+      ]
+    },
+    {
+      "id": "claim-angelo-famous-chollima-recruiter",
+      "type": "organization_affiliation",
+      "predicate": "researcher_attributed_recruiter_role",
+      "value": {
+        "organization": "Famous Chollima",
+        "role": "recruiter"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-anyrun-part2",
+          "locator": "paragraph immediately before Chapter III",
+          "quote": "Angelo Cruz, a recruiter from Famous Chollima"
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "ANY.RUN research attribution, not an official legal finding."
+      ]
+    },
+    {
+      "id": "claim-angelo-github-recruitment-contact",
+      "type": "incident",
+      "predicate": "researcher_reported_github_recruitment_contact",
+      "value": {
+        "platform": "GitHub",
+        "contacted_person_role": "controlled-investigation facilitator persona"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-anyrun-part2",
+          "locator": "Chapter III: The Horse Trader, opening paragraph",
+          "quote": "Angelo Cruz met Andy on GitHub"
+        }
+      ],
+      "observed_at": "2026-02-02",
+      "notes": [
+        "Andy is an investigation persona, not a victim or verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-angelo-facilitator-arrangement",
+      "type": "relationship",
+      "predicate": "researcher_reported_facilitator_arrangement",
+      "value": {
+        "counterparty_role": "controlled-investigation facilitator persona",
+        "purpose": "help developers find jobs"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-anyrun-part2",
+          "locator": "Chapter III: The Horse Trader, paragraph after GitHub screenshot",
+          "quote": "Cruz convinced Andy they should work together, with Andy acting as his trusted facilitator to help his developers find jobs."
+        }
+      ],
+      "observed_at": "2026-08-10",
+      "notes": [
+        "Source-bounded controlled-investigation narrative; no private-message content retained."
+      ]
+    },
+    {
+      "id": "claim-historical-github-angelocruz4206",
+      "type": "account",
+      "predicate": "source_displayed_historical_github_handle",
+      "value": {
+        "platform": "GitHub",
+        "handle": "angelocruz4206",
+        "status": "historical"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-defcon34-slides",
+          "locator": "PDF p. 13, The Recruiter: Angelo Cruz, GitHub discussion screenshot",
+          "quote": "angelocruz4206"
+        }
+      ],
+      "observed_at": "2026-02-02",
+      "notes": [
+        "Historical source-family label; no present ownership inference."
+      ]
+    },
+    {
+      "id": "claim-github-current-handle-same-id",
+      "type": "account",
+      "predicate": "public_artifact_currently_resolves_account_id_to_handle",
+      "value": {
+        "platform": "GitHub",
+        "current_handle": "stackpilot108",
+        "numeric_account_id": 166145845
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-github-angelo-discussion",
+          "locator": "discussion #21 header and author link",
+          "quote": "stackpilot108"
+        },
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, login and id fields",
+          "quote": "\"id\": 166145845"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "The public artifact ties the current handle to the numeric ID. The separately sourced historical handle does not, by itself, prove that it previously had the same numeric ID."
+      ]
+    },
+    {
+      "id": "claim-github-discussion-date",
+      "type": "incident",
+      "predicate": "public_recruitment_discussion_created_at",
+      "value": {
+        "platform": "GitHub",
+        "discussion": 21,
+        "created_at": "2026-02-02T10:58:42Z"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "late-2026-github-angelo-discussion",
+          "locator": "discussion #21 author timestamp",
+          "quote": "Feb 2, 2026"
+        }
+      ],
+      "observed_at": "2026-02-02",
+      "notes": [
+        "Public artifact date only."
+      ]
+    },
+    {
+      "id": "claim-telegram-hurrican08",
+      "type": "account",
+      "predicate": "public_discussion_advertised_historical_telegram_handle",
+      "value": {
+        "platform": "Telegram",
+        "handle": "hurrican08",
+        "status": "historical source-linked selector"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-github-angelo-discussion",
+          "locator": "discussion #21 body",
+          "quote": "My tg id is"
+        }
+      ],
+      "observed_at": "2026-02-02",
+      "notes": [
+        "Historical public account evidence only. Do not contact, message, or infer present ownership.",
+        "The exact quotation is shortened to omit a direct-contact handle; consult the cited source and locator for the full published text."
+      ]
+    },
+    {
+      "id": "claim-discussion-income-sharing-offer",
+      "type": "incident",
+      "predicate": "public_discussion_solicited_collaborator_with_income_share",
+      "value": {
+        "platform": "GitHub",
+        "offer": "share income in exchange for collaboration"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "late-2026-github-angelo-discussion",
+          "locator": "discussion #21 body",
+          "quote": "i am gonna share incomes to you if you can collaborate.."
+        }
+      ],
+      "observed_at": "2026-02-02",
+      "notes": [
+        "The public solicitation is recorded without inferring the author's civil identity or present account controller."
+      ]
+    },
+    {
+      "id": "claim-stackpilot108-current-status",
+      "type": "account",
+      "predicate": "source_linked_github_account_publicly_reachable",
+      "value": {
+        "platform": "GitHub",
+        "handle": "stackpilot108",
+        "public_repositories": 9,
+        "reachable_on": "2026-08-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, login field",
+          "quote": "\"login\": \"stackpilot108\""
+        },
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, public_repos field",
+          "quote": "\"public_repos\": 9"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Reachability and repository count do not establish present ownership, control, activity, nationality, or identity."
+      ]
+    },
+    {
+      "id": "claim-stackpilot108-repository-window",
+      "type": "account",
+      "predicate": "public_repository_metadata_creation_window",
+      "value": {
+        "platform": "GitHub",
+        "handle": "stackpilot108",
+        "public_repositories_reviewed": 9,
+        "earliest_created_at": "2025-05-03",
+        "latest_created_at": "2026-04-06"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-ce41b4ea5563",
+          "locator": "complete nine-record public repository listing, latest created_at field",
+          "quote": "\"created_at\": \"2026-04-06T17:27:41Z\""
+        },
+        {
+          "source_id": "src-ce41b4ea5563",
+          "locator": "complete nine-record public repository listing, earliest created_at field",
+          "quote": "\"created_at\": \"2025-05-03T16:43:13Z\""
+        },
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, public_repos field",
+          "quote": "\"public_repos\": 9"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Account-level metadata only; it is not proof of authorship or present control."
+      ]
+    },
+    {
+      "id": "claim-historical-handle-not-found",
+      "type": "account",
+      "predicate": "historical_github_handle_not_found",
+      "value": {
+        "platform": "GitHub",
+        "handle": "angelocruz4206",
+        "result": "Not Found",
+        "checked_on": "2026-08-13"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-437f25674f44",
+          "locator": "complete public API response",
+          "quote": "\"message\": \"Not Found\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "This does not independently establish the reason for unavailability; the numeric-ID evidence supplies the rename linkage.",
+        "A dated GitHub 404 is an ephemeral negative observation and is not necessary to the historical persona evidence."
+      ]
+    },
+    {
+      "id": "claim-stackpilot108-public-account-chronology",
+      "type": "account",
+      "predicate": "public_account_metadata_chronology",
+      "value": {
+        "platform": "GitHub",
+        "handle": "stackpilot108",
+        "numeric_account_id": 166145845,
+        "created_at": "2024-04-05T14:51:10Z",
+        "profile_updated_at": "2026-07-11T08:44:39Z"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, id and created_at fields",
+          "quote": "\"created_at\": \"2024-04-05T14:51:10Z\""
+        },
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, updated_at field",
+          "quote": "\"updated_at\": \"2026-07-11T08:44:39Z\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "GitHub account metadata only. The updated_at field is not proof of repository activity, authorship, ownership, or present control."
+      ]
+    },
+    {
+      "id": "claim-stackpilot108-current-profile-self-presentation",
+      "type": "note",
+      "predicate": "public_account_self_presentation",
+      "value": {
+        "platform": "GitHub",
+        "handle": "stackpilot108",
+        "self_description": "AI & Full Stack Developer | Python | React | LLM, n8n, CRM",
+        "hireable_flag": true
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, bio field",
+          "quote": "\"bio\": \"AI & Full Stack Developer | Python | React | LLM, n8n, CRM\""
+        },
+        {
+          "source_id": "src-1476746594fe",
+          "locator": "complete public user API response, hireable field",
+          "quote": "\"hireable\": true"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Unverified platform self-presentation only; it is not proof of expertise, employment, identity, activity, ownership, or present control."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "ANY.RUN-reported recruiter persona with an unverified civil identity. The Angelo Cruz label, historical and renamed GitHub handles, Telegram handle, account numeric ID, and person-bearing images remain separate evidence types; the ANY.RUN article and DEF CON deck form one investigation family, while present account reachability leaves present ownership or control unresolved."
+}

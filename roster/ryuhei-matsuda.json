@@ -1,0 +1,109 @@
+{
+  "id": "ryuhei-matsuda",
+  "real_name": "Ryuhei Matsuda",
+  "aliases": [
+    "ryuhei.eth",
+    "ryuheimat",
+    "ryuheimat3",
+    "akame.eth",
+    "0xhiros"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "ryuheimat3@gmail.com"
+  ],
+  "websites": [
+    "https://crypton0ob.medium.com/5-questions-about-kira-network-you-should-know-98850b1323a8",
+    "https://icoholder.com/en/kira-1003837",
+    "https://kylinnetwork.medium.com/kylin-network-monthly-report-2-d9b6be5b8cdf",
+    "https://medium.com/@ivan.shodanov/the-15-most-promising-small-cap-defi-projects-to-invest-in-2021-6e9d5aa5774c",
+    "https://polkastarter.com/projects/naos-finance",
+    "https://stack.money/asset/paid-network",
+    "https://theorg.com/org/kira-core",
+    "https://web.archive.org/web/20220818133854/https://daotalk.org/t/developer-proposal-ryuhei-for-2-weeks-trial-period/2650",
+    "https://www.bydfi.com/en/crypto-price/raze",
+    "https://x.com/Kylin_Network/status/1344503704142143490"
+  ],
+  "employment": [
+    {
+      "company": "Arcadia"
+    },
+    {
+      "company": "DxDAO"
+    },
+    {
+      "company": "Kira Network"
+    },
+    {
+      "company": "Kylin Network"
+    },
+    {
+      "company": "Loom Network"
+    },
+    {
+      "company": "Naos Finance"
+    },
+    {
+      "company": "Raze Network"
+    },
+    {
+      "company": "Sandclock"
+    },
+    {
+      "company": "Shardeum"
+    },
+    {
+      "company": "Paid Network"
+    },
+    {
+      "company": "Hyperionx"
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/ryuhei-matsuda"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "ryuheimat"
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x36c67d5ce9e2e4a919f568fc33657fcad0030880",
+        "0x6fb678b2dd9d2ff50ee9ecf774251dcceb7a2da8",
+        "0xa71b641a498e33bb13548a01eca5e20e083e637b",
+        "0xd97729eef14c189144adb0591e4ddb1a66ce22af",
+        "0x86fce1a6cbaaf0d0d7cb727e9b9eac5ed4150a5b"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/ryuhei-matsuda/ryuhei-matsuda-av.png",
+      "short_description": "Ryuhei Matsuda profile picture.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/ryuhei-matsuda/ryuhei.png",
+      "short_description": "Picture of Ryuhei",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/ryuhei-matsuda/ryuhei_passport.jpeg",
+      "short_description": "Ryuhei's fake passport",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

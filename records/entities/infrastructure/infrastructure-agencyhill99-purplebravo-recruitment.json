@@ -1,0 +1,63 @@
+{
+  "id": "infrastructure-agencyhill99-purplebravo-recruitment",
+  "type": "infrastructure",
+  "name": "AgencyHill99 / PurpleBravo recruitment infrastructure",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-research-reported infrastructure or relationship cluster",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "organizations": [
+    "DoraHacks, Intch, levels.fyi, Upwork, Telegram job-advertisement pages",
+    "GitHub repository agencyhill99"
+  ],
+  "ttps": [
+    "grouped infrastructure correlation",
+    "shared portfolio, recruitment, hosting, or corporate-linkage analysis"
+  ],
+  "caveats": [
+    "The shared AgencyHill99 email indicator links the labels at indicator level; a first-party source is required for a person-level identity bridge.",
+    "activity window: 2024-09 through 2024-12; source report: 2025-02-13; as of 2026 08 12: historical grouped indicators; no live checks.",
+    "Dale_V and jaxtonhol are distinct source-reported recruiter/account labels within this cluster.",
+    "Keep the inaccessible Google Drive payload link and malware hashes out of organization and person profiles.",
+    "Indicators are grouped to avoid noisy standalone profiles and must be treated as historical.",
+    "Source-reported recruiter and administrative email selectors were omitted from this public-release record."
+  ],
+  "infrastructure": [
+    {
+      "kind": "grouped-indicator-set",
+      "members": [
+        "agencyhill99[.]com",
+        "GitHub repository agencyhill99",
+        "DoraHacks, Intch, levels.fyi, Upwork, Telegram job-advertisement pages"
+      ],
+      "relationship_summary": "Insikt Group tied recruiter personas and repeated job advertisements to AgencyHill99 and PurpleBravo; the domain had stopped resolving by early February 2025. Dale_V and jaxtonhol remain distinct source-reported account labels. Their shared AgencyHill99 email indicator is network linkage, not evidence that the labels identify one operator or natural person.",
+      "temporal_status": {
+        "activity_window": "2024-09 through 2024-12",
+        "source_report": "2025-02-13",
+        "as_of_2026_08_12": "historical grouped indicators; no live checks"
+      },
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ],
+      "reported_persona_account_labels": [
+        "Dale_V",
+        "jaxtonhol"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports AgencyHill99 / PurpleBravo recruitment infrastructure and describes this relationship: Insikt Group tied recruiter personas and repeated job advertisements to AgencyHill99 and PurpleBravo; the domain had stopped resolving by early February 2025",
+      "locator": "PDF pp. 4-7"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

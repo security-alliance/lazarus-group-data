@@ -1,0 +1,96 @@
+{
+  "id": "facilitator-un-wang-feng",
+  "type": "facilitator",
+  "name": "Wang Feng",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Member State information reproduced by a UN Panel. It supplies source attribution without a criminal charge, conviction, sanctions designation, adjudication, or finding of current activity.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "dufr58-un-s-2023-171"
+    ]
+  },
+  "legal_or_reported_name": "Wang Feng",
+  "organizations": [
+    "Yiwu Gangchao Trading"
+  ],
+  "caveats": [
+    "The record infers no charge, conviction, designation, adjudication, current activity, or present location.",
+    "Financial selector, account identifier, public account, script bridge, and unique identity bridge status are absent from the evidence.",
+    "The facilitator record type is a repository taxonomy for the source-scoped reported association; IT-worker role and adjudicated facilitation status remain unassigned.",
+    "The Latin-script name is retained exactly as printed; script conversion, civil identity, same-name merge, current role, and present location remain unresolved.",
+    "Wang Feng is a common Latin-script name retained only as printed with the source-reported company context. Account selector, worker role, civil identity, current company role, and same-name merge status remain outside the record."
+  ],
+  "infrastructure": [
+    {
+      "type": "un-panel-member-state-reported-it-worker-associated-role",
+      "reported_name": "Wang Feng",
+      "reported_role": "Member State-reported financial facilitator for DPRK IT workers",
+      "worker_role_inferred": false,
+      "personal_conduct_beyond_quote_inferred": false,
+      "current_role_inferred": false,
+      "present_location_inferred": false,
+      "source_ids": [
+        "dufr58-un-s-2023-171"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dufr58-un-s-2023-171",
+      "support": "Another Chinese national, Wang Feng, owner of Yiwu Gangchao Trading, lent his bank account to Democratic People's Republic of Korea information technology workers and offered financial assistance",
+      "locator": "PDF file p. 68, paragraph 134"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-facilitator-un-wang-feng-source-printed-name",
+      "type": "identity_name",
+      "predicate": "un_report_source_printed_name",
+      "value": {
+        "name": "Wang Feng",
+        "script": "Latin"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dufr58-un-s-2023-171",
+          "locator": "PDF file p. 68, paragraph 134",
+          "quote": "Wang Feng"
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "Exact report-printed form only; no civil identity or script bridge is inferred."
+      ]
+    },
+    {
+      "id": "claim-facilitator-un-wang-feng-reported-association",
+      "type": "relationship",
+      "predicate": "member_state_reported_it_worker_association",
+      "value": {
+        "reported_role": "Member State-reported financial facilitator for DPRK IT workers",
+        "worker_role_inferred": false,
+        "current_role_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dufr58-un-s-2023-171",
+          "locator": "PDF file p. 68, paragraph 134",
+          "quote": "Another Chinese national, Wang Feng, owner of Yiwu Gangchao Trading, lent his bank account to Democratic People's Republic of Korea information technology workers and offered financial assistance."
+        }
+      ],
+      "observed_at": "2023-03-07",
+      "notes": [
+        "Member State information reproduced by the Panel; no charge, conviction, designation, adjudication, worker role, current role, or present location is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "Wang Feng is a common Latin-script name retained only as printed with the source-reported company context. Account selector, worker role, civil identity, current company role, and same-name merge status remain outside the record."
+}

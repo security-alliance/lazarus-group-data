@@ -1,0 +1,44 @@
+{
+  "id": "lead-stykas-company-network-exposure-2026",
+  "type": "lead",
+  "name": "Stykas-reported exposure across company networks (Wired, August 2026)",
+  "status": "needs_corroboration",
+  "confidence": "lead",
+  "attribution": {
+    "status": "unverified-lead",
+    "legal_posture": "Unverified researcher-reported exposure; affected-company totals and access claims remain independently unestablished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "wired-2026-08-05-stykas-networks"
+    ]
+  },
+  "caveats": [
+    "The reported company totals and extent of access await independent verification.",
+    "Sensitive material reportedly obtained from compromised systems and undisclosed victims stay out of the record.",
+    "The reported exposure stays within the cited source boundary; a natural-person identity requires additional evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Researcher Vangelis Stykas reported evidence of 1,640 affected companies in 57 countries, with approximately 700-800 suffering damaging access. The source describes root, cloud, developer-key, source-code, and cryptocurrency-wallet exposure across a broad victim set. It connects two access paths in the same ecosystem: Contagious Interview-style fake-job malware and fraudulent DPRK remote IT-worker employment. Several named organizations supplied differentiated responses, making this useful for incident-status and affected-organization analysis rather than treating every reported exposure as confirmed compromise.",
+        "Researcher Vangelis Stykas reported evidence of 1,640 affected companies in 57 countries, with approximately 700-800 suffering damaging access.",
+        "The source describes root, cloud, developer-key, source-code, and cryptocurrency-wallet exposure across a broad victim set.",
+        "It connects two access paths in the same ecosystem: Contagious Interview-style fake-job malware and fraudulent DPRK remote IT-worker employment.",
+        "Several named organizations supplied differentiated responses, making this useful for incident-status and affected-organization analysis rather than treating every reported exposure as confirmed compromise."
+      ],
+      "source_ids": [
+        "wired-2026-08-05-stykas-networks"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "wired-2026-08-05-stykas-networks",
+      "support": "Unverified researcher report. Researcher Vangelis Stykas reported evidence of 1,640 affected companies in 57 countries, with approximately 700-800 suffering damaging access. The source describes root, cloud, developer-key, source-code, and cryptocurrency-wallet exposure across a broad victim set. It connects two access paths in the same ecosystem: Contagious Interview-style fake-job malware and fraudulent DPRK remote IT-worker employment. Several named organizations supplied differentiated responses, making this useful for incident-status and affected-organization analysis rather than treating every reported exposure as confirmed compromise",
+      "locator": "Opening paragraphs 1–5; affected-organization responses in paragraphs 6–10; access-path discussion in paragraphs 12–13"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

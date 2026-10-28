@@ -1,0 +1,204 @@
+{
+  "id": "persona-wsj-eagle-vision",
+  "type": "persona",
+  "name": "Eagle Vision",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Investigative-media attribution based on one WSJ investigation and two derivative Korean reports. Eagle Vision is a source-reported codename; the record supplies no verified civil identity, official designation, charge, sanction, conviction, or independently corroborated public identity.",
+    "as_of": "2026-08-18",
+    "source_ids": [
+      "latest-aug14-s1",
+      "latest-aug14-s2",
+      "latest-aug14-s3"
+    ]
+  },
+  "caveats": [
+    "Codename/persona only. The record covers a codename/persona; civil identity, nationality, legal status, present location, and account or wallet ownership remain unresolved. Exposed employment identities and identity-theft victims remain separate subjects.",
+    "Keep any exposed employment identity, identity-theft victim, facilitator account, wallet, or identity document separate from this persona unless separate claim-level evidence and identity review link them.",
+    "The source reports a leadership role for a small cell; civil identity, present location, public account, and adjudicated legal status require separate evidence.",
+    "YTN and Yonhap are derivative coverage of the same WSJ investigation; they belong to that source family."
+  ],
+  "aliases": [
+    {
+      "value": "EagleVision",
+      "alias_type": "online-handle",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "latest-aug14-s1",
+        "latest-aug14-s2",
+        "latest-aug14-s3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "latest-aug14-s3",
+      "support": "Yonhap reports that WSJ tracked a small organization led by a person using the codename Eagle Vision, using browser records, emails, stolen personal information, and meeting recordings, and that the cell applied to more than 1,000 U.S. and U.K. companies and received at least nine job offers",
+      "locator": "Article body paragraphs beginning 'WSJ은 이글 비전' and '보도에 따르면'"
+    },
+    {
+      "source_id": "latest-aug14-s1",
+      "support": "At approximately 03:00 the documentary identifies Eagle Vision as the source-reported codename of the tracked cell's leader and shows employment identities used by the cell. Around 04:08 it reports more than 1,000 applications in roughly three months, nine jobs, and seven identities. Around 05:21 it reports contacting the person using the codename and records a denial of being the depicted person",
+      "locator": "03:00-05:21; contextual methodology in the public description and 01:22-05:28 chapter; financial and cell-unmasking context at 19:33-23:53"
+    },
+    {
+      "source_id": "latest-aug14-s2",
+      "support": "YTN reports that WSJ followed for about a year the browser history, emails, stolen personal information, and meeting-screen recordings of an organization led by a person using the codename Eagle Vision, and reports more than 1,000 applications and at least nine job offers over about three months",
+      "locator": "Article body paragraphs 2-4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-eagle-vision-codename",
+      "type": "alias",
+      "predicate": "reported_codename",
+      "value": {
+        "alias": "Eagle Vision",
+        "alias_compact": "EagleVision",
+        "identity_class": "source_reported_codename"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "latest-aug14-s2",
+          "locator": "Article body, paragraph 3",
+          "quote": "월스트리트저널은 '이글 비전'이라는 코드명을 쓰는 인물이 수장인 조직의 브라우저 기록과 이메일, 도용된 개인 정보, 회의 화면 녹화 영상 등을 1년여 동안 추적해 북한 IT 노동자들이 서방 국가의 기업에 위장 취업한 방법을 자세히 전했습니다."
+        },
+        {
+          "source_id": "latest-aug14-s3",
+          "locator": "Article body, paragraph beginning 'WSJ은 이글 비전'",
+          "quote": "WSJ은 '이글 비전'(Eagle Vision)이라는 코드명을 쓰는 인물이 수장인 한 소규모 조직의 브라우저 기록, 이메일, 도용된 개인 정보, 회의 화면 녹화 영상 등을 1년여간 추적해 북한 IT 노동자들이 어떻게 서방 국가의 기업에 위장 취업해 돈을 벌고 있는지를 자세히 전했다."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "This verifies only that reputable public reporting uses the codename; it does not verify a civil identity.",
+        "Both quoted reports derive the attribution from WSJ and are one evidentiary family."
+      ]
+    },
+    {
+      "id": "claim-eagle-vision-reported-cell-leader",
+      "type": "relationship",
+      "predicate": "reported_cell_role",
+      "value": {
+        "role": "leader",
+        "object": "small_source_reported_dprk_it_worker_cell",
+        "scope": "investigative_reporting_only"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "latest-aug14-s2",
+          "locator": "Article body, paragraph 3",
+          "quote": "월스트리트저널은 '이글 비전'이라는 코드명을 쓰는 인물이 수장인 조직의 브라우저 기록과 이메일, 도용된 개인 정보, 회의 화면 녹화 영상 등을 1년여 동안 추적해 북한 IT 노동자들이 서방 국가의 기업에 위장 취업한 방법을 자세히 전했습니다."
+        },
+        {
+          "source_id": "latest-aug14-s3",
+          "locator": "Article body, paragraph beginning 'WSJ은 이글 비전'",
+          "quote": "WSJ은 '이글 비전'(Eagle Vision)이라는 코드명을 쓰는 인물이 수장인 한 소규모 조직의 브라우저 기록, 이메일, 도용된 개인 정보, 회의 화면 녹화 영상 등을 1년여간 추적해 북한 IT 노동자들이 어떻게 서방 국가의 기업에 위장 취업해 돈을 벌고 있는지를 자세히 전했다."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "The cell-leader role is source-reported and unadjudicated.",
+        "No team member, civil identity, or present location is inferred."
+      ]
+    },
+    {
+      "id": "claim-eagle-vision-cell-application-scale",
+      "type": "incident",
+      "predicate": "reported_cell_application_scale",
+      "value": {
+        "period": "about_three_months",
+        "applications": "more_than_1000",
+        "markets": [
+          "United States",
+          "United Kingdom"
+        ],
+        "job_offers": "at_least_9",
+        "attribution_scope": "cell_level_not_individual_conduct"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "latest-aug14-s2",
+          "locator": "Article body, paragraph 4",
+          "quote": "이 조직은 석 달여 동안 천 개 이상의 미국과 영국 기업에 입사 지원했고, 최소 9곳으로부터 채용 제안을 받은 것으로 확인됐습니다."
+        },
+        {
+          "source_id": "latest-aug14-s3",
+          "locator": "Article body, paragraph beginning '보도에 따르면'",
+          "quote": "보도에 따르면 이 조직은 석 달여 간 1천개 이상의 미국 및 영국 기업에 입사 지원했고, 최소 9곳으로부터 채용 제안을 받은 것으로 확인됐다."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "This is a cell-level scale claim and must not be restated as the individual conduct of the codename holder.",
+        "The WSJ short's eight-company wording can coexist with nine jobs or offers and is not treated as a contradiction."
+      ]
+    },
+    {
+      "id": "claim-eagle-vision-wsj-investigative-method",
+      "type": "incident",
+      "predicate": "reported_source_methodology",
+      "value": {
+        "publisher": "The Wall Street Journal",
+        "duration": "yearlong",
+        "material_categories": [
+          "browser_history",
+          "emails",
+          "calendars",
+          "screen_recordings"
+        ],
+        "scope": "single_cell"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "latest-aug14-s1",
+          "locator": "Public YouTube description, second paragraph",
+          "quote": "WSJ’s documentary exclusively follows a single cell of these operatives. Drawn from a trove of leaked data—browser history, emails, calendars and never-before-seen screen recordings pulled from the team’s own computers—our yearlong investigation offers a rare look at how North Korea’s undercover workers get hired."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "This verifies the publisher's stated methodology, not the authenticity of every underlying leaked artifact.",
+        "No compromised raw material is retained or redistributed."
+      ]
+    },
+    {
+      "id": "claim-eagle-vision-reported-facilitator-derrik-goon-round53",
+      "type": "relationship",
+      "predicate": "publisher_reported_historical_facilitator_relationship",
+      "value": {
+        "related_record_id": "facilitator-derrik-goon",
+        "related_label": "Derrik Goon",
+        "reported_role": "facilitator",
+        "participant_claimed_initial_lack_of_dprk_knowledge": true,
+        "legal_or_criminal_status_established": false,
+        "current_relationship_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "latest-aug14-s1",
+          "locator": "Captions 06:56.250-07:09.873",
+          "quote": "Derrik Goon has spent the past several years working as a facilitator for EagleVision."
+        }
+      ],
+      "observed_at": "2026-08-12",
+      "notes": [
+        "The participant's initial lack-of-knowledge statement and the absence of an adjudicated legal posture must accompany this source-reported historical relationship."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-18",
+  "identity_boundary": "Source-reported codename for the leader of a small DPRK IT-worker cell. It is a source label with civil identity unverified and stays separate from every employment identity, identity-theft victim, facilitator, account, wallet, or image exposed in the reporting."
+}

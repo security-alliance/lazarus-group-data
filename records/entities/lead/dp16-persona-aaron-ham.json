@@ -1,0 +1,44 @@
+{
+  "id": "dp16-persona-aaron-ham",
+  "type": "lead",
+  "name": "Aaron Ham",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Recorded Future Insikt Group research attribution only. PurpleBravo fake-interview artifacts and PurpleDelta fraudulent-employment activity remain distinct unless the cited source explicitly bridges a particular artifact",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dp16-recordedfuture-purplebravo-2026"
+    ]
+  },
+  "ttps": [
+    "Source-published operational label in qualified PurpleBravo/PurpleDelta overlap reporting"
+  ],
+  "caveats": [
+    "A separate source-mentioned Korean-language name remains outside this persona record; source linkage to this persona is absent.",
+    "Keep this persona separate from a source-mentioned Korean-language name or any natural person; co-occurrence supplies a lead requiring a source bridge.",
+    "Held outside the fraudulent-employment persona catalog because the source leaves this label's IT-worker employment role unspecified.",
+    "Historical source attribution only; present account, profile, and brand control require current source evidence.",
+    "The source describes PurpleBravo and PurpleDelta overlap; identifiers remain distinct across those activity sets unless separately linked."
+  ],
+  "aliases": [
+    {
+      "value": "Aaron Ham",
+      "alias_type": "unknown",
+      "relationship": "reported-link",
+      "source_ids": [
+        "dp16-recordedfuture-purplebravo-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dp16-recordedfuture-purplebravo-2026",
+      "support": "Recorded Future Insikt Group source-published name; retained as a possible operational/employment persona only. Retained as a historical, source-attributed public identifier; no present ownership or civil identity is inferred",
+      "locator": "PDF p. 26, PurpleBravo and PurpleDelta Overlap"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

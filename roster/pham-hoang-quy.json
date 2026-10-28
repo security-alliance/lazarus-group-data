@@ -1,0 +1,48 @@
+{
+  "id": "pham-hoang-quy",
+  "fake_names": [
+    "Pham Hoang Quy"
+  ],
+  "aliases": [
+    "neverm25",
+    "angler0825"
+  ],
+  "gender": "male",
+  "fake_locations": [
+    "Vietnam"
+  ],
+  "personal_emails": [
+    "p.hongquy.eth@gmail.com"
+  ],
+  "github": [
+    {
+      "gh_id": "neverm25",
+      "usernames": [
+        "neverm25"
+      ]
+    },
+    {
+      "gh_id": "angler0825",
+      "usernames": [
+        "angler0825"
+      ]
+    }
+  ],
+  "salary_details": [
+    {
+      "addresses": [
+        "0xc5077Eb65e6ec48d6E17d42A779E2677005AEc87"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/pham-hoang-quy/pham-hoang-quy-1.jpg",
+      "short_description": "Pham Hoang Quy.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

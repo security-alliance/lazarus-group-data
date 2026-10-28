@@ -1,0 +1,60 @@
+{
+  "id": "andy-hoog",
+  "real_name": "Andy Hoog",
+  "aliases": [
+    "toparc077",
+    "andyhoglet",
+    "andy-hoog",
+    "andyhoogup",
+    "T077"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "andyhoogup@gmail.com"
+  ],
+  "twitter_usernames": [
+    "andyhoglet"
+  ],
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "linkedin": [
+    {
+      "emails": [
+        "https://linkedin.com/in/andy-hoog/"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "toparc077",
+      "usernames": [
+        "toparc077"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x1043efee936903951b88db23551873bb67292e95"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/andy-hoog/andy-hoog-av.jpg",
+      "short_description": "Andy Hoog avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

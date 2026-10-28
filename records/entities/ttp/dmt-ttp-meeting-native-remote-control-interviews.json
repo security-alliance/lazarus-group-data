@@ -1,0 +1,79 @@
+{
+  "id": "dmt-ttp-meeting-native-remote-control-interviews",
+  "type": "ttp",
+  "name": "Meeting-native remote control and answer relay during interviews",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Source-qualified defensive abstraction only. The stated evidence class covers a defensive abstraction; legal identity, nationality, employer compromise, prevalence rate, and adjudicated fact require separate sources.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DMT-S02"
+    ]
+  },
+  "ttps": [
+    "answer-relay",
+    "identity-continuity",
+    "meeting-remote-control",
+    "native-fronted-interview"
+  ],
+  "caveats": [
+    "Claim attribution: Aidan Raney, SecretCon 2025.",
+    "Evidence class: researcher-reported observed workflow.",
+    "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence.",
+    "The record excludes people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, and leaked material.",
+    "Accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, and technical anomaly are contextual signals; fraud or DPRK attribution requires independent evidence.",
+    "The speaker says a call segment about detection bypass was omitted from the conference playback, so that portion is his oral account rather than independently visible evidence.",
+    "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path.",
+    "WebEx, Teams, and Notepad are legitimate tools; this behavior requires context and corroboration."
+  ],
+  "infrastructure": [
+    {
+      "type": "researcher-reported-observed-workflow",
+      "statements": [
+        "Raney says the suspected operation discussed using WebEx or Teams take-control features to avoid detections associated with standalone remote tools. During interviews, the remote operator could see and hear the same call and place answers in Notepad for the front person to read.",
+        "Disable or narrowly authorize give-control/take-control features for candidate interviews and onboarding calls.",
+        "Log meeting remote-control grants and correlate them with candidate identity, device, and endpoint telemetry.",
+        "Require unscripted reasoning and continuity checks that cannot be satisfied by reading short relayed answers."
+      ],
+      "limitations": [
+        "Evidence class: researcher-reported observed workflow.",
+        "Claim attribution: Aidan Raney, SecretCon 2025.",
+        "WebEx, Teams, and Notepad are legitimate tools; this behavior requires context and corroboration.",
+        "The speaker says a call segment about detection bypass was omitted from the conference playback, so that portion is his oral account rather than independently visible evidence."
+      ],
+      "source_ids": [
+        "DMT-S02"
+      ]
+    },
+    {
+      "type": "publication-and-defensive-use-boundary",
+      "statements": [
+        "Retain the source's observation class and do not generalize a controlled test, speaker claim, vendor sample, or demonstration into measured prevalence."
+      ],
+      "limitations": [
+        "No single accent, ethnicity, nationality, appearance, location, camera or audio quality, productivity level, consumer email, shipping change, meeting feature, or technical anomaly establishes fraud or DPRK attribution.",
+        "Use behavior and continuity signals only in combination with independent verification, consistently applied human review, least privilege, and an appeal or correction path.",
+        "No people, personas, accounts, companies, victims, images, contact details, payment selectors, credentials, raw network indicators, or leaked material are included.",
+        "Fraudulent employment and fake-interview malware remain separate analytic tracks absent explicit same-case evidence."
+      ],
+      "source_ids": [
+        "DMT-S02"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "conference-media-deep-dive: native-fronted interview / answer prompting",
+    "talks-presentations: AI-assisted interview activity"
+  ],
+  "sources": [
+    {
+      "source_id": "DMT-S02",
+      "support": "Raney says the suspected operation discussed using WebEx or Teams take-control features to avoid detections associated with standalone remote tools. During interviews, the remote operator could see and hear the same call and place answers in Notepad for the front person to read",
+      "locator": "09:29–09:53 and 17:37–18:02"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

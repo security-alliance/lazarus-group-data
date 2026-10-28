@@ -1,0 +1,39 @@
+{
+  "id": "deep2-unhistory-korea-national-development-investment-company",
+  "type": "front_company",
+  "name": "Korea National Development Investment Company",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel-reported Member State allegation; relationship disputed in the adjacent host-state response",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae"
+    ]
+  },
+  "caveats": [
+    "The host-country response belongs alongside the Member State allegation; the relationship remains allegation-level.",
+    "Viet Nam replied that its authorities reported zero DPRK workers or IT experts working in Albatross and gave contrary travel information about a related DPRK national."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Albatross reportedly sourced developers from Korea National Development Investment Company and Korea Mangyongdae Computer Technology Corporation, both described as related to the Munitions Industry Department."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-albatross-kndi-mangyongdae",
+      "support": "Verifies Albatross, Korea National Development Investment Company, Mangyongdae, the reported sourcing relationship and Viet Nam response",
+      "locator": "PDF pp. 53-54, paras. 126-127"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

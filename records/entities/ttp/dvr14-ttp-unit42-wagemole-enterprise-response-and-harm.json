@@ -1,0 +1,62 @@
+{
+  "id": "dvr14-ttp-unit42-wagemole-enterprise-response-and-harm",
+  "type": "ttp",
+  "name": "Unit 42 Wagemole enterprise response and employment-access harms",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Unit 42's first-party incident-response observation and source-attributed campaign characterization; adjudication, named-victim count, and case-level findings require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DVR14-S01-UNIT42-2026-IR"
+    ]
+  },
+  "ttps": [
+    "employment-derived-access",
+    "enterprise-incident-response",
+    "espionage",
+    "unauthorized-financial-payments"
+  ],
+  "caveats": [
+    "The source leaves the unit represented by each environment unresolved across worker, successful hire, employer, and distinct-incident counts.",
+    "The dataset contains up to 20 victim or worker records.",
+    "Previously cataloged personas, accounts, companies and infrastructure selectors have no source link to these environments.",
+    "The source offers context on espionage activity; scope, target, success, and current status require separate evidence.",
+    "The source leaves payment categories open: payroll, fraud, theft, reimbursement, or another type.",
+    "Use 'Unit 42 states/reports' and 'Wagemole-related activity.' The count covers the source's reported activity; named victims, unique workers, successful hires, legal findings, and current compromise require separate evidence."
+  ],
+  "infrastructure": [
+    {
+      "type": "vendor-observed-response-metric-and-source-attributed-harm-characterization",
+      "statements": [
+        "Unit 42 reports that Wagemole remained active in 2025 and that its responders identified and evicted related activity from more than 20 enterprise environments. It further states that access obtained through contractor and employee roles enabled unauthorized financial payments and espionage.",
+        "Observed boundary: Unit 42 says its responders identified and evicted Wagemole-related activity from more than 20 enterprise environments during 2025. The aggregate is a vendor-reported response metric, not a count of named victims, unique workers, successful hires, employers, or independently verified incidents.",
+        "Attributed boundary: Unit 42 characterizes access obtained through contractor and employee roles as enabling unauthorized financial payments and espionage. The source does not specify payment type or establish the scope, target, success, or current status of espionage for each environment."
+      ],
+      "limitations": [
+        "Do not create more than 20 victim or worker records.",
+        "Do not assume each environment represents one worker, one successful hire, one employer, or one distinct incident.",
+        "Do not infer which financial payments were payroll, fraud, theft, reimbursement, or another payment type.",
+        "Do not infer the scope, target, success, or current status of espionage activity.",
+        "Do not infer that any previously cataloged persona, account, company, or infrastructure selector was present in these environments.",
+        "Use 'Unit 42 states/reports' and 'Wagemole-related activity.' Do not transform the count into named victims, unique workers, successful hires, legal findings, or current compromise."
+      ],
+      "source_ids": [
+        "DVR14-S01-UNIT42-2026-IR"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "cluster-wagemole"
+  ],
+  "sources": [
+    {
+      "source_id": "DVR14-S01-UNIT42-2026-IR",
+      "support": "Unit 42 states that Wagemole operatives obtained unauthorized remote employment with U.S. and European organizations and covertly routed income to the DPRK regime. Unit 42 states that access obtained through contractor and employee roles enabled unauthorized financial payments and espionage. Unit 42 states that Wagemole remained active in 2025 and that its responders identified and evicted related activity from more than 20 enterprise environments. The source reports publication timing only at month precision: 2026-02; published_at is therefore left null rather than inventing a day. Normalized finding: Unit 42 reports that Wagemole remained active in 2025 and that its responders identified and evicted related activity from more than 20 enterprise environments. It further states that access obtained through contractor and employee roles enabled unauthorized financial payments and espionage",
+      "locator": "North Korea: Weaponized HR Part I; Wagemole bullet; PDF page 14"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

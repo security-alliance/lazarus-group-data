@@ -1,0 +1,13 @@
+{
+  "id": "drp51-github-jabp-commits",
+  "publisher": "GitHub",
+  "title": "Complete public commit list for kanbei65/jab-p",
+  "url": "https://api.github.com/repos/kanbei65/jab-p/commits?per_page=100",
+  "published_at": "2024-04-19",
+  "accessed_at": "2026-08-16",
+  "sha256": "b011e95da5424b295f11b03ed90349e4dbaea6bf0954c2de84a09a669ff37096",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

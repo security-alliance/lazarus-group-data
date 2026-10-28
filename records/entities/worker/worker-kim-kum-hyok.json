@@ -1,0 +1,176 @@
+{
+  "id": "worker-kim-kum-hyok",
+  "type": "worker",
+  "name": "Kim Kum Hyok",
+  "status": "published",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Named by an issuing government or multilateral sanctions-monitoring source; the charging status is unspecified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "int-msmt-2025-2"
+    ]
+  },
+  "legal_or_reported_name": "Kim Kum Hyok",
+  "organizations": [
+    "SANS FAB IT / Sangsin delegation"
+  ],
+  "locations": [
+    "Laos; many relocated to China"
+  ],
+  "caveats": [
+    "Employment aliases may be stolen, borrowed, or synthetic identities; alias ownership and worker identity remain source-unresolved."
+  ],
+  "sources": [
+    {
+      "source_id": "int-msmt-2025-2",
+      "support": "Annexes 12 and 14. 'Uh In Song' appears as 'U In Song' in Annex 14; treated as a spelling variant within the same source, not an independently inferred identity",
+      "locator": "Annex 12 delegation-member list, PDF p. 131 / printed p. 129; Annex 14 relocation list, PDF p. 133 / printed p. 131 | Original official publication page: https://msmt.info/Publications/detail/MSMT%20Report/4221"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kim-kum-hyok-reported-name",
+      "type": "identity_name",
+      "predicate": "officially_reported_name",
+      "value": {
+        "name": "Kim Kum Hyok"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 delegation-member list, PDF file p. 131 (printed p. 129)",
+          "quote": "Kim Kum Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT Participating State list name; no additional civil-identity fields were supplied."
+      ]
+    },
+    {
+      "id": "claim-kim-kum-hyok-sangsin-association",
+      "type": "organization_affiliation",
+      "predicate": "source_reported_sangsin_delegation_association",
+      "value": {
+        "organization": "SANS FAB IT / Sangsin delegation",
+        "timeframe": "as of mid-2024",
+        "location_context": "Laos-based delegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study, PDF file p. 68 (printed p. 66)",
+          "quote": "Annex 12 provides a list of individuals who were associated with the Laos-based SANS FAB/Sangsin IT delegation as of mid-2024 (See Annex 12)."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 12 delegation-member list, PDF file p. 131 (printed p. 129)",
+          "quote": "Kim Kum Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Source-reported association only; no delegation rank, leadership role, continuous presence, or current employment is inferred."
+      ]
+    },
+    {
+      "id": "claim-kim-kum-hyok-late-2024-relocation",
+      "type": "location",
+      "predicate": "source_reported_late_2024_relocation",
+      "value": {
+        "from": "Laos",
+        "to": "China",
+        "timeframe": "late 2024",
+        "assessment": "almost certainly to return to North Korea"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin case study continuation, PDF file p. 69 (printed p. 67)",
+          "quote": "Annex 14 is a list of individuals from the SANS FAB IT delegation who, in late 2024, relocated from Laos to China to almost certainly return to North Korea (See Annex 14)."
+        },
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 relocation list, PDF file p. 133 (printed p. 131)",
+          "quote": "Kim Kum Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Historical source report. The source's purpose assessment is preserved as an assessment and does not establish completed return or present location."
+      ]
+    },
+    {
+      "id": "claim-kim-kum-hyok-sangsin-delegation-earnings-context",
+      "type": "incident",
+      "predicate": "msmt_reported_sangsin_delegation_earnings_context",
+      "value": {
+        "organization": "SANS FAB IT/Sangsin delegation",
+        "reported_aggregate": "over USD 2.5 million",
+        "reported_period": "mid-2019 to mid-2024",
+        "scope": "delegation-level",
+        "individual_amount_attributed": false,
+        "individual_conduct_attributed": false,
+        "financial_selectors_retained": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Sangsin/SANS FAB case study, PDF file p. 68 (printed p. 66)",
+          "quote": "The delegation earned over $2.5 million between mid-2019 and mid-2024"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "MSMT delegation-level context only; no portion of the aggregate, receipt, control, transaction, or underlying work is attributed to this individual.",
+        "No account, payment record, transaction, client, victim, counterparty, financial selector, or other personal data is retained."
+      ]
+    },
+    {
+      "id": "claim-kim-kum-hyok-annex14-link-only-media",
+      "type": "image",
+      "predicate": "publisher_pdf_annex_page_link_only_media_reference",
+      "value": {
+        "publisher": "Multilateral Sanctions Monitoring Team",
+        "source_document_id": "doc-331cc418089a",
+        "source_page": "PDF file p. 133 (printed p. 131)",
+        "annex": "Annex 14",
+        "annex_heading": "Individuals from SANS FAB IT Delegation who Relocated from Laos to China",
+        "subject_label": "Kim Kum Hyok",
+        "media_type": "publisher PDF annex page",
+        "handling": "link_only",
+        "narrative_reference_only": true,
+        "direct_asset_retained": false,
+        "image_extracted": false,
+        "identification_use": false,
+        "appearance_inference": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "int-msmt-2025-2",
+          "locator": "Annex 14 delegation-member entry, PDF file p. 133 (printed p. 131)",
+          "quote": "Kim Kum Hyok"
+        }
+      ],
+      "observed_at": "2025-10-22",
+      "notes": [
+        "Narrative and publisher-document link only; no page image, crop, embedded asset, or direct image file is retained or republished.",
+        "The annex is a source-labeled name list, not an appearance claim; no facial matching, visual identity resolution, or appearance inference was performed."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Kim Kum Hyok is the person listed by MSMT as associated with the Laos-based SANS FAB/Sangsin IT delegation as of mid-2024 and in Annex 14 as relocating from Laos to China in late 2024. Present location, completed return to North Korea, delegation role, civil identity beyond the source name, and present account control remain source questions. Name, nationality, geography, technology, and image similarity require a source bridge."
+}

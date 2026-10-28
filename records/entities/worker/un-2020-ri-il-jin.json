@@ -1,0 +1,158 @@
+{
+  "id": "un-2020-ri-il-jin",
+  "type": "worker",
+  "name": "Ri Il Jin",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "UN Panel reporting reproduces Member State information. It records no criminal charge, conviction, UN Committee designation, or finding of present activity.",
+    "as_of": "2026-08-16",
+    "source_ids": [
+      "dumw48-un-s-2020-840"
+    ]
+  },
+  "legal_or_reported_name": "Ri Il Jin",
+  "locations": [
+    "Shenyang, China"
+  ],
+  "caveats": [
+    "Exact-full-name GitHub discovery returned zero users at the cutoff.",
+    "Historical China context describes the source period; residence, present location, current role, and current activity remain unresolved.",
+    "Seven later complete UN report extractions produced zero exact audited Latin-name hits; this bounded search covers those extractions and spelling variants, with lifetime absence outside its scope.",
+    "The later Korean-only 리일진 designation remains separate despite compatible name, city, and IT context; the reviewed sources provide compatible context, with cross-script and unique-identifier bridge status absent.",
+    "The Latin-script name is retained exactly as printed in S/2020/840; the source leaves Korean-script form and civil identity unreported.",
+    "The OpenSanctions/RUSI Ri Il Jin row derives from S/2020/840 and contributes derivative context only; independent identity evidence requires a separate source.",
+    "The paragraph appears under the report's IT-worker section; Ri's personal software-development role is unspecified.",
+    "The person-specific statements are Member State information reproduced by the UN Panel; they are source-qualified statements rather than a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+    "The Republic of Korea later designated a Korean-only 리일진 as a 313 General Bureau IT-delegation member stationed in Shenyang. Name romanization, city, and IT context are compatible but circumstantial; a script bridge requires an explicit source."
+  ],
+  "infrastructure": [
+    {
+      "type": "public-database-derivative-crosswalk",
+      "provider": "OpenSanctions DPRK Reports / RUSI",
+      "entity_id": "kprusi-af9d483664426ad572c149fa808cb45a3f10abc4",
+      "url": "https://www.opensanctions.org/entities/kprusi-af9d483664426ad572c149fa808cb45a3f10abc4/",
+      "independent_source_family": false,
+      "handling": "discovery crosswalk only"
+    },
+    {
+      "type": "un-panel-member-state-reported-freelance-access-activity",
+      "reported_name": "Ri Il Jin",
+      "reported_nationality": "Democratic People's Republic of Korea",
+      "reported_activity": "collaborated with a third-country individual to fraudulently gain access to IT freelance-work and payment websites",
+      "reported_company_office_association": "specific Shenyang office in which Jinse Guangmang Ltd. Technology was located",
+      "present_location_inferred": false,
+      "source_ids": [
+        "dumw48-un-s-2020-840"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dumw48-un-s-2020-840",
+      "support": "Names Ri Il Jin and supports the source-scoped role, relationship, and historical-location claims retained in this record, with Member State attribution",
+      "locator": "PDF file p. 34, paragraph 111, visually reviewed"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-un-2020-ri-il-jin-source-printed-name",
+      "type": "identity_name",
+      "predicate": "un_report_source_printed_name",
+      "value": {
+        "name": "Ri Il Jin",
+        "script": "Latin"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 111, visually reviewed",
+          "quote": "Ri Il Jin"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Exact source-printed form only; Korean-script and civil-identity forms are not inferred."
+      ]
+    },
+    {
+      "id": "claim-un-2020-ri-il-jin-reported-freelance-access-activity",
+      "type": "incident",
+      "predicate": "member_state_reported_fraudulent_platform_access",
+      "value": {
+        "reported_activity": "collaborated with a third-country individual to fraudulently gain access to IT freelance-work and payment websites",
+        "criminal_charge_or_conviction": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 111, visually reviewed",
+          "quote": "a Democratic People’s Republic of Korea national, Ri Il Jin, who collaborated with an individual based in a third country to fraudulently gain access to information technology freelance work and payment websites"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "The report-level allegation is not converted into a criminal or adjudicated posture."
+      ]
+    },
+    {
+      "id": "claim-un-2020-ri-il-jin-reported-shenyang-office-association",
+      "type": "relationship",
+      "predicate": "member_state_reported_company_office_association",
+      "value": {
+        "organization": "Jinse Guangmang Ltd. Technology",
+        "association": "specific Shenyang office in which the company was located",
+        "formal_employment_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 111, visually reviewed",
+          "quote": "was associated with a specific Shenyang office in which Jinse Guangmang was located."
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "Office association does not establish beneficial ownership, formal employment, or present operation."
+      ]
+    },
+    {
+      "id": "claim-un-2020-ri-il-jin-historical-location-context",
+      "type": "location",
+      "predicate": "un_reported_historical_location_context",
+      "value": {
+        "location": "Shenyang, China",
+        "historical_period": "reported in August 2020; no current-location inference",
+        "present_location_inferred": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dumw48-un-s-2020-840",
+          "locator": "PDF file p. 34, paragraph 111, visually reviewed",
+          "quote": "a Democratic People’s Republic of Korea national, Ri Il Jin, who collaborated with an individual based in a third country to fraudulently gain access to information technology freelance work and payment websites"
+        }
+      ],
+      "observed_at": "2020-08-28",
+      "notes": [
+        "Member State information reproduced by the UN Panel; not a criminal charge, conviction, UN Committee designation, or adjudicated finding.",
+        "Current activity and present location are not inferred.",
+        "The historical report context does not establish residence, departure, travel, or present location."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-16",
+  "identity_boundary": "Ri Il Jin is the Latin-script name printed in S/2020/840 for a DPRK national linked to a Shenyang office and alleged fraudulent access to IT freelance and payment websites. The later Korean-only 리일진 designation is a high-priority possible overlap; keep it separate until a source supplies a cross-script or unique-identifier bridge."
+}

@@ -1,0 +1,277 @@
+{
+  "id": "facilitator-vitaliy-sergeyevich-andreyev",
+  "type": "facilitator",
+  "name": "Vitaliy Sergeyevich Andreyev",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Russian national and financial facilitator sanctioned for support to Chinyong Information Technology Cooperation Company; administrative sanctions designation; criminal charge or conviction is outside this designation.",
+    "as_of": "2026-08-15",
+    "source_ids": [
+      "gov-a9bfb1acdb7f",
+      "gov-c031e10328bc",
+      "gov-e31464a55e89",
+      "gov-f27a7bc525e4"
+    ]
+  },
+  "legal_or_reported_name": "Vitaliy Sergeyevich Andreyev",
+  "organizations": [
+    "Chinyong Information Technology Cooperation Company"
+  ],
+  "locations": [
+    "Russia"
+  ],
+  "caveats": [
+    "The formal Latin and Cyrillic name forms are official primary-name renderings relative to the catalog display name; Russia is coarse designation context, while present location, account, wallet, exchange and transaction control require separate evidence."
+  ],
+  "aliases": [
+    {
+      "value": "ANDREYEV, Vitaliy Sergeyevich",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-a9bfb1acdb7f"
+      ]
+    },
+    {
+      "value": "АНДРЕЕВ, Виталий Сергеевич",
+      "alias_type": "unknown",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-a9bfb1acdb7f"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-f27a7bc525e4",
+      "support": "Treasury identifies Andreyev as a Russian national facilitating payments to Chinyong, reports that since at least December 2024 he worked with Kim Ung Sun to facilitate multiple transfers totaling nearly $600,000 by converting cryptocurrency to U.S.-dollar cash, and records his E.O. 13687 designation. These are administrative-source findings, not adjudicated facts; no wallet, exchange, bank, account, transaction, or payment selector is retained",
+      "locator": "Overseas IT Worker Network section, Andreyev paragraph and designation sentence"
+    },
+    {
+      "source_id": "gov-a9bfb1acdb7f",
+      "support": "The administrative action lists ANDREYEV, Vitaliy Sergeyevich, the Cyrillic form АНДРЕЕВ, Виталий Сергеевич, Russia, the DPRK2 program, and the linked-to relationship with Chinyong. Birth, birthplace, nationality, citizenship, gender, tax, wallet, compliance, and other sensitive fields are excluded",
+      "locator": "SDN additions, Andreyev entry"
+    },
+    {
+      "source_id": "gov-e31464a55e89",
+      "support": "The current exact-ID address-table row lists Russia for OFAC entity number 55065 without a city or street value. It is part of the same OFAC dataset as the SDN and alias tables and does not establish a residence, continued presence, or present location",
+      "locator": "ADD.CSV address row joined to OFAC entity number 55065"
+    },
+    {
+      "source_id": "gov-c031e10328bc",
+      "support": "Recorded Future News independently names Andreyev as a Russian national sanctioned in the IT-worker action and summarizes Treasury's allegation that he worked with Kim Ung Sun on transfers totaling nearly $600,000 through cryptocurrency-to-cash conversion. The article relies on Treasury for the underlying conduct and does not independently prove it or identify any financial selector",
+      "locator": "Article body, Andreyev paragraphs"
+    },
+    {
+      "source_id": "doaa-s06"
+    },
+    {
+      "source_id": "doar9-ofac-sdn-current"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-andreyev-official-name-forms",
+      "type": "identity_name",
+      "predicate": "officially_reported_name_forms",
+      "value": {
+        "name": "Vitaliy Sergeyevich Andreyev",
+        "ofac_primary_name": "ANDREYEV, Vitaliy Sergeyevich",
+        "cyrillic": "АНДРЕЕВ, Виталий Сергеевич"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f27a7bc525e4",
+          "locator": "Overseas IT Worker Network section, Andreyev paragraph",
+          "quote": "Vitaliy Sergeyevich Andreyev"
+        },
+        {
+          "source_id": "doaa-s06",
+          "locator": "SDN additions, Andreyev entry",
+          "quote": "ANDREYEV, Vitaliy Sergeyevich (Cyrillic: АНДРЕЕВ, Виталий Сергеевич)"
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 55065",
+          "quote": "ANDREYEV, Vitaliy Sergeyevich"
+        }
+      ],
+      "observed_at": "2025-08-27",
+      "notes": [
+        "Official Latin and Cyrillic name forms, not separate identities. Treasury's parenthetical Andreyev is release shorthand, not an OFAC-listed alias."
+      ]
+    },
+    {
+      "id": "claim-andreyev-chinyong-payment-facilitation",
+      "type": "relationship",
+      "predicate": "treasury_reported_payment_facilitation_for",
+      "value": {
+        "organization": "Chinyong Information Technology Cooperation Company",
+        "reported_conduct": "facilitating payments"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f27a7bc525e4",
+          "locator": "Overseas IT Worker Network section, Andreyev paragraph, first sentence",
+          "quote": "Vitaliy Sergeyevich Andreyev (Andreyev) is a Russian national facilitating payments to U.S.-designated Chinyong Information Technology Cooperation Company (Chinyong)"
+        },
+        {
+          "source_id": "doaa-s06",
+          "locator": "SDN additions, Andreyev entry",
+          "quote": "Linked To: CHINYONG INFORMATION TECHNOLOGY COOPERATION COMPANY"
+        }
+      ],
+      "observed_at": "2025-08-27",
+      "notes": [
+        "Treasury administrative finding. No employment relationship, account, wallet, payment instruction, or present operational role is inferred."
+      ]
+    },
+    {
+      "id": "claim-andreyev-kim-transfer-coordination",
+      "type": "incident",
+      "predicate": "treasury_reported_transfer_facilitation_with",
+      "value": {
+        "person": "Kim Ung Sun",
+        "since": "2024-12",
+        "approximate_total": "nearly USD 600,000",
+        "reported_conduct": "facilitated multiple financial transfers by converting cryptocurrency to cash in U.S. dollars"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-f27a7bc525e4",
+          "locator": "Overseas IT Worker Network section, Andreyev paragraph, transfer sentence",
+          "quote": "Since at least December 2024, Andreyev has worked with Kim Ung Sun, a Russia-based DPRK economic and trade consular official, to facilitate multiple financial transfers worth a total of nearly $600,000, by converting cryptocurrency to cash in U.S. dollars."
+        }
+      ],
+      "observed_at": "2025-08-27",
+      "notes": [
+        "Treasury administrative finding, not an adjudicated criminal fact. No exchange, bank, account, wallet, asset address, transaction, payment instruction, or counterparty beyond Kim is retained."
+      ]
+    },
+    {
+      "id": "claim-andreyev-ofac-designation",
+      "type": "legal_event",
+      "predicate": "designated_by_ofac",
+      "value": {
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "action": "SDN designation under Executive Order 13687",
+        "date": "2025-08-27",
+        "reported_basis": "support for Chinyong Information Technology Cooperation Company"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f27a7bc525e4",
+          "locator": "Overseas IT Worker Network section, Andreyev designation sentence",
+          "quote": "Andreyev is being designated pursuant to Executive Order (E.O.) 13687 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Chinyong"
+        },
+        {
+          "source_id": "doaa-s06",
+          "locator": "SDN additions, Andreyev entry",
+          "quote": "ANDREYEV, Vitaliy Sergeyevich"
+        }
+      ],
+      "observed_at": "2025-08-27",
+      "notes": [
+        "Administrative sanctions designation, not a criminal charge, conviction, plea, or sentence."
+      ]
+    },
+    {
+      "id": "claim-andreyev-current-ofac-list-entry",
+      "type": "legal_event",
+      "predicate": "present_in_current_ofac_sdn_export",
+      "value": {
+        "list": "OFAC Specially Designated Nationals List",
+        "program": "DPRK2",
+        "checked_at": "2026-08-14",
+        "linked_organization": "Chinyong Information Technology Cooperation Company"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV primary row for OFAC entity number 55065",
+          "quote": "55065,\"ANDREYEV, Vitaliy Sergeyevich\",\"individual\",\"DPRK2\""
+        },
+        {
+          "source_id": "doar9-ofac-sdn-current",
+          "locator": "SDN.CSV remarks, OFAC entity number 55065",
+          "quote": "Linked To: CHINYONG INFORMATION TECHNOLOGY COOPERATION COMPANY."
+        }
+      ],
+      "observed_at": "2026-08-14",
+      "notes": [
+        "Dated administrative-list observation; it does not establish criminal guilt, present payment activity, wallet or account control, or present location. Sensitive fields in the row were excluded."
+      ]
+    },
+    {
+      "id": "claim-andreyev-ofac-listed-country",
+      "type": "location",
+      "predicate": "ofac_listed_designation_country",
+      "value": {
+        "location": "Russia",
+        "precision": "country only",
+        "listing_observed_at": "2026-08-15",
+        "present_location_inferred": false
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-f27a7bc525e4",
+          "locator": "Overseas IT Worker Network section, Andreyev paragraph",
+          "quote": "Vitaliy Sergeyevich Andreyev (Andreyev) is a Russian national"
+        },
+        {
+          "source_id": "doaa-s06",
+          "locator": "SDN additions, Andreyev entry",
+          "quote": "Russia"
+        },
+        {
+          "source_id": "gov-e31464a55e89",
+          "locator": "ADD.CSV address row joined to OFAC entity number 55065",
+          "quote": "\"Russia\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Exact-ID official country-level designation context only. It does not establish a city, street address, residence, continued presence, or present location."
+      ]
+    },
+    {
+      "id": "claim-andreyev-recorded-future-designation-coverage",
+      "type": "legal_event",
+      "predicate": "secondary_publisher_reported_ofac_designation",
+      "value": {
+        "publisher": "Recorded Future News",
+        "reported_date": "2025-08-27",
+        "reported_context": "Russian national sanctioned in the DPRK IT-worker action; Treasury-attributed Kim Ung Sun transfer allegation"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-c031e10328bc",
+          "locator": "Article body, Andreyev paragraphs",
+          "quote": "Andreyev is a Russian national allegedly working with North Korean economic and trade consular official Kim Ung Sun on the money laundering effort."
+        }
+      ],
+      "observed_at": "2025-08-27",
+      "notes": [
+        "Independent publication-level corroboration that Andreyev was named in the sanctions action. The article relies on Treasury for the underlying conduct and does not independently prove the allegation or alter the administrative legal posture."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Vitaliy Sergeyevich Andreyev, listed by OFAC as ANDREYEV, Vitaliy Sergeyevich with the Cyrillic form АНДРЕЕВ, Виталий Сергеевич, is the person Treasury reported as facilitating payments to Chinyong and working with Kim Ung Sun on cryptocurrency-to-cash transfers. Preserve Treasury's administrative findings and designation posture; criminal guilt, present wallet or account control, present location and same-named public-account identity require separate evidence."
+}

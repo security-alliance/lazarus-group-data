@@ -1,0 +1,111 @@
+{
+  "id": "infrastructure-rfj-group-poster-03",
+  "type": "infrastructure",
+  "name": "Rewards for Justice group poster 3",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "dipr5-rfj-nine-person-reward-page",
+      "dipr5-state-copyright-information"
+    ]
+  },
+  "caveats": [
+    "The composite remains uncropped and unattached to individual profiles; visual comparison is excluded.",
+    "Asset-level reuse licensing remains unresolved; link-only handling is mandatory.",
+    "The asset contains multiple people and/or silhouettes; individual-profile attachment and visual identity remain unestablished.",
+    "The asset is contextual imagery; biometric proof and resolution of personas, aliases, accounts, or victim identities require separate source evidence.",
+    "The official reward-page allegations remain unadjudicated allegations.",
+    "This is one campaign-level composite, representing nine underlying observations rather than nine new individual portraits."
+  ],
+  "images": [
+    {
+      "source_id": "dipr5-rfj-media-218755",
+      "source_url": "https://rewardsforjustice.net/wp-json/wp/v2/media/218755",
+      "direct_asset_url": "https://rewardsforjustice.net/wp-content/uploads/2026/04/DPRK_IT_WORKERS_PICS.png",
+      "caption": "Rewards for Justice featured campaign composite for the official nine-person North Korea money-laundering reward page. Use only in the intact nine-person campaign context; the page's allegations are not adjudicated findings and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    },
+    {
+      "source_id": "dipr5-rfj-nine-person-reward-page",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "direct_asset_url": "https://rewardsforjustice.net/wp-content/uploads/2026/04/DPRK_IT_WORKER_EN-300x176.jpg",
+      "caption": "Group campaign poster covering multiple named subjects; this is not an individual portrait.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "campaign-level-composite",
+      "value": "https://rewardsforjustice.net/wp-content/uploads/2026/04/DPRK_IT_WORKERS_PICS.png",
+      "subject_record_ids": [
+        "facilitator-huang-jingbin",
+        "facilitator-liu-enchia",
+        "facilitator-liu-menting",
+        "facilitator-song-min-kim",
+        "facilitator-tong-yuze",
+        "facilitator-xu-yongzhe",
+        "facilitator-yuan-ziyou",
+        "facilitator-zhou-baoyu",
+        "facilitator-zhou-zhenbang"
+      ],
+      "subjects": [
+        "Huang Jingbin",
+        "Liu Enchia",
+        "Liu Menting",
+        "Song Min Kim",
+        "Tong Yuze",
+        "Xu Yongzhe",
+        "Yuan Ziyou",
+        "Zhou Baoyu",
+        "Zhou Zhenbang"
+      ],
+      "handling": "Intact campaign context only; never crop or attach as an individual portrait.",
+      "source_ids": [
+        "dipr5-rfj-media-218755",
+        "dipr5-rfj-nine-person-reward-page"
+      ]
+    },
+    {
+      "type": "group-poster",
+      "value": "https://rewardsforjustice.net/wp-content/uploads/2026/04/DPRK_IT_WORKER_EN-300x176.jpg",
+      "subjects": [
+        "Liu Enchia",
+        "Liu Menting",
+        "Song Min Kim",
+        "Tong Yuze",
+        "Xu Yongzhe",
+        "Yuan Ziyou",
+        "Zhou Baoyu",
+        "Zhou Zhenbang"
+      ],
+      "source_ids": [
+        "dipr5-rfj-nine-person-reward-page"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "infrastructure-rfj-group-poster-03"
+  ],
+  "sources": [
+    {
+      "source_id": "dipr5-rfj-nine-person-reward-page",
+      "support": "RFJ identifies nine people tied to shell companies, payment accounts, infrastructure, laptop farms, and laundering proceeds from over 100 U.S. companies | The official reward page names the nine subjects represented by the featured campaign composite. It provides campaign context, not an adjudicated finding or biometric identity determination",
+      "locator": "Named-person list and English poster image | Nine-person campaign page and named-subject list"
+    },
+    {
+      "source_id": "dipr5-rfj-media-218755",
+      "support": "The official media metadata associates media item 218755 with the nine-person reward page and identifies the full composite asset URL. It supplies no asset-level license, caption, photographer credit, or reuse permission",
+      "locator": "WordPress media item 218755"
+    },
+    {
+      "source_id": "dipr5-state-copyright-information",
+      "support": "The State Department copyright policy is retained as rights context, but it does not establish asset-level permission sufficient to approve local caching of this composite",
+      "locator": "Copyright and reuse policy"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

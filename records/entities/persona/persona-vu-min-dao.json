@@ -1,0 +1,276 @@
+{
+  "id": "persona-vu-min-dao",
+  "type": "persona",
+  "name": "Vu Min Dao",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s8"
+    ]
+  },
+  "ttps": [
+    "appropriated resume content",
+    "inconsistent listed locations",
+    "minimal/templated professional profiles"
+  ],
+  "caveats": [
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "images": [
+    {
+      "source_id": "platform-s8",
+      "source_url": "https://6068438.fs1.hubspotusercontent-na1.net/hubfs/6068438/dprk-it-worker-scam.pdf",
+      "caption": "Nisos report reproduces public profile images; it warns the same photos appeared under different names.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s8",
+      "support": "Nisos enumerated Vu Min Dao among a network of probable DPRK online personas",
+      "locator": "Skills, LinkedIn, HackerRank, and location examples, report pp. 4-7, Graphics 1 and 7 and 10-13"
+    },
+    {
+      "source_id": "src-083702bf2e77"
+    },
+    {
+      "source_id": "drp49-un-s-2024-215"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-vu-minh-dao-source-spelling",
+      "type": "identity_name",
+      "predicate": "publisher_figure_displayed_persona_name",
+      "value": {
+        "catalog_label": "Vu Min Dao",
+        "source_displayed_name": "Vu Minh Dao",
+        "crosswalk_status": "probable spelling variant"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 4, Graphic 1 caption",
+          "quote": "Graphic 1: Vu Minh Dao’s experience in blockchain transactions."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "The catalog omits the h in Minh. This bundle preserves the variance and does not claim a civil-identity merge."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-probable-persona-assessment",
+      "type": "note",
+      "predicate": "publisher_assessed_probable_dprk_online_persona",
+      "value": {
+        "assessment": "one of the online personas Nisos assessed as probably used by DPRK IT workers",
+        "assessment_not_fact": true
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-083702bf2e77",
+          "locator": "Executive Summary, opening sentence",
+          "quote": "Nisos investigators identified a number of online personas probably used by the Democratic People’s Republic of Korea (DPRK, a.k.a. North Korea) information technology (IT) workers to fraudulently obtain remote employment from unwitting companies in the United States."
+        },
+        {
+          "source_id": "src-083702bf2e77",
+          "locator": "Skills and Interests, Graphic 1 caption",
+          "quote": "Graphic 1: Vu Minh Dao’s experience in blockchain transactions."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Nisos's probabilistic analytic posture is preserved. This does not establish the apparent identity owner's nationality or knowledge."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-linkedin-profile",
+      "type": "account",
+      "predicate": "publisher_reported_historical_linkedin_profile",
+      "value": {
+        "platform": "LinkedIn",
+        "displayed_name": "Vu Minh Dao",
+        "historical_observation": true,
+        "selector_retained": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 5, Graphic 7 caption",
+          "quote": "Graphic 7: Vu Minh Dao Linkedin profile features a different photo of the same individual."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Only the historical platform and displayed label are retained. The report's image comparison was not repeated, and the endpoint is not published here."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-claimed-role",
+      "type": "employment",
+      "predicate": "source_reported_persona_role_claim",
+      "value": {
+        "claimed_role": "Senior iOS Engineer",
+        "claimed_employer": "CyberBox"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 7, Graphic 13 visible profile text",
+          "quote": "Senior iOS Engineer at CyberBox"
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Historical persona presentation only; employment was not independently verified."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-claimed-dorchester-location",
+      "type": "location",
+      "predicate": "source_reported_persona_location_claim",
+      "value": {
+        "claimed_location": "Dorchester, Massachusetts, United States",
+        "platform_context": "LinkedIn"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 7, Graphic 13 caption",
+          "quote": "Graphic 13: Vu Minh Dao’s LinkedIn profile lists his location as Dorchester, Massachusetts."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Profile claim only; no past or present physical location is established."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-blockchain-experience-claim",
+      "type": "skill",
+      "predicate": "source_reported_persona_skill_claim",
+      "value": {
+        "skill_context": "blockchain transactions"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 4, Graphic 1 caption",
+          "quote": "Graphic 1: Vu Minh Dao’s experience in blockchain transactions."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Source-reproduced resume/profile presentation, not independently validated technical proficiency."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-remote-job-seeking",
+      "type": "employment",
+      "predicate": "source_reported_persona_job_seeking_post",
+      "value": {
+        "activity": "posted that the persona was looking for a new role",
+        "remote_only_context": "publisher grouped the example with remote-job seeking"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 5, Graphic 3 visible post text",
+          "quote": "Hi everyone - I am looking for a new role"
+        },
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 5, Graphic 3 caption",
+          "quote": "Graphic 3: Example of an online persona seeking a remote job."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Historical publisher-captured post. No present availability or account control is inferred."
+      ]
+    },
+    {
+      "id": "claim-vu-minh-dao-hackerrank-cluster",
+      "type": "account",
+      "predicate": "publisher_reported_hackerrank_profiles_under_different_names",
+      "value": {
+        "platform": "HackerRank",
+        "profile_count": 2,
+        "different_display_names": true,
+        "selectors_retained": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s8",
+          "locator": "PDF page 6, Graphics 10-11 caption",
+          "quote": "Investigators identified two HackerRank profiles for the actor under different names."
+        }
+      ],
+      "observed_at": "2023-12-11",
+      "notes": [
+        "Nisos's account-cluster assessment only. Exact selectors, present status, and operator identity are intentionally omitted."
+      ]
+    },
+    {
+      "id": "claim-persona-vu-min-dao-un-annex64-derivative-reproduction",
+      "type": "relationship",
+      "predicate": "un_report_reproduced_vendor_persona_example",
+      "value": {
+        "document_symbol": "S/2024/215",
+        "figure": "Annex 64, Figure 3",
+        "visible_labels": [
+          "Vu Minh Dao",
+          "Bruno Dao"
+        ],
+        "underlying_source_family": "Nisos 2023 persona research",
+        "independent_identity_source": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 caption",
+          "quote": "Figure 3: Example of DPRK IT workers’ multiple personas"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 visible profile label",
+          "quote": "Vu Minh Dao"
+        },
+        {
+          "source_id": "drp49-un-s-2024-215",
+          "locator": "PDF file p. 358, Annex 64, Figure 3 visible profile label",
+          "quote": "Bruno Dao"
+        }
+      ],
+      "observed_at": "2024-03-07",
+      "notes": [
+        "The UN figure preserves Nisos's Vu Minh Dao spelling. It does not independently resolve the catalog's Vu Min Dao spelling or establish a civil identity.",
+        "The UN figure is retained as official derivative documentation; it does not increase independent publisher count, resolve a civil identity, or authorize image-based identity inference."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "The catalog label Vu Min Dao corresponds to Nisos figure text spelled Vu Minh Dao. The one-letter spelling variance, shared imagery, common skills, and platform presence provide contextual links; person-level merge and present account control require source evidence."
+}

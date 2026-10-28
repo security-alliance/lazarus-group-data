@@ -1,0 +1,172 @@
+{
+  "id": "persona-zhonghua",
+  "type": "persona",
+  "name": "Zhonghua",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Uncharged manager moniker alleged in the Chapman indictment; the underlying legal identity remains unpublished.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-5353a9559e88",
+      "gov-b385deb5f41c"
+    ]
+  },
+  "ttps": [
+    "alleged direct communications with Chapman",
+    "alleged management of overseas IT workers"
+  ],
+  "caveats": [
+    "Official sources identify these as aliases/monikers; Zhonghua was described as a coconspirator, while indictment-caption defendant status remains source-specific.",
+    "The underlying legal identity remains unpublished; publish only as an officially reported alias/persona."
+  ],
+  "aliases": [
+    {
+      "value": "Venechor S.",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "gov-5353a9559e88",
+        "gov-b385deb5f41c"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gov-5353a9559e88",
+      "support": "Rewards for Justice names Jiho Han, Chunji Jin, Haoran Xu, and Zhonghua as employment aliases in the Chapman scheme; the page does not establish that the person shown in its image is the underlying actor",
+      "locator": "Named-alias list and campaign image"
+    },
+    {
+      "source_id": "gov-b385deb5f41c",
+      "support": "The indictment identifies Zhonghua and Venechor S. as aliases or monikers for an uncharged foreign national allegedly managing overseas IT workers and communicating directly with Chapman",
+      "locator": "D.D.C. No. 1:24-cr-00173-TSC, ¶16, pp. 9–10"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-zhonghua-aliases",
+      "type": "alias",
+      "predicate": "indictment_reported_aliases_or_monikers",
+      "value": {
+        "aliases": [
+          "Zhonghua",
+          "Venechor S."
+        ],
+        "placeholder": "JOHN DOE 4"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 9, paragraph 16",
+          "quote": "JOHN DOE 4, alias or moniker “Zhonghua,” and “Venechor S.” (hereinafter “Zhonghua”)"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "Alias and placeholder relationship only; the indictment does not disclose an underlying civil identity."
+      ]
+    },
+    {
+      "id": "claim-zhonghua-manager-role",
+      "type": "employment",
+      "predicate": "alleged_manager_of_overseas_it_workers",
+      "value": {
+        "role": "manager of other overseas IT workers"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 9, paragraph 16",
+          "quote": "Zhonghua was a manager of other overseas IT workers"
+        },
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, second body paragraph",
+          "quote": "their manager Zhonghua"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "Official allegation and Rewards for Justice characterization; not an adjudicated employment or civil-identity finding."
+      ]
+    },
+    {
+      "id": "claim-zhonghua-direct-chapman-communication",
+      "type": "relationship",
+      "predicate": "alleged_direct_communication_regarding_scheme",
+      "value": {
+        "counterparty": "Christina Chapman",
+        "context": "the alleged scheme"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 9, paragraph 16",
+          "quote": "had direct communication with CHAPMAN regarding the scheme"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "Indictment allegation only; no contact selector or private message content is retained."
+      ]
+    },
+    {
+      "id": "claim-zhonghua-uncharged-caption-posture",
+      "type": "legal_event",
+      "predicate": "described_but_not_named_in_defendant_caption",
+      "value": {
+        "document": "Superseding Indictment, United States v. Chapman et al.",
+        "posture": "described as JOHN DOE 4 / Zhonghua but not named in the defendant caption"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 1, defendant caption",
+          "quote": "CHRISTINA CHAPMAN, JOHN DOE 1, alias JIHO HAN, JOHN DOE 2, alias HAORAN XU, JOHN DOE 3, alias CHUNJI JIN, Defendants."
+        },
+        {
+          "source_id": "gov-b385deb5f41c",
+          "locator": "PDF p. 9, paragraph 16",
+          "quote": "JOHN DOE 4, alias or moniker “Zhonghua,” and “Venechor S.”"
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "This is a document-caption boundary, not a finding that no charge could exist elsewhere. No later public charge or disposition was established in the reviewed record."
+      ]
+    },
+    {
+      "id": "claim-zhonghua-rfj-scheme-attribution",
+      "type": "incident",
+      "predicate": "rfj_collective_scheme_attribution",
+      "value": {
+        "activity": "scheme enabling three named worker aliases to obtain telework using false identities"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "gov-5353a9559e88",
+          "locator": "North Korean Information Technology (IT) Workers, second body paragraph",
+          "quote": "These individuals engaged in a scheme that enabled Han, Jin, and Xu to obtain illicit telework employment with U.S. companies using false identities belonging to more than 60 real U.S. persons."
+        }
+      ],
+      "observed_at": "2024-05-08",
+      "notes": [
+        "Collective Rewards for Justice attribution. Victim identities and company names are not retained, and the statement is not treated as a conviction of Zhonghua."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Zhonghua and Venechor S. are indictment-reported aliases or monikers for an unnamed foreign national described as JOHN DOE 4. The person is alleged to have managed overseas IT workers and communicated with Christina Chapman; the indictment caption leaves the aliases outside its defendant list. Keep each alias separate from a verified civil identity and the three charged John Doe aliases; source imagery remains contextual rather than identity proof."
+}

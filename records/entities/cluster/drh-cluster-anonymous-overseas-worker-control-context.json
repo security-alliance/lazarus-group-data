@@ -1,0 +1,48 @@
+{
+  "id": "drh-cluster-anonymous-overseas-worker-control-context",
+  "type": "cluster",
+  "name": "Anonymous former-worker context on controlled overseas living and information exposure",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "affected-organization-report",
+    "legal_posture": "BBC reports anonymous, pseudonymous former-worker context about overseas deployment conditions. The material is contextual rather than an actor profile or screening indicator.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DRH-S01"
+    ]
+  },
+  "ttps": [
+    "foreign-based-facilitator",
+    "team-manager"
+  ],
+  "caveats": [
+    "Avoid publishing details that could identify or endanger the protected source.",
+    "Context only; geography and nationality are descriptive context and cannot by themselves serve as screening indicators.",
+    "Jin-su is a BBC source-protection pseudonym used for context; legal identity is protected, and the record keeps it separate from Jin Sung-Il and similarly named people."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-context",
+      "statements": [
+        "The former worker described being required to remain indoors and experiencing close control while based in China.",
+        "At the same time, overseas internet access exposed workers to Western media and information unavailable inside the DPRK; the source described escape as rare and dangerous because of surveillance and possible family consequences."
+      ],
+      "source_ids": [
+        "DRH-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-ttp-deep-ttp-04-shared-residential-work-farm"
+  ],
+  "sources": [
+    {
+      "source_id": "DRH-S01",
+      "support": "The former worker described being required to remain indoors and experiencing close control while based in China. At the same time, overseas internet access exposed workers to Western media and information unavailable inside the DPRK; the source described escape as rare and dangerous because of surveillance and possible family consequences",
+      "locator": "Opening through Getting the jobs; paragraphs beginning 'Jin-su says', 'Jin-su was an IT worker', and 'Jin-su spent most of his time'; A rare escape route"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

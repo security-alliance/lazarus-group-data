@@ -1,0 +1,48 @@
+{
+  "id": "front-company-dark-falls-llc",
+  "type": "front_company",
+  "name": "Dark Falls LLC",
+  "status": "needs_corroboration",
+  "confidence": "confirmed",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "The indictment alleges that Dark Falls LLC was used as a shell company; it records no corporate conviction.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "doj-2026-10-13-ohio-indictment"
+    ]
+  },
+  "caveats": [
+    "The indictment states an allegation; guilt remains unadjudicated.",
+    "Contact selectors, addresses, identity documents, and victim details are excluded."
+  ],
+  "identity_boundary": "Source-bounded front_company record for Dark Falls LLC; keep it separate from any other person or account sharing the name or identifier.",
+  "sources": [
+    {
+      "source_id": "doj-2026-10-13-ohio-indictment",
+      "support": "The DOJ indictment reports Dark Falls LLC in the described scheme.",
+      "locator": "PDF p. 6 ¶17"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-front-company-dark-falls-llc",
+      "type": "alias",
+      "predicate": "indictment_describes_shell_company",
+      "value": {
+        "company": "Dark Falls LLC"
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-18",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-indictment",
+          "locator": "PDF p. 6 ¶17",
+          "quote": "Nolte was the founder of an Ohio-based limited liability company, Dark Falls LLC, that purported to specialize in software development. In fact, Dark Falls was a shell company used by Nolte and his co-conspirators to facilitate the criminal schemes described in this Indictment."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18"
+}

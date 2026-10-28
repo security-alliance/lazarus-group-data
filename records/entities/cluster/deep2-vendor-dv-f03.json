@@ -1,0 +1,40 @@
+{
+  "id": "deep2-vendor-dv-f03",
+  "type": "cluster",
+  "name": "Okta large-scale DPRK IT-worker interview dataset",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Security-vendor research finding; legal identity and adjudication remain outside the finding.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-vendor-dv-s02-dv-f03"
+    ]
+  },
+  "caveats": [
+    "Counts represent linked actors, interviews and companies; unique confirmed DPRK nationals and successful infiltrations require separate counts.",
+    "Okta intentionally withholds the visibility mechanism and makes no claim that every observed company hired an actor."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "Okta's September 2025 analysis linked more than 130 actors to more than 6,500 initial job interviews across more than 5,000 distinct companies through mid-2025.",
+        "Okta said the activity crossed almost every vertical and geography rather than remaining limited to U.S. big technology companies."
+      ],
+      "source_ids": [
+        "deep2-vendor-dv-s02-dv-f03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-vendor-dv-s02-dv-f03",
+      "support": "Okta's September 2025 analysis linked more than 130 actors to more than 6,500 initial job interviews across more than 5,000 distinct companies through mid-2025. Okta said the activity crossed almost every vertical and geography rather than remaining limited to U.S. big technology companies",
+      "locator": "Executive Summary; Methodology and scale; Conclusion"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

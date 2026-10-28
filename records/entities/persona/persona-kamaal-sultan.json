@@ -1,0 +1,251 @@
+{
+  "id": "persona-kamaal-sultan",
+  "type": "persona",
+  "name": "Kamaal Sultan",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "platform-s1"
+    ]
+  },
+  "ttps": [
+    "edited imported persona portfolios",
+    "shared indicator with superbluestar"
+  ],
+  "caveats": [
+    "Nisos reports this as a presented persona within a reused account/infrastructure network; shared handles or numeric tokens leave this label and other labels unlinked as natural-person identities.",
+    "The source frames this as an assessed persona/account rather than a government-confirmed identity.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "kamaalsultan",
+      "url": "https://github.com/kamaalsultan",
+      "status": "active",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1"
+      ],
+      "note": "HTTP 200 on direct fetch"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "email",
+      "value": "okino.takayuki.dev@gmail[.]com",
+      "relationship": "reported-link",
+      "source_ids": [
+        "platform-s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s1",
+      "support": "Nisos assessed Kamaal Sultan likely DPRK-affiliated; the account listed okino.takayuki.dev@gmail[.]com",
+      "locator": "Persona Creation Process, Kamaal Sultan and shared-repository discussion, report pp. 13-14"
+    },
+    {
+      "source_id": "src-9b3cc9a3d76e"
+    },
+    {
+      "source_id": "src-a1abb7c76dc1"
+    },
+    {
+      "source_id": "src-18c9f350c081"
+    },
+    {
+      "source_id": "src-41fd88e664a2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kamaal-nisos-persona-assessment",
+      "type": "note",
+      "predicate": "publisher_assessed_likely_dprk_affiliated_persona",
+      "value": {
+        "name": "Kamaal Sultan",
+        "assessment": "likely DPRK-affiliated persona",
+        "basis": "shared repository and account-contact association reported by Nisos"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 13, Persona Creation Process, assessment sentence",
+          "quote": "Nisos assess that Kamaal Sultan is likely a DPRK-afﬁliated persona"
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Nisos assessment only; this is not a verified nationality, civil identity, sanctions designation, charge, or adjudication."
+      ]
+    },
+    {
+      "id": "claim-kamaal-shared-persona-repository",
+      "type": "relationship",
+      "predicate": "publisher_reported_shared_persona_repository",
+      "value": {
+        "personas": [
+          "Shaorun Zhang",
+          "Kamaal Sultan"
+        ],
+        "third_account_editor": "superredstar",
+        "edit_month": "2022-04"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "platform-s1",
+          "locator": "PDF p. 13, Persona Creation Process, second sentence",
+          "quote": "Nisos found that personas within the network, Shaorun Zhang and Kamaal Sultan, shared a GitHub repository that was edited by a third GitHub account, superredstar, in April 2022."
+        }
+      ],
+      "observed_at": "2025-03-04",
+      "notes": [
+        "Repository and persona-label relationship only; it does not establish that the labels or account users are the same natural person."
+      ]
+    },
+    {
+      "id": "claim-kamaal-current-github-metadata",
+      "type": "account",
+      "predicate": "current_public_account_metadata",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kamaalsultan",
+        "numeric_id": 103924884,
+        "display_name": "Kamaal",
+        "claimed_location": "Atlanta, GA",
+        "public_repositories": 47,
+        "created_at": "2022-04-18T07:36:00Z"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-9b3cc9a3d76e",
+          "locator": "JSON field login",
+          "quote": "\"login\": \"kamaalsultan\""
+        },
+        {
+          "source_id": "src-9b3cc9a3d76e",
+          "locator": "JSON field id",
+          "quote": "\"id\": 103924884"
+        },
+        {
+          "source_id": "src-9b3cc9a3d76e",
+          "locator": "JSON field name",
+          "quote": "\"name\": \"Kamaal\""
+        },
+        {
+          "source_id": "src-9b3cc9a3d76e",
+          "locator": "JSON field location",
+          "quote": "\"location\": \"Atlanta, GA\""
+        },
+        {
+          "source_id": "src-9b3cc9a3d76e",
+          "locator": "JSON field public_repos",
+          "quote": "\"public_repos\": 47"
+        },
+        {
+          "source_id": "src-9b3cc9a3d76e",
+          "locator": "JSON field created_at",
+          "quote": "\"created_at\": \"2022-04-18T07:36:00Z\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "The display name and location are mutable account assertions and are not verified legal-name or residence facts."
+      ]
+    },
+    {
+      "id": "claim-kamaal-current-shaorun-repository",
+      "type": "account",
+      "predicate": "current_public_repository_preserves_persona_rewrite",
+      "value": {
+        "repository": "kamaalsultan/shaorun-dev116.github.io",
+        "historical_commit": "e35f8c735cf13bc1f6edc305d0ed91fae9c5e494",
+        "reported_change": "portfolio title changed from William Lucas to Shaorun Zhang"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-a1abb7c76dc1",
+          "locator": "JSON field full_name",
+          "quote": "\"full_name\": \"kamaalsultan/shaorun-dev116.github.io\""
+        },
+        {
+          "source_id": "src-18c9f350c081",
+          "locator": "JSON field sha",
+          "quote": "\"sha\": \"e35f8c735cf13bc1f6edc305d0ed91fae9c5e494\""
+        },
+        {
+          "source_id": "src-18c9f350c081",
+          "locator": "index.html patch, removed title",
+          "quote": "Full Dev(William Lucas)"
+        },
+        {
+          "source_id": "src-18c9f350c081",
+          "locator": "index.html patch, added title",
+          "quote": "Full Dev(Shaorun Zhang)"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current reachability of a historical commit does not identify its present controller or merge Kamaal Sultan, William Lucas, and Shaorun Zhang into one person."
+      ]
+    },
+    {
+      "id": "claim-kamaal-current-owner-repository-inventory",
+      "type": "account",
+      "predicate": "current_public_owner_repository_inventory",
+      "value": {
+        "platform": "GitHub",
+        "handle": "kamaalsultan",
+        "returned_owner_repository_records": 47,
+        "source_relevant_repository_labels": [
+          "SuperBluestar",
+          "portfolio.shaorun",
+          "shaorun-dev116.github.io"
+        ]
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-41fd88e664a2",
+          "locator": "complete returned owner-filtered JSON array",
+          "quote": "\"name\": \"ai-saas\""
+        },
+        {
+          "source_id": "src-41fd88e664a2",
+          "locator": "SuperBluestar repository name field",
+          "quote": "\"name\": \"SuperBluestar\""
+        },
+        {
+          "source_id": "src-41fd88e664a2",
+          "locator": "portfolio.shaorun repository name field",
+          "quote": "\"name\": \"portfolio.shaorun\""
+        },
+        {
+          "source_id": "src-41fd88e664a2",
+          "locator": "shaorun-dev116.github.io repository name field",
+          "quote": "\"name\": \"shaorun-dev116.github.io\""
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "The record count is derived from the complete returned array. Repository naming and account ownership metadata do not establish individual authorship, expertise, employment, present control, or that every repository belongs to one natural person."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Nisos-reported persona and public GitHub account label. Kamaal Sultan, the current GitHub display name, repository collaborators, and personas edited in account-owned repositories remain account-context labels rather than one natural person or verified civil identity."
+}

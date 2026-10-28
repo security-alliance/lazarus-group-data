@@ -1,0 +1,110 @@
+{
+  "id": "persona-agencyhill99-newton-curtis",
+  "type": "persona",
+  "name": "Newton Curtis",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "This is a security-research-reported persona or historical account; it supplies no legal identity attribution.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+    ]
+  },
+  "organizations": [
+    "AgencyHill99",
+    "PurpleBravo"
+  ],
+  "ttps": [
+    "employment or recruiter persona presentation",
+    "historical public account use"
+  ],
+  "caveats": [
+    "Profile imagery and visual similarity remain outside identity evidence.",
+    "Publish only if presented as a reported AgencyHill99 recruiter persona.",
+    "source-observed in 2024 and reported 2025-02-13",
+    "This is a source-reported persona or account label rather than a verified legal identity."
+  ],
+  "aliases": [
+    {
+      "value": "Newton Curtis",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Intch",
+      "identifier": "Intch recruiter profile/job posting",
+      "status": "historical",
+      "relationship": "reported-link",
+      "source_ids": [
+        "front-infra-s3-recordedfuture-2025-cta-nk-0213"
+      ],
+      "note": "Historical public indicator reported by the cited source; do not contact or assume current ownership."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+      "support": "The cited source reports Newton Curtis as a persona or account linked to AgencyHill99, PurpleBravo; historical indicators described by the source include Intch recruiter profile/job posting",
+      "locator": "PDF p. 4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-newton-source-intch-recruiter-persona",
+      "type": "account",
+      "predicate": "publisher_reported_intch_recruiter_persona",
+      "value": {
+        "platform": "Intch",
+        "persona_label": "Newton Curtis",
+        "reported_role": "recruiter",
+        "reported_organization": "AgencyHill99",
+        "status": "historical publisher report"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF page index 5 (printed footer p. 4), PurpleBravo's Fraudulent Profiles, final sentence",
+          "quote": "The company posted a “Part-Time IT Developer Opportunity” by an individual with the name Newton Curtis, who is a recruiter at AgencyHill99."
+        }
+      ],
+      "observed_at": "2025-02-13",
+      "notes": [
+        "Historical publisher attribution only; the display name is not treated as a verified civil identity or present employee."
+      ]
+    },
+    {
+      "id": "claim-newton-source-job-posting",
+      "type": "note",
+      "predicate": "publisher_reported_intch_job_posting",
+      "value": {
+        "platform": "Intch",
+        "organization_label": "Agencyhill99",
+        "posting_title": "Part-Time IT Developer Opportunity"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "front-infra-s3-recordedfuture-2025-cta-nk-0213",
+          "locator": "PDF page index 5 (printed footer p. 4), PurpleBravo's Fraudulent Profiles, Intch company and posting sentences",
+          "quote": "Insikt Group also discovered a company with the name Agencyhill99 on the website Intch, a part-time and remote job platform. The company posted a “Part-Time IT Developer Opportunity”"
+        }
+      ],
+      "observed_at": "2025-02-13",
+      "notes": [
+        "Historical platform presentation only; no current vacancy, company status, or present controller is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-12",
+  "identity_boundary": "Recorded Future-reported historical Intch recruiter persona associated with AgencyHill99. Newton Curtis has an unverified civil identity; same-named people remain separate and present employment or account control remain open."
+}

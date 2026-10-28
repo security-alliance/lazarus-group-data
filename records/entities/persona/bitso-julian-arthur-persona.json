@@ -1,0 +1,247 @@
+{
+  "id": "bitso-julian-arthur-persona",
+  "type": "persona",
+  "name": "Julián Arleby Muñoz Mendez",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Bitso labels this a controlled investigation; the record contains no established legal identity or independent attribution.",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "talk-bitso-chollima-iv"
+    ]
+  },
+  "romanizations": [
+    "Julian Arleby Munoz Mendez"
+  ],
+  "organizations": [
+    "Bitso Quetzal Team",
+    "Famous Chollima"
+  ],
+  "locations": [
+    "Claimed Colombia (source-reported persona story)"
+  ],
+  "ttps": [
+    "claimed nationality unsupported by language ability",
+    "identity/name mismatch between interview and résumé persona",
+    "senior persona sent after earlier recruitment failure",
+    "stolen résumé and portfolio"
+  ],
+  "caveats": [
+    "The source reports a relationship between Julián Arleby Muñoz Mendez and Arthur Burrus within its narrative; the record preserves that reported relationship only.",
+    "Medium-confidence research-attributed persona material requires editorial review before public profile publication.",
+    "This is a research-reported persona label from a public investigation; legal or civil identity verification remains open."
+  ],
+  "aliases": [
+    {
+      "value": "Arthur Burrus",
+      "alias_type": "employment-persona",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "talk-bitso-chollima-iv"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "talk-bitso-chollima-iv",
+      "support": "Narrative explicitly names Julián Arleby Muñoz Mendez and says the interview was entered under Arthur Burrus after a stolen résumé/portfolio was used",
+      "locator": "We put the 'Famous' in 'Famous Chollima'"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-julian-source-reported-persona-name",
+      "type": "identity_name",
+      "predicate": "researcher_reported_interview_persona_name",
+      "value": {
+        "name": "Julián Arleby Muñoz Mendez",
+        "romanization": "Julian Arleby Munoz Mendez",
+        "identity_status": "reported persona label; possibly a stolen name"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "A Famous Chollima named ‘Julián’ section",
+          "quote": "Dear readers, meet “ Julián Arleby Muñoz Mendez ”, Senior Chollima from the DPRK"
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "Bitso later says the name was stolen. Do not treat it as the operator's legal identity or investigate a same-name person."
+      ]
+    },
+    {
+      "id": "claim-julian-bitso-chollima-attribution",
+      "type": "organization_affiliation",
+      "predicate": "publisher_labeled_as_famous_chollima_candidate",
+      "value": {
+        "cluster": "Famous Chollima",
+        "source_context": "controlled recruitment interview narrative"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "A Famous Chollima named ‘Julián’ section",
+          "quote": "A Famous Chollima named “Julián”"
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "Research attribution in a deliberately humorous article; no independent legal, nationality, or civil-identity finding."
+      ]
+    },
+    {
+      "id": "claim-julian-stolen-resume-portfolio",
+      "type": "incident",
+      "predicate": "publisher_reported_identity_material_reuse",
+      "value": {
+        "materials": [
+          "resume",
+          "portfolio"
+        ],
+        "source_identity": "unnamed senior full-stack engineer from Colombia",
+        "purpose": "seek employment"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "A Famous Chollima named ‘Julián’ section",
+          "quote": "“ Julián ” stole a resume and a portfolio from a Senior Full Stack Engineer from Colombia and tried to pose as him in order to gain a position at our company."
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "Source-reported conduct, not an adjudicated finding. The apparent victim remains unnamed and no victim artifacts were retained."
+      ]
+    },
+    {
+      "id": "claim-julian-arthur-burrus-meeting-label",
+      "type": "alias",
+      "predicate": "source_reported_meeting_entry_name",
+      "value": {
+        "label": "Arthur Burrus",
+        "label_type": "meeting entry name"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "Identity-switch error paragraph",
+          "quote": "entered the meeting under the name “ Arthur Burrus ”"
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "Historical source-reported persona label; not a verified civil identity."
+      ]
+    },
+    {
+      "id": "claim-julian-claimed-colombia-singapore-story",
+      "type": "location",
+      "predicate": "source_reported_persona_location_story",
+      "value": {
+        "claimed_origin": "Colombia",
+        "claimed_childhood_location": "Singapore",
+        "claimed_current_location": "Colombia"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "Claimed background paragraph",
+          "quote": "“ I was sent abroad to Singapore from a young age ” he states, “ but I’m now once again in Colombia ”."
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "Persona claims only; no present or historical location is independently established."
+      ]
+    },
+    {
+      "id": "claim-julian-spanish-language-mismatch",
+      "type": "note",
+      "predicate": "publisher_reported_language_claim_mismatch",
+      "value": {
+        "claimed_identity_context": "born and raised in Colombia",
+        "interview_observation": "did not speak Spanish"
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "Claimed background paragraph",
+          "quote": "does not speak a single word of Spanish"
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "A source-reported interview inconsistency, not a nationality, ethnicity, or identity detector by itself."
+      ]
+    },
+    {
+      "id": "claim-julian-linkedin-path",
+      "type": "account",
+      "predicate": "source_reported_historical_persona_profile",
+      "value": {
+        "platform": "LinkedIn",
+        "profile_path": "julian-mendez-working0628",
+        "current_status": "not established"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "IOCs section",
+          "quote": "URL:hxxps://www[.]linkedin[.]com/in/julian-mendez-working0628/"
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "Historical source attribution. A 2026-08-14 unauthenticated endpoint check ended with LinkedIn HTTP 999 and does not establish current reachability, control, or the identity of any apparent victim."
+      ]
+    },
+    {
+      "id": "claim-julian-reported-follow-up-sequence",
+      "type": "incident",
+      "predicate": "publisher_characterized_as_senior_follow_up_candidate",
+      "value": {
+        "prior_event": "Interview with the Chollima III",
+        "reported_interval": "two days",
+        "publisher_characterization": "more senior Chollima follow-up candidate",
+        "operational_coordination_established": false
+      },
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "One-up sequence, third example",
+          "quote": "After Interview with the Chollima III (yes, just two days ago), they sent a more senior Chollima"
+        },
+        {
+          "source_id": "talk-bitso-chollima-iv",
+          "locator": "Julián introduction paragraph",
+          "quote": "Dear readers, meet “ Julián Arleby Muñoz Mendez ”, Senior Chollima from the DPRK"
+        }
+      ],
+      "observed_at": "2025-11-03",
+      "notes": [
+        "This verifies Bitso/Quetzal's source narrative and seniority characterization, not same-operator continuity, command structure, revenge motive, legal identity, nationality, or independently proven coordination with the earlier applicants."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-11",
+  "identity_boundary": "Bitso reports that the interview persona used the name Julián Arleby Muñoz Mendez after stealing a Colombian engineer's resume and portfolio, while the meeting entry used Arthur Burrus. These labels and the LinkedIn path are historical persona evidence; the identity-theft victim remains anonymous and outside this record."
+}

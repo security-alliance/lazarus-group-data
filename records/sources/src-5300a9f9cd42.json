@@ -1,0 +1,12 @@
+{
+  "id": "src-5300a9f9cd42",
+  "publisher": "GitHub",
+  "title": "GitHub public authored issues and pull requests: cornel-pe",
+  "url": "https://api.github.com/search/issues?q=author%3Acornel-pe&per_page=100",
+  "accessed_at": "2026-08-14",
+  "sha256": "0992ee112846f2b5cdd8f9ea9751e80298704ddb08fd2803f8a286088b0fdd11",
+  "content_type": "dataset",
+  "languages": [
+    "en"
+  ]
+}

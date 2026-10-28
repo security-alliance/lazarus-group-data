@@ -1,0 +1,50 @@
+{
+  "id": "dcsr9-ttp-electric-utility-suspected-applicant-activity",
+  "type": "ttp",
+  "name": "Suspected DPRK-linked applicant activity at North American electric utilities",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Industry source reports suspected applications in aggregate; utility, applicant, hiring outcome, compromise, regulatory action, and adjudication fall outside the report.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DCSR9-S01-WATERISAC-MULTIISAC-2025"
+    ]
+  },
+  "ttps": [
+    "administrative-access-risk-review",
+    "privileged-role-targeting-risk",
+    "remote-technology-role-applications",
+    "sector-specific-threat-awareness"
+  ],
+  "caveats": [
+    "Evidence class: source-reported suspected applications; incident status is unnamed.",
+    "Guidance and prospective scenarios are presented as guidance, while source-reported suspicion remains distinct from adjudicated fact.",
+    "Legal-status boundary: an industry source reports suspected links; worker, utility, hiring outcome, compromise, regulator action, and adjudication remain unreported.",
+    "Nationality, accent, language, appearance, geography, camera behavior, remote-work preference, job title, and any single technical signal require corroboration before attribution or adverse action.",
+    "Unnamed organizations and people remain unidentified in the source record.",
+    "Aggregate sector observation only. Utility, hiring, and system-access details remain unspecified; job title, geography, and remote-work status require corroboration.",
+    "Use proportionate, documented, privacy-preserving review with a meaningful human appeal path."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-aggregate-sector-observation",
+      "statement": "The multi-ISAC report says workers suspected of operating for North Korea applied for remote Data Scientist, Software Engineer, Business Intelligence Engineer, Stack Engineer and Data Engineer roles at North American electric utilities. It says those roles typically required high-level access, including administrative access.",
+      "evidence_class": "source-reported suspected applications; not a named incident",
+      "sector": "energy / electricity critical infrastructure",
+      "source_ids": [
+        "DCSR9-S01-WATERISAC-MULTIISAC-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "DCSR9-S01-WATERISAC-MULTIISAC-2025",
+      "support": "The report says some critical-infrastructure sectors experienced the threat directly. It records suspected DPRK-linked applicants for remote technology roles at North American electric utilities, says those roles typically required high-level or administrative access, and says WaterISAC had tracked no comparable attempts in water and wastewater. Its commercial-facilities and water operational-technology effects are explicitly framed as possible or likely future risk rather than public confirmed compromise. Evidence class: sector observations combined with guidance and explicitly prospective scenarios Legal-status boundary: Industry intelligence and defensive guidance; no named victim, worker, charge, regulatory finding or adjudication",
+      "locator": "PDF pp. 1-3, 5, 7-11; especially Sector/Industry Impact: Commercial Facilities, Energy, Tribal Organizations and Water; Mitigation Strategies; Access and Monitoring Practices"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "deep2-unhistory-korea-computer-center",
+  "type": "organization",
+  "name": "Korea Computer Center",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "Japan separately lists KCC administratively. Neither source is a criminal adjudication; UN Panel reporting includes Member State information.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "deep2-unhistory-s-2020-151-un-dandong-haotong-kcc",
+      "dsar4-jpn-csv-20260805",
+      "dsar4-jpn-list-page"
+    ]
+  },
+  "caveats": [
+    "Chosun Expo / Korea Expo Joint Venture is omitted; reviewed official sources leave its fraudulent-employment nexus unsubstantiated.",
+    "Expand a bare KCC acronym to Korea Computer Center only when another source supplies an explicit bridge.",
+    "Korea Computer Center employees, offices, and historical commercial projects require case-specific evidence before they can be described as fraudulent remote employment.",
+    "Same names or co-listing leave Korea Computer Center affiliation unresolved for the four people.",
+    "The Japanese listing is an administrative asset-freeze measure; criminal conviction and individual participation require separate evidence.",
+    "The sanctions sources establish exact entity-name forms; the catalog's historical IT-worker nexus comes from separate source material.",
+    "The three aliases apply only to Korea Computer Center; Dandong Haotong Commercial Trade Co. Ltd. has a separate naming record.",
+    "The UN report described Korea Computer Center as subordinate to the Munitions Industry Department and reproduced Member State information about overseas IT-worker revenue activity; these remain source-qualified claims rather than criminal adjudications.",
+    "The UN-reported KCC/Dandong Haotong relationship is reported organizational context; alias equivalence and beneficial ownership require independent verification."
+  ],
+  "aliases": [
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dsar4-jpn-csv-20260805"
+      ],
+      "value": "Choson Computer Center"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dsar4-jpn-csv-20260805"
+      ],
+      "value": "Chung Sun Computer Center"
+    },
+    {
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "dsar4-jpn-csv-20260805"
+      ],
+      "value": "Korea Computer Company"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "The Panel reported that Korea Computer Center, described by another Member State as belonging to the Munitions Industry Department 313 General Bureau, used Dandong Haotong Commercial Trade Co. Ltd. as a front-company name in Dandong, China."
+      ],
+      "source_ids": [
+        "deep2-unhistory-s-2020-151-un-dandong-haotong-kcc"
+      ]
+    },
+    {
+      "type": "entity-scoped-official-alias",
+      "statements": [
+        "Japan's current official asset-freeze materials list Korea Computer Center with the exact English aliases Korea Computer Company, Choson Computer Center, and Chung Sun Computer Center. These aliases apply only to the Korea Computer Center record, not to Dandong Haotong."
+      ],
+      "source_ids": [
+        "dsar4-jpn-csv-20260805",
+        "dsar4-jpn-list-page"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep2-unhistory-korea-computer-center"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-unhistory-s-2020-151-un-dandong-haotong-kcc",
+      "support": "Verifies the exact Dandong Haotong name, KCC use as a front name, registration description and China response",
+      "locator": "PDF pp. 52-53, paras. 123-125; annexes 31-32"
+    },
+    {
+      "source_id": "dsar4-jpn-list-page",
+      "support": "Japan's current official asset-freeze materials list Korea Computer Center with the exact English aliases Korea Computer Company, Choson Computer Center, and Chung Sun Computer Center. These aliases apply only to the Korea Computer Center record, not to Dandong Haotong",
+      "locator": "Asset-freeze target list links; current downloadable file dated 2026-08-05"
+    },
+    {
+      "source_id": "dsar4-jpn-csv-20260805",
+      "support": "Japan's current official asset-freeze materials list Korea Computer Center with the exact English aliases Korea Computer Company, Choson Computer Center, and Chung Sun Computer Center. These aliases apply only to the Korea Computer Center record, not to Dandong Haotong",
+      "locator": "Rows 016-000041 and 016-000071; only name, alias, notice-date, and listing-number fields were retained"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

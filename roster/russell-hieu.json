@@ -1,0 +1,72 @@
+{
+  "id": "russell-hieu",
+  "real_name": "Russell Hieu",
+  "aliases": [
+    "Nakamura Shota",
+    "John Patch",
+    "Helme0315",
+    "johnpatch0502",
+    "0xRUS38",
+    "0xdoccer",
+    "russellhieu",
+    "0xhawkk"
+  ],
+  "fake_names": [
+    "Shota Nakamura"
+  ],
+  "gender": "male",
+  "personal_emails": [
+    "johnpatch0502@outlook.com",
+    "russellhieu@outlook.com"
+  ],
+  "websites": [
+    "https://x.com/zachxbt/status/1824047425822310580"
+  ],
+  "employment": [
+    {
+      "date_identified": {
+        "$date": "2024-01-01"
+      }
+    }
+  ],
+  "github": [
+    {
+      "gh_id": "Helme0315",
+      "usernames": [
+        "Helme0315"
+      ]
+    }
+  ],
+  "onchain_activity": [
+    {
+      "address": [
+        "0x97467ea9BeF1c925E9D8e2E65932d066869b7f13",
+        "0xFf6d86807b3387e10dDE52697C3BD7f59b6A145f"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "/team-images/russell-hieu/russell-hieu-1.jpg",
+      "short_description": "Russell Hieu 1.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/russell-hieu/russell-hieu-twitter.jpg",
+      "short_description": "Russell Hieu twitter.",
+      "tags": [
+        "face"
+      ]
+    },
+    {
+      "path": "/team-images/russell-hieu/russell-hieu-av.png",
+      "short_description": "Russell Hieu avatar.",
+      "tags": [
+        "face"
+      ]
+    }
+  ],
+  "curation": "analyst"
+}

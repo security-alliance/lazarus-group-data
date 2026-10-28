@@ -1,0 +1,431 @@
+{
+  "id": "facilitator-xu-yongzhe",
+  "type": "facilitator",
+  "name": "Xu Yongzhe",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "charged-allegation",
+    "legal_posture": "Allegations only. Through 2026-08-12, the verified record reaches charging in the District of Massachusetts Wang matter; later merits disposition remains unverified.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "gov-61a8cf3633ad"
+    ]
+  },
+  "legal_or_reported_name": "Xu Yongzhe",
+  "ttps": [
+    "laundering DPRK IT-worker proceeds",
+    "shell-company and payment infrastructure"
+  ],
+  "caveats": [
+    "Charges are allegations; the subject is presumed innocent unless and until proven guilty.",
+    "Keep the campaign context intact; the source presents the State Department in a contextual role only.",
+    "Facial recognition and linkage to another account, alias, or image are outside this record.",
+    "The image is retained as visual context only. Biometric matching and resolution of employment personas, aliases, accounts, and victim identities are outside the method.",
+    "Keep alleged-role and source context adjacent.",
+    "Person-bearing imagery is source-page-only. Keep it uncached, uncropped, and unpublished; facial recognition, visual matching, legal-identity bridging, and inferences about current appearance, ownership, control, nationality, or location are outside scope.",
+    "The official reward-page role remains an allegation unless separately adjudicated."
+  ],
+  "images": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "source_url": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals/",
+      "caption": "Official Rewards for Justice subject card for Xu Yongzhe; the cited role is an allegation and the image is not biometric proof.",
+      "publication_handling": "link-only"
+    }
+  ],
+  "lazarus_group_routes": [
+    "facilitator-xu-yongzhe"
+  ],
+  "sources": [
+    {
+      "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+      "support": "The official Rewards for Justice page publishes a separately named subject image for Xu Yongzhe in the page's alleged DPRK IT-worker facilitation and money-laundering context. The image does not establish guilt or linkage to any other alias, account, company, or image",
+      "locator": "Individual subject card labeled Xu Yongzhe"
+    },
+    {
+      "source_id": "gov-61a8cf3633ad",
+      "support": "DOJ identifies the eight Wang-case facilitators as charged defendants in the District of Massachusetts matter; the charges are allegations and do not establish guilt",
+      "locator": "District of Massachusetts section beginning “In a third coordinated action”; paragraph listing the eight additional charged defendants"
+    },
+    {
+      "source_id": "flr6-s19"
+    },
+    {
+      "source_id": "src-55b829310f0a"
+    },
+    {
+      "source_id": "src-c332fb9b63d9"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-official-name",
+      "type": "identity_name",
+      "predicate": "official_name_and_native_script",
+      "value": {
+        "name": "Xu Yongzhe",
+        "native_script": "徐勇哲"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "subject entry for Xu Yongzhe",
+          "quote": "Xu Yongzhe 徐勇哲:"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts defendant list",
+          "quote": "Yongzhe Xu (徐勇哲 andيونجزهي أكسو)"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Xu Yongzhe (徐勇哲)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Officially paired Latin and Chinese forms; this does not independently verify the underlying civil identity."
+      ]
+    },
+    {
+      "id": "claim-indictment-name-order",
+      "type": "alias",
+      "predicate": "indictment_name_order",
+      "value": {
+        "name": "Yongzhe Xu"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 18",
+          "quote": "Defendant Yongzhe XU was a Chinese citizen"
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "This is source-supported name-order equivalence, not independent identity resolution."
+      ]
+    },
+    {
+      "id": "claim-doj-arabic-script-name-rendering",
+      "type": "alias",
+      "predicate": "doj_source_used_arabic_script_name_rendering",
+      "value": {
+        "name": "يونجزهي أكسو",
+        "source_characterization": "Arabic-script rendering paired with Yongzhe Xu"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts defendant list",
+          "quote": "Yongzhe Xu (徐勇哲 andيونجزهي أكسو)"
+        }
+      ],
+      "observed_at": "2025-06-30",
+      "notes": [
+        "Retained exactly as published by DOJ. It is a source-used rendering, not a separately verified alias, nationality, ethnicity, residence, or separate person."
+      ]
+    },
+    {
+      "id": "claim-four-count-indictment",
+      "type": "legal_event",
+      "predicate": "charged_by_indictment",
+      "value": {
+        "court": "U.S. District Court for the District of Massachusetts",
+        "case_number_as_printed": "25cr10273 NMG-MPK",
+        "counts": [
+          "conspiracy to commit wire fraud and mail fraud",
+          "money laundering conspiracy",
+          "conspiracy to commit identity theft",
+          "conspiracy to violate the IEEPA"
+        ]
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "District of Massachusetts section and five-count indictment link",
+          "quote": "The indictment also charges Chinese nationals Jing Bin Huang (靖斌 黄), Baoyu Zhou (周宝玉), Tong Yuze (佟雨泽), Yongzhe Xu"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 13, Count One defendant list",
+          "quote": "(5) YONGZHE XU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 13, Count One heading",
+          "quote": "Conspiracy to Commit Wire Fraud and Mail Fraud"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 40, Count Two defendant list",
+          "quote": "(5) YONGZHE XU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 40, Count Two heading",
+          "quote": "Money Laundering Conspiracy"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 42, Count Three defendant list",
+          "quote": "(5) YONGZHE XU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 42, Count Three heading",
+          "quote": "Conspiracy to Commit Identity Theft"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 45, Count Five defendant list",
+          "quote": "(4) YONGZHE XU"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 45, Count Five heading",
+          "quote": "Conspiracy to Violate the IEEPA"
+        },
+        {
+          "source_id": "gov-61a8cf3633ad",
+          "locator": "closing legal-posture caveat",
+          "quote": "The details in the above-described court documents are merely allegations. All defendants are presumed innocent until proven guilty beyond a reasonable doubt in a court of law."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Charges are allegations and do not establish guilt. Xu is not listed as a defendant in Count Four."
+      ]
+    },
+    {
+      "id": "claim-reported-nationality-and-residence",
+      "type": "location",
+      "predicate": "indictment_reported_nationality_and_residence",
+      "value": {
+        "reported_nationality": "Chinese",
+        "reported_residence": "United Arab Emirates",
+        "as_alleged_in": "2025 indictment"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 18",
+          "quote": "Defendant Yongzhe XU was a Chinese citizen"
+        },
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 18",
+          "quote": "residing in the United Arab Emirates (“UAE”)."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Indictment allegation and historical country-level statement only; birthplace and present nationality or residence are not inferred."
+      ]
+    },
+    {
+      "id": "claim-financial-account-role",
+      "type": "infrastructure",
+      "predicate": "allegedly_registered_financial_accounts",
+      "value": {
+        "reported_classes": [
+          "money-transfer-service accounts",
+          "foreign bank accounts"
+        ],
+        "reported_use": "receive and transfer alleged scheme proceeds"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "subject entry for Xu Yongzhe",
+          "quote": "registered MTS and foreign bank accounts that were used to receive and transfer proceeds generated through the scheme."
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Official allegation. No account, institution, transaction, or login selector is retained."
+      ]
+    },
+    {
+      "id": "claim-rfj-alleged-role-context",
+      "type": "incident",
+      "predicate": "rfj_seeks_information_for_reported_role",
+      "value": {
+        "reported_context": "exportation of DPRK IT workers and money laundering",
+        "posture": "information sought by Rewards for Justice"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "introduction to individual list",
+          "quote": "The Department is seeking information on the following individuals for their role in the exportation of IT workers from North Korea and money laundering on behalf of the DPRK regime:"
+        }
+      ],
+      "notes": [
+        "RFJ allegation and reward-program context only; not an adjudicated fact or an individualized finding about every campaign activity."
+      ]
+    },
+    {
+      "id": "claim-hopana-representative",
+      "type": "organization_affiliation",
+      "predicate": "historically_identified_as_company_representative",
+      "value": {
+        "organization": "Hopana Tech",
+        "displayed_role": "Dubai-based representative"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-55b829310f0a",
+          "locator": "printed p. 10, paragraph 18",
+          "quote": "The Hopana Tech website identified XU as a Dubai-based representative of the company."
+        }
+      ],
+      "observed_at": "2025-06-26",
+      "notes": [
+        "Indictment account of a historical website label. It does not establish legitimate employment, current affiliation, or current control of the website."
+      ]
+    },
+    {
+      "id": "claim-al-naseeh-payment-vehicle",
+      "type": "organization_affiliation",
+      "predicate": "alleged_mts_account_registered_on_behalf_of_company",
+      "value": {
+        "organization": "Al Naseeh Consultancy FZE"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-c332fb9b63d9",
+          "locator": "printed p. 19, paragraph 22(ee)",
+          "quote": "linked to an MTS account registered to Yongzhe Xu on behalf of the company “Al Naseeh Consultancy FZE.”"
+        }
+      ],
+      "observed_at": "2022-04-30",
+      "notes": [
+        "Charging-instrument allegation only. The account, institution, apparent stolen-identity victim, employer, and payment selectors are excluded; current company affiliation is not established."
+      ]
+    },
+    {
+      "id": "claim-wanted-status",
+      "type": "legal_event",
+      "predicate": "doj_reported_at_large_and_wanted_by_fbi",
+      "value": {
+        "status": "at large and wanted by the FBI",
+        "as_of": "2026-04-15"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘The other eight defendants’",
+          "quote": "The other eight defendants indicted in June 2025 remain at large and wanted by the FBI."
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "reward-subject list",
+          "quote": "Xu Yongzhe (徐勇哲)"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Dated official report. Wanted status and pending charges do not establish guilt; no later merits disposition was verified through the cutoff."
+      ]
+    },
+    {
+      "id": "claim-rfj-reward-context",
+      "type": "legal_event",
+      "predicate": "state_department_program_reward_context",
+      "value": {
+        "amount": "up to USD 5 million",
+        "scope": "information leading to disruption of financial mechanisms supporting specified DPRK activities",
+        "program": "Rewards for Justice"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "reward heading and opening paragraph",
+          "quote": "Rewards for Justice is offering a reward of up to $5 million for information that leads to the disruption of financial mechanisms of persons engaged in certain activities that support North Korea"
+        },
+        {
+          "source_id": "flr6-s19",
+          "locator": "paragraph beginning ‘Concurrent with today’s announcement’",
+          "quote": "announced a reward of up to $5 million for information leading to the disruption of financial mechanisms of persons engaged in certain activities that support DPRK"
+        }
+      ],
+      "observed_at": "2026-04-15",
+      "notes": [
+        "Program-level reward language on pages that include Xu. It must not be presented as a USD 5 million individual arrest reward, guaranteed payment, conviction, or proof of guilt."
+      ]
+    },
+    {
+      "id": "claim-rfj-link-only-image",
+      "type": "image",
+      "predicate": "official_source_linked_person_image",
+      "value": {
+        "source_page": "https://rewardsforjustice.net/rewards/north-korea-money-laundering-9-individuals",
+        "media_description": "official source-labeled portrait",
+        "handling": "link_only",
+        "identification_use": false
+      },
+      "confidence": "confirmed",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "source image grid containing the separately named Xu Yongzhe asset and adjacent named-person list",
+          "quote": "Xu Yongzhe 徐勇哲:"
+        }
+      ],
+      "observed_at": "2026-08-15",
+      "notes": [
+        "Official link-only editorial reference. Visual review verified only that the source-labeled asset is person-bearing rather than a placeholder; no face comparison or identity inference was performed. Do not export the direct asset, cache, crop, republish, perform facial recognition, compare appearance, infer current appearance, or use it to merge an identity or account. Rights and allegation-context review remain required before any display."
+      ]
+    },
+    {
+      "id": "claim-xu-yongzhe-rfj-native-name",
+      "type": "identity_name",
+      "predicate": "official_reward_page_native_script_name_form",
+      "value": {
+        "name": "徐勇哲",
+        "script": "source-published CJK form",
+        "latin_label": "Xu Yongzhe"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "dipf-rfj-north-korea-money-laundering-9-individuals",
+          "locator": "individual entry beginning ‘Xu Yongzhe’",
+          "quote": "Xu Yongzhe 徐勇哲:"
+        }
+      ],
+      "notes": [
+        "Official source-published name form for this reward-page subject; it is not a separate person, an independent civil-identity verification, or proof of the alleged conduct."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-10-18",
+  "identity_boundary": "Xu Yongzhe, printed as Yongzhe Xu in the federal indictment, is an overseas defendant in D. Mass. No. 25cr10273 NMG-MPK. Preserve the charged, at-large, and wanted posture: the reviewed record leaves guilt, merits disposition, present residence, and same-named account ownership unresolved."
+}

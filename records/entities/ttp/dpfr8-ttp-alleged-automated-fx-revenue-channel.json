@@ -1,0 +1,60 @@
+{
+  "id": "dpfr8-ttp-alleged-automated-fx-revenue-channel",
+  "type": "ttp",
+  "name": "Alleged automated foreign-exchange revenue channel",
+  "status": "needs_corroboration",
+  "confidence": "medium",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "FATF reports arrests, alleged conduct, and suspected remittance in a jurisdiction-submitted case study; conviction, final judgment, transaction trail, and general prevalence among DPRK IT workers require separate evidence.",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DPFR8-S03-FATF-COMPLEX-PF-2025"
+    ]
+  },
+  "ttps": [
+    "account-registration-abuse",
+    "alleged-automated-foreign-exchange-activity",
+    "sanctions-evasion-context",
+    "suspected-dprk-remittance",
+    "technical-capability-revenue-generation"
+  ],
+  "caveats": [
+    "Monitoring, communications behavior, quota pressure, subcontracting, trading activity, geography, language, and any single signal require corroboration before supporting identity, nationality, sanctions, or misconduct attribution.",
+    "Evidence and method class: FATF case study submitted by Japan, describing arrests and suspicions.",
+    "Fraudulent employment, general DPRK overseas labor, sanctions evasion, and malicious cyber activity remain analytically distinct unless a cited source expressly connects them.",
+    "One case offers a single observation; prevalence among DPRK IT workers requires broader measurement.",
+    "Use arrest-stage and suspected-remittance language. Keep account identifiers, transaction selectors, and trading-system details unpublished and out of collection.",
+    "Remittance to the DPRK is described as suspected; adjudication status is unreported.",
+    "The FATF summary covers a general legal-prohibition context; names, docket records, specific legal prohibition, transaction values, and final judicial outcome remain unreported.",
+    "This record is policy, labor-governance, economic, or sanctions-evasion context; person, organization, victim, account, transaction, and incident profiles require separate records."
+  ],
+  "infrastructure": [
+    {
+      "type": "official-anonymized-alleged-sanctions-evasion-case-pattern",
+      "evidence_method_class": "FATF case study submitted by Japan, describing arrests and suspicions",
+      "statement": "FATF reports that in September 2024 two Japanese individuals were arrested for allegedly conspiring with a DPRK IT worker to use a prohibited automated trading system for foreign-exchange transactions and to register information and open accounts unlawfully. Investigators suspected that proceeds from the transactions were remitted to the DPRK.",
+      "sampling_limitations": [
+        "The FATF summary does not provide names, docket records, the specific legal prohibition, transaction values, or a final judicial outcome.",
+        "Remittance to the DPRK is described as suspected, not adjudicated.",
+        "One case does not establish the prevalence of automated trading among DPRK IT workers."
+      ],
+      "source_ids": [
+        "DPFR8-S03-FATF-COMPLEX-PF-2025"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "deep-apac-regulatory-followup: proliferation-finance governance",
+    "deep-government-legal: virtual-asset and ACH laundering context"
+  ],
+  "sources": [
+    {
+      "source_id": "DPFR8-S03-FATF-COMPLEX-PF-2025",
+      "support": "FATF reports that in September 2024 two Japanese individuals were arrested for allegedly conspiring with a DPRK IT worker to use a prohibited automated trading system for foreign-exchange transactions and to register information and open accounts unlawfully. Investigators suspected that proceeds from the transactions were remitted to the DPRK",
+      "locator": "Box 27, report p. 45 / PDF p. 47"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

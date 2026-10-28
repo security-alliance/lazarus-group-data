@@ -1,0 +1,55 @@
+{
+  "id": "deep2-ttp-deep-ttp-06-un-freelance-front-company-revenue-model",
+  "type": "ttp",
+  "name": "Foundational freelance-platform and front-company revenue model tied to the Munitions Industry Department",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Defensive synthesis of cited public sources; the technique mapping supplies context rather than an identity attribution.",
+    "as_of": "2026-10-18",
+    "source_ids": [
+      "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-06-un-freelance-front-company-revenue-model"
+    ]
+  },
+  "ttps": [
+    "freelance-platform",
+    "regime-remittance",
+    "shell-company"
+  ],
+  "caveats": [
+    "False-positive caution: Family accounts, payroll processors, employer-of-record services, and lawful remittance providers may create third-party routing. Obtain consent and follow financial/privacy law.",
+    "False-positive caution: New and small firms, international vendors, and freelancers can have sparse records; sparse records can occur in legitimate activity, and fraud requires evidence beyond footprint size.",
+    "The report’s counts and revenue estimates are Member State assessments from 2019; they require newer reporting before projection to 2026.",
+    "The ASIS “Follow the Money” reference has a source title without reviewed article text; revenue figures and organizational relationships require the underlying article."
+  ],
+  "infrastructure": [
+    {
+      "type": "source-backed-finding-summary",
+      "statements": [
+        "UN S/2020/151 reports at least 1,000 dispatched IT workers as of November 2019, use of subordinate entities/front companies, concealed accounts on freelance developer platforms, a rough $5,000 monthly worker average with about one third channelled to the DPRK, and operations targeting clients in multiple countries."
+      ],
+      "source_ids": [
+        "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-06-un-freelance-front-company-revenue-model"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "ttp-ttp-payments",
+    "ttp-ttp-persona"
+  ],
+  "sources": [
+    {
+      "source_id": "deep2-ttp-deep-ttp-s2-un-s-2020-151-deep-ttp-06-un-freelance-front-company-revenue-model",
+      "support": "UN S/2020/151 reports at least 1,000 dispatched IT workers as of November 2019, use of subordinate entities/front companies, concealed accounts on freelance developer platforms, a rough $5,000 monthly worker average with about one third channelled to the DPRK, and operations targeting clients in multiple countries.",
+      "locator": "Paragraphs 120-125; footnotes 153-154; Annex 29, PDF pp. 52-53 and 157"
+    },
+    {
+      "source_id": "asis-2026-08-21-follow-the-money",
+      "support": "Unverified related reference on the IT-worker revenue model: the recorded fetch returned a Cloudflare challenge, so the article supplies no supporting evidence for this record’s claims.",
+      "locator": "Article text unavailable; see source note"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-10-18"
+}

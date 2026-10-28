@@ -1,0 +1,47 @@
+{
+  "id": "front-company-kyonghung-trading-bureau",
+  "type": "front_company",
+  "name": "Kyonghung Trading Bureau",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "MSMT identifies the bureau/company as the Office 39-affiliated parent of Kyonghung Information Technology Exchange Company",
+    "as_of": "2026-08-12",
+    "source_ids": [
+      "DFCE-S01"
+    ]
+  },
+  "legal_or_reported_name": "Kyonghung Trading Bureau",
+  "organizations": [
+    "Office 39, Workers' Party of Korea"
+  ],
+  "caveats": [
+    "Keep this name separate from unrelated Kyonghung-named organizations unless an explicit source links them.",
+    "Keep the parent and subsidiary as separate legal/reported entities.",
+    "The parent and subsidiary are separate reported entities; the existing Kyonghung Information Technology Exchange Company record remains distinct.",
+    "This record reflects the cited MSMT source posture; separate corporate-registry or criminal-adjudication status requires separate sources."
+  ],
+  "aliases": [
+    {
+      "value": "Kyonghung Trading Company",
+      "alias_type": "organization-name",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "DFCE-S01"
+      ]
+    }
+  ],
+  "lazarus_group_routes": [
+    "front-company-kyonghung-information-technology-exchange-company"
+  ],
+  "sources": [
+    {
+      "source_id": "DFCE-S01",
+      "support": "MSMT identifies Kyonghung Trading Bureau/Company as the Office 39-affiliated parent of the separately catalogued Kyonghung Information Technology Exchange Company",
+      "locator": "Report pp. 57-59 / PDF pp. 59-61, Case Study: Kyonghung Information Technology Exchange Company; Annex 9"
+    }
+  ],
+  "claims": [],
+  "last_verified_at": "2026-08-12"
+}

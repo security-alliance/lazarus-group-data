@@ -1,0 +1,447 @@
+{
+  "id": "persona-john-alexander-bird",
+  "type": "persona",
+  "name": "John Alexander Bird",
+  "status": "published",
+  "confidence": "high",
+  "attribution": {
+    "status": "research-attributed",
+    "legal_posture": "Nisos-reported persona presentation only; civil identity, employer, residence, nationality, legal finding, and current status remain unverified.",
+    "as_of": "2026-08-30",
+    "source_ids": [
+      "drpd63-nisos-mitigation",
+      "platform-s2"
+    ]
+  },
+  "locations": [
+    "Maryland"
+  ],
+  "ttps": [
+    "BootstrapMade template imported for persona portfolio"
+  ],
+  "caveats": [
+    "The record is limited to source-bounded context; precise address, contact selector, image, current location, civil identity, and present controller require separate evidence.",
+    "Role and location are source-reported persona claims; employment or residence remains unverified.",
+    "This record describes a reported employment persona/account cluster; the apparent identity owner's nationality remains source-unresolved."
+  ],
+  "accounts": [
+    {
+      "platform": "GitHub",
+      "identifier": "imcode65",
+      "url": "https://github.com/imcode65",
+      "status": "removed",
+      "relationship": "explicitly-used",
+      "source_ids": [
+        "platform-s2"
+      ],
+      "note": "404 on direct fetch"
+    }
+  ],
+  "infrastructure": [
+    {
+      "type": "source-reported-persona-claim-fragment",
+      "claimed_role": "senior front-end engineer and full-stack developer",
+      "claimed_location": "Maryland",
+      "employment_established": false,
+      "present_location_inferred": false,
+      "civil_identity_established": false,
+      "source_ids": [
+        "drpd63-nisos-mitigation"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "platform-s2",
+      "support": "GitHub account imcode65 created a portfolio website for persona “John Alexander Bird.”",
+      "locator": "Templates For Websites and Graphics 8-10, report p. 6"
+    },
+    {
+      "source_id": "drpd63-nisos-mitigation",
+      "support": "John Alexander Bird claims to be a senior front-end engineer and full-stack developer based in Maryland. | John Alexander Bird claims to be a senior front-end engineer and full-stack developer based in Maryland. | This persona does not have an active personal website, suggesting that it is likely not actively seeking employment as part of the employment scheme yet",
+      "locator": "PDF file p. 11, John Alexander Bird, first sentence | PDF file p. 11, John Alexander Bird, first sentence | PDF file p. 3, Executive Summary, final two sentences"
+    },
+    {
+      "source_id": "src-e5485f1375d6"
+    },
+    {
+      "source_id": "src-1af44435d076"
+    },
+    {
+      "source_id": "src-bb73f65a946a"
+    },
+    {
+      "source_id": "src-12625b558a64"
+    },
+    {
+      "source_id": "drp51-github-jabp-commits"
+    },
+    {
+      "source_id": "drp51-github-commit-code0605"
+    },
+    {
+      "source_id": "drp51-github-commit-imcode65"
+    },
+    {
+      "source_id": "drp51-github-kanbei65-user"
+    },
+    {
+      "source_id": "drp51-github-kanbei0605-user"
+    },
+    {
+      "source_id": "drp51-github-jabp-contributors"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-john-bird-reported-portfolio-template",
+      "type": "account",
+      "predicate": "publisher_reported_portfolio_template_creation",
+      "value": {
+        "historical_github_account": "imcode65",
+        "persona_name": "John Alexander Bird",
+        "artifact": "portfolio website",
+        "template_source": "bootstrapmade.com",
+        "reported_date": "2023-11-30"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF p. 6, Bootstrapmade paragraph",
+          "quote": "Nisos observed that likely DPRK-afﬁliated GitHub account imcode65 created a portfolio website for a persona named John Alexander Bird importing a template from website bootstrapmade[.]com on 30 November 2023."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Publisher attribution only; it does not establish a verified civil identity, nationality, or present account controller."
+      ]
+    },
+    {
+      "id": "claim-john-bird-imcode65-current-status",
+      "type": "account",
+      "predicate": "current_public_account_endpoint_status",
+      "value": {
+        "platform": "GitHub",
+        "historical_handle": "imcode65",
+        "status": "HTTP 404 Not Found"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "src-e5485f1375d6",
+          "locator": "JSON field message",
+          "quote": "\"message\": \"Not Found\""
+        },
+        {
+          "source_id": "src-e5485f1375d6",
+          "locator": "JSON field status",
+          "quote": "\"status\": \"404\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current unavailability does not establish removal cause, timing, present ownership, or civil identity.",
+        "A dated GitHub 404 is an ephemeral negative observation and is not necessary to the historical persona evidence."
+      ]
+    },
+    {
+      "id": "claim-john-bird-jab-p-current-redirect",
+      "type": "account",
+      "predicate": "current_public_historical_repository_endpoint_redirect",
+      "value": {
+        "historical_endpoint": "imcode65/jab-p",
+        "http_status": 301,
+        "current_repository_name": "kanbei65/jab-p",
+        "repository_id": 725469101
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-bb73f65a946a",
+          "locator": "JSON field id",
+          "quote": "\"id\": 725469101"
+        },
+        {
+          "source_id": "src-bb73f65a946a",
+          "locator": "JSON field full_name",
+          "quote": "\"full_name\": \"kanbei65/jab-p\""
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "The redirect is repository-state evidence only; it does not establish that imcode65 and kanbei65 are the same natural person or current controller."
+      ]
+    },
+    {
+      "id": "claim-john-bird-jab-p-template-current",
+      "type": "account",
+      "predicate": "current_public_commit_preserves_bootstrapmade_template_metadata",
+      "value": {
+        "repository": "kanbei65/jab-p",
+        "historical_commit": "99ef14829b03685f67862a53164393eaaaef23f3",
+        "template_name": "Personal - v4.7.0",
+        "template_publisher": "BootstrapMade.com"
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "src-12625b558a64",
+          "locator": "JSON field sha",
+          "quote": "\"sha\": \"99ef14829b03685f67862a53164393eaaaef23f3\""
+        },
+        {
+          "source_id": "src-12625b558a64",
+          "locator": "assets/css/style.css patch header",
+          "quote": "Template Name: Personal - v4.7.0"
+        },
+        {
+          "source_id": "src-12625b558a64",
+          "locator": "assets/css/style.css patch header",
+          "quote": "Author: BootstrapMade.com"
+        }
+      ],
+      "observed_at": "2026-08-13",
+      "notes": [
+        "Current reachability of the historical commit corroborates template provenance only; it does not identify the persona or current repository controller."
+      ]
+    },
+    {
+      "id": "claim-john-bird-nisos-link-only-source-page",
+      "type": "image",
+      "predicate": "publisher_report_persona_page_link_only_media_reference",
+      "value": {
+        "publisher": "Nisos",
+        "source_page": "PDF file p. 6 (printed p. 6)",
+        "subject_label": "John Alexander Bird",
+        "source_qualifier": "likely DPRK persona",
+        "media_type": "publisher report page",
+        "handling": "link_and_narrative_only",
+        "person_bearing_source_media": true,
+        "direct_asset_retained": false,
+        "image_extracted": false,
+        "image_compared": false,
+        "appearance_inference": false,
+        "civil_identity_inferred": false,
+        "current_control_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "platform-s2",
+          "locator": "PDF file p. 6 (printed p. 6), visually reviewed Graphic 8 caption and adjacent Bootstrapmade paragraph",
+          "quote": "Graphic 8: Photo of likely DPRK persona John Alexander Bird."
+        }
+      ],
+      "observed_at": "2025-04-29",
+      "notes": [
+        "Narrative and publisher-document link only; no person image, crop, embedded asset, or direct image URL is retained or republished.",
+        "The publisher's likely-persona qualifier is preserved. The source image was not compared and supports no facial, civil-identity, nationality, present-location, employer, or current-control inference."
+      ]
+    },
+    {
+      "id": "claim-john-bird-persona-claimed-role-round63",
+      "type": "employment",
+      "predicate": "nisos_reported_persona_claimed_developer_roles",
+      "value": {
+        "claimed_roles": [
+          "senior front-end engineer",
+          "full-stack developer"
+        ],
+        "employment_established": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 11, John Alexander Bird, first sentence",
+          "quote": "John Alexander Bird claims to be a senior front-end engineer and full-stack developer based in Maryland."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Source-reported persona presentation only; no verified employment, residence, civil identity, current location, or present controller is inferred."
+      ]
+    },
+    {
+      "id": "claim-john-bird-persona-claimed-location-round63",
+      "type": "location",
+      "predicate": "nisos_reported_persona_claimed_coarse_location",
+      "value": {
+        "claimed_location": "Maryland",
+        "precision": "state",
+        "present_location_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 11, John Alexander Bird, first sentence",
+          "quote": "John Alexander Bird claims to be a senior front-end engineer and full-stack developer based in Maryland."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Source-reported persona presentation only; no verified employment, residence, civil identity, current location, or present controller is inferred."
+      ]
+    },
+    {
+      "id": "claim-john-bird-inactive-persona-assessment-round63",
+      "type": "relationship",
+      "predicate": "nisos_assessed_no_active_personal_website_at_publication",
+      "value": {
+        "active_personal_website_observed": false,
+        "publisher_assessment": "likely not actively seeking employment yet",
+        "current_status_inferred": false
+      },
+      "confidence": "high",
+      "status": "published",
+      "sources": [
+        {
+          "source_id": "drpd63-nisos-mitigation",
+          "locator": "PDF file p. 3, Executive Summary, final two sentences",
+          "quote": "This persona does not have an active personal website, suggesting that it is likely not actively seeking employment as part of the employment scheme yet."
+        }
+      ],
+      "observed_at": "2025-03-27",
+      "notes": [
+        "Source-reported persona presentation only; no verified employment, residence, civil identity, current location, or present controller is inferred."
+      ]
+    },
+    {
+      "id": "claim-persona-john-alexander-bird-github-author-label-account-bridge-round51",
+      "type": "relationship",
+      "predicate": "github_mapped_repository_author_labels_to_account",
+      "value": {
+        "repository": "kanbei65/jab-p",
+        "reviewed_commits": 6,
+        "git_author_labels": [
+          "kanbei0605",
+          "kanbei",
+          "code0605"
+        ],
+        "mapped_account": "kanbei65",
+        "mapped_account_id": 91700749,
+        "civil_identity_established": false,
+        "present_controller_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp51-github-jabp-commits",
+          "locator": "JSON commit-list author.login fields (six rows)",
+          "quote": "\"login\": \"kanbei65\""
+        }
+      ],
+      "observed_at": "2024-04-19",
+      "notes": [
+        "GitHub supplies a platform-native commit-author/account association. It does not prove that John Alexander Bird is a civil identity or that the current account controller is the source-reported persona."
+      ]
+    },
+    {
+      "id": "claim-persona-john-alexander-bird-portfolio-github-handle-chain-round51",
+      "type": "account",
+      "predicate": "repository_recorded_portfolio_github_link_transitions",
+      "value": {
+        "repository": "kanbei65/jab-p",
+        "historical_github_link_chain": [
+          "kanbei0605",
+          "code-0605",
+          "imcode65"
+        ],
+        "transition_dates": [
+          "2024-03-11",
+          "2024-04-19"
+        ],
+        "same_natural_person_established": false,
+        "account_transfer_or_rename_mechanism_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp51-github-commit-code0605",
+          "locator": "github_url_changes",
+          "quote": "\"https://github.com/code-0605\""
+        },
+        {
+          "source_id": "drp51-github-commit-imcode65",
+          "locator": "github_url_changes",
+          "quote": "\"https://github.com/imcode65\""
+        }
+      ],
+      "observed_at": "2024-04-19",
+      "notes": [
+        "The repository itself records the displayed portfolio-link sequence. This supports a related handle chain, not proof that every named account, author label, or controller was one natural person."
+      ]
+    },
+    {
+      "id": "claim-persona-john-alexander-bird-kanbei0605-current-account-collision-round51",
+      "type": "note",
+      "predicate": "github_exact_handle_collision_nonmerge",
+      "value": {
+        "author_label_or_historical_link": "kanbei0605",
+        "current_exact_handle_account_id": 116683582,
+        "mapped_repository_account": "kanbei65",
+        "mapped_repository_account_id": 91700749,
+        "distinct_numeric_ids": true,
+        "same_account_or_operator_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp51-github-kanbei65-user",
+          "locator": "login and id",
+          "quote": "\"id\": 91700749"
+        },
+        {
+          "source_id": "drp51-github-kanbei0605-user",
+          "locator": "login and id",
+          "quote": "\"id\": 116683582"
+        }
+      ],
+      "observed_at": "2026-08-16",
+      "notes": [
+        "The current exact-handle account is a distinct GitHub object. String equality with a historical author label or portfolio URL is insufficient for a merge."
+      ]
+    },
+    {
+      "id": "claim-persona-john-alexander-bird-jab-p-contribution-count-round51",
+      "type": "relationship",
+      "predicate": "github_recorded_repository_contribution_count",
+      "value": {
+        "repository": "kanbei65/jab-p",
+        "account": "kanbei65",
+        "account_id": 91700749,
+        "contributions": 6,
+        "employment_established": false,
+        "malicious_activity_established": false,
+        "john_bird_same_person_established": false
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "drp51-github-jabp-contributors",
+          "locator": "Only returned contributor row",
+          "quote": "\"contributions\": 6"
+        }
+      ],
+      "observed_at": "2024-04-19",
+      "notes": [
+        "The count corroborates the complete commit list at the account/repository level only."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-08-30",
+  "identity_boundary": "Nisos-reported developer persona historically linked to GitHub account imcode65. GitHub repository history maps six jab-p commits and the author labels kanbei0605, kanbei, and code0605 to the distinct kanbei65 account and records a portfolio-link chain from kanbei0605 to code-0605 to imcode65. These are platform and repository relationships; civil identity, one-person status, account-transfer mechanism, and present controller each require separate evidence. The current exact kanbei0605 account has a separate numeric GitHub ID."
+}
