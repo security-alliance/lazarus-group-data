@@ -7,7 +7,7 @@ The collection contains two kinds of data:
 - **Analyst curated:** 72 registry profiles curated and created entirely by SEAL's analysts. Their roster files have `"curation": "analyst"`.
 - **AI assisted:** 31 further registry profiles and the public-records collection were compiled from public sources with the help of AI agents. Mistakes are possible. Their roster files have `"curation": "ai-assisted"`; public records retain citations, quotations, uncertainty and identity boundaries. Check the underlying publications before relying on a claim.
 
-The initial snapshot contains 103 roster profiles, 913 public-record entities and 986 source records. A source record is a citation entry; multiple entries can cite the same publication. This repository is private for now and is intended for public contributions after release.
+The initial snapshot contains 103 roster profiles, 913 public-record entities and 986 source records. A source record is a citation entry; multiple entries can cite the same publication. Public contributions are welcome.
 
 ## Layout
 
@@ -53,7 +53,13 @@ Open an issue using the **Correction** or **New record** template, or send a pul
 
 Data changes belong in this repository. After a data PR merges, the website fetches the resulting `main` commit during its build; no website data copy or follow-up website commit is needed. Media updates include original files and the corresponding thumbnail variants.
 
-Licence: to be decided before public release
+## Licence
+
+Except for `tools/` and the third-party material below, repository data is licensed under [CC BY 4.0](LICENSE). Attribute it as: "Security Alliance (SEAL), Lazarus Group data, https://lazarus.group".
+
+Code in `tools/` is licensed under [MIT](tools/LICENSE).
+
+Profile photos in `team-images/` and `team-thumbnails/` and quoted excerpts from cited publications remain the property of their respective owners and are included for identification and reference. They are not licensed under CC BY 4.0.
 
 ## After a merge
 

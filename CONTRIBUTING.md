@@ -14,4 +14,15 @@ Do not add credentials, private correspondence, workstation paths or contributor
 
 `reference-exceptions.json` records six existing unresolved citation locations preserved by the initial migration. It is not a way to admit new broken references. Corrections must establish the source through review, fix the reference or definition, and remove the corresponding exception; stale exceptions fail validation. Documentary publisher IDs and qualified route hints are not necessarily references into this repository.
 
-Licensing will be decided by the owner before public release. No licence has been granted by adding this contribution guide.
+AI-assisted contributions must still cite public sources. Contributors are responsible for checking the claims and citations they submit.
+
+## What we won't accept
+
+- Doxxing of people who are not subjects of the dataset.
+- Non-public or leaked material.
+- Claims without a public source.
+- Unverified identity links.
+
+## Licensing
+
+Contributions are licensed under this repository's licences: [CC BY 4.0](LICENSE) for data and [MIT](tools/LICENSE) for code in `tools/`, subject to the third-party exclusions in the README's [Licence section](README.md#licence).
