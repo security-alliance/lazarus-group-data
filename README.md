@@ -51,6 +51,10 @@ The same commands run in GitHub Actions for pushes to `main` and pull requests. 
 
 Open an issue using the **Correction** or **New record** template, or send a pull request using [CONTRIBUTING.md](CONTRIBUTING.md). Identify the existing record or proposed stable ID, cite the public source, and explain exactly what it establishes. Preserve uncertainty, publication dates, quotations and legal posture. A shared name, handle or photograph does not establish a shared identity.
 
-Data changes belong in this repository. After a data PR merges, the website syncs a pinned commit through a separate PR; its builds use that committed snapshot without accessing this repository. Media updates include original files and the corresponding thumbnail variants.
+Data changes belong in this repository. After a data PR merges, the website fetches the resulting `main` commit during its build; no website data copy or follow-up website commit is needed. Media updates include original files and the corresponding thumbnail variants.
 
 Licence: to be decided before public release
+
+## After a merge
+
+The deploy workflow repeats validation and, when `SITE_DEPLOY_HOOK` is configured, POSTs the Cloudflare Workers Builds deploy hook. A missing hook secret is reported and skips deployment.

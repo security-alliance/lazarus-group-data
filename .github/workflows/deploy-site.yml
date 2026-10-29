@@ -1,0 +1,35 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate every record and reference
+        run: node tools/validate.cjs
+      - name: Check validator failure cases
+        run: node --test tools/validate.test.cjs
+      - name: Trigger site build
+        env:
+          SITE_DEPLOY_HOOK: ${{ secrets.SITE_DEPLOY_HOOK }}
+        shell: bash
+        run: |
+          if [ -z "$SITE_DEPLOY_HOOK" ]; then
+            echo 'SITE_DEPLOY_HOOK is not configured; site deployment skipped.'
+            exit 0
+          fi
+          curl --fail --silent --show-error --request POST "$SITE_DEPLOY_HOOK"
+          echo 'Site deploy hook accepted.'
