@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-20T04:00:54Z",
-  "data_sha256": "fd1e883d55fb88fb139cb40ed46e6aade336eec484762f152ff9d08fa67406fa",
+  "data_sha256": "addc303aa43d3fdd34f927d2b528794143f78c8eedb7893500fa72890da023ff",
   "provenance_expectations": {
     "missing_posture": 48,
     "partial_source_refs": 458
@@ -23,12 +23,12 @@
     "tradecraft": 272,
     "infrastructure": 30,
     "leads": 20,
-    "sources": 986,
+    "sources": 987,
     "indicators": 974
   },
   "totals": {
     "entities": 913,
-    "claims": 3889,
+    "claims": 3892,
     "publishers": 373
   },
   "by_type": {

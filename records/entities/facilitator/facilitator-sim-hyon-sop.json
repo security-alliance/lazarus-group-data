@@ -104,6 +104,11 @@
     },
     {
       "source_id": "int-un-poe-2024"
+    },
+    {
+      "source_id": "au-frl-2026-f2026l01407",
+      "support": "The Australian instrument adds SIM Hyon Sop at entry 57 for sanctions designation and declaration; it was registered on 22 October 2026 and commences the following day. Sourced from the Federal Register of Legislation at 26 October 2026. For the latest information on Australian Government law please go to https://www.legislation.gov.au. Verbatim excerpts are unchanged. Source licence: Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/.",
+      "locator": "Schedule 1, item 1, adding Part 2 of Schedule 1, entry 57 (physical PDF p. 6, printed p. 2), name and instrument-of-first-designation fields; section 2 (physical PDF p. 5, printed p. 1); registration footer (physical PDF p. 1)"
     }
   ],
   "claims": [
@@ -716,6 +721,44 @@
       "notes": [
         "Historical immigration and administrative-response chronology only. Departure does not establish a later or present location.",
         "The passport number, account details, company details, and other personal selectors in the source are excluded."
+      ]
+    },
+    {
+      "id": "claim-au-f2026l01407-designation",
+      "type": "legal_event",
+      "predicate": "listed_in_australian_sanctions_instrument",
+      "value": {
+        "authority": "Australian Government, Minister for Foreign Affairs",
+        "instrument": "F2026L01407",
+        "action": "sanctions designation and declaration",
+        "listed_name": "SIM Hyon Sop",
+        "list_entry": "Part 2 of Schedule 1, entry 57",
+        "registered_at": "2026-10-22",
+        "commenced_at": "2026-10-23"
+      },
+      "confidence": "confirmed",
+      "status": "published",
+      "observed_at": "2026-10-23",
+      "sources": [
+        {
+          "source_id": "au-frl-2026-f2026l01407",
+          "locator": "Schedule 1, item 1, adding Part 2 of Schedule 1, entry 57 (physical PDF p. 6, printed p. 2), name and instrument-of-first-designation fields",
+          "quote": "SIM Hyon Sop"
+        },
+        {
+          "source_id": "au-frl-2026-f2026l01407",
+          "locator": "Section 2, commencement table, whole instrument (physical PDF p. 5, printed p. 1)",
+          "quote": "The day after this instrument is registered."
+        },
+        {
+          "source_id": "au-frl-2026-f2026l01407",
+          "locator": "Physical PDF p. 1 footer",
+          "quote": "Authorised Version F2026L01407 registered 22/10/2026"
+        }
+      ],
+      "notes": [
+        "Administrative sanctions event, not a criminal charge or conviction.",
+        "The commencement date follows section 2 and the registration date printed on the instrument. Existing historical roles, locations and other legal proceedings are not reverified by this instrument."
       ]
     }
   ],
