@@ -55,5 +55,45 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-blackbigswan-1913290058670416183",
+      "title": "Hiroto Iwaki / Taku Yamamoto",
+      "publisher": "X (@blackbigswan)",
+      "url": "https://x.com/blackbigswan/status/1913290058670416183",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@blackbigswan"
+      ]
+    },
+    {
+      "id": "x-aptwhatnow-1913288544522485923",
+      "title": "Thread: face reveals of DPRK IT worker personas",
+      "publisher": "X (@aptwhatnow)",
+      "url": "https://x.com/aptwhatnow/status/1913288544522485923",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@aptwhatnow"
+      ]
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-researcher-thread-2025",
+      "label": "Named in researcher thread on DPRK IT workers",
+      "category": "note",
+      "observed": "2025-04-18",
+      "notes": [
+        "Researcher post naming the persona in a public thread about DPRK IT workers."
+      ],
+      "evidence": [
+        {
+          "source_id": "x-blackbigswan-1913290058670416183",
+          "locator": "post text",
+          "quote": "Hiroto Iwaki / Taku Yamamoto (bestselection18 / noahsflood908@gmail.com)"
+        }
+      ]
+    }
+  ]
 }

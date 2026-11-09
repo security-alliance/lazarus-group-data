@@ -92,5 +92,17 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-zachxbt-1940388827392344261",
+      "title": "Thread: $16.58M paid to DPRK IT workers hired as developers since January 2025",
+      "publisher": "X (@zachxbt)",
+      "url": "https://x.com/zachxbt/status/1940388827392344261",
+      "date": "2025-07-02",
+      "credited_to": [
+        "@zachxbt"
+      ]
+    }
+  ]
 }

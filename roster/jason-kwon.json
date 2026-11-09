@@ -74,5 +74,17 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-zachxbt-1824047425822310580",
+      "title": "Thread: DPRK IT workers hired as devs across 25+ crypto projects",
+      "publisher": "X (@zachxbt)",
+      "url": "https://x.com/zachxbt/status/1824047425822310580",
+      "date": "2024-08-15",
+      "credited_to": [
+        "@zachxbt"
+      ]
+    }
+  ]
 }

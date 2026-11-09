@@ -37,6 +37,17 @@
       "title": "GitHub public user API snapshot: garezb35",
       "publisher": "GitHub",
       "url": "https://api.github.com/users/garezb35"
+    },
+    {
+      "id": "src-tayvano-chong-ryu-song",
+      "title": "DPRK IT Workers - Kyonghung IT",
+      "publisher": "tayvano/lazarus-bluenoroff-research (GitHub)",
+      "url": "https://github.com/tayvano/lazarus-bluenoroff-research/blob/11f7a31895dd3cf1bce74d8ed0041fd66b447fd6/dprk-it-workers/readme.md#L6052-L6128",
+      "accessed_at": "2026-11-09",
+      "sha256": "42d75bed60d560e66599029ecb2c208a3eb9a0583a68bb916cf74116fc31f9f2",
+      "credited_to": [
+        "@tayvano_"
+      ]
     }
   ],
   "sourced_facts": [

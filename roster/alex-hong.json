@@ -69,5 +69,27 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-musectech-1914020967275462667",
+      "title": "Reply adding a GitHub account to the DPRK list",
+      "publisher": "X (@musectech)",
+      "url": "https://x.com/musectech/status/1914020967275462667",
+      "date": "2025-04-20",
+      "credited_to": [
+        "@musectech"
+      ]
+    },
+    {
+      "id": "x-browsercookies-1913281482686369875",
+      "title": "Thread: how to catch a DPRK actor",
+      "publisher": "X (@browsercookies)",
+      "url": "https://x.com/browsercookies/status/1913281482686369875",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@browsercookies"
+      ]
+    }
+  ]
 }

@@ -29,5 +29,27 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-blackbigswan-1912647963068735887",
+      "title": "Investigation: DPRK IT workers on OnlyDust",
+      "publisher": "X (@blackbigswan)",
+      "url": "https://x.com/blackbigswan/status/1912647963068735887",
+      "date": "2025-04-16",
+      "credited_to": [
+        "@blackbigswan"
+      ]
+    },
+    {
+      "id": "x-blackbigswan-1912647965505736753",
+      "title": "Three actors confirmed as DPRK IT workers, including by video call",
+      "publisher": "X (@blackbigswan)",
+      "url": "https://x.com/blackbigswan/status/1912647965505736753",
+      "date": "2025-04-16",
+      "credited_to": [
+        "@blackbigswan"
+      ]
+    }
+  ]
 }

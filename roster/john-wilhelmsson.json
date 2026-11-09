@@ -56,5 +56,40 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "src-tayvano-john-wilhelmsson",
+      "title": "DPRK IT Workers - John Wilhelmson / zhmolly",
+      "publisher": "tayvano/lazarus-bluenoroff-research (GitHub)",
+      "url": "https://github.com/tayvano/lazarus-bluenoroff-research/blob/11f7a31895dd3cf1bce74d8ed0041fd66b447fd6/dprk-it-workers/readme.md#L749-L774",
+      "accessed_at": "2026-11-09",
+      "sha256": "42d75bed60d560e66599029ecb2c208a3eb9a0583a68bb916cf74116fc31f9f2",
+      "credited_to": [
+        "@tayvano_"
+      ]
+    },
+    {
+      "id": "src-tayvano-john-wilhelmsson-2",
+      "title": "DPRK IT Workers - David Adachi / zhmolly",
+      "publisher": "tayvano/lazarus-bluenoroff-research (GitHub)",
+      "url": "https://github.com/tayvano/lazarus-bluenoroff-research/blob/11f7a31895dd3cf1bce74d8ed0041fd66b447fd6/dprk-it-workers/readme.md#L559-L602",
+      "accessed_at": "2026-11-09",
+      "sha256": "42d75bed60d560e66599029ecb2c208a3eb9a0583a68bb916cf74116fc31f9f2",
+      "credited_to": [
+        "@tayvano_"
+      ]
+    },
+    {
+      "id": "src-tayvano-john-wilhelmsson-3",
+      "title": "DPRK IT Workers - Sadao Elichi / David Adachi / zhmolly",
+      "publisher": "tayvano/lazarus-bluenoroff-research (GitHub)",
+      "url": "https://github.com/tayvano/lazarus-bluenoroff-research/blob/11f7a31895dd3cf1bce74d8ed0041fd66b447fd6/dprk-it-workers/readme.md#L625-L662",
+      "accessed_at": "2026-11-09",
+      "sha256": "42d75bed60d560e66599029ecb2c208a3eb9a0583a68bb916cf74116fc31f9f2",
+      "credited_to": [
+        "@tayvano_"
+      ]
+    }
+  ]
 }
