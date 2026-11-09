@@ -130,17 +130,6 @@
       "date": "2025-06-30"
     },
     {
-      "id": "src-tayvano-dprk-it-workers-bryan-cho",
-      "title": "DPRK IT Workers - Bryan Cho / Chris Yu / atroboj",
-      "publisher": "tayvano/lazarus-bluenoroff-research (GitHub)",
-      "url": "https://github.com/tayvano/lazarus-bluenoroff-research/blob/11f7a31895dd3cf1bce74d8ed0041fd66b447fd6/dprk-it-workers/readme.md#L299-L348",
-      "accessed_at": "2026-11-09",
-      "sha256": "42d75bed60d560e66599029ecb2c208a3eb9a0583a68bb916cf74116fc31f9f2",
-      "credited_to": [
-        "@tayvano_"
-      ]
-    },
-    {
       "id": "x-zachxbt-1824047425822310580",
       "title": "Thread: DPRK IT workers hired as devs across 25+ crypto projects",
       "publisher": "X (@zachxbt)",
@@ -200,6 +189,7 @@
       "url": "https://cryptototem.com/despace-des/",
       "archived_url": "https://web.archive.org/web/20250912134651/https://cryptototem.com/despace-des/",
       "accessed_at": "2026-11-09",
+      "reference_kind": "publisher",
       "note": "Live page no longer lists the project; cited from the archived copy."
     }
   ],
@@ -285,11 +275,6 @@
           "source_id": "x-tayvano-1940177262219088086",
           "locator": "post text",
           "quote": "Bryan Cho aka Chris Yu is especially special."
-        },
-        {
-          "source_id": "src-tayvano-dprk-it-workers-bryan-cho",
-          "locator": "dprk-it-workers/readme.md, line 299",
-          "quote": "#### Bryan Cho / Chris Yu / atroboj"
         }
       ],
       "notes": [
@@ -387,11 +372,6 @@
           "source_id": "x-bestctclips-1824786325834432776",
           "locator": "post text",
           "quote": "Bryan Cho - DPRK IT worker involved in hack from 2022 using fake ID."
-        },
-        {
-          "source_id": "src-tayvano-dprk-it-workers-bryan-cho",
-          "locator": "dprk-it-workers/readme.md, line 301",
-          "quote": "2021, 2022, 2023, 2024, [Zach's List](https://x.com/zachxbt/status/1824047425822310580)"
         }
       ]
     },
