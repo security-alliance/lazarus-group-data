@@ -701,6 +701,16 @@
         },
         "is_self_reference": {
           "type": "boolean"
+        },
+        "credited_to": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^@[A-Za-z0-9_]{1,15}$"
+          },
+          "description": "Researchers credited for the intel, as current X handles."
         }
       }
     },

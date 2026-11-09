@@ -256,5 +256,65 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-blackbigswan-1913312344760873365",
+      "title": "Drop your Kazune Takeda here.",
+      "publisher": "X (@blackbigswan)",
+      "url": "https://x.com/blackbigswan/status/1913312344760873365",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@blackbigswan"
+      ]
+    },
+    {
+      "id": "x-aptwhatnow-1913288544522485923",
+      "title": "Thread: face reveals of DPRK IT worker personas",
+      "publisher": "X (@aptwhatnow)",
+      "url": "https://x.com/aptwhatnow/status/1913288544522485923",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@aptwhatnow"
+      ]
+    },
+    {
+      "id": "x-narcass3-1913330812709200150",
+      "title": "Reply with screenshot in the face-reveal thread",
+      "publisher": "X (@Narcass3)",
+      "url": "https://x.com/Narcass3/status/1913330812709200150",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@Narcass3"
+      ]
+    },
+    {
+      "id": "x-narcass3-1916191078631289200",
+      "title": "Post with screenshots of persona connection details",
+      "publisher": "X (@Narcass3)",
+      "url": "https://x.com/Narcass3/status/1916191078631289200",
+      "date": "2025-04-26",
+      "credited_to": [
+        "@Narcass3"
+      ]
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-researcher-thread-2025",
+      "label": "Named in researcher thread on DPRK IT workers",
+      "category": "note",
+      "observed": "2025-04-18",
+      "notes": [
+        "Researcher post naming the persona in a public thread about DPRK IT workers."
+      ],
+      "evidence": [
+        {
+          "source_id": "x-blackbigswan-1913312344760873365",
+          "locator": "post text",
+          "quote": "Drop your Kazune Takeda here."
+        }
+      ]
+    }
+  ]
 }

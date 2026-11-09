@@ -56,5 +56,70 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-coderdannn-1772820871478223074",
+      "title": "Trial hire at Pixelcraft Studios suspected to be a NK hacker",
+      "publisher": "X (@coderdannn)",
+      "url": "https://x.com/coderdannn/status/1772820871478223074",
+      "date": "2024-03-27",
+      "credited_to": [
+        "@coderdannn"
+      ]
+    },
+    {
+      "id": "x-coderdannn-1772826478209822924",
+      "title": "Address that received Cryptopunk's pay",
+      "publisher": "X (@coderdannn)",
+      "url": "https://x.com/coderdannn/status/1772826478209822924",
+      "date": "2024-03-27",
+      "credited_to": [
+        "@coderdannn"
+      ]
+    },
+    {
+      "id": "x-coderdannn-1772826999427682744",
+      "title": "Second wallet Cryptopunk asked to be paid to",
+      "publisher": "X (@coderdannn)",
+      "url": "https://x.com/coderdannn/status/1772826999427682744",
+      "date": "2024-03-27",
+      "credited_to": [
+        "@coderdannn"
+      ]
+    },
+    {
+      "id": "x-coderdannn-1772826672083153076",
+      "title": "Reply with screenshot in the Pixelcraft thread",
+      "publisher": "X (@coderdannn)",
+      "url": "https://x.com/coderdannn/status/1772826672083153076",
+      "date": "2024-03-27",
+      "credited_to": [
+        "@coderdannn"
+      ]
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-pixelcraft-trial-hire",
+      "label": "Reported trial hire and dismissal",
+      "category": "employment",
+      "observed": "2022",
+      "notes": [
+        "Employer's account of a suspected DPRK IT worker; not an official attribution."
+      ],
+      "evidence": [
+        {
+          "source_id": "x-coderdannn-1772820871478223074",
+          "locator": "post text",
+          "quote": "We (@PixelcraftStuds) actually gave this guy try a trial hire back in 2022 to do some game dev work and he was sketchy af, definitely felt like he could be a NK hacker. We fired him within a month."
+        },
+        {
+          "source_id": "x-coderdannn-1772826478209822924",
+          "locator": "post text",
+          "quote": "This is the address where we sent Cryptopunk funds while he was working for us"
+        }
+      ]
+    }
+  ]
 }

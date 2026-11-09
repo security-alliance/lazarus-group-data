@@ -151,5 +151,45 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-browsercookies-1933686204668784823",
+      "title": "SolDev - GH: evgpan",
+      "publisher": "X (@browsercookies)",
+      "url": "https://x.com/browsercookies/status/1933686204668784823",
+      "date": "2025-06-14",
+      "credited_to": [
+        "@browsercookies"
+      ]
+    },
+    {
+      "id": "x-browsercookies-1933591202550723029",
+      "title": "Thread: DPRK personas found on web3.career",
+      "publisher": "X (@browsercookies)",
+      "url": "https://x.com/browsercookies/status/1933591202550723029",
+      "date": "2025-06-13",
+      "credited_to": [
+        "@browsercookies"
+      ]
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-researcher-thread-2025",
+      "label": "Named in researcher thread on DPRK IT workers",
+      "category": "note",
+      "observed": "2025-06-14",
+      "evidence": [
+        {
+          "source_id": "x-browsercookies-1933686204668784823",
+          "locator": "post text",
+          "quote": "SolDev - GH: evgpan (linkedin blown away)"
+        }
+      ],
+      "notes": [
+        "Researcher post naming the persona by its GitHub account (evgpan) in a public thread about DPRK IT workers."
+      ]
+    }
+  ]
 }

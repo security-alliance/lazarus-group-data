@@ -82,6 +82,16 @@ test('roster evidence resolves against local source definitions and rejects dupl
   assert.throws(() => check(data), /Duplicate.*source/);
 });
 
+test('researcher credits are unique X handles on roster and record sources', () => {
+  const data = fixture(); const profile = data.roster[0];
+  profile.sources = [{ id: 'local-source', title: 'Local source', publisher: 'X (@example)', url: 'https://x.com/example/status/1', credited_to: ['@example_1'] }];
+  data.sources[0].credited_to = ['@example'];
+  assert.equal(check(data).roster, 1);
+  for (const credited of [[], ['example'], ['@has-dash'], ['@sixteencharacter'], ['@example_1', '@example_1']]) {
+    profile.sources[0].credited_to = credited; assert.throws(() => check(data), /credited_to/);
+  }
+});
+
 test('reference exceptions match only the exact inherited path and ID and fail when stale', () => {
   const data = fixture(); data.entities[0].sources[0].source_id = 'absent-source';
   const exception = { path: 'records/entities/persona/entity-test.json.sources[0].source_id', source_id: 'absent-source', reason: 'Reviewed inherited fixture.' };

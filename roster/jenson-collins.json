@@ -146,5 +146,55 @@
     }
   ],
   "files": [],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-narcass3-1913291280911921598",
+      "title": "Jenson Collins (nfbigjc) in Laos with a DPRK friend",
+      "publisher": "X (@Narcass3)",
+      "url": "https://x.com/Narcass3/status/1913291280911921598",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@Narcass3"
+      ]
+    },
+    {
+      "id": "x-aptwhatnow-1913288544522485923",
+      "title": "Thread: face reveals of DPRK IT worker personas",
+      "publisher": "X (@aptwhatnow)",
+      "url": "https://x.com/aptwhatnow/status/1913288544522485923",
+      "date": "2025-04-18",
+      "credited_to": [
+        "@aptwhatnow"
+      ]
+    },
+    {
+      "id": "x-narcass3-1916191078631289200",
+      "title": "Post with screenshots of persona connection details",
+      "publisher": "X (@Narcass3)",
+      "url": "https://x.com/Narcass3/status/1916191078631289200",
+      "date": "2025-04-26",
+      "credited_to": [
+        "@Narcass3"
+      ]
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-researcher-thread-2025",
+      "label": "Named in researcher thread on DPRK IT workers",
+      "category": "note",
+      "observed": "2025-04-18",
+      "notes": [
+        "Researcher post naming the persona in a public thread about DPRK IT workers."
+      ],
+      "evidence": [
+        {
+          "source_id": "x-narcass3-1913291280911921598",
+          "locator": "post text",
+          "quote": "Jenson Collins (nfbigjc), chilling at an Airbnb in Laos with a DPRK friend :)"
+        }
+      ]
+    }
+  ]
 }

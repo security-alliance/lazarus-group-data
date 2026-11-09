@@ -128,6 +128,69 @@
       "publisher": "FOX 5 Atlanta",
       "url": "https://www.fox5atlanta.com/news/north-korean-nationals-wanted-cryptocurrency-embezzlement-scheme-5m-reward",
       "date": "2025-06-30"
+    },
+    {
+      "id": "x-zachxbt-1824047425822310580",
+      "title": "Thread: DPRK IT workers hired as devs across 25+ crypto projects",
+      "publisher": "X (@zachxbt)",
+      "url": "https://x.com/zachxbt/status/1824047425822310580",
+      "date": "2024-08-15",
+      "note": "Cited as \"Zach's List\" for this persona in the tayvano research.",
+      "credited_to": [
+        "@zachxbt"
+      ]
+    },
+    {
+      "id": "x-bestctclips-1824786325834432776",
+      "title": "Bryan Cho - DPRK IT worker involved in hack from 2022 using fake ID.",
+      "publisher": "X (@bestctclips)",
+      "url": "https://x.com/bestvideosofct/status/1824786325834432776",
+      "date": "2024-08-17",
+      "note": "Posted as @bestvideosofct; the account has since been renamed @bestctclips.",
+      "credited_to": [
+        "@bestctclips"
+      ]
+    },
+    {
+      "id": "x-aptwhatnow-1939767200166158385",
+      "title": "Post recognizing defendants in the N.D. Ga. indictment",
+      "publisher": "X (@aptwhatnow)",
+      "url": "https://x.com/aptwhatnow/status/1939767200166158385",
+      "date": "2025-06-30",
+      "note": "Thread in which @tayvano_ identified Bryan Cho as Chris Yu.",
+      "credited_to": [
+        "@aptwhatnow"
+      ]
+    },
+    {
+      "id": "x-tayvano-1940177262219088086",
+      "title": "Bryan Cho aka Chris Yu",
+      "publisher": "X (@tayvano_)",
+      "url": "https://x.com/tayvano_/status/1940177262219088086",
+      "date": "2025-07-01",
+      "credited_to": [
+        "@tayvano_"
+      ]
+    },
+    {
+      "id": "x-tayvano-1940178325307367493",
+      "title": "Bryan Cho at DeSpace",
+      "publisher": "X (@tayvano_)",
+      "url": "https://x.com/tayvano_/status/1940178325307367493",
+      "date": "2025-07-01",
+      "credited_to": [
+        "@tayvano_"
+      ]
+    },
+    {
+      "id": "web-cryptototem-despace",
+      "title": "DeSpace (DES): Ratings & Details",
+      "publisher": "CryptoTotem",
+      "url": "https://cryptototem.com/despace-des/",
+      "archived_url": "https://web.archive.org/web/20250912134651/https://cryptototem.com/despace-des/",
+      "accessed_at": "2026-11-09",
+      "reference_kind": "publisher",
+      "note": "Live page no longer lists the project; cited from the archived copy."
     }
   ],
   "sourced_facts": [
@@ -203,6 +266,22 @@
       ]
     },
     {
+      "claim_id": "claim-chris-yu-alias",
+      "label": "Reported alias",
+      "category": "alias",
+      "observed": "2025-07-01",
+      "evidence": [
+        {
+          "source_id": "x-tayvano-1940177262219088086",
+          "locator": "post text",
+          "quote": "Bryan Cho aka Chris Yu is especially special."
+        }
+      ],
+      "notes": [
+        "Researcher-reported link; not merged into the legal identity (see identity boundary caveat)."
+      ]
+    },
+    {
       "claim_id": "claim-company-2-employment",
       "label": "Alleged remote employment",
       "category": "employment",
@@ -225,6 +304,23 @@
           "source_id": "doc-8fe1311bd7cb",
           "locator": "PDF p. 10, paragraph 29",
           "quote": "On or about February 11, 2022, defendant JONG PONG JU, using access granted to him by Company-2, fraudulently obtained virtual currency tokens valued at approximately 60 Ether (worth approximately $175,680 at the time of the theft) from Company-2"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-despace-employment",
+      "label": "Reported employment",
+      "category": "employment",
+      "evidence": [
+        {
+          "source_id": "web-cryptototem-despace",
+          "locator": "Team section (archived 2025-09-12)",
+          "quote": "Bryan Cho Lead Blockchain Developer"
+        },
+        {
+          "source_id": "x-tayvano-1940178325307367493",
+          "locator": "post text",
+          "quote": "He also worked at DeSpace alongside Alex Hong (\"A.H.\" in previous forfeitures) and Jason Kwon"
         }
       ]
     },
@@ -263,6 +359,19 @@
           "source_id": "doc-8fe1311bd7cb",
           "locator": "PDF p. 1, caption",
           "quote": "JONG PONG JU (정봉주) A/K/A ‘BRYAN CHO’"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim-public-identification-2024",
+      "label": "Publicly identified as DPRK IT worker",
+      "category": "note",
+      "observed": "2024-08-17",
+      "evidence": [
+        {
+          "source_id": "x-bestctclips-1824786325834432776",
+          "locator": "post text",
+          "quote": "Bryan Cho - DPRK IT worker involved in hack from 2022 using fake ID."
         }
       ]
     },

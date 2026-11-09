@@ -85,5 +85,42 @@
       ]
     }
   ],
-  "curation": "analyst"
+  "curation": "analyst",
+  "sources": [
+    {
+      "id": "x-browsercookies-1937972789497168329",
+      "title": "DPRK. Hello \"Sandy Nguyen\".",
+      "publisher": "X (@browsercookies)",
+      "url": "https://x.com/browsercookies/status/1937972789497168329",
+      "date": "2025-06-25",
+      "credited_to": [
+        "@browsercookies"
+      ]
+    },
+    {
+      "id": "x-zachxbt-1940388827392344261",
+      "title": "Thread: $16.58M paid to DPRK IT workers hired as developers since January 2025",
+      "publisher": "X (@zachxbt)",
+      "url": "https://x.com/zachxbt/status/1940388827392344261",
+      "date": "2025-07-02",
+      "credited_to": [
+        "@zachxbt"
+      ]
+    }
+  ],
+  "sourced_facts": [
+    {
+      "claim_id": "claim-public-identification-2025",
+      "label": "Publicly identified as DPRK IT worker",
+      "category": "note",
+      "observed": "2025-06-25",
+      "evidence": [
+        {
+          "source_id": "x-browsercookies-1937972789497168329",
+          "locator": "post text",
+          "quote": "DPRK.\n\nHello \"Sandy Nguyen\". Nice flag!"
+        }
+      ]
+    }
+  ]
 }
