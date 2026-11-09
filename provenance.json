@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-20T04:00:54Z",
-  "data_sha256": "addc303aa43d3fdd34f927d2b528794143f78c8eedb7893500fa72890da023ff",
+  "data_sha256": "ad9c95d0ed0abc1130b8ca6fb254e988272e90a4a6c325481322efefd487d2af",
   "provenance_expectations": {
     "missing_posture": 48,
     "partial_source_refs": 458
@@ -17,42 +17,42 @@
     "indicators": 5
   },
   "counts": {
-    "profiles": 395,
+    "profiles": 406,
     "cases": 109,
-    "organizations": 87,
+    "organizations": 88,
     "tradecraft": 272,
     "infrastructure": 30,
     "leads": 20,
-    "sources": 987,
+    "sources": 990,
     "indicators": 974
   },
   "totals": {
-    "entities": 913,
-    "claims": 3892,
-    "publishers": 373
+    "entities": 925,
+    "claims": 3920,
+    "publishers": 374
   },
   "by_type": {
     "cluster": 109,
-    "facilitator": 88,
+    "facilitator": 93,
     "front_company": 82,
     "infrastructure": 30,
     "lead": 20,
-    "organization": 5,
+    "organization": 6,
     "persona": 170,
     "ttp": 272,
-    "worker": 137
+    "worker": 143
   },
   "by_posture": {
     "affected-organization-report": 34,
     "charged-allegation": 88,
-    "convicted": 10,
+    "convicted": 11,
     "officially-attributed": 269,
     "research-attributed": 419,
-    "sanctioned-designation": 82,
+    "sanctioned-designation": 93,
     "unverified-lead": 11
   },
   "by_status": {
-    "needs_corroboration": 532,
+    "needs_corroboration": 544,
     "published": 381
   },
   "indicators": {

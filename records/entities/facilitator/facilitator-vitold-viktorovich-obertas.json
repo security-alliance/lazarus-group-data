@@ -1,0 +1,92 @@
+{
+  "id": "facilitator-vitold-viktorovich-obertas",
+  "type": "facilitator",
+  "name": "Vitold Viktorovich Obertas",
+  "legal_or_reported_name": "Vitold Viktorovich Obertas",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Treasury announced an October 28, 2026 administrative designation under E.O. 13687. The supporting activity is Treasury’s assessment; this action does not establish a criminal charge or conviction.",
+    "as_of": "2026-10-28",
+    "source_ids": [
+      "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "ofac-2026-10-28-dprk-designations"
+    ]
+  },
+  "identity_boundary": "The subject named Vitold Viktorovich Obertas in Treasury’s October 28, 2026 action. Similar names or historical roles in other publications do not establish identity, and no such identity link is asserted here.",
+  "caveats": [
+    "The Treasury release and companion OFAC notice form one source family; they are not independent corroboration.",
+    "Administrative designation is distinct from a criminal charge or conviction. Conduct statements are Treasury assessments, not adjudicated criminal findings.",
+    "Roles and activity periods are retained only as reported on October 28, 2026; no current employment, control or whereabouts are inferred."
+  ],
+  "sources": [
+    {
+      "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "support": "Names the subject, announces the administrative designation and supplies Treasury’s conduct assessment.",
+      "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; paragraph naming Vitold Viktorovich Obertas"
+    },
+    {
+      "source_id": "ofac-2026-10-28-dprk-designations",
+      "support": "Lists the named subject among the October 28, 2026 SDN additions; this is the same source family as the Treasury release.",
+      "locator": "SDN additions; individual entry OBERTAS, Vitold Viktorovich"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ofac-2026-10-28-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "date": "2026-10-28",
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "executive_order": "E.O. 13687",
+        "reported_basis": "material support",
+        "supported_subject": "Government of North Korea"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; designation paragraph naming Vitold Viktorovich Obertas",
+          "quote": "OFAC is designating Obertas pursuant to Executive Order (E.O.) 13687 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, the Government of North Korea."
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; heading for individuals",
+          "quote": "The following individuals have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; individual entry OBERTAS, Vitold Viktorovich",
+          "quote": "OBERTAS, Vitold Viktorovich"
+        }
+      ]
+    },
+    {
+      "id": "claim-treasury-2026-10-28-conduct-assessment",
+      "type": "incident",
+      "predicate": "treasury_reported_support_activity",
+      "value": {
+        "period": "since January 2025",
+        "reported_conduct": "nearly $2 million in cryptocurrency conversions and at least $1.25 million in other currency transactions for DPRK officials"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; paragraph naming Vitold Viktorovich Obertas",
+          "quote": "Since January 2025, Obertas has conducted nearly $2 million worth of cryptocurrency conversions, as well as at least $1.25 million in other currency transactions, for DPRK officials."
+        }
+      ],
+      "notes": [
+        "This is Treasury’s official assessment, not a criminal adjudication."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-09"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "organization-first-financial-and-technical-development-center",
+  "type": "organization",
+  "name": "First Financial and Technical Development Center",
+  "legal_or_reported_name": "First Financial and Technical Development Center",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Treasury announced an October 28, 2026 administrative designation under E.O. 13722 for worker exportation, including revenue generation for the DPRK government or Workers’ Party of Korea. Treasury’s operational assessments remain distinct from the administrative action and are not criminal convictions.",
+    "as_of": "2026-10-28",
+    "source_ids": [
+      "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "ofac-2026-10-28-dprk-designations"
+    ]
+  },
+  "identity_boundary": "The First Financial and Technical Development Center explicitly named in the October 28, 2026 Treasury release and OFAC notice. The Treasury abbreviation FFTDC is used only for that named entity.",
+  "caveats": [
+    "The Treasury release and companion OFAC notice form one source family; they are not independent corroboration.",
+    "Administrative designation is distinct from a criminal charge or conviction. Conduct statements are Treasury assessments, not adjudicated criminal findings.",
+    "Roles and activity periods are retained only as reported on October 28, 2026; no current employment, control or whereabouts are inferred."
+  ],
+  "sources": [
+    {
+      "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "support": "Names FFTDC, describes its reported use of DPRK IT workers and announces its E.O. 13722 designation.",
+      "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; FFTDC assessment and designation paragraphs"
+    },
+    {
+      "source_id": "ofac-2026-10-28-dprk-designations",
+      "support": "Lists the named entity as an SDN addition in the same administrative action.",
+      "locator": "SDN additions; entity entry FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-fftdc-ofac-2026-10-28-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "date": "2026-10-28",
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "executive_order": "E.O. 13722",
+        "reported_basis": "exportation of workers from North Korea, including revenue generation for the Government of North Korea or Workers’ Party of Korea"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; FFTDC designation paragraph",
+          "quote": "OFAC is designating FFTDC pursuant to E.O. 13722 for having engaged in, facilitated, or been responsible for the exportation of workers from North Korea, including exportation to generate revenue for the Government of North Korea or the Workers’ Party of Korea."
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; heading for entities",
+          "quote": "The following entities have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; entity entry FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER",
+          "quote": "FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER"
+        }
+      ]
+    },
+    {
+      "id": "claim-fftdc-treasury-worker-revenue-assessment",
+      "type": "incident",
+      "predicate": "treasury_reported_it_worker_revenue_methods",
+      "value": {
+        "source_date": "2026-10-28",
+        "reported_conduct": "deployed DPRK IT workers using Super Intelligence tools and sophisticated money laundering methods, including complex cryptocurrency transfers, to facilitate revenue generation"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; FFTDC assessment paragraph",
+          "quote": "The FFTDC has deployed several highly trained DPRK IT workers to Russia who employ Super Intelligence (SI) tools and use sophisticated money laundering methods, including complex cryptocurrency transfers, to facilitate their revenue generation schemes."
+        }
+      ],
+      "notes": [
+        "Official Treasury assessment, not a judicial finding; no present operational location is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-09"
+}
