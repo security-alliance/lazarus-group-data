@@ -27,6 +27,11 @@
       "source_id": "crowdstrike-2026-10-13-famous-chollima-disruption",
       "support": "CrowdStrike describes the FBI-assisted disruption of FAMOUS CHOLLIMA laptop farms.",
       "locator": "Opening paragraph"
+    },
+    {
+      "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+      "support": "The publication names this subject.",
+      "locator": "Publication text line 83"
     }
   ],
   "claims": [
@@ -47,7 +52,30 @@
           "quote": "U.S. cybersecurity firm CrowdStrike has identified this group of DPRK IT workers and their helpers as “Famous Chollima,” a name that many victims now use to describe the broader threat network."
         }
       ]
+    },
+    {
+      "id": "public-name-98ea661ff7230eab",
+      "type": "identity_name",
+      "predicate": "source_names_subject",
+      "value": "Famous Chollima",
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-13-ohio-remote-it-actions",
+          "quote": "Famous Chollima",
+          "locator": "Publication text line 83"
+        }
+      ]
     }
   ],
-  "last_verified_at": "2026-10-18"
+  "last_verified_at": "2026-10-18",
+  "aliases": [
+    {
+      "value": "Famous Chollima",
+      "source_ids": [
+        "doj-2026-10-13-ohio-remote-it-actions"
+      ]
+    }
+  ]
 }
