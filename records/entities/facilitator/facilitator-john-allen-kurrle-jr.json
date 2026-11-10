@@ -1,0 +1,174 @@
+{
+  "id": "facilitator-john-allen-kurrle-jr",
+  "type": "facilitator",
+  "name": "John Allen Kurrle Jr.",
+  "legal_or_reported_name": "John Allen Kurrle Jr.",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "convicted",
+    "legal_posture": "DOJ reports that the court accepted Kurrle’s guilty plea to conspiracy to commit wire fraud on October 28, 2026. Sentencing was scheduled for January 28, 2027; the release establishes no imposed sentence. The accepted plea is distinct from DOJ’s account of scheme conduct and its general North Korean IT-worker background.",
+    "as_of": "2026-10-28",
+    "source_ids": [
+      "doj-2026-10-28-kurrle-guilty-plea"
+    ]
+  },
+  "identity_boundary": "The defendant John Allen Kurrle Jr. in E.D. Va. case 1:26-cr-198, as identified by DOJ. No identity link to another person or overseas worker is inferred.",
+  "caveats": [
+    "One DOJ source family supports this record.",
+    "The guilty plea, reported conduct and scheduled sentencing are distinct evidential and legal postures."
+  ],
+  "sources": [
+    {
+      "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+      "support": "Reports the named defendant’s accepted guilty plea, case number, alleged scheme methods, job offers and separately scheduled sentencing.",
+      "locator": "Article body, paragraphs 1-9"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-kurrle-name-and-case",
+      "type": "identity_name",
+      "predicate": "doj_reported_defendant_and_case",
+      "value": {
+        "name": "John Allen Kurrle Jr.",
+        "court": "U.S. District Court for the Eastern District of Virginia",
+        "case_number": "1:26-cr-198"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 2",
+          "quote": "John Allen Kurrle Jr."
+        },
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 9",
+          "quote": "Case No. 1:26-cr-198"
+        }
+      ]
+    },
+    {
+      "id": "claim-kurrle-accepted-guilty-plea",
+      "type": "legal_event",
+      "predicate": "doj_reported_accepted_guilty_plea",
+      "value": {
+        "date": "2026-10-28",
+        "offense": "conspiracy to commit wire fraud",
+        "posture": "accepted guilty plea reported by DOJ"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 1",
+          "quote": "pled guilty today to conspiracy to commit wire fraud relating to a scheme involving fraudulent applications for remote employment using borrowed U.S. identities."
+        },
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 7",
+          "quote": "made the announcement after U.S. District Judge Michael S. Nachmanoff accepted the plea."
+        }
+      ]
+    },
+    {
+      "id": "claim-kurrle-scheduled-sentencing",
+      "type": "legal_event",
+      "predicate": "doj_reported_scheduled_sentencing",
+      "value": {
+        "scheduled_date": "2027-01-28",
+        "event_status": "scheduled as of October 28, 2026"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 6",
+          "quote": "Kurrle is scheduled to be sentenced on Jan. 28, 2027"
+        }
+      ],
+      "notes": [
+        "This is a scheduled event, not an imposed sentence or evidence that sentencing has occurred."
+      ]
+    },
+    {
+      "id": "claim-kurrle-reported-identity-misuse-scheme",
+      "type": "incident",
+      "predicate": "doj_reported_scheme_conduct",
+      "value": {
+        "period_start": "2025-06",
+        "period_end": "2025-08",
+        "reported_conduct": "allowed foreign individuals to use his identity and fraudulently use a third person’s identity for remote-employment applications",
+        "source_posture": "DOJ account attributed to court documents"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 2",
+          "quote": "According to court documents from June to August 2025"
+        },
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 2",
+          "quote": "During that time, Kurrle participated in a scheme to defraud U.S. companies, including U.S. government contractors, in which he allowed foreign individuals to use his identity to apply for remote work positions and to fraudulently use the identity of a third person to apply for remote positions."
+        }
+      ],
+      "notes": [
+        "The general North Korean IT-worker background in the release does not identify an individual overseas worker or establish an identity link to any other catalog subject."
+      ]
+    },
+    {
+      "id": "claim-kurrle-reported-laptop-access-method",
+      "type": "incident",
+      "predicate": "doj_reported_laptop_hosting_and_remote_access",
+      "value": {
+        "reported_conduct": "received employer-issued laptops and enabled remote access from outside the United States"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 3",
+          "quote": "Kurrle received laptops shipped by victim companies"
+        },
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 3",
+          "quote": "enabled remote access from outside the United States."
+        }
+      ]
+    },
+    {
+      "id": "claim-kurrle-reported-job-offers",
+      "type": "incident",
+      "predicate": "doj_reported_job_offers_from_applications",
+      "value": {
+        "job_offers": 9,
+        "scope": "applications using Kurrle’s identity or a stolen identity"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "doj-2026-10-28-kurrle-guilty-plea",
+          "locator": "Article body, paragraph 4",
+          "quote": "The applications using Kurrle’s identity or a stolen identity induced nine job offers from U.S. companies."
+        }
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-09"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "worker-kim-kyong-ju",
+  "type": "worker",
+  "name": "Kim Kyong Ju",
+  "legal_or_reported_name": "Kim Kyong Ju",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Treasury announced an October 28, 2026 administrative designation under E.O. 13722. The supporting activity is Treasury’s assessment; this action does not establish a criminal charge or conviction.",
+    "as_of": "2026-10-28",
+    "source_ids": [
+      "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "ofac-2026-10-28-dprk-designations"
+    ]
+  },
+  "identity_boundary": "The subject named Kim Kyong Ju in Treasury’s October 28, 2026 action. Similar names or historical roles in other publications do not establish identity, and no such identity link is asserted here.",
+  "caveats": [
+    "The Treasury release and companion OFAC notice form one source family; they are not independent corroboration.",
+    "Administrative designation is distinct from a criminal charge or conviction. Conduct statements are Treasury assessments, not adjudicated criminal findings.",
+    "Roles and activity periods are retained only as reported on October 28, 2026; no current employment, control or whereabouts are inferred."
+  ],
+  "sources": [
+    {
+      "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "support": "Names the subject, announces the administrative designation and supplies Treasury’s conduct assessment.",
+      "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; paragraph naming Kim Kyong Ju"
+    },
+    {
+      "source_id": "ofac-2026-10-28-dprk-designations",
+      "support": "Lists the named subject among the October 28, 2026 SDN additions; this is the same source family as the Treasury release.",
+      "locator": "SDN additions; individual entry KIM, Kyong Ju"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ofac-2026-10-28-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "date": "2026-10-28",
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "executive_order": "E.O. 13722",
+        "reported_basis": "material support",
+        "supported_subject": "First Financial and Technical Development Center"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; designation paragraph naming Kim Kyong Ju",
+          "quote": "Additionally, OFAC is designating Kim Kyong Ju, Ri Thae Chol, So Hyon Jin, Han Yu Song, Kim Sung Gwan, and Hyon Se Il pursuant to E.O. 13722 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, FFTDC."
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; heading for individuals",
+          "quote": "The following individuals have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; individual entry KIM, Kyong Ju",
+          "quote": "KIM, Kyong Ju"
+        }
+      ]
+    },
+    {
+      "id": "claim-treasury-collective-fftdc-revenue-assessment",
+      "type": "incident",
+      "predicate": "treasury_reported_collective_revenue_generation",
+      "value": {
+        "group": [
+          "Kim Kyong Ju",
+          "Ri Thae Chol",
+          "So Hyon Jin",
+          "Han Yu Song",
+          "Kim Sung Gwan",
+          "Hyon Se Il"
+        ],
+        "period": "since 2025",
+        "beneficiary": "First Financial and Technical Development Center",
+        "reported_aggregate_usd": {
+          "comparison": "over",
+          "amount": 750000
+        },
+        "individual_share": "not stated"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; FFTDC paragraph, final sentence, date fragment",
+          "quote": "Since 2025"
+        },
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; FFTDC paragraph, final sentence, collective-conduct fragment",
+          "quote": "Kim Kyong Ju, Ri Thae Chol, So Hyon Jin, Han Yu Song, Kim Sung Gwan, and Hyon Se Il have collectively generated over $750,000 on behalf of the FFTDC."
+        }
+      ],
+      "notes": [
+        "The amount is collective across six named workers; no individual amount or responsibility for every group act is inferred."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-09"
+}

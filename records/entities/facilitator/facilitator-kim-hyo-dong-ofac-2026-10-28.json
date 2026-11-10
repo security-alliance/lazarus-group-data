@@ -1,0 +1,93 @@
+{
+  "id": "facilitator-kim-hyo-dong-ofac-2026-10-28",
+  "type": "facilitator",
+  "name": "Kim Hyo Dong",
+  "legal_or_reported_name": "Kim Hyo Dong",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "sanctioned-designation",
+    "legal_posture": "Treasury announced an October 28, 2026 administrative designation under E.O. 13687. The supporting activity is Treasury’s assessment; this action does not establish a criminal charge or conviction.",
+    "as_of": "2026-10-28",
+    "source_ids": [
+      "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "ofac-2026-10-28-dprk-designations"
+    ]
+  },
+  "identity_boundary": "The subject named Kim Hyo Dong in Treasury’s October 28, 2026 action. Similar names or historical roles in other publications do not establish identity, and no such identity link is asserted here.",
+  "caveats": [
+    "The Treasury release and companion OFAC notice form one source family; they are not independent corroboration.",
+    "Administrative designation is distinct from a criminal charge or conviction. Conduct statements are Treasury assessments, not adjudicated criminal findings.",
+    "Roles and activity periods are retained only as reported on October 28, 2026; no current employment, control or whereabouts are inferred.",
+    "Cross-publication identity remains unresolved; this record is limited to the subject of this Treasury/OFAC action."
+  ],
+  "sources": [
+    {
+      "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+      "support": "Names the subject, announces the administrative designation and supplies Treasury’s conduct assessment.",
+      "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; paragraph naming Kim Hyo Dong"
+    },
+    {
+      "source_id": "ofac-2026-10-28-dprk-designations",
+      "support": "Lists the named subject among the October 28, 2026 SDN additions; this is the same source family as the Treasury release.",
+      "locator": "SDN additions; individual entry KIM, Hyo Dong"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-ofac-2026-10-28-designation",
+      "type": "legal_event",
+      "predicate": "administratively_designated_by_ofac",
+      "value": {
+        "date": "2026-10-28",
+        "authority": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+        "executive_order": "E.O. 13687",
+        "reported_basis": "material support",
+        "supported_subject": "Chinyong Information Technology Cooperation Company"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; designation paragraph naming Kim Hyo Dong",
+          "quote": "OFAC is designating Kim Ki Hyok and Kim Hyo Dong pursuant to E.O. 13687 for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods or services to or in support of, Chinyong."
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; heading for individuals",
+          "quote": "The following individuals have been added to OFAC's SDN List:"
+        },
+        {
+          "source_id": "ofac-2026-10-28-dprk-designations",
+          "locator": "SDN additions; individual entry KIM, Hyo Dong",
+          "quote": "KIM, Hyo Dong"
+        }
+      ]
+    },
+    {
+      "id": "claim-treasury-2026-10-28-conduct-assessment",
+      "type": "incident",
+      "predicate": "treasury_reported_support_activity",
+      "value": {
+        "period_start": "at least 2023-12",
+        "reported_conduct": "provided logistical assistance to an IT-worker delegation, engaged in sanctions evasion and facilitated transfers exceeding $100,000 equivalent"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-10-28",
+      "sources": [
+        {
+          "source_id": "treasury-2026-10-28-dprk-it-worker-sanctions",
+          "locator": "KEY ENABLERS OF GLOBAL DPRK IT WORKER NETWORKS; paragraph naming Kim Hyo Dong",
+          "quote": "Since at least December 2023 Kim Hyo Dong has provided logistical assistance to the IT worker delegation, engaged in sanctions evasion efforts, and facilitated the transfer of over $100,000 equivalent in financial assets."
+        }
+      ],
+      "notes": [
+        "This is Treasury’s official assessment, not a criminal adjudication."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-09"
+}
