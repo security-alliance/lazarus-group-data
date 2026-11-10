@@ -80,8 +80,29 @@
       "source_id": "doar9-ofac-sdn-current",
       "support": "The current SDN row for OFAC entity number 48260 supplies the exact name, the source-listed aliases ALIAS LLC and ALIS LLC, a September 30, 2016 establishment date, and the link to Chinyong. Sensitive fields are omitted",
       "locator": "SDN.CSV current row for OFAC entity number 48260"
+    },
+    {
+      "source_id": "doaa-s05",
+      "support": "The publication names this subject.",
+      "locator": "Publication text line 45"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "public-name-13b6e523431adb1c",
+      "type": "identity_name",
+      "predicate": "source_names_subject",
+      "value": "LIMITED LIABILITY COMPANY ALIS",
+      "confidence": "medium",
+      "status": "needs_corroboration",
+      "sources": [
+        {
+          "source_id": "doaa-s05",
+          "quote": "LIMITED LIABILITY COMPANY ALIS",
+          "locator": "Publication text line 45"
+        }
+      ]
+    }
+  ],
   "last_verified_at": "2026-10-18"
 }
