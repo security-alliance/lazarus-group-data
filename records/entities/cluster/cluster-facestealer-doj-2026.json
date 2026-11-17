@@ -1,0 +1,159 @@
+{
+  "id": "cluster-facestealer-doj-2026",
+  "type": "cluster",
+  "name": "FaceStealer — DOJ-reported DPRK cryptocurrency-theft campaign",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "DOJ attributes the FaceStealer scheme to North Korean hackers and announces an infrastructure disruption; the conduct and loss figures are official assessments, not criminal convictions.",
+    "as_of": "2026-11-12",
+    "source_ids": [
+      "doj-2026-11-12-dprk-cryptocurrency-disruptions"
+    ]
+  },
+  "identity_boundary": "The FaceStealer campaign described in DOJ’s November 12, 2026 announcement. This campaign record does not identify a natural person or equate the actor labels listed in the release. DOJ describes the separate October virtual-asset theft as distinct from FaceStealer.",
+  "caveats": [
+    "One DOJ publication supplies the evidence; independent corroboration is still needed.",
+    "The reported loss covers the last 18 months as stated on November 12, 2026; no exact start date or individual share is inferred.",
+    "Attempted software-supply-chain compromise and assessed targeting do not establish a successful supply-chain attack."
+  ],
+  "sources": [
+    {
+      "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+      "support": "Names FaceStealer, attributes the scheme to North Korean hackers and reports infrastructure disruption, aggregate losses, attempted open-source supply-chain targeting, public hacker labels, and a federal-warrant seizure of victim webcam videos.",
+      "locator": "Seizure of FaceStealer Infrastructure – Central District of California, paragraphs 1 and 4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-doj-facestealer-infrastructure-disruption",
+      "type": "legal_event",
+      "predicate": "doj_announced_infrastructure_disruption",
+      "value": {
+        "announcement_date": "2026-11-12",
+        "announcing_office": "U.S. Attorney’s Office for the Central District of California",
+        "campaign": "FaceStealer",
+        "reported_actor": "North Korean hackers",
+        "action": "disruption of cloud-based infrastructure"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Seizure of FaceStealer Infrastructure – Central District of California, paragraph 1, sentence 1",
+          "quote": "Today, the U.S. Attorney’s Office for the Central District of California announced the disruption of cloud-based infrastructure used by North Korean hackers in a highly effective social engineering scheme that the FBI is calling “FaceStealer.”"
+        }
+      ]
+    },
+    {
+      "id": "claim-doj-facestealer-reported-theft",
+      "type": "incident",
+      "predicate": "doj_reported_aggregate_cryptocurrency_theft",
+      "value": {
+        "reported_amount_usd": {
+          "comparison": "more than",
+          "amount": 400000000
+        },
+        "reported_period": "last 18 months",
+        "report_as_of": "2026-11-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Seizure of FaceStealer Infrastructure – Central District of California, paragraph 1, sentence 2, loss fragment",
+          "quote": "has resulted in the theft of more than $400 million in the last 18 months"
+        }
+      ],
+      "notes": [
+        "DOJ’s aggregate loss assessment for the campaign; no adjudicated individual responsibility is inferred."
+      ]
+    },
+    {
+      "id": "claim-doj-facestealer-supply-chain-targeting",
+      "type": "incident",
+      "predicate": "doj_assessed_attempted_software_supply_chain_compromise",
+      "value": {
+        "reported_activity": "attempted compromise of open-source software developers and maintainers",
+        "assessment": "targeting appears calculated to enable software supply-chain attacks"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Seizure of FaceStealer Infrastructure – Central District of California, paragraph 4, sentences 2–3",
+          "quote": "Additionally, they have increasingly targeted individuals involved in the development and maintenance of open-source software with the FaceStealer technique, attempting to gain access to their devices and the software repository accounts they control. This targeting appears calculated to enable software supply-chain attacks."
+        }
+      ],
+      "notes": [
+        "The source describes attempts and an assessment of purpose; it does not establish a completed supply-chain compromise."
+      ]
+    },
+    {
+      "id": "claim-doj-facestealer-reported-actor-labels",
+      "type": "incident",
+      "predicate": "doj_reported_public_actor_labels_in_facestealer_activity",
+      "value": {
+        "public_actor_labels": [
+          "Sapphire Sleet",
+          "UNC1069",
+          "Dangerous Password",
+          "CryptoCore",
+          "Advanced Persistent Threat 38 (APT38)",
+          "BlueNoroff",
+          "Stardust Chollima"
+        ],
+        "reported_behavior": "lured targets with invitations to video meetings delivered from accounts stolen from prior victims"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Seizure of FaceStealer Infrastructure – Central District of California, paragraph 2, sentence 1",
+          "quote": "North Korean hackers known publicly by the names Sapphire Sleet, UNC1069, Dangerous Password, CryptoCore, Advanced Persistent Threat 38 (APT38), BlueNoroff, and Stardust Chollima have lured targets with invitations to video meetings delivered from accounts stolen from prior victims."
+        }
+      ],
+      "notes": [
+        "The labels are retained as DOJ-reported public labels; this record does not assert equivalence among them or identify a natural person."
+      ]
+    },
+    {
+      "id": "claim-doj-facestealer-warrant-video-seizure",
+      "type": "legal_event",
+      "predicate": "doj_reported_federal_warrant_evidence_seizure",
+      "value": {
+        "seizing_authority": "FBI",
+        "warrant": "federal",
+        "evidence": "webcam videos of FaceStealer victims",
+        "reported_quantity": {
+          "comparison": "over",
+          "amount": 900,
+          "unit": "videos"
+        }
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Seizure of FaceStealer Infrastructure – Central District of California, paragraph 4, sentence 3",
+          "quote": "Pursuant to a federal warrant, the FBI seized over 900 webcam videos of FaceStealer victims."
+        }
+      ],
+      "notes": [
+        "The release gives no victim identities."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-16"
+}
