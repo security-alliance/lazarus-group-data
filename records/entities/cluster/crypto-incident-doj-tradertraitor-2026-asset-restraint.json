@@ -1,0 +1,171 @@
+{
+  "id": "crypto-incident-doj-tradertraitor-2026-asset-restraint",
+  "type": "cluster",
+  "name": "TraderTraitor — DOJ-reported October theft and asset restraint",
+  "status": "needs_corroboration",
+  "confidence": "high",
+  "attribution": {
+    "status": "officially-attributed",
+    "legal_posture": "DOJ attributes the separate October virtual-asset theft to North Korean military members referred to by the FBI as TraderTraitor and reports frozen assets and court-authorized seizure or restraint; this announcement is not a criminal conviction or final forfeiture judgment.",
+    "as_of": "2026-11-12",
+    "source_ids": [
+      "doj-2026-11-12-dprk-cryptocurrency-disruptions"
+    ]
+  },
+  "identity_boundary": "The separate October virtual-asset theft and asset-interdiction response described in DOJ’s November 12, 2026 announcement. TraderTraitor is retained as the FBI’s reported actor label, without an identity merge with another cluster or any natural person. DOJ explicitly separates this incident from FaceStealer.",
+  "caveats": [
+    "One DOJ publication supplies the evidence; independent corroboration is still needed.",
+    "The source dates the theft only as on or about Oct. 29; no more precise incident date is asserted.",
+    "Reported theft, frozen assets, court authorization, completed seizure and final forfeiture are distinct evidential postures.",
+    "The court-authorized amount is a subset of the reported frozen amount; the figures must not be added together."
+  ],
+  "sources": [
+    {
+      "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+      "support": "Names TraderTraitor in the separate Binance theft and reports aggregate stolen and frozen assets, ongoing laundering, court-authorized seizure or restraint, and a coordinated FBI alert to virtual asset service providers.",
+      "locator": "Final section on interdiction of stolen virtual assets, paragraph 1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-doj-tradertraitor-october-theft-attribution",
+      "type": "incident",
+      "predicate": "doj_attributed_virtual_asset_theft",
+      "value": {
+        "reported_actor": "members of the North Korean military",
+        "fbi_actor_label": "TraderTraitor",
+        "reported_incident_date": "on or about Oct. 29",
+        "victim_exchange": "Binance cryptocurrency exchange",
+        "reported_amount_usd": {
+          "comparison": "more than",
+          "amount": 6000000000
+        }
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Final section on interdiction of stolen virtual assets, paragraph 1, opening-sentence fragment",
+          "quote": "Separately from the FaceStealer campaign, on or about Oct. 29, members of the North Korean military, referred to by the FBI as “TraderTraitor” stole more than $6 billion worth of virtual assets from the Binance cryptocurrency exchange."
+        }
+      ],
+      "notes": [
+        "Official attribution and reported loss; the incident date retains the source’s uncertainty and precision."
+      ]
+    },
+    {
+      "id": "claim-doj-tradertraitor-assets-frozen",
+      "type": "legal_event",
+      "predicate": "doj_reported_collective_asset_freeze",
+      "value": {
+        "reported_amount_usd": {
+          "comparison": "more than",
+          "amount": 2700000000
+        },
+        "reported_action": "freeze",
+        "reported_effort": "collective U.S. government and private sector efforts",
+        "as_of": "2026-11-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Final section on interdiction of stolen virtual assets, paragraph 1, sentence 3, freeze clause",
+          "quote": "Collective U.S. government and private sector efforts so far have resulted in the freeze of more than $2.7 billion"
+        }
+      ],
+      "notes": [
+        "This amount describes frozen assets, not assets finally forfeited or returned."
+      ]
+    },
+    {
+      "id": "claim-doj-tradertraitor-court-authorized-restraint",
+      "type": "legal_event",
+      "predicate": "doj_reported_court_authorization_to_seize_or_restrain",
+      "value": {
+        "reported_amount_usd": {
+          "comparison": "in excess of",
+          "amount": 1200000000
+        },
+        "reported_action": "court-authorized seizure or restraint",
+        "included_within_reported_frozen_amount": true,
+        "as_of": "2026-11-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Final section on interdiction of stolen virtual assets, paragraph 1, sentence 3, court-authorization clause",
+          "quote": "with the Department having already obtained court-authorization to seize or restrain in excess of $1.2 billion of that amount."
+        }
+      ],
+      "notes": [
+        "The announcement establishes reported court authorization; it does not establish completed forfeiture or return."
+      ]
+    },
+    {
+      "id": "claim-doj-tradertraitor-ongoing-laundering",
+      "type": "incident",
+      "predicate": "doj_reported_ongoing_virtual_asset_laundering",
+      "value": {
+        "reported_activity": "laundering of stolen virtual assets",
+        "reported_methods": [
+          "cryptocurrency bridges",
+          "mixers",
+          "exchanges"
+        ],
+        "posture": "ongoing",
+        "as_of": "2026-11-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Final section on interdiction of stolen virtual assets, paragraph 2, sentence 1",
+          "quote": "Efforts to trace, freeze, seize, and forfeit the stolen virtual assets are ongoing, as TraderTraitor actors continue to launder such assets through various cryptocurrency bridges, mixers, and exchanges."
+        }
+      ],
+      "notes": [
+        "The release names no specific bridge, mixer, exchange account, or wallet address in this statement."
+      ]
+    },
+    {
+      "id": "claim-doj-tradertraitor-fbi-vasp-alert",
+      "type": "legal_event",
+      "predicate": "doj_reported_fbi_cyber_alert_for_virtual_asset_service_providers",
+      "value": {
+        "issuing_agency": "FBI",
+        "coordinating_partners": [
+          "U.S. Secret Service (USSS)",
+          "Internal Revenue Service (IRS-CI)"
+        ],
+        "audience": "virtual asset service providers",
+        "requested_action": "block transactions with or derived from cryptocurrency addresses TraderTraitor actors are using to launder stolen Binance assets",
+        "alert": "Cyber Alert",
+        "as_of": "2026-11-12"
+      },
+      "confidence": "high",
+      "status": "needs_corroboration",
+      "observed_at": "2026-11-12",
+      "sources": [
+        {
+          "source_id": "doj-2026-11-12-dprk-cryptocurrency-disruptions",
+          "locator": "Final section on interdiction of stolen virtual assets, paragraph 2, sentence 2",
+          "quote": "For example, last week, the FBI, in coordination with its law enforcement partners at the U.S. Secret Service (USSS) and the Internal Revenue Service (IRS-CI), issued a Cyber Alert attributing the theft and urging VASPs to block transactions with or derived from cryptocurrency addresses TraderTraitor actors are using to launder the stolen Binance assets."
+        }
+      ],
+      "notes": [
+        "The DOJ release identifies no cryptocurrency addresses in this statement."
+      ]
+    }
+  ],
+  "last_verified_at": "2026-11-16"
+}
